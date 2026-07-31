@@ -333,12 +333,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.89,
+    "winRate": 51.75,
     "playRate": 1.78,
-    "picks": 370,
+    "picks": 371,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T12:55:45.000Z",
+    "updated": "2026-07-31T13:13:19.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -346,18 +346,18 @@
     "byMapType": {
       "open": {
         "winRate": 58.82,
-        "playRate": 1.67,
+        "playRate": 1.66,
         "picks": 85
       },
       "closed": {
         "winRate": 46.67,
-        "playRate": 2.34,
+        "playRate": 2.33,
         "picks": 30
       },
       "other": {
-        "winRate": 50,
+        "winRate": 49.8,
         "playRate": 1.81,
-        "picks": 254
+        "picks": 255
       },
       "hybrid": {
         "winRate": 100,
@@ -370,11 +370,6 @@
         "name": "tupi",
         "games": 12,
         "winRate": 66.67
-      },
-      {
-        "name": "dravidians",
-        "games": 10,
-        "winRate": 60
       },
       {
         "name": "persians",
@@ -390,6 +385,11 @@
         "name": "bohemians",
         "games": 10,
         "winRate": 60
+      },
+      {
+        "name": "dravidians",
+        "games": 11,
+        "winRate": 54.55
       }
     ],
     "weakAgainst": [

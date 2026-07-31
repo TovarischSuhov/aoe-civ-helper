@@ -12,21 +12,21 @@
       "last": "2026-07-31"
     },
     "dumpRange": "2026-07-17 → 2026-07-31",
-    "updated": "2026-07-31T12:55:45.000Z",
+    "updated": "2026-07-31T13:13:19.000Z",
     "mapTypes": "open/closed/hybrid/water (curated map-script name->type; unmapped -> other)",
-    "matches": 10416,
-    "storedMatches": 10416,
-    "newThisRun": 15,
+    "matches": 10442,
+    "storedMatches": 10442,
+    "newThisRun": 26,
     "civsWithData": 53,
     "matchupPairs": 1375,
-    "matchupPairsByMap": 3084,
+    "matchupPairsByMap": 3087,
     "builtAt": "2026-07-31",
     "note": "Live official backend data, accumulated locally over up to 12 weeks from periodic runs — larger sample than a single fetch, so civ-vs-civ/per-map cells are less noisy. Covers all played civs incl. the newest (Mapuche/Muisca/Tupi). Bias: top-of-ladder sample reflects high-level play; thin cells still flagged by `games`."
   },
   "civs": {
     "shu": {
       "winRate": 55.42,
-      "playRate": 1.2,
+      "playRate": 1.19,
       "picks": 249,
       "byMapType": {
         "closed": {
@@ -41,7 +41,7 @@
         },
         "open": {
           "winRate": 53.97,
-          "playRate": 1.24,
+          "playRate": 1.23,
           "picks": 63
         },
         "hybrid": {
@@ -112,17 +112,17 @@
       "byMapType": {
         "closed": {
           "winRate": 53.33,
-          "playRate": 2.34,
+          "playRate": 2.33,
           "picks": 30
         },
         "other": {
           "winRate": 45.48,
-          "playRate": 2.6,
+          "playRate": 2.59,
           "picks": 365
         },
         "open": {
           "winRate": 50,
-          "playRate": 2.98,
+          "playRate": 2.97,
           "picks": 152
         },
         "hybrid": {
@@ -187,14 +187,14 @@
       ]
     },
     "jurchens": {
-      "winRate": 45.42,
+      "winRate": 45.45,
       "playRate": 1.26,
-      "picks": 262,
+      "picks": 264,
       "byMapType": {
         "other": {
-          "winRate": 40.94,
-          "playRate": 1.22,
-          "picks": 171
+          "winRate": 41.04,
+          "playRate": 1.23,
+          "picks": 173
         },
         "open": {
           "winRate": 52.94,
@@ -225,8 +225,8 @@
         },
         {
           "name": "mongols",
-          "games": 10,
-          "winRate": 50
+          "games": 11,
+          "winRate": 45.45
         },
         {
           "name": "bengalis",
@@ -268,19 +268,19 @@
       ]
     },
     "berbers": {
-      "winRate": 47.08,
-      "playRate": 1.56,
-      "picks": 325,
+      "winRate": 47.09,
+      "playRate": 1.57,
+      "picks": 327,
       "byMapType": {
         "other": {
-          "winRate": 46.01,
+          "winRate": 46.26,
           "playRate": 1.52,
-          "picks": 213
+          "picks": 214
         },
         "open": {
-          "winRate": 45.12,
-          "playRate": 1.61,
-          "picks": 82
+          "winRate": 44.58,
+          "playRate": 1.62,
+          "picks": 83
         },
         "hybrid": {
           "winRate": 66.67,
@@ -289,7 +289,7 @@
         },
         "closed": {
           "winRate": 57.14,
-          "playRate": 1.64,
+          "playRate": 1.63,
           "picks": 21
         }
       },
@@ -349,14 +349,14 @@
       ]
     },
     "persians": {
-      "winRate": 53.53,
-      "playRate": 2.65,
-      "picks": 553,
+      "winRate": 53.51,
+      "playRate": 2.66,
+      "picks": 555,
       "byMapType": {
         "open": {
-          "winRate": 52.94,
-          "playRate": 2.33,
-          "picks": 119
+          "winRate": 53.33,
+          "playRate": 2.35,
+          "picks": 120
         },
         "hybrid": {
           "winRate": 64.71,
@@ -365,13 +365,13 @@
         },
         "closed": {
           "winRate": 37.5,
-          "playRate": 1.25,
+          "playRate": 1.24,
           "picks": 16
         },
         "other": {
-          "winRate": 53.87,
-          "playRate": 2.85,
-          "picks": 401
+          "winRate": 53.73,
+          "playRate": 2.86,
+          "picks": 402
         }
       },
       "strongAgainst": [
@@ -436,17 +436,17 @@
       "byMapType": {
         "open": {
           "winRate": 52.17,
-          "playRate": 3.16,
+          "playRate": 3.15,
           "picks": 161
         },
         "other": {
           "winRate": 53.09,
-          "playRate": 3.11,
+          "playRate": 3.1,
           "picks": 437
         },
         "closed": {
           "winRate": 52,
-          "playRate": 1.95,
+          "playRate": 1.94,
           "picks": 25
         },
         "hybrid": {
@@ -511,9 +511,9 @@
       ]
     },
     "koreans": {
-      "winRate": 53.81,
+      "winRate": 53.68,
       "playRate": 1.95,
-      "picks": 407,
+      "picks": 408,
       "byMapType": {
         "open": {
           "winRate": 57.89,
@@ -531,9 +531,9 @@
           "picks": 13
         },
         "other": {
-          "winRate": 53.19,
+          "winRate": 53,
           "playRate": 2.01,
-          "picks": 282
+          "picks": 283
         }
       },
       "strongAgainst": [
@@ -673,19 +673,19 @@
       ]
     },
     "georgians": {
-      "winRate": 45.29,
-      "playRate": 1.32,
-      "picks": 276,
+      "winRate": 45.49,
+      "playRate": 1.33,
+      "picks": 277,
       "byMapType": {
         "open": {
           "winRate": 38.1,
-          "playRate": 1.24,
+          "playRate": 1.23,
           "picks": 63
         },
         "other": {
-          "winRate": 48.21,
+          "winRate": 48.47,
           "playRate": 1.39,
-          "picks": 195
+          "picks": 196
         },
         "closed": {
           "winRate": 41.67,
@@ -754,13 +754,13 @@
       ]
     },
     "hindustanis": {
-      "winRate": 51.83,
+      "winRate": 51.95,
       "playRate": 1.96,
-      "picks": 409,
+      "picks": 410,
       "byMapType": {
         "open": {
           "winRate": 54.21,
-          "playRate": 2.1,
+          "playRate": 2.09,
           "picks": 107
         },
         "hybrid": {
@@ -769,13 +769,13 @@
           "picks": 6
         },
         "other": {
-          "winRate": 51.29,
+          "winRate": 51.47,
           "playRate": 1.93,
-          "picks": 271
+          "picks": 272
         },
         "closed": {
           "winRate": 48,
-          "playRate": 1.95,
+          "playRate": 1.94,
           "picks": 25
         }
       },
@@ -835,18 +835,18 @@
       ]
     },
     "slavs": {
-      "winRate": 49.85,
+      "winRate": 50,
       "playRate": 1.56,
-      "picks": 325,
+      "picks": 326,
       "byMapType": {
         "other": {
-          "winRate": 50.45,
+          "winRate": 50.68,
           "playRate": 1.57,
-          "picks": 220
+          "picks": 221
         },
         "open": {
           "winRate": 50,
-          "playRate": 1.61,
+          "playRate": 1.6,
           "picks": 82
         },
         "closed": {
@@ -889,6 +889,11 @@
       ],
       "weakAgainst": [
         {
+          "name": "incas",
+          "games": 8,
+          "winRate": 25
+        },
+        {
           "name": "portuguese",
           "games": 10,
           "winRate": 30
@@ -907,11 +912,6 @@
           "name": "ethiopians",
           "games": 8,
           "winRate": 37.5
-        },
-        {
-          "name": "britons",
-          "games": 10,
-          "winRate": 40
         }
       ]
     },
@@ -998,12 +998,12 @@
     },
     "vikings": {
       "winRate": 50.82,
-      "playRate": 1.75,
+      "playRate": 1.74,
       "picks": 364,
       "byMapType": {
         "open": {
           "winRate": 52,
-          "playRate": 1.96,
+          "playRate": 1.95,
           "picks": 100
         },
         "other": {
@@ -1078,9 +1078,9 @@
       ]
     },
     "japanese": {
-      "winRate": 50.29,
+      "winRate": 50.19,
       "playRate": 2.5,
-      "picks": 521,
+      "picks": 522,
       "byMapType": {
         "open": {
           "winRate": 51.72,
@@ -1088,9 +1088,9 @@
           "picks": 116
         },
         "other": {
-          "winRate": 49.07,
+          "winRate": 48.94,
           "playRate": 2.68,
-          "picks": 377
+          "picks": 378
         },
         "hybrid": {
           "winRate": 71.43,
@@ -1099,7 +1099,7 @@
         },
         "closed": {
           "winRate": 57.14,
-          "playRate": 1.64,
+          "playRate": 1.63,
           "picks": 21
         }
       },
@@ -1159,14 +1159,14 @@
       ]
     },
     "malay": {
-      "winRate": 55.95,
+      "winRate": 55.91,
       "playRate": 1.78,
-      "picks": 370,
+      "picks": 372,
       "byMapType": {
         "other": {
-          "winRate": 53.82,
+          "winRate": 53.99,
           "playRate": 1.87,
-          "picks": 262
+          "picks": 263
         },
         "hybrid": {
           "winRate": 81.82,
@@ -1174,9 +1174,9 @@
           "picks": 11
         },
         "open": {
-          "winRate": 59.76,
-          "playRate": 1.61,
-          "picks": 82
+          "winRate": 59.04,
+          "playRate": 1.62,
+          "picks": 83
         },
         "closed": {
           "winRate": 53.33,
@@ -1240,14 +1240,14 @@
       ]
     },
     "incas": {
-      "winRate": 46.58,
+      "winRate": 46.46,
       "playRate": 1.9,
-      "picks": 395,
+      "picks": 396,
       "byMapType": {
         "other": {
-          "winRate": 47.4,
+          "winRate": 47.24,
           "playRate": 2.06,
-          "picks": 289
+          "picks": 290
         },
         "closed": {
           "winRate": 33.33,
@@ -1261,7 +1261,7 @@
         },
         "open": {
           "winRate": 48.81,
-          "playRate": 1.65,
+          "playRate": 1.64,
           "picks": 84
         }
       },
@@ -1277,6 +1277,11 @@
           "winRate": 75
         },
         {
+          "name": "slavs",
+          "games": 8,
+          "winRate": 75
+        },
+        {
           "name": "malay",
           "games": 9,
           "winRate": 66.67
@@ -1285,11 +1290,6 @@
           "name": "poles",
           "games": 12,
           "winRate": 66.67
-        },
-        {
-          "name": "lithuanians",
-          "games": 11,
-          "winRate": 63.64
         }
       ],
       "weakAgainst": [
@@ -1321,13 +1321,13 @@
       ]
     },
     "muisca": {
-      "winRate": 49.21,
+      "winRate": 49.02,
       "playRate": 1.22,
-      "picks": 254,
+      "picks": 255,
       "byMapType": {
         "other": {
           "winRate": 48.31,
-          "playRate": 1.27,
+          "playRate": 1.26,
           "picks": 178
         },
         "hybrid": {
@@ -1336,13 +1336,13 @@
           "picks": 3
         },
         "open": {
-          "winRate": 46.15,
-          "playRate": 1.02,
-          "picks": 52
+          "winRate": 45.28,
+          "playRate": 1.04,
+          "picks": 53
         },
         "closed": {
           "winRate": 61.9,
-          "playRate": 1.64,
+          "playRate": 1.63,
           "picks": 21
         }
       },
@@ -1359,8 +1359,8 @@
         },
         {
           "name": "mongols",
-          "games": 15,
-          "winRate": 60
+          "games": 16,
+          "winRate": 56.25
         },
         {
           "name": "japanese",
@@ -1408,7 +1408,7 @@
       "byMapType": {
         "closed": {
           "winRate": 32.35,
-          "playRate": 2.65,
+          "playRate": 2.64,
           "picks": 34
         },
         "hybrid": {
@@ -1418,12 +1418,12 @@
         },
         "open": {
           "winRate": 45.35,
-          "playRate": 1.69,
+          "playRate": 1.68,
           "picks": 86
         },
         "other": {
           "winRate": 44.49,
-          "playRate": 1.81,
+          "playRate": 1.8,
           "picks": 254
         }
       },
@@ -1484,7 +1484,7 @@
     },
     "poles": {
       "winRate": 51.44,
-      "playRate": 1.83,
+      "playRate": 1.82,
       "picks": 381,
       "byMapType": {
         "other": {
@@ -1494,7 +1494,7 @@
         },
         "closed": {
           "winRate": 48.84,
-          "playRate": 3.35,
+          "playRate": 3.34,
           "picks": 43
         },
         "hybrid": {
@@ -1565,12 +1565,12 @@
     },
     "wu": {
       "winRate": 46.56,
-      "playRate": 1.19,
+      "playRate": 1.18,
       "picks": 247,
       "byMapType": {
         "other": {
           "winRate": 48.57,
-          "playRate": 1.25,
+          "playRate": 1.24,
           "picks": 175
         },
         "hybrid": {
@@ -1580,7 +1580,7 @@
         },
         "open": {
           "winRate": 38.71,
-          "playRate": 1.22,
+          "playRate": 1.21,
           "picks": 62
         },
         "closed": {
@@ -1645,19 +1645,19 @@
       ]
     },
     "spanish": {
-      "winRate": 48.63,
+      "winRate": 48.53,
       "playRate": 2.45,
-      "picks": 510,
+      "picks": 511,
       "byMapType": {
         "other": {
           "winRate": 51.18,
-          "playRate": 2.42,
+          "playRate": 2.41,
           "picks": 340
         },
         "open": {
-          "winRate": 40.34,
-          "playRate": 2.33,
-          "picks": 119
+          "winRate": 40,
+          "playRate": 2.35,
+          "picks": 120
         },
         "closed": {
           "winRate": 56.1,
@@ -1726,19 +1726,19 @@
       ]
     },
     "portuguese": {
-      "winRate": 48.19,
-      "playRate": 1.85,
-      "picks": 386,
+      "winRate": 48.33,
+      "playRate": 1.86,
+      "picks": 389,
       "byMapType": {
         "open": {
-          "winRate": 51.25,
-          "playRate": 1.57,
-          "picks": 80
+          "winRate": 51.85,
+          "playRate": 1.58,
+          "picks": 81
         },
         "other": {
-          "winRate": 46.91,
-          "playRate": 1.96,
-          "picks": 275
+          "winRate": 46.93,
+          "playRate": 1.97,
+          "picks": 277
         },
         "hybrid": {
           "winRate": 57.14,
@@ -1786,8 +1786,8 @@
         },
         {
           "name": "franks",
-          "games": 9,
-          "winRate": 11.11
+          "games": 10,
+          "winRate": 20
         },
         {
           "name": "vietnamese",
@@ -1809,22 +1809,22 @@
     "burgundians": {
       "winRate": 51.3,
       "playRate": 2.4,
-      "picks": 499,
+      "picks": 501,
       "byMapType": {
         "other": {
-          "winRate": 49.35,
+          "winRate": 49.51,
           "playRate": 2.19,
-          "picks": 308
+          "picks": 309
         },
         "closed": {
           "winRate": 56.58,
-          "playRate": 5.92,
+          "playRate": 5.91,
           "picks": 76
         },
         "open": {
-          "winRate": 51.85,
-          "playRate": 2.12,
-          "picks": 108
+          "winRate": 51.38,
+          "playRate": 2.13,
+          "picks": 109
         },
         "hybrid": {
           "winRate": 71.43,
@@ -1876,36 +1876,36 @@
           "winRate": 27.27
         },
         {
-          "name": "mongols",
+          "name": "spanish",
           "games": 21,
           "winRate": 28.57
         },
         {
-          "name": "spanish",
-          "games": 21,
-          "winRate": 28.57
+          "name": "mongols",
+          "games": 23,
+          "winRate": 30.43
         }
       ]
     },
     "cumans": {
-      "winRate": 45.27,
+      "winRate": 45.43,
       "playRate": 1.68,
-      "picks": 349,
+      "picks": 350,
       "byMapType": {
         "closed": {
           "winRate": 53.49,
-          "playRate": 3.35,
+          "playRate": 3.34,
           "picks": 43
         },
         "other": {
           "winRate": 45.45,
-          "playRate": 1.57,
+          "playRate": 1.56,
           "picks": 220
         },
         "open": {
-          "winRate": 43.84,
-          "playRate": 1.43,
-          "picks": 73
+          "winRate": 44.59,
+          "playRate": 1.45,
+          "picks": 74
         },
         "hybrid": {
           "winRate": 23.08,
@@ -1969,19 +1969,19 @@
       ]
     },
     "armenians": {
-      "winRate": 49.45,
+      "winRate": 49.32,
       "playRate": 1.75,
-      "picks": 364,
+      "picks": 365,
       "byMapType": {
         "closed": {
           "winRate": 47.62,
-          "playRate": 1.64,
+          "playRate": 1.63,
           "picks": 21
         },
         "open": {
-          "winRate": 50,
-          "playRate": 2,
-          "picks": 102
+          "winRate": 49.51,
+          "playRate": 2.01,
+          "picks": 103
         },
         "other": {
           "winRate": 48.94,
@@ -2039,8 +2039,8 @@
         },
         {
           "name": "mongols",
-          "games": 13,
-          "winRate": 38.46
+          "games": 14,
+          "winRate": 35.71
         },
         {
           "name": "burgundians",
@@ -2050,9 +2050,9 @@
       ]
     },
     "tatars": {
-      "winRate": 54.79,
-      "playRate": 1.8,
-      "picks": 376,
+      "winRate": 54.91,
+      "playRate": 1.81,
+      "picks": 377,
       "byMapType": {
         "open": {
           "winRate": 58.59,
@@ -2065,13 +2065,13 @@
           "picks": 6
         },
         "other": {
-          "winRate": 54.12,
+          "winRate": 54.3,
           "playRate": 1.82,
-          "picks": 255
+          "picks": 256
         },
         "closed": {
           "winRate": 37.5,
-          "playRate": 1.25,
+          "playRate": 1.24,
           "picks": 16
         }
       },
@@ -2132,7 +2132,7 @@
     },
     "saracens": {
       "winRate": 50.75,
-      "playRate": 1.61,
+      "playRate": 1.6,
       "picks": 335,
       "byMapType": {
         "open": {
@@ -2212,19 +2212,19 @@
       ]
     },
     "aztecs": {
-      "winRate": 52.3,
-      "playRate": 1.77,
-      "picks": 369,
+      "winRate": 52.56,
+      "playRate": 1.78,
+      "picks": 371,
       "byMapType": {
         "closed": {
-          "winRate": 37.5,
-          "playRate": 1.87,
-          "picks": 24
+          "winRate": 40,
+          "playRate": 1.94,
+          "picks": 25
         },
         "other": {
-          "winRate": 53.72,
-          "playRate": 1.72,
-          "picks": 242
+          "winRate": 53.91,
+          "playRate": 1.73,
+          "picks": 243
         },
         "open": {
           "winRate": 53.68,
@@ -2293,9 +2293,9 @@
       ]
     },
     "bulgarians": {
-      "winRate": 48.66,
+      "winRate": 48.52,
       "playRate": 1.62,
-      "picks": 337,
+      "picks": 338,
       "byMapType": {
         "closed": {
           "winRate": 45.16,
@@ -2303,9 +2303,9 @@
           "picks": 31
         },
         "open": {
-          "winRate": 52.44,
-          "playRate": 1.61,
-          "picks": 82
+          "winRate": 51.81,
+          "playRate": 1.62,
+          "picks": 83
         },
         "other": {
           "winRate": 47.49,
@@ -2380,7 +2380,7 @@
       "byMapType": {
         "other": {
           "winRate": 46.9,
-          "playRate": 1.84,
+          "playRate": 1.83,
           "picks": 258
         },
         "hybrid": {
@@ -2390,7 +2390,7 @@
         },
         "open": {
           "winRate": 39.24,
-          "playRate": 1.55,
+          "playRate": 1.54,
           "picks": 79
         },
         "closed": {
@@ -2455,14 +2455,14 @@
       ]
     },
     "mongols": {
-      "winRate": 54.02,
-      "playRate": 5.25,
-      "picks": 1094,
+      "winRate": 54.17,
+      "playRate": 5.28,
+      "picks": 1102,
       "byMapType": {
         "other": {
-          "winRate": 54.1,
-          "playRate": 5.65,
-          "picks": 793
+          "winRate": 54.14,
+          "playRate": 5.67,
+          "picks": 798
         },
         "hybrid": {
           "winRate": 50,
@@ -2470,13 +2470,13 @@
           "picks": 20
         },
         "open": {
-          "winRate": 56.02,
-          "playRate": 4.73,
-          "picks": 241
+          "winRate": 56.56,
+          "playRate": 4.77,
+          "picks": 244
         },
         "closed": {
           "winRate": 42.5,
-          "playRate": 3.12,
+          "playRate": 3.11,
           "picks": 40
         }
       },
@@ -2497,12 +2497,12 @@
           "winRate": 76.92
         },
         {
-          "name": "burgundians",
-          "games": 21,
+          "name": "berbers",
+          "games": 14,
           "winRate": 71.43
         },
         {
-          "name": "berbers",
+          "name": "goths",
           "games": 14,
           "winRate": 71.43
         }
@@ -2529,21 +2529,21 @@
           "winRate": 40
         },
         {
-          "name": "muisca",
-          "games": 15,
-          "winRate": 40
+          "name": "dravidians",
+          "games": 12,
+          "winRate": 41.67
         }
       ]
     },
     "khmer": {
-      "winRate": 47.56,
+      "winRate": 47.57,
       "playRate": 2.16,
-      "picks": 450,
+      "picks": 452,
       "byMapType": {
         "other": {
-          "winRate": 48.95,
-          "playRate": 2.04,
-          "picks": 286
+          "winRate": 48.96,
+          "playRate": 2.05,
+          "picks": 288
         },
         "closed": {
           "winRate": 53.13,
@@ -2557,7 +2557,7 @@
         },
         "open": {
           "winRate": 43.65,
-          "playRate": 2.47,
+          "playRate": 2.46,
           "picks": 126
         }
       },
@@ -2617,19 +2617,19 @@
       ]
     },
     "turks": {
-      "winRate": 45.53,
-      "playRate": 1.72,
-      "picks": 358,
+      "winRate": 45.15,
+      "playRate": 1.73,
+      "picks": 361,
       "byMapType": {
         "other": {
-          "winRate": 42.28,
+          "winRate": 42.11,
           "playRate": 1.75,
-          "picks": 246
+          "picks": 247
         },
         "closed": {
-          "winRate": 50,
-          "playRate": 2.96,
-          "picks": 38
+          "winRate": 48.72,
+          "playRate": 3.03,
+          "picks": 39
         },
         "hybrid": {
           "winRate": 85.71,
@@ -2637,9 +2637,9 @@
           "picks": 7
         },
         "open": {
-          "winRate": 50.75,
-          "playRate": 1.31,
-          "picks": 67
+          "winRate": 50,
+          "playRate": 1.33,
+          "picks": 68
         }
       },
       "strongAgainst": [
@@ -2654,6 +2654,11 @@
           "winRate": 75
         },
         {
+          "name": "hindustanis",
+          "games": 8,
+          "winRate": 62.5
+        },
+        {
           "name": "lithuanians",
           "games": 10,
           "winRate": 60
@@ -2662,11 +2667,6 @@
           "name": "britons",
           "games": 12,
           "winRate": 58.33
-        },
-        {
-          "name": "wei",
-          "games": 8,
-          "winRate": 50
         }
       ],
       "weakAgainst": [
@@ -2719,7 +2719,7 @@
         },
         "closed": {
           "winRate": 57.89,
-          "playRate": 2.96,
+          "playRate": 2.95,
           "picks": 38
         }
       },
@@ -2785,7 +2785,7 @@
       "byMapType": {
         "other": {
           "winRate": 39.46,
-          "playRate": 1.32,
+          "playRate": 1.31,
           "picks": 185
         },
         "hybrid": {
@@ -2800,7 +2800,7 @@
         },
         "closed": {
           "winRate": 62.5,
-          "playRate": 1.25,
+          "playRate": 1.24,
           "picks": 16
         }
       },
@@ -2860,14 +2860,14 @@
       ]
     },
     "goths": {
-      "winRate": 44.05,
+      "winRate": 43.94,
       "playRate": 1.78,
-      "picks": 370,
+      "picks": 371,
       "byMapType": {
         "other": {
-          "winRate": 48.07,
+          "winRate": 47.86,
           "playRate": 1.66,
-          "picks": 233
+          "picks": 234
         },
         "hybrid": {
           "winRate": 50,
@@ -2881,7 +2881,7 @@
         },
         "open": {
           "winRate": 34.86,
-          "playRate": 2.14,
+          "playRate": 2.13,
           "picks": 109
         }
       },
@@ -2924,14 +2924,14 @@
           "winRate": 22.22
         },
         {
+          "name": "mongols",
+          "games": 14,
+          "winRate": 28.57
+        },
+        {
           "name": "teutons",
           "games": 10,
           "winRate": 30
-        },
-        {
-          "name": "mongols",
-          "games": 13,
-          "winRate": 30.77
         },
         {
           "name": "vietnamese",
@@ -2942,7 +2942,7 @@
     },
     "lithuanians": {
       "winRate": 47.79,
-      "playRate": 2.17,
+      "playRate": 2.16,
       "picks": 452,
       "byMapType": {
         "other": {
@@ -2952,7 +2952,7 @@
         },
         "open": {
           "winRate": 44.27,
-          "playRate": 2.57,
+          "playRate": 2.56,
           "picks": 131
         },
         "closed": {
@@ -3022,19 +3022,19 @@
       ]
     },
     "burmese": {
-      "winRate": 50.69,
-      "playRate": 1.39,
-      "picks": 290,
+      "winRate": 50.85,
+      "playRate": 1.4,
+      "picks": 293,
       "byMapType": {
         "other": {
-          "winRate": 54.4,
-          "playRate": 1.37,
-          "picks": 193
+          "winRate": 54.12,
+          "playRate": 1.38,
+          "picks": 194
         },
         "open": {
-          "winRate": 43.06,
-          "playRate": 1.41,
-          "picks": 72
+          "winRate": 44.59,
+          "playRate": 1.45,
+          "picks": 74
         },
         "hybrid": {
           "winRate": 40,
@@ -3076,17 +3076,17 @@
       ],
       "weakAgainst": [
         {
+          "name": "malians",
+          "games": 9,
+          "winRate": 33.33
+        },
+        {
           "name": "mongols",
           "games": 8,
           "winRate": 37.5
         },
         {
           "name": "romans",
-          "games": 8,
-          "winRate": 37.5
-        },
-        {
-          "name": "malians",
           "games": 8,
           "winRate": 37.5
         },
@@ -3103,19 +3103,19 @@
       ]
     },
     "huns": {
-      "winRate": 54.21,
+      "winRate": 54.09,
       "playRate": 2.11,
-      "picks": 439,
+      "picks": 440,
       "byMapType": {
         "open": {
           "winRate": 52.34,
-          "playRate": 2.1,
+          "playRate": 2.09,
           "picks": 107
         },
         "other": {
-          "winRate": 56.86,
+          "winRate": 56.67,
           "playRate": 2.13,
-          "picks": 299
+          "picks": 300
         },
         "closed": {
           "winRate": 31.82,
@@ -3271,12 +3271,12 @@
       "byMapType": {
         "open": {
           "winRate": 47,
-          "playRate": 1.96,
+          "playRate": 1.95,
           "picks": 100
         },
         "other": {
           "winRate": 47.29,
-          "playRate": 1.84,
+          "playRate": 1.83,
           "picks": 258
         },
         "hybrid": {
@@ -3346,24 +3346,24 @@
       ]
     },
     "wei": {
-      "winRate": 51.89,
+      "winRate": 51.75,
       "playRate": 1.78,
-      "picks": 370,
+      "picks": 371,
       "byMapType": {
         "open": {
           "winRate": 58.82,
-          "playRate": 1.67,
+          "playRate": 1.66,
           "picks": 85
         },
         "closed": {
           "winRate": 46.67,
-          "playRate": 2.34,
+          "playRate": 2.33,
           "picks": 30
         },
         "other": {
-          "winRate": 50,
+          "winRate": 49.8,
           "playRate": 1.81,
-          "picks": 254
+          "picks": 255
         },
         "hybrid": {
           "winRate": 100,
@@ -3376,11 +3376,6 @@
           "name": "tupi",
           "games": 12,
           "winRate": 66.67
-        },
-        {
-          "name": "dravidians",
-          "games": 10,
-          "winRate": 60
         },
         {
           "name": "persians",
@@ -3396,6 +3391,11 @@
           "name": "bohemians",
           "games": 10,
           "winRate": 60
+        },
+        {
+          "name": "dravidians",
+          "games": 11,
+          "winRate": 54.55
         }
       ],
       "weakAgainst": [
@@ -3427,14 +3427,14 @@
       ]
     },
     "malians": {
-      "winRate": 53.37,
+      "winRate": 53.51,
       "playRate": 1.64,
-      "picks": 341,
+      "picks": 342,
       "byMapType": {
         "other": {
-          "winRate": 54.22,
-          "playRate": 1.6,
-          "picks": 225
+          "winRate": 54.42,
+          "playRate": 1.61,
+          "picks": 226
         },
         "open": {
           "winRate": 52.63,
@@ -3448,7 +3448,7 @@
         },
         "closed": {
           "winRate": 56.25,
-          "playRate": 1.25,
+          "playRate": 1.24,
           "picks": 16
         }
       },
@@ -3474,7 +3474,7 @@
           "winRate": 70
         },
         {
-          "name": "persians",
+          "name": "burmese",
           "games": 9,
           "winRate": 66.67
         }
@@ -3508,9 +3508,9 @@
       ]
     },
     "dravidians": {
-      "winRate": 52.73,
+      "winRate": 52.99,
       "playRate": 1.76,
-      "picks": 366,
+      "picks": 368,
       "byMapType": {
         "hybrid": {
           "winRate": 50,
@@ -3518,18 +3518,18 @@
           "picks": 16
         },
         "other": {
-          "winRate": 53.75,
-          "playRate": 1.8,
-          "picks": 253
+          "winRate": 54.12,
+          "playRate": 1.81,
+          "picks": 255
         },
         "open": {
           "winRate": 51.85,
-          "playRate": 1.59,
+          "playRate": 1.58,
           "picks": 81
         },
         "closed": {
           "winRate": 43.75,
-          "playRate": 1.25,
+          "playRate": 1.24,
           "picks": 16
         }
       },
@@ -3583,8 +3583,8 @@
         },
         {
           "name": "wei",
-          "games": 10,
-          "winRate": 40
+          "games": 11,
+          "winRate": 45.45
         }
       ]
     },
@@ -3670,19 +3670,19 @@
       ]
     },
     "franks": {
-      "winRate": 47.89,
+      "winRate": 47.75,
       "playRate": 1.59,
-      "picks": 332,
+      "picks": 333,
       "byMapType": {
         "open": {
           "winRate": 49.44,
-          "playRate": 1.75,
+          "playRate": 1.74,
           "picks": 89
         },
         "other": {
-          "winRate": 47.96,
-          "playRate": 1.57,
-          "picks": 221
+          "winRate": 47.75,
+          "playRate": 1.58,
+          "picks": 222
         },
         "hybrid": {
           "winRate": 50,
@@ -3698,8 +3698,8 @@
       "strongAgainst": [
         {
           "name": "portuguese",
-          "games": 9,
-          "winRate": 88.89
+          "games": 10,
+          "winRate": 80
         },
         {
           "name": "huns",
@@ -3843,7 +3843,7 @@
         },
         "other": {
           "winRate": 55,
-          "playRate": 1.71,
+          "playRate": 1.7,
           "picks": 240
         },
         "hybrid": {
@@ -3924,7 +3924,7 @@
         },
         "other": {
           "winRate": 50.41,
-          "playRate": 1.74,
+          "playRate": 1.73,
           "picks": 244
         },
         "hybrid": {
@@ -3995,7 +3995,7 @@
     },
     "mayans": {
       "winRate": 53.9,
-      "playRate": 1.91,
+      "playRate": 1.9,
       "picks": 397,
       "byMapType": {
         "other": {
@@ -4005,7 +4005,7 @@
         },
         "open": {
           "winRate": 54.46,
-          "playRate": 2.2,
+          "playRate": 2.19,
           "picks": 112
         },
         "hybrid": {
@@ -4015,7 +4015,7 @@
         },
         "closed": {
           "winRate": 57.14,
-          "playRate": 1.64,
+          "playRate": 1.63,
           "picks": 21
         }
       },
@@ -4075,24 +4075,24 @@
       ]
     },
     "magyars": {
-      "winRate": 45.65,
+      "winRate": 45.57,
       "playRate": 2.65,
-      "picks": 552,
+      "picks": 553,
       "byMapType": {
         "closed": {
           "winRate": 50,
-          "playRate": 2.65,
+          "playRate": 2.64,
           "picks": 34
         },
         "open": {
           "winRate": 48.15,
-          "playRate": 2.65,
+          "playRate": 2.64,
           "picks": 135
         },
         "other": {
-          "winRate": 44.41,
+          "winRate": 44.3,
           "playRate": 2.68,
-          "picks": 376
+          "picks": 377
         },
         "hybrid": {
           "winRate": 42.86,
@@ -4157,17 +4157,17 @@
     },
     "tupi": {
       "winRate": 49.55,
-      "playRate": 1.6,
+      "playRate": 1.59,
       "picks": 333,
       "byMapType": {
         "open": {
           "winRate": 60.71,
-          "playRate": 1.65,
+          "playRate": 1.64,
           "picks": 84
         },
         "other": {
           "winRate": 45.65,
-          "playRate": 1.64,
+          "playRate": 1.63,
           "picks": 230
         },
         "hybrid": {
@@ -4237,19 +4237,19 @@
       ]
     },
     "bohemians": {
-      "winRate": 53.32,
+      "winRate": 53.19,
       "playRate": 2.03,
-      "picks": 422,
+      "picks": 423,
       "byMapType": {
         "open": {
           "winRate": 52.38,
-          "playRate": 1.65,
+          "playRate": 1.64,
           "picks": 84
         },
         "other": {
-          "winRate": 53.6,
+          "winRate": 53.41,
           "playRate": 1.98,
-          "picks": 278
+          "picks": 279
         },
         "hybrid": {
           "winRate": 33.33,
@@ -4258,7 +4258,7 @@
         },
         "closed": {
           "winRate": 55.56,
-          "playRate": 4.21,
+          "playRate": 4.2,
           "picks": 54
         }
       },
@@ -4765,8 +4765,8 @@
         "games": 5
       },
       "persians": {
-        "winRate": 50,
-        "games": 4
+        "winRate": 60,
+        "games": 5
       },
       "malians": {
         "winRate": 80,
@@ -4785,8 +4785,8 @@
         "games": 8
       },
       "portuguese": {
-        "winRate": 57.14,
-        "games": 7
+        "winRate": 50,
+        "games": 8
       },
       "wei": {
         "winRate": 62.5,
@@ -5047,12 +5047,12 @@
         "games": 7
       },
       "koreans": {
-        "winRate": 20,
-        "games": 5
+        "winRate": 33.33,
+        "games": 6
       },
       "mongols": {
-        "winRate": 50,
-        "games": 10
+        "winRate": 45.45,
+        "games": 11
       },
       "italians": {
         "winRate": 50,
@@ -5383,8 +5383,8 @@
         "games": 9
       },
       "berbers": {
-        "winRate": 50,
-        "games": 4
+        "winRate": 40,
+        "games": 5
       },
       "dravidians": {
         "winRate": 69.23,
@@ -5543,8 +5543,8 @@
         "games": 8
       },
       "bulgarians": {
-        "winRate": 50,
-        "games": 12
+        "winRate": 53.85,
+        "games": 13
       },
       "cumans": {
         "winRate": 100,
@@ -5717,8 +5717,8 @@
         "games": 5
       },
       "jurchens": {
-        "winRate": 80,
-        "games": 5
+        "winRate": 66.67,
+        "games": 6
       },
       "malay": {
         "winRate": 22.22,
@@ -6145,8 +6145,8 @@
         "games": 4
       },
       "japanese": {
-        "winRate": 50,
-        "games": 6
+        "winRate": 57.14,
+        "games": 7
       },
       "gurjaras": {
         "winRate": 33.33,
@@ -6295,8 +6295,8 @@
         "games": 7
       },
       "turks": {
-        "winRate": 28.57,
-        "games": 7
+        "winRate": 37.5,
+        "games": 8
       },
       "wei": {
         "winRate": 61.54,
@@ -6711,8 +6711,8 @@
         "games": 10
       },
       "incas": {
-        "winRate": 14.29,
-        "games": 7
+        "winRate": 25,
+        "games": 8
       },
       "goths": {
         "winRate": 63.64,
@@ -6977,8 +6977,8 @@
         "games": 5
       },
       "georgians": {
-        "winRate": 50,
-        "games": 6
+        "winRate": 42.86,
+        "games": 7
       },
       "britons": {
         "winRate": 30,
@@ -7373,8 +7373,8 @@
         "games": 7
       },
       "slavs": {
-        "winRate": 85.71,
-        "games": 7
+        "winRate": 75,
+        "games": 8
       },
       "mayans": {
         "winRate": 40,
@@ -7467,8 +7467,8 @@
         "games": 14
       },
       "burmese": {
-        "winRate": 75,
-        "games": 4
+        "winRate": 60,
+        "games": 5
       },
       "dravidians": {
         "winRate": 50,
@@ -7635,8 +7635,8 @@
         "games": 3
       },
       "portuguese": {
-        "winRate": 50,
-        "games": 6
+        "winRate": 57.14,
+        "games": 7
       },
       "wu": {
         "winRate": 33.33,
@@ -7681,8 +7681,8 @@
         "games": 9
       },
       "mongols": {
-        "winRate": 60,
-        "games": 15
+        "winRate": 56.25,
+        "games": 16
       },
       "lithuanians": {
         "winRate": 25,
@@ -8395,8 +8395,8 @@
         "games": 7
       },
       "burmese": {
-        "winRate": 20,
-        "games": 5
+        "winRate": 16.67,
+        "games": 6
       },
       "muisca": {
         "winRate": 80,
@@ -8747,8 +8747,8 @@
         "games": 13
       },
       "berbers": {
-        "winRate": 42.86,
-        "games": 7
+        "winRate": 50,
+        "games": 8
       },
       "georgians": {
         "winRate": 50,
@@ -8839,8 +8839,8 @@
         "games": 4
       },
       "franks": {
-        "winRate": 11.11,
-        "games": 9
+        "winRate": 20,
+        "games": 10
       },
       "jurchens": {
         "winRate": 50,
@@ -8899,8 +8899,8 @@
         "games": 3
       },
       "malay": {
-        "winRate": 50,
-        "games": 6
+        "winRate": 42.86,
+        "games": 7
       },
       "saracens": {
         "winRate": 100,
@@ -9001,8 +9001,8 @@
         "games": 19
       },
       "mongols": {
-        "winRate": 28.57,
-        "games": 21
+        "winRate": 30.43,
+        "games": 23
       },
       "khmer": {
         "winRate": 100,
@@ -9263,8 +9263,8 @@
         "games": 4
       },
       "mongols": {
-        "winRate": 38.46,
-        "games": 13
+        "winRate": 35.71,
+        "games": 14
       },
       "mapuche": {
         "winRate": 66.67,
@@ -9393,8 +9393,8 @@
         "games": 3
       },
       "turks": {
-        "winRate": 80,
-        "games": 5
+        "winRate": 83.33,
+        "games": 6
       },
       "romans": {
         "winRate": 33.33,
@@ -9925,8 +9925,8 @@
         "games": 3
       },
       "huns": {
-        "winRate": 33.33,
-        "games": 6
+        "winRate": 42.86,
+        "games": 7
       },
       "wei": {
         "winRate": 100,
@@ -10095,8 +10095,8 @@
         "games": 3
       },
       "khmer": {
-        "winRate": 57.14,
-        "games": 7
+        "winRate": 62.5,
+        "games": 8
       },
       "persians": {
         "winRate": 40,
@@ -10127,8 +10127,8 @@
         "games": 5
       },
       "turks": {
-        "winRate": 50,
-        "games": 4
+        "winRate": 60,
+        "games": 5
       },
       "slavs": {
         "winRate": 33.33,
@@ -10341,8 +10341,8 @@
         "games": 7
       },
       "persians": {
-        "winRate": 50,
-        "games": 12
+        "winRate": 46.15,
+        "games": 13
       },
       "berbers": {
         "winRate": 22.22,
@@ -10617,12 +10617,12 @@
         "games": 7
       },
       "dravidians": {
-        "winRate": 45.45,
-        "games": 11
+        "winRate": 41.67,
+        "games": 12
       },
       "muisca": {
-        "winRate": 40,
-        "games": 15
+        "winRate": 43.75,
+        "games": 16
       },
       "bohemians": {
         "winRate": 47.37,
@@ -10677,8 +10677,8 @@
         "games": 34
       },
       "burgundians": {
-        "winRate": 71.43,
-        "games": 21
+        "winRate": 69.57,
+        "games": 23
       },
       "mayans": {
         "winRate": 48,
@@ -10769,16 +10769,16 @@
         "games": 19
       },
       "armenians": {
-        "winRate": 61.54,
-        "games": 13
+        "winRate": 64.29,
+        "games": 14
       },
       "teutons": {
         "winRate": 88.89,
         "games": 9
       },
       "magyars": {
-        "winRate": 66.67,
-        "games": 36
+        "winRate": 67.57,
+        "games": 37
       },
       "wu": {
         "winRate": 66.67,
@@ -10789,8 +10789,8 @@
         "games": 14
       },
       "jurchens": {
-        "winRate": 50,
-        "games": 10
+        "winRate": 54.55,
+        "games": 11
       },
       "koreans": {
         "winRate": 40,
@@ -10801,8 +10801,8 @@
         "games": 9
       },
       "goths": {
-        "winRate": 69.23,
-        "games": 13
+        "winRate": 71.43,
+        "games": 14
       },
       "celts": {
         "winRate": 69.23,
@@ -10839,8 +10839,8 @@
         "games": 9
       },
       "bohemians": {
-        "winRate": 37.5,
-        "games": 8
+        "winRate": 44.44,
+        "games": 9
       },
       "italians": {
         "winRate": 35.71,
@@ -10923,8 +10923,8 @@
         "games": 5
       },
       "aztecs": {
-        "winRate": 42.86,
-        "games": 7
+        "winRate": 37.5,
+        "games": 8
       },
       "lithuanians": {
         "winRate": 33.33,
@@ -11247,8 +11247,8 @@
         "games": 2
       },
       "cumans": {
-        "winRate": 20,
-        "games": 5
+        "winRate": 16.67,
+        "games": 6
       },
       "celts": {
         "winRate": 0,
@@ -11331,8 +11331,8 @@
         "games": 11
       },
       "hindustanis": {
-        "winRate": 71.43,
-        "games": 7
+        "winRate": 62.5,
+        "games": 8
       },
       "vikings": {
         "winRate": 33.33,
@@ -11351,8 +11351,8 @@
         "games": 7
       },
       "aztecs": {
-        "winRate": 50,
-        "games": 4
+        "winRate": 40,
+        "games": 5
       },
       "saracens": {
         "winRate": 33.33,
@@ -11803,8 +11803,8 @@
         "games": 7
       },
       "mongols": {
-        "winRate": 30.77,
-        "games": 13
+        "winRate": 28.57,
+        "games": 14
       },
       "vietnamese": {
         "winRate": 33.33,
@@ -12071,12 +12071,12 @@
     },
     "burmese": {
       "malay": {
-        "winRate": 25,
-        "games": 4
+        "winRate": 40,
+        "games": 5
       },
       "malians": {
-        "winRate": 37.5,
-        "games": 8
+        "winRate": 33.33,
+        "games": 9
       },
       "tatars": {
         "winRate": 50,
@@ -12183,8 +12183,8 @@
         "games": 8
       },
       "spanish": {
-        "winRate": 80,
-        "games": 5
+        "winRate": 83.33,
+        "games": 6
       },
       "jurchens": {
         "winRate": 60,
@@ -12425,8 +12425,8 @@
         "games": 10
       },
       "tatars": {
-        "winRate": 66.67,
-        "games": 6
+        "winRate": 57.14,
+        "games": 7
       },
       "byzantines": {
         "winRate": 33.33,
@@ -12919,8 +12919,8 @@
         "games": 8
       },
       "dravidians": {
-        "winRate": 60,
-        "games": 10
+        "winRate": 54.55,
+        "games": 11
       },
       "italians": {
         "winRate": 33.33,
@@ -13125,8 +13125,8 @@
         "games": 9
       },
       "burmese": {
-        "winRate": 62.5,
-        "games": 8
+        "winRate": 66.67,
+        "games": 9
       },
       "bengalis": {
         "winRate": 87.5,
@@ -13339,8 +13339,8 @@
         "games": 3
       },
       "wei": {
-        "winRate": 40,
-        "games": 10
+        "winRate": 45.45,
+        "games": 11
       },
       "muisca": {
         "winRate": 100,
@@ -13351,8 +13351,8 @@
         "games": 7
       },
       "mongols": {
-        "winRate": 54.55,
-        "games": 11
+        "winRate": 58.33,
+        "games": 12
       },
       "vietnamese": {
         "winRate": 61.54,
@@ -13863,8 +13863,8 @@
         "games": 4
       },
       "portuguese": {
-        "winRate": 88.89,
-        "games": 9
+        "winRate": 80,
+        "games": 10
       },
       "khmer": {
         "winRate": 60,
@@ -14913,8 +14913,8 @@
         "games": 4
       },
       "mongols": {
-        "winRate": 33.33,
-        "games": 36
+        "winRate": 32.43,
+        "games": 37
       },
       "romans": {
         "winRate": 25,
@@ -15225,8 +15225,8 @@
         "games": 19
       },
       "khmer": {
-        "winRate": 62.5,
-        "games": 8
+        "winRate": 55.56,
+        "games": 9
       },
       "chinese": {
         "winRate": 100,
@@ -16646,8 +16646,8 @@
       },
       "persians": {
         "other": {
-          "winRate": 50,
-          "games": 4
+          "winRate": 60,
+          "games": 5
         }
       },
       "malians": {
@@ -16700,8 +16700,8 @@
           "games": 4
         },
         "open": {
-          "winRate": 66.67,
-          "games": 3
+          "winRate": 50,
+          "games": 4
         }
       },
       "wei": {
@@ -17424,8 +17424,8 @@
       },
       "koreans": {
         "other": {
-          "winRate": 0,
-          "games": 4
+          "winRate": 20,
+          "games": 5
         },
         "closed": {
           "winRate": 100,
@@ -17434,8 +17434,8 @@
       },
       "mongols": {
         "other": {
-          "winRate": 75,
-          "games": 4
+          "winRate": 60,
+          "games": 5
         },
         "hybrid": {
           "winRate": 0,
@@ -18338,8 +18338,8 @@
       },
       "berbers": {
         "other": {
-          "winRate": 50,
-          "games": 4
+          "winRate": 40,
+          "games": 5
         }
       },
       "dravidians": {
@@ -18778,8 +18778,8 @@
           "games": 1
         },
         "open": {
-          "winRate": 50,
-          "games": 2
+          "winRate": 66.67,
+          "games": 3
         }
       },
       "cumans": {
@@ -19270,8 +19270,8 @@
       },
       "jurchens": {
         "other": {
-          "winRate": 100,
-          "games": 4
+          "winRate": 80,
+          "games": 5
         },
         "closed": {
           "winRate": 0,
@@ -20354,8 +20354,8 @@
       },
       "japanese": {
         "other": {
-          "winRate": 60,
-          "games": 5
+          "winRate": 66.67,
+          "games": 6
         },
         "open": {
           "winRate": 0,
@@ -20746,8 +20746,8 @@
       },
       "turks": {
         "other": {
-          "winRate": 16.67,
-          "games": 6
+          "winRate": 28.57,
+          "games": 7
         },
         "open": {
           "winRate": 100,
@@ -21856,8 +21856,8 @@
           "games": 1
         },
         "other": {
-          "winRate": 20,
-          "games": 5
+          "winRate": 33.33,
+          "games": 6
         },
         "open": {
           "winRate": 0,
@@ -22614,8 +22614,8 @@
       },
       "georgians": {
         "other": {
-          "winRate": 40,
-          "games": 5
+          "winRate": 33.33,
+          "games": 6
         },
         "open": {
           "winRate": 100,
@@ -23662,8 +23662,8 @@
           "games": 1
         },
         "other": {
-          "winRate": 80,
-          "games": 5
+          "winRate": 66.67,
+          "games": 6
         },
         "open": {
           "winRate": 100,
@@ -23892,6 +23892,10 @@
         "other": {
           "winRate": 75,
           "games": 4
+        },
+        "open": {
+          "winRate": 0,
+          "games": 1
         }
       },
       "dravidians": {
@@ -24354,8 +24358,8 @@
       },
       "portuguese": {
         "other": {
-          "winRate": 50,
-          "games": 4
+          "winRate": 60,
+          "games": 5
         },
         "open": {
           "winRate": 50,
@@ -24471,7 +24475,7 @@
         },
         "open": {
           "winRate": 0,
-          "games": 2
+          "games": 3
         }
       },
       "lithuanians": {
@@ -26407,7 +26411,7 @@
         },
         "open": {
           "winRate": 0,
-          "games": 1
+          "games": 2
         }
       },
       "muisca": {
@@ -27304,8 +27308,8 @@
           "games": 4
         },
         "open": {
-          "winRate": 33.33,
-          "games": 3
+          "winRate": 50,
+          "games": 4
         }
       },
       "georgians": {
@@ -27566,8 +27570,8 @@
       },
       "franks": {
         "other": {
-          "winRate": 0,
-          "games": 6
+          "winRate": 14.29,
+          "games": 7
         },
         "open": {
           "winRate": 33.33,
@@ -27712,8 +27716,8 @@
       },
       "malay": {
         "other": {
-          "winRate": 50,
-          "games": 4
+          "winRate": 40,
+          "games": 5
         },
         "open": {
           "winRate": 50,
@@ -28024,16 +28028,16 @@
           "games": 1
         },
         "other": {
-          "winRate": 28.57,
-          "games": 14
+          "winRate": 33.33,
+          "games": 15
         },
         "closed": {
           "winRate": 0,
           "games": 2
         },
         "open": {
-          "winRate": 25,
-          "games": 4
+          "winRate": 20,
+          "games": 5
         }
       },
       "khmer": {
@@ -28769,7 +28773,7 @@
       "mongols": {
         "open": {
           "winRate": 0,
-          "games": 2
+          "games": 3
         },
         "other": {
           "winRate": 40,
@@ -29136,6 +29140,10 @@
         "other": {
           "winRate": 66.67,
           "games": 3
+        },
+        "open": {
+          "winRate": 100,
+          "games": 1
         }
       },
       "romans": {
@@ -30562,8 +30570,8 @@
       },
       "huns": {
         "other": {
-          "winRate": 25,
-          "games": 4
+          "winRate": 40,
+          "games": 5
         },
         "open": {
           "winRate": 50,
@@ -31024,8 +31032,8 @@
       },
       "khmer": {
         "other": {
-          "winRate": 66.67,
-          "games": 3
+          "winRate": 75,
+          "games": 4
         },
         "open": {
           "winRate": 66.67,
@@ -31118,6 +31126,10 @@
         "other": {
           "winRate": 66.67,
           "games": 3
+        },
+        "closed": {
+          "winRate": 100,
+          "games": 1
         }
       },
       "slavs": {
@@ -31700,8 +31712,8 @@
           "games": 1
         },
         "open": {
-          "winRate": 50,
-          "games": 2
+          "winRate": 33.33,
+          "games": 3
         }
       },
       "berbers": {
@@ -32440,8 +32452,8 @@
       },
       "dravidians": {
         "other": {
-          "winRate": 37.5,
-          "games": 8
+          "winRate": 33.33,
+          "games": 9
         },
         "hybrid": {
           "winRate": 0,
@@ -32463,7 +32475,7 @@
         },
         "open": {
           "winRate": 100,
-          "games": 2
+          "games": 3
         }
       },
       "bohemians": {
@@ -32642,16 +32654,16 @@
           "games": 1
         },
         "other": {
-          "winRate": 71.43,
-          "games": 14
+          "winRate": 66.67,
+          "games": 15
         },
         "closed": {
           "winRate": 100,
           "games": 2
         },
         "open": {
-          "winRate": 75,
-          "games": 4
+          "winRate": 80,
+          "games": 5
         }
       },
       "mayans": {
@@ -32953,7 +32965,7 @@
       "armenians": {
         "open": {
           "winRate": 100,
-          "games": 2
+          "games": 3
         },
         "other": {
           "winRate": 60,
@@ -32976,8 +32988,8 @@
       },
       "magyars": {
         "other": {
-          "winRate": 66.67,
-          "games": 30
+          "winRate": 67.74,
+          "games": 31
         },
         "open": {
           "winRate": 66.67,
@@ -33006,8 +33018,8 @@
       },
       "jurchens": {
         "other": {
-          "winRate": 25,
-          "games": 4
+          "winRate": 40,
+          "games": 5
         },
         "hybrid": {
           "winRate": 100,
@@ -33052,8 +33064,8 @@
           "games": 5
         },
         "other": {
-          "winRate": 62.5,
-          "games": 8
+          "winRate": 66.67,
+          "games": 9
         }
       },
       "celts": {
@@ -33156,8 +33168,8 @@
       },
       "bohemians": {
         "other": {
-          "winRate": 66.67,
-          "games": 3
+          "winRate": 75,
+          "games": 4
         },
         "hybrid": {
           "winRate": 0,
@@ -33402,8 +33414,8 @@
       },
       "aztecs": {
         "other": {
-          "winRate": 33.33,
-          "games": 3
+          "winRate": 25,
+          "games": 4
         },
         "open": {
           "winRate": 33.33,
@@ -34340,6 +34352,10 @@
         "other": {
           "winRate": 33.33,
           "games": 3
+        },
+        "open": {
+          "winRate": 0,
+          "games": 1
         }
       },
       "celts": {
@@ -34580,8 +34596,8 @@
       },
       "hindustanis": {
         "other": {
-          "winRate": 83.33,
-          "games": 6
+          "winRate": 71.43,
+          "games": 7
         },
         "open": {
           "winRate": 0,
@@ -34644,6 +34660,10 @@
         "other": {
           "winRate": 33.33,
           "games": 3
+        },
+        "closed": {
+          "winRate": 0,
+          "games": 1
         }
       },
       "saracens": {
@@ -35822,8 +35842,8 @@
           "games": 5
         },
         "other": {
-          "winRate": 37.5,
-          "games": 8
+          "winRate": 33.33,
+          "games": 9
         }
       },
       "vietnamese": {
@@ -36568,6 +36588,10 @@
         "other": {
           "winRate": 25,
           "games": 4
+        },
+        "open": {
+          "winRate": 100,
+          "games": 1
         }
       },
       "malians": {
@@ -36584,8 +36608,8 @@
           "games": 1
         },
         "other": {
-          "winRate": 25,
-          "games": 4
+          "winRate": 20,
+          "games": 5
         }
       },
       "tatars": {
@@ -36891,7 +36915,7 @@
         },
         "open": {
           "winRate": 100,
-          "games": 1
+          "games": 2
         }
       },
       "jurchens": {
@@ -37548,8 +37572,8 @@
       },
       "tatars": {
         "other": {
-          "winRate": 75,
-          "games": 4
+          "winRate": 60,
+          "games": 5
         },
         "open": {
           "winRate": 50,
@@ -38930,8 +38954,8 @@
       },
       "dravidians": {
         "other": {
-          "winRate": 66.67,
-          "games": 9
+          "winRate": 60,
+          "games": 10
         },
         "open": {
           "winRate": 0,
@@ -39474,8 +39498,8 @@
           "games": 1
         },
         "other": {
-          "winRate": 75,
-          "games": 4
+          "winRate": 80,
+          "games": 5
         }
       },
       "bengalis": {
@@ -40034,8 +40058,8 @@
       },
       "wei": {
         "other": {
-          "winRate": 33.33,
-          "games": 9
+          "winRate": 40,
+          "games": 10
         },
         "open": {
           "winRate": 100,
@@ -40060,8 +40084,8 @@
       },
       "mongols": {
         "other": {
-          "winRate": 62.5,
-          "games": 8
+          "winRate": 66.67,
+          "games": 9
         },
         "hybrid": {
           "winRate": 100,
@@ -41490,8 +41514,8 @@
       },
       "portuguese": {
         "other": {
-          "winRate": 100,
-          "games": 6
+          "winRate": 85.71,
+          "games": 7
         },
         "open": {
           "winRate": 66.67,
@@ -44344,8 +44368,8 @@
       },
       "mongols": {
         "other": {
-          "winRate": 33.33,
-          "games": 30
+          "winRate": 32.26,
+          "games": 31
         },
         "open": {
           "winRate": 33.33,
@@ -45130,8 +45154,8 @@
       },
       "khmer": {
         "other": {
-          "winRate": 33.33,
-          "games": 3
+          "winRate": 25,
+          "games": 4
         },
         "hybrid": {
           "winRate": 100,

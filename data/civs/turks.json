@@ -344,26 +344,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.53,
-    "playRate": 1.72,
-    "picks": 358,
+    "winRate": 45.15,
+    "playRate": 1.73,
+    "picks": 361,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T12:55:45.000Z",
+    "updated": "2026-07-31T13:13:19.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
       "other": {
-        "winRate": 42.28,
+        "winRate": 42.11,
         "playRate": 1.75,
-        "picks": 246
+        "picks": 247
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 2.96,
-        "picks": 38
+        "winRate": 48.72,
+        "playRate": 3.03,
+        "picks": 39
       },
       "hybrid": {
         "winRate": 85.71,
@@ -371,9 +371,9 @@
         "picks": 7
       },
       "open": {
-        "winRate": 50.75,
-        "playRate": 1.31,
-        "picks": 67
+        "winRate": 50,
+        "playRate": 1.33,
+        "picks": 68
       }
     },
     "strongAgainst": [
@@ -388,6 +388,11 @@
         "winRate": 75
       },
       {
+        "name": "hindustanis",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
         "name": "lithuanians",
         "games": 10,
         "winRate": 60
@@ -396,11 +401,6 @@
         "name": "britons",
         "games": 12,
         "winRate": 58.33
-      },
-      {
-        "name": "wei",
-        "games": 8,
-        "winRate": 50
       }
     ],
     "weakAgainst": [

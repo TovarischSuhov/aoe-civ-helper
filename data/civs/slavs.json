@@ -297,25 +297,25 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.85,
+    "winRate": 50,
     "playRate": 1.56,
-    "picks": 325,
+    "picks": 326,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T12:55:45.000Z",
+    "updated": "2026-07-31T13:13:19.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 50.45,
+        "winRate": 50.68,
         "playRate": 1.57,
-        "picks": 220
+        "picks": 221
       },
       "open": {
         "winRate": 50,
-        "playRate": 1.61,
+        "playRate": 1.6,
         "picks": 82
       },
       "closed": {
@@ -358,6 +358,11 @@
     ],
     "weakAgainst": [
       {
+        "name": "incas",
+        "games": 8,
+        "winRate": 25
+      },
+      {
         "name": "portuguese",
         "games": 10,
         "winRate": 30
@@ -376,11 +381,6 @@
         "name": "ethiopians",
         "games": 8,
         "winRate": 37.5
-      },
-      {
-        "name": "britons",
-        "games": 10,
-        "winRate": 40
       }
     ]
   },
