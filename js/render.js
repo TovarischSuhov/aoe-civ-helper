@@ -23,6 +23,36 @@ function iconUrl(internalName) {
 function aoestatsCivs() {
   try { return JSON.parse(localStorage.getItem('aoe_data:aoestats') || 'null')?.civs || null; } catch { return null; }
 }
+// Full aoestats object — civ.stats only carries the overall strong/weak lists; the per-map-type
+// opponent matrix (matchupsByMap[A][B][type] = {winRate, games}) lives here at the top level.
+function aoestatsFull() {
+  try { return JSON.parse(localStorage.getItem('aoe_data:aoestats') || 'null'); } catch { return null; }
+}
+// Per map type, the opponents this civ beats most (best to face) and least (worst to face).
+// Cells under MIN_GAMES are dropped (thin-sample noise). Returns [{type, strong[], weak[]}] or null.
+const MAP_OPP_MIN_GAMES = 5;
+function mapOpponents(slug) {
+  const row = aoestatsFull()?.matchupsByMap?.[slug];
+  if (!row) return null;
+  const byName = civByName();
+  const label = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  const out = [];
+  for (const t of ['open', 'closed', 'hybrid', 'water']) {
+    const cells = [];
+    for (const [opp, byType] of Object.entries(row)) {
+      const c = byType?.[t];
+      if (c && c.games >= MAP_OPP_MIN_GAMES) cells.push({ name: byName[opp]?.name || label(opp), games: c.games, winRate: c.winRate });
+    }
+    if (!cells.length) continue;
+    cells.sort((a, b) => b.winRate - a.winRate);
+    out.push({ type: label(t), strong: cells.slice(0, 3), weak: cells.slice(-3).reverse() });
+  }
+  return out.length ? out : null;
+}
+// Compact opponent chips: green for civs this one beats (≥50% WR), red for those it loses to.
+function oppChips(cells) {
+  return cells.map((c) => el('span', { class: 'tag ' + (c.winRate >= 50 ? 'sotl-rank' : 'gap'), title: `${c.name}: ${c.games.toLocaleString()} games` }, `${c.name} ${c.winRate.toFixed(0)}%`));
+}
 function civOrderCached() {
   try { return JSON.parse(localStorage.getItem('aoe_meta') || 'null')?.civOrder || []; } catch { return []; }
 }
@@ -321,8 +351,16 @@ export function renderGrid(civOrder, onSelect) {
     );
     grid.appendChild(card);
   }
+  const sm = aoestatsFull()?._meta;
   return el('main', { class: 'container' },
     el('p', { class: 'lede' }, `${civOrder.length} civilizations · click any for its tech tree, ranked stats, matchups and build orders`),
+    sm ? el('p', { class: 'small muted' },
+      'Ranked stats: ',
+      el('strong', {}, (sm.matches ?? sm.storedMatches ?? 0).toLocaleString()),
+      ' parsed 1v1 games',
+      sm.window?.first ? ` since ${sm.window.first}` : '',
+      sm.window?.last ? ` (through ${sm.window.last})` : '',
+      '.') : null,
     grid,
   );
 }
@@ -405,6 +443,7 @@ export function renderDetail(civ, onBack) {
     it.desc ? el('span', { class: 'small muted' }, ' ' + it.desc) : null);
 
   const hasStrategy = s && Object.keys(s).length && (asArr(s.buildOrders).length || asArr(s.recommendations).length || s.buildNote || asArr(s.timings).length);
+  const mapOpps = (civ.stats && civ.stats.byMapType) ? mapOpponents(civ.slug) : null;
 
   return el('main', { class: 'container detail civ' },
     el('button', { class: 'back-btn', onclick: onBack }, '← All civilizations'),
@@ -506,6 +545,14 @@ export function renderDetail(civ, onBack) {
     (civ.stats && civ.stats.byMapType && Object.keys(civ.stats.byMapType).length)
       ? section('Maps (ranked)',
           realMapsTable(civ.stats.byMapType),
+          mapOpps ? el('div', { class: 'map-opps', style: 'margin-top:10px' },
+            el('div', { class: 'small muted', style: 'margin-bottom:4px' }, 'Best / worst opponents by map type (low-sample early data — firms up as the window grows)'),
+            ...mapOpps.map((m) => el('div', { class: 'small', style: 'margin:4px 0' },
+              el('strong', {}, m.type),
+              el('span', { class: 'muted' }, '  best '),
+              ...oppChips(m.strong),
+              el('span', { class: 'muted' }, '  worst '),
+              ...oppChips(m.weak)))) : null,
           el('p', { class: 'muted small' }, ['This civ\'s 1v1 win rate by map type, self-aggregated from live ranked matches', civ.stats.window ? ` (${civ.stats.window})` : '', '.']))
       : (f.maps && f.maps.affinity)
         ? section('Maps (heuristic)',
