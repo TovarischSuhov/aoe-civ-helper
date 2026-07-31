@@ -258,75 +258,75 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.61,
+    "winRate": 48.63,
     "playRate": 2.45,
-    "picks": 504,
+    "picks": 510,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
-      "open": {
-        "winRate": 40.77,
-        "playRate": 2.57,
-        "picks": 130
-      },
       "other": {
-        "winRate": 51.82,
-        "playRate": 2.38,
-        "picks": 330
+        "winRate": 51.18,
+        "playRate": 2.42,
+        "picks": 340
+      },
+      "open": {
+        "winRate": 40.34,
+        "playRate": 2.34,
+        "picks": 119
       },
       "closed": {
-        "winRate": 51.52,
-        "playRate": 2.65,
-        "picks": 33
+        "winRate": 56.1,
+        "playRate": 3.19,
+        "picks": 41
       },
       "hybrid": {
-        "winRate": 36.36,
-        "playRate": 2.56,
-        "picks": 11
+        "winRate": 30,
+        "playRate": 2.49,
+        "picks": 10
       }
     },
     "strongAgainst": [
+      {
+        "name": "wu",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "burgundians",
+        "games": 21,
+        "winRate": 71.43
+      },
       {
         "name": "goths",
         "games": 9,
         "winRate": 66.67
       },
       {
-        "name": "chinese",
-        "games": 9,
-        "winRate": 66.67
+        "name": "mayans",
+        "games": 8,
+        "winRate": 62.5
       },
       {
-        "name": "burgundians",
-        "games": 20,
-        "winRate": 65
-      },
-      {
-        "name": "khmer",
-        "games": 9,
-        "winRate": 55.56
-      },
-      {
-        "name": "italians",
-        "games": 11,
-        "winRate": 54.55
+        "name": "ethiopians",
+        "games": 8,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
       {
-        "name": "gurjaras",
+        "name": "japanese",
         "games": 8,
-        "winRate": 25
+        "winRate": 12.5
       },
       {
         "name": "mapuche",
-        "games": 12,
-        "winRate": 25
+        "games": 13,
+        "winRate": 23.08
       },
       {
         "name": "tatars",
@@ -334,13 +334,13 @@
         "winRate": 27.27
       },
       {
-        "name": "sicilians",
-        "games": 9,
-        "winRate": 33.33
+        "name": "tupi",
+        "games": 11,
+        "winRate": 27.27
       },
       {
-        "name": "tupi",
-        "games": 12,
+        "name": "malay",
+        "games": 9,
         "winRate": 33.33
       }
     ]

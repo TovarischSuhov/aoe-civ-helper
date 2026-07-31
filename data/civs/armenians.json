@@ -355,61 +355,61 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.59,
-    "playRate": 1.78,
-    "picks": 367,
+    "winRate": 49.31,
+    "playRate": 1.75,
+    "picks": 363,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
-      "other": {
-        "winRate": 48.31,
-        "playRate": 1.7,
-        "picks": 236
+      "closed": {
+        "winRate": 47.62,
+        "playRate": 1.64,
+        "picks": 21
       },
       "open": {
-        "winRate": 50.96,
-        "playRate": 2.05,
-        "picks": 104
+        "winRate": 50,
+        "playRate": 2,
+        "picks": 102
+      },
+      "other": {
+        "winRate": 48.72,
+        "playRate": 1.67,
+        "picks": 234
       },
       "hybrid": {
-        "winRate": 71.43,
-        "playRate": 1.63,
-        "picks": 7
-      },
-      "closed": {
-        "winRate": 50,
-        "playRate": 1.61,
-        "picks": 20
+        "winRate": 66.67,
+        "playRate": 1.49,
+        "picks": 6
       }
     },
     "strongAgainst": [
+      {
+        "name": "magyars",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "bulgarians",
+        "games": 10,
+        "winRate": 70
+      },
       {
         "name": "teutons",
         "games": 13,
         "winRate": 69.23
       },
       {
-        "name": "bulgarians",
-        "games": 12,
-        "winRate": 66.67
-      },
-      {
         "name": "romans",
-        "games": 9,
-        "winRate": 66.67
-      },
-      {
-        "name": "magyars",
         "games": 11,
         "winRate": 63.64
       },
       {
-        "name": "saracens",
+        "name": "persians",
         "games": 8,
         "winRate": 62.5
       }
@@ -422,23 +422,23 @@
       },
       {
         "name": "malay",
-        "games": 8,
-        "winRate": 25
+        "games": 9,
+        "winRate": 22.22
       },
       {
-        "name": "mongols",
-        "games": 11,
-        "winRate": 27.27
-      },
-      {
-        "name": "burgundians",
-        "games": 12,
+        "name": "koreans",
+        "games": 9,
         "winRate": 33.33
       },
       {
-        "name": "malians",
-        "games": 11,
-        "winRate": 36.36
+        "name": "mongols",
+        "games": 13,
+        "winRate": 38.46
+      },
+      {
+        "name": "burgundians",
+        "games": 13,
+        "winRate": 38.46
       }
     ]
   },

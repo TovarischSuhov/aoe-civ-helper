@@ -349,35 +349,35 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 43.41,
-    "playRate": 1.25,
-    "picks": 258,
+    "winRate": 45.42,
+    "playRate": 1.26,
+    "picks": 262,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
-      "open": {
-        "winRate": 50.72,
-        "playRate": 1.36,
-        "picks": 69
-      },
       "other": {
-        "winRate": 39.16,
-        "playRate": 1.2,
-        "picks": 166
+        "winRate": 40.94,
+        "playRate": 1.22,
+        "picks": 171
+      },
+      "open": {
+        "winRate": 52.94,
+        "playRate": 1.33,
+        "picks": 68
       },
       "hybrid": {
         "winRate": 33.33,
-        "playRate": 1.4,
+        "playRate": 1.49,
         "picks": 6
       },
       "closed": {
-        "winRate": 58.82,
-        "playRate": 1.37,
+        "winRate": 64.71,
+        "playRate": 1.32,
         "picks": 17
       }
     },
@@ -385,12 +385,12 @@
       {
         "name": "aztecs",
         "games": 8,
-        "winRate": 75
+        "winRate": 87.5
       },
       {
-        "name": "incas",
+        "name": "magyars",
         "games": 8,
-        "winRate": 62.5
+        "winRate": 50
       },
       {
         "name": "mongols",
@@ -399,40 +399,40 @@
       },
       {
         "name": "bengalis",
-        "games": 10,
-        "winRate": 40
+        "games": 11,
+        "winRate": 45.45
       },
       {
-        "name": "bulgarians",
-        "games": 8,
-        "winRate": 37.5
+        "name": "georgians",
+        "games": 9,
+        "winRate": 44.44
       }
     ],
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 10,
-        "winRate": 20
+        "games": 9,
+        "winRate": 11.11
       },
       {
-        "name": "bulgarians",
+        "name": "bohemians",
         "games": 8,
-        "winRate": 37.5
+        "winRate": 12.5
+      },
+      {
+        "name": "tatars",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "georgians",
+        "games": 9,
+        "winRate": 44.44
       },
       {
         "name": "bengalis",
-        "games": 10,
-        "winRate": 40
-      },
-      {
-        "name": "mongols",
-        "games": 10,
-        "winRate": 50
-      },
-      {
-        "name": "incas",
-        "games": 8,
-        "winRate": 62.5
+        "games": 11,
+        "winRate": 45.45
       }
     ]
   },

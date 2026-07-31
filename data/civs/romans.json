@@ -331,36 +331,36 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 54.44,
-    "playRate": 1.31,
-    "picks": 270,
+    "winRate": 54.98,
+    "playRate": 1.3,
+    "picks": 271,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "open": {
-        "winRate": 59.7,
-        "playRate": 1.32,
-        "picks": 67
-      },
-      "other": {
-        "winRate": 53.07,
-        "playRate": 1.29,
-        "picks": 179
-      },
-      "closed": {
-        "winRate": 63.16,
-        "playRate": 1.53,
-        "picks": 19
-      },
       "hybrid": {
         "winRate": 0,
-        "playRate": 1.16,
+        "playRate": 1.24,
         "picks": 5
+      },
+      "open": {
+        "winRate": 63.64,
+        "playRate": 1.3,
+        "picks": 66
+      },
+      "other": {
+        "winRate": 52.22,
+        "playRate": 1.28,
+        "picks": 180
+      },
+      "closed": {
+        "winRate": 65,
+        "playRate": 1.56,
+        "picks": 20
       }
     },
     "strongAgainst": [
@@ -370,46 +370,46 @@
         "winRate": 75
       },
       {
-        "name": "mongols",
-        "games": 15,
-        "winRate": 53.33
+        "name": "burmese",
+        "games": 8,
+        "winRate": 62.5
       },
       {
-        "name": "persians",
+        "name": "japanese",
         "games": 8,
         "winRate": 50
       },
       {
         "name": "italians",
-        "games": 11,
-        "winRate": 45.45
+        "games": 10,
+        "winRate": 50
       },
       {
-        "name": "teutons",
+        "name": "persians",
         "games": 8,
-        "winRate": 37.5
+        "winRate": 50
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
         "games": 8,
-        "winRate": 12.5
+        "winRate": 25
       },
       {
         "name": "armenians",
-        "games": 9,
-        "winRate": 33.33
+        "games": 11,
+        "winRate": 36.36
+      },
+      {
+        "name": "mongols",
+        "games": 12,
+        "winRate": 41.67
       },
       {
         "name": "teutons",
-        "games": 8,
-        "winRate": 37.5
-      },
-      {
-        "name": "italians",
-        "games": 11,
-        "winRate": 45.45
+        "games": 9,
+        "winRate": 44.44
       },
       {
         "name": "persians",

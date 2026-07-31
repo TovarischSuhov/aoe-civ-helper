@@ -289,53 +289,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.16,
-    "playRate": 1.68,
-    "picks": 346,
+    "winRate": 50.14,
+    "playRate": 1.76,
+    "picks": 367,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
-      "other": {
-        "winRate": 51.75,
-        "playRate": 1.65,
-        "picks": 228
-      },
-      "closed": {
-        "winRate": 42.86,
-        "playRate": 1.69,
-        "picks": 21
-      },
       "open": {
-        "winRate": 54.02,
-        "playRate": 1.72,
-        "picks": 87
+        "winRate": 53.85,
+        "playRate": 1.79,
+        "picks": 91
+      },
+      "other": {
+        "winRate": 50.41,
+        "playRate": 1.74,
+        "picks": 244
       },
       "hybrid": {
         "winRate": 30,
-        "playRate": 2.33,
+        "playRate": 2.49,
         "picks": 10
+      },
+      "closed": {
+        "winRate": 40.91,
+        "playRate": 1.71,
+        "picks": 22
       }
     },
     "strongAgainst": [
+      {
+        "name": "slavs",
+        "games": 8,
+        "winRate": 62.5
+      },
       {
         "name": "teutons",
         "games": 8,
         "winRate": 62.5
       },
       {
-        "name": "dravidians",
-        "games": 8,
-        "winRate": 62.5
-      },
-      {
-        "name": "portuguese",
-        "games": 8,
-        "winRate": 62.5
+        "name": "vietnamese",
+        "games": 15,
+        "winRate": 60
       },
       {
         "name": "celts",
@@ -343,14 +343,19 @@
         "winRate": 60
       },
       {
-        "name": "poles",
-        "games": 12,
-        "winRate": 58.33
+        "name": "vikings",
+        "games": 10,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
       {
-        "name": "mongols",
+        "name": "incas",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "spanish",
         "games": 8,
         "winRate": 37.5
       },
@@ -361,18 +366,13 @@
       },
       {
         "name": "japanese",
-        "games": 10,
-        "winRate": 40
-      },
-      {
-        "name": "persians",
-        "games": 10,
-        "winRate": 40
+        "games": 13,
+        "winRate": 38.46
       },
       {
         "name": "georgians",
-        "games": 8,
-        "winRate": 50
+        "games": 9,
+        "winRate": 44.44
       }
     ]
   },

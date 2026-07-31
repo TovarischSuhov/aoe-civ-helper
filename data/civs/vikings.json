@@ -381,53 +381,53 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 51.53,
-    "playRate": 1.74,
-    "picks": 359,
+    "winRate": 50.82,
+    "playRate": 1.75,
+    "picks": 364,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
-      "other": {
-        "winRate": 50,
-        "playRate": 1.76,
-        "picks": 244
-      },
       "open": {
-        "winRate": 52.58,
-        "playRate": 1.91,
-        "picks": 97
+        "winRate": 52,
+        "playRate": 1.96,
+        "picks": 100
+      },
+      "other": {
+        "winRate": 49.59,
+        "playRate": 1.75,
+        "picks": 246
       },
       "closed": {
-        "winRate": 71.43,
-        "playRate": 1.13,
-        "picks": 14
+        "winRate": 66.67,
+        "playRate": 1.17,
+        "picks": 15
       },
       "hybrid": {
-        "winRate": 50,
-        "playRate": 0.93,
-        "picks": 4
+        "winRate": 33.33,
+        "playRate": 0.75,
+        "picks": 3
       }
     },
     "strongAgainst": [
+      {
+        "name": "teutons",
+        "games": 9,
+        "winRate": 77.78
+      },
       {
         "name": "bengalis",
         "games": 8,
         "winRate": 75
       },
       {
-        "name": "turks",
-        "games": 8,
-        "winRate": 75
-      },
-      {
-        "name": "mongols",
-        "games": 12,
-        "winRate": 66.67
+        "name": "saracens",
+        "games": 10,
+        "winRate": 70
       },
       {
         "name": "aztecs",
@@ -435,9 +435,9 @@
         "winRate": 66.67
       },
       {
-        "name": "saracens",
-        "games": 8,
-        "winRate": 62.5
+        "name": "mongols",
+        "games": 12,
+        "winRate": 66.67
       }
     ],
     "weakAgainst": [
@@ -453,16 +453,16 @@
       },
       {
         "name": "portuguese",
-        "games": 10,
-        "winRate": 30
-      },
-      {
-        "name": "sicilians",
         "games": 9,
         "winRate": 33.33
       },
       {
-        "name": "chinese",
+        "name": "huns",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "sicilians",
         "games": 9,
         "winRate": 33.33
       }

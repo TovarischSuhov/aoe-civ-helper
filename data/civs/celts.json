@@ -351,36 +351,36 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 54.28,
-    "playRate": 1.82,
-    "picks": 374,
+    "winRate": 54.25,
+    "playRate": 1.75,
+    "picks": 365,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
-      "hybrid": {
-        "winRate": 33.33,
-        "playRate": 1.4,
-        "picks": 6
-      },
       "other": {
-        "winRate": 55.02,
-        "playRate": 1.8,
-        "picks": 249
-      },
-      "closed": {
-        "winRate": 55,
-        "playRate": 1.61,
-        "picks": 20
+        "winRate": 53.91,
+        "playRate": 1.73,
+        "picks": 243
       },
       "open": {
-        "winRate": 53.54,
-        "playRate": 1.95,
-        "picks": 99
+        "winRate": 56.12,
+        "playRate": 1.92,
+        "picks": 98
+      },
+      "hybrid": {
+        "winRate": 33.33,
+        "playRate": 1.49,
+        "picks": 6
+      },
+      "closed": {
+        "winRate": 55.56,
+        "playRate": 1.4,
+        "picks": 18
       }
     },
     "strongAgainst": [
@@ -391,26 +391,36 @@
       },
       {
         "name": "bengalis",
-        "games": 11,
-        "winRate": 72.73
+        "games": 13,
+        "winRate": 76.92
+      },
+      {
+        "name": "muisca",
+        "games": 8,
+        "winRate": 75
       },
       {
         "name": "vietnamese",
-        "games": 10,
-        "winRate": 70
+        "games": 11,
+        "winRate": 72.73
       },
       {
         "name": "bohemians",
         "games": 10,
         "winRate": 70
-      },
-      {
-        "name": "franks",
-        "games": 9,
-        "winRate": 66.67
       }
     ],
     "weakAgainst": [
+      {
+        "name": "mongols",
+        "games": 13,
+        "winRate": 30.77
+      },
+      {
+        "name": "burgundians",
+        "games": 8,
+        "winRate": 37.5
+      },
       {
         "name": "teutons",
         "games": 8,
@@ -422,19 +432,9 @@
         "winRate": 40
       },
       {
-        "name": "mongols",
-        "games": 15,
-        "winRate": 40
-      },
-      {
-        "name": "incas",
-        "games": 14,
-        "winRate": 42.86
-      },
-      {
         "name": "gurjaras",
-        "games": 11,
-        "winRate": 45.45
+        "games": 10,
+        "winRate": 40
       }
     ]
   },

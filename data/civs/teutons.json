@@ -279,48 +279,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 44.57,
-    "playRate": 1.79,
-    "picks": 368,
+    "winRate": 43.39,
+    "playRate": 1.82,
+    "picks": 378,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
-      "other": {
-        "winRate": 45.56,
-        "playRate": 1.79,
-        "picks": 248
-      },
-      "open": {
-        "winRate": 47.62,
-        "playRate": 1.66,
-        "picks": 84
-      },
       "closed": {
-        "winRate": 31.25,
-        "playRate": 2.57,
-        "picks": 32
+        "winRate": 32.35,
+        "playRate": 2.65,
+        "picks": 34
       },
       "hybrid": {
         "winRate": 25,
-        "playRate": 0.93,
+        "playRate": 1,
         "picks": 4
+      },
+      "open": {
+        "winRate": 45.35,
+        "playRate": 1.69,
+        "picks": 86
+      },
+      "other": {
+        "winRate": 44.49,
+        "playRate": 1.81,
+        "picks": 254
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 8,
-        "winRate": 100
+        "games": 9,
+        "winRate": 88.89
       },
       {
         "name": "goths",
-        "games": 11,
-        "winRate": 72.73
+        "games": 10,
+        "winRate": 70
       },
       {
         "name": "gurjaras",
@@ -333,36 +333,36 @@
         "winRate": 62.5
       },
       {
-        "name": "romans",
+        "name": "persians",
         "games": 8,
         "winRate": 62.5
       }
     ],
     "weakAgainst": [
       {
+        "name": "mongols",
+        "games": 9,
+        "winRate": 11.11
+      },
+      {
         "name": "portuguese",
         "games": 8,
         "winRate": 12.5
       },
       {
+        "name": "burgundians",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "vikings",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
         "name": "malay",
         "games": 8,
         "winRate": 25
-      },
-      {
-        "name": "dravidians",
-        "games": 11,
-        "winRate": 27.27
-      },
-      {
-        "name": "armenians",
-        "games": 13,
-        "winRate": 30.77
-      },
-      {
-        "name": "saracens",
-        "games": 12,
-        "winRate": 33.33
       }
     ]
   },

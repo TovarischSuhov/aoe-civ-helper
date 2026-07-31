@@ -256,42 +256,42 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 46.78,
+    "winRate": 45.64,
     "playRate": 2.64,
-    "picks": 543,
+    "picks": 550,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
+      "closed": {
+        "winRate": 50,
+        "playRate": 2.65,
+        "picks": 34
+      },
       "open": {
-        "winRate": 47.48,
-        "playRate": 2.74,
-        "picks": 139
+        "winRate": 48.15,
+        "playRate": 2.65,
+        "picks": 135
       },
       "other": {
-        "winRate": 46.13,
-        "playRate": 2.61,
-        "picks": 362
+        "winRate": 44.39,
+        "playRate": 2.67,
+        "picks": 374
       },
       "hybrid": {
         "winRate": 42.86,
-        "playRate": 1.63,
+        "playRate": 1.74,
         "picks": 7
-      },
-      "closed": {
-        "winRate": 51.43,
-        "playRate": 2.81,
-        "picks": 35
       }
     },
     "strongAgainst": [
       {
         "name": "franks",
-        "games": 8,
+        "games": 9,
         "winRate": 100
       },
       {
@@ -310,16 +310,21 @@
         "winRate": 68.75
       },
       {
-        "name": "lithuanians",
-        "games": 16,
-        "winRate": 62.5
+        "name": "mayans",
+        "games": 11,
+        "winRate": 63.64
       }
     ],
     "weakAgainst": [
       {
+        "name": "tupi",
+        "games": 9,
+        "winRate": 11.11
+      },
+      {
         "name": "hindustanis",
-        "games": 14,
-        "winRate": 21.43
+        "games": 13,
+        "winRate": 15.38
       },
       {
         "name": "romans",
@@ -327,19 +332,14 @@
         "winRate": 25
       },
       {
-        "name": "malians",
-        "games": 11,
-        "winRate": 27.27
+        "name": "bohemians",
+        "games": 8,
+        "winRate": 25
       },
       {
-        "name": "incas",
-        "games": 10,
-        "winRate": 30
-      },
-      {
-        "name": "cumans",
-        "games": 13,
-        "winRate": 30.77
+        "name": "burgundians",
+        "games": 8,
+        "winRate": 25
       }
     ]
   },

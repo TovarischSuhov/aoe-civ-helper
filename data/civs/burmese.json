@@ -306,39 +306,44 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.83,
-    "playRate": 1.43,
-    "picks": 295,
+    "winRate": 50.69,
+    "playRate": 1.39,
+    "picks": 290,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
       "other": {
-        "winRate": 52.28,
-        "playRate": 1.42,
-        "picks": 197
+        "winRate": 54.4,
+        "playRate": 1.38,
+        "picks": 193
+      },
+      "open": {
+        "winRate": 43.06,
+        "playRate": 1.41,
+        "picks": 72
       },
       "hybrid": {
         "winRate": 40,
-        "playRate": 2.33,
+        "playRate": 2.49,
         "picks": 10
       },
-      "open": {
-        "winRate": 44.44,
-        "playRate": 1.42,
-        "picks": 72
-      },
       "closed": {
-        "winRate": 50,
-        "playRate": 1.29,
-        "picks": 16
+        "winRate": 46.67,
+        "playRate": 1.17,
+        "picks": 15
       }
     },
     "strongAgainst": [
+      {
+        "name": "byzantines",
+        "games": 9,
+        "winRate": 66.67
+      },
       {
         "name": "berbers",
         "games": 9,
@@ -346,11 +351,11 @@
       },
       {
         "name": "khitans",
-        "games": 9,
-        "winRate": 66.67
+        "games": 8,
+        "winRate": 62.5
       },
       {
-        "name": "byzantines",
+        "name": "khmer",
         "games": 8,
         "winRate": 62.5
       },
@@ -358,38 +363,33 @@
         "name": "muisca",
         "games": 9,
         "winRate": 55.56
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "mongols",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "romans",
+        "games": 8,
+        "winRate": 37.5
       },
       {
         "name": "malians",
         "games": 8,
-        "winRate": 50
-      }
-    ],
-    "weakAgainst": [
+        "winRate": 37.5
+      },
       {
         "name": "saracens",
         "games": 10,
         "winRate": 40
       },
       {
-        "name": "hindustanis",
-        "games": 9,
-        "winRate": 44.44
-      },
-      {
-        "name": "mongols",
-        "games": 9,
-        "winRate": 44.44
-      },
-      {
-        "name": "vietnamese",
-        "games": 9,
-        "winRate": 44.44
-      },
-      {
         "name": "poles",
-        "games": 8,
-        "winRate": 50
+        "games": 9,
+        "winRate": 44.44
       }
     ]
   },

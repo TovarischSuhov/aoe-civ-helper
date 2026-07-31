@@ -311,70 +311,70 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 55.3,
-    "playRate": 2.56,
-    "picks": 528,
+    "winRate": 53.72,
+    "playRate": 2.65,
+    "picks": 551,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
-      "other": {
-        "winRate": 55.24,
-        "playRate": 2.76,
-        "picks": 382
-      },
       "open": {
-        "winRate": 54.87,
-        "playRate": 2.23,
-        "picks": 113
-      },
-      "closed": {
-        "winRate": 50,
-        "playRate": 1.13,
-        "picks": 14
+        "winRate": 52.94,
+        "playRate": 2.34,
+        "picks": 119
       },
       "hybrid": {
-        "winRate": 63.16,
-        "playRate": 4.42,
-        "picks": 19
+        "winRate": 64.71,
+        "playRate": 4.23,
+        "picks": 17
+      },
+      "closed": {
+        "winRate": 37.5,
+        "playRate": 1.25,
+        "picks": 16
+      },
+      "other": {
+        "winRate": 54.14,
+        "playRate": 2.85,
+        "picks": 399
       }
     },
     "strongAgainst": [
       {
-        "name": "franks",
-        "games": 8,
-        "winRate": 87.5
+        "name": "goths",
+        "games": 9,
+        "winRate": 77.78
       },
       {
         "name": "khmer",
-        "games": 10,
-        "winRate": 80
+        "games": 9,
+        "winRate": 77.78
       },
       {
-        "name": "tupi",
-        "games": 10,
-        "winRate": 80
-      },
-      {
-        "name": "japanese",
-        "games": 12,
+        "name": "franks",
+        "games": 8,
         "winRate": 75
       },
       {
-        "name": "vietnamese",
-        "games": 17,
-        "winRate": 70.59
+        "name": "turks",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "dravidians",
+        "games": 13,
+        "winRate": 69.23
       }
     ],
     "weakAgainst": [
       {
         "name": "bohemians",
-        "games": 8,
-        "winRate": 25
+        "games": 9,
+        "winRate": 22.22
       },
       {
         "name": "koreans",
@@ -382,19 +382,19 @@
         "winRate": 27.27
       },
       {
+        "name": "bengalis",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
         "name": "malians",
         "games": 9,
         "winRate": 33.33
       },
       {
-        "name": "bengalis",
-        "games": 8,
-        "winRate": 37.5
-      },
-      {
-        "name": "armenians",
-        "games": 12,
-        "winRate": 41.67
+        "name": "tatars",
+        "games": 11,
+        "winRate": 36.36
       }
     ]
   },

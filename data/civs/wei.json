@@ -333,61 +333,61 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.68,
+    "winRate": 51.89,
     "playRate": 1.78,
-    "picks": 367,
+    "picks": 370,
     "ladder": "1v1 Random Map",
     "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T00:04:00.000Z",
-    "window": "last 2 week(s) ending 2026-07-31",
+    "updated": "2026-07-31T12:49:33.000Z",
+    "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
-      "other": {
-        "winRate": 49.4,
-        "playRate": 1.8,
-        "picks": 249
-      },
       "open": {
-        "winRate": 55.17,
-        "playRate": 1.72,
-        "picks": 87
+        "winRate": 58.82,
+        "playRate": 1.67,
+        "picks": 85
       },
       "closed": {
         "winRate": 46.67,
-        "playRate": 2.41,
+        "playRate": 2.34,
         "picks": 30
+      },
+      "other": {
+        "winRate": 50,
+        "playRate": 1.81,
+        "picks": 254
       },
       "hybrid": {
         "winRate": 100,
-        "playRate": 0.23,
+        "playRate": 0.25,
         "picks": 1
       }
     },
     "strongAgainst": [
-      {
-        "name": "lithuanians",
-        "games": 8,
-        "winRate": 75
-      },
-      {
-        "name": "japanese",
-        "games": 8,
-        "winRate": 75
-      },
       {
         "name": "tupi",
         "games": 12,
         "winRate": 66.67
       },
       {
-        "name": "bohemians",
+        "name": "dravidians",
+        "games": 10,
+        "winRate": 60
+      },
+      {
+        "name": "persians",
         "games": 10,
         "winRate": 60
       },
       {
         "name": "armenians",
+        "games": 10,
+        "winRate": 60
+      },
+      {
+        "name": "bohemians",
         "games": 10,
         "winRate": 60
       }
@@ -399,24 +399,24 @@
         "winRate": 30.77
       },
       {
-        "name": "chinese",
-        "games": 22,
-        "winRate": 36.36
-      },
-      {
-        "name": "huns",
-        "games": 11,
-        "winRate": 36.36
-      },
-      {
-        "name": "franks",
+        "name": "berbers",
         "games": 8,
         "winRate": 37.5
       },
       {
-        "name": "vietnamese",
-        "games": 9,
-        "winRate": 44.44
+        "name": "malay",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "hindustanis",
+        "games": 13,
+        "winRate": 38.46
+      },
+      {
+        "name": "chinese",
+        "games": 23,
+        "winRate": 39.13
       }
     ]
   },
