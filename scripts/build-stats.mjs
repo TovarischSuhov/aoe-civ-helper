@@ -6,7 +6,7 @@
 // 1v1 Random Map on the newest patch present, and tallies FOUR views — all from the raw games:
 //
 //   1. Global civ win rate                      → civs[slug].winRate / playRate / picks
-//   2. Civ win rate per map type                → civs[slug].byMapType[open|closed|hybrid|water]
+//   2. Civ win rate per map type                → civs[slug].byMapType[open|closed|hybrid|water|nomad]
 //   3. Total civ-to-civ (matchup) win rate       → matchups[A][B] = {winRate, games}
 //   4. Civ-to-civ per map type                   → matchupsByMap[A][B][mapType] = {winRate, games}
 //
@@ -306,7 +306,7 @@ async function main() {
       dumpRange: firstEnd === lastEnd ? firstEnd : `${firstEnd}–${lastEnd}`,
       weeks: LATEST ? 1 : (WEEKS === 0 ? 'all non-empty' : WEEKS),
       updated: lastEnd,
-      mapTypes: 'open/closed/hybrid/water (curated name->type; unmapped -> other)',
+      mapTypes: 'open/closed/hybrid/water/nomad (curated name->type; unmapped -> other)',
       matchupPairs: Object.keys(agg.pairs || {}).length,
       matchupPairsByMap: Object.keys(agg.pairs_by_type || {}).length,
       matches: agg.games,

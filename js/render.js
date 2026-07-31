@@ -37,7 +37,7 @@ function mapOpponents(slug) {
   const byName = civByName();
   const label = (s) => s.charAt(0).toUpperCase() + s.slice(1);
   const out = [];
-  for (const t of ['open', 'closed', 'hybrid', 'water']) {
+  for (const t of ['open', 'closed', 'hybrid', 'water', 'nomad']) {
     const cells = [];
     for (const [opp, byType] of Object.entries(row)) {
       const c = byType?.[t];
@@ -48,10 +48,6 @@ function mapOpponents(slug) {
     out.push({ type: label(t), strong: cells.slice(0, 3), weak: cells.slice(-3).reverse() });
   }
   return out.length ? out : null;
-}
-// Compact opponent chips: green for civs this one beats (≥50% WR), red for those it loses to.
-function oppChips(cells) {
-  return cells.map((c) => el('span', { class: 'tag ' + (c.winRate >= 50 ? 'sotl-rank' : 'gap'), title: `${c.name}: ${c.games.toLocaleString()} games` }, `${c.name} ${c.winRate.toFixed(0)}%`));
 }
 function civOrderCached() {
   try { return JSON.parse(localStorage.getItem('aoe_meta') || 'null')?.civOrder || []; } catch { return []; }
@@ -232,18 +228,39 @@ function realMatchupTable(rows) {
         el('td', {}, r.winRate != null ? el('span', { class: 'wr-pill ' + wrClass(r.winRate) }, r.winRate.toFixed(1) + '%') : ''));
     })));
 }
-// Real per-map-type win rate from aoestats.io (byMapType: {open:{winRate,picks,playRate}, …}).
-function realMapsTable(byMapType) {
-  return el('table', { class: 'stats' },
-    el('thead', {}, el('tr', {}, el('th', {}, 'Map type'), el('th', {}, 'Win rate'), el('th', {}, 'Sample'))),
-    el('tbody', {}, ...['open', 'closed', 'hybrid', 'water'].map((t) => {
+// Real per-map-type win rate from aoestats.io (byMapType: {open:{winRate,picks,playRate}, …}),
+// plus — when the live per-map-type matchup matrix is available (opponentsByType, keyed by map type)
+// — up to 3 best and 3 worst opponents for THIS civ on each map type, folded into one column.
+// Each tag shows this civ's win rate vs that opponent; green = civs it beats, red = civs it loses to.
+const MAP_TYPES_RANKED = ['open', 'closed', 'hybrid', 'water', 'nomad'];
+function oppTag(cells, cls) {
+  return cells.map((c) => el('span', { class: 'tag ' + cls, title: `${c.name}: ${c.games.toLocaleString()} games` }, `${c.name} ${c.winRate.toFixed(0)}%`));
+}
+function realMapsTable(byMapType, opponentsByType) {
+  const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+  return el('table', { class: 'stats maps-tbl' },
+    el('thead', {}, el('tr', {},
+      el('th', {}, 'Map type'), el('th', { style: 'width:64px' }, 'Win rate'), el('th', { style: 'width:140px' }, 'Sample'), el('th', {}, 'Opponents (best · worst)'))),
+    el('tbody', {}, ...MAP_TYPES_RANKED.map((t) => {
       const d = byMapType[t];
-      if (!d || d.picks == null) return el('tr', {}, el('td', {}, t.charAt(0).toUpperCase() + t.slice(1)), el('td', {}, '—'), el('td', { class: 'small muted' }, '—'));
-      const thin = d.picks < 200;
+      const opp = opponentsByType?.[t];
+      const wrCell = (d && d.picks != null)
+        ? el('span', { class: 'wr-pill ' + wrClass(d.winRate) }, d.winRate.toFixed(1) + '%')
+        : '—';
+      const sampleCell = (d && d.picks != null)
+        ? (d.picks < 200 ? el('span', { class: 'muted' }, d.picks.toLocaleString() + ' games (thin)') : d.picks.toLocaleString() + ' games · ' + d.playRate.toFixed(1) + '% pick')
+        : el('span', { class: 'muted' }, '—');
+      const oppCell = opp && (opp.strong.length || opp.weak.length)
+        ? el('div', { class: 'opp-tags' },
+            ...oppTag(opp.strong, 'sotl-rank'),
+            (opp.strong.length && opp.weak.length) ? el('span', { class: 'muted' }, '·') : null,
+            ...oppTag(opp.weak, 'gap'))
+        : el('span', { class: 'muted' }, '—');
       return el('tr', {},
-        el('td', {}, t.charAt(0).toUpperCase() + t.slice(1)),
-        el('td', {}, el('span', { class: 'wr-pill ' + wrClass(d.winRate) }, d.winRate.toFixed(1) + '%')),
-        el('td', { class: 'small' }, thin ? el('span', { class: 'muted' }, d.picks.toLocaleString() + ' games (thin)') : d.picks.toLocaleString() + ' games · ' + d.playRate.toFixed(1) + '% pick'));
+        el('td', {}, cap(t)),
+        el('td', {}, wrCell),
+        el('td', { class: 'small' }, sampleCell),
+        el('td', { class: 'small' }, oppCell));
     })));
 }
 
@@ -444,6 +461,9 @@ export function renderDetail(civ, onBack) {
 
   const hasStrategy = s && Object.keys(s).length && (asArr(s.buildOrders).length || asArr(s.recommendations).length || s.buildNote || asArr(s.timings).length);
   const mapOpps = (civ.stats && civ.stats.byMapType) ? mapOpponents(civ.slug) : null;
+  // Index the per-map-type opponents by lowercased type so realMapsTable can look them up per row.
+  const opponentsByType = {};
+  if (mapOpps) for (const m of mapOpps) opponentsByType[m.type.toLowerCase()] = m;
 
   return el('main', { class: 'container detail civ' },
     el('button', { class: 'back-btn', onclick: onBack }, '← All civilizations'),
@@ -544,23 +564,15 @@ export function renderDetail(civ, onBack) {
         : null,
     (civ.stats && civ.stats.byMapType && Object.keys(civ.stats.byMapType).length)
       ? section('Maps (ranked)',
-          realMapsTable(civ.stats.byMapType),
-          mapOpps ? el('div', { class: 'map-opps', style: 'margin-top:10px' },
-            el('div', { class: 'small muted', style: 'margin-bottom:4px' }, 'Best / worst opponents by map type (low-sample early data — firms up as the window grows)'),
-            ...mapOpps.map((m) => el('div', { class: 'small', style: 'margin:4px 0' },
-              el('strong', {}, m.type),
-              el('span', { class: 'muted' }, '  best '),
-              ...oppChips(m.strong),
-              el('span', { class: 'muted' }, '  worst '),
-              ...oppChips(m.weak)))) : null,
-          el('p', { class: 'muted small' }, ['This civ\'s 1v1 win rate by map type, self-aggregated from live ranked matches', civ.stats.window ? ` (${civ.stats.window})` : '', '.']))
+          realMapsTable(civ.stats.byMapType, opponentsByType),
+          el('p', { class: 'muted small' }, ['This civ\'s 1v1 win rate by map type, self-aggregated from live ranked matches', civ.stats.window ? ` (${civ.stats.window})` : '', '. Opponent tags show this civ\'s win rate vs that civilization on that map type — green = civs it beats, red = civs it loses to; low-sample cells are noisy.']))
       : (f.maps && f.maps.affinity)
         ? section('Maps (heuristic)',
             el('table', { class: 'stats' },
               el('thead', {}, el('tr', {},
                 el('th', {}, 'Map type'), el('th', { style: 'width:72px' }, 'This civ'),
                 el('th', {}, 'Strong on this map'), el('th', {}, 'Weak on this map'))),
-              el('tbody', {}, ...['open', 'closed', 'hybrid', 'water'].map((t) => {
+              el('tbody', {}, ...['open', 'closed', 'hybrid', 'water', 'nomad'].map((t) => {
                 const aff = (f.maps.affinity || {})[t] || 'OK';
                 const m = (f.maps.byMap && f.maps.byMap[t]) || { strong: [], weak: [] };
                 return el('tr', {},

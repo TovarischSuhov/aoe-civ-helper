@@ -131,6 +131,11 @@ li { margin: 3px 0; }
 .tag.src { color: var(--src); border-color: rgba(74,127,181,0.5); }
 .tag.sotl-rank { color: #1a1a1a; background: var(--accent); border-color: var(--accent); font-weight: 700; }
 
+/* Opponent tags inside the per-civ Maps table: compact and wrap within the cell. */
+.opp-tags { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.opp-tags .tag { margin: 0; font-size: 11px; padding: 2px 7px; }
+.opp-tags .tag.gap { font-size: 11px; padding: 2px 7px; }
+
 .sotl-callout { border-color: rgba(217,164,65,0.55); background: linear-gradient(180deg, rgba(217,164,65,0.07), var(--panel)); }
 .sotl-callout h3 { color: var(--accent); }
 

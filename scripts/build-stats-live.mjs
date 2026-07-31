@@ -25,7 +25,7 @@
 //
 // The four views (computed over the accumulated window):
 //   1. Global civ win rate                 civs[slug].winRate / playRate / picks
-//   2. Civ win rate per map type           civs[slug].byMapType[open|closed|hybrid|water]
+//   2. Civ win rate per map type           civs[slug].byMapType[open|closed|hybrid|water|nomad]
 //   3. Total civ-to-civ (matchup)          matchups[A][B] = {winRate, games}
 //   4. Civ-to-civ per map type             matchupsByMap[A][B][mapType] = {winRate, games}
 // plus per-civ strongAgainst/weakAgainst (derived from #3). Covers ALL civs the sampled players
@@ -185,7 +185,11 @@ function aggregate(matches) {
   const pairs = {};              // "A|B" -> {a,b,winsA,winsB,games}
   const pairsByType = {};        // "A|B|type" -> {a,b,type,winsA,winsB,games}
   for (const g of matches) {
-    const a = g.civA, b = g.civB, t = g.type;
+    const a = g.civA, b = g.civB;
+    // Recompute the type from the stored map name (not the cached g.type) so editing MAP_TYPE
+    // (e.g. splitting a new bucket like 'nomad') reclassifies the whole retained store on the
+    // next rebuild — instead of waiting for fresh matches to re-ingest with the new type.
+    const t = MAP_NAME_TO_TYPE[String(g.map || '').trim().toLowerCase()] || g.type || 'other';
     const da = tally[a] || (tally[a] = { games: 0, wins: 0, by: {} });
     da.games++; da.wins += g.wonA;
     const ba = da.by[t] || (da.by[t] = { games: 0, wins: 0 }); ba.games++; ba.wins += g.wonA;
@@ -277,7 +281,7 @@ async function writeOutput(agg, { retained, newThisRun, span, now, playerCount }
       window: { weeks: windowWeeks, first: isoDate(span.first), last: isoDate(span.last) },
       dumpRange: span.first && span.last ? `${isoDate(span.first)} → ${isoDate(span.last)}` : '—',
       updated: new Date(now * 1000).toISOString(),
-      mapTypes: 'open/closed/hybrid/water (curated map-script name->type; unmapped -> other)',
+      mapTypes: 'open/closed/hybrid/water/nomad (curated map-script name->type; unmapped -> other)',
       matches: retained, storedMatches: retained, newThisRun,
       civsWithData: Object.keys(agg.civs).length,
       matchupPairs: agg.matchupPairs, matchupPairsByMap: agg.matchupPairsByMap,

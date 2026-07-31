@@ -7,7 +7,7 @@
 //
 //   • the homepage  — overall Win Rate / Play Rate / Picks for every civ        (stat #1)
 //   • each /civs/<slug>/ page — per-map Win Rate table (→ open/closed/hybrid/   (stat #2)
-//     water aggregation) and the Best/Worst matchup tables                      (stat #3)
+//     water/nomad aggregation) and the Best/Worst matchup tables                (stat #3)
 //
 // and writes data/aoestats.json: per-civ {winRate, playRate, picks, byMapType, strongAgainst,
 // weakAgainst}. civ-vs-civ PER MAP TYPE (stat #4) is not exposed by any current source, so it is
@@ -227,12 +227,12 @@ async function main() {
     _meta: {
       source: 'Scraped from aoestats.io live pages (current; updated daily)',
       sourceUrl: BASE + '/',
-      method: 'Homepage = overall win/play/picks per civ. Per-civ /civs/<slug>/ pages = per-map Win Rate table (aggregated to open/closed/hybrid/water) + Best/Worst matchup tables (civ-vs-civ). All current — not the stale Parquet dumps.',
+      method: 'Homepage = overall win/play/picks per civ. Per-civ /civs/<slug>/ pages = per-map Win Rate table (aggregated to open/closed/hybrid/water/nomad) + Best/Worst matchup tables (civ-vs-civ). All current — not the stale Parquet dumps.',
       patch,
       ladder: '1v1 Random Map',
       rating: 'ALL',
       updated: lastUpdated,
-      mapTypes: 'open/closed/hybrid/water (curated name->type; per-civ page lists ~20 most-played maps)',
+      mapTypes: 'open/closed/hybrid/water/nomad (curated name->type; per-civ page lists ~20 most-played maps)',
       civsWithData: Object.keys(civs).length,
       civsWithDetail: withDetail,
       builtAt: new Date().toISOString().slice(0, 10),

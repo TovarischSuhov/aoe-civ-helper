@@ -5,9 +5,9 @@
 // 'open' in one output and 'other' in another depending on which script last wrote
 // data/aoestats.json — the same rendered cell would silently change.
 //
-// AoE2 ships no authoritative open/closed/hybrid/water tag, so this is a curated best-effort map
-// of the stable competitive ladder maps; anything unlisted → 'other' (still counted in the overall
-// tally, just not in a type bucket). Add a map here once and all three scripts pick it up.
+// AoE2 ships no authoritative open/closed/hybrid/water/nomad tag, so this is a curated best-effort
+// map of the stable competitive ladder maps; anything unlisted → 'other' (still counted in the
+// overall tally, just not in a type bucket). Add a map here once and all three scripts pick it up.
 //
 // This list is the union of the three former copies; the live-backend list was the most complete,
 // so it is the canonical superset.
@@ -15,7 +15,8 @@
 export const MAP_TYPE = {
   open: ['Arabia', 'Serengeti', 'Gold Rush', 'Acclivity', 'Steppe', 'Runestones', 'Mongolian Heights', 'Kawasan', 'Alpine', 'Sunburst', 'Sunset Plains', 'Red Hills', 'Rubedo', 'El Dorado', 'High View', 'Socotra', 'Haboob', 'Mot wetlands', 'Liquid cav'],
   closed: ['Arena', 'Black Forest', 'Fortress', 'Hill Fort', 'Hideout', 'Valley', 'Golden Pit', 'Poisoned Forest', 'Titan Caves', 'Ghost Lake', 'Megarandom', 'Fortified Clearing'],
-  hybrid: ['Cross', 'Lombardia', 'Four Lakes', 'Yucatan', 'Salt Marsh', 'Confluence', 'Boggle', 'Golden Swamp', 'Mountain Pass', 'Land Nomad', 'Nomad', 'Costa Rica', 'Canals'],
+  hybrid: ['Cross', 'Lombardia', 'Four Lakes', 'Yucatan', 'Salt Marsh', 'Confluence', 'Boggle', 'Golden Swamp', 'Mountain Pass', 'Costa Rica', 'Canals'],
+  nomad: ['Nomad', 'Land Nomad', 'Bedouins', 'African Clearing'],
   water: ['Islands', 'Archipelago', 'Team Islands', 'Mediterranean', 'Baltic', 'Continental', 'Crater Lake', 'Sea Nomad', 'Coastal', 'Bay'],
 };
 

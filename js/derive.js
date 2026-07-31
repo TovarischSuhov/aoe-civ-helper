@@ -531,9 +531,9 @@ export function deriveMatchups(profiles) {
   return out;
 }
 
-// Map-type affinity + per-map strong/weak civs (open / closed / hybrid / water), heuristic from
-// composition, bonuses and tech gaps. aoestats.io is the reference for live win rates.
-const MAP_TYPES = ['open', 'closed', 'hybrid', 'water'];
+// Map-type affinity + per-map strong/weak civs (open / closed / hybrid / water / nomad), heuristic
+// from composition, bonuses and tech gaps. aoestats.io is the reference for live win rates.
+const MAP_TYPES = ['open', 'closed', 'hybrid', 'water', 'nomad'];
 function mapScore(p) {
   const navy = /ship|dock|galley|naval|dromon|warship|longboat|fisher|fish trap|fishing/.test(p.bonusText);
   const defense = /tower|wall|fortified|castle cost|town center|\bkeep\b|defen[sc]/.test(p.bonusText);
@@ -545,6 +545,9 @@ function mapScore(p) {
     closed: 2 + (defense ? 3 : 0) + (p.primary === 'gunpowder' ? 2 : 0) + (p.primary === 'monks' ? 2 : 0) + (eco ? 1 : 0) + (p.hasOnager ? 1 : 0),
     hybrid: 2 + (eco ? 2 : 0) + (archer ? 1 : 0) + (mobility ? 1 : 0) + (navy ? 2 : 0),
     water: 1 + (navy ? 5 : 0) + (eco ? 2 : 0) + (p.hasGalleon ? 1 : 0) + (p.hasFastFire ? 1 : 0),
+    // Nomad: no fixed TC → early eco relocation, scouting, and open aggression dominate. Rewards a
+    // strong economy (re-booming from scattered vills), mobility to raid/contend, and TC defense.
+    nomad: 2 + (eco ? 3 : 0) + (mobility ? 2 : 0) + (archer ? 1 : 0) + (defense ? 1 : 0),
   };
 }
 export function deriveMaps(profiles) {
