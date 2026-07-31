@@ -1,0 +1,66 @@
+# .github/workflows/update-data.yml — daily data refresh (techtree facts + images + ranked stats).
+#
+# Rebuilds the committed data/ bundle AND img/ icons from primary sources once a day, then commits
+# the result back to master so a branch-deployed GitHub Pages site republishes with fresh data. The
+# SPA reads ONLY this cached bundle — it makes no external requests.
+#
+#   scripts/update-all.mjs runs:
+#     • build.mjs            — techtree facts from aoe2techtree.net (strategy preserved)
+#     • build-images.mjs     — mirror the aoe2techtree icons the SPA references → img/
+#     • build-stats-live.mjs — ranked stats from the live match backend (→ scrape-aoestats fallback)
+#
+# The stats accumulator store (.cache/live) is persisted across runs via actions/cache so its window
+# grows toward MAX_WEEKS (12). techtree/images rebuilds are idempotent → no commit when unchanged.
+#
+# Manual run: Actions tab → "Update data" → Run workflow.
+
+name: Update data
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # daily ~04:17 UTC (off the round hour to avoid the fleet rush)
+  workflow_dispatch:
+
+permissions:
+  contents: write           # commit refreshed data/ + img/ back to master
+
+# Don't let two refreshes overlap (a run can take a few minutes).
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Restore the accumulator store so the stats window keeps growing run-over-run.
+      - name: Restore stats store
+        uses: actions/cache@v4
+        with:
+          path: .cache/live
+          key: stats-store-${{ github.run_id }}      # unique → always saves the updated store
+          restore-keys: stats-store-                 # …and restores the most recent prior one
+
+      - name: Rebuild data (techtree + images + stats)
+        env:
+          FORCE: '1'        # stats: bypass the 1h gate, always run on CI
+          MAX_WEEKS: '12'
+        run: node scripts/update-all.mjs
+
+      - name: Commit refreshed data + images
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/ img/; then
+            echo "no data/image change — nothing to commit"
+          else
+            git add data/ img/
+            git commit -m "chore(data): daily refresh ($(date -u +%F))"
+            git push
+          fi

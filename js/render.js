@@ -16,7 +16,7 @@ function el(tag, attrs = {}, ...children) {
 }
 
 function iconUrl(internalName) {
-  return `https://aoe2techtree.net/img/Civs/${internalName.toLowerCase()}.png`;
+  return `img/Civs/${internalName.toLowerCase()}.png`;
 }
 
 // Win-rate lookups against the cached aoestats data (served from localStorage).
@@ -64,7 +64,7 @@ function sourceTag(source, url) {
 
 export function renderHeader(meta, { onRefresh, onEconomy, onBuilds, onHome, onAbout, onTips } = {}) {
   const sub = el('div', { class: 'subtitle' },
-    meta?.liveChecked ? `live-checked ${new Date(meta.liveChecked).toLocaleDateString()}` : 'offline-ready civilization companion');
+    meta?.generatedAt ? `data updated ${new Date(meta.generatedAt).toLocaleDateString()}` : 'offline-ready civilization companion');
   return el('header', { class: 'app-header' },
     el('div', { class: 'header-left' },
       el('button', { class: 'brand', onclick: onHome, title: 'Back to all civilizations' }, 'AoE II Civ Guide'),
@@ -87,7 +87,6 @@ export function paintFooter(meta) {
   if (meta?.generatedAt) parts.push(`Built ${meta.generatedAt}`);
   if (meta?.hash) parts.push(`data hash ${meta.hash}`);
   if (meta?.updateLabel) parts.push(`aoe2techtree update ${meta.updateLabel}`);
-  if (meta?.liveChecked) parts.push(`live-checked ${new Date(meta.liveChecked).toLocaleDateString()}`);
   node.textContent = parts.join(' · ');
 }
 
@@ -343,10 +342,10 @@ function costStr(cost) {
 
 // Resource icon URLs (aoe2techtree) for rendering costs as icon+amount, not "60F 55G".
 const RES_ICONS = {
-  food: 'https://aoe2techtree.net/img/food.png',
-  wood: 'https://aoe2techtree.net/img/wood.png',
-  gold: 'https://aoe2techtree.net/img/gold.png',
-  stone: 'https://aoe2techtree.net/img/stone.png',
+  food: 'img/food.png',
+  wood: 'img/wood.png',
+  gold: 'img/gold.png',
+  stone: 'img/stone.png',
 };
 const RES_ORDER = ['food', 'wood', 'gold', 'stone'];
 function costNodes(cost) {
@@ -370,7 +369,7 @@ export function renderDetail(civ, onBack) {
   // Render a list of units (unique OR regional) as a base row plus an "↳ Elite" row — each tier
   // with its own icon — when the unit has an elite version. Shared by Unique techs & Regional units.
   const iconFor = (pic, name) => pic != null
-    ? el('img', { class: 'uicon', src: `https://aoe2techtree.net/img/Unit/${pic}.png`, alt: name, loading: 'lazy', onerror: function () { this.style.visibility = 'hidden'; } })
+    ? el('img', { class: 'uicon', src: `img/Unit/${pic}.png`, alt: name, loading: 'lazy', onerror: function () { this.style.visibility = 'hidden'; } })
     : null;
   const statCell = (v) => el('td', {}, v == null ? '–' : String(v));
   const rngCell = (v) => el('td', {}, v != null ? String(v) : '–');
@@ -399,7 +398,7 @@ export function renderDetail(civ, onBack) {
   const regionalUnits = (civ.regional && civ.regional.units) || [];
   const regionalBuildings = ((civ.regional && civ.regional.buildings) || []).filter((b) => b.kind === 'regional');
   const itemLine = (it, cat) => el('p', { class: 'bonus' },
-    (it.pic != null) ? el('img', { class: 'gap-icon', src: `https://aoe2techtree.net/img/${cat || it.cat}/${it.pic}.png`, alt: it.name || it.display, loading: 'lazy', onerror: function () { this.style.display = 'none'; } }) : null,
+    (it.pic != null) ? el('img', { class: 'gap-icon', src: `img/${cat || it.cat}/${it.pic}.png`, alt: it.name || it.display, loading: 'lazy', onerror: function () { this.style.display = 'none'; } }) : null,
     ' ' + (it.display || it.name || ''),
     it.cost ? el('span', { class: 'small' }, ' — ', costNodes(it.cost)) : null,
     it.desc ? el('span', { class: 'small muted' }, ' ' + it.desc) : null);
@@ -436,11 +435,6 @@ export function renderDetail(civ, onBack) {
             '. A high win rate can mean a niche civ picked into good spots — read it with the play rate.']),
     ) : null,
 
-    civ.sotl ? el('section', { class: 'block sotl-callout' },
-      el('h3', {}, `🏆 Spirit of the Law — ${civ.sotl.year} 1v1 Arabia`),
-      el('p', {}, [el('span', { class: 'tag sotl-rank' }, civ.sotl.rank === 'HM' ? 'Honourable mention' : 'Rank #' + civ.sotl.rank), ' ' + civ.sotl.takeaway]),
-      el('p', { class: 'muted small' }, ['Source: ', el('a', { href: sotlSource(civ.sotl.year), target: '_blank', rel: 'noopener' }, 'SOTL video'), '. See all ranked civs on the ', el('a', { href: '#/tips/sotl' }, 'Spirit of the Law tips page'), '.']),
-    ) : null,
 
     section('Civilization bonuses',
       ...(f.bonuses || []).map((b) => el('p', { class: 'bonus' }, '• ' + b)),
@@ -482,7 +476,7 @@ export function renderDetail(civ, onBack) {
           const obj = typeof g === 'string' ? { label: g } : g;
           const pid = obj.pic != null ? obj.pic : obj.id;
           return el('span', { class: 'tag gap' },
-            (pid != null) ? el('img', { class: 'gap-icon', src: `https://aoe2techtree.net/img/${obj.cat}/${pid}.png`, alt: obj.name || obj.label, loading: 'lazy', onerror: function () { this.style.display = 'none'; } }) : null,
+            (pid != null) ? el('img', { class: 'gap-icon', src: `img/${obj.cat}/${pid}.png`, alt: obj.name || obj.label, loading: 'lazy', onerror: function () { this.style.display = 'none'; } }) : null,
             ' ' + (obj.label || obj.name));
         })))
       : section('Notable tech gaps', el('p', { class: 'muted' }, 'None of the key upgrades are missing.')),
@@ -662,13 +656,13 @@ export function renderAbout(meta, onBack) {
   return el('main', { class: 'container detail' },
     el('button', { class: 'back-btn', onclick: onBack }, '← All civilizations'),
     el('h2', {}, 'About this guide'),
-    el('p', { class: 'lede' }, 'An offline Age of Empires II civilization companion. Facts (tech trees, units, gaps, matchups) are auto-derived from aoe2techtree.net; strategy is curated and translated to English from the sources below.'),
+    el('p', { class: 'lede' }, 'An offline Age of Empires II civilization companion. Facts (tech trees, units, gaps, matchups) are auto-derived from aoe2techtree.net by a daily background rebuild — the app reads only the cached data. Strategy is curated and translated to English from the sources below.'),
     el('section', { class: 'block' },
       el('h3', {}, 'Data sources & how each is used'),
-      src('aoe2techtree.net', 'https://aoe2techtree.net/', 'The tech-tree dataset (MIT-licensed). Used to auto-derive every civilization\'s facts on every page: army type, civ/team bonuses, unique-unit stats, the notable tech gaps, and the heuristic matchups and map affinities. Re-fetched live via the ↻ Refresh button.'),
+      src('aoe2techtree.net', 'https://aoe2techtree.net/', 'The tech-tree dataset (MIT-licensed). Used to auto-derive every civilization\'s facts on every page: army type, civ/team bonuses, unique-unit stats, the notable tech gaps, and the heuristic matchups and map affinities. Rebuilt daily by a background job; the ↻ Refresh button syncs the app to the latest deployed data.'),
       src('aoestats.io', 'https://aoestats.io/', 'Aggregated ranked match statistics. Used for the win-rate chip on every grid card, the "Ranked" block on each civ page, and the win-rate figures beside opposing civs in the Matchups and Maps sections.'),
       src('kiritastrich (Telegram)', 'https://t.me/s/kiritastrich', 'Russian-language strategy channel, translated to English. Used for the curated build orders and civ recommendations, the economy math tables, the water-economy notes, the May-2026 patch notes, and the kiritastrich tips.'),
-      src('Spirit of the Law (YouTube)', 'https://www.youtube.com/@SpiritOfTheLaw', 'Data-driven AoE2 analysis. Used for the SOTL civ-ranking takeaways on each ranked civ, and the Spirit of the Law tips + analysis principles.'),
+      src('Spirit of the Law (YouTube)', 'https://www.youtube.com/@SpiritOfTheLaw', 'Data-driven AoE2 analysis. Used for the Spirit of the Law tips page + analysis principles.'),
       src('Hera (YouTube)', 'https://www.youtube.com/@HeraAgeOfEmpires2', 'Pro-player coaching and gameplay. Used for the Hera tips (macro, scouting, booming, map control).'),
       src('CyberDabVinc (YouTube)', 'https://www.youtube.com/@CyberDabVinc', 'Defensive/boom-focused ladder coaching. Used for the CyberDabVinc tips (walls, timings, retreating from bad matchups).'),
       src('Age of Empires Wiki (Fandom)', 'https://ageofempires.fandom.com/', 'Community wiki. Used for the sheep, boar, deer, shore-fish and deep-fish icons in the Economy resource-rate table.'),
@@ -680,8 +674,8 @@ export function renderAbout(meta, onBack) {
     ),
     el('section', { class: 'block' },
       el('h3', {}, 'How it works'),
-      el('p', {}, 'Data is bundled and works offline. Click ', el('strong', {}, '↻ Refresh'),
-        ' to re-fetch the live tech-tree facts from aoe2techtree.net and pull the latest ranked-stats snapshot — only facts/stats update; curated strategy is preserved.'),
+      el('p', {}, 'Data is bundled and works offline; the app makes no external requests. A background job rebuilds it from aoe2techtree.net daily — click ', el('strong', {}, '↻ Refresh'),
+        ' to sync to the latest deployed data. Curated strategy is never overwritten.'),
       el('p', {}, 'Each civilization page links its specific sources as tags (e.g. a build order links the exact Telegram post it came from). The full source list lives only here.'),
     ),
     el('p', { class: 'sources' }, meta ? `Built ${meta.generatedAt || ''} · data hash ${meta.hash || ''}` : ''),

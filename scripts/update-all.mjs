@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// scripts/update-all.mjs — auto-rebuild: refresh aoestats.io win rates, then rebuild techtree facts.
+// scripts/update-all.mjs — auto-rebuild: refresh stats, rebuild techtree facts, mirror images.
 //
 //   node scripts/update-all.mjs            # refresh aoestats + force re-download + rebuild techtree
 //   node scripts/update-all.mjs --cached   # rebuild techtree from cache (skip upstream re-download)
@@ -45,6 +45,15 @@ function rebuildTechtree(force) {
   return true;
 }
 
+// Mirror every aoe2techtree image the SPA references into local img/ so the app makes no external
+// requests. Run after build.mjs — it walks the regenerated data/ to learn which icons are needed.
+function mirrorImages() {
+  console.log('→ images: mirroring aoe2techtree icons into img/ (build-images.mjs)…');
+  const r = spawnSync('node', [join(__dirname, 'build-images.mjs')], { stdio: 'inherit', cwd: ROOT });
+  if (r.status !== 0) { console.error('⚠ image mirror failed (continuing).'); return false; }
+  return true;
+}
+
 // Self-aggregate current civ statistics from the LIVE official AoE2 match backend
 // (aoe-api.worldsedgelink.com) — all civs incl. the newest, last N weeks, all four views (overall
 // / per-map-type / civ-vs-civ / civ-vs-civ-per-map-type). Returns false when it can't reach the
@@ -69,6 +78,9 @@ function runBuildStatsLive() {
       if (!ok2) console.warn('⚠ scrape-aoestats also failed — keeping existing data/aoestats.json.');
     }
   }
-  if (!argv.has('--no-build')) rebuildTechtree(!argv.has('--cached'));
+  if (!argv.has('--no-build')) {
+    rebuildTechtree(!argv.has('--cached'));
+    mirrorImages();
+  }
   console.log('=== done ===');
 })();

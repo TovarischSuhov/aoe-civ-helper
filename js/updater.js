@@ -1,21 +1,18 @@
-// js/updater.js — the update rules engine (R1–R5). Two refresh paths, both write only `facts`.
+// js/updater.js — the data-sync engine. The SPA reads ONLY the committed/cached `data/` bundle from
+// its own origin; a background CI job (.github/workflows/update-data.yml) rebuilds that bundle from
+// aoe2techtree.net. The browser never fetches aoe2techtree.net for data.
 //
-//   R1 Bootstrap  — no stored meta, or schemaVersion changed → import bundled meta, clear civ cache.
-//   R2 Drift      — bundled meta.hash != stored hash → clear civ cache so detail views re-fetch
-//                   the rebuilt (new-facts, preserved-strategy) civ files.
-//   R3 Periodic   — older than REFRESH_INTERVAL → live-fetch data.json+strings, deriveAll, push
-//                   new facts into cached civs, update hash/ts. Errors fall back gracefully.
-//   R4 Manual     — Refresh button forces R3.
-//   R5 Preserve   — refresh writes only `facts`; strategy is never touched (store.mergeFacts).
+//   R1 Bootstrap — no stored meta, or schemaVersion changed → import bundled meta, warm caches.
+//   R2 Drift     — bundled meta.hash != stored hash (CI rebuilt the bundle) → clear caches so detail
+//                  views re-fetch the rebuilt civ files. Runs on EVERY load → the SPA auto-syncs to
+//                  whatever CI deployed, with no live-fetch.
+//   R4 Manual    — the ↻ Refresh button forces a cache-busted re-sync to the deployed bundle.
+//   R5 Preserve  — strategy lives in the committed civ files; build.mjs preserves data/strategy.json
+//                  server-side, and the SPA never writes strategy.
 //
-// UI always renders from localStorage; updater runs in the background and re-renders on change.
+// UI always renders from localStorage; route() re-renders after a sync.
 
-import { deriveAll, SCHEMA_VERSION } from './derive.js';
 import * as store from './store.js';
-
-const REFRESH_INTERVAL = 7 * 24 * 60 * 60 * 1000; // 7 days
-const DATA_JSON = 'https://aoe2techtree.net/data/data.json';
-const STRINGS_JSON = 'https://aoe2techtree.net/data/locales/en/strings.json';
 
 // Standalone guide/data files cached into localStorage so all views serve from cache.
 const DATA_FILES = ['economy', 'sotl', 'buildorders', 'tips', 'sources-log', 'aoestats'];
@@ -24,33 +21,6 @@ async function fetchJson(url) {
   const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.json();
-}
-
-async function sha256Hex(text) {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
-  return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('').slice(0, 12);
-}
-
-// Returns { changed: bool, meta }. Throws on network/parse failure (caller handles fallback).
-export async function liveRefresh({ onProgress } = {}) {
-  onProgress?.('Fetching aoe2techtree.net…');
-  const [data, strings] = await Promise.all([fetchJson(DATA_JSON), fetchJson(STRINGS_JSON)]);
-  const dataText = JSON.stringify(data); // canonical-ish for hashing
-  const hash = await sha256Hex(dataText);
-  const { civFacts } = deriveAll(data, strings, store.getMeta()?.pictureIndex || {});
-
-  // Push new facts into every cached civ (R5: strategy preserved). civFacts is keyed by slug.
-  let updated = 0;
-  for (const slug of store.getVisited()) {
-    const rec = civFacts[slug];
-    if (rec && store.mergeFacts(slug, rec.facts, { hash, schemaVersion: SCHEMA_VERSION })) updated++;
-  }
-
-  const prev = store.getMeta();
-  const changed = !prev || prev.hash !== hash;
-  const meta = { ...(prev || {}), hash, schemaVersion: SCHEMA_VERSION, liveChecked: Date.now() };
-  store.setMeta(meta);
-  return { changed, updated, hash };
 }
 
 // Boot/drift reconciliation against the bundled data/meta.json.
@@ -88,15 +58,7 @@ export async function ensureData({ onProgress } = {}) {
     if (!store.getCiv(c.slug)) warm.push(fetchJson(`data/civs/${c.slug}.json`).then((j) => store.putCiv(c.slug, j)).catch(() => {}));
   }
   await Promise.allSettled(warm);
-
-  // R3: periodic live refresh (best-effort, non-blocking).
-  const stale = !stored || !stored.liveChecked || Date.now() - stored.liveChecked > REFRESH_INTERVAL;
-  let live = null;
-  if (stale) {
-    try { live = await liveRefresh({ onProgress }); }
-    catch (e) { live = { error: e.message }; }
-  }
-  return { ok: true, meta: store.getMeta(), reconciled, live };
+  return { ok: true, meta: store.getMeta(), reconciled };
 }
 
 // Cache-first read of a standalone data file; fetches + caches on miss.
@@ -119,6 +81,32 @@ export async function refreshData(name, { onProgress } = {}) {
   const next = await fetchJson(`data/${name}.json?_=${Date.now()}`);
   store.setData(name, next);
   return { name, changed: JSON.stringify(prev) !== JSON.stringify(next) };
+}
+
+// Force a cache-busted re-sync to the DEPLOYED bundle (↻ Refresh button). Re-fetches meta.json; if
+// CI rebuilt the bundle (hash/schema drift) clears stale caches and re-warms civ files; always
+// re-pulls the standalone data files (guides + stats change on their own schedules). Never touches
+// aoe2techtree.net — only same-origin data/. Returns { drifted, changed }.
+export async function syncBundle({ onProgress } = {}) {
+  onProgress?.('Checking deployed data…');
+  const bundled = await fetchJson(`data/meta.json?_=${Date.now()}`);
+  const stored = store.getMeta();
+  const drifted = !stored || stored.hash !== bundled.hash || stored.schemaVersion !== bundled.schemaVersion;
+  if (drifted) {
+    store.setMeta({ ...bundled, schemaVersion: bundled.schemaVersion });
+    store.clearCachedCivs();
+    store.clearDataCache();
+    store.setDataVersion({ schemaVersion: bundled.schemaVersion, hash: bundled.hash });
+    onProgress?.('Loaded new tech-tree data; re-warming…');
+    const warm = (bundled.civOrder || []).map((c) =>
+      fetchJson(`data/civs/${c.slug}.json?_=${Date.now()}`).then((j) => store.putCiv(c.slug, j)).catch(() => {}));
+    await Promise.allSettled(warm);
+  }
+  onProgress?.('Refreshing data files…');
+  let changed = drifted;
+  await Promise.all(DATA_FILES.map((n) =>
+    refreshData(n).then((r) => { if (r.changed) changed = true; }).catch(() => {})));
+  return { drifted, changed };
 }
 
 // Fetch a civ file on demand; cache it; return the civ object.

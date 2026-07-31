@@ -130,29 +130,17 @@ async function showCiv(slug) {
 
 async function manualRefresh() {
   const btn = document.querySelector('.refresh-btn');
-  if (btn) { btn.disabled = true; btn.textContent = '↻ Refreshing…'; }
-  const parts = [];
-  let warn = false;
-  // Techtree facts (live, from aoe2techtree.net) — R4. Strategy preserved (R5).
+  if (btn) { btn.disabled = true; btn.textContent = '↻ Syncing…'; }
   try {
-    const res = await updater.liveRefresh({ onProgress: (m) => console.log('[refresh]', m) });
-    if (res.error) { parts.push(`facts skipped: ${res.error}`); warn = true; }
-    else if (res.changed) parts.push(`facts → ${res.hash} (${res.updated} civs)`);
-    else parts.push(`facts up to date (${res.hash})`);
+    const res = await updater.syncBundle({ onProgress: (m) => console.log('[sync]', m) });
+    toast(res.changed ? 'Synced to deployed data.' : 'Already current.', 'ok');
   } catch (e) {
-    parts.push(`facts failed: ${e.message}`); warn = true;
+    toast('Sync failed — keeping cached data: ' + e.message, 'error');
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = '↻ Refresh'; }
+    paintHeader();
+    route();
   }
-  // Ranked stats snapshot (rebuilt server-side by build-stats-live.mjs) — pull the latest file.
-  try {
-    const s = await updater.refreshData('aoestats');
-    parts.push(s.changed ? 'stats refreshed' : 'stats unchanged');
-  } catch (e) {
-    parts.push(`stats failed: ${e.message}`); warn = true;
-  }
-  toast(parts.join(' · ') + '. Strategy preserved.', warn ? 'warn' : 'ok');
-  if (btn) { btn.disabled = false; btn.textContent = '↻ Refresh'; }
-  paintHeader();
-  route();
 }
 
 async function boot() {
@@ -161,8 +149,6 @@ async function boot() {
   const res = await updater.ensureData({ onProgress: (m) => showLoading(m) });
   if (!res.ok) { toast(res.error, 'error'); showLoading('Could not load data.'); return; }
   if (res.reconciled) toast('Local data synchronized with the bundled snapshot.', 'ok');
-  if (res.live?.error) console.warn('[updater] live refresh deferred:', res.live.error);
-  else if (res.live?.changed) toast(`Live update found: hash ${res.live.hash}.`, 'ok');
   paintHeader();
   window.addEventListener('hashchange', route);
   route();

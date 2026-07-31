@@ -46,7 +46,7 @@ python3 -m http.server 8000
 
 ## Update the data
 
-Two paths, both governed by **rules R1–R5** (see [`RULES.md`](./RULES.md)):
+The SPA reads only the committed bundle; CI rebuilds it. Governed by the **sync rules** (see [`RULES.md`](./RULES.md)):
 
 1. **Rebuild the bundle** (offline, authoritative):
    ```bash
@@ -55,12 +55,14 @@ Two paths, both governed by **rules R1–R5** (see [`RULES.md`](./RULES.md)):
    ```
    This re-derives every civ's `facts` from upstream, preserves hand-curated `strategy`
    (read from `data/strategy.json`), and rewrites `data/meta.json` + `data/civs/*.json`.
+   `scripts/build-images.mjs` mirrors the aoe2techtree icons into `img/`; `scripts/update-all.mjs`
+   runs the full set (stats + techtree + images).
 
-2. **Live refresh** (in-browser): the **↻ Refresh** button fetches the live `data.json` +
-   English `strings.json` from aoe2techtree.net (CORS is open), re-derives facts, and pushes
-   them into `localStorage` — **without touching curated strategy** (rule R5). It also re-pulls
-   the latest `data/aoestats.json` snapshot from the host, so ranked stats refresh without a
-   rebuild.
+2. **SPA reads only cached data**: the app loads exclusively from the committed `data/` bundle +
+   `img/` icons (same origin) — it never fetches aoe2techtree.net. A daily CI rebuild
+   (`.github/workflows/update-data.yml`) keeps them current. The **↻ Refresh** button cache-busts
+   and re-syncs to the latest deployed bundle (R2 drift picks up new techtree facts; guides + stats
+   are re-pulled); curated strategy is never touched (rule R5).
 
 3. **Tech-tree structure** (regional units/buildings + icon map): these come from the repo
    **tarball** (`data/trees/*.json`), not `data.json`, so refresh them when a patch/DLC reshapes
@@ -99,12 +101,12 @@ It's a static site, so it deploys to GitHub Pages with **no build step**:
    `https://<user>.github.io/<repo>/` — all asset paths are relative, so the subpath works, and
    ES modules load fine over HTTPS.
 
-The deployed `data/aoestats.json` is the **committed snapshot** — Pages has no runtime to run the
-accumulator. Stats stay fresh automatically instead: [`.github/workflows/update-stats.yml`](.github/workflows/update-stats.yml)
-runs `update-all.mjs --no-build` once a day (caching the accumulator's `.cache/live/` store across
-runs) and commits the regenerated `data/aoestats.json` back to `master` — with Pages deploying
-from the branch, that republishes the site. The in-browser **↻ Refresh** button works on Pages
-either way (it fetches aoe2techtree.net live and re-pulls the stats snapshot from the host).
+The deployed `data/` + `img/` are the **committed snapshot** — Pages has no runtime to run the
+rebuild. They stay fresh automatically instead: [`.github/workflows/update-data.yml`](.github/workflows/update-data.yml)
+runs `update-all.mjs` once a day (techtree facts + images from aoe2techtree.net, stats from the live
+backend; the accumulator's `.cache/live/` store is cached across runs) and commits the result back to
+`master` — with Pages deploying from the branch, that republishes the site. The in-browser **↻ Refresh**
+button re-syncs to the latest deployed bundle (same-origin only).
 
 ## Layout
 
