@@ -1,0 +1,62 @@
+# .github/workflows/update-stats.yml — daily ranked-statistics refresh.
+#
+# Runs the live-backend stats accumulator once a day, then commits the regenerated
+# data/aoestats.json back to master so a branch-deployed GitHub Pages site republishes with
+# fresh numbers. The accumulator's local store (.cache/live/store.json) is persisted across runs
+# via actions/cache, so the window grows toward MAX_WEEKS (12) instead of resetting each run.
+#
+# Manual run: Actions tab → "Update statistics" → Run workflow.
+
+name: Update statistics
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # daily ~04:17 UTC (off the round hour to avoid the fleet rush)
+  workflow_dispatch:
+
+permissions:
+  contents: write           # commit data/aoestats.json back to master
+
+# Don't let two refreshes overlap (a run can take a few minutes).
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Restore the accumulator store so the window keeps growing run-over-run (ephemeral runners
+      # start with no .cache; without this every run would reset to ~2 weeks).
+      - name: Restore stats store
+        uses: actions/cache@v4
+        with:
+          path: .cache/live
+          key: stats-store-${{ github.run_id }}      # unique → always saves the updated store
+          restore-keys: stats-store-                 # …and restores the most recent prior one
+
+      - name: Rebuild statistics
+        env:
+          FORCE: '1'        # bypass the 1h gate; always run on CI
+          MAX_WEEKS: '12'
+        # build-stats-live.mjs (→ scrape-aoestats.mjs fallback if the backend is unreachable);
+        # --no-build skips the techtree rebuild (that only changes on a new patch).
+        run: node scripts/update-all.mjs --no-build
+
+      - name: Commit refreshed stats
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/aoestats.json; then
+            echo "no stats change — nothing to commit"
+          else
+            git add data/aoestats.json
+            git commit -m "chore(stats): daily refresh ($(date -u +%F))"
+            git push
+          fi

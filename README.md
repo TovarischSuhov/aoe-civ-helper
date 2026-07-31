@@ -58,7 +58,9 @@ Two paths, both governed by **rules R1–R5** (see [`RULES.md`](./RULES.md)):
 
 2. **Live refresh** (in-browser): the **↻ Refresh** button fetches the live `data.json` +
    English `strings.json` from aoe2techtree.net (CORS is open), re-derives facts, and pushes
-   them into `localStorage` — **without touching curated strategy** (rule R5).
+   them into `localStorage` — **without touching curated strategy** (rule R5). It also re-pulls
+   the latest `data/aoestats.json` snapshot from the host, so ranked stats refresh without a
+   rebuild.
 
 3. **Tech-tree structure** (regional units/buildings + icon map): these come from the repo
    **tarball** (`data/trees/*.json`), not `data.json`, so refresh them when a patch/DLC reshapes
@@ -71,10 +73,38 @@ Two paths, both governed by **rules R1–R5** (see [`RULES.md`](./RULES.md)):
    # picture_index field — see js/derive.js / scripts/build-regional.mjs.
    ```
 
-4. **Ranked statistics** (`data/aoestats.json`): the committed file is a scraped aoestats.io
-   snapshot. Self-computing it from raw Parquet needs aoestats.io egress + `pyarrow` and is done
-   with `scripts/build-stats.mjs` (or the `update-all.mjs` orchestrator); until then the snapshot
-   has no per-map-type (`byMapType`) or matchup matrix data.
+4. **Ranked statistics** (`data/aoestats.json`): self-aggregated from the **live official match
+   backend** by `scripts/build-stats-live.mjs`, which **accumulates** matches into a local store
+   (`.cache/live/store.json`) so the window grows ~1 week per run up to a cap, then rolls forward:
+   ```bash
+   node scripts/build-stats-live.mjs               # top 2000 players; accept last 2w as new; keep 12w
+   PLAYERS=4000 WEEKS=4 MAX_WEEKS=26 node scripts/build-stats-live.mjs
+   RESET=1 node scripts/build-stats-live.mjs       # clear the store (fresh start)
+   MAX_WEEKS=0 node scripts/build-stats-live.mjs   # keep all accumulated history
+   ```
+   It produces all four views (overall + per-map-type win rates, civ-vs-civ, civ-vs-civ-per-map).
+   `WEEKS` = what counts as "new" this run; `MAX_WEEKS` (default 12) = the retention/lookback cap.
+   Run it on a schedule (e.g. every 12h) so the window fills; the store stays bounded by retention.
+   `scripts/update-all.mjs` runs `build-stats-live.mjs` and falls back to `scrape-aoestats.mjs`
+   (aoestats.io live pages) if the backend is unreachable. `scripts/build-stats.mjs` is the older
+   aoestats.io Parquet path — kept but not the default (those weekly dumps have been stale since
+   2026-02-07).
+
+## Deploy (GitHub Pages)
+
+It's a static site, so it deploys to GitHub Pages with **no build step**:
+
+1. Push the repo to GitHub.
+2. **Settings → Pages → Source: Deploy from a branch → `master` / `/ (root)`**. It goes live at
+   `https://<user>.github.io/<repo>/` — all asset paths are relative, so the subpath works, and
+   ES modules load fine over HTTPS.
+
+The deployed `data/aoestats.json` is the **committed snapshot** — Pages has no runtime to run the
+accumulator. Stats stay fresh automatically instead: [`.github/workflows/update-stats.yml`](.github/workflows/update-stats.yml)
+runs `update-all.mjs --no-build` once a day (caching the accumulator's `.cache/live/` store across
+runs) and commits the regenerated `data/aoestats.json` back to `master` — with Pages deploying
+from the branch, that republishes the site. The in-browser **↻ Refresh** button works on Pages
+either way (it fetches aoe2techtree.net live and re-pulls the stats snapshot from the host).
 
 ## Layout
 
@@ -95,14 +125,20 @@ data/
   economy.json                    # general Economy Guide (how to farm/chop/mine)
   buildorders.json                # universal Build Orders (FC/scouts/archers/…) + sources
   tips.json                       # distilled improvement tips per source (kiritastrich/SOTL/Hera/…)
-  aoestats.json                   # ranked win/play rates (scraped snapshot until build-stats runs)
+  aoestats.json                   # ranked win/play/matchup rates (self-aggregated from the live backend)
   civs/<slug>.json                # per-civ: facts (auto) + strategy (curated) + sotl + regional
   version.json                    # tiny version probe
 scripts/
-  build.mjs           # fetch aoe2techtree → derive facts → write meta.json + civs/*.json
-  build-regional.mjs  # repo tarball → data/regional.json (regional units/buildings)
-  build-stats.mjs     # self-compute aoestats from raw Parquet (needs egress + pyarrow)
-  update-all.mjs      # auto-rebuild: refresh aoestats + rebuild techtree facts
+  build.mjs              # fetch aoe2techtree → derive facts → write meta.json + civs/*.json
+  build-regional.mjs     # repo tarball → data/regional.json (regional units/buildings)
+  build-stats-live.mjs   # PRIMARY stats: live backend → accumulator store → aoestats.json (4 views)
+  scrape-aoestats.mjs    # FALLBACK stats: scrape aoestats.io live pages → aoestats.json
+  build-stats.mjs        # older aoestats Parquet path (stale; not the default)
+  update-all.mjs         # auto-rebuild: build-stats-live (→ scrape fallback) + rebuild techtree facts
+  lib/maps.mjs           # shared curated map-name → open/closed/hybrid/water classification
+  lib/util.mjs           # shared bounded-concurrency pool + slug helper
+.cache/live/store.json   # the stats accumulator's persistent match store (gitignored)
+logs/                    # cron/pipeline logs (gitignored)
 ```
 
 ## Data model
@@ -150,8 +186,10 @@ relevant units/building exist. Blacksmith upgrade lines are included.
   `picture_index` fields, not from `data.json`, so they are regenerated separately
   (`scripts/build-regional.mjs`). Unique-tech icons are the aoe2techtree silver/gold age markers —
   there is no per-tech art in the data.
-- `aoestats.json` is a scraped snapshot; per-map-type and matchup-matrix stats only appear once
-  `build-stats.mjs` runs on raw Parquet (needs aoestats.io egress + `pyarrow`).
+- `aoestats.json` is self-aggregated from the live match backend by `build-stats-live.mjs` and
+  accumulated over up to `MAX_WEEKS` (12) weeks. It samples the top of the 1v1 ladder, so figures
+  reflect high-level play; civ-vs-civ / per-map-type cells with few games are noisy (filter by
+  `games`). The older aoestats Parquet path (`build-stats.mjs`) is stale since 2026-02-07.
 - `aoe2database.com` is a JavaScript SPA, so it is treated as secondary context/attribution,
   not a structured feed.
 - Curated strategy covers the civilizations the source channel actually discusses (~20).
