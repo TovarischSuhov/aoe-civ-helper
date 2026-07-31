@@ -381,89 +381,89 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 50.82,
-    "playRate": 1.74,
-    "picks": 364,
+    "winRate": 50.13,
+    "playRate": 1.91,
+    "picks": 766,
     "ladder": "1v1 Random Map",
-    "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T13:13:19.000Z",
+    "rating": "top 4000 (high-Elo sample)",
+    "updated": "2026-07-31T13:36:56.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 52,
-        "playRate": 1.95,
-        "picks": 100
+        "winRate": 50.26,
+        "playRate": 2.01,
+        "picks": 193
       },
       "other": {
-        "winRate": 49.59,
-        "playRate": 1.75,
-        "picks": 246
+        "winRate": 49.91,
+        "playRate": 1.95,
+        "picks": 529
       },
       "closed": {
-        "winRate": 66.67,
-        "playRate": 1.17,
-        "picks": 15
+        "winRate": 57.58,
+        "playRate": 1.28,
+        "picks": 33
       },
       "hybrid": {
-        "winRate": 33.33,
-        "playRate": 0.75,
-        "picks": 3
+        "winRate": 36.36,
+        "playRate": 1.19,
+        "picks": 11
       }
     },
     "strongAgainst": [
       {
-        "name": "teutons",
-        "games": 9,
-        "winRate": 77.78
+        "name": "saracens",
+        "games": 16,
+        "winRate": 81.25
+      },
+      {
+        "name": "malians",
+        "games": 11,
+        "winRate": 72.73
       },
       {
         "name": "bengalis",
-        "games": 8,
-        "winRate": 75
-      },
-      {
-        "name": "saracens",
         "games": 10,
         "winRate": 70
       },
       {
-        "name": "aztecs",
-        "games": 9,
-        "winRate": 66.67
+        "name": "goths",
+        "games": 13,
+        "winRate": 69.23
       },
       {
-        "name": "mongols",
-        "games": 12,
+        "name": "khitans",
+        "games": 15,
         "winRate": 66.67
       }
     ],
     "weakAgainst": [
       {
-        "name": "italians",
-        "games": 9,
-        "winRate": 22.22
+        "name": "hindustanis",
+        "games": 12,
+        "winRate": 16.67
       },
       {
-        "name": "bohemians",
-        "games": 8,
-        "winRate": 25
+        "name": "italians",
+        "games": 17,
+        "winRate": 23.53
       },
       {
         "name": "portuguese",
-        "games": 9,
+        "games": 13,
+        "winRate": 30.77
+      },
+      {
+        "name": "celts",
+        "games": 18,
         "winRate": 33.33
       },
       {
-        "name": "huns",
-        "games": 9,
-        "winRate": 33.33
-      },
-      {
-        "name": "sicilians",
-        "games": 9,
+        "name": "armenians",
+        "games": 12,
         "winRate": 33.33
       }
     ]

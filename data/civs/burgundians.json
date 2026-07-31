@@ -369,90 +369,90 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.3,
-    "playRate": 2.4,
-    "picks": 501,
+    "winRate": 50.27,
+    "playRate": 2.32,
+    "picks": 931,
     "ladder": "1v1 Random Map",
-    "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T13:13:19.000Z",
+    "rating": "top 4000 (high-Elo sample)",
+    "updated": "2026-07-31T13:36:56.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burgundians",
     "byMapType": {
       "other": {
-        "winRate": 49.51,
-        "playRate": 2.19,
-        "picks": 309
+        "winRate": 50.26,
+        "playRate": 2.11,
+        "picks": 573
       },
       "closed": {
-        "winRate": 56.58,
-        "playRate": 5.91,
-        "picks": 76
+        "winRate": 52.94,
+        "playRate": 5.28,
+        "picks": 136
       },
       "open": {
-        "winRate": 51.38,
-        "playRate": 2.13,
-        "picks": 109
+        "winRate": 48.56,
+        "playRate": 2.17,
+        "picks": 208
       },
       "hybrid": {
-        "winRate": 71.43,
-        "playRate": 1.74,
-        "picks": 7
+        "winRate": 50,
+        "playRate": 1.52,
+        "picks": 14
       }
     },
     "strongAgainst": [
       {
-        "name": "bohemians",
-        "games": 18,
-        "winRate": 83.33
-      },
-      {
         "name": "sicilians",
+        "games": 15,
+        "winRate": 80
+      },
+      {
+        "name": "romans",
         "games": 9,
         "winRate": 77.78
       },
       {
-        "name": "teutons",
-        "games": 9,
-        "winRate": 77.78
+        "name": "cumans",
+        "games": 19,
+        "winRate": 73.68
       },
       {
-        "name": "magyars",
-        "games": 8,
-        "winRate": 75
+        "name": "byzantines",
+        "games": 15,
+        "winRate": 73.33
       },
       {
-        "name": "hindustanis",
-        "games": 8,
-        "winRate": 75
+        "name": "khmer",
+        "games": 17,
+        "winRate": 70.59
       }
     ],
     "weakAgainst": [
       {
-        "name": "aztecs",
-        "games": 8,
-        "winRate": 25
-      },
-      {
-        "name": "chinese",
-        "games": 15,
-        "winRate": 26.67
-      },
-      {
-        "name": "lithuanians",
-        "games": 11,
-        "winRate": 27.27
-      },
-      {
-        "name": "spanish",
-        "games": 21,
+        "name": "mapuche",
+        "games": 14,
         "winRate": 28.57
       },
       {
-        "name": "mongols",
-        "games": 23,
-        "winRate": 30.43
+        "name": "spanish",
+        "games": 38,
+        "winRate": 28.95
+      },
+      {
+        "name": "lithuanians",
+        "games": 18,
+        "winRate": 33.33
+      },
+      {
+        "name": "saracens",
+        "games": 15,
+        "winRate": 33.33
+      },
+      {
+        "name": "chinese",
+        "games": 25,
+        "winRate": 36
       }
     ]
   },

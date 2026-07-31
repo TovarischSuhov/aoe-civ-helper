@@ -239,90 +239,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.12,
-    "playRate": 1.97,
-    "picks": 411,
+    "winRate": 49.85,
+    "playRate": 1.65,
+    "picks": 662,
     "ladder": "1v1 Random Map",
-    "rating": "top 2000 (high-Elo sample)",
-    "updated": "2026-07-31T13:13:19.000Z",
+    "rating": "top 4000 (high-Elo sample)",
+    "updated": "2026-07-31T13:36:56.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 51,
-        "playRate": 1.77,
-        "picks": 249
+        "winRate": 51.34,
+        "playRate": 1.52,
+        "picks": 411
       },
       "open": {
-        "winRate": 45.22,
-        "playRate": 2.25,
-        "picks": 115
+        "winRate": 45.4,
+        "playRate": 1.7,
+        "picks": 163
       },
       "hybrid": {
-        "winRate": 55.56,
-        "playRate": 2.24,
-        "picks": 9
+        "winRate": 50,
+        "playRate": 1.95,
+        "picks": 18
       },
       "closed": {
-        "winRate": 57.89,
-        "playRate": 2.95,
-        "picks": 38
+        "winRate": 51.43,
+        "playRate": 2.72,
+        "picks": 70
       }
     },
     "strongAgainst": [
       {
-        "name": "malay",
+        "name": "goths",
         "games": 8,
-        "winRate": 87.5
+        "winRate": 100
       },
       {
-        "name": "incas",
+        "name": "armenians",
         "games": 10,
         "winRate": 80
       },
       {
-        "name": "britons",
-        "games": 10,
-        "winRate": 80
+        "name": "wu",
+        "games": 9,
+        "winRate": 77.78
       },
       {
-        "name": "burgundians",
-        "games": 9,
-        "winRate": 66.67
+        "name": "bulgarians",
+        "games": 8,
+        "winRate": 75
       },
       {
-        "name": "persians",
-        "games": 9,
-        "winRate": 66.67
+        "name": "saracens",
+        "games": 12,
+        "winRate": 75
       }
     ],
     "weakAgainst": [
       {
-        "name": "malians",
-        "games": 8,
-        "winRate": 12.5
-      },
-      {
-        "name": "celts",
-        "games": 13,
-        "winRate": 23.08
-      },
-      {
-        "name": "bohemians",
-        "games": 8,
-        "winRate": 25
-      },
-      {
-        "name": "vikings",
-        "games": 8,
-        "winRate": 25
+        "name": "romans",
+        "games": 10,
+        "winRate": 20
       },
       {
         "name": "aztecs",
-        "games": 15,
-        "winRate": 26.67
+        "games": 19,
+        "winRate": 26.32
+      },
+      {
+        "name": "celts",
+        "games": 21,
+        "winRate": 28.57
+      },
+      {
+        "name": "malians",
+        "games": 14,
+        "winRate": 28.57
+      },
+      {
+        "name": "vikings",
+        "games": 10,
+        "winRate": 30
       }
     ]
   },
