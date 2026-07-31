@@ -248,7 +248,8 @@
         "open": "Weak",
         "closed": "OK",
         "hybrid": "Weak",
-        "water": "Strong"
+        "water": "Strong",
+        "nomad": "Weak"
       },
       "byMap": {
         "open": {
@@ -314,6 +315,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -355,12 +372,12 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.03,
-    "playRate": 1.7,
-    "picks": 682,
+    "winRate": 50.83,
+    "playRate": 1.72,
+    "picks": 722,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -368,34 +385,34 @@
     "byMapType": {
       "closed": {
         "winRate": 41.46,
-        "playRate": 1.59,
+        "playRate": 1.54,
         "picks": 41
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 66.67,
-        "playRate": 2.27,
+        "playRate": 2.25,
         "picks": 21
       },
       "open": {
-        "winRate": 55.76,
-        "playRate": 1.72,
-        "picks": 165
+        "winRate": 55.19,
+        "playRate": 1.82,
+        "picks": 183
       },
       "other": {
-        "winRate": 49.45,
-        "playRate": 1.68,
-        "picks": 455
+        "winRate": 49.27,
+        "playRate": 1.69,
+        "picks": 477
       }
     },
     "strongAgainst": [
       {
-        "name": "dravidians",
-        "games": 8,
-        "winRate": 75
+        "name": "tatars",
+        "games": 13,
+        "winRate": 76.92
       },
       {
-        "name": "tatars",
-        "games": 12,
+        "name": "dravidians",
+        "games": 8,
         "winRate": 75
       },
       {
@@ -409,9 +426,9 @@
         "winRate": 70
       },
       {
-        "name": "ethiopians",
-        "games": 12,
-        "winRate": 66.67
+        "name": "jurchens",
+        "games": 10,
+        "winRate": 70
       }
     ],
     "weakAgainst": [
@@ -431,14 +448,14 @@
         "winRate": 18.18
       },
       {
-        "name": "poles",
-        "games": 15,
-        "winRate": 20
+        "name": "malay",
+        "games": 13,
+        "winRate": 23.08
       },
       {
-        "name": "bengalis",
-        "games": 10,
-        "winRate": 20
+        "name": "mayans",
+        "games": 8,
+        "winRate": 25
       }
     ]
   },

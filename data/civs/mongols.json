@@ -250,7 +250,8 @@
         "open": "OK",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -316,6 +317,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -363,90 +380,90 @@
     "takeaway": "Honourable mention: the best scout opening + Mangudai; even better on maps with extra huntables, but Arabia late-game stats are weak."
   },
   "stats": {
-    "winRate": 53.16,
-    "playRate": 6.19,
-    "picks": 2487,
+    "winRate": 53.24,
+    "playRate": 6.23,
+    "picks": 2611,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mongols",
     "byMapType": {
       "other": {
-        "winRate": 53.1,
-        "playRate": 6.67,
-        "picks": 1806
+        "winRate": 53.13,
+        "playRate": 6.73,
+        "picks": 1903
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 52.63,
-        "playRate": 4.11,
+        "playRate": 4.08,
         "picks": 38
       },
       "open": {
-        "winRate": 54.18,
-        "playRate": 5.74,
-        "picks": 550
+        "winRate": 54.26,
+        "playRate": 5.73,
+        "picks": 575
       },
       "closed": {
-        "winRate": 48.39,
-        "playRate": 3.61,
-        "picks": 93
+        "winRate": 49.47,
+        "playRate": 3.57,
+        "picks": 95
       }
     },
     "strongAgainst": [
       {
-        "name": "georgians",
-        "games": 28,
-        "winRate": 71.43
-      },
-      {
-        "name": "teutons",
-        "games": 31,
-        "winRate": 70.97
-      },
-      {
         "name": "bulgarians",
-        "games": 27,
-        "winRate": 70.37
-      },
-      {
-        "name": "poles",
-        "games": 35,
-        "winRate": 68.57
+        "games": 30,
+        "winRate": 70
       },
       {
         "name": "wu",
-        "games": 19,
-        "winRate": 68.42
+        "games": 20,
+        "winRate": 70
+      },
+      {
+        "name": "georgians",
+        "games": 30,
+        "winRate": 70
+      },
+      {
+        "name": "teutons",
+        "games": 33,
+        "winRate": 69.7
+      },
+      {
+        "name": "poles",
+        "games": 36,
+        "winRate": 69.44
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 10,
-        "winRate": 30
+        "games": 11,
+        "winRate": 27.27
       },
       {
         "name": "chinese",
-        "games": 94,
-        "winRate": 36.17
-      },
-      {
-        "name": "franks",
-        "games": 50,
-        "winRate": 38
+        "games": 100,
+        "winRate": 35
       },
       {
         "name": "dravidians",
-        "games": 20,
-        "winRate": 40
+        "games": 21,
+        "winRate": 38.1
       },
       {
-        "name": "gurjaras",
-        "games": 27,
-        "winRate": 44.44
+        "name": "franks",
+        "games": 52,
+        "winRate": 40.38
+      },
+      {
+        "name": "aztecs",
+        "games": 32,
+        "winRate": 43.75
       }
     ]
   },

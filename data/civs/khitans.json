@@ -265,7 +265,8 @@
         "open": "OK",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -331,6 +332,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -342,36 +359,36 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 45.87,
-    "playRate": 1.42,
-    "picks": 569,
+    "winRate": 46.11,
+    "playRate": 1.41,
+    "picks": 592,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 45.33,
-        "playRate": 1.38,
-        "picks": 375
+        "winRate": 44.85,
+        "playRate": 1.37,
+        "picks": 388
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 83.33,
-        "playRate": 0.65,
+        "playRate": 0.64,
         "picks": 6
       },
       "open": {
-        "winRate": 43.95,
-        "playRate": 1.64,
-        "picks": 157
+        "winRate": 45.12,
+        "playRate": 1.63,
+        "picks": 164
       },
       "closed": {
-        "winRate": 54.84,
-        "playRate": 1.2,
-        "picks": 31
+        "winRate": 58.82,
+        "playRate": 1.28,
+        "picks": 34
       }
     },
     "strongAgainst": [
@@ -381,9 +398,14 @@
         "winRate": 80
       },
       {
+        "name": "malians",
+        "games": 8,
+        "winRate": 75
+      },
+      {
         "name": "poles",
-        "games": 10,
-        "winRate": 70
+        "games": 11,
+        "winRate": 72.73
       },
       {
         "name": "incas",
@@ -391,14 +413,9 @@
         "winRate": 66.67
       },
       {
-        "name": "huns",
-        "games": 16,
-        "winRate": 62.5
-      },
-      {
-        "name": "berbers",
-        "games": 8,
-        "winRate": 62.5
+        "name": "chinese",
+        "games": 27,
+        "winRate": 62.96
       }
     ],
     "weakAgainst": [

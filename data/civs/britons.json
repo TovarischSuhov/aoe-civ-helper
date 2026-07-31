@@ -223,7 +223,8 @@
         "open": "Weak",
         "closed": "Strong",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -289,6 +290,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -296,56 +313,56 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.06,
-    "playRate": 1.86,
-    "picks": 746,
+    "winRate": 49.35,
+    "playRate": 1.84,
+    "picks": 772,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
-        "winRate": 43.79,
+        "winRate": 44.07,
         "playRate": 1.76,
-        "picks": 169
+        "picks": 177
       },
       "other": {
-        "winRate": 50.4,
-        "playRate": 1.84,
-        "picks": 498
+        "winRate": 50.78,
+        "playRate": 1.82,
+        "picks": 514
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 47.06,
-        "playRate": 1.84,
+        "playRate": 1.82,
         "picks": 17
       },
       "closed": {
-        "winRate": 53.23,
-        "playRate": 2.4,
-        "picks": 62
+        "winRate": 53.13,
+        "playRate": 2.41,
+        "picks": 64
       }
     },
     "strongAgainst": [
-      {
-        "name": "saracens",
-        "games": 11,
-        "winRate": 81.82
-      },
       {
         "name": "jurchens",
         "games": 10,
         "winRate": 80
       },
       {
-        "name": "burmese",
-        "games": 14,
-        "winRate": 64.29
+        "name": "saracens",
+        "games": 12,
+        "winRate": 75
       },
       {
-        "name": "portuguese",
+        "name": "gurjaras",
+        "games": 17,
+        "winRate": 64.71
+      },
+      {
+        "name": "burmese",
         "games": 14,
         "winRate": 64.29
       },
@@ -358,8 +375,8 @@
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 17,
-        "winRate": 5.88
+        "games": 19,
+        "winRate": 15.79
       },
       {
         "name": "bengalis",
@@ -367,12 +384,12 @@
         "winRate": 28.57
       },
       {
-        "name": "georgians",
-        "games": 10,
-        "winRate": 30
+        "name": "hindustanis",
+        "games": 13,
+        "winRate": 30.77
       },
       {
-        "name": "hindustanis",
+        "name": "koreans",
         "games": 13,
         "winRate": 30.77
       },

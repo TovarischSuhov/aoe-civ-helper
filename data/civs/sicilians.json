@@ -213,7 +213,8 @@
         "open": "OK",
         "closed": "Strong",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "Strong"
       },
       "byMap": {
         "open": {
@@ -279,6 +280,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -286,36 +303,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.35,
-    "playRate": 1.88,
-    "picks": 754,
+    "winRate": 47.25,
+    "playRate": 1.87,
+    "picks": 783,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 46.35,
-        "playRate": 2,
-        "picks": 192
+        "winRate": 46.5,
+        "playRate": 1.99,
+        "picks": 200
       },
       "other": {
-        "winRate": 47.63,
-        "playRate": 1.87,
-        "picks": 506
+        "winRate": 47.34,
+        "playRate": 1.86,
+        "picks": 526
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 38.46,
-        "playRate": 1.41,
+        "playRate": 1.39,
         "picks": 13
       },
       "closed": {
-        "winRate": 51.16,
-        "playRate": 1.67,
-        "picks": 43
+        "winRate": 52.27,
+        "playRate": 1.66,
+        "picks": 44
       }
     },
     "strongAgainst": [
@@ -330,31 +347,31 @@
         "winRate": 75
       },
       {
+        "name": "byzantines",
+        "games": 10,
+        "winRate": 70
+      },
+      {
         "name": "dravidians",
         "games": 13,
         "winRate": 69.23
       },
       {
-        "name": "byzantines",
-        "games": 9,
-        "winRate": 66.67
-      },
-      {
-        "name": "persians",
-        "games": 29,
-        "winRate": 62.07
+        "name": "magyars",
+        "games": 28,
+        "winRate": 60.71
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 9,
-        "winRate": 11.11
+        "games": 10,
+        "winRate": 10
       },
       {
         "name": "goths",
-        "games": 17,
-        "winRate": 17.65
+        "games": 18,
+        "winRate": 16.67
       },
       {
         "name": "burgundians",

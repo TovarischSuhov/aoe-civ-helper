@@ -243,7 +243,8 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -309,6 +310,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -340,36 +357,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50,
-    "playRate": 1.28,
-    "picks": 516,
+    "winRate": 50.74,
+    "playRate": 1.3,
+    "picks": 544,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 46.22,
-        "playRate": 1.32,
-        "picks": 357
+        "winRate": 47.07,
+        "playRate": 1.33,
+        "picks": 376
       },
       "open": {
-        "winRate": 59.52,
-        "playRate": 1.31,
-        "picks": 126
+        "winRate": 60.15,
+        "playRate": 1.33,
+        "picks": 133
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 64.29,
-        "playRate": 1.52,
+        "playRate": 1.5,
         "picks": 14
       },
       "closed": {
-        "winRate": 47.37,
-        "playRate": 0.74,
-        "picks": 19
+        "winRate": 47.62,
+        "playRate": 0.79,
+        "picks": 21
       }
     },
     "strongAgainst": [
@@ -390,13 +407,13 @@
       },
       {
         "name": "spanish",
-        "games": 15,
+        "games": 18,
         "winRate": 66.67
       },
       {
         "name": "vikings",
-        "games": 13,
-        "winRate": 61.54
+        "games": 14,
+        "winRate": 64.29
       }
     ],
     "weakAgainst": [
@@ -421,9 +438,9 @@
         "winRate": 33.33
       },
       {
-        "name": "franks",
-        "games": 12,
-        "winRate": 33.33
+        "name": "chinese",
+        "games": 26,
+        "winRate": 34.62
       }
     ]
   },

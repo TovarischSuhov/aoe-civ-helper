@@ -264,7 +264,8 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -330,6 +331,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -361,48 +378,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.26,
-    "playRate": 1.09,
-    "picks": 438,
+    "winRate": 46.14,
+    "playRate": 1.08,
+    "picks": 453,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 48.33,
-        "playRate": 1.11,
-        "picks": 300
+        "winRate": 47.42,
+        "playRate": 1.1,
+        "picks": 310
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 60,
         "playRate": 0.54,
         "picks": 5
       },
       "open": {
-        "winRate": 40.22,
-        "playRate": 0.96,
-        "picks": 92
+        "winRate": 38.14,
+        "playRate": 0.97,
+        "picks": 97
       },
       "closed": {
         "winRate": 53.66,
-        "playRate": 1.59,
+        "playRate": 1.54,
         "picks": 41
       }
     },
     "strongAgainst": [
       {
-        "name": "turks",
+        "name": "italians",
         "games": 11,
         "winRate": 81.82
       },
       {
-        "name": "italians",
-        "games": 11,
-        "winRate": 81.82
+        "name": "turks",
+        "games": 12,
+        "winRate": 75
       },
       {
         "name": "aztecs",
@@ -428,8 +445,8 @@
       },
       {
         "name": "lithuanians",
-        "games": 11,
-        "winRate": 27.27
+        "games": 12,
+        "winRate": 25
       },
       {
         "name": "khmer",

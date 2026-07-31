@@ -226,7 +226,8 @@
         "open": "OK",
         "closed": "Strong",
         "hybrid": "Strong",
-        "water": "Strong"
+        "water": "Strong",
+        "nomad": "Strong"
       },
       "byMap": {
         "open": {
@@ -292,6 +293,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -303,48 +320,48 @@
     "takeaway": "#1 at the very top Elo. Cheaper techs + extra farm food + fire lancers + Chu Ko Nu shine mid/late, but you start down 200 food and need strong game sense to exploit the cheaper techs."
   },
   "stats": {
-    "winRate": 54.18,
-    "playRate": 2.86,
-    "picks": 1148,
+    "winRate": 54.13,
+    "playRate": 2.83,
+    "picks": 1186,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 55.44,
-        "playRate": 2.97,
-        "picks": 285
+        "winRate": 55.41,
+        "playRate": 2.95,
+        "picks": 296
       },
       "other": {
-        "winRate": 53.99,
-        "playRate": 2.96,
-        "picks": 802
+        "winRate": 54.05,
+        "playRate": 2.92,
+        "picks": 827
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 57.14,
-        "playRate": 2.27,
+        "playRate": 2.25,
         "picks": 21
       },
       "closed": {
-        "winRate": 47.5,
-        "playRate": 1.55,
-        "picks": 40
+        "winRate": 45.24,
+        "playRate": 1.58,
+        "picks": 42
       }
     },
     "strongAgainst": [
       {
-        "name": "khmer",
-        "games": 28,
-        "winRate": 78.57
-      },
-      {
         "name": "romans",
         "games": 14,
         "winRate": 78.57
+      },
+      {
+        "name": "khmer",
+        "games": 29,
+        "winRate": 75.86
       },
       {
         "name": "tatars",
@@ -357,9 +374,9 @@
         "winRate": 68.75
       },
       {
-        "name": "cumans",
-        "games": 15,
-        "winRate": 66.67
+        "name": "ethiopians",
+        "games": 16,
+        "winRate": 68.75
       }
     ],
     "weakAgainst": [
@@ -367,6 +384,16 @@
         "name": "spanish",
         "games": 20,
         "winRate": 25
+      },
+      {
+        "name": "slavs",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "bengalis",
+        "games": 18,
+        "winRate": 33.33
       },
       {
         "name": "teutons",
@@ -377,16 +404,6 @@
         "name": "bohemians",
         "games": 9,
         "winRate": 33.33
-      },
-      {
-        "name": "bengalis",
-        "games": 17,
-        "winRate": 35.29
-      },
-      {
-        "name": "slavs",
-        "games": 8,
-        "winRate": 37.5
       }
     ]
   },

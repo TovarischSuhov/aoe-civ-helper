@@ -257,7 +257,8 @@
         "open": "OK",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -323,6 +324,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -330,53 +347,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.27,
-    "playRate": 1.81,
-    "picks": 728,
+    "winRate": 50.13,
+    "playRate": 1.8,
+    "picks": 754,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
       "other": {
-        "winRate": 49.24,
-        "playRate": 1.71,
-        "picks": 463
+        "winRate": 49.69,
+        "playRate": 1.69,
+        "picks": 477
       },
       "closed": {
-        "winRate": 54.41,
-        "playRate": 2.64,
-        "picks": 68
+        "winRate": 54.93,
+        "playRate": 2.67,
+        "picks": 71
       },
-      "hybrid": {
-        "winRate": 41.67,
-        "playRate": 2.6,
-        "picks": 24
+      "nomad": {
+        "winRate": 42.31,
+        "playRate": 2.79,
+        "picks": 26
       },
       "open": {
-        "winRate": 52.6,
-        "playRate": 1.8,
-        "picks": 173
+        "winRate": 50.56,
+        "playRate": 1.79,
+        "picks": 180
       }
     },
     "strongAgainst": [
       {
         "name": "armenians",
-        "games": 15,
-        "winRate": 80
-      },
-      {
-        "name": "turks",
-        "games": 17,
-        "winRate": 76.47
+        "games": 16,
+        "winRate": 75
       },
       {
         "name": "wu",
         "games": 8,
         "winRate": 75
+      },
+      {
+        "name": "turks",
+        "games": 19,
+        "winRate": 73.68
       },
       {
         "name": "sicilians",
@@ -391,29 +408,29 @@
     ],
     "weakAgainst": [
       {
+        "name": "georgians",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
         "name": "huns",
         "games": 15,
         "winRate": 26.67
       },
       {
         "name": "khitans",
-        "games": 10,
-        "winRate": 30
+        "games": 11,
+        "winRate": 27.27
       },
       {
         "name": "saracens",
-        "games": 13,
-        "winRate": 30.77
+        "games": 14,
+        "winRate": 28.57
       },
       {
         "name": "mongols",
-        "games": 35,
-        "winRate": 31.43
-      },
-      {
-        "name": "persians",
-        "games": 12,
-        "winRate": 33.33
+        "games": 36,
+        "winRate": 30.56
       }
     ]
   },

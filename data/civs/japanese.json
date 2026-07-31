@@ -210,7 +210,8 @@
         "open": "OK",
         "closed": "Weak",
         "hybrid": "Strong",
-        "water": "Strong"
+        "water": "Strong",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -276,6 +277,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -283,36 +300,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.68,
+    "winRate": 51.03,
     "playRate": 2.54,
-    "picks": 1022,
+    "picks": 1064,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
       "open": {
-        "winRate": 51.23,
-        "playRate": 2.12,
-        "picks": 203
+        "winRate": 52.38,
+        "playRate": 2.09,
+        "picks": 210
       },
       "other": {
-        "winRate": 51.01,
-        "playRate": 2.75,
-        "picks": 745
+        "winRate": 51.29,
+        "playRate": 2.74,
+        "picks": 776
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 52,
-        "playRate": 2.71,
+        "playRate": 2.68,
         "picks": 25
       },
       "closed": {
-        "winRate": 42.86,
-        "playRate": 1.9,
-        "picks": 49
+        "winRate": 41.51,
+        "playRate": 1.99,
+        "picks": 53
       }
     },
     "strongAgainst": [
@@ -328,25 +345,25 @@
       },
       {
         "name": "italians",
-        "games": 20,
-        "winRate": 70
+        "games": 21,
+        "winRate": 71.43
       },
       {
         "name": "byzantines",
-        "games": 16,
-        "winRate": 68.75
+        "games": 18,
+        "winRate": 66.67
       },
       {
-        "name": "sicilians",
-        "games": 14,
-        "winRate": 64.29
+        "name": "cumans",
+        "games": 20,
+        "winRate": 65
       }
     ],
     "weakAgainst": [
       {
         "name": "aztecs",
-        "games": 11,
-        "winRate": 27.27
+        "games": 13,
+        "winRate": 23.08
       },
       {
         "name": "mayans",

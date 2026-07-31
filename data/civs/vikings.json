@@ -304,7 +304,8 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Strong"
+        "water": "Strong",
+        "nomad": "Weak"
       },
       "byMap": {
         "open": {
@@ -370,6 +371,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -381,35 +398,35 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 50.13,
-    "playRate": 1.91,
-    "picks": 766,
+    "winRate": 50.38,
+    "playRate": 1.89,
+    "picks": 790,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 50.26,
-        "playRate": 2.01,
-        "picks": 193
+        "winRate": 51.72,
+        "playRate": 2.02,
+        "picks": 203
       },
       "other": {
-        "winRate": 49.91,
-        "playRate": 1.95,
-        "picks": 529
+        "winRate": 49.72,
+        "playRate": 1.92,
+        "picks": 543
       },
       "closed": {
         "winRate": 57.58,
-        "playRate": 1.28,
+        "playRate": 1.24,
         "picks": 33
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 36.36,
-        "playRate": 1.19,
+        "playRate": 1.18,
         "picks": 11
       }
     },
@@ -443,8 +460,8 @@
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 12,
-        "winRate": 16.67
+        "games": 13,
+        "winRate": 23.08
       },
       {
         "name": "italians",

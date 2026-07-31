@@ -253,7 +253,8 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "Weak"
       },
       "byMap": {
         "open": {
@@ -319,6 +320,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -326,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.93,
-    "playRate": 1.9,
-    "picks": 765,
+    "winRate": 49.69,
+    "playRate": 1.91,
+    "picks": 799,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 49.07,
-        "playRate": 1.68,
-        "picks": 161
+        "winRate": 48.81,
+        "playRate": 1.67,
+        "picks": 168
       },
       "other": {
-        "winRate": 49.8,
-        "playRate": 1.82,
-        "picks": 494
+        "winRate": 49.52,
+        "playRate": 1.84,
+        "picks": 519
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 25,
-        "playRate": 1.3,
+        "playRate": 1.29,
         "picks": 12
       },
       "closed": {
-        "winRate": 55.1,
-        "playRate": 3.8,
-        "picks": 98
+        "winRate": 55,
+        "playRate": 3.76,
+        "picks": 100
       }
     },
     "strongAgainst": [
@@ -393,8 +410,8 @@
       },
       {
         "name": "burgundians",
-        "games": 30,
-        "winRate": 30
+        "games": 32,
+        "winRate": 28.13
       },
       {
         "name": "mapuche",
@@ -402,13 +419,13 @@
         "winRate": 30
       },
       {
-        "name": "koreans",
-        "games": 12,
-        "winRate": 33.33
+        "name": "armenians",
+        "games": 13,
+        "winRate": 30.77
       },
       {
-        "name": "wu",
-        "games": 9,
+        "name": "koreans",
+        "games": 12,
         "winRate": 33.33
       }
     ]

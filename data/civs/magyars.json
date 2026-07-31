@@ -183,7 +183,8 @@
         "open": "OK",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -249,6 +250,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -256,36 +273,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.28,
+    "winRate": 47.43,
     "playRate": 3.02,
-    "picks": 1214,
+    "picks": 1265,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
       "other": {
-        "winRate": 47.82,
-        "playRate": 3.04,
-        "picks": 824
+        "winRate": 47.92,
+        "playRate": 3.06,
+        "picks": 864
       },
       "open": {
-        "winRate": 46.86,
-        "playRate": 3.16,
-        "picks": 303
+        "winRate": 46.95,
+        "playRate": 3.1,
+        "picks": 311
       },
       "closed": {
-        "winRate": 43.08,
+        "winRate": 44.78,
         "playRate": 2.52,
-        "picks": 65
+        "picks": 67
       },
-      "hybrid": {
-        "winRate": 45.45,
-        "playRate": 2.38,
-        "picks": 22
+      "nomad": {
+        "winRate": 43.48,
+        "playRate": 2.47,
+        "picks": 23
       }
     },
     "strongAgainst": [
@@ -295,14 +312,14 @@
         "winRate": 76.92
       },
       {
-        "name": "aztecs",
-        "games": 20,
-        "winRate": 70
+        "name": "franks",
+        "games": 26,
+        "winRate": 69.23
       },
       {
-        "name": "franks",
-        "games": 23,
-        "winRate": 69.57
+        "name": "aztecs",
+        "games": 22,
+        "winRate": 68.18
       },
       {
         "name": "gurjaras",
@@ -323,23 +340,23 @@
       },
       {
         "name": "malians",
-        "games": 22,
-        "winRate": 22.73
+        "games": 23,
+        "winRate": 21.74
       },
       {
         "name": "turks",
-        "games": 11,
-        "winRate": 27.27
-      },
-      {
-        "name": "romans",
-        "games": 18,
-        "winRate": 27.78
+        "games": 12,
+        "winRate": 25
       },
       {
         "name": "saracens",
         "games": 13,
         "winRate": 30.77
+      },
+      {
+        "name": "romans",
+        "games": 19,
+        "winRate": 31.58
       }
     ]
   },

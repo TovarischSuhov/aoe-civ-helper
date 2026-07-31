@@ -190,7 +190,8 @@
         "open": "Weak",
         "closed": "OK",
         "hybrid": "Weak",
-        "water": "Strong"
+        "water": "Strong",
+        "nomad": "Weak"
       },
       "byMap": {
         "open": {
@@ -256,6 +257,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -263,43 +280,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.95,
-    "playRate": 1.66,
-    "picks": 666,
+    "winRate": 51.28,
+    "playRate": 1.68,
+    "picks": 702,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 52.45,
-        "playRate": 1.49,
-        "picks": 143
+        "winRate": 50.64,
+        "playRate": 1.56,
+        "picks": 156
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 60,
-        "playRate": 1.62,
+        "playRate": 1.61,
         "picks": 15
       },
       "other": {
-        "winRate": 51.39,
+        "winRate": 51.02,
         "playRate": 1.73,
-        "picks": 469
+        "picks": 490
       },
       "closed": {
-        "winRate": 53.85,
-        "playRate": 1.51,
-        "picks": 39
+        "winRate": 53.66,
+        "playRate": 1.54,
+        "picks": 41
       }
     },
     "strongAgainst": [
       {
-        "name": "hindustanis",
-        "games": 16,
-        "winRate": 81.25
+        "name": "turks",
+        "games": 15,
+        "winRate": 80
       },
       {
         "name": "italians",
@@ -307,9 +324,9 @@
         "winRate": 78.57
       },
       {
-        "name": "turks",
-        "games": 13,
-        "winRate": 76.92
+        "name": "hindustanis",
+        "games": 17,
+        "winRate": 76.47
       },
       {
         "name": "teutons",
@@ -325,18 +342,18 @@
     "weakAgainst": [
       {
         "name": "slavs",
-        "games": 8,
-        "winRate": 12.5
+        "games": 9,
+        "winRate": 11.11
       },
       {
         "name": "aztecs",
-        "games": 9,
-        "winRate": 22.22
+        "games": 10,
+        "winRate": 20
       },
       {
         "name": "burgundians",
-        "games": 15,
-        "winRate": 26.67
+        "games": 16,
+        "winRate": 25
       },
       {
         "name": "armenians",
@@ -344,9 +361,9 @@
         "winRate": 27.27
       },
       {
-        "name": "japanese",
-        "games": 16,
-        "winRate": 31.25
+        "name": "sicilians",
+        "games": 10,
+        "winRate": 30
       }
     ]
   },

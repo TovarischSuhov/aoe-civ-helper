@@ -233,7 +233,8 @@
         "open": "OK",
         "closed": "Strong",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "Strong"
       },
       "byMap": {
         "open": {
@@ -299,6 +300,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -306,48 +323,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.4,
+    "winRate": 49.66,
     "playRate": 3.12,
-    "picks": 1255,
+    "picks": 1307,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
       "closed": {
-        "winRate": 48.48,
+        "winRate": 48.53,
         "playRate": 2.56,
-        "picks": 66
+        "picks": 68
       },
       "other": {
-        "winRate": 47.6,
-        "playRate": 2.92,
-        "picks": 792
+        "winRate": 47.77,
+        "playRate": 2.94,
+        "picks": 831
       },
       "open": {
-        "winRate": 53.7,
-        "playRate": 3.81,
-        "picks": 365
+        "winRate": 54.26,
+        "playRate": 3.75,
+        "picks": 376
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 46.88,
-        "playRate": 3.46,
+        "playRate": 3.43,
         "picks": 32
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 14,
-        "winRate": 71.43
-      },
-      {
-        "name": "goths",
-        "games": 17,
-        "winRate": 70.59
+        "games": 15,
+        "winRate": 73.33
       },
       {
         "name": "teutons",
@@ -360,8 +372,13 @@
         "winRate": 68.75
       },
       {
-        "name": "britons",
-        "games": 18,
+        "name": "goths",
+        "games": 19,
+        "winRate": 68.42
+      },
+      {
+        "name": "portuguese",
+        "games": 24,
         "winRate": 66.67
       }
     ],
@@ -378,8 +395,8 @@
       },
       {
         "name": "burgundians",
-        "games": 20,
-        "winRate": 35
+        "games": 21,
+        "winRate": 33.33
       },
       {
         "name": "koreans",

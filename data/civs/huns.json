@@ -259,7 +259,8 @@
         "open": "OK",
         "closed": "OK",
         "hybrid": "Weak",
-        "water": "Weak"
+        "water": "Weak",
+        "nomad": "Strong"
       },
       "byMap": {
         "open": {
@@ -325,6 +326,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -336,36 +353,36 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.81,
-    "playRate": 2.17,
-    "picks": 871,
+    "winRate": 52.93,
+    "playRate": 2.16,
+    "picks": 903,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 53.95,
-        "playRate": 2.24,
-        "picks": 215
+        "winRate": 54.5,
+        "playRate": 2.21,
+        "picks": 222
       },
       "other": {
-        "winRate": 53.5,
-        "playRate": 2.16,
-        "picks": 585
+        "winRate": 53.37,
+        "playRate": 2.15,
+        "picks": 609
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 39.13,
-        "playRate": 2.49,
+        "playRate": 2.47,
         "picks": 23
       },
       "closed": {
-        "winRate": 45.83,
-        "playRate": 1.86,
-        "picks": 48
+        "winRate": 46.94,
+        "playRate": 1.84,
+        "picks": 49
       }
     },
     "strongAgainst": [
@@ -376,8 +393,8 @@
       },
       {
         "name": "incas",
-        "games": 19,
-        "winRate": 84.21
+        "games": 21,
+        "winRate": 80.95
       },
       {
         "name": "malians",
@@ -385,14 +402,14 @@
         "winRate": 80
       },
       {
-        "name": "turks",
-        "games": 12,
+        "name": "italians",
+        "games": 16,
         "winRate": 75
       },
       {
-        "name": "italians",
-        "games": 15,
-        "winRate": 73.33
+        "name": "turks",
+        "games": 12,
+        "winRate": 75
       }
     ],
     "weakAgainst": [
@@ -418,8 +435,8 @@
       },
       {
         "name": "chinese",
-        "games": 26,
-        "winRate": 38.46
+        "games": 27,
+        "winRate": 40.74
       }
     ]
   },

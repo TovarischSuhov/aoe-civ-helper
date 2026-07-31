@@ -209,7 +209,8 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Strong",
-        "water": "Strong"
+        "water": "Strong",
+        "nomad": "Weak"
       },
       "byMap": {
         "open": {
@@ -275,6 +276,22 @@
             "Tatars",
             "Burmese"
           ]
+        },
+        "nomad": {
+          "strong": [
+            "Bengalis",
+            "Bulgarians",
+            "Chinese",
+            "Cumans",
+            "Georgians"
+          ],
+          "weak": [
+            "Malay",
+            "Wu",
+            "Armenians",
+            "Italians",
+            "Vikings"
+          ]
         }
       }
     }
@@ -316,12 +333,12 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.49,
-    "playRate": 1.59,
-    "picks": 639,
+    "winRate": 51.82,
+    "playRate": 1.57,
+    "picks": 658,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T13:36:56.000Z",
+    "updated": "2026-07-31T17:54:35.000Z",
     "window": "2026-07-17 → 2026-07-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -329,22 +346,22 @@
     "byMapType": {
       "open": {
         "winRate": 50.35,
-        "playRate": 1.47,
-        "picks": 141
+        "playRate": 1.43,
+        "picks": 143
       },
       "closed": {
         "winRate": 51.43,
-        "playRate": 1.36,
+        "playRate": 1.32,
         "picks": 35
       },
       "other": {
-        "winRate": 51.89,
-        "playRate": 1.66,
-        "picks": 449
+        "winRate": 52.36,
+        "playRate": 1.65,
+        "picks": 466
       },
-      "hybrid": {
+      "nomad": {
         "winRate": 50,
-        "playRate": 1.52,
+        "playRate": 1.5,
         "picks": 14
       }
     },
@@ -360,11 +377,6 @@
         "winRate": 77.78
       },
       {
-        "name": "georgians",
-        "games": 9,
-        "winRate": 77.78
-      },
-      {
         "name": "berbers",
         "games": 13,
         "winRate": 76.92
@@ -373,18 +385,23 @@
         "name": "wu",
         "games": 8,
         "winRate": 75
+      },
+      {
+        "name": "poles",
+        "games": 14,
+        "winRate": 71.43
       }
     ],
     "weakAgainst": [
       {
-        "name": "britons",
-        "games": 11,
-        "winRate": 18.18
-      },
-      {
         "name": "vikings",
         "games": 16,
         "winRate": 18.75
+      },
+      {
+        "name": "britons",
+        "games": 12,
+        "winRate": 25
       },
       {
         "name": "bengalis",
