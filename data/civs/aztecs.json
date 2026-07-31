@@ -1,0 +1,492 @@
+{
+  "id": "Aztecs",
+  "internalName": "Aztecs",
+  "slug": "aztecs",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Monk civilization",
+    "bonuses": [
+      "Start with +50 gold",
+      "Villagers carry +3",
+      "Military Units train +15% faster",
+      "Monks gain +5 HP for each researched Monastery technology"
+    ],
+    "teamBonus": "Relics generate +33% gold",
+    "uniqueUnits": [
+      "Jaguar Warrior (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Atlatl (Skirmishers +1 attack, +1 range)",
+        "name": "Atlatl",
+        "cost": {
+          "food": 400,
+          "gold": 350
+        },
+        "pic": 33
+      },
+      {
+        "display": "Garland Wars (Infantry +4 attack)",
+        "name": "Garland Wars",
+        "cost": {
+          "food": 450,
+          "gold": 750
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "725",
+        "name": "Jaguar Warrior",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Jaguar Warrior",
+            "pic": 110,
+            "hp": 65,
+            "attack": 15,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 60,
+              "gold": 30
+            }
+          },
+          {
+            "name": "Elite Jaguar Warrior",
+            "pic": 486,
+            "hp": 75,
+            "attack": 19,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 1000,
+              "gold": 500
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Stable",
+        "name": "Stable",
+        "cat": "Building",
+        "id": "101",
+        "pic": 23
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Galleon",
+        "name": "Galleon",
+        "cat": "Unit",
+        "id": "442",
+        "pic": 60
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "celts",
+          "name": "Celts",
+          "internalName": "Celts",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Onagers shred your infantry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal gold-unit play",
+        "detail": "Go full Feudal with strong gold units (Eagle/Archer line) + the attack upgrade; pair with Monks. Conceptually similar to prioritizing gold mining first.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "All your strong units cost gold, so a full-feudal gold-unit + monk style fits. The +50 gold start and faster military production smooth it.",
+    "recommendations": [
+      "Open full-feudal with Archers/Eagles + Monks; grab the attack upgrade early.",
+      "Use the +50 gold start for an instant Barracks/Archery edge.",
+      "Monks are top-tier — convert and heal aggressively."
+    ],
+    "strengths": [
+      "+50 gold start; faster military production",
+      "Top-tier Monks (relic gold + monastery HP)",
+      "Strong gold units (Eagles, Archers)"
+    ],
+    "weaknesses": [
+      "No cavalry / no gunpowder",
+      "Reliant on gold and monk micro"
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "Gold units + monks + attack upgrade",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 50.42,
+    "playRate": 1.74,
+    "picks": 359,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/aztecs",
+    "byMapType": {
+      "other": {
+        "winRate": 52.59,
+        "playRate": 1.68,
+        "picks": 232
+      },
+      "hybrid": {
+        "winRate": 37.5,
+        "playRate": 1.86,
+        "picks": 8
+      },
+      "closed": {
+        "winRate": 33.33,
+        "playRate": 1.93,
+        "picks": 24
+      },
+      "open": {
+        "winRate": 50.53,
+        "playRate": 1.88,
+        "picks": 95
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "gurjaras",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
+        "name": "wu",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "bengalis",
+        "games": 14,
+        "winRate": 71.43
+      },
+      {
+        "name": "cumans",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "hindustanis",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "malians",
+        "games": 11,
+        "winRate": 9.09
+      },
+      {
+        "name": "magyars",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "vietnamese",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "jurchens",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "bohemians",
+        "games": 10,
+        "winRate": 30
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Eagle Scout",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Eagle Scout",
+            "pic": 109,
+            "hp": 50,
+            "attack": 4,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 20,
+              "gold": 50
+            }
+          },
+          {
+            "name": "Eagle Warrior",
+            "pic": 148,
+            "hp": 55,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.15,
+            "cost": {
+              "food": 200,
+              "gold": 200
+            }
+          },
+          {
+            "name": "Elite Eagle Warrior",
+            "pic": 149,
+            "hp": 60,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.3,
+            "cost": {
+              "food": 800,
+              "gold": 500
+            }
+          }
+        ]
+      },
+      {
+        "name": "Catapult Galleon",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Catapult Galleon",
+            "pic": 591,
+            "hp": 140,
+            "attack": 30,
+            "range": 12,
+            "speed": 1,
+            "cost": {
+              "wood": 225,
+              "gold": 100
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

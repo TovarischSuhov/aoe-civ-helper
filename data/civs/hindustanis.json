@@ -1,0 +1,523 @@
+{
+  "id": "Hindustanis",
+  "internalName": "Hindustanis",
+  "slug": "hindustanis",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Camel and Gunpowder civilization",
+    "bonuses": [
+      "Villagers cost -8/13/18/23% in Dark/Feudal/Castle/ Imperial Age",
+      "Camel Riders attack +20% faster",
+      "Gunpowder Units +1 melee/+1 pierce armor",
+      "Can build Caravanserai in Imperial Age"
+    ],
+    "teamBonus": "Scout Cavalry-line and Camel Units +2 attack vs. buildings",
+    "uniqueUnits": [
+      "Ghulam (Infantry)",
+      "Imperial Camel Rider (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%)",
+        "name": "Grand Trunk Road",
+        "cost": {
+          "food": 250,
+          "wood": 200
+        },
+        "pic": 33
+      },
+      {
+        "display": "Shatagni (Hand Cannoneers +2 range)",
+        "name": "Shatagni",
+        "cost": {
+          "food": 500,
+          "gold": 650
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1747",
+        "name": "Ghulam",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Ghulam",
+            "pic": 385,
+            "hp": 60,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.15,
+            "cost": {
+              "food": 30,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Ghulam",
+            "pic": 518,
+            "hp": 70,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.2,
+            "cost": {
+              "food": 950,
+              "gold": 575
+            }
+          }
+        ]
+      },
+      {
+        "id": "207",
+        "name": "Imperial Camel Rider",
+        "role": "Cavalry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Imperial Camel Rider",
+            "pic": 185,
+            "hp": 140,
+            "attack": 8,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Plate Mail Armor",
+        "name": "Plate Mail Armor",
+        "cat": "Tech",
+        "id": "77",
+        "pic": 64
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "you have no Halberdier vs their cavalry"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "you have no Halberdier vs their cavalry"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "you have no Halberdier vs their cavalry"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "you have no Halberdier vs their cavalry"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "you have no Halberdier vs their cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "OK",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": 6,
+    "year": 2026,
+    "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
+  },
+  "stats": {
+    "winRate": 51.57,
+    "playRate": 2.01,
+    "picks": 413,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/hindustanis",
+    "byMapType": {
+      "other": {
+        "winRate": 49.82,
+        "playRate": 1.96,
+        "picks": 271
+      },
+      "open": {
+        "winRate": 56.25,
+        "playRate": 2.21,
+        "picks": 112
+      },
+      "closed": {
+        "winRate": 50,
+        "playRate": 1.93,
+        "picks": 24
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 1.4,
+        "picks": 6
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "goths",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "jurchens",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "magyars",
+        "games": 14,
+        "winRate": 78.57
+      },
+      {
+        "name": "franks",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "tupi",
+        "games": 8,
+        "winRate": 75
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "byzantines",
+        "games": 11,
+        "winRate": 9.09
+      },
+      {
+        "name": "bohemians",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "hindustanis",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "huns",
+        "games": 10,
+        "winRate": 30
+      },
+      {
+        "name": "burgundians",
+        "games": 9,
+        "winRate": 33.33
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      },
+      {
+        "name": "Armored Elephant",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Armored Elephant",
+            "pic": 394,
+            "hp": 180,
+            "attack": 4,
+            "range": 0,
+            "speed": 0.6,
+            "cost": {
+              "food": 120,
+              "gold": 95
+            }
+          },
+          {
+            "name": "Siege Elephant",
+            "pic": 395,
+            "hp": 220,
+            "attack": 4,
+            "range": 0,
+            "speed": 0.6,
+            "cost": {
+              "food": 850
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "1754",
+        "name": "Caravanserai",
+        "cat": "Building",
+        "pic": 87,
+        "cost": {
+          "wood": 175,
+          "stone": 50
+        },
+        "desc": "Heals nearby units and speeds Trade Carts passing between Caravanserais.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "id": "Jurchens",
+  "internalName": "Jurchens",
+  "slug": "jurchens",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry and Gunpowder civilization",
+    "bonuses": [
+      "Meat of hunted and livestock animals doesn't decay",
+      "Mounted Units and Fire Lancers attack +25% faster starting in Feudal Age",
+      "Siege Engineers available in Castle Age",
+      "Siege and Fortification upgrades cost -75% wood and research +100% faster",
+      "Units receive -50% friendly fire damage"
+    ],
+    "teamBonus": "Gunpowder Units +2 line of sight",
+    "uniqueUnits": [
+      "Iron Pagoda (Cavalry)",
+      "Grenadier (Gunpowder Unit)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Fortified Bastions (Fortifications regenerate 500 HP per minute)",
+        "name": "Fortified Bastions",
+        "cost": {
+          "food": 350,
+          "wood": 250
+        },
+        "pic": 33
+      },
+      {
+        "display": "Thunderclap Bombs (Rocket Carts, Grenadiers and Lou Chuans detonate when defeated; projectiles produce additional explosions)",
+        "name": "Thunderclap Bombs",
+        "cost": {
+          "food": 900,
+          "gold": 600
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1908",
+        "name": "Iron Pagoda",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Iron Pagoda",
+            "pic": 461,
+            "hp": 115,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.4,
+            "cost": {
+              "food": 80,
+              "gold": 55
+            }
+          },
+          {
+            "name": "Elite Iron Pagoda",
+            "pic": 524,
+            "hp": 140,
+            "attack": 13,
+            "range": 0,
+            "speed": 1.4,
+            "cost": {
+              "food": 950,
+              "gold": 550
+            }
+          }
+        ]
+      },
+      {
+        "id": "1911",
+        "name": "Grenadier",
+        "role": "Gunpowder Unit",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Grenadier",
+            "pic": 462,
+            "hp": 40,
+            "attack": 12,
+            "range": 6,
+            "speed": 0.96,
+            "cost": {
+              "food": 35,
+              "gold": 65
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Long Swordsman",
+        "name": "Long Swordsman",
+        "cat": "Unit",
+        "id": "77",
+        "pic": 13
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Plate Mail Armor",
+        "name": "Plate Mail Armor",
+        "cat": "Tech",
+        "id": "77",
+        "pic": 64
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Hunted/livestock food doesn't decay, so you bank more food for the age-up and unit spam.",
+        "map": "resource-rich, hunted/livestock",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "The no-decay food bonus gives a real resource edge, and +25% attack speed on mounted units makes the scouts hit harder. Main weakness: Monks.",
+    "recommendations": [
+      "Bank the no-decay food into a faster age-up and a bigger scout/scorpion mass.",
+      "Use the mounted-unit attack-speed bonus on scouts and (later) cavalry archers/fire lancers.",
+      "Cheap/fast siege & fortification upgrades (Castle Age Siege Engineers) help the push."
+    ],
+    "strengths": [
+      "Food doesn't decay (hunted/livestock) → more banked food",
+      "Mounted units +25% attack speed",
+      "Siege/fort upgrades cheap & fast; Castle-Age Siege Engineers"
+    ],
+    "weaknesses": [
+      "Weak Monks",
+      "Reliant on hunting/livestock for the food edge"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "No-decay food → smoother/earlier Castle click",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 43.41,
+    "playRate": 1.25,
+    "picks": 258,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/jurchens",
+    "byMapType": {
+      "open": {
+        "winRate": 50.72,
+        "playRate": 1.36,
+        "picks": 69
+      },
+      "other": {
+        "winRate": 39.16,
+        "playRate": 1.2,
+        "picks": 166
+      },
+      "hybrid": {
+        "winRate": 33.33,
+        "playRate": 1.4,
+        "picks": 6
+      },
+      "closed": {
+        "winRate": 58.82,
+        "playRate": 1.37,
+        "picks": 17
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "aztecs",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "incas",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "mongols",
+        "games": 10,
+        "winRate": 50
+      },
+      {
+        "name": "bengalis",
+        "games": 10,
+        "winRate": 40
+      },
+      {
+        "name": "bulgarians",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "hindustanis",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "bulgarians",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "bengalis",
+        "games": 10,
+        "winRate": 40
+      },
+      {
+        "name": "mongols",
+        "games": 10,
+        "winRate": 50
+      },
+      {
+        "name": "incas",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Fire Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Fire Lancer",
+            "pic": 457,
+            "hp": 65,
+            "attack": 9,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Fire Lancer",
+            "pic": 458,
+            "hp": 85,
+            "attack": 10,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "food": 750,
+              "gold": 400
+            }
+          }
+        ]
+      },
+      {
+        "name": "Steppe Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Steppe Lancer",
+            "pic": 273,
+            "hp": 60,
+            "attack": 9,
+            "range": 1,
+            "speed": 1.45,
+            "cost": {
+              "food": 70,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Steppe Lancer",
+            "pic": 274,
+            "hp": 80,
+            "attack": 11,
+            "range": 1,
+            "speed": 1.45,
+            "cost": {
+              "food": 600,
+              "gold": 550
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rocket Cart",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Rocket Cart",
+            "pic": 459,
+            "hp": 45,
+            "attack": 5,
+            "range": 7,
+            "speed": 0.6,
+            "cost": {
+              "wood": 135,
+              "gold": 155
+            }
+          },
+          {
+            "name": "Heavy Rocket Cart",
+            "pic": 460,
+            "hp": 65,
+            "attack": 5,
+            "range": 8,
+            "speed": 0.6,
+            "cost": {
+              "wood": 800,
+              "gold": 600
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lou Chuan",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Lou Chuan",
+            "pic": 431,
+            "hp": 175,
+            "attack": 25,
+            "range": 10,
+            "speed": 1.1,
+            "cost": {
+              "wood": 250,
+              "gold": 225
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Tips & best practices",
+  "intro": "Improvement principles grouped by the source each set comes from. Each source has its own page with all of its tips (no cap) and searchable tags; open the hub to filter across every source at once. Tips are paraphrased principles in the spirit of each creator — not verbatim quotes.",
+  "_meta": { "lastReviewed": "2026-07-30" },
+  "sources": [
+    {
+      "key": "kiritastrich",
+      "name": "kiritastrich",
+      "url": "https://t.me/s/kiritastrich",
+      "blurb": "Russian-language strategy channel — timings, economy math, patch analysis (translated here).",
+      "tips": [
+        { "text": "On water/hybrid maps Fast Castle is the whole game — but since Docks now fire 0 arrows in the Dark Age you can't shelter fishing ships under the Dock, so play Feudal (Galleys / Fire Ships) to defend them.", "tags": ["water", "feudal", "navy", "patch"] },
+        { "text": "Reason in gathering rates, not totals: rate × time decides timings, so chase the fastest food (boar, deer, shore fish) before slow berries.", "tags": ["economy", "macro", "dark-age"] },
+        { "text": "On resource-rich starts (2+ boar, 8 sheep, 3-4 deer), a Fast-Castle → scouts + scorpions + monks opener snowballs hard.", "tags": ["castle", "build", "military", "siege"] },
+        { "text": "Fish traps are the most wood-efficient food — 100 wood beats a 60-wood farm and skips all three Mill farm upgrades; if you win the water, keep making fishing ships past ~12.", "tags": ["water", "economy", "imperial"] },
+        { "text": "In draft, civilization reflects a gameplan: ban a player's comfort start to tilt them, and scout their first minutes to disrupt their build.", "tags": ["draft", "scouting", "macro"] },
+        { "text": "Eat food sources in speed order — boar and shore fish first, sheep next, berries last — so your fastest gatherers are never stuck on the slowest source.", "tags": ["economy", "dark-age"] },
+        { "text": "A clean no-idle Fast Castle (e.g. a 17+2 Mongols build clicking Castle around 18 pop) converts an eco bonus into a timing the opponent has to answer.", "tags": ["build", "castle", "economy"] },
+        { "text": "Full-feudal aggression civs (Incas, Mapuche, Tupi, Muisca) must wall: their plan wins by early pressure, so closing the map denies the opponent's faster age-up.", "tags": ["feudal", "defense", "aggression"] },
+        { "text": "Continuous unique-unit production from a Castle or Monastery drains ~168 food/min — about 8 unbowed farms — so line up that many farms before committing to UU spam; Monastery-UU + rams can out-push Castle-UU.", "tags": ["economy", "castle", "build", "military"] },
+        { "text": "One-trick civ/build abusers rarely beat prepared tournament opponents — only near-perfect execution (e.g. Hoang) sustains it; broaden your pool rather than leaning on a single abuse build.", "tags": ["draft", "macro"] },
+        { "text": "Goths are an infantry-rush civ, yet their navy is nearly complete — the full ship line plus Careening and Shipwright, missing only Dry Dock — though with no economy or water bonuses behind it, it's a hybrid-map flex rather than a real gameplan.", "tags": ["water", "navy", "goths", "tech-tree"] }
+      ]
+    },
+    {
+      "key": "sotl",
+      "name": "Spirit of the Law",
+      "url": "https://www.youtube.com/@SpiritOfTheLaw",
+      "blurb": "Data-driven AoE2 analysis — the numbers behind why things work.",
+      "tips": [
+        { "text": "Never let the Town Center idle — constant villager production is the single biggest skill in the game.", "tags": ["macro", "economy"] },
+        { "text": "Counter-composition wins: Skirmishers into Archers, Pikemen into Knights, Mangonels into massed Archers. Build the counter, not a mirror.", "tags": ["military", "unit-choice"] },
+        { "text": "Double-Bit Axe is the best-return Feudal economy upgrade; grab it the instant you click Feudal, and keep lumber/farm upgrades rolling through Castle.", "tags": ["economy", "eco-upgrades", "feudal"] },
+        { "text": "Wall when you boom or fall behind — walls deny raids and buy the time a slower plan needs.", "tags": ["defense", "boom"] },
+        { "text": "Don't float resources: a bank is army and upgrades you didn't make. If wood climbs, spend it on farms or military.", "tags": ["macro", "economy"] },
+        { "text": "Bonus-damage classes matter more than raw attack — read what your unit counters and aim it at the right target.", "tags": ["military", "unit-choice"] },
+        { "text": "Cheap-tech civs (Chinese, Byzantines) compound with game length — every discounted technology is resources freed for another unit or upgrade.", "tags": ["economy", "imperial"] },
+        { "text": "Siege is the late-game answer to massed ranged/infantry: Onagers and Mangonels force fights you would lose in a straight shoot-out.", "tags": ["siege", "military", "imperial"] },
+        { "text": "A strong general economy bonus is the most reliable foundation — it is flexible, forgives mistakes, and defines almost every recent top civ.", "tags": ["economy", "macro"] },
+        { "text": "Fishing ships are villagers that cost wood, not food — on water maps a strong navy multiplies your economy and snowballs.", "tags": ["water", "economy", "navy"] }
+      ]
+    },
+    {
+      "key": "hera",
+      "name": "Hera",
+      "url": "https://www.youtube.com/@HeraAgeOfEmpires2",
+      "blurb": "Top pro player — fundamentals, decision-making, and macro.",
+      "tips": [
+        { "text": "Scout constantly — knowing the opponent's strategy, resources and army is the edge that wins even games.", "tags": ["scouting", "macro"] },
+        { "text": "Macro before micro: keep villagers and military producing before you micro a single fight; production wins the war.", "tags": ["macro"] },
+        { "text": "Add Town Centers in Castle Age and keep booming — villager count decides the late game.", "tags": ["boom", "castle", "economy"] },
+        { "text": "Defend your economy first; a clean home base (houses ahead, drop-offs tight) survives aggression and out-scales it.", "tags": ["defense", "macro"] },
+        { "text": "Control the map's key resources and relics — map control compounds into an economy lead.", "tags": ["macro", "imperial"] },
+        { "text": "Never stop making villagers and army — floating the resources to queue both is where lower-Elo players bleed.", "tags": ["macro", "economy"] },
+        { "text": "Adapt your army to what you scouted: switch compositions before you're hard-countered, not after.", "tags": ["military", "scouting"] },
+        { "text": "Pre-wall likely raid paths while you macro — cheap prevention beats expensive repair.", "tags": ["defense", "macro"] }
+      ]
+    },
+    {
+      "key": "cyberdabvinc",
+      "name": "CyberDabVinc",
+      "url": "https://www.youtube.com/@CyberDabVinc",
+      "blurb": "Defensive and boom-focused coaching — reliable plans for climbing the ladder.",
+      "tips": [
+        { "text": "Wall + boom is the most reliable plan for newer players: walls let you macro in peace and reach a power spike.", "tags": ["defense", "boom"] },
+        { "text": "Hit your build-order timings — click Feudal/Castle at the right villager count so your spike lands on schedule.", "tags": ["build", "feudal", "castle"] },
+        { "text": "Never fight a bad matchup: retreat, re-tech to the counter, and re-engage on your terms.", "tags": ["military", "macro"] },
+        { "text": "Use Towers and Castles to lock down hills, relics and forward resources — stone is map control.", "tags": ["defense", "imperial"] },
+        { "text": "Keep base discipline: houses ahead of the pop cap, drop-off buildings tight to resources, zero TC idle time.", "tags": ["macro", "economy"] },
+        { "text": "Don't over-commit to one fight — disengage, heal/regroup, and trade efficiently across the whole game.", "tags": ["military", "macro"] },
+        { "text": "A forward Castle with a ram or unique-unit flood is a clean way to close out a lead you've boomed.", "tags": ["aggression", "castle"] },
+        { "text": "Spend, don't hoard: every 100 idle wood is a farm or military unit you're behind on.", "tags": ["macro", "economy"] }
+      ]
+    }
+  ]
+}

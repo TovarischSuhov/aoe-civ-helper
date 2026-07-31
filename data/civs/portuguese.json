@@ -1,0 +1,402 @@
+{
+  "id": "Portuguese",
+  "internalName": "Portuguese",
+  "slug": "portuguese",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Naval and Gunpowder civilization",
+    "bonuses": [
+      "Foragers generate wood in addition to food",
+      "All units cost -20% gold",
+      "Can build Feitoria in Imperial Age",
+      "Ships +10/15/20% HP in Feudal/Castle/Imperial Age"
+    ],
+    "teamBonus": "Technologies research +25% faster",
+    "uniqueUnits": [
+      "Organ Gun (Siege Gunpowder Unit)",
+      "Caravel (Warship)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Circumnavigation (Sets the entire map to explored; Ships train +33% faster)",
+        "name": "Circumnavigation",
+        "cost": {
+          "food": 250,
+          "wood": 150
+        },
+        "pic": 33
+      },
+      {
+        "display": "Arquebus (Gunpowder Units fire more accurately at moving targets)",
+        "name": "Arquebus",
+        "cost": {
+          "food": 700,
+          "gold": 400
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1001",
+        "name": "Organ Gun",
+        "role": "Siege Gunpowder Unit",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Organ Gun",
+            "pic": 190,
+            "hp": 50,
+            "attack": 6,
+            "range": 7,
+            "speed": 0.85,
+            "cost": {
+              "wood": 80,
+              "gold": 70
+            }
+          },
+          {
+            "name": "Elite Organ Gun",
+            "pic": 496,
+            "hp": 70,
+            "attack": 8,
+            "range": 7,
+            "speed": 0.85,
+            "cost": {
+              "food": 1200,
+              "gold": 500
+            }
+          }
+        ]
+      },
+      {
+        "id": "1004",
+        "name": "Caravel",
+        "role": "Warship",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Caravel",
+            "pic": 198,
+            "hp": 130,
+            "attack": 4,
+            "range": 6,
+            "speed": 1.36,
+            "cost": {
+              "wood": 90,
+              "gold": 43
+            }
+          },
+          {
+            "name": "Elite Caravel",
+            "pic": 497,
+            "hp": 150,
+            "attack": 7,
+            "range": 7,
+            "speed": 1.36,
+            "cost": {
+              "food": 700,
+              "gold": 525
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Heavy Cavalry Archer",
+        "name": "Heavy Cavalry Archer",
+        "cat": "Unit",
+        "id": "474",
+        "pic": 71
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": []
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "OK",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 47.79,
+    "playRate": 1.87,
+    "picks": 385,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/portuguese",
+    "byMapType": {
+      "other": {
+        "winRate": 47.06,
+        "playRate": 1.96,
+        "picks": 272
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 1.86,
+        "picks": 8
+      },
+      "closed": {
+        "winRate": 43.48,
+        "playRate": 1.85,
+        "picks": 23
+      },
+      "open": {
+        "winRate": 51.22,
+        "playRate": 1.62,
+        "picks": 82
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "teutons",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "slavs",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "vikings",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "incas",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "bohemians",
+        "games": 12,
+        "winRate": 66.67
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "japanese",
+        "games": 8,
+        "winRate": 0
+      },
+      {
+        "name": "franks",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "vietnamese",
+        "games": 10,
+        "winRate": 30
+      },
+      {
+        "name": "celts",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "chinese",
+        "games": 11,
+        "winRate": 36.36
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": [
+      {
+        "id": "1021",
+        "name": "Feitoria",
+        "cat": "Building",
+        "pic": 53,
+        "cost": {
+          "gold": 350,
+          "stone": 300
+        },
+        "desc": "Passively generates food, wood, gold and stone; costs 20 population.",
+        "kind": "unique"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

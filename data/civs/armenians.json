@@ -1,0 +1,498 @@
+{
+  "id": "Armenians",
+  "internalName": "Armenians",
+  "slug": "armenians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Naval civilization",
+    "bonuses": [
+      "Mule Carts cost -25%",
+      "Mule Cart technology effects +40%",
+      "Spearman- and Militia-line upgrades (except Man-at-Arms) available one age earlier",
+      "First Fortified Church receives a free Relic",
+      "Galley-line and Dromons fire an additional projectile"
+    ],
+    "teamBonus": "Infantry +2 line of sight",
+    "uniqueUnits": [
+      "Composite Bowman (Foot Archer)",
+      "Warrior Priest (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Cilician Fleet (Demolition Ships +20% blast radius; Galley-line and Dromons +1 range)",
+        "name": "Cilician Fleet",
+        "cost": {
+          "wood": 350,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Fereters (Infantry (except Spearman-line) +30 HP; Warrior Priests heal +100% faster)",
+        "name": "Fereters",
+        "cost": {
+          "food": 550,
+          "gold": 400
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1800",
+        "name": "Composite Bowman",
+        "role": "Foot Archer",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Composite Bowman",
+            "pic": 407,
+            "hp": 40,
+            "attack": 4,
+            "range": 4,
+            "speed": 0.96,
+            "cost": {
+              "wood": 35,
+              "gold": 45
+            }
+          }
+        ]
+      },
+      {
+        "id": "1811",
+        "name": "Warrior Priest",
+        "role": "Infantry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Warrior Priest",
+            "pic": 409,
+            "hp": 80,
+            "attack": 11,
+            "range": 0,
+            "speed": 0.85,
+            "cost": {
+              "food": 40,
+              "gold": 50
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Heavy Cavalry Archer",
+        "name": "Heavy Cavalry Archer",
+        "cat": "Unit",
+        "id": "474",
+        "pic": 71
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Onagers shred your infantry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "OK",
+        "hybrid": "Weak",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal + Market age-up",
+        "detail": "Full Feudal with a Market; buy the age advance. The gold economy supports the gold-unit/monk play.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Listed for the market-based full-feudal age-up style. Mule-Cart economy and early age access to Militia/Spear upgrades enable flexible feudal pressure.",
+    "recommendations": [
+      "Use Mule Carts for a compact, raid-resistant economy.",
+      "Abuse earlier-age infantry upgrades for feudal pressure.",
+      "Composite Bowmen + Warrior Priests give a strong castle-age core.",
+      "May 2026 patch (kiritastrich): Mule-Cart gather bonus raised 40%→45% — faster wood/gold/stone, a solid eco buff."
+    ],
+    "strengths": [
+      "Mule Cart economy; earlier infantry upgrades",
+      "Strong unique units (Composite Bowman, Warrior Priest)",
+      "Infantry team-bonus LOS"
+    ],
+    "weaknesses": [
+      "Reliant on gold for the unique core"
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "Market-bought age-up off gold economy",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 49.59,
+    "playRate": 1.78,
+    "picks": 367,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/armenians",
+    "byMapType": {
+      "other": {
+        "winRate": 48.31,
+        "playRate": 1.7,
+        "picks": 236
+      },
+      "open": {
+        "winRate": 50.96,
+        "playRate": 2.05,
+        "picks": 104
+      },
+      "hybrid": {
+        "winRate": 71.43,
+        "playRate": 1.63,
+        "picks": 7
+      },
+      "closed": {
+        "winRate": 50,
+        "playRate": 1.61,
+        "picks": 20
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "teutons",
+        "games": 13,
+        "winRate": 69.23
+      },
+      {
+        "name": "bulgarians",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "romans",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "magyars",
+        "games": 11,
+        "winRate": 63.64
+      },
+      {
+        "name": "saracens",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "poles",
+        "games": 9,
+        "winRate": 0
+      },
+      {
+        "name": "malay",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "mongols",
+        "games": 11,
+        "winRate": 27.27
+      },
+      {
+        "name": "burgundians",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "malians",
+        "games": 11,
+        "winRate": 36.36
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Dromon",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Dromon",
+            "pic": 406,
+            "hp": 125,
+            "attack": 8,
+            "range": 12,
+            "speed": 1.15,
+            "cost": {
+              "wood": 175,
+              "gold": 150
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "1806",
+        "name": "Fortified Church",
+        "cat": "Building",
+        "pic": 88,
+        "cost": {
+          "wood": 200
+        },
+        "desc": "Replaces the Monastery — trains Monks/Warrior Priests and researches Monastery techs; heavily fortified.",
+        "kind": "regional"
+      },
+      {
+        "id": "1808",
+        "name": "Mule Cart",
+        "cat": "Building",
+        "pic": 89,
+        "cost": {
+          "food": 20,
+          "wood": 80
+        },
+        "desc": "Mobile resource drop-off site that repositions to your gathering nodes.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

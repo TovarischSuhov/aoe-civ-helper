@@ -1,0 +1,504 @@
+{
+  "id": "Shu",
+  "internalName": "Shu",
+  "slug": "shu",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Archer and Siege civilization",
+    "bonuses": [
+      "Lumberjacks generate food in addition to wood",
+      "Archery Unit technologies at the Archery Range and Blacksmith cost -25%",
+      "Siege Weapons and Siege Warships move +10/15% faster in Castle/Imperial Age"
+    ],
+    "teamBonus": "Foot Archers +2 line of sight",
+    "uniqueUnits": [
+      "White Feather Guard (Infantry)",
+      "War Chariot (Siege Weapon)",
+      "Liu Bei (Hero)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Coiled Serpent Array (Spearman-line and White Feather Guards gain additional HP when near each other)",
+        "name": "Coiled Serpent Array",
+        "cost": {
+          "food": 350,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Bolt Magazine (Archer-line, War Chariots and Lou Chuans fire additional projectiles)",
+        "name": "Bolt Magazine",
+        "cost": {
+          "food": 650,
+          "gold": 750
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1959",
+        "name": "White Feather Guard",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "White Feather Guard",
+            "pic": 434,
+            "hp": 95,
+            "attack": 7,
+            "range": 0,
+            "speed": 0.95,
+            "cost": {
+              "food": 60,
+              "gold": 15
+            }
+          },
+          {
+            "name": "Elite White Feather Guard",
+            "pic": 527,
+            "hp": 100,
+            "attack": 8,
+            "range": 0,
+            "speed": 0.95,
+            "cost": {
+              "food": 900,
+              "gold": 500
+            }
+          }
+        ]
+      },
+      {
+        "id": "1962",
+        "name": "War Chariot",
+        "role": "Siege Weapon",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "War Chariot",
+            "pic": 435,
+            "hp": 65,
+            "attack": 8,
+            "range": 6,
+            "speed": 0.9,
+            "cost": {
+              "food": 65,
+              "gold": 90
+            }
+          }
+        ]
+      },
+      {
+        "id": "1966",
+        "name": "Liu Bei",
+        "role": "Hero",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Liu Bei",
+            "pic": 466,
+            "hp": 425,
+            "attack": 15,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 500,
+              "gold": 500
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Iron Casting",
+        "name": "Iron Casting",
+        "cat": "Tech",
+        "id": "68",
+        "pic": 18
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": 4,
+    "year": 2026,
+    "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
+  },
+  "stats": {
+    "winRate": 52.17,
+    "playRate": 1.23,
+    "picks": 253,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/shu",
+    "byMapType": {
+      "other": {
+        "winRate": 51.81,
+        "playRate": 1.2,
+        "picks": 166
+      },
+      "open": {
+        "winRate": 50,
+        "playRate": 1.18,
+        "picks": 60
+      },
+      "hybrid": {
+        "winRate": 40,
+        "playRate": 1.16,
+        "picks": 5
+      },
+      "closed": {
+        "winRate": 63.64,
+        "playRate": 1.77,
+        "picks": 22
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "chinese",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "sicilians",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "spanish",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "vietnamese",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "cumans",
+        "games": 8,
+        "winRate": 50
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "khmer",
+        "games": 9,
+        "winRate": 11.11
+      },
+      {
+        "name": "celts",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "dravidians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "cumans",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "vietnamese",
+        "games": 9,
+        "winRate": 55.56
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Hei Guang Cavalry",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Hei Guang Cavalry",
+            "pic": 429,
+            "hp": 60,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 65,
+              "gold": 65
+            }
+          },
+          {
+            "name": "Heavy Hei Guang Cavalry",
+            "pic": 430,
+            "hp": 90,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 350,
+              "gold": 250
+            }
+          }
+        ]
+      },
+      {
+        "name": "Traction Trebuchet",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Traction Trebuchet",
+            "pic": 428,
+            "hp": 115,
+            "attack": 50,
+            "range": 14,
+            "speed": 0.57,
+            "cost": {
+              "wood": 175,
+              "gold": 210
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lou Chuan",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Lou Chuan",
+            "pic": 431,
+            "hp": 175,
+            "attack": 25,
+            "range": 10,
+            "speed": 1.1,
+            "cost": {
+              "wood": 250,
+              "gold": 225
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

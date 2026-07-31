@@ -1,0 +1,502 @@
+{
+  "id": "Wu",
+  "internalName": "Wu",
+  "slug": "wu",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Naval civilization",
+    "bonuses": [
+      "Military production buildings and Docks provide +55 food",
+      "Infantry regenerates 10/15/30 HP per minute in Feudal/Castle/Imperial Age",
+      "Jian Swordsmen and Hei Guang Cavalry +2 attack in Imperial Age",
+      "Careening, Dry Dock free"
+    ],
+    "teamBonus": "Houses built +100% faster",
+    "uniqueUnits": [
+      "Fire Archer (Foot Archer)",
+      "Jian Swordsman (Infantry)",
+      "Sun Jian (Hero)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Red Cliffs Tactics (Demolition Ships and Fire Archers deal fire damage to ships and buildings)",
+        "name": "Red Cliffs Tactics",
+        "cost": {
+          "food": 400,
+          "gold": 250
+        },
+        "pic": 33
+      },
+      {
+        "display": "Sitting Tiger (Traction Trebuchets and Lou Chuan trebuchet weapons fire additional projectiles)",
+        "name": "Sitting Tiger",
+        "cost": {
+          "wood": 600,
+          "gold": 300
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1968",
+        "name": "Fire Archer",
+        "role": "Foot Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Fire Archer",
+            "pic": 436,
+            "hp": 35,
+            "attack": 5,
+            "range": 5,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Fire Archer",
+            "pic": 528,
+            "hp": 40,
+            "attack": 6,
+            "range": 6,
+            "speed": 0.96,
+            "cost": {
+              "food": 800,
+              "gold": 800
+            }
+          }
+        ]
+      },
+      {
+        "id": "1974",
+        "name": "Jian Swordsman",
+        "role": "Infantry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Jian Swordsman",
+            "pic": 437,
+            "hp": 70,
+            "attack": 8,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 45,
+              "gold": 50
+            }
+          }
+        ]
+      },
+      {
+        "id": "1978",
+        "name": "Sun Jian",
+        "role": "Hero",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Sun Jian",
+            "pic": 467,
+            "hp": 400,
+            "attack": 15,
+            "range": 0,
+            "speed": 1.55,
+            "cost": {
+              "food": 500,
+              "gold": 500
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Heavy Cavalry Archer",
+        "name": "Heavy Cavalry Archer",
+        "cat": "Unit",
+        "id": "474",
+        "pic": 71
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 46.69,
+    "playRate": 1.18,
+    "picks": 242,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/wu",
+    "byMapType": {
+      "open": {
+        "winRate": 39.68,
+        "playRate": 1.24,
+        "picks": 63
+      },
+      "other": {
+        "winRate": 48.24,
+        "playRate": 1.23,
+        "picks": 170
+      },
+      "closed": {
+        "winRate": 60,
+        "playRate": 0.4,
+        "picks": 5
+      },
+      "hybrid": {
+        "winRate": 75,
+        "playRate": 0.93,
+        "picks": 4
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "japanese",
+        "games": 11,
+        "winRate": 63.64
+      },
+      {
+        "name": "chinese",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "armenians",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "malians",
+        "games": 10,
+        "winRate": 50
+      },
+      {
+        "name": "aztecs",
+        "games": 8,
+        "winRate": 25
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "aztecs",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "malians",
+        "games": 10,
+        "winRate": 50
+      },
+      {
+        "name": "armenians",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "chinese",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "japanese",
+        "games": 11,
+        "winRate": 63.64
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Hei Guang Cavalry",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Hei Guang Cavalry",
+            "pic": 429,
+            "hp": 60,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 65,
+              "gold": 65
+            }
+          },
+          {
+            "name": "Heavy Hei Guang Cavalry",
+            "pic": 430,
+            "hp": 90,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 350,
+              "gold": 250
+            }
+          }
+        ]
+      },
+      {
+        "name": "Traction Trebuchet",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Traction Trebuchet",
+            "pic": 428,
+            "hp": 115,
+            "attack": 50,
+            "range": 14,
+            "speed": 0.57,
+            "cost": {
+              "wood": 175,
+              "gold": 210
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lou Chuan",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Lou Chuan",
+            "pic": 431,
+            "hp": 175,
+            "attack": 25,
+            "range": 10,
+            "speed": 1.1,
+            "cost": {
+              "wood": 250,
+              "gold": 225
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

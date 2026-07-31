@@ -1,0 +1,480 @@
+{
+  "id": "Vikings",
+  "internalName": "Vikings",
+  "slug": "vikings",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Naval civilization",
+    "bonuses": [
+      "Wheelbarrow, Hand Cart free",
+      "Infantry +20% HP starting in Feudal Age",
+      "Warships cost -10/15/20% in Feudal/Castle/Imperial Age"
+    ],
+    "teamBonus": "Docks cost -15%",
+    "uniqueUnits": [
+      "Berserk (Infantry)",
+      "Longboat (Warship)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units; generate +5 gold when defeating Villagers, Trade Units and Monks)",
+        "name": "Chieftains",
+        "cost": {
+          "food": 600,
+          "gold": 450
+        },
+        "pic": 33
+      },
+      {
+        "display": "Bogsveigar (Archer-line and Longboats +1 attack)",
+        "name": "Bogsveigar",
+        "cost": {
+          "food": 650,
+          "gold": 500
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "692",
+        "name": "Berserk",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Berserk",
+            "pic": 38,
+            "hp": 54,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.05,
+            "cost": {
+              "food": 65,
+              "gold": 20
+            }
+          },
+          {
+            "name": "Elite Berserk",
+            "pic": 485,
+            "hp": 62,
+            "attack": 14,
+            "range": 0,
+            "speed": 1.05,
+            "cost": {
+              "food": 1075,
+              "gold": 475
+            }
+          }
+        ]
+      },
+      {
+        "id": "250",
+        "name": "Longboat",
+        "role": "Warship",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Longboat",
+            "pic": 40,
+            "hp": 125,
+            "attack": 5,
+            "range": 6,
+            "speed": 1.46,
+            "cost": {
+              "wood": 100,
+              "gold": 50
+            }
+          },
+          {
+            "name": "Elite Longboat",
+            "pic": 474,
+            "hp": 130,
+            "attack": 7,
+            "range": 7,
+            "speed": 1.46,
+            "cost": {
+              "food": 750,
+              "gold": 475
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Heavy Cavalry Archer",
+        "name": "Heavy Cavalry Archer",
+        "cat": "Unit",
+        "id": "474",
+        "pic": 71
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Husbandry",
+        "name": "Husbandry",
+        "cat": "Tech",
+        "id": "39",
+        "pic": 10
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      },
+      {
+        "label": "No Theocracy",
+        "name": "Theocracy",
+        "cat": "Tech",
+        "id": "438",
+        "pic": 109
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Onagers shred your infantry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": 2,
+    "year": 2026,
+    "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
+  },
+  "stats": {
+    "winRate": 51.53,
+    "playRate": 1.74,
+    "picks": 359,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/vikings",
+    "byMapType": {
+      "other": {
+        "winRate": 50,
+        "playRate": 1.76,
+        "picks": 244
+      },
+      "open": {
+        "winRate": 52.58,
+        "playRate": 1.91,
+        "picks": 97
+      },
+      "closed": {
+        "winRate": 71.43,
+        "playRate": 1.13,
+        "picks": 14
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 0.93,
+        "picks": 4
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "bengalis",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "turks",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "mongols",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "aztecs",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "saracens",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "italians",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "bohemians",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "portuguese",
+        "games": 10,
+        "winRate": 30
+      },
+      {
+        "name": "sicilians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "chinese",
+        "games": 9,
+        "winRate": 33.33
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

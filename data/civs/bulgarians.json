@@ -1,0 +1,381 @@
+{
+  "id": "Bulgarians",
+  "internalName": "Bulgarians",
+  "slug": "bulgarians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Cavalry civilization",
+    "bonuses": [
+      "Militia-line upgrades free",
+      "Blacksmith and Siege Workshop technologies cost -50% food",
+      "Town Centers cost -50% stone",
+      "Can build Krepost in Castle Age"
+    ],
+    "teamBonus": "Blacksmiths work +80% faster",
+    "uniqueUnits": [
+      "Konnik (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Stirrups (Cavalry attacks +33% faster)",
+        "name": "Stirrups",
+        "cost": {
+          "food": 400,
+          "gold": 200
+        },
+        "pic": 33
+      },
+      {
+        "display": "Bagains (Militia-line +5 melee armor)",
+        "name": "Bagains",
+        "cost": {
+          "food": 900,
+          "gold": 450
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1225",
+        "name": "Konnik",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Konnik",
+            "pic": 249,
+            "hp": 100,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 60,
+              "gold": 70
+            }
+          },
+          {
+            "name": "Elite Konnik",
+            "pic": 506,
+            "hp": 120,
+            "attack": 14,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 1000,
+              "gold": 750
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Crossbowman",
+        "name": "Crossbowman",
+        "cat": "Unit",
+        "id": "24",
+        "pic": 18
+      },
+      {
+        "label": "No Champion",
+        "name": "Champion",
+        "cat": "Unit",
+        "id": "567",
+        "pic": 72
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Strong",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 50.45,
+    "playRate": 1.62,
+    "picks": 333,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/bulgarians",
+    "byMapType": {
+      "other": {
+        "winRate": 48.83,
+        "playRate": 1.54,
+        "picks": 213
+      },
+      "closed": {
+        "winRate": 48.28,
+        "playRate": 2.33,
+        "picks": 29
+      },
+      "open": {
+        "winRate": 54.76,
+        "playRate": 1.66,
+        "picks": 84
+      },
+      "hybrid": {
+        "winRate": 57.14,
+        "playRate": 1.63,
+        "picks": 7
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "sicilians",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "japanese",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "aztecs",
+        "games": 16,
+        "winRate": 68.75
+      },
+      {
+        "name": "chinese",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "jurchens",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "berbers",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "mongols",
+        "games": 13,
+        "winRate": 30.77
+      },
+      {
+        "name": "burgundians",
+        "games": 13,
+        "winRate": 30.77
+      },
+      {
+        "name": "armenians",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "koreans",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": [
+      {
+        "id": "1251",
+        "name": "Krepost",
+        "cat": "Building",
+        "pic": 55,
+        "cost": {
+          "stone": 350
+        },
+        "desc": "Mini-Castle — trains the Konnik and researches Bulgarian unique techs; cheaper than a Castle.",
+        "kind": "unique"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

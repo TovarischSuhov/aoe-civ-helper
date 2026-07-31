@@ -1,0 +1,2472 @@
+{
+  "_meta": {
+    "generatedAt": "2026-07-30",
+    "source": "aoe2techtree data/trees/*.json (repo tarball)",
+    "nodeTypes": [
+      "RegionalUnit",
+      "RegionalBuilding",
+      "UniqueBuilding"
+    ],
+    "note": "Per-civ regional units, regional buildings, and unique buildings — identified by tree node_type. Keyed by internal-name-lowercased; joined in build.mjs via internalName. Costs from data.json; icons (pic) are picture_index values."
+  },
+  "civs": {
+    "armenians": {
+      "units": [
+        {
+          "name": "Dromon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Dromon",
+              "pic": 406,
+              "hp": 125,
+              "attack": 8,
+              "range": 12,
+              "speed": 1.15,
+              "cost": {
+                "wood": 175,
+                "gold": 150
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "1806",
+          "name": "Fortified Church",
+          "cat": "Building",
+          "pic": 88,
+          "cost": {
+            "wood": 200
+          },
+          "desc": "Replaces the Monastery — trains Monks/Warrior Priests and researches Monastery techs; heavily fortified.",
+          "kind": "regional"
+        },
+        {
+          "id": "1808",
+          "name": "Mule Cart",
+          "cat": "Building",
+          "pic": 89,
+          "cost": {
+            "food": 20,
+            "wood": 80
+          },
+          "desc": "Mobile resource drop-off site that repositions to your gathering nodes.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "aztecs": {
+      "units": [
+        {
+          "name": "Eagle Scout",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Eagle Scout",
+              "pic": 109,
+              "hp": 50,
+              "attack": 4,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 20,
+                "gold": 50
+              }
+            },
+            {
+              "name": "Eagle Warrior",
+              "pic": 148,
+              "hp": 55,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.15,
+              "cost": {
+                "food": 200,
+                "gold": 200
+              }
+            },
+            {
+              "name": "Elite Eagle Warrior",
+              "pic": 149,
+              "hp": 60,
+              "attack": 9,
+              "range": 0,
+              "speed": 1.3,
+              "cost": {
+                "food": 800,
+                "gold": 500
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "bengalis": {
+      "units": [
+        {
+          "name": "Elephant Archer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Elephant Archer",
+              "pic": 393,
+              "hp": 230,
+              "attack": 6,
+              "range": 4,
+              "speed": 0.9,
+              "cost": {
+                "food": 60,
+                "gold": 80
+              }
+            },
+            {
+              "name": "Elite Elephant Archer",
+              "pic": 93,
+              "hp": 280,
+              "attack": 7,
+              "range": 4,
+              "speed": 0.9,
+              "cost": {
+                "food": 900,
+                "gold": 500
+              }
+            }
+          ]
+        },
+        {
+          "name": "Battle Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Battle Elephant",
+              "pic": 228,
+              "hp": 250,
+              "attack": 12,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 100,
+                "gold": 70
+              }
+            },
+            {
+              "name": "Elite Battle Elephant",
+              "pic": 246,
+              "hp": 300,
+              "attack": 14,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 1100,
+                "gold": 700
+              }
+            }
+          ]
+        },
+        {
+          "name": "Armored Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Armored Elephant",
+              "pic": 394,
+              "hp": 180,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 120,
+                "gold": 95
+              }
+            },
+            {
+              "name": "Siege Elephant",
+              "pic": 395,
+              "hp": 220,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 850
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "berbers": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "bulgarians": {
+      "units": [],
+      "buildings": [
+        {
+          "id": "1251",
+          "name": "Krepost",
+          "cat": "Building",
+          "pic": 55,
+          "cost": {
+            "stone": 350
+          },
+          "desc": "Mini-Castle — trains the Konnik and researches Bulgarian unique techs; cheaper than a Castle.",
+          "kind": "unique"
+        }
+      ]
+    },
+    "burmese": {
+      "units": [
+        {
+          "name": "Battle Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Battle Elephant",
+              "pic": 228,
+              "hp": 250,
+              "attack": 12,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 100,
+                "gold": 70
+              }
+            },
+            {
+              "name": "Elite Battle Elephant",
+              "pic": 246,
+              "hp": 300,
+              "attack": 14,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 1100,
+                "gold": 700
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "byzantines": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        },
+        {
+          "name": "Dromon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Dromon",
+              "pic": 406,
+              "hp": 125,
+              "attack": 8,
+              "range": 12,
+              "speed": 1.15,
+              "cost": {
+                "wood": 175,
+                "gold": 150
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "chinese": {
+      "units": [
+        {
+          "name": "Fire Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Fire Lancer",
+              "pic": 457,
+              "hp": 65,
+              "attack": 9,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "wood": 45,
+                "gold": 45
+              }
+            },
+            {
+              "name": "Elite Fire Lancer",
+              "pic": 458,
+              "hp": 85,
+              "attack": 10,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "food": 750,
+                "gold": 400
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rocket Cart",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Rocket Cart",
+              "pic": 459,
+              "hp": 45,
+              "attack": 5,
+              "range": 7,
+              "speed": 0.6,
+              "cost": {
+                "wood": 135,
+                "gold": 155
+              }
+            },
+            {
+              "name": "Heavy Rocket Cart",
+              "pic": 460,
+              "hp": 65,
+              "attack": 5,
+              "range": 8,
+              "speed": 0.6,
+              "cost": {
+                "wood": 800,
+                "gold": 600
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lou Chuan",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Lou Chuan",
+              "pic": 431,
+              "hp": 175,
+              "attack": 25,
+              "range": 10,
+              "speed": 1.1,
+              "cost": {
+                "wood": 250,
+                "gold": 225
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "cumans": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            }
+          ]
+        },
+        {
+          "name": "Steppe Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Steppe Lancer",
+              "pic": 273,
+              "hp": 60,
+              "attack": 9,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 70,
+                "gold": 40
+              }
+            },
+            {
+              "name": "Elite Steppe Lancer",
+              "pic": 274,
+              "hp": 80,
+              "attack": 11,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 600,
+                "gold": 550
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "dravidians": {
+      "units": [
+        {
+          "name": "Elephant Archer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Elephant Archer",
+              "pic": 393,
+              "hp": 230,
+              "attack": 6,
+              "range": 4,
+              "speed": 0.9,
+              "cost": {
+                "food": 60,
+                "gold": 80
+              }
+            },
+            {
+              "name": "Elite Elephant Archer",
+              "pic": 93,
+              "hp": 280,
+              "attack": 7,
+              "range": 4,
+              "speed": 0.9,
+              "cost": {
+                "food": 900,
+                "gold": 500
+              }
+            }
+          ]
+        },
+        {
+          "name": "Battle Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Battle Elephant",
+              "pic": 228,
+              "hp": 250,
+              "attack": 12,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 100,
+                "gold": 70
+              }
+            }
+          ]
+        },
+        {
+          "name": "Armored Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Armored Elephant",
+              "pic": 394,
+              "hp": 180,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 120,
+                "gold": 95
+              }
+            },
+            {
+              "name": "Siege Elephant",
+              "pic": 395,
+              "hp": 220,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 850
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "ethiopians": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "georgians": {
+      "units": [],
+      "buildings": [
+        {
+          "id": "1806",
+          "name": "Fortified Church",
+          "cat": "Building",
+          "pic": 88,
+          "cost": {
+            "wood": 200
+          },
+          "desc": "Replaces the Monastery — trains Monks/Warrior Priests and researches Monastery techs; heavily fortified.",
+          "kind": "regional"
+        },
+        {
+          "id": "1808",
+          "name": "Mule Cart",
+          "cat": "Building",
+          "pic": 89,
+          "cost": {
+            "food": 20,
+            "wood": 80
+          },
+          "desc": "Mobile resource drop-off site that repositions to your gathering nodes.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "goths": {
+      "units": [
+        {
+          "name": "Dromon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Dromon",
+              "pic": 406,
+              "hp": 125,
+              "attack": 8,
+              "range": 12,
+              "speed": 1.15,
+              "cost": {
+                "wood": 175,
+                "gold": 150
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "gurjaras": {
+      "units": [
+        {
+          "name": "Elephant Archer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Elephant Archer",
+              "pic": 393,
+              "hp": 230,
+              "attack": 6,
+              "range": 4,
+              "speed": 0.9,
+              "cost": {
+                "food": 60,
+                "gold": 80
+              }
+            },
+            {
+              "name": "Elite Elephant Archer",
+              "pic": 93,
+              "hp": 280,
+              "attack": 7,
+              "range": 4,
+              "speed": 0.9,
+              "cost": {
+                "food": 900,
+                "gold": 500
+              }
+            }
+          ]
+        },
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        },
+        {
+          "name": "Armored Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Armored Elephant",
+              "pic": 394,
+              "hp": 180,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 120,
+                "gold": 95
+              }
+            },
+            {
+              "name": "Siege Elephant",
+              "pic": 395,
+              "hp": 220,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 850
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "hindustanis": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        },
+        {
+          "name": "Armored Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Armored Elephant",
+              "pic": 394,
+              "hp": 180,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 120,
+                "gold": 95
+              }
+            },
+            {
+              "name": "Siege Elephant",
+              "pic": 395,
+              "hp": 220,
+              "attack": 4,
+              "range": 0,
+              "speed": 0.6,
+              "cost": {
+                "food": 850
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "1754",
+          "name": "Caravanserai",
+          "cat": "Building",
+          "pic": 87,
+          "cost": {
+            "wood": 175,
+            "stone": 50
+          },
+          "desc": "Heals nearby units and speeds Trade Carts passing between Caravanserais.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "huns": {
+      "units": [
+        {
+          "name": "Dromon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Dromon",
+              "pic": 406,
+              "hp": 125,
+              "attack": 8,
+              "range": 12,
+              "speed": 1.15,
+              "cost": {
+                "wood": 175,
+                "gold": 150
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "incas": {
+      "units": [
+        {
+          "name": "Slinger",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Slinger",
+              "pic": 143,
+              "hp": 35,
+              "attack": 4,
+              "range": 5,
+              "speed": 0.96,
+              "cost": {
+                "food": 50,
+                "wood": 25
+              }
+            }
+          ]
+        },
+        {
+          "name": "Champi Scout",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Champi Scout",
+              "pic": 540,
+              "hp": 35,
+              "attack": 3,
+              "range": 0,
+              "speed": 1,
+              "cost": {
+                "food": 50,
+                "gold": 25
+              }
+            },
+            {
+              "name": "Champi Runner",
+              "pic": 555,
+              "hp": 40,
+              "attack": 5,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 90,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Champi Warrior",
+              "pic": 541,
+              "hp": 55,
+              "attack": 9,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 150,
+                "gold": 175
+              }
+            },
+            {
+              "name": "Elite Champi Warrior",
+              "pic": 542,
+              "hp": 65,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 650,
+                "gold": 450
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "2556",
+          "name": "Settlement",
+          "cat": "Building",
+          "pic": 98,
+          "cost": {
+            "wood": 125
+          },
+          "desc": "Andean production building — trains the Spearman and Skirmisher lines.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "jurchens": {
+      "units": [
+        {
+          "name": "Fire Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Fire Lancer",
+              "pic": 457,
+              "hp": 65,
+              "attack": 9,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "wood": 45,
+                "gold": 45
+              }
+            },
+            {
+              "name": "Elite Fire Lancer",
+              "pic": 458,
+              "hp": 85,
+              "attack": 10,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "food": 750,
+                "gold": 400
+              }
+            }
+          ]
+        },
+        {
+          "name": "Steppe Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Steppe Lancer",
+              "pic": 273,
+              "hp": 60,
+              "attack": 9,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 70,
+                "gold": 40
+              }
+            },
+            {
+              "name": "Elite Steppe Lancer",
+              "pic": 274,
+              "hp": 80,
+              "attack": 11,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 600,
+                "gold": 550
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rocket Cart",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Rocket Cart",
+              "pic": 459,
+              "hp": 45,
+              "attack": 5,
+              "range": 7,
+              "speed": 0.6,
+              "cost": {
+                "wood": 135,
+                "gold": 155
+              }
+            },
+            {
+              "name": "Heavy Rocket Cart",
+              "pic": 460,
+              "hp": 65,
+              "attack": 5,
+              "range": 8,
+              "speed": 0.6,
+              "cost": {
+                "wood": 800,
+                "gold": 600
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lou Chuan",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Lou Chuan",
+              "pic": 431,
+              "hp": 175,
+              "attack": 25,
+              "range": 10,
+              "speed": 1.1,
+              "cost": {
+                "wood": 250,
+                "gold": 225
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "khitans": {
+      "units": [
+        {
+          "name": "Fire Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Fire Lancer",
+              "pic": 457,
+              "hp": 65,
+              "attack": 9,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "wood": 45,
+                "gold": 45
+              }
+            },
+            {
+              "name": "Elite Fire Lancer",
+              "pic": 458,
+              "hp": 85,
+              "attack": 10,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "food": 750,
+                "gold": 400
+              }
+            }
+          ]
+        },
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        },
+        {
+          "name": "Steppe Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Steppe Lancer",
+              "pic": 273,
+              "hp": 60,
+              "attack": 9,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 70,
+                "gold": 40
+              }
+            },
+            {
+              "name": "Elite Steppe Lancer",
+              "pic": 274,
+              "hp": 80,
+              "attack": 11,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 600,
+                "gold": 550
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rocket Cart",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Rocket Cart",
+              "pic": 459,
+              "hp": 45,
+              "attack": 5,
+              "range": 7,
+              "speed": 0.6,
+              "cost": {
+                "wood": 135,
+                "gold": 155
+              }
+            },
+            {
+              "name": "Heavy Rocket Cart",
+              "pic": 460,
+              "hp": 65,
+              "attack": 5,
+              "range": 8,
+              "speed": 0.6,
+              "cost": {
+                "wood": 800,
+                "gold": 600
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "1889",
+          "name": "Pasture",
+          "cat": "Building",
+          "pic": 96,
+          "cost": {
+            "wood": 110
+          },
+          "desc": "Replaces the Farm — renewable food worked by up to 2 Villagers; depletes and must be rebuilt.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "khmer": {
+      "units": [
+        {
+          "name": "Battle Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Battle Elephant",
+              "pic": 228,
+              "hp": 250,
+              "attack": 12,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 100,
+                "gold": 70
+              }
+            },
+            {
+              "name": "Elite Battle Elephant",
+              "pic": 246,
+              "hp": 300,
+              "attack": 14,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 1100,
+                "gold": 700
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "koreans": {
+      "units": [
+        {
+          "name": "Fire Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Fire Lancer",
+              "pic": 457,
+              "hp": 65,
+              "attack": 9,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "wood": 45,
+                "gold": 45
+              }
+            },
+            {
+              "name": "Elite Fire Lancer",
+              "pic": 458,
+              "hp": 85,
+              "attack": 10,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "food": 750,
+                "gold": 400
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rocket Cart",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Rocket Cart",
+              "pic": 459,
+              "hp": 45,
+              "attack": 5,
+              "range": 7,
+              "speed": 0.6,
+              "cost": {
+                "wood": 135,
+                "gold": 155
+              }
+            },
+            {
+              "name": "Heavy Rocket Cart",
+              "pic": 460,
+              "hp": 65,
+              "attack": 5,
+              "range": 8,
+              "speed": 0.6,
+              "cost": {
+                "wood": 800,
+                "gold": 600
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "malay": {
+      "units": [
+        {
+          "name": "Battle Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Battle Elephant",
+              "pic": 228,
+              "hp": 250,
+              "attack": 12,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 100,
+                "gold": 70
+              }
+            },
+            {
+              "name": "Elite Battle Elephant",
+              "pic": 246,
+              "hp": 300,
+              "attack": 14,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 1100,
+                "gold": 700
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "1189",
+          "name": "Harbor",
+          "cat": "Building",
+          "pic": 56,
+          "cost": {
+            "wood": 150
+          },
+          "desc": "Replaces the Dock (Southeast Asian) — trains ships and Fishing Boats; fortified and can attack.",
+          "kind": "unique"
+        }
+      ]
+    },
+    "malians": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "mapuche": {
+      "units": [
+        {
+          "name": "Slinger",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Slinger",
+              "pic": 143,
+              "hp": 35,
+              "attack": 4,
+              "range": 5,
+              "speed": 0.96,
+              "cost": {
+                "food": 50,
+                "wood": 25
+              }
+            }
+          ]
+        },
+        {
+          "name": "Champi Scout",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Champi Scout",
+              "pic": 540,
+              "hp": 35,
+              "attack": 3,
+              "range": 0,
+              "speed": 1,
+              "cost": {
+                "food": 50,
+                "gold": 25
+              }
+            },
+            {
+              "name": "Champi Runner",
+              "pic": 555,
+              "hp": 40,
+              "attack": 5,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 90,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Champi Warrior",
+              "pic": 541,
+              "hp": 55,
+              "attack": 9,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 150,
+                "gold": 175
+              }
+            },
+            {
+              "name": "Elite Champi Warrior",
+              "pic": 542,
+              "hp": 65,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 650,
+                "gold": 450
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "2556",
+          "name": "Settlement",
+          "cat": "Building",
+          "pic": 98,
+          "cost": {
+            "wood": 125
+          },
+          "desc": "Andean production building — trains the Spearman and Skirmisher lines.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "mayans": {
+      "units": [
+        {
+          "name": "Eagle Scout",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Eagle Scout",
+              "pic": 109,
+              "hp": 50,
+              "attack": 4,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 20,
+                "gold": 50
+              }
+            },
+            {
+              "name": "Eagle Warrior",
+              "pic": 148,
+              "hp": 55,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.15,
+              "cost": {
+                "food": 200,
+                "gold": 200
+              }
+            },
+            {
+              "name": "Elite Eagle Warrior",
+              "pic": 149,
+              "hp": 60,
+              "attack": 9,
+              "range": 0,
+              "speed": 1.3,
+              "cost": {
+                "food": 800,
+                "gold": 500
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "mongols": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        },
+        {
+          "name": "Steppe Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Steppe Lancer",
+              "pic": 273,
+              "hp": 60,
+              "attack": 9,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 70,
+                "gold": 40
+              }
+            },
+            {
+              "name": "Elite Steppe Lancer",
+              "pic": 274,
+              "hp": 80,
+              "attack": 11,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 600,
+                "gold": 550
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "muisca": {
+      "units": [
+        {
+          "name": "Slinger",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Slinger",
+              "pic": 143,
+              "hp": 35,
+              "attack": 4,
+              "range": 5,
+              "speed": 0.96,
+              "cost": {
+                "food": 50,
+                "wood": 25
+              }
+            }
+          ]
+        },
+        {
+          "name": "Champi Scout",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Champi Scout",
+              "pic": 540,
+              "hp": 35,
+              "attack": 3,
+              "range": 0,
+              "speed": 1,
+              "cost": {
+                "food": 50,
+                "gold": 25
+              }
+            },
+            {
+              "name": "Champi Runner",
+              "pic": 555,
+              "hp": 40,
+              "attack": 5,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 90,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Champi Warrior",
+              "pic": 541,
+              "hp": 55,
+              "attack": 9,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 150,
+                "gold": 175
+              }
+            },
+            {
+              "name": "Elite Champi Warrior",
+              "pic": 542,
+              "hp": 65,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 650,
+                "gold": 450
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "2556",
+          "name": "Settlement",
+          "cat": "Building",
+          "pic": 98,
+          "cost": {
+            "wood": 125
+          },
+          "desc": "Andean production building — trains the Spearman and Skirmisher lines.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "persians": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "1754",
+          "name": "Caravanserai",
+          "cat": "Building",
+          "pic": 87,
+          "cost": {
+            "wood": 175,
+            "stone": 50
+          },
+          "desc": "Heals nearby units and speeds Trade Carts passing between Caravanserais.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "poles": {
+      "units": [],
+      "buildings": [
+        {
+          "id": "1734",
+          "name": "Folwark",
+          "cat": "Building",
+          "pic": 86,
+          "cost": {
+            "wood": 100
+          },
+          "desc": "Replaces the Mill — new Farms built in its aura instantly yield a chunk of food.",
+          "kind": "unique"
+        }
+      ]
+    },
+    "portuguese": {
+      "units": [],
+      "buildings": [
+        {
+          "id": "1021",
+          "name": "Feitoria",
+          "cat": "Building",
+          "pic": 53,
+          "cost": {
+            "gold": 350,
+            "stone": 300
+          },
+          "desc": "Passively generates food, wood, gold and stone; costs 20 population.",
+          "kind": "unique"
+        }
+      ]
+    },
+    "romans": {
+      "units": [
+        {
+          "name": "Dromon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Dromon",
+              "pic": 406,
+              "hp": 125,
+              "attack": 8,
+              "range": 12,
+              "speed": 1.15,
+              "cost": {
+                "wood": 175,
+                "gold": 150
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "saracens": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "shu": {
+      "units": [
+        {
+          "name": "Hei Guang Cavalry",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Hei Guang Cavalry",
+              "pic": 429,
+              "hp": 60,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.35,
+              "cost": {
+                "food": 65,
+                "gold": 65
+              }
+            },
+            {
+              "name": "Heavy Hei Guang Cavalry",
+              "pic": 430,
+              "hp": 90,
+              "attack": 12,
+              "range": 0,
+              "speed": 1.35,
+              "cost": {
+                "food": 350,
+                "gold": 250
+              }
+            }
+          ]
+        },
+        {
+          "name": "Traction Trebuchet",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Traction Trebuchet",
+              "pic": 428,
+              "hp": 115,
+              "attack": 50,
+              "range": 14,
+              "speed": 0.57,
+              "cost": {
+                "wood": 175,
+                "gold": 210
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lou Chuan",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Lou Chuan",
+              "pic": 431,
+              "hp": 175,
+              "attack": 25,
+              "range": 10,
+              "speed": 1.1,
+              "cost": {
+                "wood": 250,
+                "gold": 225
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "sicilians": {
+      "units": [],
+      "buildings": [
+        {
+          "id": "1665",
+          "name": "Donjon",
+          "cat": "Building",
+          "pic": 84,
+          "cost": {
+            "wood": 50,
+            "stone": 175
+          },
+          "desc": "Defensive tower that trains the Serjeant and researches Sicilian unique techs.",
+          "kind": "unique"
+        }
+      ]
+    },
+    "tatars": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        },
+        {
+          "name": "Steppe Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Steppe Lancer",
+              "pic": 273,
+              "hp": 60,
+              "attack": 9,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 70,
+                "gold": 40
+              }
+            },
+            {
+              "name": "Elite Steppe Lancer",
+              "pic": 274,
+              "hp": 80,
+              "attack": 11,
+              "range": 1,
+              "speed": 1.45,
+              "cost": {
+                "food": 600,
+                "gold": 550
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "tupi": {
+      "units": [
+        {
+          "name": "Slinger",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Slinger",
+              "pic": 143,
+              "hp": 35,
+              "attack": 4,
+              "range": 5,
+              "speed": 0.96,
+              "cost": {
+                "food": 50,
+                "wood": 25
+              }
+            }
+          ]
+        },
+        {
+          "name": "Champi Scout",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Champi Scout",
+              "pic": 540,
+              "hp": 35,
+              "attack": 3,
+              "range": 0,
+              "speed": 1,
+              "cost": {
+                "food": 50,
+                "gold": 25
+              }
+            },
+            {
+              "name": "Champi Runner",
+              "pic": 555,
+              "hp": 40,
+              "attack": 5,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 90,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Champi Warrior",
+              "pic": 541,
+              "hp": 55,
+              "attack": 9,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 150,
+                "gold": 175
+              }
+            },
+            {
+              "name": "Elite Champi Warrior",
+              "pic": 542,
+              "hp": 65,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.1,
+              "cost": {
+                "food": 650,
+                "gold": 450
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catapult Galleon",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Catapult Galleon",
+              "pic": 591,
+              "hp": 140,
+              "attack": 30,
+              "range": 12,
+              "speed": 1,
+              "cost": {
+                "wood": 225,
+                "gold": 100
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": [
+        {
+          "id": "2556",
+          "name": "Settlement",
+          "cat": "Building",
+          "pic": 98,
+          "cost": {
+            "wood": 125
+          },
+          "desc": "Andean production building — trains the Spearman and Skirmisher lines.",
+          "kind": "regional"
+        }
+      ]
+    },
+    "turks": {
+      "units": [
+        {
+          "name": "Camel Rider",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Camel Rider",
+              "pic": 78,
+              "hp": 100,
+              "attack": 6,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 55,
+                "gold": 60
+              }
+            },
+            {
+              "name": "Heavy Camel Rider",
+              "pic": 79,
+              "hp": 120,
+              "attack": 7,
+              "range": 0,
+              "speed": 1.45,
+              "cost": {
+                "food": 325,
+                "gold": 360
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "vietnamese": {
+      "units": [
+        {
+          "name": "Fire Lancer",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Fire Lancer",
+              "pic": 457,
+              "hp": 65,
+              "attack": 9,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "wood": 45,
+                "gold": 45
+              }
+            },
+            {
+              "name": "Elite Fire Lancer",
+              "pic": 458,
+              "hp": 85,
+              "attack": 10,
+              "range": 0,
+              "speed": 0.96,
+              "cost": {
+                "food": 750,
+                "gold": 400
+              }
+            }
+          ]
+        },
+        {
+          "name": "Battle Elephant",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Battle Elephant",
+              "pic": 228,
+              "hp": 250,
+              "attack": 12,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 100,
+                "gold": 70
+              }
+            },
+            {
+              "name": "Elite Battle Elephant",
+              "pic": 246,
+              "hp": 300,
+              "attack": 14,
+              "range": 0,
+              "speed": 0.9,
+              "cost": {
+                "food": 1100,
+                "gold": 700
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "wei": {
+      "units": [
+        {
+          "name": "Hei Guang Cavalry",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Hei Guang Cavalry",
+              "pic": 429,
+              "hp": 60,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.35,
+              "cost": {
+                "food": 65,
+                "gold": 65
+              }
+            },
+            {
+              "name": "Heavy Hei Guang Cavalry",
+              "pic": 430,
+              "hp": 90,
+              "attack": 12,
+              "range": 0,
+              "speed": 1.35,
+              "cost": {
+                "food": 350,
+                "gold": 250
+              }
+            }
+          ]
+        },
+        {
+          "name": "Traction Trebuchet",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Traction Trebuchet",
+              "pic": 428,
+              "hp": 115,
+              "attack": 50,
+              "range": 14,
+              "speed": 0.57,
+              "cost": {
+                "wood": 175,
+                "gold": 210
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lou Chuan",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Lou Chuan",
+              "pic": 431,
+              "hp": 175,
+              "attack": 25,
+              "range": 10,
+              "speed": 1.1,
+              "cost": {
+                "wood": 250,
+                "gold": 225
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    },
+    "wu": {
+      "units": [
+        {
+          "name": "Hei Guang Cavalry",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Hei Guang Cavalry",
+              "pic": 429,
+              "hp": 60,
+              "attack": 11,
+              "range": 0,
+              "speed": 1.35,
+              "cost": {
+                "food": 65,
+                "gold": 65
+              }
+            },
+            {
+              "name": "Heavy Hei Guang Cavalry",
+              "pic": 430,
+              "hp": 90,
+              "attack": 12,
+              "range": 0,
+              "speed": 1.35,
+              "cost": {
+                "food": 350,
+                "gold": 250
+              }
+            }
+          ]
+        },
+        {
+          "name": "Traction Trebuchet",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Traction Trebuchet",
+              "pic": 428,
+              "hp": 115,
+              "attack": 50,
+              "range": 14,
+              "speed": 0.57,
+              "cost": {
+                "wood": 175,
+                "gold": 210
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lou Chuan",
+          "cat": "Unit",
+          "kind": "regional",
+          "tiers": [
+            {
+              "name": "Lou Chuan",
+              "pic": 431,
+              "hp": 175,
+              "attack": 25,
+              "range": 10,
+              "speed": 1.1,
+              "cost": {
+                "wood": 250,
+                "gold": 225
+              }
+            }
+          ]
+        }
+      ],
+      "buildings": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "purpose": "Internal bookmark for incremental source-parsing. NOT loaded by the app (not in updater.js DATA_FILES). Tracks how far each content source has been parsed so a recurring task can continue from the last spot.",
+    "updated": "2026-07-30",
+    "direction": "kiritastrich: paginate DOWNWARD (older posts) using ?before=<lastParsedId>; each page ~= 20 posts, follow the smaller message id."
+  },
+  "sources": [
+    {
+      "key": "kiritastrich",
+      "type": "telegram",
+      "channel": "https://t.me/s/kiritastrich",
+      "status": "in_progress",
+      "lastParsedId": 1169,
+      "batchesDone": 2,
+      "lastBatchDensity": "1/10 (Redbull map reveals + stream/showmatch/Xbox-leadership chatter; one durable fact: Goths' near-complete navy minus Dry Dock → Tips)",
+      "finished": false,
+      "floorNote": "Stop when reaching the channel's first message OR 3 consecutive pages with zero substantive strategy content (diminishing returns). Prefer TIMELESS content (eco math, build fundamentals, unit matchups, general principles); treat old patch-specific notes as lower priority since patches change.",
+      "notes": "Posts parsed DOWN to ~#1170. Newer substantive posts already used (sources-log.json kiritastrich group + data/tips.json). Batch 2 yielded one durable fact (Goths water tree → Tips) and skipped a patch-era tier-list reaction (#~1196: Mapuche/Muisca 'broken unit combo', Burgundians underrated, Koreans map-control) plus Redbull/Xbox-leadership/showmatch chatter. Paginate DOWNWARD from before=1169 for older material; approaching the diminishing-returns floor (2 consecutive low-density batches)."
+    },
+    {
+      "key": "sotl",
+      "type": "youtube",
+      "url": "https://www.youtube.com/@SpiritOfTheLaw",
+      "status": "deferred",
+      "finished": false,
+      "notes": "Video channel. Tips in data/tips.json are distilled creator principles, not video-specific. Backlog parse = enumerate older videos via the channel page (webReader) and distill notable ones into principles. Heavier per-video; deferred until text source is exhausted or explicitly requested."
+    },
+    {
+      "key": "hera",
+      "type": "youtube",
+      "url": "https://www.youtube.com/@HeraAgeOfEmpires2",
+      "status": "deferred",
+      "finished": false,
+      "notes": "Same as sotl — distilled principles; per-video backlog parse deferred."
+    },
+    {
+      "key": "cyberdabvinc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/@CyberDabVinc",
+      "status": "deferred",
+      "finished": false,
+      "notes": "Same as sotl — distilled principles; per-video backlog parse deferred."
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "id": "Muisca",
+  "internalName": "Muisca",
+  "slug": "muisca",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Archer and Monk civilization",
+    "bonuses": [
+      "Advancing to the next Age costs -50% gold",
+      "Settlements cost -33% and heal nearby units",
+      "Champi Warriors and Archery Range Units +1/2/3 melee armor in Feudal/Castle/Imperial Age",
+      "Monks regain faith +50% faster",
+      "Caravan, Guilds free"
+    ],
+    "teamBonus": "Natural gold sources last +15% longer",
+    "uniqueUnits": [
+      "Guecha Warrior (Skirmisher)",
+      "Temple Guard (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Herbalism (Archer-line and Champi Warriors move +15% faster)",
+        "name": "Herbalism",
+        "cost": {
+          "food": 300,
+          "gold": 350
+        },
+        "pic": 33
+      },
+      {
+        "display": "Huaracas (Slingers +1 range; train +50% faster)",
+        "name": "Huaracas",
+        "cost": {
+          "wood": 450,
+          "gold": 350
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "2562",
+        "name": "Guecha Warrior",
+        "role": "Skirmisher",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Guecha Warrior",
+            "pic": 543,
+            "hp": 55,
+            "attack": 6,
+            "range": 3,
+            "speed": 1.15,
+            "cost": {
+              "wood": 50,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Elite Guecha Warrior",
+            "pic": 544,
+            "hp": 60,
+            "attack": 8,
+            "range": 4,
+            "speed": 1.15,
+            "cost": {
+              "wood": 750,
+              "gold": 600
+            }
+          }
+        ]
+      },
+      {
+        "id": "2586",
+        "name": "Temple Guard",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Temple Guard",
+            "pic": 553,
+            "hp": 100,
+            "attack": 12,
+            "range": 0,
+            "speed": 0.95,
+            "cost": {
+              "food": 70,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Temple Guard",
+            "pic": 554,
+            "hp": 115,
+            "attack": 14,
+            "range": 0,
+            "speed": 0.95,
+            "cost": {
+              "food": 500,
+              "gold": 650
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Stable",
+        "name": "Stable",
+        "cat": "Building",
+        "id": "101",
+        "pic": 23
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal idea (American civs)",
+        "detail": "Conceptual fit for full-feudal play alongside Inca/Mapuche/Tupi; needs walling vs early aggression. Bonuses: see facts block.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "recommendations": [
+      "Consider a full-feudal style; wall to buy time vs aggressive civs.",
+      "See the auto-derived 'facts' for exact bonuses/unique units to anchor your comp.",
+      "May 2026 patch (kiritastrich): settlement discount 25%→33%, Temple Guard cheaper & stronger vs cavalry, Guecha HP up, Golden Crown train speed 25%→50% — a broad buff."
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "American-civ full-feudal concept",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 50.41,
+    "playRate": 1.18,
+    "picks": 242,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/muisca",
+    "byMapType": {
+      "open": {
+        "winRate": 44.68,
+        "playRate": 0.93,
+        "picks": 47
+      },
+      "other": {
+        "winRate": 50,
+        "playRate": 1.23,
+        "picks": 170
+      },
+      "closed": {
+        "winRate": 66.67,
+        "playRate": 1.69,
+        "picks": 21
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 0.93,
+        "picks": 4
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "italians",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "japanese",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "mongols",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "chinese",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "ethiopians",
+        "games": 8,
+        "winRate": 50
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "lithuanians",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "celts",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "vietnamese",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "burmese",
+        "games": 9,
+        "winRate": 44.44
+      },
+      {
+        "name": "wei",
+        "games": 8,
+        "winRate": 50
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Slinger",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Slinger",
+            "pic": 143,
+            "hp": 35,
+            "attack": 4,
+            "range": 5,
+            "speed": 0.96,
+            "cost": {
+              "food": 50,
+              "wood": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "Champi Scout",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Champi Scout",
+            "pic": 540,
+            "hp": 35,
+            "attack": 3,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 50,
+              "gold": 25
+            }
+          },
+          {
+            "name": "Champi Runner",
+            "pic": 555,
+            "hp": 40,
+            "attack": 5,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 90,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Champi Warrior",
+            "pic": 541,
+            "hp": 55,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 150,
+              "gold": 175
+            }
+          },
+          {
+            "name": "Elite Champi Warrior",
+            "pic": 542,
+            "hp": 65,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 650,
+              "gold": 450
+            }
+          }
+        ]
+      },
+      {
+        "name": "Catapult Galleon",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Catapult Galleon",
+            "pic": 591,
+            "hp": 140,
+            "attack": 30,
+            "range": 12,
+            "speed": 1,
+            "cost": {
+              "wood": 225,
+              "gold": 100
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "2556",
+        "name": "Settlement",
+        "cat": "Building",
+        "pic": 98,
+        "cost": {
+          "wood": 125
+        },
+        "desc": "Andean production building — trains the Spearman and Skirmisher lines.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

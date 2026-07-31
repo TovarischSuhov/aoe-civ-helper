@@ -1,0 +1,450 @@
+{
+  "id": "Romans",
+  "internalName": "Romans",
+  "slug": "romans",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Cavalry civilization",
+    "bonuses": [
+      "Villagers gather, build, and repair +5% faster",
+      "Infantry armor upgrade effects are doubled",
+      "Scorpions cost -50% gold",
+      "Galley-line and Dromons +1 melee/+1 pierce armor"
+    ],
+    "teamBonus": "Scorpions minimum range reduced",
+    "uniqueUnits": [
+      "Centurion (Cavalry)",
+      "Legionary (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Ballistas (Scorpions attack +33% faster; Galley-line +2 attack)",
+        "name": "Ballistas",
+        "cost": {
+          "wood": 400,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack)",
+        "name": "Comitatenses",
+        "cost": {
+          "food": 700,
+          "gold": 800
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1790",
+        "name": "Centurion",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Centurion",
+            "pic": 405,
+            "hp": 110,
+            "attack": 13,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 75,
+              "gold": 85
+            }
+          },
+          {
+            "name": "Elite Centurion",
+            "pic": 521,
+            "hp": 155,
+            "attack": 15,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 1100,
+              "gold": 900
+            }
+          }
+        ]
+      },
+      {
+        "id": "1793",
+        "name": "Legionary",
+        "role": "Infantry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Legionary",
+            "pic": 139,
+            "hp": 75,
+            "attack": 12,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "food": 50,
+              "gold": 20
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Bracer",
+        "name": "Bracer",
+        "cat": "Tech",
+        "id": "201",
+        "pic": 37
+      },
+      {
+        "label": "No Plate Mail Armor",
+        "name": "Plate Mail Armor",
+        "cat": "Tech",
+        "id": "77",
+        "pic": 64
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Theocracy",
+        "name": "Theocracy",
+        "cat": "Tech",
+        "id": "438",
+        "pic": 109
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": 1,
+    "year": 2026,
+    "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
+  },
+  "stats": {
+    "winRate": 54.44,
+    "playRate": 1.31,
+    "picks": 270,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/romans",
+    "byMapType": {
+      "open": {
+        "winRate": 59.7,
+        "playRate": 1.32,
+        "picks": 67
+      },
+      "other": {
+        "winRate": 53.07,
+        "playRate": 1.29,
+        "picks": 179
+      },
+      "closed": {
+        "winRate": 63.16,
+        "playRate": 1.53,
+        "picks": 19
+      },
+      "hybrid": {
+        "winRate": 0,
+        "playRate": 1.16,
+        "picks": 5
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "magyars",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "mongols",
+        "games": 15,
+        "winRate": 53.33
+      },
+      {
+        "name": "persians",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "italians",
+        "games": 11,
+        "winRate": 45.45
+      },
+      {
+        "name": "teutons",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "chinese",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "armenians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "teutons",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "italians",
+        "games": 11,
+        "winRate": 45.45
+      },
+      {
+        "name": "persians",
+        "games": 8,
+        "winRate": 50
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Dromon",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Dromon",
+            "pic": 406,
+            "hp": 125,
+            "attack": 8,
+            "range": 12,
+            "speed": 1.15,
+            "cost": {
+              "wood": 175,
+              "gold": 150
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

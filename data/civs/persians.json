@@ -1,0 +1,454 @@
+{
+  "id": "Persians",
+  "internalName": "Persians",
+  "slug": "persians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry civilization",
+    "bonuses": [
+      "Start with +50 wood and +50 food",
+      "Town Centers and Docks +100% HP and work +5/10/15/20% faster in Dark/Feudal/Castle/Imperial Age",
+      "Parthian Tactics available in Castle Age",
+      "Can build Caravanserai in Imperial Age"
+    ],
+    "teamBonus": "Knight-line +2 attack vs. Ranged Soldiers",
+    "uniqueUnits": [
+      "War Elephant (Cavalry)",
+      "Savar (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Kamandaran (Archer-line gold cost replaced by additional wood cost)",
+        "name": "Kamandaran",
+        "cost": {
+          "food": 400,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Citadels (Castles +4 attack, +3 vs. Rams, +3 vs. Infantry and receive -25% bonus damage)",
+        "name": "Citadels",
+        "cost": {
+          "wood": 600,
+          "gold": 300
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "239",
+        "name": "War Elephant",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "War Elephant",
+            "pic": 43,
+            "hp": 450,
+            "attack": 15,
+            "range": 0,
+            "speed": 0.8,
+            "cost": {
+              "food": 170,
+              "gold": 85
+            }
+          },
+          {
+            "name": "Elite War Elephant",
+            "pic": 481,
+            "hp": 600,
+            "attack": 20,
+            "range": 0,
+            "speed": 0.8,
+            "cost": {
+              "food": 1350,
+              "gold": 800
+            }
+          }
+        ]
+      },
+      {
+        "id": "1813",
+        "name": "Savar",
+        "role": "Cavalry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Savar",
+            "pic": 410,
+            "hp": 145,
+            "attack": 14,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 60,
+              "gold": 75
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Two-Handed Swordsman",
+        "name": "Two-Handed Swordsman",
+        "cat": "Unit",
+        "id": "473",
+        "pic": 12
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Bracer",
+        "name": "Bracer",
+        "cat": "Tech",
+        "id": "201",
+        "pic": 37
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Strong",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 55.3,
+    "playRate": 2.56,
+    "picks": 528,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/persians",
+    "byMapType": {
+      "other": {
+        "winRate": 55.24,
+        "playRate": 2.76,
+        "picks": 382
+      },
+      "open": {
+        "winRate": 54.87,
+        "playRate": 2.23,
+        "picks": 113
+      },
+      "closed": {
+        "winRate": 50,
+        "playRate": 1.13,
+        "picks": 14
+      },
+      "hybrid": {
+        "winRate": 63.16,
+        "playRate": 4.42,
+        "picks": 19
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "franks",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "khmer",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "tupi",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "japanese",
+        "games": 12,
+        "winRate": 75
+      },
+      {
+        "name": "vietnamese",
+        "games": 17,
+        "winRate": 70.59
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "bohemians",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "koreans",
+        "games": 11,
+        "winRate": 27.27
+      },
+      {
+        "name": "malians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "bengalis",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "armenians",
+        "games": 12,
+        "winRate": 41.67
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "1754",
+        "name": "Caravanserai",
+        "cat": "Building",
+        "pic": 87,
+        "cost": {
+          "wood": 175,
+          "stone": 50
+        },
+        "desc": "Heals nearby units and speeds Trade Carts passing between Caravanserais.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

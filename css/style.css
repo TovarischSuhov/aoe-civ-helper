@@ -1,0 +1,228 @@
+:root {
+  --bg: #15171c;
+  --panel: #1d2027;
+  --panel-2: #252934;
+  --ink: #e8e6e1;
+  --muted: #9aa0ad;
+  --accent: #d9a441;
+  --accent-2: #6b8e23;
+  --gap: #b54848;
+  --src: #4a7fb5;
+  --line: #343844;
+  --ok: #6b8e23;
+  --warn: #d9a441;
+  --err: #b54848;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  line-height: 1.5;
+}
+a { color: var(--accent); }
+
+.app-header {
+  position: sticky; top: 0; z-index: 10;
+  background: linear-gradient(180deg, var(--panel), rgba(29,32,39,0.95));
+  border-bottom: 1px solid var(--line);
+  padding: 14px 20px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  backdrop-filter: blur(6px);
+}
+.header-left { display: flex; flex-direction: column; gap: 2px; }
+.header-right { display: flex; gap: 8px; align-items: center; }
+.app-header h1 { margin: 0; font-size: 20px; letter-spacing: 0.5px; }
+.subtitle { color: var(--muted); font-size: 12px; }
+.refresh-btn {
+  background: var(--accent); color: #1a1a1a; border: none; border-radius: 6px;
+  padding: 8px 14px; font-weight: 600; cursor: pointer; font-size: 13px;
+}
+.refresh-btn:hover { filter: brightness(1.08); }
+.refresh-btn:disabled { opacity: 0.6; cursor: progress; }
+.ghost-btn {
+  background: transparent; color: var(--ink); border: 1px solid var(--line);
+  border-radius: 6px; padding: 7px 13px; cursor: pointer; font-size: 13px;
+}
+.ghost-btn:hover { border-color: var(--accent); color: var(--accent); }
+.brand {
+  background: none; border: none; cursor: pointer; padding: 0; margin: 0;
+  font-family: inherit; font-size: 20px; font-weight: 700; letter-spacing: 0.5px;
+  color: var(--ink);
+}
+.brand:hover { color: var(--accent); }
+.res-icon { width: 16px; height: 16px; vertical-align: -3px; margin-right: 4px; object-fit: contain; }
+.civ-icon-sm { width: 20px; height: 20px; vertical-align: -5px; margin-right: 6px; object-fit: contain; }
+.match-civ { white-space: nowrap; }
+.match-tbl td { vertical-align: middle; }
+
+.do-dont { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 8px; }
+.do-dont > div { background: var(--panel-2); border-radius: 8px; padding: 10px 12px; border: 1px solid var(--line); }
+.do-dont .dd-head { font-weight: 700; margin-bottom: 6px; font-size: 13px; }
+.do .dd-head { color: var(--ok); }
+.dont .dd-head { color: var(--err); }
+.do-dont p { margin: 4px 0; font-size: 13.5px; }
+@media (max-width: 640px) { .do-dont { grid-template-columns: 1fr; } }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 22px 20px 60px; }
+.lede { color: var(--muted); margin-top: 0; font-size: 14px; }
+
+.civ-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+}
+.civ-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 8px 10px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--ink);
+  transition: transform 0.08s ease, border-color 0.15s ease, background 0.15s ease;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+}
+.civ-card:hover { transform: translateY(-2px); border-color: var(--accent); background: var(--panel-2); }
+.civ-icon { width: 48px; height: 48px; object-fit: contain; }
+.civ-icon.lg { width: 76px; height: 76px; }
+.civ-name { font-weight: 600; font-size: 14px; }
+.civ-army { color: var(--muted); font-size: 11px; min-height: 26px; }
+
+.detail { max-width: 860px; }
+.back-btn {
+  background: none; color: var(--accent); border: 1px solid var(--line);
+  border-radius: 6px; padding: 6px 12px; cursor: pointer; margin-bottom: 16px; font-size: 13px;
+}
+.back-btn:hover { border-color: var(--accent); }
+.detail-head { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+.detail-head h2 { margin: 0; font-size: 28px; }
+
+.block {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 14px 0;
+}
+.block h3 { margin: 0 0 10px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); }
+.bonus { margin: 4px 0; }
+.team-bonus { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); color: var(--muted); }
+.team-bonus strong { color: var(--ink); }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+ul { margin: 6px 0; padding-left: 20px; }
+li { margin: 3px 0; }
+
+.stats { width: 100%; border-collapse: collapse; font-size: 13px; margin: 6px 0 12px; }
+.stats th, .stats td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); }
+.stats th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; }
+.stats tbody tr:hover { background: var(--panel-2); }
+
+.tag {
+  display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 12px;
+  margin: 3px 4px 0 0; background: var(--panel-2); border: 1px solid var(--line);
+}
+.tag.gap { color: var(--gap); border-color: rgba(181,72,72,0.5); }
+.gap-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag.gap { font-size: 13px; padding: 6px 12px; border-radius: 14px; font-weight: 600; }
+.tag.src { color: var(--src); border-color: rgba(74,127,181,0.5); }
+.tag.sotl-rank { color: #1a1a1a; background: var(--accent); border-color: var(--accent); font-weight: 700; }
+
+.sotl-callout { border-color: rgba(217,164,65,0.55); background: linear-gradient(180deg, rgba(217,164,65,0.07), var(--panel)); }
+.sotl-callout h3 { color: var(--accent); }
+
+.civ-card { position: relative; }
+.card-badge {
+  position: absolute; top: 6px; right: 6px;
+  background: var(--accent); color: #1a1a1a; font-weight: 700; font-size: 11px;
+  border-radius: 10px; padding: 1px 7px;
+}
+
+.strategy { border-color: rgba(217,164,65,0.4); }
+.card {
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px;
+  padding: 12px 14px; margin: 8px 0;
+}
+.card-title { font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+
+.sources { color: var(--muted); font-size: 12px; margin-top: 20px; }
+
+.toast-wrap { position: fixed; bottom: 16px; right: 16px; z-index: 50; display: flex; flex-direction: column; gap: 8px; }
+.toast {
+  background: var(--panel-2); border: 1px solid var(--line); border-left: 4px solid var(--src);
+  padding: 10px 14px; border-radius: 6px; font-size: 13px; max-width: 360px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+.toast.ok { border-left-color: var(--ok); }
+.toast.warn { border-left-color: var(--warn); }
+.toast.error { border-left-color: var(--err); }
+
+.app-footer {
+  text-align: center; color: var(--muted); font-size: 11px; padding: 20px;
+  border-top: 1px solid var(--line); max-width: 860px; margin: 0 auto; line-height: 1.7;
+}
+
+/* ---- Widescreen layout ---- */
+@media (min-width: 1100px) {
+  .container { max-width: 1320px; }
+  .detail { max-width: 1240px; }
+  .civ-grid { grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 14px; }
+  .stats { font-size: 13.5px; }
+
+  /* Civ detail: two-column masonry so a widescreen isn't mostly empty.
+     Back button + header span both columns; every block stays intact. */
+  .detail.civ { column-count: 2; column-gap: 22px; }
+  .detail.civ > .back-btn,
+  .detail.civ > .detail-head { column-span: all; }
+  .detail.civ > .back-btn { margin-bottom: 12px; }
+  .detail.civ > .block { break-inside: avoid; margin-top: 0; display: inline-block; width: 100%; }
+}
+@media (min-width: 1500px) {
+  .container { max-width: 1480px; }
+  .detail { max-width: 1400px; }
+  .civ-grid { grid-template-columns: repeat(auto-fill, minmax(126px, 1fr)); }
+}
+
+/* ---- Larger type & resource icons ---- */
+body { font-size: 17px; }
+.lede { font-size: 15.5px; }
+.small { font-size: 13px; }
+.tag { font-size: 12px; }
+.block h3 { font-size: 15.5px; }
+.civ-name { font-size: 15px; }
+.civ-army { font-size: 12.5px; }
+.stats { font-size: 14.5px; }
+.res-icon { width: 22px; height: 22px; vertical-align: -5px; margin-right: 6px; object-fit: contain; }
+.civ-icon-sm { width: 34px; height: 34px; vertical-align: -8px; margin-right: 8px; object-fit: contain; }
+@media (min-width: 1100px) { .stats { font-size: 15px; } .res-icon { width: 24px; height: 24px; } }
+
+/* Win-rate chip on civ cards + detail stats */
+.civ-wr { font-size: 11.5px; font-weight: 600; color: var(--muted); margin-top: 1px; }
+.civ-wr.good { color: var(--ok); }
+.civ-wr.bad { color: var(--err); }
+.wr-pill { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 10px; padding: 2px 9px; }
+.wr-pill.good { color: #1a1a1a; background: var(--ok); }
+.wr-pill.ok { color: #1a1a1a; background: var(--warn); }
+.wr-pill.bad { color: #fff; background: var(--err); }
+.wr-mini { display: inline-block; font-size: 11px; font-weight: 600; margin-left: 6px; padding: 1px 6px; border-radius: 9px; background: var(--panel-2); border: 1px solid var(--line); }
+.wr-mini.good { color: var(--ok); border-color: rgba(107,142,35,0.5); }
+.wr-mini.bad { color: var(--err); border-color: rgba(181,72,72,0.5); }
+
+/* Tips tag filter + tip cards */
+.tag-bar { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px; }
+.tag-chip { background: var(--panel-2); color: var(--ink); border: 1px solid var(--line); border-radius: 12px; padding: 4px 10px; font-size: 12px; cursor: pointer; }
+.tag-chip:hover { border-color: var(--accent); color: var(--accent); }
+.tag-chip.active { background: var(--accent); color: #1a1a1a; border-color: var(--accent); font-weight: 700; }
+.tip-list { list-style: none; padding-left: 0; margin: 6px 0; }
+.tip { margin: 8px 0; padding: 9px 11px; background: var(--panel-2); border-radius: 8px; border: 1px solid var(--line); }
+.tip-tags { margin-top: 7px; }
+
+/* Unique-unit portrait (civ detail table) + tech-gap chip icons */
+.uicon { width: 38px; height: 38px; vertical-align: middle; margin-right: 8px; object-fit: contain; }
+.cost { white-space: nowrap; }
+.cost .res-icon { width: 20px; height: 20px; vertical-align: -4px; margin-right: 2px; object-fit: contain; }
+.gap-icon { width: 26px; height: 26px; vertical-align: -6px; margin-right: 5px; object-fit: contain; }
+.stats td { vertical-align: middle; }

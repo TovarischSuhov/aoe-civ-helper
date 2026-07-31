@@ -1,0 +1,526 @@
+{
+  "id": "Mongols",
+  "internalName": "Mongols",
+  "slug": "mongols",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry Archer civilization",
+    "bonuses": [
+      "Hunters work +40% faster",
+      "Cavalry Archers attack +25% faster",
+      "Scout Cavalry-line and Steppe Lancers +20/30% HP in Castle/Imperial Age"
+    ],
+    "teamBonus": "Scout Cavalry-line +2 line of sight",
+    "uniqueUnits": [
+      "Mangudai (Mounted Archer)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Nomads (Lost Houses do not decrease population space)",
+        "name": "Nomads",
+        "cost": {
+          "wood": 300,
+          "gold": 150
+        },
+        "pic": 33
+      },
+      {
+        "display": "Drill (Siege Workshop Units move +50% faster)",
+        "name": "Drill",
+        "cost": {
+          "wood": 500,
+          "gold": 450
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "11",
+        "name": "Mangudai",
+        "role": "Mounted Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Mangudai",
+            "pic": 42,
+            "hp": 60,
+            "attack": 6,
+            "range": 4,
+            "speed": 1.4,
+            "cost": {
+              "wood": 55,
+              "gold": 65
+            }
+          },
+          {
+            "name": "Elite Mangudai",
+            "pic": 484,
+            "hp": 60,
+            "attack": 8,
+            "range": 4,
+            "speed": 1.4,
+            "cost": {
+              "food": 1100,
+              "gold": 675
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      },
+      {
+        "label": "No Theocracy",
+        "name": "Theocracy",
+        "cat": "Tech",
+        "id": "438",
+        "pic": 109
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. The hunter bonus makes deer/boar maps especially fast.",
+        "map": "resource-rich, deer-heavy",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "A strong analog to Franks; the cavalry HP kicks in from Castle Age, Scorpions are fine, and Monks are a bit stronger than Franks/Celts. The hunter bonus can make the FC noticeably earlier.",
+    "recommendations": [
+      "Use the hunter bonus to hit a faster up-time on deer/boar maps.",
+      "Pair the scout/scorpion spike with Mangudai or Light Cav in late Castle/Imperial.",
+      "Mobile siege repositions quickly thanks to the siege movement bonus."
+    ],
+    "strengths": [
+      "Hunters +40% → very fast FC on animal-heavy maps",
+      "Cavalry-archer fire-rate bonus (Mangudai)",
+      "Faster siege movement"
+    ],
+    "weaknesses": [
+      "No economy bonus on closed/resource-poor maps",
+      "Thin infantry late game",
+      "No Bombard Cannon"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Earlier up-time off the hunter (+40%) bonus; the source channel hit a no-idle 17+2 — click Castle at ~18 pop — as a benchmark.",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": {
+    "rank": "HM",
+    "year": 2026,
+    "takeaway": "Honourable mention: the best scout opening + Mangudai; even better on maps with extra huntables, but Arabia late-game stats are weak."
+  },
+  "stats": {
+    "winRate": 53.18,
+    "playRate": 5.27,
+    "picks": 1085,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/mongols",
+    "byMapType": {
+      "other": {
+        "winRate": 53.07,
+        "playRate": 5.65,
+        "picks": 782
+      },
+      "open": {
+        "winRate": 55.33,
+        "playRate": 4.82,
+        "picks": 244
+      },
+      "closed": {
+        "winRate": 45,
+        "playRate": 3.22,
+        "picks": 40
+      },
+      "hybrid": {
+        "winRate": 47.37,
+        "playRate": 4.42,
+        "picks": 19
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "georgians",
+        "games": 14,
+        "winRate": 78.57
+      },
+      {
+        "name": "khitans",
+        "games": 19,
+        "winRate": 73.68
+      },
+      {
+        "name": "armenians",
+        "games": 11,
+        "winRate": 72.73
+      },
+      {
+        "name": "berbers",
+        "games": 14,
+        "winRate": 71.43
+      },
+      {
+        "name": "goths",
+        "games": 13,
+        "winRate": 69.23
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "malay",
+        "games": 11,
+        "winRate": 27.27
+      },
+      {
+        "name": "byzantines",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "muisca",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "vikings",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "lithuanians",
+        "games": 20,
+        "winRate": 40
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      },
+      {
+        "name": "Steppe Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Steppe Lancer",
+            "pic": 273,
+            "hp": 60,
+            "attack": 9,
+            "range": 1,
+            "speed": 1.45,
+            "cost": {
+              "food": 70,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Steppe Lancer",
+            "pic": 274,
+            "hp": 80,
+            "attack": 11,
+            "range": 1,
+            "speed": 1.45,
+            "cost": {
+              "food": 600,
+              "gold": 550
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

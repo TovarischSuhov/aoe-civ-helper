@@ -1,0 +1,412 @@
+{
+  "id": "Byzantines",
+  "internalName": "Byzantines",
+  "slug": "byzantines",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Defensive civilization",
+    "bonuses": [
+      "Buildings +10/20/30/40% HP in Dark/Feudal/Castle/Imperial Age",
+      "Camel Riders, Skirmishers and Spearman-line cost -25%",
+      "Town Watch, Town Patrol free",
+      "Advancing to Imperial Age costs -33%",
+      "Fire Ships and Dromons attack +25% faster"
+    ],
+    "teamBonus": "Monks heal +100% faster",
+    "uniqueUnits": [
+      "Cataphract (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Greek Fire (Fire Ships +1 range; Dromons and Bombard Towers increased blast radius)",
+        "name": "Greek Fire",
+        "cost": {
+          "food": 250,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Logistica (Cataphracts deal trample damage, +6 attack vs. Infantry)",
+        "name": "Logistica",
+        "cost": {
+          "food": 800,
+          "gold": 600
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "40",
+        "name": "Cataphract",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Cataphract",
+            "pic": 35,
+            "hp": 110,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 70,
+              "gold": 75
+            }
+          },
+          {
+            "name": "Elite Cataphract",
+            "pic": 476,
+            "hp": 150,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.35,
+            "cost": {
+              "food": 1200,
+              "gold": 800
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "OK",
+        "hybrid": "Weak",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 52.85,
+    "playRate": 1.62,
+    "picks": 333,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/byzantines",
+    "byMapType": {
+      "other": {
+        "winRate": 53.14,
+        "playRate": 1.73,
+        "picks": 239
+      },
+      "open": {
+        "winRate": 47.37,
+        "playRate": 1.5,
+        "picks": 76
+      },
+      "closed": {
+        "winRate": 71.43,
+        "playRate": 1.13,
+        "picks": 14
+      },
+      "hybrid": {
+        "winRate": 75,
+        "playRate": 0.93,
+        "picks": 4
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "hindustanis",
+        "games": 11,
+        "winRate": 90.91
+      },
+      {
+        "name": "italians",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "berbers",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "vietnamese",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
+        "name": "mongols",
+        "games": 9,
+        "winRate": 66.67
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "burgundians",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "japanese",
+        "games": 11,
+        "winRate": 18.18
+      },
+      {
+        "name": "goths",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "tatars",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "mayans",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dromon",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Dromon",
+            "pic": 406,
+            "hp": 125,
+            "attack": 8,
+            "range": 12,
+            "speed": 1.15,
+            "cost": {
+              "wood": 175,
+              "gold": 150
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

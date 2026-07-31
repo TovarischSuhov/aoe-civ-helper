@@ -1,0 +1,414 @@
+{
+  "id": "Italians",
+  "internalName": "Italians",
+  "slug": "italians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Archer and Naval civilization",
+    "bonuses": [
+      "Advancing to the next Age costs -15%",
+      "Foot Archers and Condottieri +1 melee/+1 pierce armor",
+      "Dock and University technologies cost -25%",
+      "Gunpowder Units cost -20%",
+      "Fishing Ships cost -15%"
+    ],
+    "teamBonus": "Condottiero available at the Barracks in Imperial Age",
+    "uniqueUnits": [
+      "Genoese Crossbowman (Foot Archer)",
+      "Condottiero (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Silk Road (Trade Units cost -50%)",
+        "name": "Silk Road",
+        "cost": {
+          "food": 250,
+          "gold": 250
+        },
+        "pic": 33
+      },
+      {
+        "display": "Pirotechnia (Hand Cannoneers deal +15% pass through damage and are more accurate)",
+        "name": "Pirotechnia",
+        "cost": {
+          "food": 650,
+          "gold": 500
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "866",
+        "name": "Genoese Crossbowman",
+        "role": "Foot Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Genoese Crossbowman",
+            "pic": 133,
+            "hp": 45,
+            "attack": 6,
+            "range": 4,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Genoese Crossbowman",
+            "pic": 492,
+            "hp": 50,
+            "attack": 6,
+            "range": 4,
+            "speed": 0.96,
+            "cost": {
+              "food": 900,
+              "gold": 750
+            }
+          }
+        ]
+      },
+      {
+        "id": "882",
+        "name": "Condottiero",
+        "role": "Infantry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Condottiero",
+            "pic": 134,
+            "hp": 80,
+            "attack": 10,
+            "range": 0,
+            "speed": 1.2,
+            "cost": {
+              "food": 50,
+              "gold": 35
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Heavy Cavalry Archer",
+        "name": "Heavy Cavalry Archer",
+        "cat": "Unit",
+        "id": "474",
+        "pic": 71
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "No notable economy bonus — standard up-times; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": "HM",
+    "year": 2026,
+    "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
+  },
+  "stats": {
+    "winRate": 47.26,
+    "playRate": 1.86,
+    "picks": 383,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/italians",
+    "byMapType": {
+      "other": {
+        "winRate": 48.29,
+        "playRate": 1.9,
+        "picks": 263
+      },
+      "open": {
+        "winRate": 44.3,
+        "playRate": 1.56,
+        "picks": 79
+      },
+      "closed": {
+        "winRate": 41.38,
+        "playRate": 2.33,
+        "picks": 29
+      },
+      "hybrid": {
+        "winRate": 58.33,
+        "playRate": 2.79,
+        "picks": 12
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "turks",
+        "games": 9,
+        "winRate": 88.89
+      },
+      {
+        "name": "vikings",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
+        "name": "khmer",
+        "games": 13,
+        "winRate": 69.23
+      },
+      {
+        "name": "khitans",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "gurjaras",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "byzantines",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "muisca",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "huns",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "dravidians",
+        "games": 10,
+        "winRate": 30
+      },
+      {
+        "name": "chinese",
+        "games": 9,
+        "winRate": 33.33
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

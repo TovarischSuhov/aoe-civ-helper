@@ -1,0 +1,400 @@
+{
+  "id": "Georgians",
+  "internalName": "Georgians",
+  "slug": "georgians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Defensive and Cavalry civilization",
+    "bonuses": [
+      "Start with a Mule Cart",
+      "Units and buildings receive -15% damage when located on higher elevation",
+      "Mounted Units regenerate 2/8/14 HP per minute in Feudal/Castle/Imperial Age",
+      "Fortified Churches provide Villagers in a 9 tiles radius with +10% work rate"
+    ],
+    "teamBonus": "Building repairs cost -25%",
+    "uniqueUnits": [
+      "Monaspa (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Svan Towers (Fortifications +2 attack; Watch Tower-line deals pass through damage)",
+        "name": "Svan Towers",
+        "cost": {
+          "food": 300,
+          "gold": 200
+        },
+        "pic": 33
+      },
+      {
+        "display": "Aznauri Cavalry (Mounted Units take -20% population space)",
+        "name": "Aznauri Cavalry",
+        "cost": {
+          "food": 550,
+          "gold": 250
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1803",
+        "name": "Monaspa",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Monaspa",
+            "pic": 408,
+            "hp": 70,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.4,
+            "cost": {
+              "food": 60,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Monaspa",
+            "pic": 523,
+            "hp": 80,
+            "attack": 14,
+            "range": 0,
+            "speed": 1.4,
+            "cost": {
+              "food": 1000,
+              "gold": 700
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Strong",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 43.48,
+    "playRate": 1.34,
+    "picks": 276,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/georgians",
+    "byMapType": {
+      "other": {
+        "winRate": 44.39,
+        "playRate": 1.42,
+        "picks": 196
+      },
+      "hybrid": {
+        "winRate": 33.33,
+        "playRate": 1.4,
+        "picks": 6
+      },
+      "open": {
+        "winRate": 41.27,
+        "playRate": 1.24,
+        "picks": 63
+      },
+      "closed": {
+        "winRate": 45.45,
+        "playRate": 0.88,
+        "picks": 11
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "lithuanians",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "franks",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "malians",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "vikings",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "mapuche",
+        "games": 8,
+        "winRate": 50
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "mongols",
+        "games": 14,
+        "winRate": 21.43
+      },
+      {
+        "name": "japanese",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "persians",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "chinese",
+        "games": 9,
+        "winRate": 44.44
+      },
+      {
+        "name": "ethiopians",
+        "games": 8,
+        "winRate": 50
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": [
+      {
+        "id": "1806",
+        "name": "Fortified Church",
+        "cat": "Building",
+        "pic": 88,
+        "cost": {
+          "wood": 200
+        },
+        "desc": "Replaces the Monastery — trains Monks/Warrior Priests and researches Monastery techs; heavily fortified.",
+        "kind": "regional"
+      },
+      {
+        "id": "1808",
+        "name": "Mule Cart",
+        "cat": "Building",
+        "pic": 89,
+        "cost": {
+          "food": 20,
+          "wood": 80
+        },
+        "desc": "Mobile resource drop-off site that repositions to your gathering nodes.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

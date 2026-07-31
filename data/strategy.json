@@ -1,0 +1,709 @@
+{
+  "_meta": {
+    "note": "Curated strategy layer (English). Translated/summarized from the Russian-language channel t.me/kiritastrich with aoe2database.com as secondary context. Exact civ numbers/bonuses live in each civ's auto-derived 'facts' block; this file is qualitative application only. No invented precise timestamps. Edited freely; never overwritten by upstream refresh (rule R5).",
+    "lastReviewed": "2026-07-30"
+  },
+  "turks": {
+    "sources": [
+      "kiritastrich",
+      "aoe2database"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated Fast Castle (~20–22 vills), then Stable + Blacksmith, mass ~4 Scout Cavalry + Scorpions with a couple of Monks. Best on resource-rich maps: 2+ boar, 8 sheep, 3–4 deer.",
+        "map": "Vale de Selva, Glade (resource-rich)",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      },
+      {
+        "title": "Full Feudal + Market age-up",
+        "detail": "Play full Feudal with a Market and buy the age advance; the gold-mining bonus funds a large gold pool for gold units.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Top pick for the scouts+scorps build: the Scout-line auto-upgrades + free Light Cavalry armor make the 4-Scout spam essentially free to tech, and faster gold funds Scorpions + Monks. Clean gunpowder transition (Chemistry is free; gunpowder techs −50%).",
+    "recommendations": [
+      "Abuse the free Scout upgrades and faster gold — go heavy on Scorpions with a few Monks for conversion/heal.",
+      "Transition into Hand Cannoneers + Bombard Cannons in Imperial (free Chemistry, cheap gunpowder techs).",
+      "Do NOT rely on trash: you have no Elite Skirmisher and no Halberdier."
+    ],
+    "strengths": [
+      "Free Chemistry; gunpowder techs −50%; gunpowder +25% HP",
+      "Faster gold → early gunpowder/siege spikes",
+      "Free Scout-line upgrades + Light Cavalry armor"
+    ],
+    "weaknesses": [
+      "Weak trash line (no Elite Skirmisher, no Halberdier, no Onager)",
+      "No Siege Engineers; monks lack Illumination/Heresy",
+      "Reliant on gold"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Click Castle Age ~20–22 vills → Stable + Blacksmith",
+        "source": "kiritastrich"
+      },
+      {
+        "label": "Mid-Castle spike",
+        "detail": "4 Scouts + Scorpions + Monks power spike",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "celts": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Same accelerated FC frame as Turks (~20–22 vills → Stable + Blacksmith → 4 Scouts + Scorpions + Monks). On resource-rich maps.",
+        "map": "resource-rich (boar/sheep/deer)",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Like Burmese with auto woodcutting — you barely feel the missing barding/saddle, because the woodcutting bonus funds the siege mass. Strongest siege in the game for this comp; the cost is weak Monks.",
+    "recommendations": [
+      "Lean on Scorpions — your siege fires faster and the woodcutting bonus pays for the mass.",
+      "Keep Monks minimal (weak monastery); use them only for spot-heals/conversions.",
+      "Mobile infantry + fast siege lets you reposition before the opponent stabilizes."
+    ],
+    "strengths": [
+      "Woodcutting bonus → cheap siege mass",
+      "Siege fires +20% faster (strongest Scorpions)",
+      "Faster-moving infantry"
+    ],
+    "weaknesses": [
+      "Weak Monks (no Redemption/Heresy/etc. options as strong)",
+      "Limited gunpowder / no Bombard Cannon",
+      "Mediocre archer line"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Click Castle ~20–22 vills → siege workshop fast via wood bonus",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "franks": {
+    "sources": [
+      "kiritastrich",
+      "aoe2database"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → Stable + Blacksmith → 4 Scouts + Scorpions + Monks. Cavaliers/Knights are the natural follow-up.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Scouts are slightly weaker than Turks' baseline, but the free cavalry HP (bloodlines-style) adds weight for push strats, faster berries smooth the FC, and you skip farm-size upgrades. Decent Scorpions; the cost is trash Monks (good only for converting answer-knights).",
+    "recommendations": [
+      "Use the cavalry HP bonus to win scout/knight fights and push with confidence.",
+      "Transition into Knights/Cavaliers — your stable is the strongest part of the tree.",
+      "Don't invest in Monks beyond emergency knight conversions."
+    ],
+    "strengths": [
+      "Cavalry +20% HP from Feudal; auto Bloodlines",
+      "Faster foraging; no farm-size upgrades needed",
+      "Cheap Castles → fast aggression/boom defense"
+    ],
+    "weaknesses": [
+      "Weak Monks",
+      "Thin archer/siege options vs heavy ranged",
+      "No Bombard Cannon"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Smooth FC off faster berries → Stable push",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "mongols": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. The hunter bonus makes deer/boar maps especially fast.",
+        "map": "resource-rich, deer-heavy",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "A strong analog to Franks; the cavalry HP kicks in from Castle Age, Scorpions are fine, and Monks are a bit stronger than Franks/Celts. The hunter bonus can make the FC noticeably earlier.",
+    "recommendations": [
+      "Use the hunter bonus to hit a faster up-time on deer/boar maps.",
+      "Pair the scout/scorpion spike with Mangudai or Light Cav in late Castle/Imperial.",
+      "Mobile siege repositions quickly thanks to the siege movement bonus."
+    ],
+    "strengths": [
+      "Hunters +40% → very fast FC on animal-heavy maps",
+      "Cavalry-archer fire-rate bonus (Mangudai)",
+      "Faster siege movement"
+    ],
+    "weaknesses": [
+      "No economy bonus on closed/resource-poor maps",
+      "Thin infantry late game",
+      "No Bombard Cannon"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Earlier up-time off the hunter (+40%) bonus; the source channel hit a no-idle 17+2 — click Castle at ~18 pop — as a benchmark.",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "jurchens": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Hunted/livestock food doesn't decay, so you bank more food for the age-up and unit spam.",
+        "map": "resource-rich, hunted/livestock",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "The no-decay food bonus gives a real resource edge, and +25% attack speed on mounted units makes the scouts hit harder. Main weakness: Monks.",
+    "recommendations": [
+      "Bank the no-decay food into a faster age-up and a bigger scout/scorpion mass.",
+      "Use the mounted-unit attack-speed bonus on scouts and (later) cavalry archers/fire lancers.",
+      "Cheap/fast siege & fortification upgrades (Castle Age Siege Engineers) help the push."
+    ],
+    "strengths": [
+      "Food doesn't decay (hunted/livestock) → more banked food",
+      "Mounted units +25% attack speed",
+      "Siege/fort upgrades cheap & fast; Castle-Age Siege Engineers"
+    ],
+    "weaknesses": [
+      "Weak Monks",
+      "Reliant on hunting/livestock for the food edge"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "No-decay food → smoother/earlier Castle click",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "berbers": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Stable-unit discount makes the scout spam cheaper and lets you mix Knights.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Stable-unit cost discount makes the scout spam cheaper, Knights move faster, and Monks are decent — so this is one of the most flexible variations of the build.",
+    "recommendations": [
+      "Spam scouts/knights off the stable discount; mix Genitours vs archer civs.",
+      "Faster villagers/knights let you dictate engagements and raids.",
+      "Decent Monks → you can actually convert/heal, unlike Franks/Celts."
+    ],
+    "strengths": [
+      "Stable units cheaper → cheap scout/knight spam",
+      "Faster villagers & cavalry",
+      "Decent Monks; Genitour vs archers"
+    ],
+    "weaknesses": [
+      "Fewer eco bonuses outside unit cost",
+      "Limited siege depth"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Discounted stable → fast scout/knight mass",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "malians": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Sits between Turks and Celts: a wood discount + extra gold fund the siege and the monks.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      },
+      {
+        "title": "Full Feudal + Market age-up",
+        "detail": "Full Feudal with a Market; buy the age advance off the gold economy.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "A middle ground between Turks and Celts — wood discount pays for siege, extra gold pays for monks and gunpowder, and the monastery is actually decent. Very flexible.",
+    "recommendations": [
+      "Use the wood discount to mass Scorpions/towers cheaply.",
+      "Extra gold → mix Monks and, later, gunpowder (Gbetos, BBC).",
+      "Farimba (+5 infantry attack) makes a late infantry switch devastating."
+    ],
+    "strengths": [
+      "Wood discount → cheap siege/structures",
+      "Gold economy → monks + gunpowder",
+      "Decent Monks; strong infantry with Farimba"
+    ],
+    "weaknesses": [
+      "No top-tier cavalry (no Paladin/Bloodlines)",
+      "Siege capped (no Siege Ram elite options in some lines)"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Wood+gold economy → smooth FC into scorps+monks",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "gurjaras": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Extra food from herdables and a strong ram option complement the comp.",
+        "map": "resource-rich, herdable-heavy",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Extra food from sheep (you can herd them out) plus a very strong ram to complement scorpions + scouts, and decent Monks. The siege ram follow-up is the differentiator.",
+    "recommendations": [
+      "Bank herdable food for a faster/cheaper age-up.",
+      "Pair Scorpions with the strong rams for a hard push.",
+      "Use Shrivamsha Riders to absorb archer fire in front of the siege."
+    ],
+    "strengths": [
+      "Extra food from herdables",
+      "Strong siege ram to pair with scorpions",
+      "Decent Monks; mobile anti-archer cav (Shrivamsha)"
+    ],
+    "weaknesses": [
+      "Thinner infantry line",
+      "Economy tied to herdables"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Herdable food → smooth FC; ram+scorpion push",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "lithuanians": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Stream-tested and confirmed to fit the fast-FC frame very well.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Fits the fast FC cleanly. Early relics stack attack onto the knight line, so the natural follow-up (Knights/Cavaliers) hits extremely hard.",
+    "recommendations": [
+      "Grab relics early — each adds +1 attack to your knight line.",
+      "Follow the scout/scorpion spike with a relic-boosted Knight mass.",
+      "Monks are usable for relic collection and conversions."
+    ],
+    "strengths": "Relic-stacked knight attack; smooth fast Castle; decent Monks",
+    "weaknesses": [
+      "Bonus depends on relic collection",
+      "Thin siege/gunpowder without relics"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Smooth FC → relic-boosted knight follow-up",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "burmese": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Played for this build in tournament.",
+        "map": "Vale de Selva and similar resource-rich maps",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Played for this build in tournament. Auto woodcutting-style economy and free lumber-camp upgrades smooth the FC, and strong Monks cover the build's usual weak spot.",
+    "recommendations": [
+      "Lean on the strong Monks (cheap monastery techs) — they patch the comp's usual monk weakness.",
+      "Use the infantry attack-per-age bonus for a late infantry switch (Arambai).",
+      "Free lumber-camp upgrades keep the siege mass affordable."
+    ],
+    "strengths": [
+      "Strong Monks (cheap monastery techs)",
+      "Infantry +attack per age; Arambai spike",
+      "Free lumber-camp upgrades → affordable siege"
+    ],
+    "weaknesses": [
+      "Thin cavalry (no Bloodlines/Paladin)",
+      "Limited foot-archer options"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Smooth FC; strong-monk variation of the build",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "khmer": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Played for this build in tournament; no building prerequisites make the build very flexible.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Played in tournament for this build. No building prerequisites and drop-off-anywhere farms/vills make the FC and transitions unusually smooth; Battle Elephants are the power follow-up.",
+    "recommendations": [
+      "Exploit no-prerequisite buildings to drop the siege workshop / stable instantly.",
+      "Follow the spike with Battle Elephants for a hard power transition.",
+      "Villagers drop resources anywhere — less walking, smoother eco."
+    ],
+    "strengths": [
+      "No building prerequisites → flexible tech",
+      "Villagers drop off anywhere; fast houses",
+      "Battle Elephant power unit"
+    ],
+    "weaknesses": [
+      "Expensive unique options (elephants)",
+      "Thin gunpowder"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Flexible FC (no prereqs) → elephant follow-up",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "aztecs": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal gold-unit play",
+        "detail": "Go full Feudal with strong gold units (Eagle/Archer line) + the attack upgrade; pair with Monks. Conceptually similar to prioritizing gold mining first.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "All your strong units cost gold, so a full-feudal gold-unit + monk style fits. The +50 gold start and faster military production smooth it.",
+    "recommendations": [
+      "Open full-feudal with Archers/Eagles + Monks; grab the attack upgrade early.",
+      "Use the +50 gold start for an instant Barracks/Archery edge.",
+      "Monks are top-tier — convert and heal aggressively."
+    ],
+    "strengths": [
+      "+50 gold start; faster military production",
+      "Top-tier Monks (relic gold + monastery HP)",
+      "Strong gold units (Eagles, Archers)"
+    ],
+    "weaknesses": [
+      "No cavalry / no gunpowder",
+      "Reliant on gold and monk micro"
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "Gold units + monks + attack upgrade",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "maya": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal gold-unit play",
+        "detail": "Full Feudal with the cheap archer line + monks. Resources last longer, sustaining the gold-unit mass.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Like Aztecs, your strong units are gold-based; full-feudal archers + monks fits. The 'resources last +15%' bonus extends your gold/food, suiting a sustained gold-unit style.",
+    "recommendations": [
+      "Mass Archers/Plumes in Feudal/Castle; the resource bonus sustains production.",
+      "Use cheaper walls to protect while you macro.",
+      "Pair with Monks where the tree allows."
+    ],
+    "strengths": [
+      "Resources last +15% → sustained gold-unit mass",
+      "Cheaper archers/walls",
+      "Strong unique archer (Plumed)"
+    ],
+    "weaknesses": [
+      "No cavalry",
+      "No gunpowder"
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "Sustained archer/monk mass off lasting resources",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "inca": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "23-pop Militia full Feudal (Vinch-style)",
+        "detail": "A ~23-pop Militia/drush-into-full-feudal build; by then normalize food income. Needs permanent walling to survive fast aggression.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Conceptually suited to full-feudal American-civ play (e.g. the 23-pop militia build). The catch in AoE2 is game speed/early aggression, so walling is mandatory. The source channel rates Incas highly — its full guide is titled 'You don't realize how strong the Incas are' and it opens its civ tier list with them.",
+    "recommendations": [
+      "Open with early Militia pressure, then stabilize food and go full feudal.",
+      "Wall aggressively — you need time vs faster/aggressive civs.",
+      "Villagers benefit from blacksmith upgrades; Kamayuks anchor mid-game.",
+      "Lean on the underrated core — blacksmith-upgraded villagers + Kamayuks + Andean Slingers (anti-archer) is the payoff the source channel highlights.",
+      "May 2026 patch (kiritastrich): unit food discount changed to 15/20/25/30% by age (except Kamayuk); cheaper Slingers (50f/25w) and reworked Champs make the infantry + Slinger core far stronger."
+    ],
+    "strengths": [
+      "Villagers benefit from blacksmith upgrades",
+      "Houses support +10 pop; free Llama",
+      "Strong infantry (Kamayuk) and Andean Slingers"
+    ],
+    "weaknesses": [
+      "No cavalry; no gunpowder",
+      "Slow vs early aggression without walling"
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "23-pop militia opener → wall up → feudal",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "mapuche": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal idea (American civs)",
+        "detail": "Conceptual fit for full-feudal play alongside Inca/Tupi/Muisca; needs walling vs early aggression. Bonuses: see facts block.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "recommendations": [
+      "Consider a full-feudal style; wall to buy time vs aggressive civs.",
+      "See the auto-derived 'facts' for exact bonuses/unique units to anchor your comp.",
+      "May 2026 patch (kiritastrich): berry-gather bonus raised 20%→25% (~31 food per bush) — a smooth early-food boost."
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "American-civ full-feudal concept",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "tupi": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal idea (American civs)",
+        "detail": "Conceptual fit for full-feudal play alongside Inca/Mapuche/Muisca; needs walling vs early aggression. Bonuses: see facts block.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "recommendations": [
+      "Consider a full-feudal style; wall to buy time vs aggressive civs.",
+      "See the auto-derived 'facts' for exact bonuses/unique units to anchor your comp.",
+      "May 2026 patch (kiritastrich): non-elite unique archer trains faster (14→18)."
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "American-civ full-feudal concept",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "muisca": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal idea (American civs)",
+        "detail": "Conceptual fit for full-feudal play alongside Inca/Mapuche/Tupi; needs walling vs early aggression. Bonuses: see facts block.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "recommendations": [
+      "Consider a full-feudal style; wall to buy time vs aggressive civs.",
+      "See the auto-derived 'facts' for exact bonuses/unique units to anchor your comp.",
+      "May 2026 patch (kiritastrich): settlement discount 25%→33%, Temple Guard cheaper & stronger vs cavalry, Guecha HP up, Golden Crown train speed 25%→50% — a broad buff."
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "American-civ full-feudal concept",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "armenians": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal + Market age-up",
+        "detail": "Full Feudal with a Market; buy the age advance. The gold economy supports the gold-unit/monk play.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Listed for the market-based full-feudal age-up style. Mule-Cart economy and early age access to Militia/Spear upgrades enable flexible feudal pressure.",
+    "recommendations": [
+      "Use Mule Carts for a compact, raid-resistant economy.",
+      "Abuse earlier-age infantry upgrades for feudal pressure.",
+      "Composite Bowmen + Warrior Priests give a strong castle-age core.",
+      "May 2026 patch (kiritastrich): Mule-Cart gather bonus raised 40%→45% — faster wood/gold/stone, a solid eco buff."
+    ],
+    "strengths": [
+      "Mule Cart economy; earlier infantry upgrades",
+      "Strong unique units (Composite Bowman, Warrior Priest)",
+      "Infantry team-bonus LOS"
+    ],
+    "weaknesses": [
+      "Reliant on gold for the unique core"
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "Market-bought age-up off gold economy",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "saracens": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Market-based play (different market rules)",
+        "detail": "Treated separately because the Market works differently (much better rates/cheap fees) — enables market-heavy age-ups and resource swaps other civs can't do.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "The market advantage is the defining lever: cheap, efficient trading/buying lets you force age-ups or rebalance resources in ways other civs can't. Build around the market, not a fixed BO.",
+    "recommendations": [
+      "Use the market aggressively to force age-ups and rebalance food/gold.",
+      "Mamelukes + Archers form a strong mobile core once stable.",
+      "Galley-line bonuses make this a top water civ."
+    ],
+    "strengths": [
+      "Superior market (cheap fees / better rates)",
+      "Strong unique cav (Mameluke); galley bonuses",
+      "Flexible resource economy"
+    ],
+    "weaknesses": [
+      "No real early eco bonus outside the market",
+      "Bonus depends on active market use"
+    ],
+    "timings": [
+      {
+        "label": "Market age-up",
+        "detail": "Buy resources to force age transitions",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "burgundians": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Cheap age-up + Flemish Militia + Archers",
+        "detail": "Flemish Revolution + Archers is pricey, but Burgundians get a cheaper age-up, making the timing viable. Economy upgrades arrive an age early.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Flemish Militia + archers is an expensive combo, but the cheap age-up and early-arriving eco upgrades (e.g. early Wheelbarrow/Crop Rotation tier) make the spike affordable.",
+    "recommendations": [
+      "Use the cheap age-up to hit key timings earlier than opponents.",
+      "Pair Flemish Militia with archers for a mixed-feudal/castle spike.",
+      "Relic gold and early eco techs fund the expensive unit mix.",
+      "May 2026 patch (kiritastrich): food-tech discount raised 33%→40%, pushing the civ toward Arabia viability."
+    ],
+    "strengths": [
+      "Cheaper age-ups; eco upgrades an age early",
+      "Flemish Revolution spike; relic gold",
+      "Strong Cavaliers/Burgundian Vineyards"
+    ],
+    "weaknesses": [
+      "Flemish + archer mix is gold/food heavy",
+      "Thin gunpowder in some lines"
+    ],
+    "timings": [
+      {
+        "label": "Cheap age-up",
+        "detail": "Earlier age transitions fund the expensive unit mix",
+        "source": "kiritastrich"
+      }
+    ]
+  }
+}

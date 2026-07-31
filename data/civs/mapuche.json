@@ -1,0 +1,567 @@
+{
+  "id": "Mapuche",
+  "internalName": "Mapuche",
+  "slug": "mapuche",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry and Counter-Units civilization",
+    "bonuses": [
+      "Foragers drop off +25% food",
+      "Settlements can train Spearman-line and Skirmishers",
+      "Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age",
+      "Mounted Units generate +3 gold when defeating military units",
+      "Enemy Castles are revealed on the map"
+    ],
+    "teamBonus": "Spearman-line and Skirmishers +2 line of sight",
+    "uniqueUnits": [
+      "Kona (Cavalry)",
+      "Bolas Rider (Mounted Archer)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Malon (Bolas Riders, Slingers and Skirmishers deal pass through damage)",
+        "name": "Malon",
+        "cost": {
+          "food": 300,
+          "gold": 350
+        },
+        "pic": 33
+      },
+      {
+        "display": "Butalmapu (Team Castle Unique Units and Bolas Riders cost -15%)",
+        "name": "Butalmapu",
+        "cost": {
+          "food": 500,
+          "gold": 450
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "2566",
+        "name": "Kona",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Kona",
+            "pic": 545,
+            "hp": 125,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.55,
+            "cost": {
+              "food": 65,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Kona",
+            "pic": 546,
+            "hp": 145,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.55,
+            "cost": {
+              "food": 800,
+              "gold": 800
+            }
+          }
+        ]
+      },
+      {
+        "id": "2569",
+        "name": "Bolas Rider",
+        "role": "Mounted Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Bolas Rider",
+            "pic": 547,
+            "hp": 55,
+            "attack": 5,
+            "range": 4,
+            "speed": 1.5,
+            "cost": {
+              "wood": 45,
+              "gold": 50
+            }
+          },
+          {
+            "name": "Elite Bolas Rider",
+            "pic": 548,
+            "hp": 65,
+            "attack": 6,
+            "range": 5,
+            "speed": 1.5,
+            "cost": {
+              "food": 800,
+              "gold": 500
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Stable",
+        "name": "Stable",
+        "cat": "Building",
+        "id": "101",
+        "pic": 23
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Bracer",
+        "name": "Bracer",
+        "cat": "Tech",
+        "id": "201",
+        "pic": 37
+      },
+      {
+        "label": "No Guard Tower",
+        "name": "Guard Tower",
+        "cat": "Tech",
+        "id": "140",
+        "pic": 76
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Full Feudal idea (American civs)",
+        "detail": "Conceptual fit for full-feudal play alongside Inca/Tupi/Muisca; needs walling vs early aggression. Bonuses: see facts block.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "recommendations": [
+      "Consider a full-feudal style; wall to buy time vs aggressive civs.",
+      "See the auto-derived 'facts' for exact bonuses/unique units to anchor your comp.",
+      "May 2026 patch (kiritastrich): berry-gather bonus raised 20%→25% (~31 food per bush) — a smooth early-food boost."
+    ],
+    "timings": [
+      {
+        "label": "Full Feudal",
+        "detail": "American-civ full-feudal concept",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": {
+    "rank": 9,
+    "year": 2026,
+    "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
+  },
+  "stats": {
+    "winRate": 50.18,
+    "playRate": 1.32,
+    "picks": 271,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/mapuche",
+    "byMapType": {
+      "open": {
+        "winRate": 52.94,
+        "playRate": 1.34,
+        "picks": 68
+      },
+      "other": {
+        "winRate": 51.31,
+        "playRate": 1.38,
+        "picks": 191
+      },
+      "hybrid": {
+        "winRate": 14.29,
+        "playRate": 1.63,
+        "picks": 7
+      },
+      "closed": {
+        "winRate": 20,
+        "playRate": 0.4,
+        "picks": 5
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "spanish",
+        "games": 12,
+        "winRate": 75
+      },
+      {
+        "name": "vietnamese",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "chinese",
+        "games": 14,
+        "winRate": 64.29
+      },
+      {
+        "name": "burgundians",
+        "games": 10,
+        "winRate": 60
+      },
+      {
+        "name": "georgians",
+        "games": 8,
+        "winRate": 50
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "malay",
+        "games": 11,
+        "winRate": 27.27
+      },
+      {
+        "name": "mongols",
+        "games": 16,
+        "winRate": 43.75
+      },
+      {
+        "name": "khmer",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "georgians",
+        "games": 8,
+        "winRate": 50
+      },
+      {
+        "name": "burgundians",
+        "games": 10,
+        "winRate": 60
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Slinger",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Slinger",
+            "pic": 143,
+            "hp": 35,
+            "attack": 4,
+            "range": 5,
+            "speed": 0.96,
+            "cost": {
+              "food": 50,
+              "wood": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "Champi Scout",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Champi Scout",
+            "pic": 540,
+            "hp": 35,
+            "attack": 3,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 50,
+              "gold": 25
+            }
+          },
+          {
+            "name": "Champi Runner",
+            "pic": 555,
+            "hp": 40,
+            "attack": 5,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 90,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Champi Warrior",
+            "pic": 541,
+            "hp": 55,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 150,
+              "gold": 175
+            }
+          },
+          {
+            "name": "Elite Champi Warrior",
+            "pic": 542,
+            "hp": 65,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 650,
+              "gold": 450
+            }
+          }
+        ]
+      },
+      {
+        "name": "Catapult Galleon",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Catapult Galleon",
+            "pic": 591,
+            "hp": 140,
+            "attack": 30,
+            "range": 12,
+            "speed": 1,
+            "cost": {
+              "wood": 225,
+              "gold": 100
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "2556",
+        "name": "Settlement",
+        "cat": "Building",
+        "pic": 98,
+        "cost": {
+          "wood": 125
+        },
+        "desc": "Andean production building — trains the Spearman and Skirmisher lines.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

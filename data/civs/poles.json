@@ -1,0 +1,440 @@
+{
+  "id": "Poles",
+  "internalName": "Poles",
+  "slug": "poles",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry civilization",
+    "bonuses": [
+      "Folwark replaces Mill",
+      "Villagers regenerate 10/15/20 HP in Feudal/Castle/Imperial Age",
+      "Stone Miners generate gold in addition to stone",
+      "Bloodlines and Scout Cavalry-line upgrades cost -50% food"
+    ],
+    "teamBonus": "Scout Cavalry-line +1 attack vs. Ranged Soldiers",
+    "uniqueUnits": [
+      "Obuch (Infantry)",
+      "Winged Hussar (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Szlachta Privileges (Knight-line costs -60% gold)",
+        "name": "Szlachta Privileges",
+        "cost": {
+          "food": 500,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Lechitic Legacy (Scout Cavalry-line deals trample damage)",
+        "name": "Lechitic Legacy",
+        "cost": {
+          "food": 750,
+          "gold": 550
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1701",
+        "name": "Obuch",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Obuch",
+            "pic": 369,
+            "hp": 80,
+            "attack": 8,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 55,
+              "gold": 20
+            }
+          },
+          {
+            "name": "Elite Obuch",
+            "pic": 513,
+            "hp": 95,
+            "attack": 10,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 800,
+              "gold": 600
+            }
+          }
+        ]
+      },
+      {
+        "id": "1707",
+        "name": "Winged Hussar",
+        "role": "Cavalry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Winged Hussar",
+            "pic": 371,
+            "hp": 80,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.5,
+            "cost": {
+              "food": 80
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "they lack Halberdiers for your cavalry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "chinese",
+          "name": "Chinese",
+          "internalName": "Chinese",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 49.33,
+    "playRate": 1.8,
+    "picks": 371,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/poles",
+    "byMapType": {
+      "other": {
+        "winRate": 50,
+        "playRate": 1.72,
+        "picks": 238
+      },
+      "closed": {
+        "winRate": 47.37,
+        "playRate": 3.05,
+        "picks": 38
+      },
+      "open": {
+        "winRate": 48.31,
+        "playRate": 1.76,
+        "picks": 89
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 1.4,
+        "picks": 6
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "armenians",
+        "games": 9,
+        "winRate": 100
+      },
+      {
+        "name": "sicilians",
+        "games": 9,
+        "winRate": 88.89
+      },
+      {
+        "name": "turks",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "lithuanians",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "teutons",
+        "games": 10,
+        "winRate": 60
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "berbers",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "huns",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "incas",
+        "games": 14,
+        "winRate": 35.71
+      },
+      {
+        "name": "magyars",
+        "games": 10,
+        "winRate": 40
+      },
+      {
+        "name": "ethiopians",
+        "games": 12,
+        "winRate": 41.67
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": [
+      {
+        "id": "1734",
+        "name": "Folwark",
+        "cat": "Building",
+        "pic": 86,
+        "cost": {
+          "wood": 100
+        },
+        "desc": "Replaces the Mill — new Farms built in its aura instantly yield a chunk of food.",
+        "kind": "unique"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

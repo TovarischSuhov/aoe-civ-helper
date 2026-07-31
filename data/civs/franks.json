@@ -1,0 +1,441 @@
+{
+  "id": "Franks",
+  "internalName": "Franks",
+  "slug": "franks",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry civilization",
+    "bonuses": [
+      "Foragers work +15% faster",
+      "Mill technologies free",
+      "Mounted Units +20% HP starting in Feudal Age",
+      "Castles cost -15/25% in Castle/Imperial Age"
+    ],
+    "teamBonus": "Knight-line +2 line of sight",
+    "uniqueUnits": [
+      "Throwing Axeman (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Bearded Axe (Throwing Axemen +2 range)",
+        "name": "Bearded Axe",
+        "cost": {
+          "food": 300,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Chivalry (Stables work +40% faster)",
+        "name": "Chivalry",
+        "cost": {
+          "wood": 600,
+          "gold": 500
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "281",
+        "name": "Throwing Axeman",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Throwing Axeman",
+            "pic": 46,
+            "hp": 60,
+            "attack": 7,
+            "range": 3,
+            "speed": 1,
+            "cost": {
+              "food": 55,
+              "gold": 25
+            }
+          },
+          {
+            "name": "Elite Throwing Axeman",
+            "pic": 473,
+            "hp": 70,
+            "attack": 8,
+            "range": 4,
+            "speed": 1,
+            "cost": {
+              "food": 850,
+              "gold": 550
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Bracer",
+        "name": "Bracer",
+        "cat": "Tech",
+        "id": "201",
+        "pic": 37
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich",
+      "aoe2database"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → Stable + Blacksmith → 4 Scouts + Scorpions + Monks. Cavaliers/Knights are the natural follow-up.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Scouts are slightly weaker than Turks' baseline, but the free cavalry HP (bloodlines-style) adds weight for push strats, faster berries smooth the FC, and you skip farm-size upgrades. Decent Scorpions; the cost is trash Monks (good only for converting answer-knights).",
+    "recommendations": [
+      "Use the cavalry HP bonus to win scout/knight fights and push with confidence.",
+      "Transition into Knights/Cavaliers — your stable is the strongest part of the tree.",
+      "Don't invest in Monks beyond emergency knight conversions."
+    ],
+    "strengths": [
+      "Cavalry +20% HP from Feudal; auto Bloodlines",
+      "Faster foraging; no farm-size upgrades needed",
+      "Cheap Castles → fast aggression/boom defense"
+    ],
+    "weaknesses": [
+      "Weak Monks",
+      "Thin archer/siege options vs heavy ranged",
+      "No Bombard Cannon"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Smooth FC off faster berries → Stable push",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": {
+    "rank": 10,
+    "year": 2026,
+    "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
+  },
+  "stats": {
+    "winRate": 48.94,
+    "playRate": 1.61,
+    "picks": 331,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/franks",
+    "byMapType": {
+      "other": {
+        "winRate": 48.85,
+        "playRate": 1.57,
+        "picks": 217
+      },
+      "open": {
+        "winRate": 50.55,
+        "playRate": 1.8,
+        "picks": 91
+      },
+      "closed": {
+        "winRate": 38.46,
+        "playRate": 1.05,
+        "picks": 13
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 2.33,
+        "picks": 10
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "portuguese",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "huns",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "britons",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "bengalis",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "wei",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "magyars",
+        "games": 8,
+        "winRate": 0
+      },
+      {
+        "name": "persians",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "lithuanians",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "sicilians",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "hindustanis",
+        "games": 8,
+        "winRate": 25
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoe2database",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

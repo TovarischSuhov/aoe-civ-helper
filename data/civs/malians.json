@@ -1,0 +1,495 @@
+{
+  "id": "Malians",
+  "internalName": "Malians",
+  "slug": "malians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry civilization",
+    "bonuses": [
+      "Buildings cost -15% wood",
+      "Villagers drop off +10% more gold",
+      "Barracks Units +1/+2/+3 pierce armor in Feudal/ Castle/Imperial Age"
+    ],
+    "teamBonus": "Universities work +80% faster",
+    "uniqueUnits": [
+      "Gbeto (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Tigui (Town Centers fire arrows without garrison)",
+        "name": "Tigui",
+        "cost": {
+          "food": 200,
+          "wood": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Farimba (Cavalry +5 attack)",
+        "name": "Farimba",
+        "cost": {
+          "food": 650,
+          "gold": 400
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1013",
+        "name": "Gbeto",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Gbeto",
+            "pic": 197,
+            "hp": 40,
+            "attack": 10,
+            "range": 5,
+            "speed": 1.25,
+            "cost": {
+              "food": 50,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Gbeto",
+            "pic": 500,
+            "hp": 50,
+            "attack": 13,
+            "range": 6,
+            "speed": 1.25,
+            "cost": {
+              "food": 900,
+              "gold": 600
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Galleon",
+        "name": "Galleon",
+        "cat": "Unit",
+        "id": "442",
+        "pic": 60
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Bracer",
+        "name": "Bracer",
+        "cat": "Tech",
+        "id": "201",
+        "pic": 37
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Onagers shred your infantry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Sits between Turks and Celts: a wood discount + extra gold fund the siege and the monks.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      },
+      {
+        "title": "Full Feudal + Market age-up",
+        "detail": "Full Feudal with a Market; buy the age advance off the gold economy.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "A middle ground between Turks and Celts — wood discount pays for siege, extra gold pays for monks and gunpowder, and the monastery is actually decent. Very flexible.",
+    "recommendations": [
+      "Use the wood discount to mass Scorpions/towers cheaply.",
+      "Extra gold → mix Monks and, later, gunpowder (Gbetos, BBC).",
+      "Farimba (+5 infantry attack) makes a late infantry switch devastating."
+    ],
+    "strengths": [
+      "Wood discount → cheap siege/structures",
+      "Gold economy → monks + gunpowder",
+      "Decent Monks; strong infantry with Farimba"
+    ],
+    "weaknesses": [
+      "No top-tier cavalry (no Paladin/Bloodlines)",
+      "Siege capped (no Siege Ram elite options in some lines)"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Wood+gold economy → smooth FC into scorps+monks",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 53.45,
+    "playRate": 1.69,
+    "picks": 348,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/malians",
+    "byMapType": {
+      "open": {
+        "winRate": 54.35,
+        "playRate": 1.82,
+        "picks": 92
+      },
+      "other": {
+        "winRate": 53.62,
+        "playRate": 1.7,
+        "picks": 235
+      },
+      "closed": {
+        "winRate": 53.33,
+        "playRate": 1.21,
+        "picks": 15
+      },
+      "hybrid": {
+        "winRate": 33.33,
+        "playRate": 1.4,
+        "picks": 6
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "aztecs",
+        "games": 11,
+        "winRate": 90.91
+      },
+      {
+        "name": "goths",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "bengalis",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "magyars",
+        "games": 11,
+        "winRate": 72.73
+      },
+      {
+        "name": "cumans",
+        "games": 9,
+        "winRate": 66.67
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "huns",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "britons",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "mayans",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "georgians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "mongols",
+        "games": 16,
+        "winRate": 43.75
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

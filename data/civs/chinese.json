@@ -1,0 +1,484 @@
+{
+  "id": "Chinese",
+  "internalName": "Chinese",
+  "slug": "chinese",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Archer and Gunpowder civilization",
+    "bonuses": [
+      "Start with +3 Villagers, but -50 wood and -200 food",
+      "Technologies cost -5/10/15% in Feudal/Castle/Imperial Age",
+      "Town Centers +7 line of sight and provide +15 population space",
+      "Fire Lancers and Fire Ships move +5/10% faster in Castle/Imperial Age"
+    ],
+    "teamBonus": "Farms +10% food",
+    "uniqueUnits": [
+      "Chu Ko Nu (Foot Archer)",
+      "Dragon Ship (Warship)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP)",
+        "name": "Great Wall",
+        "cost": {
+          "wood": 400,
+          "stone": 200
+        },
+        "pic": 33
+      },
+      {
+        "display": "Rocketry (Scorpions, Rocket Carts and Lou Chuans +25% attack; Lou Chuans fire rockets)",
+        "name": "Rocketry",
+        "cost": {
+          "food": 1100,
+          "gold": 900
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "73",
+        "name": "Chu Ko Nu",
+        "role": "Foot Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Chu Ko Nu",
+            "pic": 36,
+            "hp": 45,
+            "attack": 8,
+            "range": 4,
+            "speed": 0.96,
+            "cost": {
+              "wood": 40,
+              "gold": 35
+            }
+          },
+          {
+            "name": "Elite Chu Ko Nu",
+            "pic": 482,
+            "hp": 50,
+            "attack": 10,
+            "range": 4,
+            "speed": 0.96,
+            "cost": {
+              "food": 1300,
+              "gold": 1300
+            }
+          }
+        ]
+      },
+      {
+        "id": "1302",
+        "name": "Dragon Ship",
+        "role": "Warship",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Dragon Ship",
+            "pic": 178,
+            "hp": 135,
+            "attack": 5,
+            "range": 3,
+            "speed": 1.56,
+            "cost": {
+              "wood": 75,
+              "gold": 45
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Strong",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": 3,
+    "year": 2026,
+    "takeaway": "#1 at the very top Elo. Cheaper techs + extra farm food + fire lancers + Chu Ko Nu shine mid/late, but you start down 200 food and need strong game sense to exploit the cheaper techs."
+  },
+  "stats": {
+    "winRate": 53.42,
+    "playRate": 3.06,
+    "picks": 629,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/chinese",
+    "byMapType": {
+      "open": {
+        "winRate": 55.63,
+        "playRate": 3.16,
+        "picks": 160
+      },
+      "other": {
+        "winRate": 53.12,
+        "playRate": 3.13,
+        "picks": 433
+      },
+      "closed": {
+        "winRate": 50,
+        "playRate": 2.09,
+        "picks": 26
+      },
+      "hybrid": {
+        "winRate": 40,
+        "playRate": 2.33,
+        "picks": 10
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "romans",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "khmer",
+        "games": 14,
+        "winRate": 85.71
+      },
+      {
+        "name": "incas",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "tatars",
+        "games": 12,
+        "winRate": 75
+      },
+      {
+        "name": "burgundians",
+        "games": 13,
+        "winRate": 69.23
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "malay",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "dravidians",
+        "games": 10,
+        "winRate": 30
+      },
+      {
+        "name": "spanish",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "bulgarians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "britons",
+        "games": 12,
+        "winRate": 33.33
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Fire Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Fire Lancer",
+            "pic": 457,
+            "hp": 65,
+            "attack": 9,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Fire Lancer",
+            "pic": 458,
+            "hp": 85,
+            "attack": 10,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "food": 750,
+              "gold": 400
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rocket Cart",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Rocket Cart",
+            "pic": 459,
+            "hp": 45,
+            "attack": 5,
+            "range": 7,
+            "speed": 0.6,
+            "cost": {
+              "wood": 135,
+              "gold": 155
+            }
+          },
+          {
+            "name": "Heavy Rocket Cart",
+            "pic": 460,
+            "hp": 65,
+            "attack": 5,
+            "range": 8,
+            "speed": 0.6,
+            "cost": {
+              "wood": 800,
+              "gold": 600
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lou Chuan",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Lou Chuan",
+            "pic": 431,
+            "hp": 175,
+            "attack": 25,
+            "range": 10,
+            "speed": 1.1,
+            "cost": {
+              "wood": 250,
+              "gold": 225
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

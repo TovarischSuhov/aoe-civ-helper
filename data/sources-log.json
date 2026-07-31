@@ -1,0 +1,72 @@
+{
+  "title": "Source usage log",
+  "intro": "What was taken from each source and where it shows up in the app. 'used' items fed real content (linked below), 'skipped' items were off-topic, and 'failed' items could not be loaded and should be re-checked. Use this to trace any recommendation back to its origin.",
+  "_meta": { "lastReviewed": "2026-07-30" },
+  "groups": [
+    {
+      "source": "kiritastrich",
+      "url": "https://t.me/s/kiritastrich",
+      "blurb": "Russian-language strategy channel (translated to English).",
+      "entries": [
+        { "ref": "#1451", "url": "https://t.me/kiritastrich/1451", "status": "used", "summary": "Fast-Castle → scouts + scorpions tier list for resource-rich maps.", "usedIn": ["Build Orders (FC scorps)", "civ tier flags"] },
+        { "ref": "#1432", "url": "https://t.me/kiritastrich/1432", "status": "used", "summary": "Full-feudal age-up ideas (Maya/Aztecs, Incas/Mapuche/Tupi/Muisca, Turks/Armenians, Saracens, Burgundians).", "usedIn": ["Build Orders (full-feudal)", "feudal civ recommendations"] },
+        { "ref": "#1331", "url": "https://t.me/kiritastrich/1331", "status": "used", "summary": "Economy math: gathering rates per villager, farm size/distance, fish-trap efficiency.", "usedIn": ["Economy → Resource math table"] },
+        { "ref": "#1311", "url": "https://t.me/kiritastrich/1311", "status": "used", "summary": "May-2026 patch notes + 'FC is everything on water' / Dock-arrow nerf.", "usedIn": ["civ patch notes", "Economy → Water section"] },
+        { "ref": "#1291", "url": "https://t.me/kiritastrich/1291", "status": "used", "summary": "More May-2026 patch notes (Slingers, Champs, Xolotl techs).", "usedIn": ["Incas/Muisca patch notes"] },
+        { "ref": "pages ~1332-1411", "url": "https://t.me/s/kiritastrich?before=1412", "status": "skipped", "summary": "Tournament results, lan reactions, video-production notes — no strategy.", "usedIn": [] },
+        { "ref": "#~1290 (patch detail)", "url": "https://t.me/kiritastrich/1290", "status": "used", "summary": "Detailed May-2026 patch numbers: Slingers 70f10w→50f25w (+2s convert-resist); Champi Feudal 120f60g→90f60g, Castle-up 200f175g→150f175g, faster training; Xolotl gains all American crown-techs (Aztec +4 atk, Mayan +40hp, Incan +1/+1, etc.).", "usedIn": ["Incas/Muisca/Aztec patch context"] },
+        { "ref": "#~1235 (UU economy)", "url": "https://t.me/kiritastrich/1235", "status": "used", "summary": "Continuous unique-unit production from a Castle or Monastery costs ~168 food/min (~8 unbowed farms); Monastery-UU + rams can out-push Castle-UU.", "usedIn": ["Tips → kiritastrich (UU food economy)"] },
+        { "ref": "#~1252 (drafting)", "url": "https://t.me/kiritastrich/1252", "status": "used", "summary": "One-trick civ/build abusers rarely beat prepared opponents — only near-perfect execution (e.g. Hoang) sustains it.", "usedIn": ["Tips → kiritastrich (one-trick principle)"] },
+        { "ref": "#~1180 (Goths water tree)", "url": "https://t.me/kiritastrich/1180", "status": "used", "summary": "Goths, an infantry civ, carry a near-complete navy — full ship line plus Careening and Shipwright, missing only Dry Dock (verified vs. the tech tree).", "usedIn": ["Tips → kiritastrich (Goths water tree)"] },
+        { "ref": "pages <#1169", "url": "https://t.me/s/kiritastrich?before=1169", "status": "in_progress", "summary": "Parsed down to ~#1169 (batch-2 density ~1/10 — one durable fact extracted to Tips; rest was Redbull map reveals, Xbox-leadership news, showmatch/LAN chatter). Pagination continues further back; this pointer advances per batch.", "usedIn": [] }
+      ]
+    },
+    {
+      "source": "Spirit of the Law",
+      "url": "https://www.youtube.com/@SpiritOfTheLaw",
+      "blurb": "Data-driven AoE2 analysis videos.",
+      "entries": [
+        { "ref": "Best Civilizations (2026)", "url": "https://www.youtube.com/watch?v=eM4jZD5zOFA", "status": "used", "summary": "Annual ranked 1v1 Arabia tier list (Elo ≥1200).", "usedIn": ["SOTL civ rankings on civ pages", "Tips → Spirit of the Law"] },
+        { "ref": "Best Civilizations (2025)", "url": "https://www.youtube.com/watch?v=G14PVVbRhsQ", "status": "used", "summary": "2025 tier list (Hindustanis #1).", "usedIn": ["SOTL ranking context"] },
+        { "ref": "2024 Farming Report", "url": "https://www.youtube.com/watch?v=pKKrRhMjt9M", "status": "used", "summary": "Ranks every civ's farm bonus across game stages.", "usedIn": ["Economy farming context"] },
+        { "ref": "Top 10 / Worst Elite upgrades", "url": "https://www.youtube.com/watch?v=BbBxPi8tvRE", "status": "used", "summary": "Which Elite upgrades are worth rushing vs skipping.", "usedIn": ["general upgrade guidance"] },
+        { "ref": "channel principles", "url": "https://www.youtube.com/@SpiritOfTheLaw", "status": "used", "summary": "Recurring data-driven principles distilled into the SOTL tips + metaPrinciples.", "usedIn": ["Tips → Spirit of the Law", "SOTL page principles"] }
+      ]
+    },
+    {
+      "source": "Hera",
+      "url": "https://www.youtube.com/@HeraAgeOfEmpires2",
+      "blurb": "Pro-player coaching and gameplay.",
+      "entries": [
+        { "ref": "macro & decision-making content", "url": "https://www.youtube.com/@HeraAgeOfEmpires2", "status": "used", "summary": "Fundamentals distilled into the Hera tips (macro, scouting, booming).", "usedIn": ["Tips → Hera"] },
+        { "ref": "build-order guides", "url": "https://www.youtube.com/@HeraAgeOfEmpires2", "status": "used", "summary": "Pro build-order discipline reflected in the universal Build Orders page.", "usedIn": ["Build Orders"] }
+      ]
+    },
+    {
+      "source": "CyberDabVinc",
+      "url": "https://www.youtube.com/@CyberDabVinc",
+      "blurb": "Defensive/boom-focused ladder coaching.",
+      "entries": [
+        { "ref": "defensive & boom coaching", "url": "https://www.youtube.com/@CyberDabVinc", "status": "used", "summary": "Wall/boom and timing principles distilled into the CyberDabVinc tips.", "usedIn": ["Tips → CyberDabVinc"] }
+      ]
+    },
+    {
+      "source": "aoe2techtree.net",
+      "url": "https://aoe2techtree.net/",
+      "blurb": "Tech-tree dataset (MIT-licensed).",
+      "entries": [
+        { "ref": "data.json + strings.json", "url": "https://aoe2techtree.net/data/data.json", "status": "used", "summary": "Every civ's tech tree — auto-derived into facts on all 53 civ pages.", "usedIn": ["civ facts", "unique units", "tech gaps", "matchups", "maps"] },
+        { "ref": "img/ (Civs, Building, Unit + resource icons)", "url": "https://aoe2techtree.net/img/", "status": "used", "summary": "Civ crests, the Farm building icon, and the wood/gold/stone resource icons.", "usedIn": ["grid + civ icons", "Economy table (farm, wood, gold, stone)"] }
+      ]
+    },
+    {
+      "source": "aoestats.io",
+      "url": "https://aoestats.io/",
+      "blurb": "Aggregated ranked match statistics.",
+      "entries": [
+        { "ref": "1v1 Random Map, ALL rating (patch 162286)", "url": "https://aoestats.io/", "status": "used", "summary": "Win/play rates for 48 civs, updated 2026-06-25.", "usedIn": ["grid win-rate chips", "civ Ranked block", "matchups", "maps"] },
+        { "ref": "new / Chronicles civs", "url": "https://aoestats.io/", "status": "skipped", "summary": "Jurchens, Khitans, Mapuche, Muisca, Tupi have no ranked 1v1 data — marked 'not tracked'.", "usedIn": [] }
+      ]
+    }
+  ]
+}

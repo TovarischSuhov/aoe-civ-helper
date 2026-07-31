@@ -1,0 +1,491 @@
+{
+  "id": "Koreans",
+  "internalName": "Koreans",
+  "slug": "koreans",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Defensive and Naval civilization",
+    "bonuses": [
+      "Stone miners work +20% faster",
+      "Ranged Soldiers and Infantry cost -50% wood",
+      "Archer armor and tower upgrades free (Bombard Tower requires Chemistry)",
+      "Warships cost -20% wood"
+    ],
+    "teamBonus": "Villagers +3 line of sight",
+    "uniqueUnits": [
+      "War Wagon (Mounted Archer)",
+      "Turtle Ship (Warship)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Eupseong (Watch Tower-line +2 range)",
+        "name": "Eupseong",
+        "cost": {
+          "food": 300,
+          "wood": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Shinkichon (Rocket Carts and Turtle Ships +1 range, fire additional projectiles)",
+        "name": "Shinkichon",
+        "cost": {
+          "food": 1100,
+          "gold": 800
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "827",
+        "name": "War Wagon",
+        "role": "Mounted Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "War Wagon",
+            "pic": 117,
+            "hp": 150,
+            "attack": 9,
+            "range": 4,
+            "speed": 1.2,
+            "cost": {
+              "wood": 200,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Elite War Wagon",
+            "pic": 490,
+            "hp": 200,
+            "attack": 9,
+            "range": 5,
+            "speed": 1.2,
+            "cost": {
+              "wood": 1000,
+              "gold": 800
+            }
+          }
+        ]
+      },
+      {
+        "id": "831",
+        "name": "Turtle Ship",
+        "role": "Warship",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Turtle Ship",
+            "pic": 116,
+            "hp": 275,
+            "attack": 9,
+            "range": 6,
+            "speed": 1,
+            "cost": {
+              "wood": 190,
+              "gold": 130
+            }
+          },
+          {
+            "name": "Elite Turtle Ship",
+            "pic": 491,
+            "hp": 350,
+            "attack": 13,
+            "range": 7,
+            "speed": 1,
+            "cost": {
+              "food": 650,
+              "gold": 500
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Strong",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 53.11,
+    "playRate": 1.88,
+    "picks": 386,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/koreans",
+    "byMapType": {
+      "open": {
+        "winRate": 57.65,
+        "playRate": 1.68,
+        "picks": 85
+      },
+      "other": {
+        "winRate": 52.42,
+        "playRate": 1.94,
+        "picks": 269
+      },
+      "closed": {
+        "winRate": 31.58,
+        "playRate": 1.53,
+        "picks": 19
+      },
+      "hybrid": {
+        "winRate": 69.23,
+        "playRate": 3.02,
+        "picks": 13
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "persians",
+        "games": 11,
+        "winRate": 72.73
+      },
+      {
+        "name": "britons",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "berbers",
+        "games": 11,
+        "winRate": 63.64
+      },
+      {
+        "name": "armenians",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "bulgarians",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "malay",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "sicilians",
+        "games": 11,
+        "winRate": 36.36
+      },
+      {
+        "name": "tatars",
+        "games": 11,
+        "winRate": 36.36
+      },
+      {
+        "name": "chinese",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "dravidians",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Fire Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Fire Lancer",
+            "pic": 457,
+            "hp": 65,
+            "attack": 9,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Fire Lancer",
+            "pic": 458,
+            "hp": 85,
+            "attack": 10,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "food": 750,
+              "gold": 400
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rocket Cart",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Rocket Cart",
+            "pic": 459,
+            "hp": 45,
+            "attack": 5,
+            "range": 7,
+            "speed": 0.6,
+            "cost": {
+              "wood": 135,
+              "gold": 155
+            }
+          },
+          {
+            "name": "Heavy Rocket Cart",
+            "pic": 460,
+            "hp": 65,
+            "attack": 5,
+            "range": 8,
+            "speed": 0.6,
+            "cost": {
+              "wood": 800,
+              "gold": 600
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

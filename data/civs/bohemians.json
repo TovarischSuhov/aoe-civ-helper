@@ -1,0 +1,424 @@
+{
+  "id": "Bohemians",
+  "internalName": "Bohemians",
+  "slug": "bohemians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Gunpowder and Monk civilization",
+    "bonuses": [
+      "Mining Camp technologies free",
+      "Blacksmiths and Universities cost -100 wood",
+      "Spearman-line deals +25% bonus damage",
+      "Fervor and Sanctity affect Villagers",
+      "Chemistry and Hand Cannoneer available in Castle Age"
+    ],
+    "teamBonus": "Markets work +80% faster",
+    "uniqueUnits": [
+      "Hussite Wagon (Siege Gunpowder Unit)",
+      "Houfnice (Siege Gunpowder Unit)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Wagenburg Tactics (Gunpowder Units move +15% faster)",
+        "name": "Wagenburg Tactics",
+        "cost": {
+          "food": 300,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Hussite Reforms (Monks and Monastery technologies gold cost is replaced by food cost)",
+        "name": "Hussite Reforms",
+        "cost": {
+          "food": 500,
+          "gold": 450
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1704",
+        "name": "Hussite Wagon",
+        "role": "Siege Gunpowder Unit",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Hussite Wagon",
+            "pic": 370,
+            "hp": 160,
+            "attack": 10,
+            "range": 6,
+            "speed": 0.8,
+            "cost": {
+              "wood": 110,
+              "gold": 70
+            }
+          },
+          {
+            "name": "Elite Hussite Wagon",
+            "pic": 514,
+            "hp": 230,
+            "attack": 13,
+            "range": 6,
+            "speed": 0.8,
+            "cost": {
+              "wood": 800,
+              "gold": 600
+            }
+          }
+        ]
+      },
+      {
+        "id": "1709",
+        "name": "Houfnice",
+        "role": "Siege Gunpowder Unit",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Houfnice",
+            "pic": 372,
+            "hp": 90,
+            "attack": 50,
+            "range": 12,
+            "speed": 0.7,
+            "cost": {
+              "wood": 225,
+              "gold": 225
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Onagers shred your infantry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 54.52,
+    "playRate": 2.04,
+    "picks": 420,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/bohemians",
+    "byMapType": {
+      "other": {
+        "winRate": 54.71,
+        "playRate": 1.99,
+        "picks": 276
+      },
+      "open": {
+        "winRate": 52.94,
+        "playRate": 1.68,
+        "picks": 85
+      },
+      "closed": {
+        "winRate": 58.49,
+        "playRate": 4.26,
+        "picks": 53
+      },
+      "hybrid": {
+        "winRate": 33.33,
+        "playRate": 1.4,
+        "picks": 6
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "hindustanis",
+        "games": 10,
+        "winRate": 80
+      },
+      {
+        "name": "bengalis",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
+        "name": "vikings",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "persians",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "aztecs",
+        "games": 10,
+        "winRate": 70
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "burgundians",
+        "games": 18,
+        "winRate": 16.67
+      },
+      {
+        "name": "celts",
+        "games": 10,
+        "winRate": 30
+      },
+      {
+        "name": "tupi",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "portuguese",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "huns",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

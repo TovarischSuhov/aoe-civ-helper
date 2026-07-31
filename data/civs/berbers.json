@@ -1,0 +1,480 @@
+{
+  "id": "Berbers",
+  "internalName": "Berbers",
+  "slug": "berbers",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry and Naval civilization",
+    "bonuses": [
+      "Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age",
+      "Stable Units cost -15/20% in Castle/Imperial Age",
+      "Ships move +10% faster"
+    ],
+    "teamBonus": "Genitour available at the Archery Range starting in Castle Age",
+    "uniqueUnits": [
+      "Camel Archer (Mounted Archer)",
+      "Genitour (Mounted Skirmisher)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Kasbah (Team Castles work +25% faster)",
+        "name": "Kasbah",
+        "cost": {
+          "food": 250,
+          "gold": 250
+        },
+        "pic": 33
+      },
+      {
+        "display": "Maghrebi Camels (Camel Units regenerate 15 HP per minute)",
+        "name": "Maghrebi Camels",
+        "cost": {
+          "food": 700,
+          "gold": 300
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1007",
+        "name": "Camel Archer",
+        "role": "Mounted Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Camel Archer",
+            "pic": 191,
+            "hp": 55,
+            "attack": 7,
+            "range": 4,
+            "speed": 1.4,
+            "cost": {
+              "wood": 50,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Elite Camel Archer",
+            "pic": 498,
+            "hp": 60,
+            "attack": 8,
+            "range": 4,
+            "speed": 1.4,
+            "cost": {
+              "wood": 1000,
+              "gold": 500
+            }
+          }
+        ]
+      },
+      {
+        "id": "1010",
+        "name": "Genitour",
+        "role": "Mounted Skirmisher",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Genitour",
+            "pic": 201,
+            "hp": 50,
+            "attack": 3,
+            "range": 4,
+            "speed": 1.35,
+            "cost": {
+              "food": 40,
+              "wood": 35
+            }
+          },
+          {
+            "name": "Elite Genitour",
+            "pic": 499,
+            "hp": 55,
+            "attack": 4,
+            "range": 4,
+            "speed": 1.35,
+            "cost": {
+              "food": 500,
+              "wood": 450
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "chinese",
+          "name": "Chinese",
+          "internalName": "Chinese",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Stable-unit discount makes the scout spam cheaper and lets you mix Knights.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Stable-unit cost discount makes the scout spam cheaper, Knights move faster, and Monks are decent — so this is one of the most flexible variations of the build.",
+    "recommendations": [
+      "Spam scouts/knights off the stable discount; mix Genitours vs archer civs.",
+      "Faster villagers/knights let you dictate engagements and raids.",
+      "Decent Monks → you can actually convert/heal, unlike Franks/Celts."
+    ],
+    "strengths": [
+      "Stable units cheaper → cheap scout/knight spam",
+      "Faster villagers & cavalry",
+      "Decent Monks; Genitour vs archers"
+    ],
+    "weaknesses": [
+      "Fewer eco bonuses outside unit cost",
+      "Limited siege depth"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Discounted stable → fast scout/knight mass",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 46.71,
+    "playRate": 1.62,
+    "picks": 334,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/berbers",
+    "byMapType": {
+      "other": {
+        "winRate": 46.12,
+        "playRate": 1.58,
+        "picks": 219
+      },
+      "open": {
+        "winRate": 44.19,
+        "playRate": 1.7,
+        "picks": 86
+      },
+      "closed": {
+        "winRate": 55,
+        "playRate": 1.61,
+        "picks": 20
+      },
+      "hybrid": {
+        "winRate": 66.67,
+        "playRate": 2.09,
+        "picks": 9
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "bulgarians",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "poles",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "magyars",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "burgundians",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "italians",
+        "games": 10,
+        "winRate": 50
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "byzantines",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "saracens",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "slavs",
+        "games": 11,
+        "winRate": 27.27
+      },
+      {
+        "name": "mongols",
+        "games": 14,
+        "winRate": 28.57
+      },
+      {
+        "name": "japanese",
+        "games": 10,
+        "winRate": 30
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

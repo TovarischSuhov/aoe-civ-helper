@@ -1,0 +1,467 @@
+{
+  "id": "Vietnamese",
+  "internalName": "Vietnamese",
+  "slug": "vietnamese",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Archer civilization",
+    "bonuses": [
+      "Enemy Town Centers are revealed at the start of the game",
+      "Economic upgrades cost no wood and research +100% faster",
+      "Archery Range units and Fire Lancers +20% HP",
+      "Conscription free"
+    ],
+    "teamBonus": "Imperial Skirmisher upgrade available in Imperial Age",
+    "uniqueUnits": [
+      "Rattan Archer (Foot Archer)",
+      "Imperial Skirmisher (Skirmisher)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Chatras (Battle Elephants +100 HP)",
+        "name": "Chatras",
+        "cost": {
+          "food": 250,
+          "gold": 250
+        },
+        "pic": 33
+      },
+      {
+        "display": "Paper Money (Lumberjacks slowly generate gold in addition to wood)",
+        "name": "Paper Money",
+        "cost": {
+          "food": 550,
+          "wood": 200
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1129",
+        "name": "Rattan Archer",
+        "role": "Foot Archer",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Rattan Archer",
+            "pic": 232,
+            "hp": 40,
+            "attack": 6,
+            "range": 4,
+            "speed": 1.1,
+            "cost": {
+              "wood": 50,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Rattan Archer",
+            "pic": 505,
+            "hp": 45,
+            "attack": 7,
+            "range": 5,
+            "speed": 1.1,
+            "cost": {
+              "food": 1000,
+              "gold": 750
+            }
+          }
+        ]
+      },
+      {
+        "id": "1155",
+        "name": "Imperial Skirmisher",
+        "role": "Skirmisher",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Imperial Skirmisher",
+            "pic": 229,
+            "hp": 35,
+            "attack": 4,
+            "range": 5,
+            "speed": 0.96,
+            "cost": {
+              "food": 25,
+              "wood": 35
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Ram",
+        "name": "Siege Ram",
+        "cat": "Unit",
+        "id": "548",
+        "pic": 73
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Strong",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 47.94,
+    "playRate": 2.71,
+    "picks": 557,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/vietnamese",
+    "byMapType": {
+      "other": {
+        "winRate": 45.8,
+        "playRate": 2.67,
+        "picks": 369
+      },
+      "open": {
+        "winRate": 52.08,
+        "playRate": 2.84,
+        "picks": 144
+      },
+      "closed": {
+        "winRate": 53.13,
+        "playRate": 2.57,
+        "picks": 32
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 2.79,
+        "picks": 12
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "vietnamese",
+        "games": 13,
+        "winRate": 92.31
+      },
+      {
+        "name": "sicilians",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "lithuanians",
+        "games": 12,
+        "winRate": 75
+      },
+      {
+        "name": "aztecs",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "portuguese",
+        "games": 10,
+        "winRate": 70
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "tatars",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "byzantines",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "incas",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "mapuche",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "persians",
+        "games": 17,
+        "winRate": 29.41
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Fire Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Fire Lancer",
+            "pic": 457,
+            "hp": 65,
+            "attack": 9,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Fire Lancer",
+            "pic": 458,
+            "hp": 85,
+            "attack": 10,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "food": 750,
+              "gold": 400
+            }
+          }
+        ]
+      },
+      {
+        "name": "Battle Elephant",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Battle Elephant",
+            "pic": 228,
+            "hp": 250,
+            "attack": 12,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 100,
+              "gold": 70
+            }
+          },
+          {
+            "name": "Elite Battle Elephant",
+            "pic": 246,
+            "hp": 300,
+            "attack": 14,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 1100,
+              "gold": 700
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

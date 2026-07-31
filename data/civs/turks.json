@@ -1,0 +1,476 @@
+{
+  "id": "Turks",
+  "internalName": "Turks",
+  "slug": "turks",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Gunpowder civilization",
+    "bonuses": [
+      "Gold miners work +25% faster",
+      "Scout Cavalry-line +1 pierce armor and upgrades free",
+      "Chemistry free; Gunpowder technologies costs -50%",
+      "Gunpowder Units +25% HP"
+    ],
+    "teamBonus": "Gunpowder Units train +25% faster",
+    "uniqueUnits": [
+      "Janissary (Foot Gunner)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Sipahi (Mounted Archers +20 HP)",
+        "name": "Sipahi",
+        "cost": {
+          "food": 350,
+          "gold": 150
+        },
+        "pic": 33
+      },
+      {
+        "display": "Artillery (Bombard Towers, Bombard Cannons, Cannon Galleons +2 range)",
+        "name": "Artillery",
+        "cost": {
+          "food": 600,
+          "gold": 650
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "46",
+        "name": "Janissary",
+        "role": "Foot Gunner",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Janissary",
+            "pic": 39,
+            "hp": 35,
+            "attack": 17,
+            "range": 7,
+            "speed": 0.96,
+            "cost": {
+              "food": 60,
+              "gold": 55
+            }
+          },
+          {
+            "name": "Elite Janissary",
+            "pic": 480,
+            "hp": 40,
+            "attack": 22,
+            "range": 8,
+            "speed": 0.96,
+            "cost": {
+              "food": 850,
+              "gold": 750
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Elite Skirmisher",
+        "name": "Elite Skirmisher",
+        "cat": "Unit",
+        "id": "6",
+        "pic": 21
+      },
+      {
+        "label": "No Pikeman",
+        "name": "Pikeman",
+        "cat": "Unit",
+        "id": "358",
+        "pic": 11
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Onager",
+        "name": "Onager",
+        "cat": "Unit",
+        "id": "550",
+        "pic": 101
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "they lack Halberdiers for your cavalry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their cavalry dies to your Halberdiers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "celts",
+          "name": "Celts",
+          "internalName": "Celts",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich",
+      "aoe2database"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated Fast Castle (~20–22 vills), then Stable + Blacksmith, mass ~4 Scout Cavalry + Scorpions with a couple of Monks. Best on resource-rich maps: 2+ boar, 8 sheep, 3–4 deer.",
+        "map": "Vale de Selva, Glade (resource-rich)",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      },
+      {
+        "title": "Full Feudal + Market age-up",
+        "detail": "Play full Feudal with a Market and buy the age advance; the gold-mining bonus funds a large gold pool for gold units.",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1432"
+      }
+    ],
+    "buildNote": "Top pick for the scouts+scorps build: the Scout-line auto-upgrades + free Light Cavalry armor make the 4-Scout spam essentially free to tech, and faster gold funds Scorpions + Monks. Clean gunpowder transition (Chemistry is free; gunpowder techs −50%).",
+    "recommendations": [
+      "Abuse the free Scout upgrades and faster gold — go heavy on Scorpions with a few Monks for conversion/heal.",
+      "Transition into Hand Cannoneers + Bombard Cannons in Imperial (free Chemistry, cheap gunpowder techs).",
+      "Do NOT rely on trash: you have no Elite Skirmisher and no Halberdier."
+    ],
+    "strengths": [
+      "Free Chemistry; gunpowder techs −50%; gunpowder +25% HP",
+      "Faster gold → early gunpowder/siege spikes",
+      "Free Scout-line upgrades + Light Cavalry armor"
+    ],
+    "weaknesses": [
+      "Weak trash line (no Elite Skirmisher, no Halberdier, no Onager)",
+      "No Siege Engineers; monks lack Illumination/Heresy",
+      "Reliant on gold"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Click Castle Age ~20–22 vills → Stable + Blacksmith",
+        "source": "kiritastrich"
+      },
+      {
+        "label": "Mid-Castle spike",
+        "detail": "4 Scouts + Scorpions + Monks power spike",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 45.76,
+    "playRate": 1.72,
+    "picks": 354,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/turks",
+    "byMapType": {
+      "open": {
+        "winRate": 49.25,
+        "playRate": 1.32,
+        "picks": 67
+      },
+      "other": {
+        "winRate": 43.85,
+        "playRate": 1.76,
+        "picks": 244
+      },
+      "closed": {
+        "winRate": 45.71,
+        "playRate": 2.81,
+        "picks": 35
+      },
+      "hybrid": {
+        "winRate": 75,
+        "playRate": 1.86,
+        "picks": 8
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "lithuanians",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "malay",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "armenians",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "britons",
+        "games": 11,
+        "winRate": 54.55
+      },
+      {
+        "name": "bengalis",
+        "games": 8,
+        "winRate": 50
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "italians",
+        "games": 9,
+        "winRate": 11.11
+      },
+      {
+        "name": "tatars",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "vikings",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "poles",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "huns",
+        "games": 8,
+        "winRate": 37.5
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoe2database",
+    "aoestats"
+  ]
+}

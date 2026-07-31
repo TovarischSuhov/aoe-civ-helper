@@ -1,0 +1,162 @@
+{
+  "title": "Economy Guide",
+  "intro": "General Age of Empires II economy principles. They are civ-agnostic — apply them, then layer your civilization's specific economy bonus (shown on each civ page). The single biggest skill: never let the Town Center sit idle.",
+  "principles": [
+    "Never let the Town Center go idle — keep villagers training constantly from the first second.",
+    "Never get housed — build houses ahead of your population cap (check the count constantly).",
+    "Minimise villager walking time: every drop-off building (Mill, Lumber/Mining Camp, TC) should hug its resource.",
+    "Spend your resources — floating 1000 wood means 1000 wood of idle army/upgrades you didn't make.",
+    "Re-task idle villagers immediately; a standing villager is wasted economy."
+  ],
+  "sections": [
+    {
+      "title": "Food — Dark Age (sheep, boar, deer)",
+      "body": "Food drives your early up-time. Use the fastest sources first and never let villagers stand idle when one source runs out.",
+      "do": [
+        "Keep sheep under the Town Center; eat one sheep fully before moving to the next so meat doesn't rot in two at once.",
+        "Lure both boars: send one villager to shoot the boar twice, then run back to the TC so it follows — garrison the villager if the boar is about to kill them. Lure around when your current food is ~half eaten.",
+        "Use deer: either drop a Mill near them or 'push' deer by tasking a few villagers to lure them toward your TC. Deer are fast food — don't waste them.",
+        "Berries last: they're slow, so they fill the gap after animals, often with a Mill + a few villagers."
+      ],
+      "dont": [
+        "Don't let two food sources rot at once — only have one animal being eaten at a time per group.",
+        "Don't ignore the boar — it's a huge chunk of fast food and a common beginner mistake.",
+        "Don't forget shore fish on water/hybrid maps — they're free extra food early."
+      ]
+    },
+    {
+      "title": "Farming (how to farm)",
+      "body": "Farms are your long-term food. Build them around a Mill or Town Center and never let them expire.",
+      "do": [
+        "Build farms adjacent to a Mill or Town Center so villagers drop off instantly — a ring of farms around the TC/Mill is standard.",
+        "Seed farms as wood allows; don't hoard wood while villagers sit idle on food.",
+        "Research Mill upgrades in age order — Horse Collar (Feudal), Heavy Plow (Castle, also +0.5 villager carry), Crop Rotation (Imperial). Each adds food per farm and pays back quickly once you have several farms.",
+        "Keep the farm reseed queue on, or re-task manually the instant a farm expires — an expired farm = idle villagers."
+      ],
+      "dont": [
+        "Don't place farms far from a drop-off — walking wastes the food.",
+        "Don't skip the Mill upgrades when you run 6+ farms — the food-per-farm gain is one of the best investments in the game.",
+        "Don't let farms run out during a fight — re-balance before army clashes."
+      ]
+    },
+    {
+      "title": "Wood / chopping trees (how to chop)",
+      "body": "Wood funds farms, military buildings, archers and siege. Get a Lumber Camp on a real forest early.",
+      "do": [
+        "First villagers can chop straggler trees near the TC, but build a Lumber Camp on the EDGE of a forest (nearest tile) as soon as you have ~60-100 wood.",
+        "Always place the Lumber Camp flush against the forest; keep villagers on the closest trees to the camp.",
+        "Research Double-Bit Axe (Feudal, faster wood) and Bow Saw (Castle, faster wood) — two big eco jumps.",
+        "Reposition the camp if villagers start a long walk; a fresh camp on a new forest beats a long trek."
+      ],
+      "dont": [
+        "Don't chop stragglers all game — they run out and force walking; transition to a forest camp.",
+        "Don't float huge wood — convert surplus wood into farms, military, or a Market.",
+        "Don't forget to re-balance: if you're wood-starved mid-game, you under-invested in lumber early."
+      ]
+    },
+    {
+      "title": "Gold & Stone (mining)",
+      "body": "Gold funds age-ups, gold units and monks; stone funds Castles, Town Centers and towers.",
+      "do": [
+        "Build a Mining Camp on the edge of the gold/stone pile so villagers walk minimally.",
+        "Research Gold Mining / Stone Mining (Feudal) and Gold/Stone Shaft Mining (Castle) for faster gathering.",
+        "Time stone for when you need Castles/TCs; time gold for age-ups and key units.",
+        "Relics and trade are long-term gold — grab relics with monks and set up trade on closed maps."
+      ],
+      "dont": [
+        "Don't over-mine stone early unless you're turtling — it's usually lower priority than gold/wood/food.",
+        "Don't let the main gold pile run dry without a plan (relics/trade/secondary piles)."
+      ]
+    },
+    {
+      "title": "Town Center & villager production",
+      "body": "Villager count is the foundation. Constant production and extra TCs win the macro game.",
+      "do": [
+        "Train a villager every time the TC is free, all game — target 100+ villagers in long games.",
+        "In Castle Age build additional Town Centers (up to 3-4) to boom your economy.",
+        "Click age-ups at sensible villager counts (~22-28 for Feudal depending on strategy).",
+        "Use TC garrison to protect villagers from raids, then ungarrison to keep working."
+      ],
+      "dont": [
+        "Don't delay the Feudal/Castle click excessively — idle TC time before an age-up still trains villagers, but dead time after is wasted.",
+        "Don't stop making villagers in Castle Age to 'save food' — that's where games are lost."
+      ]
+    },
+    {
+      "title": "Market",
+      "body": "The Market lets you rebalance resources and force timings; some civs (e.g. Saracens) get better rates.",
+      "do": [
+        "Buy/sell to fix bottlenecks — e.g. sell wood/food to buy gold for an age-up or key unit.",
+        "Use it to hit a faster Castle/Imperial when your resource mix is off.",
+        "Build Trade Carts on closed/team maps for a renewable gold income in late game."
+      ],
+      "dont": [
+        "Don't over-trade early — rates worsen as you buy/sell the same resource repeatedly.",
+        "Don't rely on the market for your main economy; it supplements, it doesn't replace villager income."
+      ]
+    },
+    {
+      "title": "Water & fishing economy (water / hybrid maps)",
+      "body": "On water and hybrid maps the sea is a second economy. Fishing ships convert wood into food and are often MORE wood-efficient than farms, so controlling the water snowballs your food income (source: t.me/kiritastrich).",
+      "do": [
+        "Use Fish Traps (fishing ships) for long-term food on water: a 100-wood Fish Trap yields more food than a 60-wood farm AND you skip the Mill farm upgrades (Horse Collar / Heavy Plow / Crop Rotation) entirely.",
+        "If you WIN the water, keep making fishing ships — don't cap at ~10–12. Stopping early is a common way a hard-won water lead gets thrown away.",
+        "Gather shore fish and shallow food with villagers when it's close — villagers beat ships on shore fish; use the ships for deep-water fish, oysters and fish traps.",
+        "Prepare stone before a water game: extra Town Centers and a forward Dock/Castle lock in the lead (under-prepping stone cost the source player a decisive final).",
+        "On water maps Fast Castle is the whole game — and since Docks now fire 0 arrows in the Dark Age you can't shelter fishing ships under the Dock, so you must play Feudal (Galleys / Fire Ships) to defend them."
+      ],
+      "dont": [
+        "Don't treat water as a side task — if your civ has a navy bonus (Longboats, Galleys, Fire/Demolition ships) the sea IS the game plan on water maps.",
+        "Don't assume a higher-rated opponent plays water — water is widely under-practiced, so a clean naval build can overwhelm stronger players.",
+        "Don't ignore the opponent's signature water unit — counter Longboats/Drakkars and galley masses with Fire Ships + Demolitions, never by abandoning the sea."
+      ]
+    },
+    {
+      "title": "Resource math & rates (from kiritastrich)",
+      "source": "kiritastrich",
+      "sourceUrl": "https://t.me/s/kiritastrich?before=1331",
+      "body": "Reason about gathering rates instead of guessing. Rate (food/s, wood/s) and idle time decide timings — not resource totals. Values below are approximate DE gathering rates per villager (fishing-ship rates per ship); civ bonuses stack on top.",
+      "tables": [
+        {
+          "caption": "Gathering rates per villager (food / wood / gold / stone per second). Approximate DE values.",
+          "headers": ["Resource & source", "Base (no upgrades)", "Feudal upgrade", "Castle upgrade", "Note"],
+          "rows": [
+            [{ "img": "https://aoe2techtree.net/img/Building/50.png", "label": "Farm (food)" }, "0.33/s", "0.40/s — Wheelbarrow", "0.46/s — Hand Cart", "rate is fixed; Mill upgrades add farm SIZE, not speed"],
+            [{ "img": "https://static.wikia.nocookie.net/ageofempires/images/5/5a/Sheep_aoe2DE.png/revision/latest?cb=20200331153951", "label": "Sheep (food)" }, "0.33/s", "0.40/s", "0.46/s", "eaten under the TC — zero walking"],
+            [{ "img": "https://static.wikia.nocookie.net/ageofempires/images/e/e3/Boar_aoe2DE.png/revision/latest?cb=20200331153951", "label": "Boar / Deer (food)" }, "0.41/s", "~0.49/s", "~0.57/s", "lure/push to remove walking"],
+            [{ "img": "https://aoe2techtree.net/img/food.png", "label": "Berries (food)" }, "0.31/s", "~0.37/s", "~0.43/s", "slowest natural food source"],
+            [{ "img": "https://static.wikia.nocookie.net/ageofempires/images/0/0a/AoE2_DE_shore_fish_icon.png/revision/latest?cb=20200403042335", "label": "Shore fish — villager" }, "0.43/s", "—", "—", "a villager beats a ship on shore fish"],
+            [{ "img": "https://static.wikia.nocookie.net/ageofempires/images/2/21/AoE2_DE_marlin_icon.png/revision/latest?cb=20200515052614", "label": "Deep fish / oysters — ship" }, "0.40–0.46/s", "—", "—", "ships win on deep water"],
+            [{ "img": "https://aoe2techtree.net/img/wood.png", "label": "Wood — trees" }, "0.39/s", "0.47/s — Double-Bit Axe", "0.56/s — Bow Saw", "put the camp flush to the forest"],
+            [{ "img": "https://aoe2techtree.net/img/gold.png", "label": "Gold" }, "0.38/s", "0.44/s — Gold Mining", "0.50/s — Gold Shaft Mining", "camp on the edge of the pile"],
+            [{ "img": "https://aoe2techtree.net/img/stone.png", "label": "Stone" }, "0.36/s", "0.42/s — Stone Mining", "0.48/s — Stone Shaft Mining", "camp on the edge of the pile"]
+          ]
+        },
+        {
+          "caption": "Farm food-per-farm by Mill upgrade (raises farm SIZE, not the gather rate). Farm costs 60 wood.",
+          "headers": ["Mill upgrade", "Food per farm", "Age", "Extra"],
+          "rows": [
+            ["None", "175", "Dark / Feudal", "—"],
+            ["Horse Collar", "250  (+75)", "Feudal", "—"],
+            ["Heavy Plow", "375  (+125)", "Castle", "+0.5 villager carry"],
+            ["Crop Rotation", "550  (+175)", "Imperial", "—"]
+          ]
+        }
+      ],
+      "notes": [
+        "Farm distance constraint: keep farms TOUCHING the Town Center or Mill — the villager drops food off instantly at full rate. A farm 1–2 tiles from the drop-off loses food/s to walking, and a farm 3+ tiles out can gather 10–20% slower. Build a tight ring of farms; on a far food cluster, drop a new Mill instead of taking long walks.",
+        "Compute a farm's real food rate as (farm size − food left) ÷ seconds worked — the source channel measured ~105 food over 370 s ≈ 0.28 food/s on a base farm once walking is counted.",
+        "Fish traps are the most wood-efficient food on water: 100 wood of a fish trap yields more food than 60 wood of a farm, and you skip all three Mill farm upgrades.",
+        "When benchmarking your own replays, exclude the last farm in a batch — an about-to-expire farm skews the per-farm average."
+      ]
+    }
+  ],
+  "targets": [
+    { "label": "Feudal Age click", "value": "~22-28 villagers (faster for aggression, slower to wall/boom)" },
+    { "label": "Castle Age click", "value": "~28-40 villagers depending on strategy" },
+    { "label": "Wood share (Feudal/Castle)", "value": "~40-50% of villagers if going archers/siege" },
+    { "label": "Farm count (Castle boom)", "value": "Scale farms to roughly match villagers on food" },
+    { "label": "Full boom villager count", "value": "~80-110+ villagers with multiple Town Centers" },
+    { "label": "Fishing ships (won water)", "value": "Keep growing the fleet past ~12; Fish Traps replace farms on wood-efficiency" }
+  ]
+}

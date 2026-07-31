@@ -1,0 +1,578 @@
+{
+  "id": "Khitans",
+  "internalName": "Khitans",
+  "slug": "khitans",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Cavalry civilization",
+    "bonuses": [
+      "Pastures replace Farms",
+      "Melee attack upgrade effects are doubled",
+      "Skirmishers, Spearman-, and Scout Cavalry-line train and upgrade +15% faster",
+      "Heavy Cavalry Archer upgrade available in Castle Age and costs -50%"
+    ],
+    "teamBonus": "Infantry +2 attack vs. Ranged Soldiers",
+    "uniqueUnits": [
+      "Liao Dao (Infantry)",
+      "Mounted Trebuchet (Siege Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Lamellar Armor (Infantry and Skirmishers reflect 25% melee damage back to the attacker)",
+        "name": "Lamellar Armor",
+        "cost": {
+          "food": 450,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Ordo Cavalry (Cavalry regenerates HP in combat)",
+        "name": "Ordo Cavalry",
+        "cost": {
+          "food": 600,
+          "gold": 300
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1920",
+        "name": "Liao Dao",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Liao Dao",
+            "pic": 463,
+            "hp": 75,
+            "attack": 9,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 40,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Liao Dao",
+            "pic": 525,
+            "hp": 85,
+            "attack": 13,
+            "range": 0,
+            "speed": 1,
+            "cost": {
+              "food": 800,
+              "gold": 650
+            }
+          }
+        ]
+      },
+      {
+        "id": "1923",
+        "name": "Mounted Trebuchet",
+        "role": "Siege Cavalry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Mounted Trebuchet",
+            "pic": 464,
+            "hp": 75,
+            "attack": 30,
+            "range": 10,
+            "speed": 0.8,
+            "cost": {
+              "food": 175,
+              "gold": 175
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Halberdier",
+        "name": "Halberdier",
+        "cat": "Unit",
+        "id": "359",
+        "pic": 104
+      },
+      {
+        "label": "No Heavy Scorpion",
+        "name": "Heavy Scorpion",
+        "cat": "Unit",
+        "id": "542",
+        "pic": 89
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Galleon",
+        "name": "Galleon",
+        "cat": "Unit",
+        "id": "442",
+        "pic": 60
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "britons",
+          "name": "Britons",
+          "internalName": "Britons",
+          "why": "their archers fall to your Elite Skirmishers"
+        },
+        {
+          "slug": "byzantines",
+          "name": "Byzantines",
+          "internalName": "Byzantines",
+          "why": "their archers fall to your Elite Skirmishers"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "bulgarians",
+          "name": "Bulgarians",
+          "internalName": "Bulgarians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burgundians",
+          "name": "Burgundians",
+          "internalName": "Burgundians",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "burmese",
+          "name": "Burmese",
+          "internalName": "Burmese",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": {
+    "rank": 7,
+    "year": 2026,
+    "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
+  },
+  "stats": {
+    "winRate": 43.21,
+    "playRate": 1.39,
+    "picks": 287,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/khitans",
+    "byMapType": {
+      "open": {
+        "winRate": 40.54,
+        "playRate": 1.46,
+        "picks": 74
+      },
+      "other": {
+        "winRate": 41.58,
+        "playRate": 1.37,
+        "picks": 190
+      },
+      "hybrid": {
+        "winRate": 71.43,
+        "playRate": 1.63,
+        "picks": 7
+      },
+      "closed": {
+        "winRate": 62.5,
+        "playRate": 1.29,
+        "picks": 16
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "chinese",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "bengalis",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "burgundians",
+        "games": 11,
+        "winRate": 54.55
+      },
+      {
+        "name": "magyars",
+        "games": 18,
+        "winRate": 44.44
+      },
+      {
+        "name": "tatars",
+        "games": 9,
+        "winRate": 44.44
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "mongols",
+        "games": 19,
+        "winRate": 26.32
+      },
+      {
+        "name": "hindustanis",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "italians",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "burmese",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "japanese",
+        "games": 11,
+        "winRate": 36.36
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Fire Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Fire Lancer",
+            "pic": 457,
+            "hp": 65,
+            "attack": 9,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "wood": 45,
+              "gold": 45
+            }
+          },
+          {
+            "name": "Elite Fire Lancer",
+            "pic": 458,
+            "hp": 85,
+            "attack": 10,
+            "range": 0,
+            "speed": 0.96,
+            "cost": {
+              "food": 750,
+              "gold": 400
+            }
+          }
+        ]
+      },
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      },
+      {
+        "name": "Steppe Lancer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Steppe Lancer",
+            "pic": 273,
+            "hp": 60,
+            "attack": 9,
+            "range": 1,
+            "speed": 1.45,
+            "cost": {
+              "food": 70,
+              "gold": 40
+            }
+          },
+          {
+            "name": "Elite Steppe Lancer",
+            "pic": 274,
+            "hp": 80,
+            "attack": 11,
+            "range": 1,
+            "speed": 1.45,
+            "cost": {
+              "food": 600,
+              "gold": 550
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rocket Cart",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Rocket Cart",
+            "pic": 459,
+            "hp": 45,
+            "attack": 5,
+            "range": 7,
+            "speed": 0.6,
+            "cost": {
+              "wood": 135,
+              "gold": 155
+            }
+          },
+          {
+            "name": "Heavy Rocket Cart",
+            "pic": 460,
+            "hp": 65,
+            "attack": 5,
+            "range": 8,
+            "speed": 0.6,
+            "cost": {
+              "wood": 800,
+              "gold": 600
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "1889",
+        "name": "Pasture",
+        "cat": "Building",
+        "pic": 96,
+        "cost": {
+          "wood": 110
+        },
+        "desc": "Replaces the Farm — renewable food worked by up to 2 Villagers; depletes and must be rebuilt.",
+        "kind": "regional"
+      }
+    ]
+  },
+  "sources": [
+    "aoe2techtree",
+    "spirit-of-the-law",
+    "aoestats"
+  ]
+}

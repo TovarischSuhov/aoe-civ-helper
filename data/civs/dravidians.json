@@ -1,0 +1,477 @@
+{
+  "id": "Dravidians",
+  "internalName": "Dravidians",
+  "slug": "dravidians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Naval civilization",
+    "bonuses": [
+      "Fishermen and Fishing Ships carry +15",
+      "Receive +200 wood when advancing to the next Age",
+      "Skirmishers and Elephant Archers attack +25% faster",
+      "Barracks technologies cost -50%",
+      "Siege Weapons cost -33% wood"
+    ],
+    "teamBonus": "Docks provide +5 population space",
+    "uniqueUnits": [
+      "Urumi Swordsman (Infantry)",
+      "Thirisadai (Warship)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Medical Corps (Elephant Units regenerate 30 HP per minute)",
+        "name": "Medical Corps",
+        "cost": {
+          "food": 300,
+          "gold": 200
+        },
+        "pic": 33
+      },
+      {
+        "display": "Wootz Steel (Infantry and Cavalry attacks ignore armor)",
+        "name": "Wootz Steel",
+        "cost": {
+          "food": 650,
+          "gold": 550
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1735",
+        "name": "Urumi Swordsman",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Urumi Swordsman",
+            "pic": 386,
+            "hp": 55,
+            "attack": 9,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 65,
+              "gold": 20
+            }
+          },
+          {
+            "name": "Elite Urumi Swordsman",
+            "pic": 515,
+            "hp": 65,
+            "attack": 11,
+            "range": 0,
+            "speed": 1.1,
+            "cost": {
+              "food": 900,
+              "gold": 450
+            }
+          }
+        ]
+      },
+      {
+        "id": "1750",
+        "name": "Thirisadai",
+        "role": "Warship",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Thirisadai",
+            "pic": 387,
+            "hp": 250,
+            "attack": 10,
+            "range": 7,
+            "speed": 1.25,
+            "cost": {
+              "wood": 180,
+              "gold": 60
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Hussar",
+        "name": "Hussar",
+        "cat": "Unit",
+        "id": "441",
+        "pic": 103
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      },
+      {
+        "label": "No Illumination",
+        "name": "Illumination",
+        "cat": "Tech",
+        "id": "233",
+        "pic": 84
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Strong",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 53.68,
+    "playRate": 1.78,
+    "picks": 367,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/dravidians",
+    "byMapType": {
+      "open": {
+        "winRate": 54.88,
+        "playRate": 1.62,
+        "picks": 82
+      },
+      "other": {
+        "winRate": 53.75,
+        "playRate": 1.83,
+        "picks": 253
+      },
+      "closed": {
+        "winRate": 46.15,
+        "playRate": 1.05,
+        "picks": 13
+      },
+      "hybrid": {
+        "winRate": 52.63,
+        "playRate": 4.42,
+        "picks": 19
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "japanese",
+        "games": 14,
+        "winRate": 78.57
+      },
+      {
+        "name": "teutons",
+        "games": 11,
+        "winRate": 72.73
+      },
+      {
+        "name": "chinese",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "italians",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "khmer",
+        "games": 12,
+        "winRate": 66.67
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "celts",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "persians",
+        "games": 15,
+        "winRate": 33.33
+      },
+      {
+        "name": "ethiopians",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "mayans",
+        "games": 9,
+        "winRate": 44.44
+      },
+      {
+        "name": "vietnamese",
+        "games": 14,
+        "winRate": 50
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Elephant Archer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Elephant Archer",
+            "pic": 393,
+            "hp": 230,
+            "attack": 6,
+            "range": 4,
+            "speed": 0.9,
+            "cost": {
+              "food": 60,
+              "gold": 80
+            }
+          },
+          {
+            "name": "Elite Elephant Archer",
+            "pic": 93,
+            "hp": 280,
+            "attack": 7,
+            "range": 4,
+            "speed": 0.9,
+            "cost": {
+              "food": 900,
+              "gold": 500
+            }
+          }
+        ]
+      },
+      {
+        "name": "Battle Elephant",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Battle Elephant",
+            "pic": 228,
+            "hp": 250,
+            "attack": 12,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 100,
+              "gold": 70
+            }
+          }
+        ]
+      },
+      {
+        "name": "Armored Elephant",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Armored Elephant",
+            "pic": 394,
+            "hp": 180,
+            "attack": 4,
+            "range": 0,
+            "speed": 0.6,
+            "cost": {
+              "food": 120,
+              "gold": 95
+            }
+          },
+          {
+            "name": "Siege Elephant",
+            "pic": 395,
+            "hp": 220,
+            "attack": 4,
+            "range": 0,
+            "speed": 0.6,
+            "cost": {
+              "food": 850
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

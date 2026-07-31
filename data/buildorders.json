@@ -1,0 +1,261 @@
+{
+  "title": "Build Orders",
+  "intro": "Universal, civ-agnostic build orders. Learn these as templates, then tune them to your civilization's bonuses (shown on each civ page). Openings popularized and explained across the AoE II community — distilled here from t.me/kiritastrich, Spirit of the Law, Hera and CyberDabVinc.",
+  "_meta": {
+    "note": "Universal build orders are standard, community-known templates (not verbatim transcripts). They are attributed to the channels that teach them as references. Exact pop/timing numbers are rounded guideposts — adjust by civ, map and patch.",
+    "lastReviewed": "2026-07-30"
+  },
+  "sources": [
+    {
+      "name": "kiritastrich",
+      "url": "https://t.me/s/kiritastrich"
+    },
+    {
+      "name": "Spirit of the Law",
+      "url": "https://www.youtube.com/@SpiritOfTheLaw"
+    },
+    {
+      "name": "Hera",
+      "url": "https://www.youtube.com/@HeraAgeOfEmpires2"
+    },
+    {
+      "name": "CyberDabVinc",
+      "url": "https://www.youtube.com/@CyberDabVinc"
+    }
+  ],
+  "orders": [
+    {
+      "key": "fast-castle",
+      "title": "Fast Castle (→ Knights or boom)",
+      "when": "Closed / resource-rich maps (arena-style, or walled Arabia)",
+      "goal": "Reach Castle Age quickly, then either 2-Stable Knights or drop extra Town Centers to boom.",
+      "fits": [
+        "Cavalry",
+        "Mobile",
+        "Gunpowder"
+      ],
+      "steps": [
+        "Eat sheep under the TC, lure both boar, push deer; keep the TC producing villagers non-stop.",
+        "Click Feudal Age around 26–28 vils (≈10:30–11:00); build a Barracks + a prerequisite building (Market or Stable) on the way up.",
+        "Add Blacksmith during Feudal and click Castle Age immediately (~15:00–16:00).",
+        "On Castle: either 2 Stables → Knights, or +2/+3 Town Centers to boom. Get Bloodlines + Husbandry."
+      ],
+      "tips": [
+        "Accelerated FC (~20–22 vils) into Scouts + Scorpions + Monks is a strong resource-rich variant (kiritastrich).",
+        "Wall while aging if the map is open — an FC build dies to early aggression if scouted."
+      ],
+      "sources": [
+        "kiritastrich",
+        "Spirit of the Law",
+        "Hera"
+      ],
+      "vils": [
+        "Dark: 6 food (sheep) → 3 wood → lure boar to food → 4 more wood (7w) → 4 gold → click Feudal ~26–28 pop.",
+        "Feudal: send 2 vils to build the prerequisite (Market or Stable) + Blacksmith; hold ~10 food / 10 wood / 4 gold.",
+        "Castle (Knights): ~8 gold, ~14 food, rest wood to fund 2 Stables. Castle (boom): push to ~16 wood for +2 Town Centers."
+      ]
+    },
+    {
+      "key": "scout-rush",
+      "title": "Scout Rush (Feudal aggression)",
+      "when": "Open land maps (Arabia), when you have a stable/cavalry-friendly bonus",
+      "goal": "Use 4–6 Scout Cavalry to raid villagers and grab map control, then transition.",
+      "fits": [
+        "Cavalry",
+        "Mobile"
+      ],
+      "steps": [
+        "Click Feudal at ~19–21 pop (~9:30–10:00); build Barracks → Stable immediately.",
+        "Queue Scouts continuously; research Bloodlines then armor/forging.",
+        "Scout the enemy and send scouts to woodlines/gold; snipe exposed villagers.",
+        "Transition: add Archers, or click Castle behind the damage and go Knights."
+      ],
+      "tips": [
+        "Don't lose scouts to town-center fire — raid, then retreat.",
+        "If walled out, switch to archers or fast Castle instead of forcing scouts."
+      ],
+      "sources": [
+        "Spirit of the Law",
+        "Hera"
+      ],
+      "vils": [
+        "Dark: 6 food → 3 wood → lure boar → 4 wood (7w) → click Feudal ~20–21 pop.",
+        "Feudal: 2 vils build Barracks → Stable; keep ~8 food / 6–8 wood; 2–3 gold for Bloodlines.",
+        "Keep food high so Scout production never stops; shift spare vils to wood/gold for the transition."
+      ]
+    },
+    {
+      "key": "maa-archers",
+      "title": "Men-at-Arms → Archers",
+      "when": "Open land maps; the standard flexible Feudal opener",
+      "goal": "Apply early M@A pressure, then mass Archers and carry them into Crossbows.",
+      "fits": [
+        "Archers (foot)",
+        "Infantry"
+      ],
+      "steps": [
+        "Open with a Barracks; train ~2–3 Militia, upgrade to Men-at-Arms at Feudal (~21–22 pop).",
+        "Add 1–2 Archery Ranges; start massing Archers; research Fletching.",
+        "Harass with M@A + Archers while scaling; keep villager production high.",
+        "Click Castle and upgrade to Crossbows + Bodkin Arrow; add siege or a forward base."
+      ],
+      "tips": [
+        "Micro M@A onto woodline/gold villagers, then pull them back as archers arrive.",
+        "This is the most universal opener — almost every civ can run a version of it."
+      ],
+      "sources": [
+        "Spirit of the Law",
+        "Hera",
+        "CyberDabVinc"
+      ],
+      "vils": [
+        "Dark: 6 food → 3 wood → 1 vil on Barracks → 4 wood (7w) → 3 gold for Men-at-Arms → click Feudal ~21–22 pop.",
+        "Feudal: ~6 wood / 4 gold for 2 Ranges; lean wood to fund Archers, then more gold for Feudal upgrades.",
+        "Castle: ~10 wood / 8 gold for Crossbows + Bodkin; add farms for food sustain."
+      ]
+    },
+    {
+      "key": "archer-flush",
+      "title": "Straight Archers (range-first)",
+      "when": "Open maps when you want clean range pressure without the M@A investment",
+      "goal": "Mass Feudal archers fast to deny map control and idle the opponent.",
+      "fits": [
+        "Archers (foot)"
+      ],
+      "steps": [
+        "Click Feudal ~21–22 pop; build Barracks then 2 Archery Ranges.",
+        "Pump Archers; get Fletching and Archer armor; stack to a critical mass (~10–15) before attacking.",
+        "Raid wood/gold; force walls and idle time.",
+        "Transition to Crossbows in Castle with Bodkin Arrow."
+      ],
+      "tips": [
+        "Don't trickle archers in small numbers into TC fire — mass first.",
+        "Bring a forward Villager for a tower or forward range if you win the archer fight."
+      ],
+      "sources": [
+        "Spirit of the Law",
+        "Hera"
+      ],
+      "vils": [
+        "Dark: 6 food → 3 wood → lure boar → 4 wood (7w) → click Feudal ~21–22 pop.",
+        "Feudal: heavy wood — ~10–12 wood, ~4 gold, rest food; 2 Ranges pump Archers.",
+        "Castle: keep wood high for Crossbows — ~12 wood, ~8 gold, farms for food."
+      ]
+    },
+    {
+      "key": "drush",
+      "title": "Drush (Dark Age Militia rush)",
+      "when": "Maps where early disruption delays a faster opponent (e.g. vs an FC/boom)",
+      "goal": "Send 3 Militia in the Dark Age to idle villagers, then follow up (FC or Archers).",
+      "fits": [
+        "Infantry",
+        "Archers (foot)"
+      ],
+      "steps": [
+        "Build a Barracks at ~10 pop; queue 3 Militia (skip or delay gold mining via sell/looming).",
+        "Send the 3 Militia to the enemy base; attack woodline/gold villagers, then retreat toward home.",
+        "Use the bought time to click Feudal cleanly and follow with Archers or a Fast Castle.",
+        "Wall your own base so the counter-hit doesn't hurt."
+      ],
+      "tips": [
+        "Drush value is in idle time and scouting, not kills — keep the militia alive.",
+        "Pairs well with civs that have a strong Militia/infantry line or a fast follow-up."
+      ],
+      "sources": [
+        "Spirit of the Law",
+        "Hera"
+      ],
+      "vils": [
+        "Dark: 6 food → 3 wood → Barracks at ~10 pop → train 3 Militia → 4 wood (7w) → click Feudal.",
+        "After the drush: ~7 wood / 3 gold if going Archers, or pure food/wood for a Fast Castle.",
+        "Feudal/Castle: settle into a standard Archer or Fast-Castle allocation."
+      ]
+    },
+    {
+      "key": "tower-rush",
+      "title": "Tower Rush (Trush)",
+      "when": "Maps where you can deny a key resource (gold/stone/berries) near the enemy",
+      "goal": "Forward Villagers drop Towers to starve the opponent of resources in Feudal.",
+      "fits": [
+        "Defenses"
+      ],
+      "steps": [
+        "Send 4–6 Villagers forward around ~18–20 pop; mine stone on the way.",
+        "Drop a Tower on the enemy gold, stone or woodline; tower-watchtower toward your base.",
+        "Add more Towers and Archers/Skirmishers to defend them; repair under fire.",
+        "Transition behind the resource denial (your opponent is starving)."
+      ],
+      "tips": [
+        "All-in trushes are risky — keep a fallback economy at home.",
+        "Best on civs with tower/building or stone bonuses."
+      ],
+      "sources": [
+        "Spirit of the Law"
+      ],
+      "vils": [
+        "~18–20 pop: send 4–6 vils forward; 3–4 mine stone on the way; rest stay on food/wood at home.",
+        "Forward vils drop Towers; keep 1–2 on stone for follow-ups, rest on wood for repairs and Archers.",
+        "Home base: maintain food + wood so you can transition behind the resource denial."
+      ]
+    },
+    {
+      "key": "fast-imperial",
+      "title": "Fast Imperial",
+      "when": "Closed/bowl maps (Arena, Hideout) with a strong unique unit or trebuchet plan",
+      "goal": "Skip Castle-Age army, rush Imperial Age for Trebuchets / unique units / Bombard Cannons.",
+      "fits": [
+        "Gunpowder",
+        "Siege",
+        "Defenses"
+      ],
+      "steps": [
+        "Fast Castle with minimal army, then add 2–3 Town Centers and relic/monk value.",
+        "Click Imperial Age as soon as affordable (~25:00–28:00).",
+        "Hit with Trebuchets + your unique unit / Bombard Cannons before the opponent has Imperial units.",
+        "Use stone walls / castles to stay safe while you tech."
+      ],
+      "tips": [
+        "Vulnerable to early aggression — wall and scout.",
+        "Strong on civs with a dominant unique unit or gunpowder."
+      ],
+      "sources": [
+        "Spirit of the Law",
+        "Hera"
+      ],
+      "vils": [
+        "Dark→Castle: Fast-Castle split (6f / 7w / 4g → click up); add 2–3 Town Centers in Castle.",
+        "Castle: ~16 wood / 8 food / 6 gold; grab relics with a Monk; keep booming villagers.",
+        "Imperial: rebalance to gold + wood for Trebuchets / unique unit / Bombard Cannon."
+      ]
+    },
+    {
+      "key": "boom",
+      "title": "Boom (multiple Town Centers)",
+      "when": "When you've secured the map or play a closed/economic civ",
+      "goal": "Scale to 100+ villagers via extra Town Centers for a decisive late-game economy.",
+      "fits": [
+        "Economy",
+        "Defenses"
+      ],
+      "steps": [
+        "Reach Castle Age, then immediately place 2–3 additional Town Centers on wood/gold/stone.",
+        "Produce villagers from ALL Town Centers constantly; never let any idle.",
+        "Rebalance to ~40% wood to fund farms, military buildings and siege.",
+        "Add army + upgrades as the economy comes online; defend with walls/TCs."
+      ],
+      "tips": [
+        "A boom only wins if you convert the economy into army before you're overrun.",
+        "Pair with a fast-Imperial or heavy-siege plan for a powerful late game."
+      ],
+      "sources": [
+        "Hera",
+        "Spirit of the Law"
+      ],
+      "vils": [
+        "Castle Age: drop 2–3 extra Town Centers on wood/gold/stone; train villagers from EVERY TC constantly.",
+        "Rebalance toward ~40% wood to fund farms, military buildings and siege.",
+        "Late game: ~30+ on food (farms), ~20 wood, ~10 gold, rest per army; aim for 100+ villagers."
+      ]
+    }
+  ]
+}

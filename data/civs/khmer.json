@@ -1,0 +1,437 @@
+{
+  "id": "Khmer",
+  "internalName": "Khmer",
+  "slug": "khmer",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Siege and Elephant civilization",
+    "bonuses": [
+      "No buildings required to advance to the next Age or to unlock other buildings",
+      "Farmers don't require Mills or Town Centers to drop off food",
+      "Villagers can garrison in Houses",
+      "Battle Elephants move +10% faster"
+    ],
+    "teamBonus": "Scorpions +1 range",
+    "uniqueUnits": [
+      "Ballista Elephant (Siege Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Tusk Swords (Battle Elephants +3 attack)",
+        "name": "Tusk Swords",
+        "cost": {
+          "wood": 300,
+          "gold": 450
+        },
+        "pic": 33
+      },
+      {
+        "display": "Double Crossbow (Ballista Elephants and Scorpions fire an additional projectile)",
+        "name": "Double Crossbow",
+        "cost": {
+          "food": 700,
+          "gold": 400
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1120",
+        "name": "Ballista Elephant",
+        "role": "Siege Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Ballista Elephant",
+            "pic": 231,
+            "hp": 250,
+            "attack": 9,
+            "range": 5,
+            "speed": 0.8,
+            "cost": {
+              "food": 100,
+              "gold": 80
+            }
+          },
+          {
+            "name": "Elite Ballista Elephant",
+            "pic": 502,
+            "hp": 280,
+            "attack": 10,
+            "range": 5,
+            "speed": 0.8,
+            "cost": {
+              "food": 1000,
+              "gold": 500
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Champion",
+        "name": "Champion",
+        "cat": "Unit",
+        "id": "567",
+        "pic": 72
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Plate Mail Armor",
+        "name": "Plate Mail Armor",
+        "cat": "Tech",
+        "id": "77",
+        "pic": 64
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "OK",
+        "closed": "Strong",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Played for this build in tournament; no building prerequisites make the build very flexible.",
+        "map": "resource-rich",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Played in tournament for this build. No building prerequisites and drop-off-anywhere farms/vills make the FC and transitions unusually smooth; Battle Elephants are the power follow-up.",
+    "recommendations": [
+      "Exploit no-prerequisite buildings to drop the siege workshop / stable instantly.",
+      "Follow the spike with Battle Elephants for a hard power transition.",
+      "Villagers drop resources anywhere — less walking, smoother eco."
+    ],
+    "strengths": [
+      "No building prerequisites → flexible tech",
+      "Villagers drop off anywhere; fast houses",
+      "Battle Elephant power unit"
+    ],
+    "weaknesses": [
+      "Expensive unique options (elephants)",
+      "Thin gunpowder"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Flexible FC (no prereqs) → elephant follow-up",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 47.03,
+    "playRate": 2.13,
+    "picks": 438,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/khmer",
+    "byMapType": {
+      "open": {
+        "winRate": 45.45,
+        "playRate": 2.39,
+        "picks": 121
+      },
+      "other": {
+        "winRate": 46.98,
+        "playRate": 2.03,
+        "picks": 281
+      },
+      "closed": {
+        "winRate": 58.62,
+        "playRate": 2.33,
+        "picks": 29
+      },
+      "hybrid": {
+        "winRate": 28.57,
+        "playRate": 1.63,
+        "picks": 7
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "britons",
+        "games": 10,
+        "winRate": 90
+      },
+      {
+        "name": "shu",
+        "games": 9,
+        "winRate": 88.89
+      },
+      {
+        "name": "gurjaras",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
+        "name": "incas",
+        "games": 16,
+        "winRate": 62.5
+      },
+      {
+        "name": "khmer",
+        "games": 8,
+        "winRate": 62.5
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "teutons",
+        "games": 8,
+        "winRate": 0
+      },
+      {
+        "name": "chinese",
+        "games": 14,
+        "winRate": 14.29
+      },
+      {
+        "name": "persians",
+        "games": 10,
+        "winRate": 20
+      },
+      {
+        "name": "huns",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "italians",
+        "games": 13,
+        "winRate": 30.77
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Battle Elephant",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Battle Elephant",
+            "pic": 228,
+            "hp": 250,
+            "attack": 12,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 100,
+              "gold": 70
+            }
+          },
+          {
+            "name": "Elite Battle Elephant",
+            "pic": 246,
+            "hp": 300,
+            "attack": 14,
+            "range": 0,
+            "speed": 0.9,
+            "cost": {
+              "food": 1100,
+              "gold": 700
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}

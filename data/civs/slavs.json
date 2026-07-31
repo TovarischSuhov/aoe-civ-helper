@@ -1,0 +1,395 @@
+{
+  "id": "Slavs",
+  "internalName": "Slavs",
+  "slug": "slavs",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Infantry and Siege civilization",
+    "bonuses": [
+      "Farmers work +15% faster",
+      "Arson, Gambesons free",
+      "Siege Workshop Units cost -15%",
+      "Monks move +20% faster"
+    ],
+    "teamBonus": "Military buildings (except Castles) provide +5 population space",
+    "uniqueUnits": [
+      "Boyar (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Detinets (Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost)",
+        "name": "Detinets",
+        "cost": {
+          "wood": 400,
+          "gold": 200
+        },
+        "pic": 33
+      },
+      {
+        "display": "Druzhina (Infantry deals trample damage)",
+        "name": "Druzhina",
+        "cost": {
+          "food": 900,
+          "gold": 500
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "876",
+        "name": "Boyar",
+        "role": "Cavalry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Boyar",
+            "pic": 114,
+            "hp": 100,
+            "attack": 12,
+            "range": 0,
+            "speed": 1.3,
+            "cost": {
+              "food": 60,
+              "gold": 70
+            }
+          },
+          {
+            "name": "Elite Boyar",
+            "pic": 494,
+            "hp": 130,
+            "attack": 14,
+            "range": 0,
+            "speed": 1.3,
+            "cost": {
+              "food": 1000,
+              "gold": 600
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Thumb Ring",
+        "name": "Thumb Ring",
+        "cat": "Tech",
+        "id": "437",
+        "pic": 112
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Bombard Cannon",
+        "name": "Bombard Cannon",
+        "cat": "Unit",
+        "id": "36",
+        "pic": 30
+      },
+      {
+        "label": "No Shipwright",
+        "name": "Shipwright",
+        "cat": "Tech",
+        "id": "373",
+        "pic": 97
+      },
+      {
+        "label": "No Bracer",
+        "name": "Bracer",
+        "cat": "Tech",
+        "id": "201",
+        "pic": 37
+      },
+      {
+        "label": "No Keep",
+        "name": "Keep",
+        "cat": "Tech",
+        "id": "63",
+        "pic": 16
+      },
+      {
+        "label": "No Heated Shot",
+        "name": "Heated Shot",
+        "cat": "Tech",
+        "id": "380",
+        "pic": 104
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Heresy",
+        "name": "Heresy",
+        "cat": "Tech",
+        "id": "439",
+        "pic": 108
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Onagers shred your infantry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 49.04,
+    "playRate": 1.53,
+    "picks": 314,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/slavs",
+    "byMapType": {
+      "other": {
+        "winRate": 50.47,
+        "playRate": 1.55,
+        "picks": 214
+      },
+      "open": {
+        "winRate": 47.44,
+        "playRate": 1.54,
+        "picks": 78
+      },
+      "closed": {
+        "winRate": 37.5,
+        "playRate": 1.29,
+        "picks": 16
+      },
+      "hybrid": {
+        "winRate": 50,
+        "playRate": 1.4,
+        "picks": 6
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "gurjaras",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "berbers",
+        "games": 11,
+        "winRate": 72.73
+      },
+      {
+        "name": "cumans",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "goths",
+        "games": 11,
+        "winRate": 63.64
+      },
+      {
+        "name": "teutons",
+        "games": 9,
+        "winRate": 55.56
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "portuguese",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "britons",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "dravidians",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "malians",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "saracens",
+        "games": 11,
+        "winRate": 45.45
+      }
+    ]
+  },
+  "regional": {
+    "units": [],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

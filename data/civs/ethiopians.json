@@ -1,0 +1,419 @@
+{
+  "id": "Ethiopians",
+  "internalName": "Ethiopians",
+  "slug": "ethiopians",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Archer civilization",
+    "bonuses": [
+      "Receive +100 gold and +100 food when advancing to the next Age",
+      "Foot Archers attack +18% faster",
+      "Pikeman upgrade free"
+    ],
+    "teamBonus": "Outposts +3 line of sight and cost no stone",
+    "uniqueUnits": [
+      "Shotel Warrior (Infantry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Royal Heirs (Shotel Warriors and Camel Riders receive -3 damage from Mounted Units)",
+        "name": "Royal Heirs",
+        "cost": {
+          "food": 300,
+          "gold": 300
+        },
+        "pic": 33
+      },
+      {
+        "display": "Torsion Engines (Siege Workshop Units' blast radius increased)",
+        "name": "Torsion Engines",
+        "cost": {
+          "food": 1000,
+          "gold": 600
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1016",
+        "name": "Shotel Warrior",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Shotel Warrior",
+            "pic": 195,
+            "hp": 45,
+            "attack": 16,
+            "range": 0,
+            "speed": 1.2,
+            "cost": {
+              "food": 50,
+              "gold": 30
+            }
+          },
+          {
+            "name": "Elite Shotel Warrior",
+            "pic": 501,
+            "hp": 50,
+            "attack": 18,
+            "range": 0,
+            "speed": 1.2,
+            "cost": {
+              "food": 900,
+              "gold": 450
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Paladin",
+        "name": "Paladin",
+        "cat": "Unit",
+        "id": "569",
+        "pic": 2
+      },
+      {
+        "label": "No Bloodlines",
+        "name": "Bloodlines",
+        "cat": "Tech",
+        "id": "435",
+        "pic": 110
+      },
+      {
+        "label": "No Parthian Tactics",
+        "name": "Parthian Tactics",
+        "cat": "Tech",
+        "id": "436",
+        "pic": 111
+      },
+      {
+        "label": "No Champion",
+        "name": "Champion",
+        "cat": "Unit",
+        "id": "567",
+        "pic": 72
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      },
+      {
+        "label": "No Redemption",
+        "name": "Redemption",
+        "cat": "Tech",
+        "id": "316",
+        "pic": 92
+      },
+      {
+        "label": "No Crop Rotation",
+        "name": "Crop Rotation",
+        "cat": "Tech",
+        "id": "12",
+        "pic": 0
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your archers kite their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your archers kite their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Elite Skirmishers counter your archers"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Weak"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {},
+  "sotl": null,
+  "stats": {
+    "winRate": 51.16,
+    "playRate": 1.68,
+    "picks": 346,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/ethiopians",
+    "byMapType": {
+      "other": {
+        "winRate": 51.75,
+        "playRate": 1.65,
+        "picks": 228
+      },
+      "closed": {
+        "winRate": 42.86,
+        "playRate": 1.69,
+        "picks": 21
+      },
+      "open": {
+        "winRate": 54.02,
+        "playRate": 1.72,
+        "picks": 87
+      },
+      "hybrid": {
+        "winRate": 30,
+        "playRate": 2.33,
+        "picks": 10
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "teutons",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "dravidians",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "portuguese",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "celts",
+        "games": 10,
+        "winRate": 60
+      },
+      {
+        "name": "poles",
+        "games": 12,
+        "winRate": 58.33
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "mongols",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "hindustanis",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "japanese",
+        "games": 10,
+        "winRate": 40
+      },
+      {
+        "name": "persians",
+        "games": 10,
+        "winRate": 40
+      },
+      {
+        "name": "georgians",
+        "games": 8,
+        "winRate": 50
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "aoestats"
+  ]
+}

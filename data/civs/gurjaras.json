@@ -1,0 +1,547 @@
+{
+  "id": "Gurjaras",
+  "internalName": "Gurjaras",
+  "slug": "gurjaras",
+  "version": {
+    "hash": "4e2f85b39e39",
+    "updateLabel": "",
+    "schemaVersion": 4
+  },
+  "facts": {
+    "armyType": "Cavalry and Camel civilization",
+    "bonuses": [
+      "Start with 2 Forage Bushes",
+      "Can garrison livestock in Mills to passively produce food",
+      "Mounted Units deal +20/30/40% bonus damage in Feudal/Castle/Imperial Age",
+      "Docks +5 garrison capacity"
+    ],
+    "teamBonus": "Camel and Elephant Units train +25% faster",
+    "uniqueUnits": [
+      "Chakram Thrower (Infantry)",
+      "Shrivamsha Rider (Cavalry)",
+      "Camel Scout (Cavalry)"
+    ],
+    "uniqueTechs": [
+      {
+        "display": "Kshatriyas (Military Units cost -25% food)",
+        "name": "Kshatriyas",
+        "cost": {
+          "food": 500,
+          "gold": 450
+        },
+        "pic": 33
+      },
+      {
+        "display": "Frontier Guards (Camel Riders and Elephant Archers +4 melee armor)",
+        "name": "Frontier Guards",
+        "cost": {
+          "food": 800,
+          "gold": 700
+        },
+        "pic": 107
+      }
+    ],
+    "keyUnits": [
+      {
+        "id": "1741",
+        "name": "Chakram Thrower",
+        "role": "Infantry",
+        "elite": true,
+        "tiers": [
+          {
+            "name": "Chakram Thrower",
+            "pic": 390,
+            "hp": 40,
+            "attack": 3,
+            "range": 5,
+            "speed": 1.15,
+            "cost": {
+              "food": 65,
+              "gold": 30
+            }
+          },
+          {
+            "name": "Elite Chakram Thrower",
+            "pic": 517,
+            "hp": 50,
+            "attack": 4,
+            "range": 6,
+            "speed": 1.15,
+            "cost": {
+              "food": 1000,
+              "gold": 650
+            }
+          }
+        ]
+      },
+      {
+        "id": "1751",
+        "name": "Shrivamsha Rider",
+        "role": "Cavalry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Shrivamsha Rider",
+            "pic": 391,
+            "hp": 55,
+            "attack": 8,
+            "range": 0,
+            "speed": 1.6,
+            "cost": {
+              "food": 70,
+              "gold": 30
+            }
+          }
+        ]
+      },
+      {
+        "id": "1755",
+        "name": "Camel Scout",
+        "role": "Cavalry",
+        "elite": false,
+        "tiers": [
+          {
+            "name": "Camel Scout",
+            "pic": 392,
+            "hp": 70,
+            "attack": 2,
+            "range": 0,
+            "speed": 1.2,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          }
+        ]
+      }
+    ],
+    "techGaps": [
+      {
+        "label": "No Arbalester",
+        "name": "Arbalester",
+        "cat": "Unit",
+        "id": "492",
+        "pic": 90
+      },
+      {
+        "label": "No Champion",
+        "name": "Champion",
+        "cat": "Unit",
+        "id": "567",
+        "pic": 72
+      },
+      {
+        "label": "No Pikeman",
+        "name": "Pikeman",
+        "cat": "Unit",
+        "id": "358",
+        "pic": 11
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
+      },
+      {
+        "label": "No Siege Engineers",
+        "name": "Siege Engineers",
+        "cat": "Tech",
+        "id": "377",
+        "pic": 101
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
+      },
+      {
+        "label": "No Dry Dock",
+        "name": "Dry Dock",
+        "cat": "Tech",
+        "id": "375",
+        "pic": 99
+      },
+      {
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
+        "cat": "Tech",
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Ring Archer Armor",
+        "name": "Ring Archer Armor",
+        "cat": "Tech",
+        "id": "219",
+        "pic": 51
+      },
+      {
+        "label": "No Bombard Tower",
+        "name": "Bombard Tower",
+        "cat": "Tech",
+        "id": "64",
+        "pic": 47
+      }
+    ],
+    "genericTimings": {
+      "feudal": "~10:30",
+      "castle": "~15:30",
+      "imperial": "~27:00",
+      "heuristic": true,
+      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+    },
+    "matchups": {
+      "strongAgainst": [
+        {
+          "slug": "armenians",
+          "name": "Armenians",
+          "internalName": "Armenians",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "aztecs",
+          "name": "Aztecs",
+          "internalName": "Aztecs",
+          "why": "your Onagers shred their infantry"
+        },
+        {
+          "slug": "bengalis",
+          "name": "Bengalis",
+          "internalName": "Bengalis",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "berbers",
+          "name": "Berbers",
+          "internalName": "Berbers",
+          "why": "their cavalry dies to your Halberdiers"
+        },
+        {
+          "slug": "bohemians",
+          "name": "Bohemians",
+          "internalName": "Bohemians",
+          "why": "your Onagers shred their infantry"
+        }
+      ],
+      "weakAgainst": [
+        {
+          "slug": "portuguese",
+          "name": "Portuguese",
+          "internalName": "Portuguese",
+          "why": "their Halberdiers counter your cavalry"
+        },
+        {
+          "slug": "spanish",
+          "name": "Spanish",
+          "internalName": "Spanish",
+          "why": "their Halberdiers counter your cavalry"
+        }
+      ]
+    },
+    "maps": {
+      "affinity": {
+        "open": "Weak",
+        "closed": "Weak",
+        "hybrid": "Weak",
+        "water": "Strong"
+      },
+      "byMap": {
+        "open": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Saracens",
+            "Slavs",
+            "Spanish",
+            "Armenians",
+            "Vikings"
+          ]
+        },
+        "closed": {
+          "strong": [
+            "Bengalis",
+            "Britons",
+            "Bulgarians",
+            "Chinese",
+            "Cumans"
+          ],
+          "weak": [
+            "Italians",
+            "Malay",
+            "Turks",
+            "Vikings",
+            "Wu"
+          ]
+        },
+        "hybrid": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Chinese",
+            "Dravidians",
+            "Japanese"
+          ],
+          "weak": [
+            "Vikings",
+            "Burgundians",
+            "Burmese",
+            "Lithuanians",
+            "Tatars"
+          ]
+        },
+        "water": {
+          "strong": [
+            "Bengalis",
+            "Berbers",
+            "Dravidians",
+            "Japanese",
+            "Koreans"
+          ],
+          "weak": [
+            "Vietnamese",
+            "Burgundians",
+            "Lithuanians",
+            "Tatars",
+            "Burmese"
+          ]
+        }
+      }
+    }
+  },
+  "strategy": {
+    "sources": [
+      "kiritastrich"
+    ],
+    "buildOrders": [
+      {
+        "title": "Fast Castle → 4 Scouts + Scorpions (+ Monks)",
+        "detail": "Accelerated FC (~20–22 vills) → 4 Scouts + Scorpions + Monks. Extra food from herdables and a strong ram option complement the comp.",
+        "map": "resource-rich, herdable-heavy",
+        "source": "kiritastrich",
+        "sourceUrl": "https://t.me/kiritastrich/1451"
+      }
+    ],
+    "buildNote": "Extra food from sheep (you can herd them out) plus a very strong ram to complement scorpions + scouts, and decent Monks. The siege ram follow-up is the differentiator.",
+    "recommendations": [
+      "Bank herdable food for a faster/cheaper age-up.",
+      "Pair Scorpions with the strong rams for a hard push.",
+      "Use Shrivamsha Riders to absorb archer fire in front of the siege."
+    ],
+    "strengths": [
+      "Extra food from herdables",
+      "Strong siege ram to pair with scorpions",
+      "Decent Monks; mobile anti-archer cav (Shrivamsha)"
+    ],
+    "weaknesses": [
+      "Thinner infantry line",
+      "Economy tied to herdables"
+    ],
+    "timings": [
+      {
+        "label": "Fast Castle",
+        "detail": "Herdable food → smooth FC; ram+scorpion push",
+        "source": "kiritastrich"
+      }
+    ]
+  },
+  "sotl": null,
+  "stats": {
+    "winRate": 43.81,
+    "playRate": 1.61,
+    "picks": 331,
+    "ladder": "1v1 Random Map",
+    "rating": "top 2000 (high-Elo sample)",
+    "updated": "2026-07-31T00:04:00.000Z",
+    "window": "last 2 week(s) ending 2026-07-31",
+    "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
+    "sourceUrl": "https://github.com/ustacode/aoe2-apis",
+    "sourceCiv": "https://aoestats.io/civs/gurjaras",
+    "byMapType": {
+      "other": {
+        "winRate": 43.27,
+        "playRate": 1.5,
+        "picks": 208
+      },
+      "open": {
+        "winRate": 44.33,
+        "playRate": 1.91,
+        "picks": 97
+      },
+      "closed": {
+        "winRate": 55,
+        "playRate": 1.61,
+        "picks": 20
+      },
+      "hybrid": {
+        "winRate": 16.67,
+        "playRate": 1.4,
+        "picks": 6
+      }
+    },
+    "strongAgainst": [
+      {
+        "name": "spanish",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "tatars",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
+        "name": "japanese",
+        "games": 10,
+        "winRate": 60
+      },
+      {
+        "name": "koreans",
+        "games": 9,
+        "winRate": 55.56
+      },
+      {
+        "name": "bengalis",
+        "games": 11,
+        "winRate": 54.55
+      }
+    ],
+    "weakAgainst": [
+      {
+        "name": "khmer",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "aztecs",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
+        "name": "slavs",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "mongols",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "britons",
+        "games": 12,
+        "winRate": 33.33
+      }
+    ]
+  },
+  "regional": {
+    "units": [
+      {
+        "name": "Elephant Archer",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Elephant Archer",
+            "pic": 393,
+            "hp": 230,
+            "attack": 6,
+            "range": 4,
+            "speed": 0.9,
+            "cost": {
+              "food": 60,
+              "gold": 80
+            }
+          },
+          {
+            "name": "Elite Elephant Archer",
+            "pic": 93,
+            "hp": 280,
+            "attack": 7,
+            "range": 4,
+            "speed": 0.9,
+            "cost": {
+              "food": 900,
+              "gold": 500
+            }
+          }
+        ]
+      },
+      {
+        "name": "Camel Rider",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Camel Rider",
+            "pic": 78,
+            "hp": 100,
+            "attack": 6,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 55,
+              "gold": 60
+            }
+          },
+          {
+            "name": "Heavy Camel Rider",
+            "pic": 79,
+            "hp": 120,
+            "attack": 7,
+            "range": 0,
+            "speed": 1.45,
+            "cost": {
+              "food": 325,
+              "gold": 360
+            }
+          }
+        ]
+      },
+      {
+        "name": "Armored Elephant",
+        "cat": "Unit",
+        "kind": "regional",
+        "tiers": [
+          {
+            "name": "Armored Elephant",
+            "pic": 394,
+            "hp": 180,
+            "attack": 4,
+            "range": 0,
+            "speed": 0.6,
+            "cost": {
+              "food": 120,
+              "gold": 95
+            }
+          },
+          {
+            "name": "Siege Elephant",
+            "pic": 395,
+            "hp": 220,
+            "attack": 4,
+            "range": 0,
+            "speed": 0.6,
+            "cost": {
+              "food": 850
+            }
+          }
+        ]
+      }
+    ],
+    "buildings": []
+  },
+  "sources": [
+    "aoe2techtree",
+    "kiritastrich",
+    "aoestats"
+  ]
+}
