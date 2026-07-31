@@ -253,6 +253,7 @@ export function renderBuildOrders(bo, onBack) {
   return el('main', { class: 'container detail' },
     el('button', { class: 'back-btn', onclick: onBack }, '← All civilizations'),
     el('h2', {}, bo.title || 'Build Orders'),
+    bo._meta?.outdated ? el('p', { class: 'lede', style: 'color:#8a6d3b;background:#fef3cd;padding:8px 12px;border-radius:6px' }, '⚠ Outdated — ' + (bo._meta?.outdatedNote || 'These build orders are being revised and may not reflect the current patch.')) : null,
     el('p', { class: 'lede' }, bo.intro || ''),
     ...orders,
     el('p', { class: 'sources' }, bo._meta?.note || ''),
@@ -523,20 +524,13 @@ export function renderDetail(civ, onBack) {
               }))),
             el('p', { class: 'muted small' }, 'Heuristic from composition & bonuses.'))
         : null,
-    hasStrategy
+    (asArr(s.buildOrders).some((b) => b.sourceUrl || b.source))
       ? el('section', { class: 'block strategy' },
           el('h3', {}, 'Strategy & build orders'),
-          s.buildNote ? el('p', { class: 'bonus' }, s.buildNote) : null,
-          ...(asArr(s.buildOrders)).map((b) =>
-            el('div', { class: 'card' },
-              el('div', { class: 'card-title' }, b.title),
-              el('p', {}, b.detail),
-              b.map ? el('p', { class: 'muted small' }, 'Map: ' + b.map) : null,
-              sourceTag(b.source, b.sourceUrl),
-            ),
+          el('p', { class: 'muted small' }, 'Build orders here are marked outdated — open the linked sources for current openings.'),
+          ...(asArr(s.buildOrders)).filter((b) => b.sourceUrl || b.source).map((b) =>
+            el('p', { class: 'bonus' }, sourceTag(b.source, b.sourceUrl)),
           ),
-          (asArr(s.timings).length) ? section('Key timings', list(asArr(s.timings).map((t) => `${t.label}: ${t.detail}`))) : null,
-          (asArr(s.recommendations).length) ? section('Recommendations', list(asArr(s.recommendations))) : null,
         )
       : el('section', { class: 'block' },
           el('h3', {}, 'Strategy & build orders'),
