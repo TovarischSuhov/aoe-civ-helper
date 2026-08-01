@@ -333,70 +333,75 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.66,
-    "playRate": 2.02,
-    "picks": 930,
+    "winRate": 53.65,
+    "playRate": 2.09,
+    "picks": 1027,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-01T06:42:09.000Z",
+    "updated": "2026-08-01T17:17:34.000Z",
     "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
       "other": {
-        "winRate": 54.69,
-        "playRate": 1.99,
-        "picks": 618
+        "winRate": 54.09,
+        "playRate": 2.06,
+        "picks": 684
       },
       "open": {
-        "winRate": 52.21,
-        "playRate": 2.25,
-        "picks": 249
+        "winRate": 53.26,
+        "playRate": 2.32,
+        "picks": 276
       },
       "nomad": {
         "winRate": 43.75,
-        "playRate": 1.7,
+        "playRate": 1.69,
         "picks": 16
       },
       "closed": {
-        "winRate": 51.06,
-        "playRate": 1.61,
-        "picks": 47
+        "winRate": 52.94,
+        "playRate": 1.65,
+        "picks": 51
       }
     },
     "strongAgainst": [
       {
-        "name": "malians",
-        "games": 13,
-        "winRate": 76.92
+        "name": "wei",
+        "games": 16,
+        "winRate": 81.25
       },
       {
-        "name": "wei",
-        "games": 13,
-        "winRate": 76.92
+        "name": "bohemians",
+        "games": 15,
+        "winRate": 73.33
       },
       {
         "name": "armenians",
-        "games": 12,
-        "winRate": 75
+        "games": 14,
+        "winRate": 71.43
       },
       {
         "name": "berbers",
-        "games": 12,
-        "winRate": 75
+        "games": 14,
+        "winRate": 71.43
       },
       {
         "name": "japanese",
-        "games": 22,
-        "winRate": 72.73
+        "games": 24,
+        "winRate": 70.83
       }
     ],
     "weakAgainst": [
       {
         "name": "saracens",
+        "games": 14,
+        "winRate": 28.57
+      },
+      {
+        "name": "jurchens",
         "games": 13,
-        "winRate": 23.08
+        "winRate": 30.77
       },
       {
         "name": "muisca",
@@ -404,19 +409,14 @@
         "winRate": 33.33
       },
       {
-        "name": "jurchens",
-        "games": 9,
-        "winRate": 33.33
+        "name": "mapuche",
+        "games": 11,
+        "winRate": 36.36
       },
       {
-        "name": "portuguese",
-        "games": 14,
-        "winRate": 35.71
-      },
-      {
-        "name": "celts",
-        "games": 19,
-        "winRate": 36.84
+        "name": "poles",
+        "games": 16,
+        "winRate": 37.5
       }
     ]
   },

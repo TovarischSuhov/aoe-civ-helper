@@ -301,43 +301,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.96,
-    "playRate": 1.96,
-    "picks": 903,
+    "winRate": 45.95,
+    "playRate": 1.98,
+    "picks": 975,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-01T06:42:09.000Z",
+    "updated": "2026-08-01T17:17:34.000Z",
     "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/inca",
     "byMapType": {
       "other": {
-        "winRate": 46.71,
-        "playRate": 2.05,
-        "picks": 638
+        "winRate": 46.72,
+        "playRate": 2.06,
+        "picks": 685
       },
       "closed": {
-        "winRate": 39.53,
-        "playRate": 1.47,
-        "picks": 43
+        "winRate": 39.22,
+        "playRate": 1.65,
+        "picks": 51
       },
       "nomad": {
         "winRate": 33.33,
-        "playRate": 1.28,
+        "playRate": 1.27,
         "picks": 12
       },
       "open": {
-        "winRate": 45.71,
-        "playRate": 1.9,
-        "picks": 210
+        "winRate": 45.81,
+        "playRate": 1.91,
+        "picks": 227
       }
     },
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 12,
-        "winRate": 83.33
+        "games": 14,
+        "winRate": 78.57
+      },
+      {
+        "name": "koreans",
+        "games": 8,
+        "winRate": 75
       },
       {
         "name": "celts",
@@ -346,18 +351,13 @@
       },
       {
         "name": "vietnamese",
-        "games": 36,
-        "winRate": 66.67
+        "games": 39,
+        "winRate": 64.1
       },
       {
         "name": "lithuanians",
-        "games": 17,
-        "winRate": 64.71
-      },
-      {
-        "name": "slavs",
-        "games": 15,
-        "winRate": 60
+        "games": 19,
+        "winRate": 63.16
       }
     ],
     "weakAgainst": [
@@ -368,23 +368,23 @@
       },
       {
         "name": "huns",
-        "games": 24,
-        "winRate": 20.83
+        "games": 25,
+        "winRate": 20
       },
       {
         "name": "portuguese",
-        "games": 22,
-        "winRate": 22.73
+        "games": 24,
+        "winRate": 25
       },
       {
-        "name": "vikings",
-        "games": 17,
-        "winRate": 29.41
+        "name": "khitans",
+        "games": 13,
+        "winRate": 30.77
       },
       {
         "name": "cumans",
-        "games": 15,
-        "winRate": 33.33
+        "games": 16,
+        "winRate": 31.25
       }
     ]
   },

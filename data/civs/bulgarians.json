@@ -288,48 +288,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.78,
-    "playRate": 1.51,
-    "picks": 695,
+    "winRate": 50.13,
+    "playRate": 1.53,
+    "picks": 754,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-01T06:42:09.000Z",
+    "updated": "2026-08-01T17:17:34.000Z",
     "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 48.15,
-        "playRate": 1.85,
-        "picks": 54
+        "winRate": 47.27,
+        "playRate": 1.78,
+        "picks": 55
       },
       "open": {
-        "winRate": 49.4,
-        "playRate": 1.5,
-        "picks": 166
+        "winRate": 49.72,
+        "playRate": 1.51,
+        "picks": 179
       },
       "other": {
-        "winRate": 49.89,
-        "playRate": 1.49,
-        "picks": 463
+        "winRate": 50.39,
+        "playRate": 1.53,
+        "picks": 508
       },
       "nomad": {
         "winRate": 58.33,
-        "playRate": 1.28,
+        "playRate": 1.27,
         "picks": 12
       }
     },
     "strongAgainst": [
       {
         "name": "cumans",
-        "games": 15,
-        "winRate": 73.33
+        "games": 18,
+        "winRate": 77.78
       },
       {
-        "name": "spanish",
-        "games": 17,
-        "winRate": 70.59
+        "name": "burmese",
+        "games": 8,
+        "winRate": 75
       },
       {
         "name": "malay",
@@ -337,14 +337,14 @@
         "winRate": 70
       },
       {
-        "name": "sicilians",
-        "games": 17,
-        "winRate": 64.71
+        "name": "turks",
+        "games": 10,
+        "winRate": 70
       },
       {
-        "name": "franks",
-        "games": 17,
-        "winRate": 64.71
+        "name": "spanish",
+        "games": 18,
+        "winRate": 66.67
       }
     ],
     "weakAgainst": [
@@ -355,8 +355,13 @@
       },
       {
         "name": "mongols",
-        "games": 32,
-        "winRate": 31.25
+        "games": 35,
+        "winRate": 28.57
+      },
+      {
+        "name": "italians",
+        "games": 18,
+        "winRate": 33.33
       },
       {
         "name": "wu",
@@ -364,14 +369,9 @@
         "winRate": 36.36
       },
       {
-        "name": "italians",
-        "games": 16,
+        "name": "shu",
+        "games": 8,
         "winRate": 37.5
-      },
-      {
-        "name": "berbers",
-        "games": 18,
-        "winRate": 38.89
       }
     ]
   },

@@ -335,36 +335,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.88,
-    "playRate": 1.61,
-    "picks": 741,
+    "winRate": 50.75,
+    "playRate": 1.63,
+    "picks": 800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-01T06:42:09.000Z",
+    "updated": "2026-08-01T17:17:34.000Z",
     "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 52.69,
-        "playRate": 1.68,
-        "picks": 186
+        "winRate": 53.03,
+        "playRate": 1.67,
+        "picks": 198
       },
       "nomad": {
-        "winRate": 52.94,
-        "playRate": 1.81,
-        "picks": 17
+        "winRate": 52.63,
+        "playRate": 2.01,
+        "picks": 19
       },
       "other": {
-        "winRate": 50.89,
-        "playRate": 1.62,
-        "picks": 503
+        "winRate": 50.64,
+        "playRate": 1.64,
+        "picks": 547
       },
       "closed": {
-        "winRate": 40,
-        "playRate": 1.2,
-        "picks": 35
+        "winRate": 38.89,
+        "playRate": 1.16,
+        "picks": 36
       }
     },
     "strongAgainst": [
@@ -375,30 +375,30 @@
       },
       {
         "name": "italians",
+        "games": 16,
+        "winRate": 75
+      },
+      {
+        "name": "ethiopians",
         "games": 15,
-        "winRate": 73.33
-      },
-      {
-        "name": "goths",
-        "games": 13,
-        "winRate": 69.23
-      },
-      {
-        "name": "vietnamese",
-        "games": 21,
         "winRate": 66.67
       },
       {
         "name": "jurchens",
         "games": 12,
         "winRate": 66.67
+      },
+      {
+        "name": "goths",
+        "games": 15,
+        "winRate": 66.67
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 11,
-        "winRate": 18.18
+        "games": 12,
+        "winRate": 16.67
       },
       {
         "name": "saracens",
@@ -416,8 +416,8 @@
         "winRate": 30.77
       },
       {
-        "name": "hindustanis",
-        "games": 11,
+        "name": "chinese",
+        "games": 22,
         "winRate": 36.36
       }
     ]
