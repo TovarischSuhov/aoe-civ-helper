@@ -366,75 +366,75 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.84,
-    "playRate": 1.66,
-    "picks": 696,
+    "winRate": 47.02,
+    "playRate": 1.64,
+    "picks": 755,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
       "other": {
-        "winRate": 48.01,
-        "playRate": 1.6,
-        "picks": 452
+        "winRate": 48.08,
+        "playRate": 1.59,
+        "picks": 495
       },
       "open": {
-        "winRate": 40.86,
-        "playRate": 1.85,
-        "picks": 186
+        "winRate": 41.5,
+        "playRate": 1.81,
+        "picks": 200
       },
       "nomad": {
         "winRate": 64.29,
-        "playRate": 1.5,
+        "playRate": 1.49,
         "picks": 14
       },
       "closed": {
-        "winRate": 54.55,
-        "playRate": 1.66,
-        "picks": 44
+        "winRate": 54.35,
+        "playRate": 1.58,
+        "picks": 46
       }
     },
     "strongAgainst": [
+      {
+        "name": "aztecs",
+        "games": 10,
+        "winRate": 70
+      },
+      {
+        "name": "wei",
+        "games": 15,
+        "winRate": 66.67
+      },
+      {
+        "name": "mapuche",
+        "games": 9,
+        "winRate": 66.67
+      },
       {
         "name": "turks",
         "games": 9,
         "winRate": 66.67
       },
       {
-        "name": "bulgarians",
-        "games": 17,
-        "winRate": 64.71
-      },
-      {
         "name": "dravidians",
         "games": 11,
         "winRate": 63.64
-      },
-      {
-        "name": "aztecs",
-        "games": 8,
-        "winRate": 62.5
-      },
-      {
-        "name": "wei",
-        "games": 13,
-        "winRate": 61.54
       }
     ],
     "weakAgainst": [
       {
-        "name": "khmer",
-        "games": 16,
-        "winRate": 18.75
+        "name": "romans",
+        "games": 8,
+        "winRate": 12.5
       },
       {
-        "name": "saracens",
-        "games": 13,
-        "winRate": 23.08
+        "name": "khmer",
+        "games": 17,
+        "winRate": 17.65
       },
       {
         "name": "mayans",
@@ -442,14 +442,14 @@
         "winRate": 25
       },
       {
-        "name": "japanese",
+        "name": "saracens",
         "games": 15,
         "winRate": 26.67
       },
       {
-        "name": "slavs",
-        "games": 17,
-        "winRate": 29.41
+        "name": "japanese",
+        "games": 15,
+        "winRate": 26.67
       }
     ]
   },

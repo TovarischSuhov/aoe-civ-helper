@@ -378,35 +378,35 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 51.84,
-    "playRate": 1.16,
-    "picks": 488,
+    "winRate": 52.45,
+    "playRate": 1.2,
+    "picks": 551,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 52.11,
-        "playRate": 1.17,
-        "picks": 332
+        "winRate": 52.49,
+        "playRate": 1.23,
+        "picks": 381
       },
       "open": {
-        "winRate": 52.14,
-        "playRate": 1.17,
-        "picks": 117
+        "winRate": 53.44,
+        "playRate": 1.19,
+        "picks": 131
       },
       "closed": {
         "winRate": 45.83,
-        "playRate": 0.9,
+        "playRate": 0.82,
         "picks": 24
       },
       "nomad": {
         "winRate": 53.33,
-        "playRate": 1.61,
+        "playRate": 1.6,
         "picks": 15
       }
     },
@@ -422,12 +422,7 @@
         "winRate": 72.73
       },
       {
-        "name": "burgundians",
-        "games": 14,
-        "winRate": 71.43
-      },
-      {
-        "name": "bohemians",
+        "name": "persians",
         "games": 10,
         "winRate": 70
       },
@@ -435,33 +430,38 @@
         "name": "khitans",
         "games": 13,
         "winRate": 69.23
+      },
+      {
+        "name": "burgundians",
+        "games": 16,
+        "winRate": 68.75
       }
     ],
     "weakAgainst": [
       {
         "name": "lithuanians",
-        "games": 10,
-        "winRate": 20
+        "games": 11,
+        "winRate": 27.27
       },
       {
-        "name": "hindustanis",
+        "name": "cumans",
         "games": 9,
         "winRate": 33.33
       },
       {
-        "name": "gurjaras",
+        "name": "berbers",
         "games": 9,
         "winRate": 33.33
+      },
+      {
+        "name": "italians",
+        "games": 8,
+        "winRate": 37.5
       },
       {
         "name": "armenians",
-        "games": 14,
-        "winRate": 35.71
-      },
-      {
-        "name": "britons",
-        "games": 11,
-        "winRate": 36.36
+        "games": 16,
+        "winRate": 37.5
       }
     ]
   },

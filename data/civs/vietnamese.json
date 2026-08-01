@@ -323,53 +323,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.66,
-    "playRate": 3.12,
-    "picks": 1307,
+    "winRate": 49.27,
+    "playRate": 3.15,
+    "picks": 1447,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
       "closed": {
-        "winRate": 48.53,
-        "playRate": 2.56,
-        "picks": 68
+        "winRate": 47.3,
+        "playRate": 2.54,
+        "picks": 74
       },
       "other": {
-        "winRate": 47.77,
-        "playRate": 2.94,
-        "picks": 831
+        "winRate": 47.85,
+        "playRate": 2.99,
+        "picks": 930
       },
       "open": {
-        "winRate": 54.26,
-        "playRate": 3.75,
-        "picks": 376
+        "winRate": 53.04,
+        "playRate": 3.72,
+        "picks": 411
       },
       "nomad": {
         "winRate": 46.88,
-        "playRate": 3.43,
+        "playRate": 3.4,
         "picks": 32
       }
     },
     "strongAgainst": [
       {
-        "name": "gurjaras",
-        "games": 15,
-        "winRate": 73.33
-      },
-      {
         "name": "teutons",
-        "games": 13,
-        "winRate": 69.23
-      },
-      {
-        "name": "tupi",
         "games": 16,
-        "winRate": 68.75
+        "winRate": 75
       },
       {
         "name": "goths",
@@ -378,35 +368,45 @@
       },
       {
         "name": "portuguese",
-        "games": 24,
+        "games": 25,
+        "winRate": 68
+      },
+      {
+        "name": "tupi",
+        "games": 18,
         "winRate": 66.67
+      },
+      {
+        "name": "britons",
+        "games": 20,
+        "winRate": 65
       }
     ],
     "weakAgainst": [
-      {
-        "name": "byzantines",
-        "games": 15,
-        "winRate": 26.67
-      },
       {
         "name": "bohemians",
         "games": 17,
         "winRate": 29.41
       },
       {
-        "name": "burgundians",
-        "games": 21,
+        "name": "incas",
+        "games": 36,
         "winRate": 33.33
       },
       {
         "name": "koreans",
-        "games": 20,
-        "winRate": 35
+        "games": 21,
+        "winRate": 33.33
+      },
+      {
+        "name": "byzantines",
+        "games": 18,
+        "winRate": 33.33
       },
       {
         "name": "tatars",
-        "games": 17,
-        "winRate": 35.29
+        "games": 21,
+        "winRate": 33.33
       }
     ]
   },

@@ -313,36 +313,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.35,
+    "winRate": 48.11,
     "playRate": 1.84,
-    "picks": 772,
+    "picks": 848,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
-        "winRate": 44.07,
-        "playRate": 1.76,
-        "picks": 177
+        "winRate": 43.23,
+        "playRate": 1.74,
+        "picks": 192
       },
       "other": {
-        "winRate": 50.78,
-        "playRate": 1.82,
-        "picks": 514
+        "winRate": 49.21,
+        "playRate": 1.83,
+        "picks": 569
       },
       "nomad": {
         "winRate": 47.06,
-        "playRate": 1.82,
+        "playRate": 1.81,
         "picks": 17
       },
       "closed": {
-        "winRate": 53.13,
-        "playRate": 2.41,
-        "picks": 64
+        "winRate": 52.86,
+        "playRate": 2.4,
+        "picks": 70
       }
     },
     "strongAgainst": [
@@ -353,8 +353,13 @@
       },
       {
         "name": "saracens",
-        "games": 12,
-        "winRate": 75
+        "games": 13,
+        "winRate": 76.92
+      },
+      {
+        "name": "cumans",
+        "games": 19,
+        "winRate": 68.42
       },
       {
         "name": "gurjaras",
@@ -362,14 +367,9 @@
         "winRate": 64.71
       },
       {
-        "name": "burmese",
-        "games": 14,
-        "winRate": 64.29
-      },
-      {
-        "name": "japanese",
-        "games": 14,
-        "winRate": 64.29
+        "name": "berbers",
+        "games": 16,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
@@ -379,14 +379,9 @@
         "winRate": 15.79
       },
       {
-        "name": "bengalis",
+        "name": "hindustanis",
         "games": 14,
         "winRate": 28.57
-      },
-      {
-        "name": "hindustanis",
-        "games": 13,
-        "winRate": 30.77
       },
       {
         "name": "koreans",
@@ -394,9 +389,14 @@
         "winRate": 30.77
       },
       {
-        "name": "goths",
-        "games": 9,
-        "winRate": 33.33
+        "name": "bengalis",
+        "games": 16,
+        "winRate": 31.25
+      },
+      {
+        "name": "vietnamese",
+        "games": 20,
+        "winRate": 35
       }
     ]
   },

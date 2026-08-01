@@ -366,36 +366,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 44.68,
-    "playRate": 1.23,
-    "picks": 517,
+    "winRate": 43.53,
+    "playRate": 1.24,
+    "picks": 572,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 43.24,
-        "playRate": 1.2,
-        "picks": 340
+        "winRate": 42.02,
+        "playRate": 1.21,
+        "picks": 376
       },
       "open": {
-        "winRate": 48.2,
-        "playRate": 1.39,
-        "picks": 139
+        "winRate": 46.71,
+        "playRate": 1.38,
+        "picks": 152
       },
       "nomad": {
         "winRate": 36.36,
-        "playRate": 1.18,
+        "playRate": 1.17,
         "picks": 11
       },
       "closed": {
-        "winRate": 48.15,
-        "playRate": 1.02,
-        "picks": 27
+        "winRate": 48.48,
+        "playRate": 1.13,
+        "picks": 33
       }
     },
     "strongAgainst": [
@@ -405,31 +405,41 @@
         "winRate": 83.33
       },
       {
+        "name": "teutons",
+        "games": 10,
+        "winRate": 70
+      },
+      {
         "name": "aztecs",
-        "games": 11,
-        "winRate": 81.82
-      },
-      {
-        "name": "japanese",
-        "games": 11,
-        "winRate": 63.64
-      },
-      {
-        "name": "berbers",
-        "games": 8,
-        "winRate": 62.5
+        "games": 13,
+        "winRate": 69.23
       },
       {
         "name": "mayans",
+        "games": 9,
+        "winRate": 66.67
+      },
+      {
+        "name": "berbers",
         "games": 8,
         "winRate": 62.5
       }
     ],
     "weakAgainst": [
       {
+        "name": "huns",
+        "games": 10,
+        "winRate": 20
+      },
+      {
         "name": "britons",
         "games": 10,
         "winRate": 20
+      },
+      {
+        "name": "spanish",
+        "games": 13,
+        "winRate": 23.08
       },
       {
         "name": "bohemians",
@@ -437,19 +447,9 @@
         "winRate": 23.08
       },
       {
-        "name": "spanish",
-        "games": 12,
-        "winRate": 25
-      },
-      {
         "name": "turks",
         "games": 8,
         "winRate": 25
-      },
-      {
-        "name": "armenians",
-        "games": 10,
-        "winRate": 30
       }
     ]
   },

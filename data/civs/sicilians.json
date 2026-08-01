@@ -303,53 +303,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.25,
-    "playRate": 1.87,
-    "picks": 783,
+    "winRate": 47.07,
+    "playRate": 1.85,
+    "picks": 852,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 46.5,
-        "playRate": 1.99,
-        "picks": 200
+        "winRate": 46.33,
+        "playRate": 1.97,
+        "picks": 218
       },
       "other": {
-        "winRate": 47.34,
-        "playRate": 1.86,
-        "picks": 526
+        "winRate": 47.29,
+        "playRate": 1.84,
+        "picks": 573
       },
       "nomad": {
         "winRate": 38.46,
-        "playRate": 1.39,
+        "playRate": 1.38,
         "picks": 13
       },
       "closed": {
-        "winRate": 52.27,
-        "playRate": 1.66,
-        "picks": 44
+        "winRate": 50,
+        "playRate": 1.64,
+        "picks": 48
       }
     },
     "strongAgainst": [
-      {
-        "name": "hindustanis",
-        "games": 15,
-        "winRate": 80
-      },
       {
         "name": "spanish",
         "games": 12,
         "winRate": 75
       },
       {
+        "name": "hindustanis",
+        "games": 16,
+        "winRate": 75
+      },
+      {
         "name": "byzantines",
-        "games": 10,
-        "winRate": 70
+        "games": 11,
+        "winRate": 72.73
       },
       {
         "name": "dravidians",
@@ -358,8 +358,8 @@
       },
       {
         "name": "magyars",
-        "games": 28,
-        "winRate": 60.71
+        "games": 29,
+        "winRate": 58.62
       }
     ],
     "weakAgainst": [
@@ -370,8 +370,8 @@
       },
       {
         "name": "goths",
-        "games": 18,
-        "winRate": 16.67
+        "games": 20,
+        "winRate": 20
       },
       {
         "name": "burgundians",
@@ -385,8 +385,8 @@
       },
       {
         "name": "poles",
-        "games": 15,
-        "winRate": 26.67
+        "games": 16,
+        "winRate": 31.25
       }
     ]
   },

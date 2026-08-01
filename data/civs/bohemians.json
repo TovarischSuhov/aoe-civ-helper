@@ -343,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.69,
+    "winRate": 50.17,
     "playRate": 1.91,
-    "picks": 799,
+    "picks": 879,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 48.81,
-        "playRate": 1.67,
-        "picks": 168
+        "winRate": 50.26,
+        "playRate": 1.76,
+        "picks": 195
       },
       "other": {
-        "winRate": 49.52,
-        "playRate": 1.84,
-        "picks": 519
+        "winRate": 49.82,
+        "playRate": 1.81,
+        "picks": 564
       },
       "nomad": {
         "winRate": 25,
-        "playRate": 1.29,
+        "playRate": 1.28,
         "picks": 12
       },
       "closed": {
-        "winRate": 55,
-        "playRate": 3.76,
-        "picks": 100
+        "winRate": 54.63,
+        "playRate": 3.7,
+        "picks": 108
       }
     },
     "strongAgainst": [
@@ -382,9 +382,14 @@
         "winRate": 76.92
       },
       {
+        "name": "khitans",
+        "games": 8,
+        "winRate": 75
+      },
+      {
         "name": "persians",
-        "games": 15,
-        "winRate": 73.33
+        "games": 16,
+        "winRate": 75
       },
       {
         "name": "vietnamese",
@@ -392,36 +397,31 @@
         "winRate": 70.59
       },
       {
-        "name": "khmer",
-        "games": 19,
-        "winRate": 68.42
-      },
-      {
         "name": "chinese",
-        "games": 9,
-        "winRate": 66.67
+        "games": 10,
+        "winRate": 70
       }
     ],
     "weakAgainst": [
       {
         "name": "dravidians",
+        "games": 13,
+        "winRate": 23.08
+      },
+      {
+        "name": "wu",
         "games": 11,
         "winRate": 27.27
       },
       {
         "name": "burgundians",
-        "games": 32,
-        "winRate": 28.13
+        "games": 35,
+        "winRate": 28.57
       },
       {
-        "name": "mapuche",
-        "games": 10,
-        "winRate": 30
-      },
-      {
-        "name": "armenians",
-        "games": 13,
-        "winRate": 30.77
+        "name": "cumans",
+        "games": 18,
+        "winRate": 33.33
       },
       {
         "name": "koreans",

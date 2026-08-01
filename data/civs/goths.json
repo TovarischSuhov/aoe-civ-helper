@@ -336,43 +336,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 43.75,
-    "playRate": 1.53,
-    "picks": 640,
+    "winRate": 43.85,
+    "playRate": 1.5,
+    "picks": 691,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 44.76,
-        "playRate": 1.49,
-        "picks": 420
+        "winRate": 44.44,
+        "playRate": 1.48,
+        "picks": 459
       },
       "nomad": {
         "winRate": 46.67,
-        "playRate": 1.61,
+        "playRate": 1.6,
         "picks": 15
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 1.5,
-        "picks": 40
+        "winRate": 52.38,
+        "playRate": 1.44,
+        "picks": 42
       },
       "open": {
-        "winRate": 39.39,
-        "playRate": 1.64,
-        "picks": 165
+        "winRate": 40,
+        "playRate": 1.58,
+        "picks": 175
       }
     },
     "strongAgainst": [
       {
+        "name": "muisca",
+        "games": 8,
+        "winRate": 87.5
+      },
+      {
         "name": "sicilians",
-        "games": 18,
-        "winRate": 83.33
+        "games": 20,
+        "winRate": 80
       },
       {
         "name": "italians",
@@ -381,18 +386,13 @@
       },
       {
         "name": "huns",
-        "games": 15,
-        "winRate": 73.33
+        "games": 17,
+        "winRate": 76.47
       },
       {
         "name": "franks",
         "games": 11,
         "winRate": 72.73
-      },
-      {
-        "name": "wu",
-        "games": 13,
-        "winRate": 69.23
       }
     ],
     "weakAgainst": [
@@ -402,23 +402,23 @@
         "winRate": 0
       },
       {
+        "name": "celts",
+        "games": 11,
+        "winRate": 9.09
+      },
+      {
         "name": "burmese",
         "games": 10,
         "winRate": 10
       },
       {
-        "name": "celts",
-        "games": 9,
-        "winRate": 11.11
+        "name": "shu",
+        "games": 10,
+        "winRate": 20
       },
       {
         "name": "malians",
-        "games": 12,
-        "winRate": 16.67
-      },
-      {
-        "name": "aztecs",
-        "games": 10,
+        "games": 15,
         "winRate": 20
       }
     ]

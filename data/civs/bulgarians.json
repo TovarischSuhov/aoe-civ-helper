@@ -288,48 +288,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.85,
-    "playRate": 1.55,
-    "picks": 648,
+    "winRate": 49.78,
+    "playRate": 1.51,
+    "picks": 695,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 47.17,
-        "playRate": 1.99,
-        "picks": 53
+        "winRate": 48.15,
+        "playRate": 1.85,
+        "picks": 54
       },
       "open": {
-        "winRate": 50.33,
-        "playRate": 1.51,
-        "picks": 151
+        "winRate": 49.4,
+        "playRate": 1.5,
+        "picks": 166
       },
       "other": {
-        "winRate": 49.88,
-        "playRate": 1.53,
-        "picks": 433
+        "winRate": 49.89,
+        "playRate": 1.49,
+        "picks": 463
       },
       "nomad": {
-        "winRate": 54.55,
-        "playRate": 1.18,
-        "picks": 11
+        "winRate": 58.33,
+        "playRate": 1.28,
+        "picks": 12
       }
     },
     "strongAgainst": [
       {
-        "name": "malay",
-        "games": 8,
-        "winRate": 87.5
-      },
-      {
         "name": "cumans",
-        "games": 14,
-        "winRate": 71.43
+        "games": 15,
+        "winRate": 73.33
       },
       {
         "name": "spanish",
@@ -337,31 +332,31 @@
         "winRate": 70.59
       },
       {
-        "name": "franks",
-        "games": 16,
-        "winRate": 68.75
+        "name": "malay",
+        "games": 10,
+        "winRate": 70
       },
       {
-        "name": "khmer",
-        "games": 11,
-        "winRate": 63.64
+        "name": "sicilians",
+        "games": 17,
+        "winRate": 64.71
+      },
+      {
+        "name": "franks",
+        "games": 17,
+        "winRate": 64.71
       }
     ],
     "weakAgainst": [
       {
         "name": "bengalis",
-        "games": 9,
-        "winRate": 22.22
+        "games": 10,
+        "winRate": 20
       },
       {
         "name": "mongols",
-        "games": 30,
-        "winRate": 30
-      },
-      {
-        "name": "berbers",
-        "games": 17,
-        "winRate": 35.29
+        "games": 32,
+        "winRate": 31.25
       },
       {
         "name": "wu",
@@ -369,9 +364,14 @@
         "winRate": 36.36
       },
       {
-        "name": "teutons",
-        "games": 8,
+        "name": "italians",
+        "games": 16,
         "winRate": 37.5
+      },
+      {
+        "name": "berbers",
+        "games": 18,
+        "winRate": 38.89
       }
     ]
   },

@@ -333,36 +333,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 54.04,
-    "playRate": 1.95,
-    "picks": 816,
+    "winRate": 53.66,
+    "playRate": 2.02,
+    "picks": 930,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
       "other": {
-        "winRate": 54.9,
-        "playRate": 1.91,
-        "picks": 541
+        "winRate": 54.69,
+        "playRate": 1.99,
+        "picks": 618
       },
       "open": {
-        "winRate": 52.51,
-        "playRate": 2.18,
-        "picks": 219
+        "winRate": 52.21,
+        "playRate": 2.25,
+        "picks": 249
       },
       "nomad": {
         "winRate": 43.75,
-        "playRate": 1.72,
+        "playRate": 1.7,
         "picks": 16
       },
       "closed": {
-        "winRate": 55,
-        "playRate": 1.5,
-        "picks": 40
+        "winRate": 51.06,
+        "playRate": 1.61,
+        "picks": 47
       }
     },
     "strongAgainst": [
@@ -378,7 +378,7 @@
       },
       {
         "name": "armenians",
-        "games": 8,
+        "games": 12,
         "winRate": 75
       },
       {
@@ -388,15 +388,25 @@
       },
       {
         "name": "japanese",
-        "games": 18,
-        "winRate": 72.22
+        "games": 22,
+        "winRate": 72.73
       }
     ],
     "weakAgainst": [
       {
         "name": "saracens",
-        "games": 10,
-        "winRate": 10
+        "games": 13,
+        "winRate": 23.08
+      },
+      {
+        "name": "muisca",
+        "games": 9,
+        "winRate": 33.33
+      },
+      {
+        "name": "jurchens",
+        "games": 9,
+        "winRate": 33.33
       },
       {
         "name": "portuguese",
@@ -407,16 +417,6 @@
         "name": "celts",
         "games": 19,
         "winRate": 36.84
-      },
-      {
-        "name": "muisca",
-        "games": 8,
-        "winRate": 37.5
-      },
-      {
-        "name": "jurchens",
-        "games": 8,
-        "winRate": 37.5
       }
     ]
   },

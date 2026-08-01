@@ -333,51 +333,46 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.82,
-    "playRate": 1.57,
-    "picks": 658,
+    "winRate": 50.56,
+    "playRate": 1.56,
+    "picks": 718,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saracens",
     "byMapType": {
       "open": {
-        "winRate": 50.35,
-        "playRate": 1.43,
-        "picks": 143
+        "winRate": 49.35,
+        "playRate": 1.39,
+        "picks": 154
       },
       "closed": {
-        "winRate": 51.43,
-        "playRate": 1.32,
-        "picks": 35
+        "winRate": 47.5,
+        "playRate": 1.37,
+        "picks": 40
       },
       "other": {
-        "winRate": 52.36,
-        "playRate": 1.65,
-        "picks": 466
+        "winRate": 51.18,
+        "playRate": 1.64,
+        "picks": 510
       },
       "nomad": {
         "winRate": 50,
-        "playRate": 1.5,
+        "playRate": 1.49,
         "picks": 14
       }
     },
     "strongAgainst": [
       {
-        "name": "mayans",
-        "games": 10,
-        "winRate": 90
-      },
-      {
         "name": "tatars",
-        "games": 9,
-        "winRate": 77.78
+        "games": 10,
+        "winRate": 80
       },
       {
-        "name": "berbers",
+        "name": "mayans",
         "games": 13,
         "winRate": 76.92
       },
@@ -385,6 +380,11 @@
         "name": "wu",
         "games": 8,
         "winRate": 75
+      },
+      {
+        "name": "berbers",
+        "games": 15,
+        "winRate": 73.33
       },
       {
         "name": "poles",
@@ -395,28 +395,28 @@
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 16,
-        "winRate": 18.75
+        "games": 19,
+        "winRate": 15.79
       },
       {
         "name": "britons",
-        "games": 12,
-        "winRate": 25
-      },
-      {
-        "name": "bengalis",
-        "games": 12,
-        "winRate": 25
+        "games": 13,
+        "winRate": 23.08
       },
       {
         "name": "malay",
-        "games": 15,
-        "winRate": 26.67
+        "games": 17,
+        "winRate": 29.41
       },
       {
         "name": "koreans",
         "games": 17,
         "winRate": 29.41
+      },
+      {
+        "name": "bengalis",
+        "games": 13,
+        "winRate": 30.77
       }
     ]
   },

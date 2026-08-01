@@ -273,35 +273,35 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.43,
-    "playRate": 3.02,
-    "picks": 1265,
+    "winRate": 47.02,
+    "playRate": 2.95,
+    "picks": 1359,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-07-31T17:54:35.000Z",
-    "window": "2026-07-17 → 2026-07-31",
+    "updated": "2026-08-01T06:42:09.000Z",
+    "window": "2026-07-17 → 2026-08-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
       "other": {
-        "winRate": 47.92,
-        "playRate": 3.06,
-        "picks": 864
+        "winRate": 47.36,
+        "playRate": 2.98,
+        "picks": 927
       },
       "open": {
-        "winRate": 46.95,
-        "playRate": 3.1,
-        "picks": 311
+        "winRate": 46.88,
+        "playRate": 3.05,
+        "picks": 337
       },
       "closed": {
-        "winRate": 44.78,
-        "playRate": 2.52,
-        "picks": 67
+        "winRate": 44.44,
+        "playRate": 2.47,
+        "picks": 72
       },
       "nomad": {
         "winRate": 43.48,
-        "playRate": 2.47,
+        "playRate": 2.45,
         "picks": 23
       }
     },
@@ -313,13 +313,8 @@
       },
       {
         "name": "franks",
-        "games": 26,
-        "winRate": 69.23
-      },
-      {
-        "name": "aztecs",
-        "games": 22,
-        "winRate": 68.18
+        "games": 27,
+        "winRate": 70.37
       },
       {
         "name": "gurjaras",
@@ -327,9 +322,14 @@
         "winRate": 66.67
       },
       {
-        "name": "shu",
-        "games": 10,
-        "winRate": 60
+        "name": "aztecs",
+        "games": 23,
+        "winRate": 65.22
+      },
+      {
+        "name": "khitans",
+        "games": 37,
+        "winRate": 62.16
       }
     ],
     "weakAgainst": [
@@ -340,12 +340,7 @@
       },
       {
         "name": "malians",
-        "games": 23,
-        "winRate": 21.74
-      },
-      {
-        "name": "turks",
-        "games": 12,
+        "games": 28,
         "winRate": 25
       },
       {
@@ -357,6 +352,11 @@
         "name": "romans",
         "games": 19,
         "winRate": 31.58
+      },
+      {
+        "name": "turks",
+        "games": 14,
+        "winRate": 35.71
       }
     ]
   },
