@@ -372,31 +372,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.38,
-    "playRate": 1.51,
-    "picks": 745,
+    "winRate": 46.59,
+    "playRate": 1.49,
+    "picks": 792,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-01T17:17:34.000Z",
-    "window": "2026-07-17 → 2026-08-01",
+    "updated": "2026-08-02T06:47:09.000Z",
+    "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
       "other": {
-        "winRate": 48.56,
-        "playRate": 1.46,
-        "picks": 486
+        "winRate": 47.68,
+        "playRate": 1.43,
+        "picks": 518
       },
       "closed": {
-        "winRate": 60.53,
-        "playRate": 1.23,
-        "picks": 38
+        "winRate": 57.5,
+        "playRate": 1.22,
+        "picks": 40
       },
       "open": {
-        "winRate": 42.79,
-        "playRate": 1.75,
-        "picks": 208
+        "winRate": 42.53,
+        "playRate": 1.72,
+        "picks": 221
       },
       "nomad": {
         "winRate": 38.46,
@@ -407,18 +407,13 @@
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 13,
-        "winRate": 76.92
+        "games": 14,
+        "winRate": 78.57
       },
       {
         "name": "franks",
-        "games": 8,
-        "winRate": 75
-      },
-      {
-        "name": "burmese",
-        "games": 12,
-        "winRate": 75
+        "games": 11,
+        "winRate": 72.73
       },
       {
         "name": "spanish",
@@ -426,21 +421,26 @@
         "winRate": 71.43
       },
       {
-        "name": "wei",
+        "name": "burmese",
         "games": 13,
         "winRate": 69.23
+      },
+      {
+        "name": "wei",
+        "games": 14,
+        "winRate": 64.29
       }
     ],
     "weakAgainst": [
       {
-        "name": "khmer",
+        "name": "dravidians",
         "games": 15,
         "winRate": 26.67
       },
       {
-        "name": "dravidians",
-        "games": 14,
-        "winRate": 28.57
+        "name": "khmer",
+        "games": 17,
+        "winRate": 29.41
       },
       {
         "name": "romans",
@@ -448,14 +448,14 @@
         "winRate": 31.25
       },
       {
-        "name": "teutons",
-        "games": 21,
-        "winRate": 33.33
+        "name": "magyars",
+        "games": 16,
+        "winRate": 31.25
       },
       {
-        "name": "malians",
-        "games": 12,
-        "winRate": 33.33
+        "name": "teutons",
+        "games": 22,
+        "winRate": 31.82
       }
     ]
   },

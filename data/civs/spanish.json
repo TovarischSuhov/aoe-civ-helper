@@ -275,26 +275,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.96,
+    "winRate": 50.51,
     "playRate": 2.56,
-    "picks": 1259,
+    "picks": 1360,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-01T17:17:34.000Z",
-    "window": "2026-07-17 → 2026-08-01",
+    "updated": "2026-08-02T06:47:09.000Z",
+    "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
       "other": {
-        "winRate": 51.29,
+        "winRate": 51.41,
         "playRate": 2.56,
-        "picks": 852
+        "picks": 924
       },
       "open": {
-        "winRate": 43.89,
-        "playRate": 2.2,
-        "picks": 262
+        "winRate": 46.53,
+        "playRate": 2.24,
+        "picks": 288
       },
       "nomad": {
         "winRate": 35.9,
@@ -302,9 +302,9 @@
         "picks": 39
       },
       "closed": {
-        "winRate": 59.43,
-        "playRate": 3.42,
-        "picks": 106
+        "winRate": 58.72,
+        "playRate": 3.33,
+        "picks": 109
       }
     },
     "strongAgainst": [
@@ -319,36 +319,36 @@
         "winRate": 76.92
       },
       {
+        "name": "saracens",
+        "games": 16,
+        "winRate": 68.75
+      },
+      {
         "name": "lithuanians",
-        "games": 21,
-        "winRate": 71.43
+        "games": 22,
+        "winRate": 68.18
       },
       {
         "name": "chinese",
-        "games": 24,
-        "winRate": 70.83
-      },
-      {
-        "name": "burgundians",
-        "games": 45,
+        "games": 27,
         "winRate": 66.67
       }
     ],
     "weakAgainst": [
       {
-        "name": "sicilians",
-        "games": 12,
+        "name": "mapuche",
+        "games": 20,
         "winRate": 25
       },
       {
         "name": "malay",
-        "games": 27,
-        "winRate": 25.93
+        "games": 28,
+        "winRate": 25
       },
       {
-        "name": "mapuche",
-        "games": 19,
-        "winRate": 26.32
+        "name": "burmese",
+        "games": 18,
+        "winRate": 27.78
       },
       {
         "name": "gurjaras",
@@ -356,9 +356,9 @@
         "winRate": 28.57
       },
       {
-        "name": "tupi",
-        "games": 20,
-        "winRate": 30
+        "name": "sicilians",
+        "games": 15,
+        "winRate": 33.33
       }
     ]
   },
