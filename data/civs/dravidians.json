@@ -315,12 +315,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52.17,
-    "playRate": 1.52,
-    "picks": 807,
+    "winRate": 52.35,
+    "playRate": 1.51,
+    "picks": 852,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -332,19 +332,19 @@
         "picks": 29
       },
       "open": {
-        "winRate": 49.37,
-        "playRate": 1.23,
-        "picks": 158
+        "winRate": 50.3,
+        "playRate": 1.22,
+        "picks": 167
       },
       "other": {
-        "winRate": 53.28,
-        "playRate": 1.6,
-        "picks": 580
+        "winRate": 53.33,
+        "playRate": 1.61,
+        "picks": 615
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 1.22,
-        "picks": 40
+        "winRate": 48.78,
+        "playRate": 1.18,
+        "picks": 41
       }
     },
     "strongAgainst": [
@@ -369,36 +369,36 @@
         "winRate": 72
       },
       {
-        "name": "japanese",
-        "games": 33,
-        "winRate": 69.7
+        "name": "bohemians",
+        "games": 16,
+        "winRate": 68.75
       }
     ],
     "weakAgainst": [
+      {
+        "name": "hindustanis",
+        "games": 8,
+        "winRate": 12.5
+      },
+      {
+        "name": "celts",
+        "games": 18,
+        "winRate": 22.22
+      },
+      {
+        "name": "armenians",
+        "games": 13,
+        "winRate": 23.08
+      },
       {
         "name": "wu",
         "games": 12,
         "winRate": 25
       },
       {
-        "name": "armenians",
-        "games": 12,
-        "winRate": 25
-      },
-      {
-        "name": "celts",
-        "games": 16,
-        "winRate": 25
-      },
-      {
         "name": "byzantines",
         "games": 19,
         "winRate": 31.58
-      },
-      {
-        "name": "turks",
-        "games": 15,
-        "winRate": 33.33
       }
     ]
   },

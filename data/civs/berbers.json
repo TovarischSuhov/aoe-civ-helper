@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.27,
-    "playRate": 1.66,
-    "picks": 884,
+    "winRate": 45.98,
+    "playRate": 1.67,
+    "picks": 946,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
       "other": {
-        "winRate": 46.84,
-        "playRate": 1.62,
-        "picks": 585
+        "winRate": 46.51,
+        "playRate": 1.64,
+        "picks": 630
       },
       "open": {
-        "winRate": 42.42,
-        "playRate": 1.8,
-        "picks": 231
+        "winRate": 42.45,
+        "playRate": 1.78,
+        "picks": 245
       },
       "nomad": {
         "winRate": 64.29,
@@ -393,12 +393,22 @@
         "picks": 14
       },
       "closed": {
-        "winRate": 51.85,
-        "playRate": 1.65,
-        "picks": 54
+        "winRate": 50.88,
+        "playRate": 1.63,
+        "picks": 57
       }
     },
     "strongAgainst": [
+      {
+        "name": "wu",
+        "games": 8,
+        "winRate": 75
+      },
+      {
+        "name": "turks",
+        "games": 16,
+        "winRate": 68.75
+      },
       {
         "name": "wei",
         "games": 19,
@@ -410,19 +420,9 @@
         "winRate": 64.71
       },
       {
-        "name": "turks",
-        "games": 14,
-        "winRate": 64.29
-      },
-      {
-        "name": "aztecs",
-        "games": 11,
-        "winRate": 63.64
-      },
-      {
-        "name": "dravidians",
-        "games": 13,
-        "winRate": 61.54
+        "name": "gurjaras",
+        "games": 17,
+        "winRate": 64.71
       }
     ],
     "weakAgainst": [
@@ -433,22 +433,22 @@
       },
       {
         "name": "mayans",
-        "games": 18,
-        "winRate": 22.22
+        "games": 23,
+        "winRate": 26.09
       },
       {
-        "name": "khmer",
+        "name": "japanese",
         "games": 18,
-        "winRate": 22.22
-      },
-      {
-        "name": "saracens",
-        "games": 19,
-        "winRate": 26.32
+        "winRate": 27.78
       },
       {
         "name": "vikings",
         "games": 14,
+        "winRate": 28.57
+      },
+      {
+        "name": "khmer",
+        "games": 21,
         "winRate": 28.57
       }
     ]

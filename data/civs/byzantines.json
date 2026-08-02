@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.74,
+    "winRate": 50.96,
     "playRate": 1.66,
-    "picks": 881,
+    "picks": 938,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 51.5,
-        "playRate": 1.55,
-        "picks": 200
+        "winRate": 51.2,
+        "playRate": 1.52,
+        "picks": 209
       },
       "nomad": {
         "winRate": 62.5,
@@ -302,14 +302,14 @@
         "picks": 16
       },
       "other": {
-        "winRate": 50.08,
-        "playRate": 1.7,
-        "picks": 615
+        "winRate": 50.68,
+        "playRate": 1.71,
+        "picks": 657
       },
       "closed": {
-        "winRate": 52,
-        "playRate": 1.53,
-        "picks": 50
+        "winRate": 50,
+        "playRate": 1.61,
+        "picks": 56
       }
     },
     "strongAgainst": [
@@ -319,49 +319,49 @@
         "winRate": 80
       },
       {
+        "name": "wu",
+        "games": 11,
+        "winRate": 72.73
+      },
+      {
         "name": "turks",
+        "games": 18,
+        "winRate": 72.22
+      },
+      {
+        "name": "teutons",
         "games": 17,
-        "winRate": 76.47
+        "winRate": 70.59
       },
       {
         "name": "italians",
-        "games": 19,
-        "winRate": 73.68
-      },
-      {
-        "name": "vikings",
-        "games": 10,
+        "games": 20,
         "winRate": 70
-      },
-      {
-        "name": "hindustanis",
-        "games": 23,
-        "winRate": 69.57
       }
     ],
     "weakAgainst": [
       {
         "name": "slavs",
-        "games": 10,
-        "winRate": 10
-      },
-      {
-        "name": "aztecs",
-        "games": 14,
-        "winRate": 21.43
+        "games": 11,
+        "winRate": 9.09
       },
       {
         "name": "burgundians",
+        "games": 19,
+        "winRate": 26.32
+      },
+      {
+        "name": "aztecs",
         "games": 17,
-        "winRate": 23.53
+        "winRate": 29.41
       },
       {
         "name": "armenians",
-        "games": 13,
-        "winRate": 30.77
+        "games": 15,
+        "winRate": 33.33
       },
       {
-        "name": "franks",
+        "name": "romans",
         "games": 15,
         "winRate": 33.33
       }

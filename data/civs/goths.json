@@ -336,21 +336,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 44.71,
+    "winRate": 45.3,
     "playRate": 1.49,
-    "picks": 794,
+    "picks": 841,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 45.76,
-        "playRate": 1.5,
-        "picks": 542
+        "winRate": 45.79,
+        "playRate": 1.49,
+        "picks": 570
       },
       "nomad": {
         "winRate": 46.67,
@@ -358,27 +358,17 @@
         "picks": 15
       },
       "closed": {
-        "winRate": 52.27,
+        "winRate": 51.06,
         "playRate": 1.35,
-        "picks": 44
+        "picks": 47
       },
       "open": {
-        "winRate": 39.9,
-        "playRate": 1.5,
-        "picks": 193
+        "winRate": 42.58,
+        "playRate": 1.52,
+        "picks": 209
       }
     },
     "strongAgainst": [
-      {
-        "name": "huns",
-        "games": 19,
-        "winRate": 78.95
-      },
-      {
-        "name": "italians",
-        "games": 9,
-        "winRate": 77.78
-      },
       {
         "name": "muisca",
         "games": 9,
@@ -386,20 +376,30 @@
       },
       {
         "name": "franks",
-        "games": 12,
-        "winRate": 75
+        "games": 13,
+        "winRate": 76.92
+      },
+      {
+        "name": "huns",
+        "games": 21,
+        "winRate": 76.19
       },
       {
         "name": "sicilians",
         "games": 25,
         "winRate": 72
+      },
+      {
+        "name": "poles",
+        "games": 12,
+        "winRate": 66.67
       }
     ],
     "weakAgainst": [
       {
         "name": "burmese",
-        "games": 11,
-        "winRate": 9.09
+        "games": 12,
+        "winRate": 8.33
       },
       {
         "name": "bengalis",
@@ -417,9 +417,9 @@
         "winRate": 21.43
       },
       {
-        "name": "bohemians",
-        "games": 9,
-        "winRate": 22.22
+        "name": "malians",
+        "games": 19,
+        "winRate": 26.32
       }
     ]
   },

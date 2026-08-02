@@ -328,21 +328,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52.8,
-    "playRate": 2.98,
-    "picks": 1587,
+    "winRate": 52.96,
+    "playRate": 2.99,
+    "picks": 1690,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "open": {
-        "winRate": 52.1,
+        "winRate": 52.09,
         "playRate": 2.78,
-        "picks": 357
+        "picks": 382
       },
       "nomad": {
         "winRate": 65.96,
@@ -350,41 +350,41 @@
         "picks": 47
       },
       "other": {
-        "winRate": 52.35,
-        "playRate": 3.12,
-        "picks": 1129
+        "winRate": 52.66,
+        "playRate": 3.14,
+        "picks": 1204
       },
       "closed": {
-        "winRate": 55.56,
-        "playRate": 1.65,
-        "picks": 54
+        "winRate": 54.39,
+        "playRate": 1.63,
+        "picks": 57
       }
     },
     "strongAgainst": [
+      {
+        "name": "turks",
+        "games": 26,
+        "winRate": 69.23
+      },
       {
         "name": "burmese",
         "games": 18,
         "winRate": 66.67
       },
       {
-        "name": "turks",
-        "games": 23,
-        "winRate": 65.22
-      },
-      {
-        "name": "goths",
-        "games": 25,
-        "winRate": 64
-      },
-      {
         "name": "italians",
+        "games": 24,
+        "winRate": 66.67
+      },
+      {
+        "name": "incas",
+        "games": 33,
+        "winRate": 63.64
+      },
+      {
+        "name": "shu",
         "games": 19,
         "winRate": 63.16
-      },
-      {
-        "name": "byzantines",
-        "games": 24,
-        "winRate": 62.5
       }
     ],
     "weakAgainst": [
@@ -394,14 +394,14 @@
         "winRate": 27.27
       },
       {
-        "name": "malay",
-        "games": 27,
-        "winRate": 29.63
+        "name": "malians",
+        "games": 21,
+        "winRate": 28.57
       },
       {
-        "name": "malians",
-        "games": 20,
-        "winRate": 30
+        "name": "malay",
+        "games": 28,
+        "winRate": 32.14
       },
       {
         "name": "mapuche",
@@ -409,9 +409,9 @@
         "winRate": 36.36
       },
       {
-        "name": "koreans",
-        "games": 23,
-        "winRate": 39.13
+        "name": "sicilians",
+        "games": 33,
+        "winRate": 39.39
       }
     ]
   },

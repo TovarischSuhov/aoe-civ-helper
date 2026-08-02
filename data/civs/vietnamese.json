@@ -323,31 +323,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.57,
-    "playRate": 3.08,
-    "picks": 1639,
+    "winRate": 48.53,
+    "playRate": 3.07,
+    "picks": 1737,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
       "closed": {
-        "winRate": 47.62,
-        "playRate": 2.57,
-        "picks": 84
+        "winRate": 48.31,
+        "playRate": 2.55,
+        "picks": 89
       },
       "other": {
-        "winRate": 46.78,
-        "playRate": 2.92,
-        "picks": 1056
+        "winRate": 46.64,
+        "playRate": 2.91,
+        "picks": 1115
       },
       "open": {
         "winRate": 52.89,
-        "playRate": 3.63,
-        "picks": 467
+        "playRate": 3.65,
+        "picks": 501
       },
       "nomad": {
         "winRate": 46.88,
@@ -362,32 +362,27 @@
         "winRate": 76.47
       },
       {
-        "name": "britons",
-        "games": 23,
-        "winRate": 69.57
-      },
-      {
         "name": "goths",
         "games": 19,
         "winRate": 68.42
       },
       {
-        "name": "lithuanians",
-        "games": 31,
-        "winRate": 64.52
+        "name": "britons",
+        "games": 27,
+        "winRate": 66.67
       },
       {
-        "name": "portuguese",
-        "games": 28,
-        "winRate": 64.29
+        "name": "lithuanians",
+        "games": 32,
+        "winRate": 65.63
+      },
+      {
+        "name": "berbers",
+        "games": 26,
+        "winRate": 65.38
       }
     ],
     "weakAgainst": [
-      {
-        "name": "koreans",
-        "games": 23,
-        "winRate": 30.43
-      },
       {
         "name": "byzantines",
         "games": 19,
@@ -395,8 +390,13 @@
       },
       {
         "name": "chinese",
-        "games": 56,
-        "winRate": 35.71
+        "games": 59,
+        "winRate": 35.59
+      },
+      {
+        "name": "koreans",
+        "games": 25,
+        "winRate": 36
       },
       {
         "name": "wu",
@@ -405,8 +405,8 @@
       },
       {
         "name": "incas",
-        "games": 44,
-        "winRate": 36.36
+        "games": 46,
+        "winRate": 36.96
       }
     ]
   },

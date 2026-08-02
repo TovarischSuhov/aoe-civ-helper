@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 44.95,
-    "playRate": 1.25,
-    "picks": 663,
+    "winRate": 45.14,
+    "playRate": 1.24,
+    "picks": 700,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 44.27,
-        "playRate": 1.21,
-        "picks": 436
+        "winRate": 44.35,
+        "playRate": 1.2,
+        "picks": 460
       },
       "open": {
-        "winRate": 46.59,
-        "playRate": 1.37,
-        "picks": 176
+        "winRate": 47.06,
+        "playRate": 1.36,
+        "picks": 187
       },
       "nomad": {
         "winRate": 36.36,
@@ -393,9 +393,9 @@
         "picks": 11
       },
       "closed": {
-        "winRate": 47.5,
-        "playRate": 1.22,
-        "picks": 40
+        "winRate": 47.62,
+        "playRate": 1.2,
+        "picks": 42
       }
     },
     "strongAgainst": [
@@ -403,6 +403,11 @@
         "name": "incas",
         "games": 15,
         "winRate": 80
+      },
+      {
+        "name": "slavs",
+        "games": 8,
+        "winRate": 75
       },
       {
         "name": "teutons",
@@ -418,28 +423,13 @@
         "name": "burgundians",
         "games": 12,
         "winRate": 66.67
-      },
-      {
-        "name": "sicilians",
-        "games": 9,
-        "winRate": 66.67
       }
     ],
     "weakAgainst": [
       {
-        "name": "britons",
-        "games": 10,
-        "winRate": 20
-      },
-      {
         "name": "bohemians",
         "games": 14,
         "winRate": 21.43
-      },
-      {
-        "name": "spanish",
-        "games": 13,
-        "winRate": 23.08
       },
       {
         "name": "shu",
@@ -447,9 +437,19 @@
         "winRate": 25
       },
       {
+        "name": "britons",
+        "games": 12,
+        "winRate": 25
+      },
+      {
         "name": "khitans",
         "games": 8,
         "winRate": 25
+      },
+      {
+        "name": "spanish",
+        "games": 15,
+        "winRate": 26.67
       }
     ]
   },

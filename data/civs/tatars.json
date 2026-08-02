@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.17,
-    "playRate": 1.61,
-    "picks": 859,
+    "winRate": 49.23,
+    "playRate": 1.62,
+    "picks": 914,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 52.63,
+        "winRate": 51.35,
         "playRate": 1.62,
-        "picks": 209
+        "picks": 222
       },
       "nomad": {
         "winRate": 52.63,
@@ -357,14 +357,14 @@
         "picks": 19
       },
       "other": {
-        "winRate": 49.92,
-        "playRate": 1.64,
-        "picks": 593
+        "winRate": 49.13,
+        "playRate": 1.65,
+        "picks": 631
       },
       "closed": {
-        "winRate": 39.47,
-        "playRate": 1.16,
-        "picks": 38
+        "winRate": 38.1,
+        "playRate": 1.2,
+        "picks": 42
       }
     },
     "strongAgainst": [
@@ -374,9 +374,9 @@
         "winRate": 75
       },
       {
-        "name": "turks",
-        "games": 15,
-        "winRate": 73.33
+        "name": "georgians",
+        "games": 8,
+        "winRate": 75
       },
       {
         "name": "muisca",
@@ -384,26 +384,26 @@
         "winRate": 69.23
       },
       {
-        "name": "goths",
+        "name": "turks",
         "games": 16,
         "winRate": 68.75
       },
       {
-        "name": "ethiopians",
-        "games": 15,
+        "name": "incas",
+        "games": 12,
         "winRate": 66.67
       }
     ],
     "weakAgainst": [
       {
-        "name": "wei",
-        "games": 12,
-        "winRate": 16.67
-      },
-      {
         "name": "saracens",
         "games": 10,
         "winRate": 20
+      },
+      {
+        "name": "wei",
+        "games": 14,
+        "winRate": 21.43
       },
       {
         "name": "cumans",
@@ -411,14 +411,14 @@
         "winRate": 25
       },
       {
-        "name": "malay",
-        "games": 13,
-        "winRate": 30.77
-      },
-      {
         "name": "armenians",
         "games": 16,
         "winRate": 31.25
+      },
+      {
+        "name": "malay",
+        "games": 15,
+        "winRate": 33.33
       }
     ]
   },

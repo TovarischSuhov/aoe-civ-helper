@@ -353,26 +353,26 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.75,
-    "playRate": 2.19,
-    "picks": 1164,
+    "winRate": 52.39,
+    "playRate": 2.22,
+    "picks": 1254,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-02T06:47:09.000Z",
+    "updated": "2026-08-02T17:18:16.000Z",
     "window": "2026-07-17 → 2026-08-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 53.67,
-        "playRate": 2.33,
-        "picks": 300
+        "winRate": 51.89,
+        "playRate": 2.31,
+        "picks": 318
       },
       "other": {
-        "winRate": 53.54,
-        "playRate": 2.15,
-        "picks": 777
+        "winRate": 53.55,
+        "playRate": 2.2,
+        "picks": 844
       },
       "nomad": {
         "winRate": 37.5,
@@ -380,21 +380,16 @@
         "picks": 24
       },
       "closed": {
-        "winRate": 44.44,
-        "playRate": 1.93,
-        "picks": 63
+        "winRate": 45.59,
+        "playRate": 1.95,
+        "picks": 68
       }
     },
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 12,
-        "winRate": 83.33
-      },
-      {
-        "name": "malians",
-        "games": 20,
-        "winRate": 75
+        "games": 14,
+        "winRate": 78.57
       },
       {
         "name": "incas",
@@ -410,33 +405,38 @@
         "name": "turks",
         "games": 17,
         "winRate": 70.59
+      },
+      {
+        "name": "malians",
+        "games": 23,
+        "winRate": 69.57
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 11,
-        "winRate": 9.09
+        "games": 12,
+        "winRate": 8.33
       },
       {
         "name": "goths",
-        "games": 19,
-        "winRate": 21.05
+        "games": 21,
+        "winRate": 23.81
       },
       {
         "name": "portuguese",
-        "games": 20,
-        "winRate": 35
+        "games": 22,
+        "winRate": 36.36
       },
       {
         "name": "khmer",
-        "games": 21,
-        "winRate": 38.1
+        "games": 24,
+        "winRate": 37.5
       },
       {
         "name": "malay",
-        "games": 17,
-        "winRate": 41.18
+        "games": 19,
+        "winRate": 42.11
       }
     ]
   },
