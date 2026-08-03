@@ -305,7 +305,7 @@ export function renderBuildOrders(bo, onBack) {
         : null,
       el('div', {}, ...(o.sources || []).map(namedTag)),
     ));
-  return el('main', { class: 'container detail' },
+  return el('main', { class: 'container detail reading' },
     el('button', { class: 'back-btn', onclick: onBack }, '← All civilizations'),
     el('h2', {}, bo.title || 'Build Orders', bo._meta?.outdated ? el('span', { class: 'tag', style: 'background:#f0d67a;color:#8a6d3b;margin-left:10px;vertical-align:middle' }, '⚠ Outdated') : null),
     bo._meta?.outdatedNote ? el('p', { class: 'muted small' }, bo._meta.outdatedNote) : null,
