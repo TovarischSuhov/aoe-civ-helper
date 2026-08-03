@@ -210,6 +210,10 @@ const nameSlug = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-'
 function civByName() {
   const m = {};
   for (const c of civOrderCached()) m[c.name.toLowerCase()] = c;
+  // aoestats.io keeps the historical plurals "Mayans"/"Incas" the game dropped (game names are
+  // "Maya"/"Inca"); alias them so opponent-name lookups resolve to the right civ + icon.
+  if (m['maya']) m['mayans'] = m['maya'];
+  if (m['inca']) m['incas'] = m['inca'];
   return m;
 }
 function realMatchupTable(rows) {
@@ -217,13 +221,17 @@ function realMatchupTable(rows) {
   const byName = civByName();
   return el('table', { class: 'stats match-tbl' },
     el('tbody', {}, ...rows.map((r) => {
-      const c = byName[(r.name || '').toLowerCase()] || {};
-      const slug = c.slug || nameSlug(r.name);
+      const rawName = r.name || '';
+      const c = byName[rawName.toLowerCase()] || {};
+      const slug = c.slug || nameSlug(rawName);
+      // aoestats opponent names are lowercase ("huns"); prefer the civ's display name so the link
+      // text + alt read capitalized, and the Maya/Inca plural resolves to the correct civ name.
+      const name = c.name || (rawName.charAt(0).toUpperCase() + rawName.slice(1));
       return el('tr', {},
         el('td', { class: 'match-civ' },
-          c.internalName ? el('img', { class: 'civ-icon-sm', src: iconUrl(c.internalName), alt: r.name, loading: 'lazy',
+          c.internalName ? el('img', { class: 'civ-icon-sm', src: iconUrl(c.internalName), alt: name, loading: 'lazy',
             onerror: function () { this.style.visibility = 'hidden'; } }) : null,
-          el('a', { href: `#/civ/${slug}` }, r.name)),
+          el('a', { href: `#/civ/${slug}` }, name)),
         el('td', { class: 'small muted' }, r.games != null ? r.games.toLocaleString() + ' games' : ''),
         el('td', {}, r.winRate != null ? el('span', { class: 'wr-pill ' + wrClass(r.winRate) }, r.winRate.toFixed(1) + '%') : ''));
     })));
