@@ -381,26 +381,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.07,
-    "playRate": 1.72,
-    "picks": 1091,
+    "winRate": 52.76,
+    "playRate": 1.71,
+    "picks": 1143,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-03T18:09:09.000Z",
-    "window": "2026-07-17 → 2026-08-03",
+    "updated": "2026-08-04T06:42:51.000Z",
+    "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malians",
     "byMapType": {
       "open": {
-        "winRate": 56.71,
-        "playRate": 1.94,
-        "picks": 298
+        "winRate": 56.73,
+        "playRate": 1.93,
+        "picks": 312
       },
       "other": {
-        "winRate": 52.75,
-        "playRate": 1.69,
-        "picks": 728
+        "winRate": 52.29,
+        "playRate": 1.68,
+        "picks": 763
       },
       "nomad": {
         "winRate": 33.33,
@@ -408,16 +408,16 @@
         "picks": 15
       },
       "closed": {
-        "winRate": 42,
-        "playRate": 1.29,
-        "picks": 50
+        "winRate": 41.51,
+        "playRate": 1.3,
+        "picks": 53
       }
     },
     "strongAgainst": [
       {
         "name": "goths",
-        "games": 21,
-        "winRate": 76.19
+        "games": 22,
+        "winRate": 77.27
       },
       {
         "name": "celts",
@@ -425,14 +425,14 @@
         "winRate": 73.33
       },
       {
-        "name": "persians",
-        "games": 26,
-        "winRate": 73.08
+        "name": "magyars",
+        "games": 43,
+        "winRate": 69.77
       },
       {
-        "name": "magyars",
-        "games": 40,
-        "winRate": 70
+        "name": "slavs",
+        "games": 23,
+        "winRate": 69.57
       },
       {
         "name": "tupi",
@@ -443,28 +443,28 @@
     "weakAgainst": [
       {
         "name": "khitans",
-        "games": 15,
-        "winRate": 20
+        "games": 16,
+        "winRate": 18.75
       },
       {
         "name": "mapuche",
-        "games": 8,
-        "winRate": 25
-      },
-      {
-        "name": "vikings",
-        "games": 19,
-        "winRate": 31.58
-      },
-      {
-        "name": "japanese",
-        "games": 22,
-        "winRate": 31.82
+        "games": 9,
+        "winRate": 22.22
       },
       {
         "name": "huns",
         "games": 25,
         "winRate": 32
+      },
+      {
+        "name": "turks",
+        "games": 12,
+        "winRate": 33.33
+      },
+      {
+        "name": "vikings",
+        "games": 21,
+        "winRate": 33.33
       }
     ]
   },

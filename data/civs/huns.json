@@ -353,26 +353,26 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.42,
+    "winRate": 52.19,
     "playRate": 2.22,
-    "picks": 1406,
+    "picks": 1483,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-03T18:09:09.000Z",
-    "window": "2026-07-17 → 2026-08-03",
+    "updated": "2026-08-04T06:42:51.000Z",
+    "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 52.65,
-        "playRate": 2.34,
-        "picks": 359
+        "winRate": 52.91,
+        "playRate": 2.33,
+        "picks": 378
       },
       "other": {
-        "winRate": 53.05,
-        "playRate": 2.2,
-        "picks": 950
+        "winRate": 52.58,
+        "playRate": 2.21,
+        "picks": 1006
       },
       "nomad": {
         "winRate": 37.5,
@@ -380,21 +380,26 @@
         "picks": 24
       },
       "closed": {
-        "winRate": 47.95,
-        "playRate": 1.89,
-        "picks": 73
+        "winRate": 48,
+        "playRate": 1.84,
+        "picks": 75
       }
     },
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 15,
-        "winRate": 80
+        "games": 16,
+        "winRate": 75
       },
       {
-        "name": "poles",
-        "games": 21,
-        "winRate": 71.43
+        "name": "turks",
+        "games": 23,
+        "winRate": 69.57
+      },
+      {
+        "name": "incas",
+        "games": 32,
+        "winRate": 68.75
       },
       {
         "name": "tupi",
@@ -405,11 +410,6 @@
         "name": "malians",
         "games": 25,
         "winRate": 68
-      },
-      {
-        "name": "incas",
-        "games": 31,
-        "winRate": 67.74
       }
     ],
     "weakAgainst": [
@@ -420,13 +420,13 @@
       },
       {
         "name": "goths",
-        "games": 22,
-        "winRate": 27.27
+        "games": 23,
+        "winRate": 30.43
       },
       {
         "name": "portuguese",
-        "games": 25,
-        "winRate": 36
+        "games": 26,
+        "winRate": 34.62
       },
       {
         "name": "khmer",

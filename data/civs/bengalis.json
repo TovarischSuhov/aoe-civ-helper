@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.51,
+    "winRate": 49.86,
     "playRate": 1.62,
-    "picks": 1026,
+    "picks": 1081,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-03T18:09:09.000Z",
-    "window": "2026-07-17 → 2026-08-03",
+    "updated": "2026-08-04T06:42:51.000Z",
+    "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 51.05,
-        "playRate": 1.54,
-        "picks": 666
+        "winRate": 51.13,
+        "playRate": 1.56,
+        "picks": 708
       },
       "open": {
-        "winRate": 44.18,
-        "playRate": 1.62,
-        "picks": 249
+        "winRate": 44.75,
+        "playRate": 1.59,
+        "picks": 257
       },
       "nomad": {
         "winRate": 50,
@@ -283,26 +283,26 @@
         "picks": 18
       },
       "closed": {
-        "winRate": 52.69,
-        "playRate": 2.4,
-        "picks": 93
+        "winRate": 54.08,
+        "playRate": 2.41,
+        "picks": 98
       }
     },
     "strongAgainst": [
       {
         "name": "goths",
-        "games": 13,
-        "winRate": 84.62
-      },
-      {
-        "name": "britons",
-        "games": 22,
-        "winRate": 77.27
+        "games": 15,
+        "winRate": 80
       },
       {
         "name": "bulgarians",
-        "games": 13,
-        "winRate": 76.92
+        "games": 14,
+        "winRate": 78.57
+      },
+      {
+        "name": "britons",
+        "games": 23,
+        "winRate": 78.26
       },
       {
         "name": "mapuche",
@@ -310,21 +310,21 @@
         "winRate": 75
       },
       {
-        "name": "italians",
-        "games": 12,
-        "winRate": 75
+        "name": "jurchens",
+        "games": 19,
+        "winRate": 68.42
       }
     ],
     "weakAgainst": [
       {
-        "name": "tupi",
-        "games": 13,
-        "winRate": 15.38
-      },
-      {
         "name": "romans",
         "games": 18,
         "winRate": 16.67
+      },
+      {
+        "name": "tupi",
+        "games": 15,
+        "winRate": 20
       },
       {
         "name": "aztecs",
@@ -332,14 +332,14 @@
         "winRate": 24
       },
       {
-        "name": "celts",
-        "games": 32,
+        "name": "berbers",
+        "games": 8,
         "winRate": 25
       },
       {
-        "name": "georgians",
-        "games": 18,
-        "winRate": 33.33
+        "name": "celts",
+        "games": 33,
+        "winRate": 27.27
       }
     ]
   },

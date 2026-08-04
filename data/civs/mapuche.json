@@ -378,31 +378,31 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 53.99,
-    "playRate": 1.21,
-    "picks": 765,
+    "winRate": 54.67,
+    "playRate": 1.2,
+    "picks": 803,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-03T18:09:09.000Z",
-    "window": "2026-07-17 → 2026-08-03",
+    "updated": "2026-08-04T06:42:51.000Z",
+    "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 54.29,
+        "winRate": 54.95,
         "playRate": 1.24,
-        "picks": 536
+        "picks": 566
       },
       "open": {
-        "winRate": 55.14,
-        "playRate": 1.21,
-        "picks": 185
+        "winRate": 55.73,
+        "playRate": 1.19,
+        "picks": 192
       },
       "closed": {
-        "winRate": 41.38,
-        "playRate": 0.75,
-        "picks": 29
+        "winRate": 43.33,
+        "playRate": 0.74,
+        "picks": 30
       },
       "nomad": {
         "winRate": 53.33,
@@ -412,24 +412,24 @@
     },
     "strongAgainst": [
       {
-        "name": "spanish",
-        "games": 21,
-        "winRate": 76.19
+        "name": "poles",
+        "games": 10,
+        "winRate": 80
       },
       {
         "name": "malians",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
+        "name": "ethiopians",
         "games": 8,
         "winRate": 75
       },
       {
-        "name": "poles",
-        "games": 8,
-        "winRate": 75
-      },
-      {
-        "name": "khitans",
-        "games": 18,
-        "winRate": 72.22
+        "name": "spanish",
+        "games": 22,
+        "winRate": 72.73
       },
       {
         "name": "bohemians",
@@ -444,17 +444,12 @@
         "winRate": 0
       },
       {
-        "name": "sicilians",
-        "games": 8,
-        "winRate": 25
-      },
-      {
         "name": "bengalis",
         "games": 12,
         "winRate": 25
       },
       {
-        "name": "goths",
+        "name": "sicilians",
         "games": 9,
         "winRate": 33.33
       },
@@ -462,6 +457,11 @@
         "name": "burmese",
         "games": 14,
         "winRate": 35.71
+      },
+      {
+        "name": "italians",
+        "games": 10,
+        "winRate": 40
       }
     ]
   },
