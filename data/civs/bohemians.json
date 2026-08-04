@@ -343,26 +343,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.32,
-    "playRate": 1.89,
-    "picks": 1260,
+    "winRate": 50.27,
+    "playRate": 1.88,
+    "picks": 1319,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-04T06:42:51.000Z",
+    "updated": "2026-08-04T18:05:17.000Z",
     "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 49.81,
+        "winRate": 49.1,
         "playRate": 1.62,
-        "picks": 263
+        "picks": 277
       },
       "other": {
-        "winRate": 50.73,
-        "playRate": 1.82,
-        "picks": 826
+        "winRate": 50.58,
+        "playRate": 1.8,
+        "picks": 860
       },
       "nomad": {
         "winRate": 25,
@@ -370,9 +370,9 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 50.94,
-        "playRate": 3.91,
-        "picks": 159
+        "winRate": 52.35,
+        "playRate": 4.02,
+        "picks": 170
       }
     },
     "strongAgainst": [
@@ -397,16 +397,21 @@
         "winRate": 65.22
       },
       {
-        "name": "berbers",
-        "games": 17,
-        "winRate": 64.71
+        "name": "japanese",
+        "games": 25,
+        "winRate": 64
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 16,
-        "winRate": 31.25
+        "games": 18,
+        "winRate": 27.78
+      },
+      {
+        "name": "mapuche",
+        "games": 17,
+        "winRate": 29.41
       },
       {
         "name": "wu",
@@ -414,19 +419,14 @@
         "winRate": 31.25
       },
       {
-        "name": "mapuche",
-        "games": 16,
-        "winRate": 31.25
+        "name": "burgundians",
+        "games": 50,
+        "winRate": 34
       },
       {
         "name": "dravidians",
-        "games": 19,
-        "winRate": 31.58
-      },
-      {
-        "name": "burgundians",
-        "games": 47,
-        "winRate": 31.91
+        "games": 20,
+        "winRate": 35
       }
     ]
   },

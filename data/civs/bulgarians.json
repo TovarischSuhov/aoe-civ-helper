@@ -288,12 +288,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.66,
-    "playRate": 1.62,
-    "picks": 1081,
+    "winRate": 49.01,
+    "playRate": 1.66,
+    "picks": 1163,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-04T06:42:51.000Z",
+    "updated": "2026-08-04T18:05:17.000Z",
     "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -301,18 +301,18 @@
     "byMapType": {
       "closed": {
         "winRate": 50,
-        "playRate": 1.92,
-        "picks": 78
+        "playRate": 1.89,
+        "picks": 80
       },
       "open": {
-        "winRate": 50.19,
-        "playRate": 1.64,
-        "picks": 265
+        "winRate": 51.71,
+        "playRate": 1.71,
+        "picks": 292
       },
       "other": {
-        "winRate": 47.8,
-        "playRate": 1.6,
-        "picks": 726
+        "winRate": 47.75,
+        "playRate": 1.63,
+        "picks": 779
       },
       "nomad": {
         "winRate": 58.33,
@@ -323,18 +323,18 @@
     "strongAgainst": [
       {
         "name": "burmese",
-        "games": 12,
-        "winRate": 83.33
+        "games": 13,
+        "winRate": 76.92
       },
       {
         "name": "turks",
-        "games": 17,
-        "winRate": 70.59
+        "games": 19,
+        "winRate": 73.68
       },
       {
-        "name": "jurchens",
-        "games": 15,
-        "winRate": 66.67
+        "name": "cumans",
+        "games": 28,
+        "winRate": 67.86
       },
       {
         "name": "teutons",
@@ -342,21 +342,21 @@
         "winRate": 64.29
       },
       {
-        "name": "cumans",
-        "games": 25,
-        "winRate": 64
+        "name": "sicilians",
+        "games": 22,
+        "winRate": 63.64
       }
     ],
     "weakAgainst": [
       {
-        "name": "bengalis",
-        "games": 14,
-        "winRate": 21.43
-      },
-      {
         "name": "muisca",
         "games": 8,
         "winRate": 25
+      },
+      {
+        "name": "bengalis",
+        "games": 15,
+        "winRate": 26.67
       },
       {
         "name": "shu",
@@ -365,13 +365,13 @@
       },
       {
         "name": "mongols",
-        "games": 45,
-        "winRate": 31.11
+        "games": 51,
+        "winRate": 31.37
       },
       {
-        "name": "mayans",
-        "games": 19,
-        "winRate": 36.84
+        "name": "romans",
+        "games": 9,
+        "winRate": 33.33
       }
     ]
   },

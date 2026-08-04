@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 53.54,
+    "winRate": 53.17,
     "playRate": 0.97,
-    "picks": 650,
+    "picks": 679,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-04T06:42:51.000Z",
+    "updated": "2026-08-04T18:05:17.000Z",
     "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
-        "winRate": 64.29,
-        "playRate": 1.03,
-        "picks": 42
+        "winRate": 65.91,
+        "playRate": 1.04,
+        "picks": 44
       },
       "other": {
-        "winRate": 50.58,
-        "playRate": 0.95,
-        "picks": 431
+        "winRate": 50,
+        "playRate": 0.94,
+        "picks": 452
       },
       "open": {
-        "winRate": 58.24,
-        "playRate": 1.05,
-        "picks": 170
+        "winRate": 57.95,
+        "playRate": 1.03,
+        "picks": 176
       },
       "nomad": {
         "winRate": 57.14,
@@ -387,8 +387,8 @@
     "strongAgainst": [
       {
         "name": "huns",
-        "games": 13,
-        "winRate": 92.31
+        "games": 14,
+        "winRate": 92.86
       },
       {
         "name": "teutons",
@@ -396,36 +396,31 @@
         "winRate": 78.57
       },
       {
+        "name": "wu",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
         "name": "turks",
         "games": 9,
         "winRate": 77.78
       },
       {
-        "name": "wu",
-        "games": 8,
-        "winRate": 75
-      },
-      {
-        "name": "jurchens",
-        "games": 8,
-        "winRate": 75
+        "name": "bulgarians",
+        "games": 13,
+        "winRate": 69.23
       }
     ],
     "weakAgainst": [
       {
-        "name": "portuguese",
-        "games": 8,
+        "name": "mayans",
+        "games": 12,
         "winRate": 25
       },
       {
-        "name": "mayans",
-        "games": 11,
-        "winRate": 27.27
-      },
-      {
         "name": "franks",
-        "games": 13,
-        "winRate": 30.77
+        "games": 14,
+        "winRate": 28.57
       },
       {
         "name": "lithuanians",
@@ -435,6 +430,11 @@
       {
         "name": "dravidians",
         "games": 15,
+        "winRate": 33.33
+      },
+      {
+        "name": "romans",
+        "games": 9,
         "winRate": 33.33
       }
     ]

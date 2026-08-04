@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.13,
-    "playRate": 1.06,
-    "picks": 709,
+    "winRate": 45.93,
+    "playRate": 1.07,
+    "picks": 749,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-04T06:42:51.000Z",
+    "updated": "2026-08-04T18:05:17.000Z",
     "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 46.61,
-        "playRate": 1.07,
-        "picks": 487
+        "winRate": 47.74,
+        "playRate": 1.06,
+        "picks": 509
       },
       "nomad": {
         "winRate": 60,
@@ -400,14 +400,14 @@
         "picks": 5
       },
       "open": {
-        "winRate": 39.1,
-        "playRate": 0.96,
-        "picks": 156
+        "winRate": 39.18,
+        "playRate": 1,
+        "picks": 171
       },
       "closed": {
-        "winRate": 47.54,
-        "playRate": 1.5,
-        "picks": 61
+        "winRate": 48.44,
+        "playRate": 1.51,
+        "picks": 64
       }
     },
     "strongAgainst": [
@@ -418,31 +418,26 @@
       },
       {
         "name": "italians",
-        "games": 14,
-        "winRate": 71.43
+        "games": 15,
+        "winRate": 66.67
+      },
+      {
+        "name": "aztecs",
+        "games": 13,
+        "winRate": 61.54
       },
       {
         "name": "turks",
-        "games": 16,
-        "winRate": 62.5
+        "games": 18,
+        "winRate": 61.11
       },
       {
-        "name": "mayans",
-        "games": 16,
-        "winRate": 62.5
-      },
-      {
-        "name": "georgians",
-        "games": 8,
-        "winRate": 62.5
+        "name": "byzantines",
+        "games": 15,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
-      {
-        "name": "spanish",
-        "games": 11,
-        "winRate": 18.18
-      },
       {
         "name": "poles",
         "games": 14,
@@ -459,9 +454,14 @@
         "winRate": 22.22
       },
       {
+        "name": "spanish",
+        "games": 13,
+        "winRate": 23.08
+      },
+      {
         "name": "huns",
-        "games": 16,
-        "winRate": 25
+        "games": 18,
+        "winRate": 27.78
       }
     ]
   },

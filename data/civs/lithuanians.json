@@ -338,26 +338,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.71,
-    "playRate": 1.94,
-    "picks": 1291,
+    "winRate": 46.88,
+    "playRate": 1.92,
+    "picks": 1346,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-04T06:42:51.000Z",
+    "updated": "2026-08-04T18:05:17.000Z",
     "window": "2026-07-17 → 2026-08-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/lithuanians",
     "byMapType": {
       "other": {
-        "winRate": 47.17,
-        "playRate": 1.94,
-        "picks": 884
+        "winRate": 47.03,
+        "playRate": 1.93,
+        "picks": 925
       },
       "open": {
-        "winRate": 46.08,
-        "playRate": 2.05,
-        "picks": 332
+        "winRate": 46.8,
+        "playRate": 2.02,
+        "picks": 344
       },
       "nomad": {
         "winRate": 45.45,
@@ -365,9 +365,9 @@
         "picks": 11
       },
       "closed": {
-        "winRate": 43.75,
-        "playRate": 1.57,
-        "picks": 64
+        "winRate": 45.45,
+        "playRate": 1.56,
+        "picks": 66
       }
     },
     "strongAgainst": [
@@ -382,6 +382,11 @@
         "winRate": 68.75
       },
       {
+        "name": "koreans",
+        "games": 22,
+        "winRate": 68.18
+      },
+      {
         "name": "khmer",
         "games": 31,
         "winRate": 67.74
@@ -390,11 +395,6 @@
         "name": "shu",
         "games": 12,
         "winRate": 66.67
-      },
-      {
-        "name": "burgundians",
-        "games": 26,
-        "winRate": 65.38
       }
     ],
     "weakAgainst": [
@@ -409,19 +409,19 @@
         "winRate": 32
       },
       {
+        "name": "mayans",
+        "games": 35,
+        "winRate": 34.29
+      },
+      {
         "name": "turks",
         "games": 23,
         "winRate": 34.78
       },
       {
-        "name": "berbers",
-        "games": 23,
-        "winRate": 34.78
-      },
-      {
         "name": "vietnamese",
-        "games": 37,
-        "winRate": 35.14
+        "games": 39,
+        "winRate": 35.9
       }
     ]
   },
