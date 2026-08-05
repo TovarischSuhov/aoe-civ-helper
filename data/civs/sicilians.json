@@ -303,26 +303,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.97,
-    "playRate": 1.91,
-    "picks": 1401,
+    "winRate": 48.72,
+    "playRate": 1.89,
+    "picks": 1441,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T06:44:03.000Z",
+    "updated": "2026-08-05T17:55:18.000Z",
     "window": "2026-07-17 → 2026-08-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 47.75,
-        "playRate": 1.98,
-        "picks": 356
+        "winRate": 47.53,
+        "playRate": 1.97,
+        "picks": 364
       },
       "other": {
-        "winRate": 50,
-        "playRate": 1.93,
-        "picks": 966
+        "winRate": 49.8,
+        "playRate": 1.91,
+        "picks": 994
       },
       "nomad": {
         "winRate": 38.46,
@@ -330,16 +330,16 @@
         "picks": 13
       },
       "closed": {
-        "winRate": 42.42,
-        "playRate": 1.49,
-        "picks": 66
+        "winRate": 41.43,
+        "playRate": 1.44,
+        "picks": 70
       }
     },
     "strongAgainst": [
       {
         "name": "hindustanis",
-        "games": 25,
-        "winRate": 80
+        "games": 27,
+        "winRate": 81.48
       },
       {
         "name": "mapuche",
@@ -347,19 +347,19 @@
         "winRate": 66.67
       },
       {
-        "name": "muisca",
-        "games": 9,
-        "winRate": 66.67
-      },
-      {
-        "name": "spanish",
-        "games": 26,
-        "winRate": 65.38
-      },
-      {
         "name": "lithuanians",
         "games": 24,
         "winRate": 62.5
+      },
+      {
+        "name": "byzantines",
+        "games": 23,
+        "winRate": 60.87
+      },
+      {
+        "name": "magyars",
+        "games": 51,
+        "winRate": 60.78
       }
     ],
     "weakAgainst": [
@@ -370,8 +370,8 @@
       },
       {
         "name": "jurchens",
-        "games": 14,
-        "winRate": 28.57
+        "games": 15,
+        "winRate": 26.67
       },
       {
         "name": "poles",
@@ -379,14 +379,14 @@
         "winRate": 32.14
       },
       {
+        "name": "bulgarians",
+        "games": 23,
+        "winRate": 34.78
+      },
+      {
         "name": "burmese",
         "games": 20,
         "winRate": 35
-      },
-      {
-        "name": "slavs",
-        "games": 22,
-        "winRate": 36.36
       }
     ]
   },

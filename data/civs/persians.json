@@ -328,21 +328,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52.7,
-    "playRate": 3,
-    "picks": 2203,
+    "winRate": 52.87,
+    "playRate": 3.01,
+    "picks": 2300,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T06:44:03.000Z",
+    "updated": "2026-08-05T17:55:18.000Z",
     "window": "2026-07-17 → 2026-08-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "open": {
-        "winRate": 51.01,
+        "winRate": 51.08,
         "playRate": 2.75,
-        "picks": 494
+        "picks": 509
       },
       "nomad": {
         "winRate": 65.96,
@@ -350,21 +350,21 @@
         "picks": 47
       },
       "other": {
-        "winRate": 52.9,
-        "playRate": 3.16,
-        "picks": 1586
+        "winRate": 52.98,
+        "playRate": 3.2,
+        "picks": 1663
       },
       "closed": {
-        "winRate": 51.32,
-        "playRate": 1.71,
-        "picks": 76
+        "winRate": 54.32,
+        "playRate": 1.67,
+        "picks": 81
       }
     },
     "strongAgainst": [
       {
-        "name": "cumans",
-        "games": 32,
-        "winRate": 65.63
+        "name": "turks",
+        "games": 34,
+        "winRate": 64.71
       },
       {
         "name": "incas",
@@ -372,46 +372,46 @@
         "winRate": 64.1
       },
       {
-        "name": "wei",
-        "games": 47,
-        "winRate": 63.83
+        "name": "berbers",
+        "games": 36,
+        "winRate": 63.89
       },
       {
-        "name": "shu",
-        "games": 22,
-        "winRate": 63.64
-      },
-      {
-        "name": "britons",
-        "games": 38,
+        "name": "slavs",
+        "games": 19,
         "winRate": 63.16
+      },
+      {
+        "name": "goths",
+        "games": 32,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 33,
-        "winRate": 30.3
-      },
-      {
-        "name": "malians",
-        "games": 32,
-        "winRate": 34.38
+        "games": 35,
+        "winRate": 34.29
       },
       {
         "name": "mapuche",
-        "games": 17,
-        "winRate": 35.29
+        "games": 20,
+        "winRate": 35
       },
       {
-        "name": "burgundians",
-        "games": 37,
-        "winRate": 40.54
+        "name": "malians",
+        "games": 36,
+        "winRate": 38.89
       },
       {
         "name": "sicilians",
-        "games": 46,
-        "winRate": 41.3
+        "games": 47,
+        "winRate": 42.55
+      },
+      {
+        "name": "burgundians",
+        "games": 39,
+        "winRate": 43.59
       }
     ]
   },

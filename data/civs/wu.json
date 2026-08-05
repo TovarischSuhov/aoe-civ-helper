@@ -351,21 +351,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.01,
+    "winRate": 46.63,
     "playRate": 1.05,
-    "picks": 770,
+    "picks": 800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T06:44:03.000Z",
+    "updated": "2026-08-05T17:55:18.000Z",
     "window": "2026-07-17 → 2026-08-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 46.62,
-        "playRate": 1.03,
-        "picks": 517
+        "winRate": 46.2,
+        "playRate": 1.04,
+        "picks": 539
       },
       "nomad": {
         "winRate": 63.64,
@@ -373,14 +373,14 @@
         "picks": 11
       },
       "open": {
-        "winRate": 45.77,
-        "playRate": 1.12,
-        "picks": 201
+        "winRate": 45.59,
+        "playRate": 1.1,
+        "picks": 204
       },
       "closed": {
-        "winRate": 53.66,
-        "playRate": 0.92,
-        "picks": 41
+        "winRate": 52.17,
+        "playRate": 0.95,
+        "picks": 46
       }
     },
     "strongAgainst": [
@@ -390,19 +390,19 @@
         "winRate": 78.57
       },
       {
-        "name": "burmese",
+        "name": "bohemians",
+        "games": 20,
+        "winRate": 70
+      },
+      {
+        "name": "vikings",
         "games": 10,
         "winRate": 70
       },
       {
-        "name": "bohemians",
-        "games": 19,
-        "winRate": 68.42
-      },
-      {
-        "name": "vikings",
-        "games": 9,
-        "winRate": 66.67
+        "name": "burmese",
+        "games": 10,
+        "winRate": 70
       },
       {
         "name": "koreans",
@@ -413,8 +413,8 @@
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 10,
-        "winRate": 0
+        "games": 12,
+        "winRate": 8.33
       },
       {
         "name": "shu",
@@ -422,19 +422,19 @@
         "winRate": 22.22
       },
       {
+        "name": "ethiopians",
+        "games": 22,
+        "winRate": 22.73
+      },
+      {
         "name": "berbers",
         "games": 13,
         "winRate": 23.08
       },
       {
-        "name": "ethiopians",
-        "games": 21,
-        "winRate": 23.81
-      },
-      {
         "name": "jurchens",
-        "games": 10,
-        "winRate": 30
+        "games": 11,
+        "winRate": 27.27
       }
     ]
   },

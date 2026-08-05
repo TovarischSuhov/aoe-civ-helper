@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.25,
-    "playRate": 1.55,
-    "picks": 1140,
+    "winRate": 52.91,
+    "playRate": 1.56,
+    "picks": 1187,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T06:44:03.000Z",
+    "updated": "2026-08-05T17:55:18.000Z",
     "window": "2026-07-17 → 2026-08-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 55.45,
-        "playRate": 1.69,
-        "picks": 303
+        "winRate": 54.84,
+        "playRate": 1.68,
+        "picks": 310
       },
       "other": {
-        "winRate": 52.96,
-        "playRate": 1.51,
-        "picks": 759
+        "winRate": 52.76,
+        "playRate": 1.53,
+        "picks": 796
       },
       "nomad": {
         "winRate": 33.33,
@@ -375,21 +375,16 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 1.49,
-        "picks": 66
+        "winRate": 49.28,
+        "playRate": 1.42,
+        "picks": 69
       }
     },
     "strongAgainst": [
       {
         "name": "bengalis",
-        "games": 19,
-        "winRate": 84.21
-      },
-      {
-        "name": "berbers",
-        "games": 13,
-        "winRate": 76.92
+        "games": 20,
+        "winRate": 80
       },
       {
         "name": "sicilians",
@@ -397,14 +392,19 @@
         "winRate": 75
       },
       {
-        "name": "turks",
+        "name": "bulgarians",
         "games": 10,
         "winRate": 70
       },
       {
-        "name": "bulgarians",
-        "games": 10,
-        "winRate": 70
+        "name": "turks",
+        "games": 13,
+        "winRate": 69.23
+      },
+      {
+        "name": "berbers",
+        "games": 16,
+        "winRate": 68.75
       }
     ],
     "weakAgainst": [
@@ -424,14 +424,14 @@
         "winRate": 39.13
       },
       {
+        "name": "wei",
+        "games": 27,
+        "winRate": 40.74
+      },
+      {
         "name": "tupi",
         "games": 12,
         "winRate": 41.67
-      },
-      {
-        "name": "vikings",
-        "games": 19,
-        "winRate": 42.11
       }
     ]
   },

@@ -350,31 +350,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.89,
-    "playRate": 1.83,
-    "picks": 1348,
+    "winRate": 51.07,
+    "playRate": 1.84,
+    "picks": 1402,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T06:44:03.000Z",
+    "updated": "2026-08-05T17:55:18.000Z",
     "window": "2026-07-17 → 2026-08-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
       "open": {
-        "winRate": 53.64,
+        "winRate": 54.31,
         "playRate": 2.07,
-        "picks": 371
+        "picks": 383
       },
       "closed": {
-        "winRate": 48,
+        "winRate": 46.34,
         "playRate": 1.69,
-        "picks": 75
+        "picks": 82
       },
       "other": {
-        "winRate": 50.06,
+        "winRate": 50.22,
         "playRate": 1.77,
-        "picks": 887
+        "picks": 922
       },
       "nomad": {
         "winRate": 46.67,
@@ -384,14 +384,14 @@
     },
     "strongAgainst": [
       {
-        "name": "teutons",
-        "games": 19,
-        "winRate": 73.68
+        "name": "celts",
+        "games": 20,
+        "winRate": 75
       },
       {
-        "name": "celts",
-        "games": 19,
-        "winRate": 73.68
+        "name": "georgians",
+        "games": 11,
+        "winRate": 72.73
       },
       {
         "name": "tupi",
@@ -399,41 +399,41 @@
         "winRate": 72.73
       },
       {
-        "name": "georgians",
-        "games": 10,
+        "name": "teutons",
+        "games": 20,
         "winRate": 70
       },
       {
         "name": "wu",
-        "games": 23,
-        "winRate": 69.57
+        "games": 26,
+        "winRate": 69.23
       }
     ],
     "weakAgainst": [
       {
-        "name": "byzantines",
-        "games": 15,
+        "name": "italians",
+        "games": 24,
         "winRate": 33.33
+      },
+      {
+        "name": "byzantines",
+        "games": 17,
+        "winRate": 35.29
       },
       {
         "name": "berbers",
-        "games": 27,
-        "winRate": 33.33
+        "games": 28,
+        "winRate": 35.71
+      },
+      {
+        "name": "jurchens",
+        "games": 19,
+        "winRate": 36.84
       },
       {
         "name": "persians",
-        "games": 47,
-        "winRate": 36.17
-      },
-      {
-        "name": "italians",
-        "games": 22,
-        "winRate": 36.36
-      },
-      {
-        "name": "mayans",
-        "games": 26,
-        "winRate": 38.46
+        "games": 50,
+        "winRate": 38
       }
     ]
   },
