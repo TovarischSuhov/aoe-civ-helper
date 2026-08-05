@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.93,
-    "playRate": 1.07,
-    "picks": 749,
+    "winRate": 45.77,
+    "playRate": 1.06,
+    "picks": 780,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-04T18:05:17.000Z",
-    "window": "2026-07-17 → 2026-08-04",
+    "updated": "2026-08-05T06:44:03.000Z",
+    "window": "2026-07-17 → 2026-08-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 47.74,
-        "playRate": 1.06,
-        "picks": 509
+        "winRate": 47.73,
+        "playRate": 1.05,
+        "picks": 528
       },
       "nomad": {
         "winRate": 60,
@@ -400,22 +400,17 @@
         "picks": 5
       },
       "open": {
-        "winRate": 39.18,
-        "playRate": 1,
-        "picks": 171
+        "winRate": 39.23,
+        "playRate": 1.01,
+        "picks": 181
       },
       "closed": {
-        "winRate": 48.44,
-        "playRate": 1.51,
-        "picks": 64
+        "winRate": 46.97,
+        "playRate": 1.49,
+        "picks": 66
       }
     },
     "strongAgainst": [
-      {
-        "name": "bulgarians",
-        "games": 8,
-        "winRate": 75
-      },
       {
         "name": "italians",
         "games": 15,
@@ -435,6 +430,11 @@
         "name": "byzantines",
         "games": 15,
         "winRate": 60
+      },
+      {
+        "name": "bulgarians",
+        "games": 12,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
@@ -454,14 +454,14 @@
         "winRate": 22.22
       },
       {
-        "name": "spanish",
-        "games": 13,
-        "winRate": 23.08
+        "name": "slavs",
+        "games": 8,
+        "winRate": 25
       },
       {
-        "name": "huns",
-        "games": 18,
-        "winRate": 27.78
+        "name": "spanish",
+        "games": 15,
+        "winRate": 26.67
       }
     ]
   },
