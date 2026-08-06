@@ -357,26 +357,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.2,
-    "playRate": 1.3,
-    "picks": 996,
+    "winRate": 51.77,
+    "playRate": 1.31,
+    "picks": 1045,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T17:55:18.000Z",
-    "window": "2026-07-17 → 2026-08-05",
+    "updated": "2026-08-06T06:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.71,
-        "playRate": 1.34,
-        "picks": 696
+        "winRate": 49.31,
+        "playRate": 1.35,
+        "picks": 728
       },
       "open": {
-        "winRate": 58.06,
-        "playRate": 1.34,
-        "picks": 248
+        "winRate": 59,
+        "playRate": 1.35,
+        "picks": 261
       },
       "nomad": {
         "winRate": 64.29,
@@ -384,26 +384,21 @@
         "picks": 14
       },
       "closed": {
-        "winRate": 47.37,
-        "playRate": 0.78,
-        "picks": 38
+        "winRate": 45.24,
+        "playRate": 0.79,
+        "picks": 42
       }
     },
     "strongAgainst": [
       {
         "name": "magyars",
-        "games": 23,
-        "winRate": 82.61
+        "games": 24,
+        "winRate": 83.33
       },
       {
         "name": "berbers",
-        "games": 9,
-        "winRate": 77.78
-      },
-      {
-        "name": "ethiopians",
-        "games": 9,
-        "winRate": 77.78
+        "games": 10,
+        "winRate": 80
       },
       {
         "name": "bengalis",
@@ -414,33 +409,38 @@
         "name": "burmese",
         "games": 12,
         "winRate": 75
+      },
+      {
+        "name": "ethiopians",
+        "games": 13,
+        "winRate": 69.23
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 22,
-        "winRate": 27.27
-      },
-      {
-        "name": "franks",
-        "games": 17,
-        "winRate": 29.41
+        "games": 25,
+        "winRate": 32
       },
       {
         "name": "huns",
-        "games": 24,
-        "winRate": 33.33
+        "games": 25,
+        "winRate": 32
       },
       {
-        "name": "aztecs",
-        "games": 15,
+        "name": "franks",
+        "games": 18,
         "winRate": 33.33
       },
       {
         "name": "saracens",
         "games": 11,
         "winRate": 36.36
+      },
+      {
+        "name": "slavs",
+        "games": 19,
+        "winRate": 36.84
       }
     ]
   },

@@ -323,31 +323,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.63,
+    "winRate": 48.59,
     "playRate": 3.06,
-    "picks": 2332,
+    "picks": 2439,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T17:55:18.000Z",
-    "window": "2026-07-17 → 2026-08-05",
+    "updated": "2026-08-06T06:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
       "closed": {
-        "winRate": 50.39,
-        "playRate": 2.62,
-        "picks": 127
+        "winRate": 52.11,
+        "playRate": 2.66,
+        "picks": 142
       },
       "other": {
-        "winRate": 47.29,
-        "playRate": 2.91,
-        "picks": 1512
+        "winRate": 47.37,
+        "playRate": 2.92,
+        "picks": 1577
       },
       "open": {
-        "winRate": 51.44,
-        "playRate": 3.57,
-        "picks": 661
+        "winRate": 50.73,
+        "playRate": 3.56,
+        "picks": 688
       },
       "nomad": {
         "winRate": 46.88,
@@ -358,18 +358,13 @@
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 31,
-        "winRate": 64.52
-      },
-      {
-        "name": "portuguese",
-        "games": 38,
-        "winRate": 63.16
+        "games": 33,
+        "winRate": 66.67
       },
       {
         "name": "berbers",
-        "games": 35,
-        "winRate": 62.86
+        "games": 38,
+        "winRate": 65.79
       },
       {
         "name": "gurjaras",
@@ -377,36 +372,41 @@
         "winRate": 62.07
       },
       {
-        "name": "britons",
-        "games": 36,
-        "winRate": 61.11
+        "name": "cumans",
+        "games": 40,
+        "winRate": 60
+      },
+      {
+        "name": "teutons",
+        "games": 30,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
       {
         "name": "bohemians",
-        "games": 25,
-        "winRate": 32
+        "games": 26,
+        "winRate": 30.77
       },
       {
         "name": "byzantines",
-        "games": 25,
-        "winRate": 36
-      },
-      {
-        "name": "franks",
-        "games": 44,
-        "winRate": 36.36
-      },
-      {
-        "name": "chinese",
-        "games": 75,
-        "winRate": 37.33
+        "games": 28,
+        "winRate": 32.14
       },
       {
         "name": "georgians",
-        "games": 21,
-        "winRate": 38.1
+        "games": 23,
+        "winRate": 34.78
+      },
+      {
+        "name": "chinese",
+        "games": 80,
+        "winRate": 37.5
+      },
+      {
+        "name": "franks",
+        "games": 45,
+        "winRate": 37.78
       }
     ]
   },

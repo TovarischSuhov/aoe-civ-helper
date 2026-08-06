@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.39,
+    "winRate": 46.36,
     "playRate": 1.05,
-    "picks": 804,
+    "picks": 837,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T17:55:18.000Z",
-    "window": "2026-07-17 → 2026-08-05",
+    "updated": "2026-08-06T06:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 48.17,
+        "winRate": 48.14,
         "playRate": 1.05,
-        "picks": 546
+        "picks": 565
       },
       "nomad": {
         "winRate": 60,
@@ -400,26 +400,21 @@
         "picks": 5
       },
       "open": {
-        "winRate": 40.32,
+        "winRate": 39.8,
         "playRate": 1.01,
-        "picks": 186
+        "picks": 196
       },
       "closed": {
-        "winRate": 47.76,
-        "playRate": 1.38,
-        "picks": 67
+        "winRate": 49.3,
+        "playRate": 1.33,
+        "picks": 71
       }
     },
     "strongAgainst": [
       {
         "name": "italians",
-        "games": 15,
-        "winRate": 66.67
-      },
-      {
-        "name": "aztecs",
-        "games": 14,
-        "winRate": 64.29
+        "games": 17,
+        "winRate": 70.59
       },
       {
         "name": "turks",
@@ -427,17 +422,27 @@
         "winRate": 61.11
       },
       {
+        "name": "aztecs",
+        "games": 15,
+        "winRate": 60
+      },
+      {
         "name": "byzantines",
         "games": 15,
         "winRate": 60
       },
       {
-        "name": "bulgarians",
-        "games": 12,
-        "winRate": 58.33
+        "name": "britons",
+        "games": 20,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
+      {
+        "name": "vikings",
+        "games": 10,
+        "winRate": 20
+      },
       {
         "name": "poles",
         "games": 14,
@@ -449,19 +454,14 @@
         "winRate": 21.43
       },
       {
-        "name": "vikings",
-        "games": 9,
-        "winRate": 22.22
-      },
-      {
         "name": "slavs",
         "games": 8,
         "winRate": 25
       },
       {
-        "name": "spanish",
-        "games": 15,
-        "winRate": 26.67
+        "name": "dravidians",
+        "games": 11,
+        "winRate": 27.27
       }
     ]
   },

@@ -347,31 +347,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.17,
+    "winRate": 50.98,
     "playRate": 1.67,
-    "picks": 1278,
+    "picks": 1328,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T17:55:18.000Z",
-    "window": "2026-07-17 → 2026-08-05",
+    "updated": "2026-08-06T06:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
       "open": {
-        "winRate": 52.2,
+        "winRate": 51.13,
         "playRate": 1.6,
-        "picks": 295
+        "picks": 309
       },
       "closed": {
-        "winRate": 44.29,
-        "playRate": 1.44,
-        "picks": 70
+        "winRate": 46.05,
+        "playRate": 1.42,
+        "picks": 76
       },
       "other": {
-        "winRate": 50.51,
-        "playRate": 1.7,
-        "picks": 883
+        "winRate": 50.49,
+        "playRate": 1.69,
+        "picks": 913
       },
       "nomad": {
         "winRate": 76.67,
@@ -387,13 +387,8 @@
       },
       {
         "name": "georgians",
-        "games": 16,
-        "winRate": 75
-      },
-      {
-        "name": "slavs",
-        "games": 18,
-        "winRate": 66.67
+        "games": 17,
+        "winRate": 70.59
       },
       {
         "name": "cumans",
@@ -404,6 +399,11 @@
         "name": "jurchens",
         "games": 17,
         "winRate": 64.71
+      },
+      {
+        "name": "slavs",
+        "games": 19,
+        "winRate": 63.16
       }
     ],
     "weakAgainst": [
@@ -411,11 +411,6 @@
         "name": "khitans",
         "games": 12,
         "winRate": 25
-      },
-      {
-        "name": "wei",
-        "games": 13,
-        "winRate": 30.77
       },
       {
         "name": "lithuanians",
@@ -431,6 +426,11 @@
         "name": "wu",
         "games": 14,
         "winRate": 35.71
+      },
+      {
+        "name": "khmer",
+        "games": 33,
+        "winRate": 36.36
       }
     ]
   },

@@ -332,21 +332,21 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 47.65,
+    "winRate": 47.95,
     "playRate": 1.62,
-    "picks": 1234,
+    "picks": 1291,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-05T17:55:18.000Z",
-    "window": "2026-07-17 → 2026-08-05",
+    "updated": "2026-08-06T06:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 48.69,
-        "playRate": 1.61,
-        "picks": 840
+        "winRate": 48.74,
+        "playRate": 1.62,
+        "picks": 876
       },
       "nomad": {
         "winRate": 55.56,
@@ -354,17 +354,22 @@
         "picks": 27
       },
       "open": {
-        "winRate": 43.88,
-        "playRate": 1.5,
-        "picks": 278
+        "winRate": 44.6,
+        "playRate": 1.48,
+        "picks": 287
       },
       "closed": {
-        "winRate": 47.19,
-        "playRate": 1.84,
-        "picks": 89
+        "winRate": 48.51,
+        "playRate": 1.89,
+        "picks": 101
       }
     },
     "strongAgainst": [
+      {
+        "name": "wu",
+        "games": 13,
+        "winRate": 69.23
+      },
       {
         "name": "wei",
         "games": 24,
@@ -376,19 +381,14 @@
         "winRate": 64.71
       },
       {
-        "name": "wu",
-        "games": 11,
-        "winRate": 63.64
+        "name": "bohemians",
+        "games": 25,
+        "winRate": 64
       },
       {
-        "name": "mapuche",
-        "games": 11,
+        "name": "gurjaras",
+        "games": 22,
         "winRate": 63.64
-      },
-      {
-        "name": "slavs",
-        "games": 16,
-        "winRate": 62.5
       }
     ],
     "weakAgainst": [
@@ -398,22 +398,22 @@
         "winRate": 26.32
       },
       {
+        "name": "muisca",
+        "games": 17,
+        "winRate": 29.41
+      },
+      {
+        "name": "bengalis",
+        "games": 17,
+        "winRate": 29.41
+      },
+      {
         "name": "malay",
         "games": 26,
         "winRate": 30.77
       },
       {
-        "name": "muisca",
-        "games": 15,
-        "winRate": 33.33
-      },
-      {
-        "name": "bengalis",
-        "games": 15,
-        "winRate": 33.33
-      },
-      {
-        "name": "shu",
+        "name": "georgians",
         "games": 15,
         "winRate": 33.33
       }
