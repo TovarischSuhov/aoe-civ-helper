@@ -330,26 +330,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.21,
-    "playRate": 1.68,
-    "picks": 1447,
+    "winRate": 49.43,
+    "playRate": 1.66,
+    "picks": 1483,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T05:52:33.000Z",
+    "updated": "2026-08-07T17:10:31.000Z",
     "window": "2026-07-17 → 2026-08-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
       "closed": {
-        "winRate": 58.13,
-        "playRate": 2.58,
-        "picks": 160
+        "winRate": 57.65,
+        "playRate": 2.56,
+        "picks": 170
       },
       "other": {
-        "winRate": 48.49,
-        "playRate": 1.66,
-        "picks": 963
+        "winRate": 48.73,
+        "playRate": 1.64,
+        "picks": 981
       },
       "nomad": {
         "winRate": 31.82,
@@ -357,31 +357,31 @@
         "picks": 22
       },
       "open": {
-        "winRate": 48.01,
-        "playRate": 1.45,
-        "picks": 302
+        "winRate": 48.39,
+        "playRate": 1.43,
+        "picks": 310
       }
     },
     "strongAgainst": [
-      {
-        "name": "byzantines",
-        "games": 16,
-        "winRate": 68.75
-      },
       {
         "name": "tatars",
         "games": 25,
         "winRate": 68
       },
       {
-        "name": "malay",
-        "games": 27,
-        "winRate": 66.67
-      },
-      {
         "name": "italians",
         "games": 26,
         "winRate": 65.38
+      },
+      {
+        "name": "byzantines",
+        "games": 17,
+        "winRate": 64.71
+      },
+      {
+        "name": "malay",
+        "games": 28,
+        "winRate": 64.29
       },
       {
         "name": "bengalis",
@@ -392,13 +392,18 @@
     "weakAgainst": [
       {
         "name": "slavs",
-        "games": 24,
-        "winRate": 25
+        "games": 25,
+        "winRate": 28
       },
       {
         "name": "bulgarians",
-        "games": 31,
-        "winRate": 32.26
+        "games": 32,
+        "winRate": 31.25
+      },
+      {
+        "name": "celts",
+        "games": 12,
+        "winRate": 33.33
       },
       {
         "name": "romans",
@@ -409,11 +414,6 @@
         "name": "chinese",
         "games": 30,
         "winRate": 33.33
-      },
-      {
-        "name": "koreans",
-        "games": 17,
-        "winRate": 35.29
       }
     ]
   },

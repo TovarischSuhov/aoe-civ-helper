@@ -300,26 +300,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.22,
-    "playRate": 2.56,
-    "picks": 2206,
+    "winRate": 51.03,
+    "playRate": 2.57,
+    "picks": 2289,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T05:52:33.000Z",
+    "updated": "2026-08-07T17:10:31.000Z",
     "window": "2026-07-17 → 2026-08-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
       "open": {
-        "winRate": 50.53,
-        "playRate": 2.25,
-        "picks": 471
+        "winRate": 50.21,
+        "playRate": 2.24,
+        "picks": 484
       },
       "other": {
         "winRate": 51.72,
-        "playRate": 2.75,
-        "picks": 1597
+        "playRate": 2.77,
+        "picks": 1659
       },
       "nomad": {
         "winRate": 52,
@@ -327,48 +327,43 @@
         "picks": 25
       },
       "closed": {
-        "winRate": 46.9,
+        "winRate": 44.63,
         "playRate": 1.82,
-        "picks": 113
+        "picks": 121
       }
     },
     "strongAgainst": [
-      {
-        "name": "poles",
-        "games": 24,
-        "winRate": 70.83
-      },
       {
         "name": "khitans",
         "games": 37,
         "winRate": 70.27
       },
       {
-        "name": "teutons",
-        "games": 47,
-        "winRate": 68.09
+        "name": "poles",
+        "games": 25,
+        "winRate": 68
       },
       {
         "name": "berbers",
-        "games": 36,
+        "games": 37,
+        "winRate": 67.57
+      },
+      {
+        "name": "teutons",
+        "games": 48,
         "winRate": 66.67
       },
       {
-        "name": "malians",
-        "games": 29,
-        "winRate": 65.52
+        "name": "bulgarians",
+        "games": 36,
+        "winRate": 63.89
       }
     ],
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 42,
-        "winRate": 33.33
-      },
-      {
-        "name": "bohemians",
-        "games": 28,
-        "winRate": 35.71
+        "games": 43,
+        "winRate": 34.88
       },
       {
         "name": "shu",
@@ -376,14 +371,19 @@
         "winRate": 37.5
       },
       {
-        "name": "wei",
-        "games": 39,
-        "winRate": 38.46
+        "name": "bohemians",
+        "games": 30,
+        "winRate": 40
       },
       {
-        "name": "mayans",
-        "games": 37,
-        "winRate": 40.54
+        "name": "wei",
+        "games": 40,
+        "winRate": 40
+      },
+      {
+        "name": "chinese",
+        "games": 53,
+        "winRate": 41.51
       }
     ]
   },
