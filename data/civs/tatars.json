@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.76,
-    "playRate": 1.6,
-    "picks": 1272,
+    "winRate": 49.96,
+    "playRate": 1.59,
+    "picks": 1369,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-06T06:48:20.000Z",
-    "window": "2026-07-17 → 2026-08-06",
+    "updated": "2026-08-07T05:52:33.000Z",
+    "window": "2026-07-17 → 2026-08-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 51.47,
-        "playRate": 1.59,
-        "picks": 307
+        "winRate": 52.6,
+        "playRate": 1.57,
+        "picks": 327
       },
       "nomad": {
         "winRate": 52.63,
@@ -357,26 +357,21 @@
         "picks": 19
       },
       "other": {
-        "winRate": 49.55,
-        "playRate": 1.64,
-        "picks": 884
+        "winRate": 49.37,
+        "playRate": 1.63,
+        "picks": 946
       },
       "closed": {
-        "winRate": 43.55,
-        "playRate": 1.16,
-        "picks": 62
+        "winRate": 45.45,
+        "playRate": 1.24,
+        "picks": 77
       }
     },
     "strongAgainst": [
       {
-        "name": "incas",
-        "games": 20,
-        "winRate": 65
-      },
-      {
-        "name": "georgians",
-        "games": 17,
-        "winRate": 64.71
+        "name": "teutons",
+        "games": 29,
+        "winRate": 65.52
       },
       {
         "name": "muisca",
@@ -384,41 +379,46 @@
         "winRate": 64.29
       },
       {
-        "name": "italians",
-        "games": 22,
-        "winRate": 63.64
+        "name": "georgians",
+        "games": 19,
+        "winRate": 63.16
       },
       {
-        "name": "teutons",
-        "games": 26,
-        "winRate": 61.54
+        "name": "incas",
+        "games": 21,
+        "winRate": 61.9
+      },
+      {
+        "name": "gurjaras",
+        "games": 23,
+        "winRate": 60.87
       }
     ],
     "weakAgainst": [
       {
+        "name": "saracens",
+        "games": 19,
+        "winRate": 31.58
+      },
+      {
         "name": "cumans",
+        "games": 25,
+        "winRate": 32
+      },
+      {
+        "name": "vikings",
         "games": 24,
         "winRate": 33.33
       },
       {
-        "name": "dravidians",
-        "games": 20,
-        "winRate": 35
-      },
-      {
-        "name": "saracens",
-        "games": 17,
-        "winRate": 35.29
+        "name": "mayans",
+        "games": 29,
+        "winRate": 34.48
       },
       {
         "name": "wei",
         "games": 25,
         "winRate": 36
-      },
-      {
-        "name": "vikings",
-        "games": 22,
-        "winRate": 36.36
       }
     ]
   },

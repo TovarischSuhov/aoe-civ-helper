@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.36,
+    "winRate": 46.84,
     "playRate": 1.05,
-    "picks": 837,
+    "picks": 903,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-06T06:48:20.000Z",
-    "window": "2026-07-17 → 2026-08-06",
+    "updated": "2026-08-07T05:52:33.000Z",
+    "window": "2026-07-17 → 2026-08-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 48.14,
-        "playRate": 1.05,
-        "picks": 565
+        "winRate": 48.59,
+        "playRate": 1.04,
+        "picks": 601
       },
       "nomad": {
         "winRate": 60,
@@ -400,49 +400,44 @@
         "picks": 5
       },
       "open": {
-        "winRate": 39.8,
-        "playRate": 1.01,
-        "picks": 196
+        "winRate": 40.47,
+        "playRate": 1.03,
+        "picks": 215
       },
       "closed": {
-        "winRate": 49.3,
-        "playRate": 1.33,
-        "picks": 71
+        "winRate": 50,
+        "playRate": 1.32,
+        "picks": 82
       }
     },
     "strongAgainst": [
       {
         "name": "italians",
+        "games": 19,
+        "winRate": 68.42
+      },
+      {
+        "name": "incas",
         "games": 17,
-        "winRate": 70.59
+        "winRate": 64.71
       },
       {
         "name": "turks",
-        "games": 18,
-        "winRate": 61.11
+        "games": 19,
+        "winRate": 63.16
       },
       {
-        "name": "aztecs",
-        "games": 15,
-        "winRate": 60
+        "name": "wu",
+        "games": 8,
+        "winRate": 62.5
       },
       {
         "name": "byzantines",
-        "games": 15,
-        "winRate": 60
-      },
-      {
-        "name": "britons",
-        "games": 20,
-        "winRate": 60
+        "games": 16,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
-      {
-        "name": "vikings",
-        "games": 10,
-        "winRate": 20
-      },
       {
         "name": "poles",
         "games": 14,
@@ -455,13 +450,18 @@
       },
       {
         "name": "slavs",
-        "games": 8,
-        "winRate": 25
+        "games": 9,
+        "winRate": 22.22
       },
       {
         "name": "dravidians",
-        "games": 11,
-        "winRate": 27.27
+        "games": 12,
+        "winRate": 25
+      },
+      {
+        "name": "huns",
+        "games": 19,
+        "winRate": 26.32
       }
     ]
   },
