@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.53,
-    "playRate": 1.53,
-    "picks": 1360,
+    "winRate": 53.44,
+    "playRate": 1.52,
+    "picks": 1409,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T17:10:31.000Z",
-    "window": "2026-07-17 → 2026-08-07",
+    "updated": "2026-08-08T05:11:02.000Z",
+    "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 55.18,
-        "playRate": 1.65,
-        "picks": 357
+        "winRate": 55.71,
+        "playRate": 1.64,
+        "picks": 368
       },
       "other": {
-        "winRate": 53.44,
-        "playRate": 1.5,
-        "picks": 902
+        "winRate": 53.04,
+        "playRate": 1.51,
+        "picks": 937
       },
       "nomad": {
         "winRate": 33.33,
@@ -375,16 +375,16 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 50.56,
-        "playRate": 1.34,
-        "picks": 89
+        "winRate": 51.09,
+        "playRate": 1.31,
+        "picks": 92
       }
     },
     "strongAgainst": [
       {
         "name": "sicilians",
-        "games": 22,
-        "winRate": 77.27
+        "games": 23,
+        "winRate": 73.91
       },
       {
         "name": "berbers",
@@ -398,13 +398,13 @@
       },
       {
         "name": "bulgarians",
-        "games": 13,
-        "winRate": 69.23
+        "games": 15,
+        "winRate": 73.33
       },
       {
-        "name": "slavs",
-        "games": 22,
-        "winRate": 68.18
+        "name": "turks",
+        "games": 17,
+        "winRate": 70.59
       }
     ],
     "weakAgainst": [
@@ -414,9 +414,14 @@
         "winRate": 31.58
       },
       {
+        "name": "teutons",
+        "games": 29,
+        "winRate": 37.93
+      },
+      {
         "name": "mayans",
-        "games": 28,
-        "winRate": 35.71
+        "games": 29,
+        "winRate": 37.93
       },
       {
         "name": "dravidians",
@@ -424,14 +429,9 @@
         "winRate": 38.1
       },
       {
-        "name": "teutons",
-        "games": 28,
-        "winRate": 39.29
-      },
-      {
         "name": "vikings",
-        "games": 22,
-        "winRate": 40.91
+        "games": 24,
+        "winRate": 41.67
       }
     ]
   },

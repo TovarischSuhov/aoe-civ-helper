@@ -351,21 +351,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 46.25,
-    "playRate": 1.02,
-    "picks": 906,
+    "winRate": 46.43,
+    "playRate": 1.01,
+    "picks": 939,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T17:10:31.000Z",
-    "window": "2026-07-17 → 2026-08-07",
+    "updated": "2026-08-08T05:11:02.000Z",
+    "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 45.82,
+        "winRate": 45.99,
         "playRate": 1,
-        "picks": 598
+        "picks": 624
       },
       "nomad": {
         "winRate": 63.64,
@@ -373,21 +373,26 @@
         "picks": 11
       },
       "open": {
-        "winRate": 45.53,
-        "playRate": 1.09,
-        "picks": 235
+        "winRate": 45.83,
+        "playRate": 1.07,
+        "picks": 240
       },
       "closed": {
         "winRate": 50,
-        "playRate": 0.93,
-        "picks": 62
+        "playRate": 0.91,
+        "picks": 64
       }
     },
     "strongAgainst": [
       {
         "name": "dravidians",
-        "games": 14,
-        "winRate": 78.57
+        "games": 15,
+        "winRate": 73.33
+      },
+      {
+        "name": "bohemians",
+        "games": 23,
+        "winRate": 65.22
       },
       {
         "name": "koreans",
@@ -395,7 +400,7 @@
         "winRate": 64.29
       },
       {
-        "name": "bohemians",
+        "name": "incas",
         "games": 22,
         "winRate": 63.64
       },
@@ -403,11 +408,6 @@
         "name": "vikings",
         "games": 11,
         "winRate": 63.64
-      },
-      {
-        "name": "franks",
-        "games": 19,
-        "winRate": 63.16
       }
     ],
     "weakAgainst": [
@@ -417,24 +417,24 @@
         "winRate": 22.22
       },
       {
-        "name": "khmer",
-        "games": 15,
-        "winRate": 26.67
-      },
-      {
-        "name": "italians",
-        "games": 15,
-        "winRate": 26.67
+        "name": "berbers",
+        "games": 17,
+        "winRate": 23.53
       },
       {
         "name": "ethiopians",
-        "games": 26,
-        "winRate": 26.92
+        "games": 29,
+        "winRate": 27.59
       },
       {
-        "name": "berbers",
-        "games": 14,
-        "winRate": 28.57
+        "name": "italians",
+        "games": 17,
+        "winRate": 29.41
+      },
+      {
+        "name": "khmer",
+        "games": 16,
+        "winRate": 31.25
       }
     ]
   },

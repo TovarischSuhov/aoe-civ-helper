@@ -306,31 +306,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.08,
-    "playRate": 1.95,
-    "picks": 1740,
+    "winRate": 49.36,
+    "playRate": 1.96,
+    "picks": 1811,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T17:10:31.000Z",
-    "window": "2026-07-17 → 2026-08-07",
+    "updated": "2026-08-08T05:11:02.000Z",
+    "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 47.74,
+        "winRate": 48.21,
         "playRate": 1.84,
-        "picks": 1106
+        "picks": 1145
       },
       "open": {
-        "winRate": 52.15,
-        "playRate": 2.16,
-        "picks": 466
+        "winRate": 52.13,
+        "playRate": 2.2,
+        "picks": 493
       },
       "closed": {
-        "winRate": 50.34,
-        "playRate": 2.18,
-        "picks": 145
+        "winRate": 50,
+        "playRate": 2.14,
+        "picks": 150
       },
       "nomad": {
         "winRate": 43.48,
@@ -341,18 +341,13 @@
     "strongAgainst": [
       {
         "name": "wu",
-        "games": 26,
-        "winRate": 73.08
+        "games": 29,
+        "winRate": 72.41
       },
       {
-        "name": "burmese",
-        "games": 22,
-        "winRate": 63.64
-      },
-      {
-        "name": "khmer",
-        "games": 52,
-        "winRate": 61.54
+        "name": "magyars",
+        "games": 55,
+        "winRate": 61.82
       },
       {
         "name": "jurchens",
@@ -360,16 +355,26 @@
         "winRate": 61.11
       },
       {
-        "name": "magyars",
-        "games": 51,
-        "winRate": 60.78
+        "name": "burmese",
+        "games": 23,
+        "winRate": 60.87
+      },
+      {
+        "name": "turks",
+        "games": 33,
+        "winRate": 60.61
       }
     ],
     "weakAgainst": [
       {
         "name": "tupi",
-        "games": 16,
-        "winRate": 25
+        "games": 18,
+        "winRate": 22.22
+      },
+      {
+        "name": "koreans",
+        "games": 25,
+        "winRate": 28
       },
       {
         "name": "mapuche",
@@ -377,19 +382,14 @@
         "winRate": 28.57
       },
       {
-        "name": "koreans",
-        "games": 24,
-        "winRate": 29.17
-      },
-      {
-        "name": "shu",
-        "games": 26,
-        "winRate": 34.62
-      },
-      {
         "name": "saracens",
-        "games": 26,
-        "winRate": 34.62
+        "games": 28,
+        "winRate": 35.71
+      },
+      {
+        "name": "portuguese",
+        "games": 38,
+        "winRate": 36.84
       }
     ]
   },

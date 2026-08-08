@@ -330,26 +330,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.43,
-    "playRate": 1.66,
-    "picks": 1483,
+    "winRate": 49.45,
+    "playRate": 1.68,
+    "picks": 1555,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T17:10:31.000Z",
-    "window": "2026-07-17 → 2026-08-07",
+    "updated": "2026-08-08T05:11:02.000Z",
+    "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
       "closed": {
-        "winRate": 57.65,
-        "playRate": 2.56,
-        "picks": 170
+        "winRate": 58.56,
+        "playRate": 2.58,
+        "picks": 181
       },
       "other": {
-        "winRate": 48.73,
-        "playRate": 1.64,
-        "picks": 981
+        "winRate": 48.74,
+        "playRate": 1.65,
+        "picks": 1028
       },
       "nomad": {
         "winRate": 31.82,
@@ -357,34 +357,34 @@
         "picks": 22
       },
       "open": {
-        "winRate": 48.39,
-        "playRate": 1.43,
-        "picks": 310
+        "winRate": 47.84,
+        "playRate": 1.44,
+        "picks": 324
       }
     },
     "strongAgainst": [
       {
-        "name": "tatars",
-        "games": 25,
-        "winRate": 68
+        "name": "byzantines",
+        "games": 20,
+        "winRate": 70
       },
       {
-        "name": "italians",
+        "name": "tatars",
         "games": 26,
         "winRate": 65.38
       },
       {
-        "name": "byzantines",
-        "games": 17,
-        "winRate": 64.71
-      },
-      {
-        "name": "malay",
-        "games": 28,
-        "winRate": 64.29
-      },
-      {
         "name": "bengalis",
+        "games": 31,
+        "winRate": 64.52
+      },
+      {
+        "name": "italians",
+        "games": 30,
+        "winRate": 63.33
+      },
+      {
+        "name": "wei",
         "games": 29,
         "winRate": 62.07
       }
@@ -392,28 +392,28 @@
     "weakAgainst": [
       {
         "name": "slavs",
-        "games": 25,
-        "winRate": 28
-      },
-      {
-        "name": "bulgarians",
-        "games": 32,
-        "winRate": 31.25
+        "games": 26,
+        "winRate": 26.92
       },
       {
         "name": "celts",
-        "games": 12,
-        "winRate": 33.33
-      },
-      {
-        "name": "romans",
-        "games": 21,
-        "winRate": 33.33
+        "games": 13,
+        "winRate": 30.77
       },
       {
         "name": "chinese",
-        "games": 30,
+        "games": 31,
+        "winRate": 32.26
+      },
+      {
+        "name": "bulgarians",
+        "games": 33,
         "winRate": 33.33
+      },
+      {
+        "name": "malians",
+        "games": 29,
+        "winRate": 34.48
       }
     ]
   },

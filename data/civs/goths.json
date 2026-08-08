@@ -336,21 +336,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.1,
+    "winRate": 47.09,
     "playRate": 1.43,
-    "picks": 1276,
+    "picks": 1323,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-07T17:10:31.000Z",
-    "window": "2026-07-17 → 2026-08-07",
+    "updated": "2026-08-08T05:11:02.000Z",
+    "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 47.31,
-        "playRate": 1.43,
-        "picks": 856
+        "winRate": 46.99,
+        "playRate": 1.42,
+        "picks": 881
       },
       "nomad": {
         "winRate": 46.67,
@@ -358,22 +358,17 @@
         "picks": 15
       },
       "closed": {
-        "winRate": 51.72,
-        "playRate": 1.31,
-        "picks": 87
+        "winRate": 52.63,
+        "playRate": 1.35,
+        "picks": 95
       },
       "open": {
-        "winRate": 45.28,
-        "playRate": 1.47,
-        "picks": 318
+        "winRate": 45.78,
+        "playRate": 1.48,
+        "picks": 332
       }
     },
     "strongAgainst": [
-      {
-        "name": "khitans",
-        "games": 10,
-        "winRate": 70
-      },
       {
         "name": "muisca",
         "games": 13,
@@ -381,45 +376,50 @@
       },
       {
         "name": "franks",
-        "games": 27,
-        "winRate": 66.67
-      },
-      {
-        "name": "wu",
-        "games": 24,
-        "winRate": 66.67
+        "games": 28,
+        "winRate": 64.29
       },
       {
         "name": "mapuche",
         "games": 14,
         "winRate": 64.29
+      },
+      {
+        "name": "poles",
+        "games": 25,
+        "winRate": 64
+      },
+      {
+        "name": "wu",
+        "games": 25,
+        "winRate": 64
       }
     ],
     "weakAgainst": [
       {
-        "name": "burmese",
+        "name": "celts",
         "games": 21,
         "winRate": 28.57
+      },
+      {
+        "name": "burmese",
+        "games": 22,
+        "winRate": 31.82
       },
       {
         "name": "burgundians",
-        "games": 21,
-        "winRate": 28.57
+        "games": 22,
+        "winRate": 31.82
       },
       {
-        "name": "celts",
-        "games": 20,
-        "winRate": 30
+        "name": "saracens",
+        "games": 29,
+        "winRate": 34.48
       },
       {
-        "name": "georgians",
-        "games": 12,
-        "winRate": 33.33
-      },
-      {
-        "name": "persians",
-        "games": 36,
-        "winRate": 33.33
+        "name": "hindustanis",
+        "games": 26,
+        "winRate": 34.62
       }
     ]
   },
