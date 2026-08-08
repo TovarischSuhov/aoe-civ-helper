@@ -314,31 +314,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.42,
+    "winRate": 48.59,
     "playRate": 1.4,
-    "picks": 1299,
+    "picks": 1344,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T05:11:02.000Z",
+    "updated": "2026-08-08T16:54:17.000Z",
     "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 49.83,
-        "playRate": 1.4,
-        "picks": 867
+        "winRate": 50.11,
+        "playRate": 1.39,
+        "picks": 890
       },
       "open": {
-        "winRate": 48.1,
-        "playRate": 1.53,
-        "picks": 343
+        "winRate": 47.49,
+        "playRate": 1.54,
+        "picks": 358
       },
       "closed": {
-        "winRate": 35.37,
-        "playRate": 1.17,
-        "picks": 82
+        "winRate": 38.2,
+        "playRate": 1.2,
+        "picks": 89
       },
       "nomad": {
         "winRate": 42.86,
@@ -348,14 +348,14 @@
     },
     "strongAgainst": [
       {
-        "name": "byzantines",
-        "games": 19,
-        "winRate": 73.68
-      },
-      {
         "name": "cumans",
         "games": 26,
         "winRate": 73.08
+      },
+      {
+        "name": "byzantines",
+        "games": 22,
+        "winRate": 72.73
       },
       {
         "name": "mapuche",
@@ -364,8 +364,8 @@
       },
       {
         "name": "khmer",
-        "games": 24,
-        "winRate": 70.83
+        "games": 25,
+        "winRate": 68
       },
       {
         "name": "armenians",
@@ -376,8 +376,8 @@
     "weakAgainst": [
       {
         "name": "turks",
-        "games": 24,
-        "winRate": 20.83
+        "games": 26,
+        "winRate": 23.08
       },
       {
         "name": "portuguese",
@@ -395,9 +395,9 @@
         "winRate": 30.77
       },
       {
-        "name": "malians",
-        "games": 26,
-        "winRate": 30.77
+        "name": "dravidians",
+        "games": 27,
+        "winRate": 33.33
       }
     ]
   },

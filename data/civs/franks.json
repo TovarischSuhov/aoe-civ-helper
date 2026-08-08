@@ -357,26 +357,26 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 49.49,
+    "winRate": 49.73,
     "playRate": 1.92,
-    "picks": 1778,
+    "picks": 1838,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T05:11:02.000Z",
+    "updated": "2026-08-08T16:54:17.000Z",
     "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 48.86,
+        "winRate": 48.94,
         "playRate": 1.91,
-        "picks": 1189
+        "picks": 1222
       },
       "open": {
-        "winRate": 51.24,
-        "playRate": 2.15,
-        "picks": 482
+        "winRate": 51.78,
+        "playRate": 2.17,
+        "picks": 506
       },
       "nomad": {
         "winRate": 41.18,
@@ -384,21 +384,16 @@
         "picks": 17
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 1.28,
-        "picks": 90
+        "winRate": 50.54,
+        "playRate": 1.25,
+        "picks": 93
       }
     },
     "strongAgainst": [
       {
         "name": "italians",
-        "games": 22,
-        "winRate": 72.73
-      },
-      {
-        "name": "portuguese",
-        "games": 39,
-        "winRate": 71.79
+        "games": 24,
+        "winRate": 75
       },
       {
         "name": "tupi",
@@ -406,26 +401,26 @@
         "winRate": 71.43
       },
       {
-        "name": "khmer",
-        "games": 39,
+        "name": "portuguese",
+        "games": 42,
+        "winRate": 69.05
+      },
+      {
+        "name": "burmese",
+        "games": 27,
         "winRate": 66.67
       },
       {
-        "name": "byzantines",
-        "games": 20,
-        "winRate": 65
+        "name": "khmer",
+        "games": 41,
+        "winRate": 65.85
       }
     ],
     "weakAgainst": [
       {
         "name": "magyars",
-        "games": 46,
-        "winRate": 32.61
-      },
-      {
-        "name": "celts",
-        "games": 31,
-        "winRate": 35.48
+        "games": 49,
+        "winRate": 34.69
       },
       {
         "name": "goths",
@@ -433,14 +428,19 @@
         "winRate": 35.71
       },
       {
+        "name": "georgians",
+        "games": 30,
+        "winRate": 36.67
+      },
+      {
         "name": "wu",
         "games": 19,
         "winRate": 36.84
       },
       {
-        "name": "georgians",
-        "games": 29,
-        "winRate": 37.93
+        "name": "gurjaras",
+        "games": 21,
+        "winRate": 38.1
       }
     ]
   },

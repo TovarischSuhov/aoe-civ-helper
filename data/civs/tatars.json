@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.52,
+    "winRate": 49.64,
     "playRate": 1.58,
-    "picks": 1464,
+    "picks": 1515,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T05:11:02.000Z",
+    "updated": "2026-08-08T16:54:17.000Z",
     "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 50.56,
-        "playRate": 1.59,
-        "picks": 356
+        "winRate": 50,
+        "playRate": 1.57,
+        "picks": 366
       },
       "nomad": {
         "winRate": 52.63,
@@ -357,14 +357,14 @@
         "picks": 19
       },
       "other": {
-        "winRate": 49.5,
-        "playRate": 1.61,
-        "picks": 1002
+        "winRate": 49.66,
+        "playRate": 1.62,
+        "picks": 1035
       },
       "closed": {
-        "winRate": 44.83,
-        "playRate": 1.24,
-        "picks": 87
+        "winRate": 47.37,
+        "playRate": 1.28,
+        "picks": 95
       }
     },
     "strongAgainst": [
@@ -372,16 +372,6 @@
         "name": "teutons",
         "games": 29,
         "winRate": 65.52
-      },
-      {
-        "name": "muisca",
-        "games": 14,
-        "winRate": 64.29
-      },
-      {
-        "name": "gurjaras",
-        "games": 25,
-        "winRate": 64
       },
       {
         "name": "georgians",
@@ -392,6 +382,16 @@
         "name": "aztecs",
         "games": 16,
         "winRate": 62.5
+      },
+      {
+        "name": "muisca",
+        "games": 16,
+        "winRate": 62.5
+      },
+      {
+        "name": "jurchens",
+        "games": 21,
+        "winRate": 61.9
       }
     ],
     "weakAgainst": [
@@ -406,19 +406,19 @@
         "winRate": 31.25
       },
       {
-        "name": "saracens",
-        "games": 21,
-        "winRate": 33.33
-      },
-      {
         "name": "wei",
         "games": 26,
         "winRate": 34.62
       },
       {
-        "name": "cumans",
-        "games": 26,
-        "winRate": 34.62
+        "name": "saracens",
+        "games": 22,
+        "winRate": 36.36
+      },
+      {
+        "name": "bengalis",
+        "games": 32,
+        "winRate": 37.5
       }
     ]
   },

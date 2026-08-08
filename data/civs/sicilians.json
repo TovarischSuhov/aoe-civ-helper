@@ -303,26 +303,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.94,
-    "playRate": 1.89,
-    "picks": 1747,
+    "winRate": 48.67,
+    "playRate": 1.88,
+    "picks": 1804,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T05:11:02.000Z",
+    "updated": "2026-08-08T16:54:17.000Z",
     "window": "2026-07-17 → 2026-08-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 47.56,
+        "winRate": 47.1,
         "playRate": 1.92,
-        "picks": 431
+        "picks": 448
       },
       "other": {
-        "winRate": 50.12,
+        "winRate": 50.08,
         "playRate": 1.93,
-        "picks": 1201
+        "picks": 1236
       },
       "nomad": {
         "winRate": 38.46,
@@ -330,9 +330,9 @@
         "picks": 13
       },
       "closed": {
-        "winRate": 42.16,
-        "playRate": 1.45,
-        "picks": 102
+        "winRate": 40.19,
+        "playRate": 1.44,
+        "picks": 107
       }
     },
     "strongAgainst": [
@@ -348,45 +348,45 @@
       },
       {
         "name": "byzantines",
-        "games": 26,
-        "winRate": 65.38
-      },
-      {
-        "name": "mapuche",
-        "games": 13,
-        "winRate": 61.54
+        "games": 28,
+        "winRate": 64.29
       },
       {
         "name": "dravidians",
         "games": 25,
         "winRate": 60
+      },
+      {
+        "name": "magyars",
+        "games": 59,
+        "winRate": 59.32
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 23,
-        "winRate": 26.09
-      },
-      {
-        "name": "poles",
-        "games": 34,
-        "winRate": 32.35
+        "games": 24,
+        "winRate": 29.17
       },
       {
         "name": "jurchens",
-        "games": 17,
-        "winRate": 35.29
+        "games": 18,
+        "winRate": 33.33
+      },
+      {
+        "name": "poles",
+        "games": 36,
+        "winRate": 33.33
       },
       {
         "name": "britons",
-        "games": 32,
-        "winRate": 37.5
+        "games": 37,
+        "winRate": 35.14
       },
       {
-        "name": "mayans",
-        "games": 37,
-        "winRate": 37.84
+        "name": "cumans",
+        "games": 35,
+        "winRate": 37.14
       }
     ]
   },
