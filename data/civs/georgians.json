@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.06,
-    "playRate": 1.21,
-    "picks": 1158,
+    "winRate": 47.24,
+    "playRate": 1.2,
+    "picks": 1194,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T16:54:17.000Z",
-    "window": "2026-07-17 → 2026-08-08",
+    "updated": "2026-08-09T05:22:51.000Z",
+    "window": "2026-07-17 → 2026-08-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 44.64,
-        "playRate": 1.2,
-        "picks": 280
+        "winRate": 45.1,
+        "playRate": 1.18,
+        "picks": 286
       },
       "other": {
-        "winRate": 48.99,
-        "playRate": 1.24,
-        "picks": 792
+        "winRate": 48.9,
+        "playRate": 1.23,
+        "picks": 816
       },
       "nomad": {
         "winRate": 30,
@@ -322,26 +322,16 @@
         "picks": 10
       },
       "closed": {
-        "winRate": 38.16,
-        "playRate": 1.02,
-        "picks": 76
+        "winRate": 40.24,
+        "playRate": 1.03,
+        "picks": 82
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 14,
-        "winRate": 78.57
-      },
-      {
-        "name": "burgundians",
-        "games": 15,
-        "winRate": 66.67
-      },
-      {
-        "name": "italians",
-        "games": 20,
-        "winRate": 65
+        "games": 16,
+        "winRate": 81.25
       },
       {
         "name": "franks",
@@ -349,9 +339,19 @@
         "winRate": 63.33
       },
       {
+        "name": "portuguese",
+        "games": 19,
+        "winRate": 63.16
+      },
+      {
         "name": "jurchens",
         "games": 19,
         "winRate": 63.16
+      },
+      {
+        "name": "burgundians",
+        "games": 16,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
@@ -361,14 +361,14 @@
         "winRate": 20
       },
       {
-        "name": "mayans",
-        "games": 29,
-        "winRate": 24.14
+        "name": "spanish",
+        "games": 23,
+        "winRate": 26.09
       },
       {
-        "name": "spanish",
-        "games": 22,
-        "winRate": 27.27
+        "name": "mayans",
+        "games": 30,
+        "winRate": 26.67
       },
       {
         "name": "koreans",

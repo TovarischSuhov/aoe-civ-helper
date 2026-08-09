@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.48,
+    "winRate": 48.62,
     "playRate": 2.26,
-    "picks": 2164,
+    "picks": 2246,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T16:54:17.000Z",
-    "window": "2026-07-17 → 2026-08-08",
+    "updated": "2026-08-09T05:22:51.000Z",
+    "window": "2026-07-17 → 2026-08-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
       "other": {
-        "winRate": 48.1,
+        "winRate": 48.23,
         "playRate": 2.22,
-        "picks": 1420
+        "picks": 1472
       },
       "closed": {
-        "winRate": 47.62,
-        "playRate": 2.83,
-        "picks": 210
+        "winRate": 46.58,
+        "playRate": 2.76,
+        "picks": 219
       },
       "nomad": {
         "winRate": 50,
@@ -350,43 +350,48 @@
         "picks": 12
       },
       "open": {
-        "winRate": 49.81,
-        "playRate": 2.24,
-        "picks": 522
+        "winRate": 50.46,
+        "playRate": 2.23,
+        "picks": 543
       }
     },
     "strongAgainst": [
       {
-        "name": "huns",
-        "games": 41,
-        "winRate": 68.29
-      },
-      {
         "name": "britons",
-        "games": 43,
-        "winRate": 67.44
+        "games": 49,
+        "winRate": 71.43
       },
       {
-        "name": "wu",
-        "games": 18,
+        "name": "huns",
+        "games": 45,
         "winRate": 66.67
       },
       {
-        "name": "incas",
-        "games": 45,
-        "winRate": 64.44
+        "name": "wu",
+        "games": 23,
+        "winRate": 65.22
       },
       {
         "name": "shu",
         "games": 14,
         "winRate": 64.29
+      },
+      {
+        "name": "muisca",
+        "games": 25,
+        "winRate": 64
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 60,
-        "winRate": 25
+        "games": 61,
+        "winRate": 24.59
+      },
+      {
+        "name": "slavs",
+        "games": 27,
+        "winRate": 29.63
       },
       {
         "name": "mapuche",
@@ -394,19 +399,14 @@
         "winRate": 31.82
       },
       {
-        "name": "slavs",
-        "games": 25,
-        "winRate": 32
-      },
-      {
         "name": "burgundians",
         "games": 40,
         "winRate": 32.5
       },
       {
-        "name": "lithuanians",
-        "games": 43,
-        "winRate": 32.56
+        "name": "franks",
+        "games": 42,
+        "winRate": 33.33
       }
     ]
   },

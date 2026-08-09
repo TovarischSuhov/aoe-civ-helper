@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.46,
-    "playRate": 1.51,
-    "picks": 1446,
+    "winRate": 52.86,
+    "playRate": 1.53,
+    "picks": 1519,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T16:54:17.000Z",
-    "window": "2026-07-17 → 2026-08-08",
+    "updated": "2026-08-09T05:22:51.000Z",
+    "window": "2026-07-17 → 2026-08-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 55.59,
-        "playRate": 1.61,
-        "picks": 376
+        "winRate": 55.33,
+        "playRate": 1.66,
+        "picks": 403
       },
       "other": {
-        "winRate": 53.07,
-        "playRate": 1.5,
-        "picks": 961
+        "winRate": 52.5,
+        "playRate": 1.51,
+        "picks": 1000
       },
       "nomad": {
         "winRate": 33.33,
@@ -375,26 +375,16 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 51.55,
+        "winRate": 49.04,
         "playRate": 1.31,
-        "picks": 97
+        "picks": 104
       }
     },
     "strongAgainst": [
       {
         "name": "berbers",
-        "games": 23,
-        "winRate": 73.91
-      },
-      {
-        "name": "bulgarians",
-        "games": 15,
-        "winRate": 73.33
-      },
-      {
-        "name": "sicilians",
-        "games": 24,
-        "winRate": 70.83
+        "games": 27,
+        "winRate": 77.78
       },
       {
         "name": "turks",
@@ -403,35 +393,45 @@
       },
       {
         "name": "celts",
-        "games": 22,
-        "winRate": 68.18
+        "games": 23,
+        "winRate": 69.57
+      },
+      {
+        "name": "bengalis",
+        "games": 26,
+        "winRate": 69.23
+      },
+      {
+        "name": "bulgarians",
+        "games": 16,
+        "winRate": 68.75
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 38,
-        "winRate": 31.58
-      },
-      {
-        "name": "teutons",
-        "games": 30,
-        "winRate": 36.67
-      },
-      {
-        "name": "mayans",
-        "games": 29,
-        "winRate": 37.93
+        "games": 39,
+        "winRate": 33.33
       },
       {
         "name": "dravidians",
-        "games": 21,
-        "winRate": 38.1
+        "games": 23,
+        "winRate": 34.78
       },
       {
-        "name": "burgundians",
-        "games": 28,
-        "winRate": 42.86
+        "name": "teutons",
+        "games": 31,
+        "winRate": 35.48
+      },
+      {
+        "name": "mayans",
+        "games": 31,
+        "winRate": 35.48
+      },
+      {
+        "name": "mongols",
+        "games": 103,
+        "winRate": 41.75
       }
     ]
   },

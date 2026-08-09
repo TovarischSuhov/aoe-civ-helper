@@ -361,26 +361,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.71,
+    "winRate": 47.42,
     "playRate": 1.67,
-    "picks": 1595,
+    "picks": 1664,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-08T16:54:17.000Z",
-    "window": "2026-07-17 → 2026-08-08",
+    "updated": "2026-08-09T05:22:51.000Z",
+    "window": "2026-07-17 → 2026-08-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
       "other": {
-        "winRate": 44.4,
-        "playRate": 1.56,
-        "picks": 1000
+        "winRate": 44.24,
+        "playRate": 1.57,
+        "picks": 1042
       },
       "closed": {
-        "winRate": 56.96,
-        "playRate": 3.19,
-        "picks": 237
+        "winRate": 56.57,
+        "playRate": 3.17,
+        "picks": 251
       },
       "nomad": {
         "winRate": 68.42,
@@ -388,21 +388,16 @@
         "picks": 19
       },
       "open": {
-        "winRate": 49.85,
-        "playRate": 1.46,
-        "picks": 339
+        "winRate": 49.15,
+        "playRate": 1.45,
+        "picks": 352
       }
     },
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 26,
-        "winRate": 76.92
-      },
-      {
-        "name": "hindustanis",
-        "games": 32,
-        "winRate": 68.75
+        "games": 27,
+        "winRate": 74.07
       },
       {
         "name": "khitans",
@@ -410,13 +405,18 @@
         "winRate": 68.42
       },
       {
+        "name": "hindustanis",
+        "games": 33,
+        "winRate": 66.67
+      },
+      {
         "name": "teutons",
         "games": 50,
         "winRate": 66
       },
       {
-        "name": "khmer",
-        "games": 34,
+        "name": "malians",
+        "games": 17,
         "winRate": 64.71
       }
     ],
@@ -428,13 +428,8 @@
       },
       {
         "name": "bulgarians",
-        "games": 26,
-        "winRate": 30.77
-      },
-      {
-        "name": "persians",
-        "games": 43,
-        "winRate": 32.56
+        "games": 27,
+        "winRate": 33.33
       },
       {
         "name": "italians",
@@ -442,9 +437,14 @@
         "winRate": 33.33
       },
       {
-        "name": "muisca",
-        "games": 24,
-        "winRate": 33.33
+        "name": "persians",
+        "games": 44,
+        "winRate": 34.09
+      },
+      {
+        "name": "huns",
+        "games": 35,
+        "winRate": 34.29
       }
     ]
   },
