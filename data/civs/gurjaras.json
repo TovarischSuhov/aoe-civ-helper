@@ -372,31 +372,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.63,
-    "playRate": 1.44,
-    "picks": 1426,
+    "winRate": 46.76,
+    "playRate": 1.42,
+    "picks": 1465,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-09T05:22:51.000Z",
+    "updated": "2026-08-09T16:56:23.000Z",
     "window": "2026-07-17 → 2026-08-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
       "other": {
-        "winRate": 47.03,
-        "playRate": 1.37,
-        "picks": 910
+        "winRate": 47.31,
+        "playRate": 1.36,
+        "picks": 930
       },
       "closed": {
-        "winRate": 49.07,
-        "playRate": 1.36,
-        "picks": 108
+        "winRate": 49.12,
+        "playRate": 1.35,
+        "picks": 114
       },
       "open": {
-        "winRate": 45.32,
-        "playRate": 1.63,
-        "picks": 395
+        "winRate": 45.1,
+        "playRate": 1.62,
+        "picks": 408
       },
       "nomad": {
         "winRate": 38.46,
@@ -407,18 +407,13 @@
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 31,
-        "winRate": 64.52
+        "games": 32,
+        "winRate": 65.63
       },
       {
         "name": "mongols",
         "games": 68,
         "winRate": 63.24
-      },
-      {
-        "name": "franks",
-        "games": 24,
-        "winRate": 62.5
       },
       {
         "name": "khitans",
@@ -429,6 +424,11 @@
         "name": "saracens",
         "games": 23,
         "winRate": 60.87
+      },
+      {
+        "name": "franks",
+        "games": 25,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -438,14 +438,9 @@
         "winRate": 32.14
       },
       {
-        "name": "bohemians",
+        "name": "mapuche",
         "games": 21,
         "winRate": 33.33
-      },
-      {
-        "name": "mapuche",
-        "games": 20,
-        "winRate": 35
       },
       {
         "name": "poles",
@@ -454,6 +449,11 @@
       },
       {
         "name": "romans",
+        "games": 22,
+        "winRate": 36.36
+      },
+      {
+        "name": "bohemians",
         "games": 22,
         "winRate": 36.36
       }

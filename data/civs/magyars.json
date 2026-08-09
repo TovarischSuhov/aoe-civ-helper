@@ -273,31 +273,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.95,
+    "winRate": 47.68,
     "playRate": 3.02,
-    "picks": 3001,
+    "picks": 3102,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-09T05:22:51.000Z",
+    "updated": "2026-08-09T16:56:23.000Z",
     "window": "2026-07-17 → 2026-08-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
       "other": {
-        "winRate": 48.72,
-        "playRate": 3.02,
-        "picks": 1997
+        "winRate": 48.39,
+        "playRate": 3.01,
+        "picks": 2056
       },
       "open": {
-        "winRate": 45.88,
-        "playRate": 3.29,
-        "picks": 800
+        "winRate": 45.32,
+        "playRate": 3.27,
+        "picks": 823
       },
       "closed": {
-        "winRate": 49.17,
-        "playRate": 2.28,
-        "picks": 181
+        "winRate": 50.5,
+        "playRate": 2.37,
+        "picks": 200
       },
       "nomad": {
         "winRate": 43.48,
@@ -307,19 +307,19 @@
     },
     "strongAgainst": [
       {
+        "name": "aztecs",
+        "games": 52,
+        "winRate": 65.38
+      },
+      {
         "name": "khitans",
         "games": 57,
         "winRate": 64.91
       },
       {
-        "name": "aztecs",
-        "games": 51,
-        "winRate": 64.71
-      },
-      {
         "name": "teutons",
-        "games": 35,
-        "winRate": 62.86
+        "games": 36,
+        "winRate": 63.89
       },
       {
         "name": "franks",
@@ -327,31 +327,31 @@
         "winRate": 60.38
       },
       {
-        "name": "portuguese",
-        "games": 52,
-        "winRate": 59.62
+        "name": "jurchens",
+        "games": 45,
+        "winRate": 57.78
       }
     ],
     "weakAgainst": [
       {
         "name": "tupi",
-        "games": 32,
-        "winRate": 25
+        "games": 33,
+        "winRate": 24.24
       },
       {
         "name": "malians",
-        "games": 58,
-        "winRate": 36.21
-      },
-      {
-        "name": "armenians",
-        "games": 48,
-        "winRate": 37.5
+        "games": 61,
+        "winRate": 36.07
       },
       {
         "name": "saracens",
-        "games": 31,
-        "winRate": 38.71
+        "games": 33,
+        "winRate": 36.36
+      },
+      {
+        "name": "armenians",
+        "games": 49,
+        "winRate": 38.78
       },
       {
         "name": "tatars",
