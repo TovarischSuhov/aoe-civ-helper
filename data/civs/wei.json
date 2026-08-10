@@ -350,31 +350,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.08,
-    "playRate": 1.77,
-    "picks": 1887,
+    "winRate": 50.39,
+    "playRate": 1.76,
+    "picks": 1925,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
       "open": {
-        "winRate": 52.71,
+        "winRate": 52.74,
         "playRate": 1.98,
-        "picks": 516
+        "picks": 529
       },
       "closed": {
-        "winRate": 44.14,
+        "winRate": 45.7,
         "playRate": 1.63,
-        "picks": 145
+        "picks": 151
       },
       "other": {
-        "winRate": 49.71,
-        "playRate": 1.71,
-        "picks": 1211
+        "winRate": 50,
+        "playRate": 1.7,
+        "picks": 1230
       },
       "nomad": {
         "winRate": 46.67,
@@ -385,8 +385,8 @@
     "strongAgainst": [
       {
         "name": "georgians",
-        "games": 18,
-        "winRate": 72.22
+        "games": 19,
+        "winRate": 73.68
       },
       {
         "name": "celts",
@@ -399,41 +399,41 @@
         "winRate": 68.18
       },
       {
-        "name": "teutons",
-        "games": 25,
-        "winRate": 68
+        "name": "tupi",
+        "games": 35,
+        "winRate": 65.71
       },
       {
-        "name": "tupi",
-        "games": 33,
-        "winRate": 66.67
+        "name": "teutons",
+        "games": 26,
+        "winRate": 65.38
       }
     ],
     "weakAgainst": [
-      {
-        "name": "cumans",
-        "games": 32,
-        "winRate": 34.38
-      },
       {
         "name": "italians",
         "games": 28,
         "winRate": 35.71
       },
       {
-        "name": "shu",
-        "games": 14,
-        "winRate": 35.71
-      },
-      {
-        "name": "khmer",
-        "games": 44,
-        "winRate": 38.64
+        "name": "cumans",
+        "games": 34,
+        "winRate": 38.24
       },
       {
         "name": "huns",
-        "games": 48,
-        "winRate": 39.58
+        "games": 49,
+        "winRate": 38.78
+      },
+      {
+        "name": "khmer",
+        "games": 45,
+        "winRate": 40
+      },
+      {
+        "name": "shu",
+        "games": 15,
+        "winRate": 40
       }
     ]
   },

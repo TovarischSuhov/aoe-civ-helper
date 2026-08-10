@@ -349,29 +349,29 @@
   "stats": {
     "winRate": 50.81,
     "playRate": 1.63,
-    "picks": 1734,
+    "picks": 1781,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 50.68,
-        "playRate": 1.64,
-        "picks": 146
+        "winRate": 50,
+        "playRate": 1.6,
+        "picks": 148
       },
       "other": {
-        "winRate": 51.23,
+        "winRate": 51.16,
         "playRate": 1.61,
-        "picks": 1134
+        "picks": 1165
       },
       "open": {
-        "winRate": 50.45,
-        "playRate": 1.69,
-        "picks": 440
+        "winRate": 50.88,
+        "playRate": 1.7,
+        "picks": 454
       },
       "nomad": {
         "winRate": 28.57,
@@ -391,6 +391,11 @@
         "winRate": 68.75
       },
       {
+        "name": "byzantines",
+        "games": 28,
+        "winRate": 67.86
+      },
+      {
         "name": "goths",
         "games": 28,
         "winRate": 67.86
@@ -399,38 +404,33 @@
         "name": "italians",
         "games": 33,
         "winRate": 66.67
-      },
-      {
-        "name": "byzantines",
-        "games": 27,
-        "winRate": 66.67
       }
     ],
     "weakAgainst": [
+      {
+        "name": "jurchens",
+        "games": 27,
+        "winRate": 29.63
+      },
       {
         "name": "wei",
         "games": 22,
         "winRate": 31.82
       },
       {
-        "name": "jurchens",
-        "games": 25,
-        "winRate": 32
+        "name": "berbers",
+        "games": 20,
+        "winRate": 35
+      },
+      {
+        "name": "magyars",
+        "games": 54,
+        "winRate": 35.19
       },
       {
         "name": "celts",
-        "games": 32,
-        "winRate": 34.38
-      },
-      {
-        "name": "vikings",
-        "games": 29,
-        "winRate": 34.48
-      },
-      {
-        "name": "tatars",
-        "games": 20,
-        "winRate": 35
+        "games": 34,
+        "winRate": 35.29
       }
     ]
   },

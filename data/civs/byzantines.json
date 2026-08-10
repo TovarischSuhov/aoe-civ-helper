@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.21,
+    "winRate": 49.23,
     "playRate": 1.61,
-    "picks": 1715,
+    "picks": 1755,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 48.09,
-        "playRate": 1.51,
-        "picks": 393
+        "winRate": 48.37,
+        "playRate": 1.49,
+        "picks": 399
       },
       "nomad": {
         "winRate": 62.5,
@@ -302,26 +302,31 @@
         "picks": 16
       },
       "other": {
-        "winRate": 49.36,
-        "playRate": 1.66,
-        "picks": 1175
+        "winRate": 49.29,
+        "playRate": 1.67,
+        "picks": 1205
       },
       "closed": {
-        "winRate": 49.62,
-        "playRate": 1.47,
-        "picks": 131
+        "winRate": 49.63,
+        "playRate": 1.46,
+        "picks": 135
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 29,
-        "winRate": 68.97
+        "games": 30,
+        "winRate": 70
+      },
+      {
+        "name": "teutons",
+        "games": 28,
+        "winRate": 67.86
       },
       {
         "name": "dravidians",
-        "games": 30,
-        "winRate": 66.67
+        "games": 31,
+        "winRate": 67.74
       },
       {
         "name": "portuguese",
@@ -329,41 +334,36 @@
         "winRate": 66.67
       },
       {
-        "name": "teutons",
-        "games": 27,
-        "winRate": 66.67
-      },
-      {
-        "name": "turks",
-        "games": 27,
-        "winRate": 62.96
+        "name": "incas",
+        "games": 44,
+        "winRate": 63.64
       }
     ],
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 30,
-        "winRate": 26.67
+        "games": 31,
+        "winRate": 25.81
       },
       {
-        "name": "tupi",
-        "games": 20,
-        "winRate": 30
+        "name": "slavs",
+        "games": 26,
+        "winRate": 30.77
+      },
+      {
+        "name": "muisca",
+        "games": 19,
+        "winRate": 31.58
+      },
+      {
+        "name": "aztecs",
+        "games": 28,
+        "winRate": 32.14
       },
       {
         "name": "burmese",
         "games": 28,
         "winRate": 32.14
-      },
-      {
-        "name": "muisca",
-        "games": 18,
-        "winRate": 33.33
-      },
-      {
-        "name": "slavs",
-        "games": 24,
-        "winRate": 33.33
       }
     ]
   },

@@ -328,21 +328,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.97,
-    "playRate": 2.98,
-    "picks": 3173,
+    "winRate": 51.99,
+    "playRate": 2.96,
+    "picks": 3237,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "open": {
-        "winRate": 50.4,
-        "playRate": 2.89,
-        "picks": 754
+        "winRate": 50.97,
+        "playRate": 2.91,
+        "picks": 777
       },
       "nomad": {
         "winRate": 65.96,
@@ -350,14 +350,14 @@
         "picks": 47
       },
       "other": {
-        "winRate": 52.37,
-        "playRate": 3.14,
-        "picks": 2215
+        "winRate": 52.36,
+        "playRate": 3.11,
+        "picks": 2246
       },
       "closed": {
-        "winRate": 49.68,
-        "playRate": 1.77,
-        "picks": 157
+        "winRate": 47.9,
+        "playRate": 1.81,
+        "picks": 167
       }
     },
     "strongAgainst": [
@@ -365,11 +365,6 @@
         "name": "turks",
         "games": 47,
         "winRate": 63.83
-      },
-      {
-        "name": "burmese",
-        "games": 33,
-        "winRate": 63.64
       },
       {
         "name": "poles",
@@ -382,9 +377,14 @@
         "winRate": 62.5
       },
       {
+        "name": "burmese",
+        "games": 34,
+        "winRate": 61.76
+      },
+      {
         "name": "tupi",
-        "games": 47,
-        "winRate": 61.7
+        "games": 48,
+        "winRate": 60.42
       }
     ],
     "weakAgainst": [
@@ -400,18 +400,18 @@
       },
       {
         "name": "mayans",
-        "games": 69,
-        "winRate": 39.13
-      },
-      {
-        "name": "koreans",
-        "games": 34,
-        "winRate": 41.18
+        "games": 72,
+        "winRate": 40.28
       },
       {
         "name": "bohemians",
-        "games": 52,
-        "winRate": 42.31
+        "games": 53,
+        "winRate": 41.51
+      },
+      {
+        "name": "koreans",
+        "games": 35,
+        "winRate": 42.86
       }
     ]
   },

@@ -275,26 +275,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.47,
-    "playRate": 2.55,
-    "picks": 2716,
+    "winRate": 51.27,
+    "playRate": 2.56,
+    "picks": 2801,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
       "other": {
-        "winRate": 52.65,
-        "playRate": 2.54,
-        "picks": 1795
+        "winRate": 52.46,
+        "playRate": 2.56,
+        "picks": 1851
       },
       "open": {
-        "winRate": 48.51,
-        "playRate": 2.32,
-        "picks": 606
+        "winRate": 48.23,
+        "playRate": 2.33,
+        "picks": 622
       },
       "nomad": {
         "winRate": 35.9,
@@ -302,16 +302,16 @@
         "picks": 39
       },
       "closed": {
-        "winRate": 52.54,
-        "playRate": 3.1,
-        "picks": 276
+        "winRate": 52.25,
+        "playRate": 3.13,
+        "picks": 289
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 33,
-        "winRate": 78.79
+        "games": 35,
+        "winRate": 77.14
       },
       {
         "name": "georgians",
@@ -325,23 +325,28 @@
       },
       {
         "name": "burgundians",
-        "games": 78,
-        "winRate": 64.1
+        "games": 84,
+        "winRate": 64.29
       },
       {
         "name": "teutons",
-        "games": 51,
-        "winRate": 62.75
+        "games": 52,
+        "winRate": 63.46
       }
     ],
     "weakAgainst": [
       {
         "name": "mapuche",
-        "games": 40,
-        "winRate": 32.5
+        "games": 41,
+        "winRate": 31.71
       },
       {
         "name": "britons",
+        "games": 45,
+        "winRate": 33.33
+      },
+      {
+        "name": "aztecs",
         "games": 43,
         "winRate": 34.88
       },
@@ -349,11 +354,6 @@
         "name": "bengalis",
         "games": 45,
         "winRate": 35.56
-      },
-      {
-        "name": "aztecs",
-        "games": 41,
-        "winRate": 36.59
       },
       {
         "name": "shu",

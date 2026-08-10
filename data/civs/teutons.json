@@ -296,21 +296,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 45.89,
+    "winRate": 45.67,
     "playRate": 1.8,
-    "picks": 1920,
+    "picks": 1962,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
       "closed": {
-        "winRate": 46.3,
-        "playRate": 2.89,
-        "picks": 257
+        "winRate": 46.64,
+        "playRate": 2.9,
+        "picks": 268
       },
       "nomad": {
         "winRate": 50,
@@ -318,14 +318,14 @@
         "picks": 14
       },
       "other": {
-        "winRate": 45.58,
-        "playRate": 1.7,
-        "picks": 1200
+        "winRate": 45.38,
+        "playRate": 1.69,
+        "picks": 1223
       },
       "open": {
-        "winRate": 46.33,
-        "playRate": 1.72,
-        "picks": 449
+        "winRate": 45.73,
+        "playRate": 1.71,
+        "picks": 457
       }
     },
     "strongAgainst": [
@@ -340,17 +340,17 @@
         "winRate": 64.52
       },
       {
-        "name": "gurjaras",
-        "games": 31,
-        "winRate": 64.52
+        "name": "cumans",
+        "games": 44,
+        "winRate": 61.36
       },
       {
         "name": "sicilians",
-        "games": 30,
-        "winRate": 63.33
+        "games": 31,
+        "winRate": 61.29
       },
       {
-        "name": "britons",
+        "name": "gurjaras",
         "games": 33,
         "winRate": 60.61
       }
@@ -362,9 +362,14 @@
         "winRate": 23.53
       },
       {
+        "name": "shu",
+        "games": 23,
+        "winRate": 30.43
+      },
+      {
         "name": "mongols",
-        "games": 70,
-        "winRate": 30
+        "games": 72,
+        "winRate": 30.56
       },
       {
         "name": "jurchens",
@@ -372,14 +377,9 @@
         "winRate": 31.82
       },
       {
-        "name": "shu",
-        "games": 22,
-        "winRate": 31.82
-      },
-      {
-        "name": "wei",
-        "games": 25,
-        "winRate": 32
+        "name": "japanese",
+        "games": 53,
+        "winRate": 32.08
       }
     ]
   },

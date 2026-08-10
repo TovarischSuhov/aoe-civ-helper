@@ -313,26 +313,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.55,
+    "winRate": 50.4,
     "playRate": 1.96,
-    "picks": 2087,
+    "picks": 2145,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
-        "winRate": 48.93,
-        "playRate": 1.97,
-        "picks": 515
+        "winRate": 48.66,
+        "playRate": 1.96,
+        "picks": 524
       },
       "other": {
-        "winRate": 51.23,
-        "playRate": 1.9,
-        "picks": 1345
+        "winRate": 51.08,
+        "playRate": 1.91,
+        "picks": 1384
       },
       "nomad": {
         "winRate": 47.06,
@@ -340,16 +340,16 @@
         "picks": 17
       },
       "closed": {
-        "winRate": 50.48,
-        "playRate": 2.36,
-        "picks": 210
+        "winRate": 50.45,
+        "playRate": 2.38,
+        "picks": 220
       }
     },
     "strongAgainst": [
       {
         "name": "khitans",
-        "games": 21,
-        "winRate": 76.19
+        "games": 22,
+        "winRate": 72.73
       },
       {
         "name": "saracens",
@@ -358,8 +358,8 @@
       },
       {
         "name": "spanish",
-        "games": 43,
-        "winRate": 65.12
+        "games": 45,
+        "winRate": 66.67
       },
       {
         "name": "wu",
@@ -367,21 +367,16 @@
         "winRate": 65
       },
       {
-        "name": "byzantines",
-        "games": 36,
-        "winRate": 63.89
+        "name": "jurchens",
+        "games": 32,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
       {
         "name": "bengalis",
-        "games": 36,
-        "winRate": 25
-      },
-      {
-        "name": "khmer",
-        "games": 53,
-        "winRate": 30.19
+        "games": 37,
+        "winRate": 27.03
       },
       {
         "name": "tupi",
@@ -389,14 +384,19 @@
         "winRate": 33.33
       },
       {
-        "name": "hindustanis",
-        "games": 42,
-        "winRate": 35.71
+        "name": "poles",
+        "games": 45,
+        "winRate": 35.56
       },
       {
-        "name": "poles",
-        "games": 44,
-        "winRate": 36.36
+        "name": "hindustanis",
+        "games": 45,
+        "winRate": 35.56
+      },
+      {
+        "name": "khmer",
+        "games": 59,
+        "winRate": 35.59
       }
     ]
   },

@@ -330,26 +330,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.59,
-    "playRate": 1.74,
-    "picks": 1849,
+    "winRate": 49.32,
+    "playRate": 1.75,
+    "picks": 1912,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
       "closed": {
-        "winRate": 57.66,
-        "playRate": 2.79,
-        "picks": 248
+        "winRate": 57.36,
+        "playRate": 2.87,
+        "picks": 265
       },
       "other": {
-        "winRate": 48.87,
-        "playRate": 1.69,
-        "picks": 1193
+        "winRate": 48.33,
+        "playRate": 1.7,
+        "picks": 1231
       },
       "nomad": {
         "winRate": 31.82,
@@ -357,26 +357,26 @@
         "picks": 22
       },
       "open": {
-        "winRate": 47.67,
-        "playRate": 1.48,
-        "picks": 386
+        "winRate": 47.97,
+        "playRate": 1.47,
+        "picks": 394
       }
     },
     "strongAgainst": [
       {
-        "name": "wei",
-        "games": 32,
-        "winRate": 65.63
+        "name": "georgians",
+        "games": 30,
+        "winRate": 66.67
       },
       {
-        "name": "sicilians",
+        "name": "berbers",
+        "games": 30,
+        "winRate": 63.33
+      },
+      {
+        "name": "bengalis",
         "games": 38,
         "winRate": 63.16
-      },
-      {
-        "name": "georgians",
-        "games": 27,
-        "winRate": 62.96
       },
       {
         "name": "malay",
@@ -392,8 +392,8 @@
     "weakAgainst": [
       {
         "name": "bulgarians",
-        "games": 35,
-        "winRate": 31.43
+        "games": 36,
+        "winRate": 30.56
       },
       {
         "name": "chinese",
@@ -411,9 +411,9 @@
         "winRate": 37.5
       },
       {
-        "name": "teutons",
-        "games": 43,
-        "winRate": 39.53
+        "name": "britons",
+        "games": 50,
+        "winRate": 38
       }
     ]
   },

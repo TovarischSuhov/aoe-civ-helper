@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.55,
-    "playRate": 2.27,
-    "picks": 2416,
+    "winRate": 48.49,
+    "playRate": 2.28,
+    "picks": 2487,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-10T05:45:58.000Z",
+    "updated": "2026-08-10T17:11:20.000Z",
     "window": "2026-07-17 → 2026-08-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
       "other": {
-        "winRate": 47.9,
-        "playRate": 2.22,
-        "picks": 1570
+        "winRate": 47.68,
+        "playRate": 2.23,
+        "picks": 1613
       },
       "closed": {
-        "winRate": 47.79,
+        "winRate": 48.26,
         "playRate": 2.8,
-        "picks": 249
+        "picks": 259
       },
       "nomad": {
         "winRate": 50,
@@ -350,21 +350,16 @@
         "picks": 12
       },
       "open": {
-        "winRate": 50.6,
-        "playRate": 2.24,
-        "picks": 585
+        "winRate": 50.75,
+        "playRate": 2.25,
+        "picks": 603
       }
     },
     "strongAgainst": [
       {
-        "name": "britons",
-        "games": 53,
-        "winRate": 69.81
-      },
-      {
         "name": "huns",
-        "games": 47,
-        "winRate": 65.96
+        "games": 48,
+        "winRate": 66.67
       },
       {
         "name": "shu",
@@ -372,9 +367,14 @@
         "winRate": 64.71
       },
       {
-        "name": "goths",
-        "games": 33,
-        "winRate": 63.64
+        "name": "britons",
+        "games": 59,
+        "winRate": 64.41
+      },
+      {
+        "name": "muisca",
+        "games": 27,
+        "winRate": 62.96
       },
       {
         "name": "gurjaras",
@@ -385,8 +385,8 @@
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 64,
-        "winRate": 25
+        "games": 66,
+        "winRate": 25.76
       },
       {
         "name": "mapuche",
@@ -394,19 +394,19 @@
         "winRate": 29.17
       },
       {
+        "name": "franks",
+        "games": 44,
+        "winRate": 31.82
+      },
+      {
         "name": "burgundians",
         "games": 44,
         "winRate": 31.82
       },
       {
-        "name": "franks",
-        "games": 43,
-        "winRate": 32.56
-      },
-      {
-        "name": "slavs",
-        "games": 31,
-        "winRate": 35.48
+        "name": "lithuanians",
+        "games": 54,
+        "winRate": 35.19
       }
     ]
   },
