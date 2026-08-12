@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 52.91,
-    "playRate": 1.51,
-    "picks": 1752,
+    "winRate": 53.07,
+    "playRate": 1.5,
+    "picks": 1794,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-11T17:14:23.000Z",
-    "window": "2026-07-17 → 2026-08-11",
+    "updated": "2026-08-12T05:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 54.27,
+        "winRate": 53.94,
         "playRate": 1.65,
-        "picks": 468
+        "picks": 482
       },
       "other": {
-        "winRate": 52.78,
-        "playRate": 1.51,
-        "picks": 1152
+        "winRate": 53.06,
+        "playRate": 1.5,
+        "picks": 1176
       },
       "nomad": {
         "winRate": 33.33,
@@ -375,9 +375,9 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 50.83,
-        "playRate": 1.19,
-        "picks": 120
+        "winRate": 51.61,
+        "playRate": 1.18,
+        "picks": 124
       }
     },
     "strongAgainst": [
@@ -397,21 +397,21 @@
         "winRate": 69.23
       },
       {
-        "name": "gurjaras",
-        "games": 24,
-        "winRate": 66.67
+        "name": "shu",
+        "games": 19,
+        "winRate": 68.42
       },
       {
-        "name": "shu",
-        "games": 18,
-        "winRate": 66.67
+        "name": "turks",
+        "games": 25,
+        "winRate": 68
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 33,
-        "winRate": 33.33
+        "games": 35,
+        "winRate": 34.29
       },
       {
         "name": "teutons",
@@ -420,8 +420,8 @@
       },
       {
         "name": "chinese",
-        "games": 48,
-        "winRate": 35.42
+        "games": 49,
+        "winRate": 36.73
       },
       {
         "name": "dravidians",
@@ -430,8 +430,8 @@
       },
       {
         "name": "mongols",
-        "games": 119,
-        "winRate": 40.34
+        "games": 122,
+        "winRate": 40.16
       }
     ]
   },

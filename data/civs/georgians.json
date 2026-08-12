@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.3,
+    "winRate": 47.21,
     "playRate": 1.2,
-    "picks": 1389,
+    "picks": 1436,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-11T17:14:23.000Z",
-    "window": "2026-07-17 → 2026-08-11",
+    "updated": "2026-08-12T05:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 45.16,
+        "winRate": 45.17,
         "playRate": 1.2,
-        "picks": 341
+        "picks": 352
       },
       "other": {
-        "winRate": 48.98,
-        "playRate": 1.22,
-        "picks": 933
+        "winRate": 48.6,
+        "playRate": 1.23,
+        "picks": 963
       },
       "nomad": {
         "winRate": 30,
@@ -322,9 +322,9 @@
         "picks": 10
       },
       "closed": {
-        "winRate": 40.95,
-        "playRate": 1.04,
-        "picks": 105
+        "winRate": 43.24,
+        "playRate": 1.05,
+        "picks": 111
       }
     },
     "strongAgainst": [
@@ -335,8 +335,13 @@
       },
       {
         "name": "goths",
-        "games": 18,
-        "winRate": 61.11
+        "games": 19,
+        "winRate": 63.16
+      },
+      {
+        "name": "jurchens",
+        "games": 23,
+        "winRate": 60.87
       },
       {
         "name": "incas",
@@ -344,12 +349,7 @@
         "winRate": 60.61
       },
       {
-        "name": "saracens",
-        "games": 27,
-        "winRate": 59.26
-      },
-      {
-        "name": "jurchens",
+        "name": "burgundians",
         "games": 22,
         "winRate": 59.09
       }
@@ -357,28 +357,28 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 33,
-        "winRate": 27.27
-      },
-      {
-        "name": "dravidians",
-        "games": 17,
-        "winRate": 29.41
-      },
-      {
-        "name": "koreans",
-        "games": 20,
-        "winRate": 30
+        "games": 34,
+        "winRate": 26.47
       },
       {
         "name": "wei",
-        "games": 20,
-        "winRate": 30
+        "games": 21,
+        "winRate": 28.57
       },
       {
         "name": "spanish",
         "games": 29,
         "winRate": 31.03
+      },
+      {
+        "name": "dravidians",
+        "games": 19,
+        "winRate": 31.58
+      },
+      {
+        "name": "celts",
+        "games": 36,
+        "winRate": 33.33
       }
     ]
   },

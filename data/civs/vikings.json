@@ -398,31 +398,31 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 51.81,
+    "winRate": 51.99,
     "playRate": 1.81,
-    "picks": 2098,
+    "picks": 2164,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-11T17:14:23.000Z",
-    "window": "2026-07-17 → 2026-08-11",
+    "updated": "2026-08-12T05:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 50.44,
-        "playRate": 1.99,
-        "picks": 565
+        "winRate": 51.19,
+        "playRate": 2,
+        "picks": 586
       },
       "other": {
-        "winRate": 51.56,
+        "winRate": 51.55,
         "playRate": 1.81,
-        "picks": 1381
+        "picks": 1418
       },
       "closed": {
-        "winRate": 60.71,
-        "playRate": 1.39,
-        "picks": 140
+        "winRate": 60.14,
+        "playRate": 1.41,
+        "picks": 148
       },
       "nomad": {
         "winRate": 41.67,
@@ -433,13 +433,13 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 36,
-        "winRate": 75
+        "games": 39,
+        "winRate": 76.92
       },
       {
-        "name": "malians",
-        "games": 37,
-        "winRate": 67.57
+        "name": "japanese",
+        "games": 60,
+        "winRate": 66.67
       },
       {
         "name": "tatars",
@@ -447,22 +447,17 @@
         "winRate": 66.67
       },
       {
-        "name": "muisca",
-        "games": 15,
-        "winRate": 66.67
+        "name": "burgundians",
+        "games": 41,
+        "winRate": 65.85
       },
       {
-        "name": "japanese",
-        "games": 57,
-        "winRate": 64.91
+        "name": "berbers",
+        "games": 35,
+        "winRate": 65.71
       }
     ],
     "weakAgainst": [
-      {
-        "name": "wu",
-        "games": 14,
-        "winRate": 35.71
-      },
       {
         "name": "chinese",
         "games": 57,
@@ -474,14 +469,19 @@
         "winRate": 38.89
       },
       {
-        "name": "mapuche",
-        "games": 23,
-        "winRate": 39.13
+        "name": "wu",
+        "games": 15,
+        "winRate": 40
       },
       {
-        "name": "hindustanis",
-        "games": 40,
+        "name": "tupi",
+        "games": 35,
         "winRate": 40
+      },
+      {
+        "name": "slavs",
+        "games": 22,
+        "winRate": 40.91
       }
     ]
   },

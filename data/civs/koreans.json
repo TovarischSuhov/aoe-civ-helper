@@ -347,31 +347,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.45,
-    "playRate": 1.62,
-    "picks": 1873,
+    "winRate": 50.1,
+    "playRate": 1.61,
+    "picks": 1920,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-11T17:14:23.000Z",
-    "window": "2026-07-17 → 2026-08-11",
+    "updated": "2026-08-12T05:48:20.000Z",
+    "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
       "open": {
-        "winRate": 52.08,
-        "playRate": 1.52,
-        "picks": 432
+        "winRate": 51.45,
+        "playRate": 1.53,
+        "picks": 447
       },
       "closed": {
-        "winRate": 48.59,
+        "winRate": 48.65,
         "playRate": 1.41,
-        "picks": 142
+        "picks": 148
       },
       "other": {
-        "winRate": 49.49,
-        "playRate": 1.66,
-        "picks": 1269
+        "winRate": 49.19,
+        "playRate": 1.65,
+        "picks": 1295
       },
       "nomad": {
         "winRate": 76.67,
@@ -381,14 +381,19 @@
     },
     "strongAgainst": [
       {
-        "name": "georgians",
-        "games": 20,
-        "winRate": 70
-      },
-      {
         "name": "ethiopians",
         "games": 33,
         "winRate": 69.7
+      },
+      {
+        "name": "georgians",
+        "games": 21,
+        "winRate": 66.67
+      },
+      {
+        "name": "italians",
+        "games": 37,
+        "winRate": 62.16
       },
       {
         "name": "franks",
@@ -396,26 +401,21 @@
         "winRate": 62.07
       },
       {
-        "name": "cumans",
-        "games": 26,
-        "winRate": 61.54
-      },
-      {
         "name": "bulgarians",
-        "games": 39,
-        "winRate": 61.54
+        "games": 41,
+        "winRate": 60.98
       }
     ],
     "weakAgainst": [
       {
         "name": "khitans",
-        "games": 17,
-        "winRate": 23.53
+        "games": 19,
+        "winRate": 26.32
       },
       {
         "name": "teutons",
-        "games": 34,
-        "winRate": 29.41
+        "games": 36,
+        "winRate": 33.33
       },
       {
         "name": "chinese",
@@ -424,13 +424,13 @@
       },
       {
         "name": "lithuanians",
-        "games": 40,
-        "winRate": 40
+        "games": 42,
+        "winRate": 38.1
       },
       {
-        "name": "wu",
-        "games": 17,
-        "winRate": 41.18
+        "name": "romans",
+        "games": 22,
+        "winRate": 40.91
       }
     ]
   },
