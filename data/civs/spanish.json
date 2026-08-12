@@ -275,26 +275,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.58,
+    "winRate": 51.68,
     "playRate": 2.58,
-    "picks": 3077,
+    "picks": 3158,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
       "other": {
-        "winRate": 52.37,
+        "winRate": 52.39,
         "playRate": 2.58,
-        "picks": 2026
+        "picks": 2069
       },
       "open": {
-        "winRate": 48.67,
+        "winRate": 48.99,
         "playRate": 2.32,
-        "picks": 678
+        "picks": 696
       },
       "nomad": {
         "winRate": 35.9,
@@ -302,9 +302,9 @@
         "picks": 39
       },
       "closed": {
-        "winRate": 54.49,
-        "playRate": 3.17,
-        "picks": 334
+        "winRate": 54.52,
+        "playRate": 3.24,
+        "picks": 354
       }
     },
     "strongAgainst": [
@@ -319,26 +319,26 @@
         "winRate": 68.97
       },
       {
-        "name": "burgundians",
-        "games": 93,
-        "winRate": 64.52
-      },
-      {
         "name": "teutons",
-        "games": 59,
-        "winRate": 64.41
+        "games": 60,
+        "winRate": 65
       },
       {
         "name": "muisca",
         "games": 28,
         "winRate": 64.29
+      },
+      {
+        "name": "poles",
+        "games": 61,
+        "winRate": 63.93
       }
     ],
     "weakAgainst": [
       {
         "name": "britons",
-        "games": 50,
-        "winRate": 34
+        "games": 52,
+        "winRate": 34.62
       },
       {
         "name": "mapuche",
@@ -347,18 +347,18 @@
       },
       {
         "name": "aztecs",
-        "games": 47,
-        "winRate": 38.3
-      },
-      {
-        "name": "shu",
-        "games": 23,
-        "winRate": 39.13
+        "games": 48,
+        "winRate": 37.5
       },
       {
         "name": "tupi",
         "games": 46,
         "winRate": 39.13
+      },
+      {
+        "name": "shu",
+        "games": 24,
+        "winRate": 41.67
       }
     ]
   },

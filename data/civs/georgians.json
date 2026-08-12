@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.21,
-    "playRate": 1.2,
-    "picks": 1436,
+    "winRate": 47.29,
+    "playRate": 1.21,
+    "picks": 1478,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 45.17,
+        "winRate": 45.71,
         "playRate": 1.2,
-        "picks": 352
+        "picks": 361
       },
       "other": {
-        "winRate": 48.6,
+        "winRate": 48.53,
         "playRate": 1.23,
-        "picks": 963
+        "picks": 989
       },
       "nomad": {
         "winRate": 30,
@@ -322,16 +322,16 @@
         "picks": 10
       },
       "closed": {
-        "winRate": 43.24,
-        "playRate": 1.05,
-        "picks": 111
+        "winRate": 43.22,
+        "playRate": 1.08,
+        "picks": 118
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 19,
-        "winRate": 73.68
+        "games": 21,
+        "winRate": 66.67
       },
       {
         "name": "goths",
@@ -339,19 +339,19 @@
         "winRate": 63.16
       },
       {
-        "name": "jurchens",
-        "games": 23,
-        "winRate": 60.87
-      },
-      {
         "name": "incas",
-        "games": 33,
-        "winRate": 60.61
+        "games": 34,
+        "winRate": 61.76
       },
       {
-        "name": "burgundians",
-        "games": 22,
-        "winRate": 59.09
+        "name": "jurchens",
+        "games": 26,
+        "winRate": 61.54
+      },
+      {
+        "name": "muisca",
+        "games": 15,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -371,14 +371,14 @@
         "winRate": 31.03
       },
       {
-        "name": "dravidians",
-        "games": 19,
+        "name": "celts",
+        "games": 38,
         "winRate": 31.58
       },
       {
-        "name": "celts",
-        "games": 36,
-        "winRate": 33.33
+        "name": "dravidians",
+        "games": 19,
+        "winRate": 31.58
       }
     ]
   },

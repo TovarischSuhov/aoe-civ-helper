@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.1,
-    "playRate": 1.63,
-    "picks": 1939,
+    "winRate": 49.17,
+    "playRate": 1.62,
+    "picks": 1981,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 47.69,
-        "playRate": 1.56,
-        "picks": 455
+        "winRate": 47.31,
+        "playRate": 1.55,
+        "picks": 465
       },
       "nomad": {
         "winRate": 62.5,
@@ -302,26 +302,31 @@
         "picks": 16
       },
       "other": {
-        "winRate": 49.54,
+        "winRate": 49.74,
         "playRate": 1.67,
-        "picks": 1312
+        "picks": 1343
       },
       "closed": {
-        "winRate": 48.08,
-        "playRate": 1.48,
-        "picks": 156
+        "winRate": 48.41,
+        "playRate": 1.44,
+        "picks": 157
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 34,
-        "winRate": 70.59
+        "games": 35,
+        "winRate": 68.57
       },
       {
         "name": "vietnamese",
-        "games": 44,
-        "winRate": 65.91
+        "games": 46,
+        "winRate": 67.39
+      },
+      {
+        "name": "poles",
+        "games": 33,
+        "winRate": 63.64
       },
       {
         "name": "dravidians",
@@ -330,13 +335,8 @@
       },
       {
         "name": "incas",
-        "games": 46,
-        "winRate": 63.04
-      },
-      {
-        "name": "poles",
-        "games": 32,
-        "winRate": 62.5
+        "games": 47,
+        "winRate": 61.7
       }
     ],
     "weakAgainst": [
@@ -357,13 +357,13 @@
       },
       {
         "name": "burmese",
-        "games": 29,
-        "winRate": 34.48
+        "games": 30,
+        "winRate": 33.33
       },
       {
-        "name": "japanese",
-        "games": 49,
-        "winRate": 34.69
+        "name": "franks",
+        "games": 32,
+        "winRate": 34.38
       }
     ]
   },

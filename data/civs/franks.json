@@ -357,26 +357,26 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.02,
+    "winRate": 50.11,
     "playRate": 1.91,
-    "picks": 2283,
+    "picks": 2333,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 49.56,
-        "playRate": 1.89,
-        "picks": 1487
+        "winRate": 49.83,
+        "playRate": 1.88,
+        "picks": 1511
       },
       "open": {
-        "winRate": 52.11,
-        "playRate": 2.19,
-        "picks": 641
+        "winRate": 51.96,
+        "playRate": 2.21,
+        "picks": 662
       },
       "nomad": {
         "winRate": 41.18,
@@ -384,21 +384,21 @@
         "picks": 17
       },
       "closed": {
-        "winRate": 46.38,
+        "winRate": 45.45,
         "playRate": 1.31,
-        "picks": 138
+        "picks": 143
       }
     },
     "strongAgainst": [
       {
         "name": "tupi",
-        "games": 24,
-        "winRate": 75
+        "games": 25,
+        "winRate": 72
       },
       {
         "name": "italians",
-        "games": 35,
-        "winRate": 68.57
+        "games": 36,
+        "winRate": 69.44
       },
       {
         "name": "portuguese",
@@ -406,14 +406,14 @@
         "winRate": 67.27
       },
       {
-        "name": "vietnamese",
-        "games": 64,
+        "name": "byzantines",
+        "games": 32,
         "winRate": 65.63
       },
       {
-        "name": "byzantines",
-        "games": 30,
-        "winRate": 63.33
+        "name": "vietnamese",
+        "games": 66,
+        "winRate": 65.15
       }
     ],
     "weakAgainst": [
@@ -424,23 +424,23 @@
       },
       {
         "name": "malians",
-        "games": 45,
-        "winRate": 37.78
+        "games": 46,
+        "winRate": 36.96
       },
       {
         "name": "koreans",
-        "games": 29,
-        "winRate": 37.93
-      },
-      {
-        "name": "wu",
-        "games": 25,
+        "games": 30,
         "winRate": 40
       },
       {
         "name": "aztecs",
         "games": 42,
         "winRate": 40.48
+      },
+      {
+        "name": "wu",
+        "games": 27,
+        "winRate": 40.74
       }
     ]
   },

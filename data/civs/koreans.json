@@ -347,31 +347,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.1,
+    "winRate": 49.97,
     "playRate": 1.61,
-    "picks": 1920,
+    "picks": 1963,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
       "open": {
-        "winRate": 51.45,
-        "playRate": 1.53,
-        "picks": 447
+        "winRate": 51.21,
+        "playRate": 1.51,
+        "picks": 453
       },
       "closed": {
-        "winRate": 48.65,
-        "playRate": 1.41,
-        "picks": 148
+        "winRate": 47.71,
+        "playRate": 1.4,
+        "picks": 153
       },
       "other": {
-        "winRate": 49.19,
+        "winRate": 49.21,
         "playRate": 1.65,
-        "picks": 1295
+        "picks": 1327
       },
       "nomad": {
         "winRate": 76.67,
@@ -391,19 +391,19 @@
         "winRate": 66.67
       },
       {
-        "name": "italians",
-        "games": 37,
-        "winRate": 62.16
-      },
-      {
-        "name": "franks",
-        "games": 29,
-        "winRate": 62.07
-      },
-      {
         "name": "bulgarians",
         "games": 41,
         "winRate": 60.98
+      },
+      {
+        "name": "italians",
+        "games": 38,
+        "winRate": 60.53
+      },
+      {
+        "name": "franks",
+        "games": 30,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -414,8 +414,13 @@
       },
       {
         "name": "teutons",
-        "games": 36,
-        "winRate": 33.33
+        "games": 37,
+        "winRate": 35.14
+      },
+      {
+        "name": "romans",
+        "games": 24,
+        "winRate": 37.5
       },
       {
         "name": "chinese",
@@ -423,14 +428,9 @@
         "winRate": 37.74
       },
       {
-        "name": "lithuanians",
-        "games": 42,
-        "winRate": 38.1
-      },
-      {
-        "name": "romans",
-        "games": 22,
-        "winRate": 40.91
+        "name": "goths",
+        "games": 29,
+        "winRate": 37.93
       }
     ]
   },

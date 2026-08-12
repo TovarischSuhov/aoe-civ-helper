@@ -368,31 +368,31 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.98,
+    "winRate": 51.86,
     "playRate": 1.63,
-    "picks": 1947,
+    "picks": 1994,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.33,
+        "winRate": 51.19,
         "playRate": 1.67,
-        "picks": 1313
+        "picks": 1342
       },
       "open": {
-        "winRate": 54.92,
-        "playRate": 1.56,
-        "picks": 457
+        "winRate": 54.94,
+        "playRate": 1.55,
+        "picks": 466
       },
       "closed": {
-        "winRate": 49.39,
-        "playRate": 1.56,
-        "picks": 164
+        "winRate": 49.13,
+        "playRate": 1.58,
+        "picks": 173
       },
       "nomad": {
         "winRate": 46.15,
@@ -417,22 +417,17 @@
         "winRate": 73.08
       },
       {
+        "name": "georgians",
+        "games": 38,
+        "winRate": 68.42
+      },
+      {
         "name": "lithuanians",
         "games": 40,
         "winRate": 67.5
-      },
-      {
-        "name": "aztecs",
-        "games": 36,
-        "winRate": 66.67
       }
     ],
     "weakAgainst": [
-      {
-        "name": "wei",
-        "games": 27,
-        "winRate": 29.63
-      },
       {
         "name": "romans",
         "games": 26,
@@ -440,18 +435,23 @@
       },
       {
         "name": "malians",
-        "games": 36,
-        "winRate": 33.33
+        "games": 39,
+        "winRate": 35.9
       },
       {
         "name": "mongols",
-        "games": 106,
-        "winRate": 37.74
+        "games": 112,
+        "winRate": 36.61
       },
       {
-        "name": "malay",
-        "games": 26,
-        "winRate": 42.31
+        "name": "wei",
+        "games": 31,
+        "winRate": 38.71
+      },
+      {
+        "name": "byzantines",
+        "games": 29,
+        "winRate": 41.38
       }
     ]
   },

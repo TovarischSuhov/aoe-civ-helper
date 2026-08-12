@@ -296,21 +296,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 46.15,
-    "playRate": 1.81,
-    "picks": 2154,
+    "winRate": 46.37,
+    "playRate": 1.8,
+    "picks": 2202,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
       "closed": {
-        "winRate": 47.73,
-        "playRate": 2.92,
-        "picks": 308
+        "winRate": 48.13,
+        "playRate": 2.93,
+        "picks": 320
       },
       "nomad": {
         "winRate": 50,
@@ -318,26 +318,21 @@
         "picks": 14
       },
       "other": {
-        "winRate": 46,
-        "playRate": 1.7,
-        "picks": 1337
+        "winRate": 45.95,
+        "playRate": 1.69,
+        "picks": 1358
       },
       "open": {
-        "winRate": 45.45,
-        "playRate": 1.69,
-        "picks": 495
+        "winRate": 46.27,
+        "playRate": 1.7,
+        "picks": 510
       }
     },
     "strongAgainst": [
       {
-        "name": "koreans",
-        "games": 36,
-        "winRate": 66.67
-      },
-      {
         "name": "britons",
-        "games": 41,
-        "winRate": 65.85
+        "games": 43,
+        "winRate": 67.44
       },
       {
         "name": "romans",
@@ -345,36 +340,41 @@
         "winRate": 65.63
       },
       {
-        "name": "sicilians",
-        "games": 33,
-        "winRate": 63.64
+        "name": "koreans",
+        "games": 37,
+        "winRate": 64.86
       },
       {
-        "name": "gurjaras",
-        "games": 33,
-        "winRate": 60.61
+        "name": "sicilians",
+        "games": 34,
+        "winRate": 61.76
+      },
+      {
+        "name": "khmer",
+        "games": 48,
+        "winRate": 60.42
       }
     ],
     "weakAgainst": [
       {
-        "name": "georgians",
-        "games": 19,
-        "winRate": 26.32
-      },
-      {
-        "name": "jurchens",
-        "games": 22,
-        "winRate": 31.82
-      },
-      {
         "name": "wei",
-        "games": 28,
-        "winRate": 32.14
+        "games": 29,
+        "winRate": 31.03
       },
       {
         "name": "mongols",
         "games": 83,
         "winRate": 32.53
+      },
+      {
+        "name": "jurchens",
+        "games": 24,
+        "winRate": 33.33
+      },
+      {
+        "name": "georgians",
+        "games": 21,
+        "winRate": 33.33
       },
       {
         "name": "shu",

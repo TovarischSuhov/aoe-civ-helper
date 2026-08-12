@@ -359,21 +359,21 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 48.36,
+    "winRate": 48.43,
     "playRate": 1.46,
-    "picks": 1741,
+    "picks": 1782,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T05:48:20.000Z",
+    "updated": "2026-08-12T17:15:14.000Z",
     "window": "2026-07-17 → 2026-08-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 48.12,
-        "playRate": 1.46,
-        "picks": 1143
+        "winRate": 47.77,
+        "playRate": 1.45,
+        "picks": 1164
       },
       "nomad": {
         "winRate": 83.33,
@@ -381,14 +381,14 @@
         "picks": 6
       },
       "open": {
-        "winRate": 47.84,
-        "playRate": 1.59,
-        "picks": 464
+        "winRate": 48.75,
+        "playRate": 1.6,
+        "picks": 480
       },
       "closed": {
-        "winRate": 50.78,
-        "playRate": 1.22,
-        "picks": 128
+        "winRate": 51.52,
+        "playRate": 1.21,
+        "picks": 132
       }
     },
     "strongAgainst": [
@@ -399,8 +399,8 @@
       },
       {
         "name": "incas",
-        "games": 30,
-        "winRate": 73.33
+        "games": 31,
+        "winRate": 70.97
       },
       {
         "name": "berbers",
@@ -421,18 +421,8 @@
     "weakAgainst": [
       {
         "name": "japanese",
-        "games": 43,
-        "winRate": 32.56
-      },
-      {
-        "name": "gurjaras",
-        "games": 23,
-        "winRate": 34.78
-      },
-      {
-        "name": "britons",
-        "games": 25,
-        "winRate": 36
+        "games": 44,
+        "winRate": 34.09
       },
       {
         "name": "turks",
@@ -443,6 +433,16 @@
         "name": "vikings",
         "games": 35,
         "winRate": 37.14
+      },
+      {
+        "name": "gurjaras",
+        "games": 24,
+        "winRate": 37.5
+      },
+      {
+        "name": "vietnamese",
+        "games": 48,
+        "winRate": 37.5
       }
     ]
   },
