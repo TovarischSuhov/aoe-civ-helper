@@ -350,31 +350,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.38,
+    "winRate": 50.6,
     "playRate": 1.73,
-    "picks": 2110,
+    "picks": 2170,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T17:15:14.000Z",
-    "window": "2026-07-17 → 2026-08-12",
+    "updated": "2026-08-13T05:50:27.000Z",
+    "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
       "open": {
-        "winRate": 51.95,
-        "playRate": 1.97,
-        "picks": 591
+        "winRate": 51.82,
+        "playRate": 1.96,
+        "picks": 606
       },
       "closed": {
-        "winRate": 44.19,
-        "playRate": 1.57,
-        "picks": 172
+        "winRate": 45.56,
+        "playRate": 1.58,
+        "picks": 180
       },
       "other": {
-        "winRate": 50.53,
+        "winRate": 50.77,
         "playRate": 1.66,
-        "picks": 1332
+        "picks": 1369
       },
       "nomad": {
         "winRate": 46.67,
@@ -384,29 +384,29 @@
     },
     "strongAgainst": [
       {
+        "name": "georgians",
+        "games": 23,
+        "winRate": 73.91
+      },
+      {
         "name": "aztecs",
         "games": 25,
         "winRate": 72
       },
       {
-        "name": "georgians",
-        "games": 21,
-        "winRate": 71.43
+        "name": "teutons",
+        "games": 30,
+        "winRate": 66.67
       },
       {
-        "name": "teutons",
-        "games": 29,
-        "winRate": 68.97
+        "name": "wu",
+        "games": 32,
+        "winRate": 65.63
       },
       {
         "name": "tupi",
         "games": 40,
         "winRate": 65
-      },
-      {
-        "name": "wu",
-        "games": 31,
-        "winRate": 64.52
       }
     ],
     "weakAgainst": [
@@ -416,24 +416,24 @@
         "winRate": 36
       },
       {
-        "name": "cumans",
-        "games": 37,
-        "winRate": 37.84
-      },
-      {
-        "name": "italians",
-        "games": 29,
-        "winRate": 37.93
-      },
-      {
         "name": "huns",
         "games": 49,
         "winRate": 38.78
       },
       {
+        "name": "spanish",
+        "games": 56,
+        "winRate": 39.29
+      },
+      {
         "name": "khitans",
         "games": 35,
         "winRate": 40
+      },
+      {
+        "name": "italians",
+        "games": 32,
+        "winRate": 40.63
       }
     ]
   },

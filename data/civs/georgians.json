@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.29,
-    "playRate": 1.21,
-    "picks": 1478,
+    "winRate": 47.32,
+    "playRate": 1.2,
+    "picks": 1513,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-12T17:15:14.000Z",
-    "window": "2026-07-17 → 2026-08-12",
+    "updated": "2026-08-13T05:50:27.000Z",
+    "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 45.71,
-        "playRate": 1.2,
-        "picks": 361
+        "winRate": 45.65,
+        "playRate": 1.19,
+        "picks": 368
       },
       "other": {
-        "winRate": 48.53,
+        "winRate": 48.47,
         "playRate": 1.23,
-        "picks": 989
+        "picks": 1013
       },
       "nomad": {
         "winRate": 30,
@@ -322,26 +322,26 @@
         "picks": 10
       },
       "closed": {
-        "winRate": 43.22,
-        "playRate": 1.08,
-        "picks": 118
+        "winRate": 44.26,
+        "playRate": 1.07,
+        "picks": 122
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 21,
-        "winRate": 66.67
+        "games": 22,
+        "winRate": 68.18
+      },
+      {
+        "name": "incas",
+        "games": 36,
+        "winRate": 63.89
       },
       {
         "name": "goths",
         "games": 19,
         "winRate": 63.16
-      },
-      {
-        "name": "incas",
-        "games": 34,
-        "winRate": 61.76
       },
       {
         "name": "jurchens",
@@ -357,13 +357,13 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 34,
-        "winRate": 26.47
+        "games": 35,
+        "winRate": 25.71
       },
       {
         "name": "wei",
-        "games": 21,
-        "winRate": 28.57
+        "games": 23,
+        "winRate": 26.09
       },
       {
         "name": "spanish",
@@ -376,9 +376,9 @@
         "winRate": 31.58
       },
       {
-        "name": "dravidians",
-        "games": 19,
-        "winRate": 31.58
+        "name": "koreans",
+        "games": 21,
+        "winRate": 33.33
       }
     ]
   },
