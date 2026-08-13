@@ -288,31 +288,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.35,
+    "winRate": 49.32,
     "playRate": 1.66,
-    "picks": 2083,
+    "picks": 2137,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T05:50:27.000Z",
+    "updated": "2026-08-13T17:15:04.000Z",
     "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 44.39,
-        "playRate": 1.88,
-        "picks": 214
+        "winRate": 44.75,
+        "playRate": 1.86,
+        "picks": 219
       },
       "open": {
-        "winRate": 51.05,
-        "playRate": 1.7,
-        "picks": 525
+        "winRate": 50.83,
+        "playRate": 1.71,
+        "picks": 543
       },
       "other": {
-        "winRate": 49.4,
+        "winRate": 49.38,
         "playRate": 1.61,
-        "picks": 1332
+        "picks": 1363
       },
       "nomad": {
         "winRate": 58.33,
@@ -322,19 +322,19 @@
     },
     "strongAgainst": [
       {
-        "name": "turks",
-        "games": 37,
-        "winRate": 64.86
-      },
-      {
         "name": "cumans",
-        "games": 44,
-        "winRate": 63.64
+        "games": 45,
+        "winRate": 64.44
       },
       {
         "name": "gurjaras",
-        "games": 21,
-        "winRate": 61.9
+        "games": 22,
+        "winRate": 63.64
+      },
+      {
+        "name": "turks",
+        "games": 38,
+        "winRate": 63.16
       },
       {
         "name": "lithuanians",
@@ -342,9 +342,9 @@
         "winRate": 61.7
       },
       {
-        "name": "britons",
-        "games": 38,
-        "winRate": 60.53
+        "name": "jurchens",
+        "games": 25,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -355,23 +355,23 @@
       },
       {
         "name": "japanese",
-        "games": 49,
-        "winRate": 32.65
+        "games": 51,
+        "winRate": 31.37
+      },
+      {
+        "name": "armenians",
+        "games": 50,
+        "winRate": 36
       },
       {
         "name": "goths",
-        "games": 26,
-        "winRate": 34.62
+        "games": 27,
+        "winRate": 37.04
       },
       {
-        "name": "romans",
-        "games": 17,
-        "winRate": 35.29
-      },
-      {
-        "name": "huns",
-        "games": 39,
-        "winRate": 35.9
+        "name": "muisca",
+        "games": 16,
+        "winRate": 37.5
       }
     ]
   },

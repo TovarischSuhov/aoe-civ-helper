@@ -351,21 +351,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 46.73,
+    "winRate": 46.61,
     "playRate": 1.05,
-    "picks": 1316,
+    "picks": 1358,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T05:50:27.000Z",
+    "updated": "2026-08-13T17:15:04.000Z",
     "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 45.95,
-        "playRate": 1.03,
-        "picks": 851
+        "winRate": 45.8,
+        "playRate": 1.04,
+        "picks": 880
       },
       "nomad": {
         "winRate": 63.64,
@@ -373,14 +373,14 @@
         "picks": 11
       },
       "open": {
-        "winRate": 47.11,
-        "playRate": 1.12,
-        "picks": 346
+        "winRate": 47.34,
+        "playRate": 1.13,
+        "picks": 357
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 0.95,
-        "picks": 108
+        "winRate": 49.09,
+        "playRate": 0.93,
+        "picks": 110
       }
     },
     "strongAgainst": [
@@ -390,19 +390,19 @@
         "winRate": 77.27
       },
       {
-        "name": "gurjaras",
-        "games": 22,
-        "winRate": 63.64
-      },
-      {
         "name": "muisca",
-        "games": 16,
-        "winRate": 62.5
+        "games": 17,
+        "winRate": 64.71
       },
       {
         "name": "vikings",
-        "games": 16,
-        "winRate": 62.5
+        "games": 17,
+        "winRate": 64.71
+      },
+      {
+        "name": "gurjaras",
+        "games": 22,
+        "winRate": 63.64
       },
       {
         "name": "bengalis",
@@ -412,19 +412,19 @@
     ],
     "weakAgainst": [
       {
-        "name": "burgundians",
-        "games": 18,
-        "winRate": 22.22
-      },
-      {
         "name": "berbers",
         "games": 21,
         "winRate": 23.81
       },
       {
         "name": "shu",
-        "games": 11,
-        "winRate": 27.27
+        "games": 12,
+        "winRate": 25
+      },
+      {
+        "name": "burgundians",
+        "games": 19,
+        "winRate": 26.32
       },
       {
         "name": "italians",
@@ -432,9 +432,9 @@
         "winRate": 27.27
       },
       {
-        "name": "ethiopians",
-        "games": 33,
-        "winRate": 30.3
+        "name": "britons",
+        "games": 24,
+        "winRate": 29.17
       }
     ]
   },

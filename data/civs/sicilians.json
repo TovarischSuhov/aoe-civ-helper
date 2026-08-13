@@ -303,26 +303,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.15,
-    "playRate": 1.87,
-    "picks": 2348,
+    "winRate": 49.27,
+    "playRate": 1.85,
+    "picks": 2385,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T05:50:27.000Z",
+    "updated": "2026-08-13T17:15:04.000Z",
     "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 47.93,
-        "playRate": 1.88,
-        "picks": 580
+        "winRate": 48.22,
+        "playRate": 1.87,
+        "picks": 591
       },
       "other": {
-        "winRate": 50.25,
-        "playRate": 1.92,
-        "picks": 1588
+        "winRate": 50.31,
+        "playRate": 1.91,
+        "picks": 1610
       },
       "nomad": {
         "winRate": 38.46,
@@ -330,9 +330,9 @@
         "picks": 13
       },
       "closed": {
-        "winRate": 43.71,
-        "playRate": 1.47,
-        "picks": 167
+        "winRate": 43.86,
+        "playRate": 1.45,
+        "picks": 171
       }
     },
     "strongAgainst": [
@@ -348,18 +348,18 @@
       },
       {
         "name": "byzantines",
-        "games": 33,
-        "winRate": 63.64
+        "games": 34,
+        "winRate": 61.76
       },
       {
         "name": "armenians",
-        "games": 32,
-        "winRate": 59.38
+        "games": 33,
+        "winRate": 60.61
       },
       {
-        "name": "magyars",
-        "games": 77,
-        "winRate": 58.44
+        "name": "tupi",
+        "games": 20,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -369,14 +369,14 @@
         "winRate": 31.58
       },
       {
+        "name": "poles",
+        "games": 43,
+        "winRate": 34.88
+      },
+      {
         "name": "vikings",
         "games": 45,
         "winRate": 35.56
-      },
-      {
-        "name": "poles",
-        "games": 42,
-        "winRate": 35.71
       },
       {
         "name": "teutons",
@@ -385,8 +385,8 @@
       },
       {
         "name": "romans",
-        "games": 34,
-        "winRate": 38.24
+        "games": 36,
+        "winRate": 38.89
       }
     ]
   },

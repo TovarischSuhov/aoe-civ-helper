@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.01,
+    "winRate": 49.07,
     "playRate": 1.05,
-    "picks": 1318,
+    "picks": 1347,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T05:50:27.000Z",
+    "updated": "2026-08-13T17:15:04.000Z",
     "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 50.4,
+        "winRate": 50.56,
         "playRate": 1.05,
-        "picks": 867
+        "picks": 888
       },
       "nomad": {
         "winRate": 60,
@@ -400,21 +400,26 @@
         "picks": 5
       },
       "open": {
-        "winRate": 44.34,
-        "playRate": 1,
-        "picks": 309
+        "winRate": 44.44,
+        "playRate": 0.99,
+        "picks": 315
       },
       "closed": {
-        "winRate": 50.36,
-        "playRate": 1.2,
-        "picks": 137
+        "winRate": 49.64,
+        "playRate": 1.18,
+        "picks": 139
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 25,
-        "winRate": 68
+        "games": 26,
+        "winRate": 69.23
+      },
+      {
+        "name": "turks",
+        "games": 33,
+        "winRate": 66.67
       },
       {
         "name": "italians",
@@ -422,14 +427,9 @@
         "winRate": 66.67
       },
       {
-        "name": "turks",
-        "games": 32,
-        "winRate": 65.63
-      },
-      {
-        "name": "britons",
-        "games": 29,
-        "winRate": 65.52
+        "name": "teutons",
+        "games": 23,
+        "winRate": 65.22
       },
       {
         "name": "wei",
@@ -454,14 +454,14 @@
         "winRate": 25.93
       },
       {
+        "name": "slavs",
+        "games": 18,
+        "winRate": 27.78
+      },
+      {
         "name": "sicilians",
         "games": 20,
         "winRate": 30
-      },
-      {
-        "name": "slavs",
-        "games": 16,
-        "winRate": 31.25
       }
     ]
   },

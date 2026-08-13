@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.29,
-    "playRate": 1.62,
-    "picks": 2039,
+    "winRate": 49.21,
+    "playRate": 1.61,
+    "picks": 2077,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T05:50:27.000Z",
+    "updated": "2026-08-13T17:15:04.000Z",
     "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 47.47,
-        "playRate": 1.53,
-        "picks": 474
+        "winRate": 47.39,
+        "playRate": 1.51,
+        "picks": 479
       },
       "nomad": {
         "winRate": 62.5,
@@ -302,26 +302,31 @@
         "picks": 16
       },
       "other": {
-        "winRate": 49.82,
+        "winRate": 49.72,
         "playRate": 1.68,
-        "picks": 1385
+        "picks": 1414
       },
       "closed": {
-        "winRate": 48.78,
-        "playRate": 1.44,
-        "picks": 164
+        "winRate": 48.81,
+        "playRate": 1.42,
+        "picks": 168
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 39,
-        "winRate": 69.23
+        "games": 40,
+        "winRate": 67.5
       },
       {
         "name": "vietnamese",
-        "games": 46,
-        "winRate": 67.39
+        "games": 47,
+        "winRate": 65.96
+      },
+      {
+        "name": "dravidians",
+        "games": 40,
+        "winRate": 62.5
       },
       {
         "name": "poles",
@@ -329,14 +334,9 @@
         "winRate": 61.76
       },
       {
-        "name": "dravidians",
-        "games": 39,
-        "winRate": 61.54
-      },
-      {
-        "name": "portuguese",
-        "games": 49,
-        "winRate": 61.22
+        "name": "jurchens",
+        "games": 31,
+        "winRate": 61.29
       }
     ],
     "weakAgainst": [
@@ -351,19 +351,19 @@
         "winRate": 32.26
       },
       {
+        "name": "burmese",
+        "games": 31,
+        "winRate": 32.26
+      },
+      {
         "name": "franks",
         "games": 34,
         "winRate": 32.35
       },
       {
-        "name": "burmese",
-        "games": 30,
-        "winRate": 33.33
-      },
-      {
-        "name": "slavs",
-        "games": 32,
-        "winRate": 34.38
+        "name": "tupi",
+        "games": 26,
+        "winRate": 34.62
       }
     ]
   },

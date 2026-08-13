@@ -366,26 +366,26 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 50.96,
-    "playRate": 2.14,
-    "picks": 2696,
+    "winRate": 50.81,
+    "playRate": 2.15,
+    "picks": 2773,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T05:50:27.000Z",
+    "updated": "2026-08-13T17:15:04.000Z",
     "window": "2026-07-17 → 2026-08-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
       "open": {
-        "winRate": 51.59,
-        "playRate": 2.25,
-        "picks": 694
+        "winRate": 51.41,
+        "playRate": 2.24,
+        "picks": 710
       },
       "other": {
-        "winRate": 50.78,
-        "playRate": 2.1,
-        "picks": 1735
+        "winRate": 50.56,
+        "playRate": 2.13,
+        "picks": 1794
       },
       "nomad": {
         "winRate": 57.89,
@@ -393,17 +393,12 @@
         "picks": 19
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 2.18,
-        "picks": 248
+        "winRate": 50.4,
+        "playRate": 2.12,
+        "picks": 250
       }
     },
     "strongAgainst": [
-      {
-        "name": "dravidians",
-        "games": 33,
-        "winRate": 66.67
-      },
       {
         "name": "britons",
         "games": 53,
@@ -411,11 +406,16 @@
       },
       {
         "name": "cumans",
-        "games": 48,
-        "winRate": 62.5
+        "games": 50,
+        "winRate": 64
       },
       {
         "name": "khitans",
+        "games": 38,
+        "winRate": 63.16
+      },
+      {
+        "name": "dravidians",
         "games": 37,
         "winRate": 62.16
       },
@@ -433,18 +433,18 @@
       },
       {
         "name": "shu",
-        "games": 21,
-        "winRate": 33.33
-      },
-      {
-        "name": "malay",
-        "games": 49,
-        "winRate": 34.69
+        "games": 22,
+        "winRate": 31.82
       },
       {
         "name": "turks",
-        "games": 46,
-        "winRate": 36.96
+        "games": 50,
+        "winRate": 34
+      },
+      {
+        "name": "malay",
+        "games": 50,
+        "winRate": 36
       },
       {
         "name": "armenians",
