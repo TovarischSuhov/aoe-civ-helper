@@ -357,26 +357,26 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.38,
+    "winRate": 50.43,
     "playRate": 1.92,
-    "picks": 2529,
+    "picks": 2578,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 50.46,
+        "winRate": 50.51,
         "playRate": 1.9,
-        "picks": 1637
+        "picks": 1673
       },
       "open": {
-        "winRate": 51.6,
-        "playRate": 2.21,
-        "picks": 717
+        "winRate": 51.58,
+        "playRate": 2.2,
+        "picks": 727
       },
       "nomad": {
         "winRate": 41.18,
@@ -384,9 +384,9 @@
         "picks": 17
       },
       "closed": {
-        "winRate": 44.94,
-        "playRate": 1.3,
-        "picks": 158
+        "winRate": 45.34,
+        "playRate": 1.29,
+        "picks": 161
       }
     },
     "strongAgainst": [
@@ -397,13 +397,8 @@
       },
       {
         "name": "tupi",
-        "games": 28,
-        "winRate": 67.86
-      },
-      {
-        "name": "byzantines",
-        "games": 34,
-        "winRate": 67.65
+        "games": 29,
+        "winRate": 68.97
       },
       {
         "name": "portuguese",
@@ -412,8 +407,13 @@
       },
       {
         "name": "vietnamese",
-        "games": 78,
-        "winRate": 66.67
+        "games": 80,
+        "winRate": 66.25
+      },
+      {
+        "name": "byzantines",
+        "games": 37,
+        "winRate": 64.86
       }
     ],
     "weakAgainst": [
@@ -423,24 +423,24 @@
         "winRate": 33.33
       },
       {
-        "name": "malians",
-        "games": 50,
-        "winRate": 38
-      },
-      {
-        "name": "gurjaras",
-        "games": 31,
-        "winRate": 38.71
-      },
-      {
         "name": "georgians",
-        "games": 35,
-        "winRate": 40
+        "games": 36,
+        "winRate": 38.89
+      },
+      {
+        "name": "malians",
+        "games": 51,
+        "winRate": 39.22
+      },
+      {
+        "name": "hindustanis",
+        "games": 61,
+        "winRate": 39.34
       },
       {
         "name": "spanish",
-        "games": 62,
-        "winRate": 40.32
+        "games": 63,
+        "winRate": 39.68
       }
     ]
   },

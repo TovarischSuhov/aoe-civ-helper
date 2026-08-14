@@ -357,26 +357,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.39,
-    "playRate": 1.36,
-    "picks": 1784,
+    "winRate": 50.11,
+    "playRate": 1.35,
+    "picks": 1822,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 49.16,
+        "winRate": 49.01,
         "playRate": 1.38,
-        "picks": 1188
+        "picks": 1212
       },
       "open": {
-        "winRate": 53.52,
+        "winRate": 53.01,
         "playRate": 1.45,
-        "picks": 469
+        "picks": 481
       },
       "nomad": {
         "winRate": 64.29,
@@ -384,21 +384,21 @@
         "picks": 14
       },
       "closed": {
-        "winRate": 48.67,
-        "playRate": 0.93,
-        "picks": 113
+        "winRate": 47.83,
+        "playRate": 0.92,
+        "picks": 115
       }
     },
     "strongAgainst": [
       {
-        "name": "magyars",
-        "games": 44,
-        "winRate": 70.45
-      },
-      {
         "name": "bengalis",
         "games": 26,
         "winRate": 69.23
+      },
+      {
+        "name": "magyars",
+        "games": 45,
+        "winRate": 68.89
       },
       {
         "name": "ethiopians",
@@ -419,8 +419,8 @@
     "weakAgainst": [
       {
         "name": "franks",
-        "games": 28,
-        "winRate": 32.14
+        "games": 29,
+        "winRate": 31.03
       },
       {
         "name": "wei",
@@ -428,19 +428,19 @@
         "winRate": 34.15
       },
       {
-        "name": "aztecs",
-        "games": 32,
-        "winRate": 37.5
-      },
-      {
         "name": "celts",
-        "games": 24,
-        "winRate": 37.5
+        "games": 25,
+        "winRate": 36
       },
       {
         "name": "persians",
-        "games": 61,
-        "winRate": 37.7
+        "games": 62,
+        "winRate": 37.1
+      },
+      {
+        "name": "aztecs",
+        "games": 32,
+        "winRate": 37.5
       }
     ]
   },

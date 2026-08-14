@@ -366,26 +366,26 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 50.49,
-    "playRate": 2.16,
-    "picks": 2836,
+    "winRate": 50.73,
+    "playRate": 2.19,
+    "picks": 2943,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
       "open": {
-        "winRate": 50.97,
-        "playRate": 2.24,
-        "picks": 724
+        "winRate": 51.51,
+        "playRate": 2.3,
+        "picks": 761
       },
       "other": {
-        "winRate": 50.33,
-        "playRate": 2.13,
-        "picks": 1836
+        "winRate": 50.45,
+        "playRate": 2.15,
+        "picks": 1895
       },
       "nomad": {
         "winRate": 57.89,
@@ -393,26 +393,21 @@
         "picks": 19
       },
       "closed": {
-        "winRate": 49.81,
-        "playRate": 2.12,
-        "picks": 257
+        "winRate": 50,
+        "playRate": 2.14,
+        "picks": 268
       }
     },
     "strongAgainst": [
       {
         "name": "britons",
-        "games": 53,
-        "winRate": 66.04
+        "games": 54,
+        "winRate": 66.67
       },
       {
         "name": "khitans",
-        "games": 39,
-        "winRate": 64.1
-      },
-      {
-        "name": "cumans",
-        "games": 53,
-        "winRate": 62.26
+        "games": 40,
+        "winRate": 65
       },
       {
         "name": "dravidians",
@@ -420,9 +415,14 @@
         "winRate": 62.16
       },
       {
-        "name": "wu",
-        "games": 28,
-        "winRate": 60.71
+        "name": "cumans",
+        "games": 55,
+        "winRate": 61.82
+      },
+      {
+        "name": "franks",
+        "games": 61,
+        "winRate": 60.66
       }
     ],
     "weakAgainst": [
@@ -438,8 +438,8 @@
       },
       {
         "name": "turks",
-        "games": 51,
-        "winRate": 33.33
+        "games": 53,
+        "winRate": 35.85
       },
       {
         "name": "malay",
@@ -448,8 +448,8 @@
       },
       {
         "name": "armenians",
-        "games": 48,
-        "winRate": 39.58
+        "games": 49,
+        "winRate": 38.78
       }
     ]
   },

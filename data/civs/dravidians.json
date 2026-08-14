@@ -315,12 +315,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.93,
-    "playRate": 1.47,
-    "picks": 1934,
+    "winRate": 50.84,
+    "playRate": 1.45,
+    "picks": 1957,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -332,19 +332,19 @@
         "picks": 29
       },
       "open": {
-        "winRate": 50.23,
-        "playRate": 1.33,
-        "picks": 430
+        "winRate": 50.46,
+        "playRate": 1.31,
+        "picks": 434
       },
       "other": {
-        "winRate": 50.91,
-        "playRate": 1.53,
-        "picks": 1316
+        "winRate": 50.67,
+        "playRate": 1.52,
+        "picks": 1334
       },
       "closed": {
-        "winRate": 53.46,
-        "playRate": 1.31,
-        "picks": 159
+        "winRate": 53.75,
+        "playRate": 1.28,
+        "picks": 160
       }
     },
     "strongAgainst": [
@@ -369,16 +369,26 @@
         "winRate": 63.33
       },
       {
-        "name": "bohemians",
-        "games": 37,
-        "winRate": 62.16
+        "name": "romans",
+        "games": 29,
+        "winRate": 62.07
       }
     ],
     "weakAgainst": [
       {
         "name": "wu",
-        "games": 23,
-        "winRate": 26.09
+        "games": 24,
+        "winRate": 25
+      },
+      {
+        "name": "byzantines",
+        "games": 43,
+        "winRate": 34.88
+      },
+      {
+        "name": "celts",
+        "games": 46,
+        "winRate": 36.96
       },
       {
         "name": "armenians",
@@ -386,19 +396,9 @@
         "winRate": 37.14
       },
       {
-        "name": "byzantines",
-        "games": 40,
-        "winRate": 37.5
-      },
-      {
         "name": "hindustanis",
         "games": 37,
         "winRate": 37.84
-      },
-      {
-        "name": "chinese",
-        "games": 44,
-        "winRate": 38.64
       }
     ]
   },

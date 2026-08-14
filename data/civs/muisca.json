@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.24,
-    "playRate": 1.04,
-    "picks": 1373,
+    "winRate": 49.36,
+    "playRate": 1.05,
+    "picks": 1408,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 50.66,
+        "winRate": 50.8,
         "playRate": 1.06,
-        "picks": 908
+        "picks": 933
       },
       "nomad": {
         "winRate": 60,
@@ -400,14 +400,14 @@
         "picks": 5
       },
       "open": {
-        "winRate": 45,
-        "playRate": 0.99,
-        "picks": 320
+        "winRate": 45.09,
+        "playRate": 0.98,
+        "picks": 326
       },
       "closed": {
-        "winRate": 49.29,
+        "winRate": 49.31,
         "playRate": 1.15,
-        "picks": 140
+        "picks": 144
       }
     },
     "strongAgainst": [
@@ -417,31 +417,31 @@
         "winRate": 69.23
       },
       {
-        "name": "turks",
-        "games": 33,
-        "winRate": 66.67
-      },
-      {
         "name": "teutons",
         "games": 24,
         "winRate": 66.67
       },
       {
-        "name": "italians",
-        "games": 24,
-        "winRate": 66.67
+        "name": "britons",
+        "games": 35,
+        "winRate": 65.71
       },
       {
-        "name": "britons",
-        "games": 33,
-        "winRate": 63.64
+        "name": "turks",
+        "games": 34,
+        "winRate": 64.71
+      },
+      {
+        "name": "italians",
+        "games": 25,
+        "winRate": 64
       }
     ],
     "weakAgainst": [
       {
         "name": "poles",
-        "games": 18,
-        "winRate": 22.22
+        "games": 19,
+        "winRate": 21.05
       },
       {
         "name": "celts",
@@ -454,14 +454,14 @@
         "winRate": 25.93
       },
       {
-        "name": "slavs",
-        "games": 18,
-        "winRate": 27.78
-      },
-      {
         "name": "sicilians",
         "games": 20,
         "winRate": 30
+      },
+      {
+        "name": "slavs",
+        "games": 19,
+        "winRate": 31.58
       }
     ]
   },

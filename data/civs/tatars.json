@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.81,
-    "playRate": 1.6,
-    "picks": 2110,
+    "winRate": 49.82,
+    "playRate": 1.61,
+    "picks": 2166,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 50,
-        "playRate": 1.62,
-        "picks": 526
+        "winRate": 50.09,
+        "playRate": 1.63,
+        "picks": 541
       },
       "nomad": {
         "winRate": 52.63,
@@ -357,21 +357,26 @@
         "picks": 19
       },
       "other": {
-        "winRate": 49.89,
+        "winRate": 49.86,
         "playRate": 1.64,
-        "picks": 1411
+        "picks": 1446
       },
       "closed": {
-        "winRate": 48.05,
-        "playRate": 1.27,
-        "picks": 154
+        "winRate": 48.13,
+        "playRate": 1.28,
+        "picks": 160
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 38,
-        "winRate": 65.79
+        "games": 40,
+        "winRate": 65
+      },
+      {
+        "name": "turks",
+        "games": 37,
+        "winRate": 64.86
       },
       {
         "name": "incas",
@@ -379,26 +384,21 @@
         "winRate": 64.71
       },
       {
-        "name": "georgians",
-        "games": 25,
-        "winRate": 64
-      },
-      {
-        "name": "turks",
-        "games": 35,
-        "winRate": 62.86
-      },
-      {
         "name": "byzantines",
-        "games": 35,
-        "winRate": 62.86
+        "games": 36,
+        "winRate": 63.89
+      },
+      {
+        "name": "jurchens",
+        "games": 29,
+        "winRate": 62.07
       }
     ],
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 32,
-        "winRate": 31.25
+        "games": 33,
+        "winRate": 33.33
       },
       {
         "name": "dravidians",
@@ -417,8 +417,8 @@
       },
       {
         "name": "mongols",
-        "games": 103,
-        "winRate": 39.81
+        "games": 104,
+        "winRate": 39.42
       }
     ]
   },

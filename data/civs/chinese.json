@@ -320,26 +320,26 @@
     "takeaway": "#1 at the very top Elo. Cheaper techs + extra farm food + fire lancers + Chu Ko Nu shine mid/late, but you start down 200 food and need strong game sense to exploit the cheaper techs."
   },
   "stats": {
-    "winRate": 53.98,
-    "playRate": 2.66,
-    "picks": 3503,
+    "winRate": 54.16,
+    "playRate": 2.67,
+    "picks": 3586,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 55.59,
-        "playRate": 2.87,
-        "picks": 930
+        "winRate": 55.81,
+        "playRate": 2.88,
+        "picks": 955
       },
       "other": {
-        "winRate": 53.48,
+        "winRate": 53.72,
         "playRate": 2.69,
-        "picks": 2313
+        "picks": 2366
       },
       "nomad": {
         "winRate": 57.14,
@@ -347,48 +347,53 @@
         "picks": 21
       },
       "closed": {
-        "winRate": 52.3,
-        "playRate": 1.97,
-        "picks": 239
+        "winRate": 51.64,
+        "playRate": 1.95,
+        "picks": 244
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 81,
-        "winRate": 69.14
+        "games": 83,
+        "winRate": 68.67
       },
       {
-        "name": "goths",
-        "games": 47,
-        "winRate": 63.83
+        "name": "incas",
+        "games": 76,
+        "winRate": 63.16
       },
       {
         "name": "turks",
-        "games": 41,
-        "winRate": 63.41
+        "games": 43,
+        "winRate": 62.79
+      },
+      {
+        "name": "goths",
+        "games": 48,
+        "winRate": 62.5
       },
       {
         "name": "burmese",
-        "games": 41,
-        "winRate": 63.41
-      },
-      {
-        "name": "koreans",
-        "games": 53,
-        "winRate": 62.26
+        "games": 42,
+        "winRate": 61.9
       }
     ],
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 63,
-        "winRate": 36.51
+        "games": 66,
+        "winRate": 36.36
       },
       {
         "name": "mapuche",
-        "games": 56,
-        "winRate": 41.07
+        "games": 57,
+        "winRate": 42.11
+      },
+      {
+        "name": "spanish",
+        "games": 92,
+        "winRate": 43.48
       },
       {
         "name": "bengalis",
@@ -399,11 +404,6 @@
         "name": "bulgarians",
         "games": 59,
         "winRate": 44.07
-      },
-      {
-        "name": "spanish",
-        "games": 87,
-        "winRate": 44.83
       }
     ]
   },

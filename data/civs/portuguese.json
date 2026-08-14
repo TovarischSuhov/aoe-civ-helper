@@ -308,26 +308,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.44,
-    "playRate": 1.97,
-    "picks": 2591,
+    "winRate": 48.35,
+    "playRate": 1.98,
+    "picks": 2662,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T05:47:55.000Z",
+    "updated": "2026-08-14T17:13:34.000Z",
     "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
       "open": {
-        "winRate": 45.72,
-        "playRate": 1.8,
-        "picks": 584
+        "winRate": 45.51,
+        "playRate": 1.82,
+        "picks": 602
       },
       "other": {
-        "winRate": 49.09,
-        "playRate": 1.98,
-        "picks": 1705
+        "winRate": 49.03,
+        "playRate": 1.99,
+        "picks": 1746
       },
       "nomad": {
         "winRate": 46.67,
@@ -336,8 +336,8 @@
       },
       "closed": {
         "winRate": 50.17,
-        "playRate": 2.37,
-        "picks": 287
+        "playRate": 2.39,
+        "picks": 299
       }
     },
     "strongAgainst": [
@@ -348,8 +348,13 @@
       },
       {
         "name": "mayans",
-        "games": 45,
-        "winRate": 62.22
+        "games": 46,
+        "winRate": 63.04
+      },
+      {
+        "name": "ethiopians",
+        "games": 53,
+        "winRate": 62.26
       },
       {
         "name": "slavs",
@@ -357,14 +362,9 @@
         "winRate": 62.16
       },
       {
-        "name": "ethiopians",
-        "games": 52,
-        "winRate": 61.54
-      },
-      {
-        "name": "goths",
-        "games": 33,
-        "winRate": 60.61
+        "name": "gurjaras",
+        "games": 35,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -380,18 +380,18 @@
       },
       {
         "name": "khmer",
-        "games": 53,
-        "winRate": 37.74
+        "games": 54,
+        "winRate": 37.04
       },
       {
         "name": "byzantines",
-        "games": 49,
-        "winRate": 38.78
+        "games": 51,
+        "winRate": 37.25
       },
       {
-        "name": "poles",
-        "games": 50,
-        "winRate": 40
+        "name": "magyars",
+        "games": 72,
+        "winRate": 40.28
       }
     ]
   },
