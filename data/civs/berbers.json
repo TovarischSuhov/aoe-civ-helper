@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.96,
-    "playRate": 1.72,
-    "picks": 2221,
+    "winRate": 46.95,
+    "playRate": 1.71,
+    "picks": 2249,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T17:15:04.000Z",
-    "window": "2026-07-17 → 2026-08-13",
+    "updated": "2026-08-14T05:47:55.000Z",
+    "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
       "other": {
-        "winRate": 47.73,
-        "playRate": 1.72,
-        "picks": 1452
+        "winRate": 47.75,
+        "playRate": 1.7,
+        "picks": 1466
       },
       "open": {
-        "winRate": 43.19,
+        "winRate": 43.23,
         "playRate": 1.78,
-        "picks": 565
+        "picks": 576
       },
       "nomad": {
         "winRate": 64.29,
@@ -393,19 +393,24 @@
         "picks": 14
       },
       "closed": {
-        "winRate": 51.05,
-        "playRate": 1.61,
-        "picks": 190
+        "winRate": 50.78,
+        "playRate": 1.59,
+        "picks": 193
       }
     },
     "strongAgainst": [
       {
         "name": "wu",
-        "games": 21,
-        "winRate": 76.19
+        "games": 22,
+        "winRate": 77.27
       },
       {
         "name": "lithuanians",
+        "games": 43,
+        "winRate": 65.12
+      },
+      {
+        "name": "turks",
         "games": 42,
         "winRate": 64.29
       },
@@ -413,11 +418,6 @@
         "name": "bengalis",
         "games": 22,
         "winRate": 63.64
-      },
-      {
-        "name": "turks",
-        "games": 41,
-        "winRate": 63.41
       },
       {
         "name": "aztecs",
@@ -448,8 +448,8 @@
       },
       {
         "name": "bohemians",
-        "games": 35,
-        "winRate": 34.29
+        "games": 37,
+        "winRate": 35.14
       }
     ]
   },

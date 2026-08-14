@@ -313,26 +313,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.6,
+    "winRate": 49.71,
     "playRate": 1.96,
-    "picks": 2524,
+    "picks": 2571,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-13T17:15:04.000Z",
-    "window": "2026-07-17 → 2026-08-13",
+    "updated": "2026-08-14T05:47:55.000Z",
+    "window": "2026-07-17 → 2026-08-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
         "winRate": 49.59,
-        "playRate": 1.92,
-        "picks": 607
+        "playRate": 1.91,
+        "picks": 617
       },
       "other": {
-        "winRate": 49.63,
+        "winRate": 49.6,
         "playRate": 1.91,
-        "picks": 1612
+        "picks": 1641
       },
       "nomad": {
         "winRate": 47.06,
@@ -340,16 +340,16 @@
         "picks": 17
       },
       "closed": {
-        "winRate": 49.65,
+        "winRate": 50.68,
         "playRate": 2.44,
-        "picks": 288
+        "picks": 296
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 41,
-        "winRate": 73.17
+        "games": 42,
+        "winRate": 73.81
       },
       {
         "name": "wu",
@@ -358,13 +358,13 @@
       },
       {
         "name": "spanish",
-        "games": 54,
-        "winRate": 64.81
+        "games": 55,
+        "winRate": 63.64
       },
       {
         "name": "slavs",
-        "games": 29,
-        "winRate": 62.07
+        "games": 30,
+        "winRate": 63.33
       },
       {
         "name": "cumans",
@@ -374,19 +374,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "bengalis",
-        "games": 49,
-        "winRate": 32.65
-      },
-      {
-        "name": "teutons",
-        "games": 48,
-        "winRate": 33.33
-      },
-      {
         "name": "hindustanis",
         "games": 53,
         "winRate": 33.96
+      },
+      {
+        "name": "teutons",
+        "games": 52,
+        "winRate": 34.62
       },
       {
         "name": "poles",
@@ -394,9 +389,14 @@
         "winRate": 35.29
       },
       {
-        "name": "celts",
-        "games": 41,
-        "winRate": 36.59
+        "name": "muisca",
+        "games": 33,
+        "winRate": 36.36
+      },
+      {
+        "name": "bengalis",
+        "games": 52,
+        "winRate": 36.54
       }
     ]
   },
