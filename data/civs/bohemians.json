@@ -343,26 +343,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.79,
+    "winRate": 48.85,
     "playRate": 1.92,
-    "picks": 2648,
+    "picks": 2706,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-15T04:49:24.000Z",
+    "updated": "2026-08-15T16:43:40.000Z",
     "window": "2026-07-17 → 2026-08-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 47.42,
+        "winRate": 47.22,
         "playRate": 1.6,
-        "picks": 542
+        "picks": 557
       },
       "other": {
-        "winRate": 49.23,
-        "playRate": 1.81,
-        "picks": 1623
+        "winRate": 49.34,
+        "playRate": 1.8,
+        "picks": 1656
       },
       "nomad": {
         "winRate": 25,
@@ -370,31 +370,31 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 49.47,
-        "playRate": 3.66,
-        "picks": 471
+        "winRate": 49.69,
+        "playRate": 3.6,
+        "picks": 481
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 30,
-        "winRate": 73.33
+        "games": 31,
+        "winRate": 74.19
       },
       {
         "name": "berbers",
-        "games": 40,
-        "winRate": 62.5
-      },
-      {
-        "name": "gurjaras",
-        "games": 27,
-        "winRate": 59.26
+        "games": 41,
+        "winRate": 60.98
       },
       {
         "name": "persians",
-        "games": 58,
-        "winRate": 56.9
+        "games": 61,
+        "winRate": 57.38
+      },
+      {
+        "name": "gurjaras",
+        "games": 28,
+        "winRate": 57.14
       },
       {
         "name": "saracens",
@@ -405,13 +405,8 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 43,
-        "winRate": 27.91
-      },
-      {
-        "name": "goths",
-        "games": 26,
-        "winRate": 38.46
+        "games": 44,
+        "winRate": 27.27
       },
       {
         "name": "armenians",
@@ -424,9 +419,14 @@
         "winRate": 39.47
       },
       {
-        "name": "wu",
-        "games": 32,
-        "winRate": 40.63
+        "name": "goths",
+        "games": 27,
+        "winRate": 40.74
+      },
+      {
+        "name": "shu",
+        "games": 29,
+        "winRate": 41.38
       }
     ]
   },

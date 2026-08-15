@@ -330,26 +330,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.54,
+    "winRate": 49.49,
     "playRate": 1.73,
-    "picks": 2386,
+    "picks": 2433,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-15T04:49:24.000Z",
+    "updated": "2026-08-15T16:43:40.000Z",
     "window": "2026-07-17 → 2026-08-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
       "closed": {
-        "winRate": 57.01,
-        "playRate": 2.6,
-        "picks": 335
+        "winRate": 56.97,
+        "playRate": 2.52,
+        "picks": 337
       },
       "other": {
-        "winRate": 48.89,
+        "winRate": 49.04,
         "playRate": 1.7,
-        "picks": 1530
+        "picks": 1562
       },
       "nomad": {
         "winRate": 31.82,
@@ -357,26 +357,21 @@
         "picks": 22
       },
       "open": {
-        "winRate": 47.29,
+        "winRate": 46.68,
         "playRate": 1.47,
-        "picks": 499
+        "picks": 512
       }
     },
     "strongAgainst": [
       {
         "name": "georgians",
-        "games": 37,
-        "winRate": 64.86
+        "games": 38,
+        "winRate": 63.16
       },
       {
         "name": "saracens",
-        "games": 34,
-        "winRate": 61.76
-      },
-      {
-        "name": "malay",
-        "games": 51,
-        "winRate": 60.78
+        "games": 35,
+        "winRate": 62.86
       },
       {
         "name": "wei",
@@ -387,18 +382,28 @@
         "name": "tupi",
         "games": 20,
         "winRate": 60
+      },
+      {
+        "name": "bengalis",
+        "games": 51,
+        "winRate": 58.82
       }
     ],
     "weakAgainst": [
       {
-        "name": "vietnamese",
-        "games": 60,
-        "winRate": 36.67
-      },
-      {
         "name": "slavs",
         "games": 40,
         "winRate": 37.5
+      },
+      {
+        "name": "bulgarians",
+        "games": 48,
+        "winRate": 37.5
+      },
+      {
+        "name": "vietnamese",
+        "games": 61,
+        "winRate": 37.7
       },
       {
         "name": "britons",
@@ -406,14 +411,9 @@
         "winRate": 38.18
       },
       {
-        "name": "bulgarians",
-        "games": 47,
-        "winRate": 38.3
-      },
-      {
         "name": "chinese",
-        "games": 49,
-        "winRate": 38.78
+        "games": 50,
+        "winRate": 40
       }
     ]
   },

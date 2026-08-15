@@ -295,21 +295,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 53.27,
+    "winRate": 53.56,
     "playRate": 1.83,
-    "picks": 2521,
+    "picks": 2571,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-15T04:49:24.000Z",
+    "updated": "2026-08-15T16:43:40.000Z",
     "window": "2026-07-17 → 2026-08-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
       "other": {
-        "winRate": 53.43,
-        "playRate": 1.82,
-        "picks": 1632
+        "winRate": 53.71,
+        "playRate": 1.81,
+        "picks": 1659
       },
       "nomad": {
         "winRate": 78.26,
@@ -317,21 +317,21 @@
         "picks": 23
       },
       "open": {
-        "winRate": 52.72,
-        "playRate": 1.62,
-        "picks": 552
+        "winRate": 53,
+        "playRate": 1.63,
+        "picks": 566
       },
       "closed": {
-        "winRate": 51.59,
-        "playRate": 2.44,
-        "picks": 314
+        "winRate": 52.01,
+        "playRate": 2.42,
+        "picks": 323
       }
     },
     "strongAgainst": [
       {
         "name": "byzantines",
-        "games": 38,
-        "winRate": 73.68
+        "games": 39,
+        "winRate": 74.36
       },
       {
         "name": "armenians",
@@ -345,8 +345,8 @@
       },
       {
         "name": "slavs",
-        "games": 40,
-        "winRate": 65
+        "games": 41,
+        "winRate": 65.85
       },
       {
         "name": "chinese",
@@ -356,19 +356,9 @@
     ],
     "weakAgainst": [
       {
-        "name": "jurchens",
-        "games": 22,
-        "winRate": 36.36
-      },
-      {
         "name": "muisca",
-        "games": 26,
-        "winRate": 38.46
-      },
-      {
-        "name": "cumans",
-        "games": 51,
-        "winRate": 39.22
+        "games": 27,
+        "winRate": 37.04
       },
       {
         "name": "mayans",
@@ -376,9 +366,19 @@
         "winRate": 41.03
       },
       {
+        "name": "jurchens",
+        "games": 24,
+        "winRate": 41.67
+      },
+      {
         "name": "mongols",
-        "games": 119,
-        "winRate": 42.86
+        "games": 120,
+        "winRate": 42.5
+      },
+      {
+        "name": "cumans",
+        "games": 54,
+        "winRate": 42.59
       }
     ]
   },

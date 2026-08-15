@@ -372,31 +372,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.67,
+    "winRate": 46.65,
     "playRate": 1.4,
-    "picks": 1924,
+    "picks": 1968,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-15T04:49:24.000Z",
+    "updated": "2026-08-15T16:43:40.000Z",
     "window": "2026-07-17 → 2026-08-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
       "other": {
-        "winRate": 46.3,
+        "winRate": 46.34,
         "playRate": 1.35,
-        "picks": 1216
+        "picks": 1243
       },
       "closed": {
-        "winRate": 51.22,
+        "winRate": 50.59,
         "playRate": 1.27,
-        "picks": 164
+        "picks": 170
       },
       "open": {
-        "winRate": 46.33,
+        "winRate": 46.31,
         "playRate": 1.56,
-        "picks": 531
+        "picks": 542
       },
       "nomad": {
         "winRate": 38.46,
@@ -412,8 +412,8 @@
       },
       {
         "name": "mongols",
-        "games": 86,
-        "winRate": 62.79
+        "games": 88,
+        "winRate": 61.36
       },
       {
         "name": "khitans",
@@ -422,8 +422,8 @@
       },
       {
         "name": "burmese",
-        "games": 32,
-        "winRate": 59.38
+        "games": 33,
+        "winRate": 60.61
       },
       {
         "name": "jurchens",
@@ -432,6 +432,11 @@
       }
     ],
     "weakAgainst": [
+      {
+        "name": "bulgarians",
+        "games": 26,
+        "winRate": 30.77
+      },
       {
         "name": "romans",
         "games": 29,
@@ -448,14 +453,9 @@
         "winRate": 32.56
       },
       {
-        "name": "bulgarians",
-        "games": 24,
-        "winRate": 33.33
-      },
-      {
-        "name": "khmer",
-        "games": 37,
-        "winRate": 35.14
+        "name": "mapuche",
+        "games": 29,
+        "winRate": 34.48
       }
     ]
   },
