@@ -314,31 +314,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.01,
-    "playRate": 1.4,
-    "picks": 1881,
+    "winRate": 48.32,
+    "playRate": 1.41,
+    "picks": 1937,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-14T17:13:34.000Z",
-    "window": "2026-07-17 → 2026-08-14",
+    "updated": "2026-08-15T04:49:24.000Z",
+    "window": "2026-07-17 → 2026-08-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 48.59,
-        "playRate": 1.37,
-        "picks": 1206
+        "winRate": 48.91,
+        "playRate": 1.38,
+        "picks": 1239
       },
       "open": {
-        "winRate": 48.6,
-        "playRate": 1.51,
-        "picks": 500
+        "winRate": 48.65,
+        "playRate": 1.52,
+        "picks": 518
       },
       "closed": {
-        "winRate": 42.26,
+        "winRate": 43.35,
         "playRate": 1.34,
-        "picks": 168
+        "picks": 173
       },
       "nomad": {
         "winRate": 42.86,
@@ -349,8 +349,8 @@
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 19,
-        "winRate": 68.42
+        "games": 20,
+        "winRate": 70
       },
       {
         "name": "mapuche",
@@ -359,8 +359,8 @@
       },
       {
         "name": "byzantines",
-        "games": 35,
-        "winRate": 65.71
+        "games": 36,
+        "winRate": 66.67
       },
       {
         "name": "georgians",
@@ -368,9 +368,9 @@
         "winRate": 63.64
       },
       {
-        "name": "vikings",
-        "games": 26,
-        "winRate": 61.54
+        "name": "cumans",
+        "games": 40,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
@@ -378,11 +378,6 @@
         "name": "turks",
         "games": 36,
         "winRate": 30.56
-      },
-      {
-        "name": "britons",
-        "games": 32,
-        "winRate": 34.38
       },
       {
         "name": "malay",
@@ -393,6 +388,11 @@
         "name": "malians",
         "games": 39,
         "winRate": 35.9
+      },
+      {
+        "name": "britons",
+        "games": 33,
+        "winRate": 36.36
       },
       {
         "name": "huns",
