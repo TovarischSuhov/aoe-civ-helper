@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.65,
+    "winRate": 45.68,
     "playRate": 1.3,
-    "picks": 1829,
+    "picks": 1876,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-15T16:43:40.000Z",
-    "window": "2026-07-17 → 2026-08-15",
+    "updated": "2026-08-16T04:51:39.000Z",
+    "window": "2026-07-17 → 2026-08-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 46.32,
+        "winRate": 46,
         "playRate": 1.29,
-        "picks": 1181
+        "picks": 1213
       },
       "open": {
-        "winRate": 44.6,
+        "winRate": 45.24,
         "playRate": 1.41,
-        "picks": 491
+        "picks": 504
       },
       "nomad": {
         "winRate": 36.36,
@@ -393,9 +393,9 @@
         "picks": 11
       },
       "closed": {
-        "winRate": 44.52,
-        "playRate": 1.09,
-        "picks": 146
+        "winRate": 45.27,
+        "playRate": 1.07,
+        "picks": 148
       }
     },
     "strongAgainst": [
@@ -406,8 +406,8 @@
       },
       {
         "name": "aztecs",
-        "games": 33,
-        "winRate": 69.7
+        "games": 35,
+        "winRate": 68.57
       },
       {
         "name": "slavs",
@@ -415,29 +415,24 @@
         "winRate": 61.9
       },
       {
+        "name": "portuguese",
+        "games": 31,
+        "winRate": 61.29
+      },
+      {
         "name": "teutons",
         "games": 28,
         "winRate": 60.71
-      },
-      {
-        "name": "romans",
-        "games": 30,
-        "winRate": 60
       }
     ],
     "weakAgainst": [
-      {
-        "name": "celts",
-        "games": 30,
-        "winRate": 23.33
-      },
       {
         "name": "spanish",
         "games": 49,
         "winRate": 24.49
       },
       {
-        "name": "bohemians",
+        "name": "celts",
         "games": 31,
         "winRate": 25.81
       },
@@ -447,9 +442,14 @@
         "winRate": 30.3
       },
       {
-        "name": "saracens",
-        "games": 26,
-        "winRate": 30.77
+        "name": "bohemians",
+        "games": 33,
+        "winRate": 30.3
+      },
+      {
+        "name": "bengalis",
+        "games": 36,
+        "winRate": 30.56
       }
     ]
   },

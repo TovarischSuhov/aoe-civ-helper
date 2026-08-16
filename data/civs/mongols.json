@@ -380,21 +380,21 @@
     "takeaway": "Honourable mention: the best scout opening + Mangudai; even better on maps with extra huntables, but Arabia late-game stats are weak."
   },
   "stats": {
-    "winRate": 52.98,
-    "playRate": 6.31,
-    "picks": 8884,
+    "winRate": 52.82,
+    "playRate": 6.3,
+    "picks": 9095,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-15T16:43:40.000Z",
-    "window": "2026-07-17 → 2026-08-15",
+    "updated": "2026-08-16T04:51:39.000Z",
+    "window": "2026-07-17 → 2026-08-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mongols",
     "byMapType": {
       "other": {
-        "winRate": 53.24,
-        "playRate": 6.7,
-        "picks": 6150
+        "winRate": 53.12,
+        "playRate": 6.68,
+        "picks": 6278
       },
       "nomad": {
         "winRate": 52.63,
@@ -402,26 +402,31 @@
         "picks": 38
       },
       "open": {
-        "winRate": 52.64,
-        "playRate": 6,
-        "picks": 2086
+        "winRate": 52.54,
+        "playRate": 6.01,
+        "picks": 2145
       },
       "closed": {
-        "winRate": 51.64,
-        "playRate": 4.56,
-        "picks": 610
+        "winRate": 50.79,
+        "playRate": 4.58,
+        "picks": 634
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 92,
-        "winRate": 66.3
+        "games": 94,
+        "winRate": 65.96
+      },
+      {
+        "name": "georgians",
+        "games": 95,
+        "winRate": 62.11
       },
       {
         "name": "celts",
-        "games": 123,
-        "winRate": 62.6
+        "games": 129,
+        "winRate": 62.02
       },
       {
         "name": "romans",
@@ -429,41 +434,36 @@
         "winRate": 61.03
       },
       {
-        "name": "georgians",
-        "games": 92,
-        "winRate": 60.87
-      },
-      {
         "name": "goths",
-        "games": 79,
-        "winRate": 60.76
+        "games": 82,
+        "winRate": 59.76
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 88,
-        "winRate": 38.64
+        "games": 90,
+        "winRate": 37.78
       },
       {
         "name": "mapuche",
-        "games": 106,
-        "winRate": 41.51
+        "games": 110,
+        "winRate": 41.82
       },
       {
         "name": "chinese",
-        "games": 303,
-        "winRate": 43.23
+        "games": 313,
+        "winRate": 43.13
       },
       {
         "name": "mayans",
-        "games": 197,
-        "winRate": 44.67
+        "games": 199,
+        "winRate": 44.22
       },
       {
         "name": "shu",
-        "games": 70,
-        "winRate": 47.14
+        "games": 72,
+        "winRate": 45.83
       }
     ]
   },
