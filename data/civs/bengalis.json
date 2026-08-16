@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.06,
-    "playRate": 1.66,
-    "picks": 2391,
+    "winRate": 49.96,
+    "playRate": 1.65,
+    "picks": 2442,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T04:51:39.000Z",
+    "updated": "2026-08-16T16:44:14.000Z",
     "window": "2026-07-17 → 2026-08-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 50.46,
-        "playRate": 1.61,
-        "picks": 1516
+        "winRate": 50.42,
+        "playRate": 1.62,
+        "picks": 1553
       },
       "open": {
-        "winRate": 47.82,
-        "playRate": 1.54,
-        "picks": 550
+        "winRate": 47.58,
+        "playRate": 1.53,
+        "picks": 559
       },
       "nomad": {
         "winRate": 50,
@@ -283,9 +283,9 @@
         "picks": 18
       },
       "closed": {
-        "winRate": 52.12,
-        "playRate": 2.22,
-        "picks": 307
+        "winRate": 51.92,
+        "playRate": 2.2,
+        "picks": 312
       }
     },
     "strongAgainst": [
@@ -293,11 +293,6 @@
         "name": "jurchens",
         "games": 36,
         "winRate": 69.44
-      },
-      {
-        "name": "goths",
-        "games": 35,
-        "winRate": 62.86
       },
       {
         "name": "burmese",
@@ -311,15 +306,25 @@
       },
       {
         "name": "britons",
-        "games": 61,
-        "winRate": 60.66
+        "games": 62,
+        "winRate": 59.68
+      },
+      {
+        "name": "goths",
+        "games": 37,
+        "winRate": 59.46
       }
     ],
     "weakAgainst": [
       {
         "name": "aztecs",
-        "games": 38,
-        "winRate": 28.95
+        "games": 39,
+        "winRate": 28.21
+      },
+      {
+        "name": "romans",
+        "games": 41,
+        "winRate": 31.71
       },
       {
         "name": "berbers",
@@ -327,14 +332,9 @@
         "winRate": 32
       },
       {
-        "name": "romans",
-        "games": 40,
-        "winRate": 32.5
-      },
-      {
         "name": "tupi",
-        "games": 30,
-        "winRate": 33.33
+        "games": 31,
+        "winRate": 32.26
       },
       {
         "name": "muisca",

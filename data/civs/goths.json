@@ -336,21 +336,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.51,
+    "winRate": 48.55,
     "playRate": 1.4,
-    "picks": 2020,
+    "picks": 2064,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T04:51:39.000Z",
+    "updated": "2026-08-16T16:44:14.000Z",
     "window": "2026-07-17 → 2026-08-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 48.68,
+        "winRate": 48.67,
         "playRate": 1.41,
-        "picks": 1325
+        "picks": 1356
       },
       "nomad": {
         "winRate": 46.67,
@@ -358,26 +358,21 @@
         "picks": 15
       },
       "closed": {
-        "winRate": 52.57,
-        "playRate": 1.26,
-        "picks": 175
+        "winRate": 51.93,
+        "playRate": 1.28,
+        "picks": 181
       },
       "open": {
-        "winRate": 46.73,
-        "playRate": 1.42,
-        "picks": 505
+        "winRate": 47.07,
+        "playRate": 1.4,
+        "picks": 512
       }
     },
     "strongAgainst": [
       {
         "name": "mayans",
-        "games": 49,
-        "winRate": 67.35
-      },
-      {
-        "name": "mapuche",
-        "games": 29,
-        "winRate": 65.52
+        "games": 50,
+        "winRate": 68
       },
       {
         "name": "muisca",
@@ -385,7 +380,12 @@
         "winRate": 65
       },
       {
-        "name": "bulgarians",
+        "name": "mapuche",
+        "games": 30,
+        "winRate": 63.33
+      },
+      {
+        "name": "koreans",
         "games": 31,
         "winRate": 61.29
       },
@@ -413,8 +413,8 @@
       },
       {
         "name": "celts",
-        "games": 38,
-        "winRate": 34.21
+        "games": 39,
+        "winRate": 33.33
       },
       {
         "name": "romans",

@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.9,
-    "playRate": 1.04,
-    "picks": 1497,
+    "winRate": 49.21,
+    "playRate": 1.03,
+    "picks": 1520,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T04:51:39.000Z",
+    "updated": "2026-08-16T16:44:14.000Z",
     "window": "2026-07-17 → 2026-08-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 50.35,
-        "playRate": 1.06,
-        "picks": 993
+        "winRate": 50.6,
+        "playRate": 1.05,
+        "picks": 1008
       },
       "nomad": {
         "winRate": 60,
@@ -400,14 +400,14 @@
         "picks": 5
       },
       "open": {
-        "winRate": 44.19,
-        "playRate": 0.96,
-        "picks": 344
+        "winRate": 44.41,
+        "playRate": 0.95,
+        "picks": 349
       },
       "closed": {
-        "winRate": 49.68,
-        "playRate": 1.12,
-        "picks": 155
+        "winRate": 50.63,
+        "playRate": 1.11,
+        "picks": 158
       }
     },
     "strongAgainst": [
@@ -422,6 +422,11 @@
         "winRate": 65.52
       },
       {
+        "name": "malay",
+        "games": 28,
+        "winRate": 64.29
+      },
+      {
         "name": "teutons",
         "games": 25,
         "winRate": 64
@@ -430,11 +435,6 @@
         "name": "britons",
         "games": 36,
         "winRate": 63.89
-      },
-      {
-        "name": "italians",
-        "games": 27,
-        "winRate": 62.96
       }
     ],
     "weakAgainst": [
@@ -454,14 +454,14 @@
         "winRate": 28.57
       },
       {
-        "name": "huns",
-        "games": 30,
-        "winRate": 30
+        "name": "wu",
+        "games": 19,
+        "winRate": 31.58
       },
       {
         "name": "slavs",
-        "games": 21,
-        "winRate": 33.33
+        "games": 22,
+        "winRate": 31.82
       }
     ]
   },
