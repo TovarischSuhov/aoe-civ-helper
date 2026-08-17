@@ -366,26 +366,26 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 50.6,
-    "playRate": 2.18,
-    "picks": 3308,
+    "winRate": 50.77,
+    "playRate": 2.19,
+    "picks": 3382,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-17T05:00:24.000Z",
+    "updated": "2026-08-17T16:47:49.000Z",
     "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
       "open": {
-        "winRate": 52.43,
+        "winRate": 52.67,
         "playRate": 2.3,
-        "picks": 864
+        "picks": 879
       },
       "other": {
-        "winRate": 49.74,
+        "winRate": 49.98,
         "playRate": 2.14,
-        "picks": 2103
+        "picks": 2153
       },
       "nomad": {
         "winRate": 57.89,
@@ -393,21 +393,16 @@
         "picks": 19
       },
       "closed": {
-        "winRate": 50.93,
+        "winRate": 50.45,
         "playRate": 2.2,
-        "picks": 322
+        "picks": 331
       }
     },
     "strongAgainst": [
       {
-        "name": "britons",
-        "games": 61,
-        "winRate": 67.21
-      },
-      {
         "name": "koreans",
-        "games": 48,
-        "winRate": 64.58
+        "games": 49,
+        "winRate": 65.31
       },
       {
         "name": "khitans",
@@ -415,12 +410,17 @@
         "winRate": 64.44
       },
       {
-        "name": "wu",
-        "games": 34,
-        "winRate": 61.76
+        "name": "britons",
+        "games": 64,
+        "winRate": 64.06
       },
       {
-        "name": "cumans",
+        "name": "wu",
+        "games": 36,
+        "winRate": 63.89
+      },
+      {
+        "name": "berbers",
         "games": 62,
         "winRate": 59.68
       }
@@ -433,8 +433,8 @@
       },
       {
         "name": "shu",
-        "games": 29,
-        "winRate": 27.59
+        "games": 31,
+        "winRate": 32.26
       },
       {
         "name": "turks",
@@ -443,13 +443,13 @@
       },
       {
         "name": "malay",
-        "games": 54,
-        "winRate": 40.74
+        "games": 56,
+        "winRate": 39.29
       },
       {
         "name": "bulgarians",
-        "games": 66,
-        "winRate": 40.91
+        "games": 67,
+        "winRate": 40.3
       }
     ]
   },

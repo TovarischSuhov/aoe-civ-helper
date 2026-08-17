@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.41,
-    "playRate": 1.04,
-    "picks": 1574,
+    "winRate": 52.28,
+    "playRate": 1.05,
+    "picks": 1622,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-17T05:00:24.000Z",
+    "updated": "2026-08-17T16:47:49.000Z",
     "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
-        "winRate": 55.26,
+        "winRate": 54.14,
         "playRate": 1.04,
-        "picks": 152
+        "picks": 157
       },
       "other": {
-        "winRate": 50.93,
-        "playRate": 1.04,
-        "picks": 1021
+        "winRate": 50.9,
+        "playRate": 1.05,
+        "picks": 1051
       },
       "open": {
-        "winRate": 55.08,
-        "playRate": 1.05,
-        "picks": 394
+        "winRate": 55.04,
+        "playRate": 1.06,
+        "picks": 407
       },
       "nomad": {
         "winRate": 57.14,
@@ -386,14 +386,9 @@
     },
     "strongAgainst": [
       {
-        "name": "hindustanis",
-        "games": 29,
-        "winRate": 72.41
-      },
-      {
         "name": "mapuche",
-        "games": 14,
-        "winRate": 71.43
+        "games": 17,
+        "winRate": 70.59
       },
       {
         "name": "wu",
@@ -406,6 +401,11 @@
         "winRate": 68.18
       },
       {
+        "name": "hindustanis",
+        "games": 31,
+        "winRate": 67.74
+      },
+      {
         "name": "jurchens",
         "games": 23,
         "winRate": 65.22
@@ -414,8 +414,8 @@
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 32,
-        "winRate": 34.38
+        "games": 34,
+        "winRate": 32.35
       },
       {
         "name": "dravidians",
@@ -428,14 +428,14 @@
         "winRate": 38.46
       },
       {
-        "name": "tupi",
-        "games": 15,
-        "winRate": 40
-      },
-      {
         "name": "chinese",
         "games": 46,
         "winRate": 41.3
+      },
+      {
+        "name": "magyars",
+        "games": 56,
+        "winRate": 42.86
       }
     ]
   },
