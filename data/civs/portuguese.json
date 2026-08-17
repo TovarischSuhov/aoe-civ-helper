@@ -308,26 +308,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.16,
+    "winRate": 48.02,
     "playRate": 1.99,
-    "picks": 2936,
+    "picks": 3011,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T16:44:14.000Z",
-    "window": "2026-07-17 → 2026-08-16",
+    "updated": "2026-08-17T05:00:24.000Z",
+    "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
       "open": {
-        "winRate": 45.44,
-        "playRate": 1.83,
-        "picks": 669
+        "winRate": 45.28,
+        "playRate": 1.84,
+        "picks": 689
       },
       "other": {
-        "winRate": 49,
-        "playRate": 1.98,
-        "picks": 1908
+        "winRate": 48.89,
+        "playRate": 1.97,
+        "picks": 1943
       },
       "nomad": {
         "winRate": 46.67,
@@ -335,43 +335,43 @@
         "picks": 15
       },
       "closed": {
-        "winRate": 48.84,
-        "playRate": 2.42,
-        "picks": 344
+        "winRate": 48.63,
+        "playRate": 2.49,
+        "picks": 364
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 56,
-        "winRate": 64.29
-      },
-      {
-        "name": "ethiopians",
-        "games": 55,
-        "winRate": 61.82
-      },
-      {
-        "name": "gurjaras",
-        "games": 39,
-        "winRate": 61.54
+        "games": 57,
+        "winRate": 64.91
       },
       {
         "name": "slavs",
-        "games": 46,
-        "winRate": 60.87
+        "games": 48,
+        "winRate": 62.5
       },
       {
         "name": "mayans",
-        "games": 51,
-        "winRate": 60.78
+        "games": 53,
+        "winRate": 60.38
+      },
+      {
+        "name": "gurjaras",
+        "games": 40,
+        "winRate": 60
+      },
+      {
+        "name": "ethiopians",
+        "games": 57,
+        "winRate": 59.65
       }
     ],
     "weakAgainst": [
       {
         "name": "franks",
-        "games": 64,
-        "winRate": 34.38
+        "games": 65,
+        "winRate": 33.85
       },
       {
         "name": "jurchens",
@@ -379,19 +379,19 @@
         "winRate": 38.71
       },
       {
-        "name": "berbers",
-        "games": 59,
-        "winRate": 40.68
-      },
-      {
         "name": "poles",
-        "games": 54,
-        "winRate": 40.74
+        "games": 56,
+        "winRate": 39.29
       },
       {
-        "name": "magyars",
-        "games": 78,
-        "winRate": 41.03
+        "name": "khmer",
+        "games": 62,
+        "winRate": 40.32
+      },
+      {
+        "name": "berbers",
+        "games": 62,
+        "winRate": 40.32
       }
     ]
   },

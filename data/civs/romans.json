@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 52.81,
-    "playRate": 1.46,
-    "picks": 2155,
+    "winRate": 52.98,
+    "playRate": 1.45,
+    "picks": 2201,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T16:44:14.000Z",
-    "window": "2026-07-17 → 2026-08-16",
+    "updated": "2026-08-17T05:00:24.000Z",
+    "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 53.03,
+        "winRate": 53.04,
         "playRate": 1.58,
-        "picks": 577
+        "picks": 592
       },
       "other": {
-        "winRate": 52.97,
-        "playRate": 1.47,
-        "picks": 1414
+        "winRate": 53.23,
+        "playRate": 1.46,
+        "picks": 1441
       },
       "nomad": {
         "winRate": 33.33,
@@ -375,16 +375,16 @@
         "picks": 12
       },
       "closed": {
-        "winRate": 51.97,
+        "winRate": 51.92,
         "playRate": 1.07,
-        "picks": 152
+        "picks": 156
       }
     },
     "strongAgainst": [
       {
         "name": "lithuanians",
-        "games": 34,
-        "winRate": 70.59
+        "games": 36,
+        "winRate": 72.22
       },
       {
         "name": "gurjaras",
@@ -409,9 +409,19 @@
     ],
     "weakAgainst": [
       {
+        "name": "jurchens",
+        "games": 35,
+        "winRate": 37.14
+      },
+      {
         "name": "mayans",
         "games": 42,
         "winRate": 38.1
+      },
+      {
+        "name": "mongols",
+        "games": 138,
+        "winRate": 39.13
       },
       {
         "name": "chinese",
@@ -419,19 +429,9 @@
         "winRate": 39.34
       },
       {
-        "name": "jurchens",
-        "games": 33,
-        "winRate": 39.39
-      },
-      {
-        "name": "mongols",
-        "games": 137,
-        "winRate": 39.42
-      },
-      {
-        "name": "dravidians",
-        "games": 31,
-        "winRate": 41.94
+        "name": "teutons",
+        "games": 39,
+        "winRate": 41.03
       }
     ]
   },

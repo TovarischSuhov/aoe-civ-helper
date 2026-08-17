@@ -328,21 +328,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.53,
+    "winRate": 51.64,
     "playRate": 2.96,
-    "picks": 4382,
+    "picks": 4485,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T16:44:14.000Z",
-    "window": "2026-07-17 → 2026-08-16",
+    "updated": "2026-08-17T05:00:24.000Z",
+    "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "open": {
-        "winRate": 51.24,
+        "winRate": 51.48,
         "playRate": 2.97,
-        "picks": 1087
+        "picks": 1115
       },
       "nomad": {
         "winRate": 65.96,
@@ -350,21 +350,21 @@
         "picks": 47
       },
       "other": {
-        "winRate": 51.66,
-        "playRate": 3.08,
-        "picks": 2960
+        "winRate": 51.78,
+        "playRate": 3.07,
+        "picks": 3028
       },
       "closed": {
-        "winRate": 48.96,
-        "playRate": 2.03,
-        "picks": 288
+        "winRate": 48.47,
+        "playRate": 2.02,
+        "picks": 295
       }
     },
     "strongAgainst": [
       {
         "name": "tupi",
-        "games": 66,
-        "winRate": 63.64
+        "games": 67,
+        "winRate": 62.69
       },
       {
         "name": "poles",
@@ -372,31 +372,36 @@
         "winRate": 61.82
       },
       {
-        "name": "aztecs",
-        "games": 65,
-        "winRate": 60
+        "name": "jurchens",
+        "games": 49,
+        "winRate": 61.22
       },
       {
         "name": "berbers",
-        "games": 65,
-        "winRate": 60
+        "games": 67,
+        "winRate": 61.19
       },
       {
-        "name": "byzantines",
-        "games": 60,
-        "winRate": 60
+        "name": "aztecs",
+        "games": 66,
+        "winRate": 60.61
       }
     ],
     "weakAgainst": [
       {
         "name": "mapuche",
-        "games": 45,
-        "winRate": 35.56
+        "games": 47,
+        "winRate": 36.17
+      },
+      {
+        "name": "hindustanis",
+        "games": 106,
+        "winRate": 41.51
       },
       {
         "name": "malay",
-        "games": 73,
-        "winRate": 42.47
+        "games": 76,
+        "winRate": 42.11
       },
       {
         "name": "burgundians",
@@ -404,14 +409,9 @@
         "winRate": 42.5
       },
       {
-        "name": "hindustanis",
-        "games": 103,
-        "winRate": 42.72
-      },
-      {
-        "name": "chinese",
-        "games": 115,
-        "winRate": 43.48
+        "name": "mayans",
+        "games": 89,
+        "winRate": 43.82
       }
     ]
   },

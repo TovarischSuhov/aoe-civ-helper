@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.06,
+    "winRate": 49.04,
     "playRate": 2.34,
-    "picks": 3457,
+    "picks": 3540,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T16:44:14.000Z",
-    "window": "2026-07-17 → 2026-08-16",
+    "updated": "2026-08-17T05:00:24.000Z",
+    "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
       "other": {
-        "winRate": 48.75,
+        "winRate": 48.82,
         "playRate": 2.28,
-        "picks": 2193
+        "picks": 2247
       },
       "closed": {
-        "winRate": 50.51,
-        "playRate": 2.78,
-        "picks": 394
+        "winRate": 50,
+        "playRate": 2.76,
+        "picks": 404
       },
       "nomad": {
         "winRate": 50,
@@ -350,21 +350,21 @@
         "picks": 12
       },
       "open": {
-        "winRate": 49.18,
+        "winRate": 49.14,
         "playRate": 2.34,
-        "picks": 858
+        "picks": 877
       }
     },
     "strongAgainst": [
       {
         "name": "shu",
-        "games": 30,
-        "winRate": 66.67
+        "games": 32,
+        "winRate": 65.63
       },
       {
         "name": "wu",
-        "games": 42,
-        "winRate": 64.29
+        "games": 43,
+        "winRate": 65.12
       },
       {
         "name": "gurjaras",
@@ -373,20 +373,25 @@
       },
       {
         "name": "britons",
-        "games": 79,
-        "winRate": 62.03
+        "games": 80,
+        "winRate": 62.5
       },
       {
-        "name": "jurchens",
-        "games": 38,
-        "winRate": 60.53
+        "name": "tupi",
+        "games": 50,
+        "winRate": 62
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 90,
+        "games": 93,
         "winRate": 33.33
+      },
+      {
+        "name": "burgundians",
+        "games": 68,
+        "winRate": 36.76
       },
       {
         "name": "malay",
@@ -394,19 +399,14 @@
         "winRate": 36.84
       },
       {
-        "name": "burgundians",
-        "games": 67,
-        "winRate": 37.31
-      },
-      {
-        "name": "franks",
-        "games": 60,
-        "winRate": 38.33
-      },
-      {
         "name": "lithuanians",
         "games": 75,
         "winRate": 38.67
+      },
+      {
+        "name": "franks",
+        "games": 62,
+        "winRate": 38.71
       }
     ]
   },

@@ -336,21 +336,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.55,
-    "playRate": 1.4,
-    "picks": 2064,
+    "winRate": 48.63,
+    "playRate": 1.39,
+    "picks": 2112,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T16:44:14.000Z",
-    "window": "2026-07-17 → 2026-08-16",
+    "updated": "2026-08-17T05:00:24.000Z",
+    "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 48.67,
+        "winRate": 48.85,
         "playRate": 1.41,
-        "picks": 1356
+        "picks": 1386
       },
       "nomad": {
         "winRate": 46.67,
@@ -358,21 +358,21 @@
         "picks": 15
       },
       "closed": {
-        "winRate": 51.93,
-        "playRate": 1.28,
-        "picks": 181
+        "winRate": 52.15,
+        "playRate": 1.27,
+        "picks": 186
       },
       "open": {
-        "winRate": 47.07,
+        "winRate": 46.86,
         "playRate": 1.4,
-        "picks": 512
+        "picks": 525
       }
     },
     "strongAgainst": [
       {
         "name": "mayans",
-        "games": 50,
-        "winRate": 68
+        "games": 52,
+        "winRate": 69.23
       },
       {
         "name": "muisca",
@@ -385,14 +385,14 @@
         "winRate": 63.33
       },
       {
+        "name": "khitans",
+        "games": 19,
+        "winRate": 63.16
+      },
+      {
         "name": "koreans",
         "games": 31,
         "winRate": 61.29
-      },
-      {
-        "name": "khitans",
-        "games": 18,
-        "winRate": 61.11
       }
     ],
     "weakAgainst": [
@@ -407,19 +407,19 @@
         "winRate": 28.13
       },
       {
-        "name": "georgians",
-        "games": 21,
-        "winRate": 33.33
-      },
-      {
         "name": "celts",
         "games": 39,
         "winRate": 33.33
       },
       {
         "name": "romans",
-        "games": 37,
-        "winRate": 35.14
+        "games": 39,
+        "winRate": 33.33
+      },
+      {
+        "name": "georgians",
+        "games": 22,
+        "winRate": 36.36
       }
     ]
   },

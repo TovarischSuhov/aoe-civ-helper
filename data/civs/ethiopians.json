@@ -306,31 +306,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.05,
-    "playRate": 1.98,
-    "picks": 2932,
+    "winRate": 49.02,
+    "playRate": 1.99,
+    "picks": 3015,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-16T16:44:14.000Z",
-    "window": "2026-07-17 → 2026-08-16",
+    "updated": "2026-08-17T05:00:24.000Z",
+    "window": "2026-07-17 → 2026-08-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 47.78,
-        "playRate": 1.9,
-        "picks": 1827
+        "winRate": 47.9,
+        "playRate": 1.91,
+        "picks": 1881
       },
       "open": {
-        "winRate": 51.88,
-        "playRate": 2.25,
-        "picks": 825
+        "winRate": 51.54,
+        "playRate": 2.24,
+        "picks": 842
       },
       "closed": {
-        "winRate": 49.42,
-        "playRate": 1.81,
-        "picks": 257
+        "winRate": 49.44,
+        "playRate": 1.84,
+        "picks": 269
       },
       "nomad": {
         "winRate": 43.48,
@@ -341,40 +341,35 @@
     "strongAgainst": [
       {
         "name": "wu",
-        "games": 39,
-        "winRate": 66.67
+        "games": 40,
+        "winRate": 65
       },
       {
         "name": "slavs",
-        "games": 40,
-        "winRate": 62.5
+        "games": 41,
+        "winRate": 60.98
       },
       {
         "name": "huns",
-        "games": 68,
-        "winRate": 58.82
+        "games": 70,
+        "winRate": 60
+      },
+      {
+        "name": "jurchens",
+        "games": 32,
+        "winRate": 59.38
       },
       {
         "name": "georgians",
         "games": 41,
         "winRate": 58.54
-      },
-      {
-        "name": "jurchens",
-        "games": 31,
-        "winRate": 58.06
       }
     ],
     "weakAgainst": [
       {
         "name": "koreans",
-        "games": 41,
-        "winRate": 31.71
-      },
-      {
-        "name": "tupi",
-        "games": 30,
-        "winRate": 36.67
+        "games": 43,
+        "winRate": 34.88
       },
       {
         "name": "shu",
@@ -382,14 +377,19 @@
         "winRate": 36.84
       },
       {
-        "name": "portuguese",
-        "games": 55,
-        "winRate": 38.18
+        "name": "tupi",
+        "games": 31,
+        "winRate": 38.71
       },
       {
-        "name": "bengalis",
-        "games": 37,
-        "winRate": 40.54
+        "name": "mapuche",
+        "games": 23,
+        "winRate": 39.13
+      },
+      {
+        "name": "portuguese",
+        "games": 57,
+        "winRate": 40.35
       }
     ]
   },
