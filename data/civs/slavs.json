@@ -314,31 +314,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.74,
+    "winRate": 47.68,
     "playRate": 1.42,
-    "picks": 2189,
+    "picks": 2244,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-17T16:47:49.000Z",
-    "window": "2026-07-17 → 2026-08-17",
+    "updated": "2026-08-18T04:54:32.000Z",
+    "window": "2026-07-17 → 2026-08-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 48.07,
-        "playRate": 1.39,
-        "picks": 1400
+        "winRate": 48.02,
+        "playRate": 1.4,
+        "picks": 1437
       },
       "open": {
-        "winRate": 47.59,
-        "playRate": 1.52,
-        "picks": 580
+        "winRate": 47.31,
+        "playRate": 1.51,
+        "picks": 594
       },
       "closed": {
-        "winRate": 46.04,
+        "winRate": 46.6,
         "playRate": 1.34,
-        "picks": 202
+        "picks": 206
       },
       "nomad": {
         "winRate": 42.86,
@@ -349,18 +349,18 @@
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 27,
-        "winRate": 70.37
-      },
-      {
-        "name": "muisca",
-        "games": 23,
-        "winRate": 69.57
+        "games": 28,
+        "winRate": 71.43
       },
       {
         "name": "byzantines",
-        "games": 39,
-        "winRate": 66.67
+        "games": 41,
+        "winRate": 68.29
+      },
+      {
+        "name": "muisca",
+        "games": 25,
+        "winRate": 68
       },
       {
         "name": "georgians",
@@ -369,15 +369,20 @@
       },
       {
         "name": "khmer",
-        "games": 50,
-        "winRate": 60
+        "games": 51,
+        "winRate": 58.82
       }
     ],
     "weakAgainst": [
       {
-        "name": "turks",
-        "games": 42,
-        "winRate": 33.33
+        "name": "shu",
+        "games": 23,
+        "winRate": 34.78
+      },
+      {
+        "name": "malians",
+        "games": 46,
+        "winRate": 34.78
       },
       {
         "name": "malay",
@@ -385,14 +390,9 @@
         "winRate": 34.88
       },
       {
-        "name": "malians",
-        "games": 43,
-        "winRate": 34.88
-      },
-      {
         "name": "romans",
-        "games": 33,
-        "winRate": 36.36
+        "games": 34,
+        "winRate": 35.29
       },
       {
         "name": "jurchens",
