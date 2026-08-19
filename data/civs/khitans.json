@@ -359,21 +359,21 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 46.9,
-    "playRate": 1.43,
-    "picks": 2305,
+    "winRate": 47.08,
+    "playRate": 1.42,
+    "picks": 2343,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-18T16:50:40.000Z",
-    "window": "2026-07-17 → 2026-08-18",
+    "updated": "2026-08-19T04:53:55.000Z",
+    "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 46.28,
-        "playRate": 1.4,
-        "picks": 1467
+        "winRate": 46.54,
+        "playRate": 1.39,
+        "picks": 1489
       },
       "nomad": {
         "winRate": 83.33,
@@ -381,14 +381,14 @@
         "picks": 6
       },
       "open": {
-        "winRate": 46.52,
-        "playRate": 1.61,
-        "picks": 647
+        "winRate": 46.42,
+        "playRate": 1.59,
+        "picks": 657
       },
       "closed": {
-        "winRate": 51.89,
-        "playRate": 1.17,
-        "picks": 185
+        "winRate": 52.36,
+        "playRate": 1.18,
+        "picks": 191
       }
     },
     "strongAgainst": [
@@ -408,26 +408,31 @@
         "winRate": 61.76
       },
       {
-        "name": "slavs",
-        "games": 29,
-        "winRate": 58.62
+        "name": "teutons",
+        "games": 41,
+        "winRate": 58.54
       },
       {
-        "name": "teutons",
-        "games": 40,
-        "winRate": 57.5
+        "name": "berbers",
+        "games": 36,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "japanese",
-        "games": 54,
-        "winRate": 33.33
+        "games": 55,
+        "winRate": 34.55
       },
       {
         "name": "turks",
         "games": 26,
         "winRate": 34.62
+      },
+      {
+        "name": "goths",
+        "games": 20,
+        "winRate": 35
       },
       {
         "name": "hindustanis",
@@ -438,11 +443,6 @@
         "name": "celts",
         "games": 33,
         "winRate": 36.36
-      },
-      {
-        "name": "goths",
-        "games": 19,
-        "winRate": 36.84
       }
     ]
   },

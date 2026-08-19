@@ -315,13 +315,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.75,
-    "playRate": 1.45,
-    "picks": 2335,
+    "winRate": 50.73,
+    "playRate": 1.44,
+    "picks": 2385,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-18T16:50:40.000Z",
-    "window": "2026-07-17 → 2026-08-18",
+    "updated": "2026-08-19T04:53:55.000Z",
+    "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
@@ -332,26 +332,26 @@
         "picks": 29
       },
       "open": {
-        "winRate": 52.08,
-        "playRate": 1.31,
-        "picks": 528
+        "winRate": 51.87,
+        "playRate": 1.3,
+        "picks": 536
       },
       "other": {
-        "winRate": 49.84,
+        "winRate": 49.94,
         "playRate": 1.51,
-        "picks": 1575
+        "picks": 1612
       },
       "closed": {
-        "winRate": 54.68,
-        "playRate": 1.29,
-        "picks": 203
+        "winRate": 54.33,
+        "playRate": 1.28,
+        "picks": 208
       }
     },
     "strongAgainst": [
       {
         "name": "georgians",
-        "games": 27,
-        "winRate": 66.67
+        "games": 28,
+        "winRate": 67.86
       },
       {
         "name": "jurchens",
@@ -369,9 +369,9 @@
         "winRate": 62.07
       },
       {
-        "name": "italians",
-        "games": 51,
-        "winRate": 60.78
+        "name": "goths",
+        "games": 43,
+        "winRate": 60.47
       }
     ],
     "weakAgainst": [
@@ -386,11 +386,6 @@
         "winRate": 36
       },
       {
-        "name": "bulgarians",
-        "games": 43,
-        "winRate": 37.21
-      },
-      {
         "name": "malians",
         "games": 50,
         "winRate": 38
@@ -399,6 +394,11 @@
         "name": "hindustanis",
         "games": 49,
         "winRate": 38.78
+      },
+      {
+        "name": "bulgarians",
+        "games": 45,
+        "winRate": 40
       }
     ]
   },

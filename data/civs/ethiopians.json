@@ -306,31 +306,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.27,
+    "winRate": 49.2,
     "playRate": 2,
-    "picks": 3231,
+    "picks": 3311,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-18T16:50:40.000Z",
-    "window": "2026-07-17 → 2026-08-18",
+    "updated": "2026-08-19T04:53:55.000Z",
+    "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 48.14,
+        "winRate": 48.09,
         "playRate": 1.93,
-        "picks": 2017
+        "picks": 2067
       },
       "open": {
-        "winRate": 51.77,
+        "winRate": 51.68,
         "playRate": 2.24,
-        "picks": 902
+        "picks": 921
       },
       "closed": {
-        "winRate": 49.83,
-        "playRate": 1.83,
-        "picks": 289
+        "winRate": 49.67,
+        "playRate": 1.85,
+        "picks": 300
       },
       "nomad": {
         "winRate": 43.48,
@@ -341,13 +341,8 @@
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 43,
-        "winRate": 62.79
-      },
-      {
-        "name": "huns",
-        "games": 75,
-        "winRate": 62.67
+        "games": 45,
+        "winRate": 62.22
       },
       {
         "name": "jurchens",
@@ -360,9 +355,14 @@
         "winRate": 60.87
       },
       {
-        "name": "byzantines",
-        "games": 51,
-        "winRate": 56.86
+        "name": "huns",
+        "games": 79,
+        "winRate": 60.76
+      },
+      {
+        "name": "burmese",
+        "games": 48,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
@@ -373,23 +373,23 @@
       },
       {
         "name": "koreans",
-        "games": 44,
-        "winRate": 36.36
-      },
-      {
-        "name": "tupi",
-        "games": 35,
-        "winRate": 40
+        "games": 47,
+        "winRate": 38.3
       },
       {
         "name": "portuguese",
-        "games": 60,
-        "winRate": 40
+        "games": 62,
+        "winRate": 38.71
       },
       {
-        "name": "mapuche",
-        "games": 29,
-        "winRate": 41.38
+        "name": "tupi",
+        "games": 36,
+        "winRate": 38.89
+      },
+      {
+        "name": "burgundians",
+        "games": 55,
+        "winRate": 40
       }
     ]
   },

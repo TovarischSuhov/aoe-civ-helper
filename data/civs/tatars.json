@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.15,
+    "winRate": 50.07,
     "playRate": 1.63,
-    "picks": 2634,
+    "picks": 2690,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-18T16:50:40.000Z",
-    "window": "2026-07-17 → 2026-08-18",
+    "updated": "2026-08-19T04:53:55.000Z",
+    "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 50.98,
+        "winRate": 51.4,
         "playRate": 1.65,
-        "picks": 665
+        "picks": 681
       },
       "nomad": {
         "winRate": 52.63,
@@ -357,14 +357,14 @@
         "picks": 19
       },
       "other": {
-        "winRate": 49.94,
+        "winRate": 49.75,
         "playRate": 1.66,
-        "picks": 1736
+        "picks": 1771
       },
       "closed": {
-        "winRate": 49.07,
-        "playRate": 1.36,
-        "picks": 214
+        "winRate": 48.4,
+        "playRate": 1.35,
+        "picks": 219
       }
     },
     "strongAgainst": [
@@ -384,41 +384,41 @@
         "winRate": 65.31
       },
       {
-        "name": "jurchens",
-        "games": 38,
-        "winRate": 60.53
-      },
-      {
         "name": "teutons",
         "games": 48,
         "winRate": 60.42
+      },
+      {
+        "name": "slavs",
+        "games": 47,
+        "winRate": 59.57
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 55,
-        "winRate": 32.73
+        "games": 57,
+        "winRate": 33.33
       },
       {
         "name": "saracens",
-        "games": 35,
-        "winRate": 37.14
-      },
-      {
-        "name": "vikings",
-        "games": 42,
-        "winRate": 38.1
+        "games": 36,
+        "winRate": 36.11
       },
       {
         "name": "wei",
-        "games": 41,
-        "winRate": 41.46
+        "games": 42,
+        "winRate": 40.48
       },
       {
         "name": "dravidians",
-        "games": 36,
-        "winRate": 41.67
+        "games": 37,
+        "winRate": 40.54
+      },
+      {
+        "name": "vikings",
+        "games": 44,
+        "winRate": 40.91
       }
     ]
   },

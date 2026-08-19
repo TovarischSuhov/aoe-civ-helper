@@ -314,31 +314,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.63,
+    "winRate": 47.83,
     "playRate": 1.41,
-    "picks": 2278,
+    "picks": 2329,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-18T16:50:40.000Z",
-    "window": "2026-07-17 → 2026-08-18",
+    "updated": "2026-08-19T04:53:55.000Z",
+    "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 47.81,
+        "winRate": 48.05,
         "playRate": 1.39,
-        "picks": 1458
+        "picks": 1490
       },
       "open": {
-        "winRate": 47.34,
+        "winRate": 47.55,
         "playRate": 1.49,
-        "picks": 602
+        "picks": 612
       },
       "closed": {
-        "winRate": 47.39,
-        "playRate": 1.34,
-        "picks": 211
+        "winRate": 47.27,
+        "playRate": 1.35,
+        "picks": 220
       },
       "nomad": {
         "winRate": 42.86,
@@ -348,37 +348,32 @@
     },
     "strongAgainst": [
       {
-        "name": "byzantines",
-        "games": 42,
-        "winRate": 69.05
-      },
-      {
         "name": "mapuche",
         "games": 29,
         "winRate": 68.97
       },
       {
+        "name": "byzantines",
+        "games": 43,
+        "winRate": 67.44
+      },
+      {
         "name": "muisca",
-        "games": 26,
-        "winRate": 65.38
+        "games": 27,
+        "winRate": 66.67
       },
       {
         "name": "georgians",
-        "games": 39,
-        "winRate": 61.54
+        "games": 40,
+        "winRate": 60
       },
       {
-        "name": "khmer",
-        "games": 51,
-        "winRate": 58.82
+        "name": "armenians",
+        "games": 47,
+        "winRate": 59.57
       }
     ],
     "weakAgainst": [
-      {
-        "name": "malay",
-        "games": 44,
-        "winRate": 34.09
-      },
       {
         "name": "shu",
         "games": 23,
@@ -390,14 +385,19 @@
         "winRate": 35.42
       },
       {
+        "name": "lithuanians",
+        "games": 27,
+        "winRate": 37.04
+      },
+      {
         "name": "romans",
         "games": 35,
         "winRate": 37.14
       },
       {
-        "name": "ethiopians",
-        "games": 43,
-        "winRate": 37.21
+        "name": "jurchens",
+        "games": 24,
+        "winRate": 37.5
       }
     ]
   },
