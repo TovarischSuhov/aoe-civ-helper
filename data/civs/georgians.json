@@ -295,48 +295,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.46,
+    "winRate": 47.41,
     "playRate": 1.19,
-    "picks": 1970,
+    "picks": 2008,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-19T04:53:55.000Z",
+    "updated": "2026-08-19T16:49:03.000Z",
     "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 46.78,
-        "playRate": 1.13,
-        "picks": 466
+        "winRate": 46.97,
+        "playRate": 1.14,
+        "picks": 479
       },
       "other": {
-        "winRate": 48.71,
+        "winRate": 48.69,
         "playRate": 1.23,
-        "picks": 1316
+        "picks": 1337
       },
       "nomad": {
-        "winRate": 30,
-        "playRate": 1.06,
-        "picks": 10
+        "winRate": 23.08,
+        "playRate": 1.1,
+        "picks": 13
       },
       "closed": {
-        "winRate": 41.01,
-        "playRate": 1.1,
-        "picks": 178
+        "winRate": 40.78,
+        "playRate": 1.09,
+        "picks": 179
       }
     },
     "strongAgainst": [
       {
+        "name": "incas",
+        "games": 44,
+        "winRate": 65.91
+      },
+      {
         "name": "teutons",
         "games": 26,
         "winRate": 65.38
-      },
-      {
-        "name": "incas",
-        "games": 43,
-        "winRate": 65.12
       },
       {
         "name": "franks",
@@ -345,8 +345,8 @@
       },
       {
         "name": "italians",
-        "games": 45,
-        "winRate": 62.22
+        "games": 46,
+        "winRate": 60.87
       },
       {
         "name": "goths",
@@ -356,29 +356,29 @@
     ],
     "weakAgainst": [
       {
-        "name": "mayans",
-        "games": 41,
-        "winRate": 24.39
+        "name": "wei",
+        "games": 35,
+        "winRate": 25.71
       },
       {
-        "name": "wei",
-        "games": 32,
-        "winRate": 28.13
+        "name": "mayans",
+        "games": 42,
+        "winRate": 26.19
       },
       {
         "name": "dravidians",
-        "games": 28,
-        "winRate": 32.14
-      },
-      {
-        "name": "celts",
-        "games": 48,
-        "winRate": 33.33
+        "games": 29,
+        "winRate": 31.03
       },
       {
         "name": "tatars",
         "games": 33,
         "winRate": 33.33
+      },
+      {
+        "name": "cumans",
+        "games": 44,
+        "winRate": 34.09
       }
     ]
   },

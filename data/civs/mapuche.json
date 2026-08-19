@@ -378,26 +378,26 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 52,
-    "playRate": 1.17,
-    "picks": 1927,
+    "winRate": 51.89,
+    "playRate": 1.16,
+    "picks": 1956,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-19T04:53:55.000Z",
+    "updated": "2026-08-19T16:49:03.000Z",
     "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 51.28,
+        "winRate": 51.03,
         "playRate": 1.2,
-        "picks": 1287
+        "picks": 1307
       },
       "open": {
-        "winRate": 56.25,
-        "playRate": 1.17,
-        "picks": 480
+        "winRate": 56.47,
+        "playRate": 1.16,
+        "picks": 487
       },
       "closed": {
         "winRate": 44.14,
@@ -405,16 +405,21 @@
         "picks": 145
       },
       "nomad": {
-        "winRate": 53.33,
-        "playRate": 1.59,
-        "picks": 15
+        "winRate": 52.94,
+        "playRate": 1.44,
+        "picks": 17
       }
     },
     "strongAgainst": [
       {
         "name": "malians",
-        "games": 26,
-        "winRate": 69.23
+        "games": 27,
+        "winRate": 66.67
+      },
+      {
+        "name": "franks",
+        "games": 44,
+        "winRate": 65.91
       },
       {
         "name": "poles",
@@ -427,14 +432,9 @@
         "winRate": 63.89
       },
       {
-        "name": "franks",
-        "games": 41,
-        "winRate": 63.41
-      },
-      {
-        "name": "persians",
-        "games": 49,
-        "winRate": 63.27
+        "name": "jurchens",
+        "games": 22,
+        "winRate": 63.64
       }
     ],
     "weakAgainst": [
@@ -445,13 +445,13 @@
       },
       {
         "name": "slavs",
-        "games": 29,
-        "winRate": 31.03
+        "games": 31,
+        "winRate": 32.26
       },
       {
         "name": "goths",
-        "games": 32,
-        "winRate": 34.38
+        "games": 33,
+        "winRate": 33.33
       },
       {
         "name": "aztecs",

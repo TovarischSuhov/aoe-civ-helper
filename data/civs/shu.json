@@ -352,12 +352,12 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.22,
+    "winRate": 52.27,
     "playRate": 1.05,
-    "picks": 1737,
+    "picks": 1762,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-19T04:53:55.000Z",
+    "updated": "2026-08-19T16:49:03.000Z",
     "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -365,23 +365,23 @@
     "byMapType": {
       "closed": {
         "winRate": 53.53,
-        "playRate": 1.05,
+        "playRate": 1.04,
         "picks": 170
       },
       "other": {
-        "winRate": 50.71,
+        "winRate": 50.79,
         "playRate": 1.05,
-        "picks": 1122
+        "picks": 1140
       },
       "open": {
-        "winRate": 55.48,
-        "playRate": 1.06,
-        "picks": 438
+        "winRate": 55.1,
+        "playRate": 1.05,
+        "picks": 441
       },
       "nomad": {
-        "winRate": 57.14,
-        "playRate": 0.74,
-        "picks": 7
+        "winRate": 72.73,
+        "playRate": 0.93,
+        "picks": 11
       }
     },
     "strongAgainst": [
@@ -397,13 +397,13 @@
       },
       {
         "name": "hindustanis",
-        "games": 32,
-        "winRate": 68.75
+        "games": 33,
+        "winRate": 69.7
       },
       {
         "name": "slavs",
-        "games": 23,
-        "winRate": 65.22
+        "games": 24,
+        "winRate": 66.67
       },
       {
         "name": "jurchens",
@@ -414,8 +414,8 @@
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 38,
-        "winRate": 34.21
+        "games": 39,
+        "winRate": 33.33
       },
       {
         "name": "dravidians",
@@ -428,14 +428,14 @@
         "winRate": 40
       },
       {
+        "name": "chinese",
+        "games": 50,
+        "winRate": 42
+      },
+      {
         "name": "goths",
         "games": 33,
         "winRate": 42.42
-      },
-      {
-        "name": "chinese",
-        "games": 49,
-        "winRate": 42.86
       }
     ]
   },

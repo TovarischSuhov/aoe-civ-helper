@@ -336,12 +336,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.4,
+    "winRate": 48.43,
     "playRate": 1.4,
-    "picks": 2308,
+    "picks": 2352,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-19T04:53:55.000Z",
+    "updated": "2026-08-19T16:49:03.000Z",
     "window": "2026-07-17 → 2026-08-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -350,39 +350,39 @@
       "other": {
         "winRate": 48.67,
         "playRate": 1.41,
-        "picks": 1508
+        "picks": 1539
       },
       "nomad": {
-        "winRate": 46.67,
-        "playRate": 1.59,
-        "picks": 15
+        "winRate": 50,
+        "playRate": 1.69,
+        "picks": 20
       },
       "closed": {
-        "winRate": 50.95,
+        "winRate": 51.18,
         "playRate": 1.29,
-        "picks": 210
+        "picks": 211
       },
       "open": {
-        "winRate": 46.78,
-        "playRate": 1.4,
-        "picks": 575
+        "winRate": 46.74,
+        "playRate": 1.39,
+        "picks": 582
       }
     },
     "strongAgainst": [
       {
         "name": "mayans",
-        "games": 57,
-        "winRate": 70.18
+        "games": 58,
+        "winRate": 70.69
+      },
+      {
+        "name": "mapuche",
+        "games": 33,
+        "winRate": 66.67
       },
       {
         "name": "muisca",
         "games": 21,
         "winRate": 66.67
-      },
-      {
-        "name": "mapuche",
-        "games": 32,
-        "winRate": 65.63
       },
       {
         "name": "khitans",
@@ -391,15 +391,20 @@
       },
       {
         "name": "britons",
-        "games": 51,
-        "winRate": 60.78
+        "games": 52,
+        "winRate": 61.54
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 47,
-        "winRate": 27.66
+        "games": 48,
+        "winRate": 27.08
+      },
+      {
+        "name": "aztecs",
+        "games": 36,
+        "winRate": 30.56
       },
       {
         "name": "romans",
@@ -407,19 +412,14 @@
         "winRate": 31.71
       },
       {
-        "name": "aztecs",
-        "games": 34,
-        "winRate": 32.35
+        "name": "saracens",
+        "games": 48,
+        "winRate": 35.42
       },
       {
         "name": "celts",
-        "games": 44,
-        "winRate": 34.09
-      },
-      {
-        "name": "portuguese",
-        "games": 41,
-        "winRate": 36.59
+        "games": 45,
+        "winRate": 35.56
       }
     ]
   },
