@@ -313,48 +313,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.17,
+    "winRate": 49.3,
     "playRate": 1.96,
-    "picks": 3295,
+    "picks": 3371,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-19T16:49:03.000Z",
-    "window": "2026-07-17 → 2026-08-19",
+    "updated": "2026-08-20T04:55:09.000Z",
+    "window": "2026-07-17 → 2026-08-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
-        "winRate": 48.56,
+        "winRate": 48.59,
         "playRate": 1.91,
-        "picks": 801
+        "picks": 817
       },
       "other": {
-        "winRate": 49.09,
+        "winRate": 49.27,
         "playRate": 1.91,
-        "picks": 2082
+        "picks": 2133
       },
       "nomad": {
-        "winRate": 43.48,
-        "playRate": 1.95,
-        "picks": 23
+        "winRate": 46.67,
+        "playRate": 1.98,
+        "picks": 30
       },
       "closed": {
-        "winRate": 51.16,
+        "winRate": 51.15,
         "playRate": 2.38,
-        "picks": 389
+        "picks": 391
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 54,
-        "winRate": 72.22
+        "games": 56,
+        "winRate": 71.43
       },
       {
         "name": "spanish",
-        "games": 81,
-        "winRate": 61.73
+        "games": 83,
+        "winRate": 61.45
+      },
+      {
+        "name": "gurjaras",
+        "games": 54,
+        "winRate": 61.11
       },
       {
         "name": "magyars",
@@ -362,17 +367,17 @@
         "winRate": 60.64
       },
       {
-        "name": "gurjaras",
-        "games": 53,
-        "winRate": 60.38
-      },
-      {
-        "name": "slavs",
-        "games": 40,
-        "winRate": 60
+        "name": "khitans",
+        "games": 42,
+        "winRate": 59.52
       }
     ],
     "weakAgainst": [
+      {
+        "name": "poles",
+        "games": 60,
+        "winRate": 35
+      },
       {
         "name": "muisca",
         "games": 37,
@@ -384,14 +389,9 @@
         "winRate": 35.56
       },
       {
-        "name": "poles",
-        "games": 59,
-        "winRate": 35.59
-      },
-      {
         "name": "celts",
-        "games": 53,
-        "winRate": 35.85
+        "games": 55,
+        "winRate": 36.36
       },
       {
         "name": "hindustanis",
