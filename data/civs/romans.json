@@ -348,31 +348,31 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 52.68,
+    "winRate": 52.71,
     "playRate": 1.42,
-    "picks": 2504,
+    "picks": 2548,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-20T16:52:46.000Z",
-    "window": "2026-07-17 → 2026-08-20",
+    "updated": "2026-08-21T04:56:34.000Z",
+    "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 53.51,
-        "playRate": 1.54,
-        "picks": 669
+        "winRate": 53.77,
+        "playRate": 1.53,
+        "picks": 677
       },
       "other": {
         "winRate": 52.87,
         "playRate": 1.43,
-        "picks": 1636
+        "picks": 1670
       },
       "nomad": {
-        "winRate": 33.33,
-        "playRate": 1.35,
-        "picks": 24
+        "winRate": 30.77,
+        "playRate": 1.27,
+        "picks": 26
       },
       "closed": {
         "winRate": 50.29,
@@ -409,14 +409,14 @@
     ],
     "weakAgainst": [
       {
+        "name": "mongols",
+        "games": 159,
+        "winRate": 37.74
+      },
+      {
         "name": "mayans",
         "games": 45,
         "winRate": 37.78
-      },
-      {
-        "name": "mongols",
-        "games": 158,
-        "winRate": 37.97
       },
       {
         "name": "chinese",
@@ -429,9 +429,9 @@
         "winRate": 38.89
       },
       {
-        "name": "teutons",
-        "games": 44,
-        "winRate": 40.91
+        "name": "japanese",
+        "games": 62,
+        "winRate": 41.94
       }
     ]
   },

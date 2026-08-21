@@ -400,24 +400,24 @@
   "stats": {
     "winRate": 52.67,
     "playRate": 1.78,
-    "picks": 3123,
+    "picks": 3205,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-20T16:52:46.000Z",
-    "window": "2026-07-17 → 2026-08-20",
+    "updated": "2026-08-21T04:56:34.000Z",
+    "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 51.99,
+        "winRate": 52.07,
         "playRate": 1.91,
-        "picks": 829
+        "picks": 847
       },
       "other": {
-        "winRate": 52.25,
-        "playRate": 1.79,
-        "picks": 2044
+        "winRate": 52.21,
+        "playRate": 1.8,
+        "picks": 2103
       },
       "closed": {
         "winRate": 58.56,
@@ -425,21 +425,21 @@
         "picks": 222
       },
       "nomad": {
-        "winRate": 57.14,
-        "playRate": 1.57,
-        "picks": 28
+        "winRate": 57.58,
+        "playRate": 1.61,
+        "picks": 33
       }
     },
     "strongAgainst": [
       {
         "name": "berbers",
-        "games": 54,
-        "winRate": 72.22
+        "games": 57,
+        "winRate": 71.93
       },
       {
         "name": "saracens",
-        "games": 51,
-        "winRate": 68.63
+        "games": 53,
+        "winRate": 67.92
       },
       {
         "name": "muisca",
@@ -447,21 +447,21 @@
         "winRate": 64
       },
       {
-        "name": "teutons",
-        "games": 58,
-        "winRate": 63.79
-      },
-      {
         "name": "sicilians",
         "games": 64,
         "winRate": 62.5
+      },
+      {
+        "name": "bengalis",
+        "games": 45,
+        "winRate": 62.22
       }
     ],
     "weakAgainst": [
       {
         "name": "wu",
-        "games": 31,
-        "winRate": 41.94
+        "games": 33,
+        "winRate": 42.42
       },
       {
         "name": "dravidians",
@@ -479,9 +479,9 @@
         "winRate": 43.02
       },
       {
-        "name": "wei",
-        "games": 53,
-        "winRate": 43.4
+        "name": "tupi",
+        "games": 52,
+        "winRate": 44.23
       }
     ]
   },

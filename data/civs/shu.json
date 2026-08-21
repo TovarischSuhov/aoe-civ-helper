@@ -352,36 +352,36 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.38,
-    "playRate": 1.05,
-    "picks": 1846,
+    "winRate": 52.66,
+    "playRate": 1.06,
+    "picks": 1895,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-20T16:52:46.000Z",
-    "window": "2026-07-17 → 2026-08-20",
+    "updated": "2026-08-21T04:56:34.000Z",
+    "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
         "winRate": 53.53,
-        "playRate": 1.04,
+        "playRate": 1.03,
         "picks": 170
       },
       "other": {
-        "winRate": 50.79,
+        "winRate": 51.18,
         "playRate": 1.05,
-        "picks": 1201
+        "picks": 1229
       },
       "open": {
-        "winRate": 55.46,
-        "playRate": 1.05,
-        "picks": 458
+        "winRate": 55.49,
+        "playRate": 1.07,
+        "picks": 474
       },
       "nomad": {
-        "winRate": 70.59,
-        "playRate": 0.95,
-        "picks": 17
+        "winRate": 68.18,
+        "playRate": 1.07,
+        "picks": 22
       }
     },
     "strongAgainst": [
@@ -401,26 +401,26 @@
         "winRate": 69.7
       },
       {
+        "name": "jurchens",
+        "games": 24,
+        "winRate": 66.67
+      },
+      {
         "name": "slavs",
         "games": 26,
         "winRate": 65.38
-      },
-      {
-        "name": "jurchens",
-        "games": 23,
-        "winRate": 65.22
       }
     ],
     "weakAgainst": [
       {
+        "name": "dravidians",
+        "games": 30,
+        "winRate": 36.67
+      },
+      {
         "name": "khmer",
         "games": 43,
         "winRate": 37.21
-      },
-      {
-        "name": "dravidians",
-        "games": 29,
-        "winRate": 37.93
       },
       {
         "name": "romans",
@@ -428,14 +428,14 @@
         "winRate": 40
       },
       {
-        "name": "goths",
-        "games": 34,
-        "winRate": 41.18
-      },
-      {
         "name": "tupi",
         "games": 17,
         "winRate": 41.18
+      },
+      {
+        "name": "chinese",
+        "games": 54,
+        "winRate": 42.59
       }
     ]
   },
