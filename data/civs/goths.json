@@ -336,25 +336,25 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.1,
+    "winRate": 47.89,
     "playRate": 1.41,
-    "picks": 2532,
+    "picks": 2581,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-21T04:56:34.000Z",
+    "updated": "2026-08-21T16:53:27.000Z",
     "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 48.36,
+        "winRate": 48.16,
         "playRate": 1.43,
-        "picks": 1675
+        "picks": 1711
       },
       "nomad": {
         "winRate": 44.12,
-        "playRate": 1.66,
+        "playRate": 1.48,
         "picks": 34
       },
       "closed": {
@@ -363,21 +363,21 @@
         "picks": 211
       },
       "open": {
-        "winRate": 46.57,
-        "playRate": 1.38,
-        "picks": 612
+        "winRate": 46.24,
+        "playRate": 1.39,
+        "picks": 625
       }
     },
     "strongAgainst": [
       {
-        "name": "mayans",
-        "games": 60,
-        "winRate": 68.33
+        "name": "khitans",
+        "games": 23,
+        "winRate": 65.22
       },
       {
-        "name": "khitans",
-        "games": 22,
-        "winRate": 63.64
+        "name": "mayans",
+        "games": 63,
+        "winRate": 65.08
       },
       {
         "name": "mapuche",
@@ -390,21 +390,21 @@
         "winRate": 62.5
       },
       {
-        "name": "wu",
-        "games": 48,
-        "winRate": 60.42
+        "name": "britons",
+        "games": 59,
+        "winRate": 61.02
       }
     ],
     "weakAgainst": [
       {
-        "name": "malians",
-        "games": 54,
-        "winRate": 27.78
-      },
-      {
         "name": "aztecs",
         "games": 38,
         "winRate": 28.95
+      },
+      {
+        "name": "malians",
+        "games": 55,
+        "winRate": 29.09
       },
       {
         "name": "romans",
@@ -412,14 +412,14 @@
         "winRate": 33.33
       },
       {
-        "name": "burgundians",
-        "games": 51,
-        "winRate": 33.33
+        "name": "celts",
+        "games": 52,
+        "winRate": 34.62
       },
       {
-        "name": "celts",
-        "games": 51,
-        "winRate": 35.29
+        "name": "burgundians",
+        "games": 52,
+        "winRate": 34.62
       }
     ]
   },

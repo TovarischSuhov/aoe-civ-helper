@@ -296,12 +296,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.16,
-    "playRate": 1.8,
-    "picks": 3234,
+    "winRate": 47.09,
+    "playRate": 1.79,
+    "picks": 3285,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-21T04:56:34.000Z",
+    "updated": "2026-08-21T16:53:27.000Z",
     "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -309,30 +309,30 @@
     "byMapType": {
       "closed": {
         "winRate": 49.32,
-        "playRate": 2.67,
+        "playRate": 2.66,
         "picks": 438
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.46,
-        "picks": 30
+        "winRate": 51.43,
+        "playRate": 1.52,
+        "picks": 35
       },
       "other": {
-        "winRate": 46.98,
+        "winRate": 46.96,
         "playRate": 1.71,
-        "picks": 2001
+        "picks": 2040
       },
       "open": {
-        "winRate": 46.27,
-        "playRate": 1.73,
-        "picks": 765
+        "winRate": 45.98,
+        "playRate": 1.71,
+        "picks": 772
       }
     },
     "strongAgainst": [
       {
         "name": "koreans",
-        "games": 45,
-        "winRate": 64.44
+        "games": 46,
+        "winRate": 65.22
       },
       {
         "name": "wu",
@@ -341,13 +341,13 @@
       },
       {
         "name": "britons",
-        "games": 74,
-        "winRate": 60.81
+        "games": 75,
+        "winRate": 61.33
       },
       {
         "name": "tupi",
-        "games": 40,
-        "winRate": 60
+        "games": 41,
+        "winRate": 60.98
       },
       {
         "name": "slavs",
@@ -358,18 +358,13 @@
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 44,
-        "winRate": 29.55
-      },
-      {
-        "name": "muisca",
-        "games": 30,
-        "winRate": 33.33
+        "games": 46,
+        "winRate": 32.61
       },
       {
         "name": "georgians",
-        "games": 27,
-        "winRate": 33.33
+        "games": 29,
+        "winRate": 34.48
       },
       {
         "name": "armenians",
@@ -377,9 +372,14 @@
         "winRate": 34.55
       },
       {
+        "name": "muisca",
+        "games": 31,
+        "winRate": 35.48
+      },
+      {
         "name": "magyars",
-        "games": 74,
-        "winRate": 35.14
+        "games": 76,
+        "winRate": 35.53
       }
     ]
   },

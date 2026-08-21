@@ -378,31 +378,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.55,
+    "winRate": 48.3,
     "playRate": 1.04,
-    "picks": 1862,
+    "picks": 1907,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-21T04:56:34.000Z",
+    "updated": "2026-08-21T16:53:27.000Z",
     "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 49.88,
-        "playRate": 1.04,
-        "picks": 1219
+        "winRate": 49.76,
+        "playRate": 1.05,
+        "picks": 1250
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.07,
-        "picks": 22
+        "winRate": 44,
+        "playRate": 1.09,
+        "picks": 25
       },
       "open": {
-        "winRate": 44.11,
-        "playRate": 0.98,
-        "picks": 433
+        "winRate": 43.69,
+        "playRate": 0.99,
+        "picks": 444
       },
       "closed": {
         "winRate": 50,
@@ -417,19 +417,19 @@
         "winRate": 67.57
       },
       {
-        "name": "teutons",
-        "games": 30,
-        "winRate": 66.67
-      },
-      {
         "name": "britons",
         "games": 39,
         "winRate": 66.67
       },
       {
+        "name": "teutons",
+        "games": 31,
+        "winRate": 64.52
+      },
+      {
         "name": "incas",
-        "games": 35,
-        "winRate": 60
+        "games": 36,
+        "winRate": 61.11
       },
       {
         "name": "byzantines",
@@ -440,8 +440,13 @@
     "weakAgainst": [
       {
         "name": "sicilians",
-        "games": 26,
-        "winRate": 30.77
+        "games": 28,
+        "winRate": 32.14
+      },
+      {
+        "name": "huns",
+        "games": 45,
+        "winRate": 35.56
       },
       {
         "name": "slavs",
@@ -452,11 +457,6 @@
         "name": "vikings",
         "games": 25,
         "winRate": 36
-      },
-      {
-        "name": "huns",
-        "games": 44,
-        "winRate": 36.36
       },
       {
         "name": "goths",

@@ -335,53 +335,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.4,
+    "winRate": 49.25,
     "playRate": 1.63,
-    "picks": 2931,
+    "picks": 2987,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-21T04:56:34.000Z",
+    "updated": "2026-08-21T16:53:27.000Z",
     "window": "2026-07-17 → 2026-08-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 50.75,
-        "playRate": 1.66,
-        "picks": 735
+        "winRate": 50.47,
+        "playRate": 1.65,
+        "picks": 743
       },
       "nomad": {
-        "winRate": 44.83,
-        "playRate": 1.41,
-        "picks": 29
+        "winRate": 38.24,
+        "playRate": 1.48,
+        "picks": 34
       },
       "other": {
-        "winRate": 49.08,
+        "winRate": 49.07,
         "playRate": 1.67,
-        "picks": 1946
+        "picks": 1989
       },
       "closed": {
         "winRate": 48.42,
-        "playRate": 1.35,
+        "playRate": 1.34,
         "picks": 221
       }
     },
     "strongAgainst": [
       {
-        "name": "georgians",
-        "games": 35,
-        "winRate": 68.57
+        "name": "lithuanians",
+        "games": 54,
+        "winRate": 68.52
       },
       {
-        "name": "lithuanians",
-        "games": 53,
-        "winRate": 67.92
+        "name": "georgians",
+        "games": 36,
+        "winRate": 66.67
       },
       {
         "name": "incas",
-        "games": 46,
-        "winRate": 65.22
+        "games": 48,
+        "winRate": 64.58
       },
       {
         "name": "teutons",
@@ -396,14 +396,14 @@
     ],
     "weakAgainst": [
       {
+        "name": "saracens",
+        "games": 40,
+        "winRate": 32.5
+      },
+      {
         "name": "mayans",
         "games": 64,
         "winRate": 32.81
-      },
-      {
-        "name": "saracens",
-        "games": 39,
-        "winRate": 33.33
       },
       {
         "name": "dravidians",
@@ -412,13 +412,13 @@
       },
       {
         "name": "vikings",
-        "games": 51,
-        "winRate": 39.22
+        "games": 52,
+        "winRate": 40.38
       },
       {
         "name": "wei",
-        "games": 47,
-        "winRate": 40.43
+        "games": 49,
+        "winRate": 40.82
       }
     ]
   },
