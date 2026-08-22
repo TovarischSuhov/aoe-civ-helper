@@ -347,48 +347,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.9,
-    "playRate": 1.62,
-    "picks": 2968,
+    "winRate": 50.03,
+    "playRate": 1.64,
+    "picks": 3058,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-21T16:53:27.000Z",
-    "window": "2026-07-17 → 2026-08-21",
+    "updated": "2026-08-22T04:52:17.000Z",
+    "window": "2026-07-17 → 2026-08-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
       "open": {
-        "winRate": 52.6,
-        "playRate": 1.49,
-        "picks": 673
+        "winRate": 52.59,
+        "playRate": 1.51,
+        "picks": 694
       },
       "closed": {
         "winRate": 49.15,
-        "playRate": 1.44,
+        "playRate": 1.43,
         "picks": 236
       },
       "other": {
-        "winRate": 48.54,
-        "playRate": 1.66,
-        "picks": 1980
+        "winRate": 48.75,
+        "playRate": 1.68,
+        "picks": 2043
       },
       "nomad": {
-        "winRate": 63.29,
-        "playRate": 3.44,
-        "picks": 79
+        "winRate": 62.35,
+        "playRate": 3.35,
+        "picks": 85
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 51,
-        "winRate": 62.75
+        "games": 55,
+        "winRate": 65.45
       },
       {
         "name": "muisca",
-        "games": 32,
-        "winRate": 59.38
+        "games": 33,
+        "winRate": 60.61
       },
       {
         "name": "wei",
@@ -396,40 +396,40 @@
         "winRate": 58.82
       },
       {
-        "name": "britons",
-        "games": 55,
-        "winRate": 58.18
+        "name": "saracens",
+        "games": 58,
+        "winRate": 58.62
       },
       {
-        "name": "franks",
-        "games": 50,
-        "winRate": 58
+        "name": "bulgarians",
+        "games": 58,
+        "winRate": 58.62
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 38,
-        "winRate": 31.58
-      },
-      {
-        "name": "wu",
-        "games": 32,
-        "winRate": 34.38
+        "games": 40,
+        "winRate": 32.5
       },
       {
         "name": "teutons",
-        "games": 46,
-        "winRate": 34.78
+        "games": 47,
+        "winRate": 34.04
       },
       {
         "name": "chinese",
-        "games": 70,
-        "winRate": 38.57
+        "games": 71,
+        "winRate": 38.03
       },
       {
         "name": "hindustanis",
         "games": 60,
+        "winRate": 40
+      },
+      {
+        "name": "wu",
+        "games": 35,
         "winRate": 40
       }
     ]
