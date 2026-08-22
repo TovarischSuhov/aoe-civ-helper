@@ -296,12 +296,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.26,
+    "winRate": 47.32,
     "playRate": 1.8,
-    "picks": 3356,
+    "picks": 3438,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-22T04:52:17.000Z",
+    "updated": "2026-08-22T16:42:33.000Z",
     "window": "2026-07-17 → 2026-08-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -313,19 +313,19 @@
         "picks": 438
       },
       "nomad": {
-        "winRate": 52.63,
-        "playRate": 1.5,
-        "picks": 38
+        "winRate": 53.49,
+        "playRate": 1.53,
+        "picks": 43
       },
       "other": {
-        "winRate": 47.06,
-        "playRate": 1.72,
-        "picks": 2093
+        "winRate": 47.05,
+        "playRate": 1.73,
+        "picks": 2151
       },
       "open": {
-        "winRate": 46.38,
-        "playRate": 1.71,
-        "picks": 787
+        "winRate": 46.65,
+        "playRate": 1.72,
+        "picks": 806
       }
     },
     "strongAgainst": [
@@ -336,8 +336,13 @@
       },
       {
         "name": "wu",
-        "games": 46,
-        "winRate": 63.04
+        "games": 48,
+        "winRate": 64.58
+      },
+      {
+        "name": "tupi",
+        "games": 44,
+        "winRate": 63.64
       },
       {
         "name": "britons",
@@ -345,41 +350,36 @@
         "winRate": 61.84
       },
       {
-        "name": "tupi",
-        "games": 41,
-        "winRate": 60.98
-      },
-      {
         "name": "slavs",
-        "games": 62,
-        "winRate": 58.06
+        "games": 63,
+        "winRate": 57.14
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 46,
-        "winRate": 32.61
+        "games": 48,
+        "winRate": 33.33
       },
       {
         "name": "armenians",
-        "games": 56,
-        "winRate": 33.93
+        "games": 58,
+        "winRate": 34.48
       },
       {
         "name": "spanish",
-        "games": 102,
-        "winRate": 35.29
-      },
-      {
-        "name": "muisca",
-        "games": 31,
-        "winRate": 35.48
+        "games": 103,
+        "winRate": 34.95
       },
       {
         "name": "georgians",
-        "games": 31,
-        "winRate": 35.48
+        "games": 33,
+        "winRate": 36.36
+      },
+      {
+        "name": "magyars",
+        "games": 82,
+        "winRate": 36.59
       }
     ]
   },

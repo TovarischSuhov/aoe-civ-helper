@@ -280,31 +280,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.76,
+    "winRate": 49.75,
     "playRate": 1.59,
-    "picks": 2968,
+    "picks": 3027,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-22T04:52:17.000Z",
+    "updated": "2026-08-22T16:42:33.000Z",
     "window": "2026-07-17 → 2026-08-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 48.51,
-        "playRate": 1.53,
-        "picks": 705
+        "winRate": 48.2,
+        "playRate": 1.54,
+        "picks": 722
       },
       "nomad": {
-        "winRate": 45.65,
-        "playRate": 1.81,
-        "picks": 46
+        "winRate": 45.1,
+        "playRate": 1.82,
+        "picks": 51
       },
       "other": {
-        "winRate": 50.81,
+        "winRate": 50.92,
         "playRate": 1.62,
-        "picks": 1980
+        "picks": 2017
       },
       "closed": {
         "winRate": 45.57,
@@ -315,13 +315,13 @@
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 56,
-        "winRate": 71.43
+        "games": 57,
+        "winRate": 71.93
       },
       {
         "name": "poles",
-        "games": 46,
-        "winRate": 65.22
+        "games": 47,
+        "winRate": 65.96
       },
       {
         "name": "incas",
@@ -342,18 +342,13 @@
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 57,
-        "winRate": 26.32
+        "games": 59,
+        "winRate": 27.12
       },
       {
         "name": "slavs",
-        "games": 49,
-        "winRate": 34.69
-      },
-      {
-        "name": "romans",
-        "games": 54,
-        "winRate": 37.04
+        "games": 51,
+        "winRate": 35.29
       },
       {
         "name": "burmese",
@@ -361,9 +356,14 @@
         "winRate": 38.1
       },
       {
-        "name": "mapuche",
-        "games": 28,
-        "winRate": 39.29
+        "name": "romans",
+        "games": 55,
+        "winRate": 38.18
+      },
+      {
+        "name": "muisca",
+        "games": 35,
+        "winRate": 40
       }
     ]
   },

@@ -381,31 +381,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.96,
+    "winRate": 51.88,
     "playRate": 1.72,
-    "picks": 3212,
+    "picks": 3273,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-22T04:52:17.000Z",
+    "updated": "2026-08-22T16:42:33.000Z",
     "window": "2026-07-17 → 2026-08-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malians",
     "byMapType": {
       "open": {
-        "winRate": 53.59,
-        "playRate": 1.88,
-        "picks": 864
+        "winRate": 53.26,
+        "playRate": 1.86,
+        "picks": 875
       },
       "other": {
-        "winRate": 52.25,
+        "winRate": 52.3,
         "playRate": 1.7,
-        "picks": 2067
+        "picks": 2109
       },
       "nomad": {
-        "winRate": 39.58,
-        "playRate": 1.89,
-        "picks": 48
+        "winRate": 39.29,
+        "playRate": 2,
+        "picks": 56
       },
       "closed": {
         "winRate": 45.92,
@@ -421,13 +421,13 @@
       },
       {
         "name": "slavs",
-        "games": 59,
-        "winRate": 69.49
+        "games": 60,
+        "winRate": 68.33
       },
       {
         "name": "sicilians",
-        "games": 67,
-        "winRate": 62.69
+        "games": 68,
+        "winRate": 63.24
       },
       {
         "name": "wu",
@@ -436,25 +436,20 @@
       },
       {
         "name": "lithuanians",
-        "games": 69,
-        "winRate": 62.32
+        "games": 70,
+        "winRate": 61.43
       }
     ],
     "weakAgainst": [
       {
         "name": "huns",
-        "games": 78,
-        "winRate": 30.77
+        "games": 80,
+        "winRate": 31.25
       },
       {
         "name": "romans",
-        "games": 47,
-        "winRate": 38.3
-      },
-      {
-        "name": "mapuche",
-        "games": 31,
-        "winRate": 38.71
+        "games": 49,
+        "winRate": 38.78
       },
       {
         "name": "vikings",
@@ -465,6 +460,11 @@
         "name": "japanese",
         "games": 68,
         "winRate": 39.71
+      },
+      {
+        "name": "mapuche",
+        "games": 32,
+        "winRate": 40.63
       }
     ]
   },
