@@ -347,21 +347,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.94,
+    "winRate": 49.83,
     "playRate": 1.76,
-    "picks": 3426,
+    "picks": 3484,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-23T04:53:40.000Z",
+    "updated": "2026-08-23T16:44:45.000Z",
     "window": "2026-07-17 → 2026-08-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
       "other": {
-        "winRate": 50.05,
+        "winRate": 49.98,
         "playRate": 1.67,
-        "picks": 2128
+        "picks": 2167
       },
       "closed": {
         "winRate": 55.43,
@@ -369,41 +369,41 @@
         "picks": 442
       },
       "nomad": {
-        "winRate": 52.24,
-        "playRate": 2.18,
-        "picks": 67
+        "winRate": 49.33,
+        "playRate": 2.24,
+        "picks": 75
       },
       "open": {
-        "winRate": 46.39,
-        "playRate": 1.65,
-        "picks": 789
+        "winRate": 46.38,
+        "playRate": 1.64,
+        "picks": 800
       }
     },
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 93,
-        "winRate": 67.74
+        "games": 95,
+        "winRate": 66.32
       },
       {
         "name": "armenians",
-        "games": 64,
-        "winRate": 65.63
+        "games": 65,
+        "winRate": 66.15
       },
       {
         "name": "britons",
-        "games": 69,
-        "winRate": 65.22
+        "games": 70,
+        "winRate": 65.71
       },
       {
         "name": "portuguese",
-        "games": 78,
-        "winRate": 64.1
+        "games": 79,
+        "winRate": 63.29
       },
       {
         "name": "celts",
-        "games": 38,
-        "winRate": 63.16
+        "games": 39,
+        "winRate": 61.54
       }
     ],
     "weakAgainst": [
@@ -413,14 +413,14 @@
         "winRate": 33.33
       },
       {
-        "name": "spanish",
-        "games": 92,
-        "winRate": 39.13
-      },
-      {
         "name": "malay",
         "games": 68,
         "winRate": 39.71
+      },
+      {
+        "name": "spanish",
+        "games": 93,
+        "winRate": 39.78
       },
       {
         "name": "mapuche",
@@ -428,8 +428,8 @@
         "winRate": 40
       },
       {
-        "name": "huns",
-        "games": 60,
+        "name": "romans",
+        "games": 25,
         "winRate": 40
       }
     ]

@@ -328,31 +328,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.42,
-    "playRate": 2.92,
-    "picks": 5671,
+    "winRate": 51.48,
+    "playRate": 2.91,
+    "picks": 5775,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-23T04:53:40.000Z",
+    "updated": "2026-08-23T16:44:45.000Z",
     "window": "2026-07-17 → 2026-08-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "open": {
-        "winRate": 52.01,
-        "playRate": 2.96,
-        "picks": 1415
+        "winRate": 52.26,
+        "playRate": 2.95,
+        "picks": 1439
       },
       "nomad": {
-        "winRate": 60.31,
-        "playRate": 4.27,
-        "picks": 131
+        "winRate": 61.03,
+        "playRate": 4.07,
+        "picks": 136
       },
       "other": {
-        "winRate": 51.25,
+        "winRate": 51.21,
         "playRate": 2.99,
-        "picks": 3803
+        "picks": 3878
       },
       "closed": {
         "winRate": 47.2,
@@ -363,13 +363,18 @@
     "strongAgainst": [
       {
         "name": "tupi",
-        "games": 81,
-        "winRate": 61.73
+        "games": 84,
+        "winRate": 61.9
       },
       {
         "name": "jurchens",
-        "games": 72,
-        "winRate": 59.72
+        "games": 73,
+        "winRate": 58.9
+      },
+      {
+        "name": "armenians",
+        "games": 96,
+        "winRate": 58.33
       },
       {
         "name": "burmese",
@@ -377,41 +382,36 @@
         "winRate": 58.21
       },
       {
-        "name": "armenians",
-        "games": 93,
-        "winRate": 58.06
-      },
-      {
-        "name": "poles",
-        "games": 69,
-        "winRate": 57.97
+        "name": "turks",
+        "games": 86,
+        "winRate": 58.14
       }
     ],
     "weakAgainst": [
       {
         "name": "mapuche",
-        "games": 61,
-        "winRate": 37.7
+        "games": 62,
+        "winRate": 38.71
       },
       {
         "name": "hindustanis",
-        "games": 140,
-        "winRate": 41.43
+        "games": 141,
+        "winRate": 41.13
       },
       {
         "name": "mayans",
-        "games": 112,
-        "winRate": 41.96
+        "games": 114,
+        "winRate": 41.23
       },
       {
         "name": "bohemians",
-        "games": 87,
-        "winRate": 44.83
+        "games": 89,
+        "winRate": 43.82
       },
       {
         "name": "malay",
-        "games": 87,
-        "winRate": 44.83
+        "games": 88,
+        "winRate": 44.32
       }
     ]
   },

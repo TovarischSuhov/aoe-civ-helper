@@ -300,31 +300,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52,
-    "playRate": 2.54,
-    "picks": 4946,
+    "winRate": 51.83,
+    "playRate": 2.55,
+    "picks": 5053,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-23T04:53:40.000Z",
+    "updated": "2026-08-23T16:44:45.000Z",
     "window": "2026-07-17 → 2026-08-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
       "open": {
-        "winRate": 51.21,
-        "playRate": 2.5,
-        "picks": 1197
+        "winRate": 51.02,
+        "playRate": 2.51,
+        "picks": 1223
       },
       "other": {
-        "winRate": 52.72,
+        "winRate": 52.58,
         "playRate": 2.65,
-        "picks": 3363
+        "picks": 3433
       },
       "nomad": {
-        "winRate": 60.87,
-        "playRate": 3,
-        "picks": 92
+        "winRate": 58.25,
+        "playRate": 3.08,
+        "picks": 103
       },
       "closed": {
         "winRate": 44.22,
@@ -334,24 +334,24 @@
     },
     "strongAgainst": [
       {
-        "name": "khitans",
-        "games": 65,
-        "winRate": 63.08
-      },
-      {
         "name": "berbers",
-        "games": 83,
-        "winRate": 62.65
+        "games": 85,
+        "winRate": 62.35
       },
       {
-        "name": "magyars",
-        "games": 176,
-        "winRate": 61.93
+        "name": "khitans",
+        "games": 66,
+        "winRate": 62.12
       },
       {
         "name": "bulgarians",
         "games": 86,
         "winRate": 61.63
+      },
+      {
+        "name": "magyars",
+        "games": 179,
+        "winRate": 61.45
       },
       {
         "name": "sicilians",
@@ -362,13 +362,13 @@
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 91,
-        "winRate": 39.56
+        "games": 94,
+        "winRate": 39.36
       },
       {
-        "name": "huns",
-        "games": 96,
-        "winRate": 41.67
+        "name": "shu",
+        "games": 52,
+        "winRate": 40.38
       },
       {
         "name": "wei",
@@ -376,14 +376,14 @@
         "winRate": 41.76
       },
       {
-        "name": "shu",
-        "games": 50,
-        "winRate": 42
+        "name": "huns",
+        "games": 99,
+        "winRate": 42.42
       },
       {
         "name": "chinese",
-        "games": 124,
-        "winRate": 43.55
+        "games": 126,
+        "winRate": 43.65
       }
     ]
   },
