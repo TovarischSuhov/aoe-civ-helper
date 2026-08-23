@@ -378,26 +378,26 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 52.33,
-    "playRate": 1.16,
-    "picks": 2209,
+    "winRate": 52.35,
+    "playRate": 1.15,
+    "picks": 2237,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-22T16:42:33.000Z",
-    "window": "2026-07-17 → 2026-08-22",
+    "updated": "2026-08-23T04:53:40.000Z",
+    "window": "2026-07-17 → 2026-08-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 51.71,
-        "playRate": 1.2,
-        "picks": 1491
+        "winRate": 51.72,
+        "playRate": 1.19,
+        "picks": 1514
       },
       "open": {
-        "winRate": 56.01,
-        "playRate": 1.15,
-        "picks": 541
+        "winRate": 55.96,
+        "playRate": 1.14,
+        "picks": 545
       },
       "closed": {
         "winRate": 44.14,
@@ -405,21 +405,16 @@
         "picks": 145
       },
       "nomad": {
-        "winRate": 56.25,
-        "playRate": 1.14,
-        "picks": 32
+        "winRate": 57.58,
+        "playRate": 1.08,
+        "picks": 33
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 25,
-        "winRate": 68
-      },
-      {
-        "name": "franks",
-        "games": 48,
-        "winRate": 66.67
+        "games": 26,
+        "winRate": 69.23
       },
       {
         "name": "gurjaras",
@@ -427,14 +422,19 @@
         "winRate": 65.79
       },
       {
-        "name": "spanish",
-        "games": 57,
-        "winRate": 64.91
+        "name": "franks",
+        "games": 49,
+        "winRate": 65.31
       },
       {
-        "name": "persians",
-        "games": 60,
-        "winRate": 63.33
+        "name": "spanish",
+        "games": 58,
+        "winRate": 63.79
+      },
+      {
+        "name": "turks",
+        "games": 40,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
