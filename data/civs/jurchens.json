@@ -366,31 +366,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.73,
+    "winRate": 45.95,
     "playRate": 1.32,
-    "picks": 2668,
+    "picks": 2714,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-24T05:04:11.000Z",
+    "updated": "2026-08-24T16:56:58.000Z",
     "window": "2026-07-17 → 2026-08-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 45.98,
+        "winRate": 46.3,
         "playRate": 1.31,
-        "picks": 1731
+        "picks": 1756
       },
       "open": {
-        "winRate": 45.56,
-        "playRate": 1.4,
-        "picks": 698
+        "winRate": 45.52,
+        "playRate": 1.41,
+        "picks": 714
       },
       "nomad": {
-        "winRate": 48.94,
-        "playRate": 1.29,
-        "picks": 47
+        "winRate": 50,
+        "playRate": 1.31,
+        "picks": 52
       },
       "closed": {
         "winRate": 43.23,
@@ -401,13 +401,18 @@
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 51,
-        "winRate": 74.51
+        "games": 52,
+        "winRate": 73.08
       },
       {
         "name": "aztecs",
-        "games": 54,
-        "winRate": 61.11
+        "games": 55,
+        "winRate": 60
+      },
+      {
+        "name": "burmese",
+        "games": 34,
+        "winRate": 58.82
       },
       {
         "name": "romans",
@@ -418,11 +423,6 @@
         "name": "portuguese",
         "games": 42,
         "winRate": 57.14
-      },
-      {
-        "name": "burmese",
-        "games": 32,
-        "winRate": 56.25
       }
     ],
     "weakAgainst": [
@@ -432,14 +432,14 @@
         "winRate": 25.71
       },
       {
-        "name": "bohemians",
-        "games": 44,
-        "winRate": 29.55
+        "name": "italians",
+        "games": 49,
+        "winRate": 28.57
       },
       {
-        "name": "italians",
-        "games": 47,
-        "winRate": 29.79
+        "name": "bohemians",
+        "games": 45,
+        "winRate": 28.89
       },
       {
         "name": "celts",

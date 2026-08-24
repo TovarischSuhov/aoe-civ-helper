@@ -357,31 +357,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.98,
+    "winRate": 49.93,
     "playRate": 1.34,
-    "picks": 2715,
+    "picks": 2748,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-24T05:04:11.000Z",
+    "updated": "2026-08-24T16:56:58.000Z",
     "window": "2026-07-17 → 2026-08-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 49.16,
-        "playRate": 1.36,
-        "picks": 1796
+        "winRate": 49.26,
+        "playRate": 1.35,
+        "picks": 1815
       },
       "open": {
-        "winRate": 51.66,
+        "winRate": 51.3,
         "playRate": 1.45,
-        "picks": 722
+        "picks": 733
       },
       "nomad": {
-        "winRate": 59.52,
-        "playRate": 1.15,
-        "picks": 42
+        "winRate": 57.78,
+        "playRate": 1.14,
+        "picks": 45
       },
       "closed": {
         "winRate": 49.03,
@@ -401,11 +401,6 @@
         "winRate": 63.64
       },
       {
-        "name": "tatars",
-        "games": 32,
-        "winRate": 62.5
-      },
-      {
         "name": "burmese",
         "games": 34,
         "winRate": 61.76
@@ -414,18 +409,18 @@
         "name": "spanish",
         "games": 73,
         "winRate": 61.64
+      },
+      {
+        "name": "tatars",
+        "games": 33,
+        "winRate": 60.61
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 66,
-        "winRate": 33.33
-      },
-      {
-        "name": "celts",
-        "games": 38,
-        "winRate": 36.84
+        "games": 67,
+        "winRate": 32.84
       },
       {
         "name": "teutons",
@@ -434,13 +429,18 @@
       },
       {
         "name": "persians",
-        "games": 85,
-        "winRate": 37.65
+        "games": 86,
+        "winRate": 37.21
       },
       {
-        "name": "dravidians",
-        "games": 33,
-        "winRate": 39.39
+        "name": "celts",
+        "games": 39,
+        "winRate": 38.46
+      },
+      {
+        "name": "franks",
+        "games": 41,
+        "winRate": 39.02
       }
     ]
   },

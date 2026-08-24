@@ -332,53 +332,53 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 50.48,
-    "playRate": 1.84,
-    "picks": 3724,
+    "winRate": 50.2,
+    "playRate": 1.86,
+    "picks": 3809,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-24T05:04:11.000Z",
+    "updated": "2026-08-24T16:56:58.000Z",
     "window": "2026-07-17 → 2026-08-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 50.59,
-        "playRate": 1.85,
-        "picks": 2447
+        "winRate": 50.26,
+        "playRate": 1.87,
+        "picks": 2507
       },
       "nomad": {
-        "winRate": 51.04,
-        "playRate": 2.63,
-        "picks": 96
+        "winRate": 50,
+        "playRate": 2.73,
+        "picks": 108
       },
       "open": {
-        "winRate": 47.93,
+        "winRate": 47.84,
         "playRate": 1.65,
-        "picks": 822
+        "picks": 834
       },
       "closed": {
-        "winRate": 55.43,
-        "playRate": 2.18,
-        "picks": 359
+        "winRate": 55.28,
+        "playRate": 2.19,
+        "picks": 360
       }
     },
     "strongAgainst": [
       {
-        "name": "wu",
-        "games": 46,
-        "winRate": 73.91
+        "name": "jurchens",
+        "games": 49,
+        "winRate": 71.43
       },
       {
-        "name": "jurchens",
-        "games": 47,
-        "winRate": 70.21
+        "name": "wu",
+        "games": 48,
+        "winRate": 70.83
       },
       {
         "name": "burmese",
-        "games": 50,
-        "winRate": 62
+        "games": 52,
+        "winRate": 63.46
       },
       {
         "name": "saracens",
@@ -394,13 +394,18 @@
     "weakAgainst": [
       {
         "name": "muisca",
-        "games": 38,
-        "winRate": 31.58
+        "games": 39,
+        "winRate": 30.77
+      },
+      {
+        "name": "bengalis",
+        "games": 78,
+        "winRate": 39.74
       },
       {
         "name": "franks",
-        "games": 68,
-        "winRate": 38.24
+        "games": 70,
+        "winRate": 40
       },
       {
         "name": "shu",
@@ -408,14 +413,9 @@
         "winRate": 40
       },
       {
-        "name": "bengalis",
-        "games": 77,
-        "winRate": 40.26
-      },
-      {
         "name": "dravidians",
-        "games": 63,
-        "winRate": 41.27
+        "games": 65,
+        "winRate": 40
       }
     ]
   },
