@@ -350,21 +350,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.41,
+    "winRate": 51.29,
     "playRate": 1.77,
-    "picks": 3515,
+    "picks": 3574,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-23T16:44:45.000Z",
-    "window": "2026-07-17 → 2026-08-23",
+    "updated": "2026-08-24T05:04:11.000Z",
+    "window": "2026-07-17 → 2026-08-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
       "open": {
-        "winRate": 51.99,
-        "playRate": 1.96,
-        "picks": 956
+        "winRate": 51.91,
+        "playRate": 1.94,
+        "picks": 967
       },
       "closed": {
         "winRate": 48.95,
@@ -372,14 +372,14 @@
         "picks": 286
       },
       "other": {
-        "winRate": 51.57,
+        "winRate": 51.41,
         "playRate": 1.72,
-        "picks": 2230
+        "picks": 2274
       },
       "nomad": {
-        "winRate": 46.51,
+        "winRate": 46.81,
         "playRate": 1.29,
-        "picks": 43
+        "picks": 47
       }
     },
     "strongAgainst": [
@@ -395,30 +395,35 @@
       },
       {
         "name": "armenians",
-        "games": 55,
-        "winRate": 65.45
+        "games": 57,
+        "winRate": 64.91
       },
       {
         "name": "teutons",
-        "games": 49,
-        "winRate": 65.31
+        "games": 50,
+        "winRate": 64
       },
       {
-        "name": "lithuanians",
-        "games": 68,
-        "winRate": 63.24
+        "name": "aztecs",
+        "games": 52,
+        "winRate": 63.46
       }
     ],
     "weakAgainst": [
       {
-        "name": "spanish",
-        "games": 92,
-        "winRate": 40.22
+        "name": "huns",
+        "games": 70,
+        "winRate": 40
       },
       {
-        "name": "huns",
-        "games": 69,
-        "winRate": 40.58
+        "name": "burmese",
+        "games": 37,
+        "winRate": 40.54
+      },
+      {
+        "name": "spanish",
+        "games": 94,
+        "winRate": 41.49
       },
       {
         "name": "cumans",
@@ -429,11 +434,6 @@
         "name": "malians",
         "games": 47,
         "winRate": 42.55
-      },
-      {
-        "name": "khitans",
-        "games": 63,
-        "winRate": 42.86
       }
     ]
   },

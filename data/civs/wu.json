@@ -351,31 +351,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.16,
+    "winRate": 47.23,
     "playRate": 1.15,
-    "picks": 2271,
+    "picks": 2327,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-23T16:44:45.000Z",
-    "window": "2026-07-17 → 2026-08-23",
+    "updated": "2026-08-24T05:04:11.000Z",
+    "window": "2026-07-17 → 2026-08-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 46.91,
+        "winRate": 47.12,
         "playRate": 1.14,
-        "picks": 1471
+        "picks": 1509
       },
       "nomad": {
-        "winRate": 46.67,
-        "playRate": 1.35,
-        "picks": 45
+        "winRate": 46.15,
+        "playRate": 1.43,
+        "picks": 52
       },
       "open": {
-        "winRate": 48.27,
+        "winRate": 48.05,
         "playRate": 1.18,
-        "picks": 578
+        "picks": 589
       },
       "closed": {
         "winRate": 45.76,
@@ -385,19 +385,14 @@
     },
     "strongAgainst": [
       {
-        "name": "muisca",
-        "games": 23,
-        "winRate": 65.22
-      },
-      {
         "name": "koreans",
-        "games": 40,
-        "winRate": 65
+        "games": 41,
+        "winRate": 65.85
       },
       {
-        "name": "cumans",
-        "games": 36,
-        "winRate": 61.11
+        "name": "muisca",
+        "games": 24,
+        "winRate": 62.5
       },
       {
         "name": "dravidians",
@@ -405,21 +400,21 @@
         "winRate": 60
       },
       {
+        "name": "cumans",
+        "games": 37,
+        "winRate": 59.46
+      },
+      {
         "name": "burmese",
-        "games": 32,
-        "winRate": 59.38
+        "games": 34,
+        "winRate": 58.82
       }
     ],
     "weakAgainst": [
       {
         "name": "italians",
-        "games": 42,
-        "winRate": 26.19
-      },
-      {
-        "name": "berbers",
-        "games": 37,
-        "winRate": 29.73
+        "games": 46,
+        "winRate": 26.09
       },
       {
         "name": "shu",
@@ -427,9 +422,14 @@
         "winRate": 30
       },
       {
+        "name": "berbers",
+        "games": 38,
+        "winRate": 31.58
+      },
+      {
         "name": "burgundians",
-        "games": 29,
-        "winRate": 31.03
+        "games": 30,
+        "winRate": 33.33
       },
       {
         "name": "malay",

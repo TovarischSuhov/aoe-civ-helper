@@ -348,31 +348,31 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 52.8,
+    "winRate": 52.86,
     "playRate": 1.4,
-    "picks": 2769,
+    "picks": 2819,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-23T16:44:45.000Z",
-    "window": "2026-07-17 → 2026-08-23",
+    "updated": "2026-08-24T05:04:11.000Z",
+    "window": "2026-07-17 → 2026-08-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 53.81,
+        "winRate": 54.17,
         "playRate": 1.5,
-        "picks": 734
+        "picks": 744
       },
       "other": {
-        "winRate": 52.96,
+        "winRate": 52.87,
         "playRate": 1.41,
-        "picks": 1826
+        "picks": 1863
       },
       "nomad": {
-        "winRate": 35.29,
+        "winRate": 37.84,
         "playRate": 1.02,
-        "picks": 34
+        "picks": 37
       },
       "closed": {
         "winRate": 50.29,
@@ -383,40 +383,35 @@
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 36,
-        "winRate": 75
+        "games": 37,
+        "winRate": 75.68
       },
       {
         "name": "turks",
-        "games": 33,
-        "winRate": 69.7
-      },
-      {
-        "name": "koreans",
-        "games": 42,
-        "winRate": 66.67
+        "games": 34,
+        "winRate": 67.65
       },
       {
         "name": "lithuanians",
-        "games": 45,
-        "winRate": 66.67
+        "games": 46,
+        "winRate": 67.39
       },
       {
-        "name": "goths",
-        "games": 46,
-        "winRate": 65.22
+        "name": "koreans",
+        "games": 44,
+        "winRate": 65.91
+      },
+      {
+        "name": "slavs",
+        "games": 42,
+        "winRate": 64.29
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 174,
-        "winRate": 40.8
-      },
-      {
-        "name": "mayans",
-        "games": 49,
-        "winRate": 40.82
+        "games": 175,
+        "winRate": 40.57
       },
       {
         "name": "chinese",
@@ -430,8 +425,13 @@
       },
       {
         "name": "japanese",
-        "games": 65,
-        "winRate": 41.54
+        "games": 67,
+        "winRate": 41.79
+      },
+      {
+        "name": "mayans",
+        "games": 50,
+        "winRate": 42
       }
     ]
   },
