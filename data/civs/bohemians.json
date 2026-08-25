@@ -343,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.87,
+    "winRate": 48.86,
     "playRate": 1.98,
-    "picks": 4152,
+    "picks": 4216,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-25T04:55:57.000Z",
+    "updated": "2026-08-25T16:57:57.000Z",
     "window": "2026-07-17 → 2026-08-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 46.98,
-        "playRate": 1.64,
-        "picks": 845
+        "winRate": 46.94,
+        "playRate": 1.63,
+        "picks": 850
       },
       "other": {
-        "winRate": 49.64,
-        "playRate": 1.9,
-        "picks": 2611
+        "winRate": 49.55,
+        "playRate": 1.91,
+        "picks": 2664
       },
       "nomad": {
-        "winRate": 41.18,
-        "playRate": 2,
-        "picks": 85
+        "winRate": 43.33,
+        "playRate": 1.99,
+        "picks": 90
       },
       "closed": {
-        "winRate": 49.26,
-        "playRate": 3.71,
-        "picks": 611
+        "winRate": 49.35,
+        "playRate": 3.72,
+        "picks": 612
       }
     },
     "strongAgainst": [
@@ -387,14 +387,14 @@
         "winRate": 58.57
       },
       {
-        "name": "saracens",
-        "games": 47,
-        "winRate": 57.45
-      },
-      {
         "name": "sicilians",
         "games": 75,
         "winRate": 57.33
+      },
+      {
+        "name": "saracens",
+        "games": 49,
+        "winRate": 57.14
       },
       {
         "name": "persians",
@@ -405,13 +405,8 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 70,
-        "winRate": 34.29
-      },
-      {
-        "name": "dravidians",
-        "games": 59,
-        "winRate": 40.68
+        "games": 71,
+        "winRate": 35.21
       },
       {
         "name": "byzantines",
@@ -419,14 +414,19 @@
         "winRate": 40.91
       },
       {
-        "name": "shu",
-        "games": 43,
-        "winRate": 41.86
+        "name": "dravidians",
+        "games": 62,
+        "winRate": 41.94
       },
       {
-        "name": "turks",
-        "games": 132,
-        "winRate": 42.42
+        "name": "malay",
+        "games": 109,
+        "winRate": 42.2
+      },
+      {
+        "name": "shu",
+        "games": 45,
+        "winRate": 42.22
       }
     ]
   },
