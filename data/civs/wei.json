@@ -350,21 +350,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.25,
+    "winRate": 50.85,
     "playRate": 1.77,
-    "picks": 3635,
+    "picks": 3707,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-24T16:56:58.000Z",
-    "window": "2026-07-17 → 2026-08-24",
+    "updated": "2026-08-25T04:55:57.000Z",
+    "window": "2026-07-17 → 2026-08-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
       "open": {
-        "winRate": 51.78,
-        "playRate": 1.95,
-        "picks": 983
+        "winRate": 51.45,
+        "playRate": 1.94,
+        "picks": 999
       },
       "closed": {
         "winRate": 48.95,
@@ -372,31 +372,26 @@
         "picks": 286
       },
       "other": {
-        "winRate": 51.38,
+        "winRate": 50.97,
         "playRate": 1.73,
-        "picks": 2316
+        "picks": 2368
       },
       "nomad": {
-        "winRate": 48,
-        "playRate": 1.26,
-        "picks": 50
+        "winRate": 44.44,
+        "playRate": 1.27,
+        "picks": 54
       }
     },
     "strongAgainst": [
       {
         "name": "georgians",
-        "games": 43,
-        "winRate": 72.09
+        "games": 45,
+        "winRate": 68.89
       },
       {
         "name": "tupi",
-        "games": 67,
-        "winRate": 67.16
-      },
-      {
-        "name": "armenians",
-        "games": 58,
-        "winRate": 65.52
+        "games": 68,
+        "winRate": 67.65
       },
       {
         "name": "teutons",
@@ -404,36 +399,41 @@
         "winRate": 65.38
       },
       {
-        "name": "aztecs",
-        "games": 52,
-        "winRate": 63.46
+        "name": "armenians",
+        "games": 60,
+        "winRate": 65
+      },
+      {
+        "name": "wu",
+        "games": 43,
+        "winRate": 62.79
       }
     ],
     "weakAgainst": [
       {
         "name": "burmese",
-        "games": 38,
-        "winRate": 39.47
+        "games": 39,
+        "winRate": 38.46
       },
       {
         "name": "huns",
-        "games": 73,
-        "winRate": 39.73
+        "games": 74,
+        "winRate": 40.54
       },
       {
         "name": "spanish",
-        "games": 95,
-        "winRate": 41.05
+        "games": 97,
+        "winRate": 41.24
       },
       {
-        "name": "malians",
-        "games": 47,
-        "winRate": 42.55
+        "name": "koreans",
+        "games": 36,
+        "winRate": 41.67
       },
       {
         "name": "cumans",
-        "games": 61,
-        "winRate": 42.62
+        "games": 62,
+        "winRate": 41.94
       }
     ]
   },

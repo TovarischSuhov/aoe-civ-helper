@@ -361,21 +361,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.8,
+    "winRate": 47.98,
     "playRate": 1.86,
-    "picks": 3814,
+    "picks": 3904,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-24T16:56:58.000Z",
-    "window": "2026-07-17 → 2026-08-24",
+    "updated": "2026-08-25T04:55:57.000Z",
+    "window": "2026-07-17 → 2026-08-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
       "other": {
-        "winRate": 47.19,
-        "playRate": 1.78,
-        "picks": 2388
+        "winRate": 47.5,
+        "playRate": 1.79,
+        "picks": 2459
       },
       "closed": {
         "winRate": 54.9,
@@ -383,36 +383,36 @@
         "picks": 572
       },
       "nomad": {
-        "winRate": 39.44,
-        "playRate": 1.79,
-        "picks": 71
+        "winRate": 37.84,
+        "playRate": 1.74,
+        "picks": 74
       },
       "open": {
-        "winRate": 45.21,
+        "winRate": 45.43,
         "playRate": 1.55,
-        "picks": 783
+        "picks": 799
       }
     },
     "strongAgainst": [
       {
-        "name": "slavs",
-        "games": 54,
-        "winRate": 59.26
+        "name": "hindustanis",
+        "games": 82,
+        "winRate": 59.76
       },
       {
-        "name": "hindustanis",
-        "games": 78,
-        "winRate": 58.97
+        "name": "slavs",
+        "games": 57,
+        "winRate": 59.65
       },
       {
         "name": "khitans",
-        "games": 35,
-        "winRate": 57.14
+        "games": 37,
+        "winRate": 59.46
       },
       {
         "name": "bohemians",
-        "games": 128,
-        "winRate": 57.03
+        "games": 132,
+        "winRate": 57.58
       },
       {
         "name": "malians",
@@ -422,29 +422,29 @@
     ],
     "weakAgainst": [
       {
+        "name": "gurjaras",
+        "games": 63,
+        "winRate": 30.16
+      },
+      {
         "name": "romans",
         "games": 36,
         "winRate": 30.56
       },
       {
-        "name": "gurjaras",
-        "games": 62,
-        "winRate": 30.65
-      },
-      {
         "name": "huns",
-        "games": 62,
-        "winRate": 32.26
-      },
-      {
-        "name": "poles",
-        "games": 99,
-        "winRate": 34.34
+        "games": 64,
+        "winRate": 32.81
       },
       {
         "name": "berbers",
-        "games": 69,
-        "winRate": 34.78
+        "games": 71,
+        "winRate": 33.8
+      },
+      {
+        "name": "poles",
+        "games": 103,
+        "winRate": 34.95
       }
     ]
   },

@@ -352,13 +352,13 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.5,
+    "winRate": 52.48,
     "playRate": 1.04,
-    "picks": 2137,
+    "picks": 2178,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-24T16:56:58.000Z",
-    "window": "2026-07-17 → 2026-08-24",
+    "updated": "2026-08-25T04:55:57.000Z",
+    "window": "2026-07-17 → 2026-08-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
@@ -369,36 +369,31 @@
         "picks": 170
       },
       "other": {
-        "winRate": 51.11,
-        "playRate": 1.04,
-        "picks": 1395
+        "winRate": 50.99,
+        "playRate": 1.03,
+        "picks": 1420
       },
       "open": {
-        "winRate": 55.16,
-        "playRate": 1.06,
-        "picks": 533
+        "winRate": 55.35,
+        "playRate": 1.05,
+        "picks": 542
       },
       "nomad": {
-        "winRate": 61.54,
-        "playRate": 0.99,
-        "picks": 39
+        "winRate": 60.87,
+        "playRate": 1.08,
+        "picks": 46
       }
     },
     "strongAgainst": [
       {
-        "name": "mapuche",
-        "games": 18,
-        "winRate": 72.22
-      },
-      {
         "name": "wu",
-        "games": 20,
-        "winRate": 70
+        "games": 21,
+        "winRate": 71.43
       },
       {
         "name": "slavs",
-        "games": 28,
-        "winRate": 67.86
+        "games": 29,
+        "winRate": 68.97
       },
       {
         "name": "hindustanis",
@@ -407,20 +402,30 @@
       },
       {
         "name": "bulgarians",
-        "games": 36,
+        "games": 39,
         "winRate": 66.67
+      },
+      {
+        "name": "mapuche",
+        "games": 20,
+        "winRate": 65
       }
     ],
     "weakAgainst": [
+      {
+        "name": "dravidians",
+        "games": 35,
+        "winRate": 37.14
+      },
       {
         "name": "khmer",
         "games": 44,
         "winRate": 38.64
       },
       {
-        "name": "dravidians",
-        "games": 31,
-        "winRate": 38.71
+        "name": "magyars",
+        "games": 69,
+        "winRate": 42.03
       },
       {
         "name": "vietnamese",
@@ -429,13 +434,8 @@
       },
       {
         "name": "wei",
-        "games": 32,
-        "winRate": 43.75
-      },
-      {
-        "name": "franks",
-        "games": 41,
-        "winRate": 43.9
+        "games": 33,
+        "winRate": 42.42
       }
     ]
   },
