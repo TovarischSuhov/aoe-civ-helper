@@ -368,26 +368,26 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 52.08,
+    "winRate": 52.12,
     "playRate": 1.63,
-    "picks": 3527,
+    "picks": 3592,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-26T04:57:49.000Z",
+    "updated": "2026-08-26T17:51:09.000Z",
     "window": "2026-07-17 → 2026-08-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.64,
-        "playRate": 1.65,
-        "picks": 2353
+        "winRate": 51.71,
+        "playRate": 1.66,
+        "picks": 2398
       },
       "open": {
-        "winRate": 53.08,
-        "playRate": 1.56,
-        "picks": 827
+        "winRate": 53.02,
+        "playRate": 1.57,
+        "picks": 843
       },
       "closed": {
         "winRate": 53.05,
@@ -395,16 +395,16 @@
         "picks": 262
       },
       "nomad": {
-        "winRate": 51.76,
-        "playRate": 1.78,
-        "picks": 85
+        "winRate": 51.69,
+        "playRate": 1.76,
+        "picks": 89
       }
     },
     "strongAgainst": [
       {
         "name": "burmese",
-        "games": 59,
-        "winRate": 69.49
+        "games": 60,
+        "winRate": 70
       },
       {
         "name": "mapuche",
@@ -430,18 +430,8 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 189,
-        "winRate": 40.21
-      },
-      {
-        "name": "byzantines",
-        "games": 50,
-        "winRate": 42
-      },
-      {
-        "name": "malians",
-        "games": 71,
-        "winRate": 42.25
+        "games": 192,
+        "winRate": 39.58
       },
       {
         "name": "saracens",
@@ -449,9 +439,19 @@
         "winRate": 42.37
       },
       {
-        "name": "poles",
-        "games": 44,
-        "winRate": 43.18
+        "name": "malians",
+        "games": 73,
+        "winRate": 42.47
+      },
+      {
+        "name": "byzantines",
+        "games": 51,
+        "winRate": 43.14
+      },
+      {
+        "name": "slavs",
+        "games": 48,
+        "winRate": 43.75
       }
     ]
   },

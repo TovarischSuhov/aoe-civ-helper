@@ -351,31 +351,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.78,
-    "playRate": 1.16,
-    "picks": 2518,
+    "winRate": 47.82,
+    "playRate": 1.17,
+    "picks": 2564,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-26T04:57:49.000Z",
+    "updated": "2026-08-26T17:51:09.000Z",
     "window": "2026-07-17 → 2026-08-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 47.62,
+        "winRate": 47.72,
         "playRate": 1.15,
-        "picks": 1638
+        "picks": 1670
       },
       "nomad": {
-        "winRate": 50.72,
-        "playRate": 1.45,
-        "picks": 69
+        "winRate": 49.32,
+        "playRate": 1.44,
+        "picks": 73
       },
       "open": {
-        "winRate": 48.42,
+        "winRate": 48.45,
         "playRate": 1.2,
-        "picks": 634
+        "picks": 644
       },
       "closed": {
         "winRate": 45.76,
@@ -395,6 +395,11 @@
         "winRate": 61.36
       },
       {
+        "name": "bengalis",
+        "games": 50,
+        "winRate": 60
+      },
+      {
         "name": "cumans",
         "games": 47,
         "winRate": 59.57
@@ -403,11 +408,6 @@
         "name": "burmese",
         "games": 37,
         "winRate": 59.46
-      },
-      {
-        "name": "bengalis",
-        "games": 49,
-        "winRate": 59.18
       }
     ],
     "weakAgainst": [
@@ -418,7 +418,12 @@
       },
       {
         "name": "italians",
-        "games": 50,
+        "games": 52,
+        "winRate": 28.85
+      },
+      {
+        "name": "berbers",
+        "games": 40,
         "winRate": 30
       },
       {
@@ -427,14 +432,9 @@
         "winRate": 30.3
       },
       {
-        "name": "berbers",
-        "games": 39,
-        "winRate": 30.77
-      },
-      {
-        "name": "wei",
-        "games": 44,
-        "winRate": 36.36
+        "name": "malay",
+        "games": 31,
+        "winRate": 35.48
       }
     ]
   },
