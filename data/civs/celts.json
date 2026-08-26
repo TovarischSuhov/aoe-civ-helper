@@ -368,26 +368,26 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 52.04,
-    "playRate": 1.64,
-    "picks": 3478,
+    "winRate": 52.08,
+    "playRate": 1.63,
+    "picks": 3527,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-25T16:57:57.000Z",
-    "window": "2026-07-17 → 2026-08-25",
+    "updated": "2026-08-26T04:57:49.000Z",
+    "window": "2026-07-17 → 2026-08-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.56,
-        "playRate": 1.66,
-        "picks": 2314
+        "winRate": 51.64,
+        "playRate": 1.65,
+        "picks": 2353
       },
       "open": {
-        "winRate": 53.24,
-        "playRate": 1.57,
-        "picks": 819
+        "winRate": 53.08,
+        "playRate": 1.56,
+        "picks": 827
       },
       "closed": {
         "winRate": 53.05,
@@ -395,43 +395,48 @@
         "picks": 262
       },
       "nomad": {
-        "winRate": 50.6,
-        "playRate": 1.84,
-        "picks": 83
+        "winRate": 51.76,
+        "playRate": 1.78,
+        "picks": 85
       }
     },
     "strongAgainst": [
       {
         "name": "burmese",
-        "games": 57,
-        "winRate": 68.42
-      },
-      {
-        "name": "jurchens",
-        "games": 43,
-        "winRate": 67.44
+        "games": 59,
+        "winRate": 69.49
       },
       {
         "name": "mapuche",
-        "games": 36,
-        "winRate": 66.67
+        "games": 37,
+        "winRate": 67.57
       },
       {
         "name": "aztecs",
-        "games": 62,
-        "winRate": 66.13
+        "games": 63,
+        "winRate": 66.67
       },
       {
-        "name": "goths",
-        "games": 58,
-        "winRate": 65.52
+        "name": "jurchens",
+        "games": 44,
+        "winRate": 65.91
+      },
+      {
+        "name": "muisca",
+        "games": 28,
+        "winRate": 64.29
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 188,
-        "winRate": 39.89
+        "games": 189,
+        "winRate": 40.21
+      },
+      {
+        "name": "byzantines",
+        "games": 50,
+        "winRate": 42
       },
       {
         "name": "malians",
@@ -442,11 +447,6 @@
         "name": "saracens",
         "games": 59,
         "winRate": 42.37
-      },
-      {
-        "name": "byzantines",
-        "games": 49,
-        "winRate": 42.86
       },
       {
         "name": "poles",

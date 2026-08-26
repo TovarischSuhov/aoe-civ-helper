@@ -308,13 +308,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.01,
-    "playRate": 1.99,
-    "picks": 4226,
+    "winRate": 47.96,
+    "playRate": 1.98,
+    "picks": 4295,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-25T16:57:57.000Z",
-    "window": "2026-07-17 → 2026-08-25",
+    "updated": "2026-08-26T04:57:49.000Z",
+    "window": "2026-07-17 → 2026-08-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
@@ -322,17 +322,17 @@
       "open": {
         "winRate": 46.25,
         "playRate": 1.84,
-        "picks": 960
+        "picks": 973
       },
       "other": {
-        "winRate": 48.7,
+        "winRate": 48.62,
         "playRate": 1.99,
-        "picks": 2778
+        "picks": 2830
       },
       "nomad": {
-        "winRate": 41.77,
-        "playRate": 1.75,
-        "picks": 79
+        "winRate": 42.17,
+        "playRate": 1.74,
+        "picks": 83
       },
       "closed": {
         "winRate": 48.66,
@@ -343,8 +343,13 @@
     "strongAgainst": [
       {
         "name": "ethiopians",
-        "games": 76,
-        "winRate": 63.16
+        "games": 77,
+        "winRate": 63.64
+      },
+      {
+        "name": "incas",
+        "games": 83,
+        "winRate": 61.45
       },
       {
         "name": "saracens",
@@ -352,31 +357,26 @@
         "winRate": 61.11
       },
       {
-        "name": "incas",
-        "games": 82,
-        "winRate": 60.98
+        "name": "mayans",
+        "games": 74,
+        "winRate": 58.11
       },
       {
         "name": "gurjaras",
         "games": 54,
         "winRate": 57.41
-      },
-      {
-        "name": "burmese",
-        "games": 72,
-        "winRate": 56.94
       }
     ],
     "weakAgainst": [
       {
         "name": "poles",
-        "games": 83,
-        "winRate": 36.14
+        "games": 87,
+        "winRate": 35.63
       },
       {
         "name": "magyars",
-        "games": 111,
-        "winRate": 39.64
+        "games": 113,
+        "winRate": 39.82
       },
       {
         "name": "dravidians",
@@ -390,8 +390,8 @@
       },
       {
         "name": "franks",
-        "games": 97,
-        "winRate": 40.21
+        "games": 99,
+        "winRate": 40.4
       }
     ]
   },

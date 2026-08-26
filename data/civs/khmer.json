@@ -323,21 +323,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.11,
+    "winRate": 49.16,
     "playRate": 2.36,
-    "picks": 5019,
+    "picks": 5110,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-25T16:57:57.000Z",
-    "window": "2026-07-17 → 2026-08-25",
+    "updated": "2026-08-26T04:57:49.000Z",
+    "window": "2026-07-17 → 2026-08-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
       "other": {
-        "winRate": 48.35,
+        "winRate": 48.37,
         "playRate": 2.32,
-        "picks": 3233
+        "picks": 3304
       },
       "closed": {
         "winRate": 50.66,
@@ -345,22 +345,17 @@
         "picks": 456
       },
       "nomad": {
-        "winRate": 43.82,
-        "playRate": 1.97,
-        "picks": 89
+        "winRate": 44.55,
+        "playRate": 2.12,
+        "picks": 101
       },
       "open": {
-        "winRate": 50.93,
-        "playRate": 2.38,
-        "picks": 1241
+        "winRate": 51.08,
+        "playRate": 2.36,
+        "picks": 1249
       }
     },
     "strongAgainst": [
-      {
-        "name": "wu",
-        "games": 60,
-        "winRate": 61.67
-      },
       {
         "name": "goths",
         "games": 67,
@@ -373,8 +368,13 @@
       },
       {
         "name": "vietnamese",
-        "games": 160,
-        "winRate": 60
+        "games": 165,
+        "winRate": 59.39
+      },
+      {
+        "name": "wu",
+        "games": 63,
+        "winRate": 58.73
       },
       {
         "name": "shu",
@@ -385,13 +385,13 @@
     "weakAgainst": [
       {
         "name": "franks",
-        "games": 90,
-        "winRate": 36.67
+        "games": 91,
+        "winRate": 37.36
       },
       {
         "name": "malay",
-        "games": 81,
-        "winRate": 37.04
+        "games": 82,
+        "winRate": 37.8
       },
       {
         "name": "chinese",
@@ -405,8 +405,8 @@
       },
       {
         "name": "lithuanians",
-        "games": 104,
-        "winRate": 42.31
+        "games": 105,
+        "winRate": 41.9
       }
     ]
   },

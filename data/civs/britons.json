@@ -313,31 +313,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.42,
-    "playRate": 1.95,
-    "picks": 4153,
+    "winRate": 48.56,
+    "playRate": 1.94,
+    "picks": 4205,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-25T16:57:57.000Z",
-    "window": "2026-07-17 → 2026-08-25",
+    "updated": "2026-08-26T04:57:49.000Z",
+    "window": "2026-07-17 → 2026-08-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
-        "winRate": 48.22,
-        "playRate": 1.89,
-        "picks": 985
+        "winRate": 48.29,
+        "playRate": 1.88,
+        "picks": 994
       },
       "other": {
-        "winRate": 48.34,
-        "playRate": 1.92,
-        "picks": 2683
+        "winRate": 48.49,
+        "playRate": 1.91,
+        "picks": 2724
       },
       "nomad": {
-        "winRate": 41.49,
-        "playRate": 2.08,
-        "picks": 94
+        "winRate": 42.71,
+        "playRate": 2.02,
+        "picks": 96
       },
       "closed": {
         "winRate": 51.15,
@@ -348,28 +348,28 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 63,
-        "winRate": 73.02
+        "games": 64,
+        "winRate": 73.44
       },
       {
         "name": "gurjaras",
-        "games": 62,
-        "winRate": 62.9
+        "games": 63,
+        "winRate": 63.49
       },
       {
         "name": "spanish",
-        "games": 107,
-        "winRate": 61.68
+        "games": 108,
+        "winRate": 61.11
+      },
+      {
+        "name": "khitans",
+        "games": 57,
+        "winRate": 57.89
       },
       {
         "name": "slavs",
         "games": 52,
         "winRate": 57.69
-      },
-      {
-        "name": "portuguese",
-        "games": 85,
-        "winRate": 57.65
       }
     ],
     "weakAgainst": [
@@ -379,24 +379,24 @@
         "winRate": 31.71
       },
       {
-        "name": "poles",
-        "games": 78,
-        "winRate": 34.62
-      },
-      {
         "name": "hindustanis",
         "games": 81,
         "winRate": 35.8
       },
       {
-        "name": "armenians",
-        "games": 58,
-        "winRate": 36.21
-      },
-      {
         "name": "bengalis",
         "games": 88,
         "winRate": 36.36
+      },
+      {
+        "name": "poles",
+        "games": 82,
+        "winRate": 36.59
+      },
+      {
+        "name": "armenians",
+        "games": 60,
+        "winRate": 36.67
       }
     ]
   },
