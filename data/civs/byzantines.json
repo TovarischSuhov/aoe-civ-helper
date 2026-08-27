@@ -280,31 +280,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.97,
+    "winRate": 49.94,
     "playRate": 1.59,
-    "picks": 3494,
+    "picks": 3580,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-26T17:51:09.000Z",
-    "window": "2026-07-17 → 2026-08-26",
+    "updated": "2026-08-27T15:17:21.000Z",
+    "window": "2026-07-17 → 2026-08-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 49.33,
+        "winRate": 49.59,
         "playRate": 1.54,
-        "picks": 827
+        "picks": 845
       },
       "nomad": {
-        "winRate": 43.75,
-        "playRate": 1.58,
-        "picks": 80
+        "winRate": 43.9,
+        "playRate": 1.51,
+        "picks": 82
       },
       "other": {
-        "winRate": 50.87,
-        "playRate": 1.62,
-        "picks": 2349
+        "winRate": 50.72,
+        "playRate": 1.63,
+        "picks": 2415
       },
       "closed": {
         "winRate": 45.38,
@@ -315,8 +315,13 @@
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 62,
-        "winRate": 70.97
+        "games": 63,
+        "winRate": 71.43
+      },
+      {
+        "name": "incas",
+        "games": 68,
+        "winRate": 63.24
       },
       {
         "name": "dravidians",
@@ -325,13 +330,8 @@
       },
       {
         "name": "poles",
-        "games": 56,
-        "winRate": 62.5
-      },
-      {
-        "name": "incas",
-        "games": 66,
-        "winRate": 62.12
+        "games": 59,
+        "winRate": 61.02
       },
       {
         "name": "bohemians",
@@ -342,8 +342,8 @@
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 71,
-        "winRate": 30.99
+        "games": 74,
+        "winRate": 32.43
       },
       {
         "name": "slavs",
@@ -352,18 +352,18 @@
       },
       {
         "name": "romans",
-        "games": 60,
-        "winRate": 38.33
-      },
-      {
-        "name": "burgundians",
-        "games": 72,
-        "winRate": 38.89
+        "games": 61,
+        "winRate": 37.7
       },
       {
         "name": "muisca",
-        "games": 38,
-        "winRate": 39.47
+        "games": 39,
+        "winRate": 38.46
+      },
+      {
+        "name": "mapuche",
+        "games": 35,
+        "winRate": 40
       }
     ]
   },
