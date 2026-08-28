@@ -368,26 +368,26 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 52.17,
+    "winRate": 52.19,
     "playRate": 1.63,
-    "picks": 3671,
+    "picks": 3727,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-27T15:17:21.000Z",
-    "window": "2026-07-17 → 2026-08-27",
+    "updated": "2026-08-28T00:57:57.000Z",
+    "window": "2026-07-17 → 2026-08-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.71,
+        "winRate": 51.59,
         "playRate": 1.65,
-        "picks": 2450
+        "picks": 2487
       },
       "open": {
-        "winRate": 53.08,
-        "playRate": 1.56,
-        "picks": 861
+        "winRate": 53.54,
+        "playRate": 1.57,
+        "picks": 876
       },
       "closed": {
         "winRate": 53.05,
@@ -395,12 +395,17 @@
         "picks": 262
       },
       "nomad": {
-        "winRate": 53.06,
-        "playRate": 1.81,
-        "picks": 98
+        "winRate": 52.94,
+        "playRate": 1.8,
+        "picks": 102
       }
     },
     "strongAgainst": [
+      {
+        "name": "burmese",
+        "games": 65,
+        "winRate": 67.69
+      },
       {
         "name": "mapuche",
         "games": 37,
@@ -412,26 +417,21 @@
         "winRate": 67.19
       },
       {
-        "name": "burmese",
-        "games": 64,
-        "winRate": 67.19
-      },
-      {
         "name": "jurchens",
         "games": 44,
         "winRate": 65.91
       },
       {
-        "name": "muisca",
-        "games": 28,
-        "winRate": 64.29
+        "name": "britons",
+        "games": 74,
+        "winRate": 62.16
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 192,
-        "winRate": 39.58
+        "games": 196,
+        "winRate": 39.8
       },
       {
         "name": "malians",
@@ -439,14 +439,14 @@
         "winRate": 41.89
       },
       {
-        "name": "vikings",
-        "games": 72,
-        "winRate": 43.06
+        "name": "romans",
+        "games": 48,
+        "winRate": 43.75
       },
       {
-        "name": "byzantines",
-        "games": 51,
-        "winRate": 43.14
+        "name": "vikings",
+        "games": 75,
+        "winRate": 44
       },
       {
         "name": "armenians",

@@ -306,26 +306,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.28,
-    "playRate": 1.99,
-    "picks": 4499,
+    "winRate": 49.31,
+    "playRate": 2,
+    "picks": 4573,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-27T15:17:21.000Z",
-    "window": "2026-07-17 → 2026-08-27",
+    "updated": "2026-08-28T00:57:57.000Z",
+    "window": "2026-07-17 → 2026-08-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 47.88,
-        "playRate": 1.92,
-        "picks": 2857
+        "winRate": 47.94,
+        "playRate": 1.93,
+        "picks": 2906
       },
       "open": {
-        "winRate": 52.43,
-        "playRate": 2.24,
-        "picks": 1234
+        "winRate": 52.39,
+        "playRate": 2.25,
+        "picks": 1256
       },
       "closed": {
         "winRate": 49.67,
@@ -333,9 +333,9 @@
         "picks": 304
       },
       "nomad": {
-        "winRate": 49.04,
-        "playRate": 1.92,
-        "picks": 104
+        "winRate": 49.53,
+        "playRate": 1.89,
+        "picks": 107
       }
     },
     "strongAgainst": [
@@ -346,13 +346,8 @@
       },
       {
         "name": "wu",
-        "games": 61,
-        "winRate": 59.02
-      },
-      {
-        "name": "jurchens",
-        "games": 57,
-        "winRate": 57.89
+        "games": 62,
+        "winRate": 58.06
       },
       {
         "name": "turks",
@@ -360,21 +355,26 @@
         "winRate": 57.14
       },
       {
-        "name": "malians",
-        "games": 97,
-        "winRate": 55.67
+        "name": "jurchens",
+        "games": 58,
+        "winRate": 56.9
+      },
+      {
+        "name": "berbers",
+        "games": 94,
+        "winRate": 56.38
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 72,
-        "winRate": 37.5
+        "games": 74,
+        "winRate": 37.84
       },
       {
         "name": "portuguese",
-        "games": 80,
-        "winRate": 37.5
+        "games": 81,
+        "winRate": 38.27
       },
       {
         "name": "shu",
@@ -382,14 +382,14 @@
         "winRate": 38.46
       },
       {
-        "name": "hindustanis",
-        "games": 95,
-        "winRate": 41.05
+        "name": "italians",
+        "games": 71,
+        "winRate": 40.85
       },
       {
-        "name": "italians",
-        "games": 68,
-        "winRate": 41.18
+        "name": "hindustanis",
+        "games": 98,
+        "winRate": 41.84
       }
     ]
   },
