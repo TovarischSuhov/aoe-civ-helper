@@ -300,75 +300,80 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.94,
+    "winRate": 51.95,
     "playRate": 2.54,
-    "picks": 5811,
+    "picks": 5927,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-28T00:57:57.000Z",
+    "updated": "2026-08-28T16:41:09.000Z",
     "window": "2026-07-17 → 2026-08-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
       "open": {
-        "winRate": 50.93,
-        "playRate": 2.5,
-        "picks": 1396
+        "winRate": 50.91,
+        "playRate": 2.51,
+        "picks": 1426
       },
       "other": {
-        "winRate": 52.77,
+        "winRate": 52.8,
         "playRate": 2.62,
-        "picks": 3959
+        "picks": 4036
       },
       "nomad": {
-        "winRate": 54.32,
-        "playRate": 2.86,
-        "picks": 162
+        "winRate": 53.8,
+        "playRate": 2.87,
+        "picks": 171
       },
       "closed": {
         "winRate": 44.22,
-        "playRate": 1.79,
+        "playRate": 1.78,
         "picks": 294
       }
     },
     "strongAgainst": [
       {
         "name": "berbers",
-        "games": 99,
-        "winRate": 61.62
+        "games": 100,
+        "winRate": 62
       },
       {
         "name": "khitans",
-        "games": 75,
-        "winRate": 61.33
+        "games": 78,
+        "winRate": 61.54
       },
       {
-        "name": "malians",
-        "games": 87,
-        "winRate": 60.92
-      },
-      {
-        "name": "sicilians",
-        "games": 97,
-        "winRate": 60.82
+        "name": "goths",
+        "games": 85,
+        "winRate": 61.18
       },
       {
         "name": "magyars",
         "games": 203,
         "winRate": 60.59
+      },
+      {
+        "name": "malians",
+        "games": 88,
+        "winRate": 60.23
       }
     ],
     "weakAgainst": [
       {
-        "name": "vikings",
-        "games": 106,
-        "winRate": 39.62
+        "name": "shu",
+        "games": 58,
+        "winRate": 39.66
       },
       {
-        "name": "shu",
-        "games": 57,
-        "winRate": 40.35
+        "name": "vikings",
+        "games": 109,
+        "winRate": 40.37
+      },
+      {
+        "name": "chinese",
+        "games": 147,
+        "winRate": 42.18
       },
       {
         "name": "wei",
@@ -377,13 +382,8 @@
       },
       {
         "name": "huns",
-        "games": 110,
-        "winRate": 42.73
-      },
-      {
-        "name": "chinese",
-        "games": 145,
-        "winRate": 42.76
+        "games": 112,
+        "winRate": 42.86
       }
     ]
   },
