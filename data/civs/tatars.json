@@ -335,36 +335,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.88,
+    "winRate": 48.78,
     "playRate": 1.65,
-    "picks": 3938,
+    "picks": 3985,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-29T11:08:19.000Z",
+    "updated": "2026-08-29T19:25:18.000Z",
     "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 51.4,
-        "playRate": 1.66,
-        "picks": 965
+        "winRate": 51.38,
+        "playRate": 1.67,
+        "picks": 979
       },
       "nomad": {
-        "winRate": 46.6,
-        "playRate": 1.62,
-        "picks": 103
+        "winRate": 45.28,
+        "playRate": 1.61,
+        "picks": 106
       },
       "other": {
-        "winRate": 48.11,
-        "playRate": 1.68,
-        "picks": 2648
+        "winRate": 48.04,
+        "playRate": 1.67,
+        "picks": 2677
       },
       "closed": {
-        "winRate": 48.2,
+        "winRate": 47.98,
         "playRate": 1.35,
-        "picks": 222
+        "picks": 223
       }
     },
     "strongAgainst": [
@@ -374,12 +374,12 @@
         "winRate": 64.29
       },
       {
-        "name": "incas",
-        "games": 69,
-        "winRate": 60.87
+        "name": "turks",
+        "games": 71,
+        "winRate": 60.56
       },
       {
-        "name": "turks",
+        "name": "incas",
         "games": 71,
         "winRate": 60.56
       },
@@ -401,9 +401,14 @@
         "winRate": 34
       },
       {
+        "name": "saracens",
+        "games": 51,
+        "winRate": 37.25
+      },
+      {
         "name": "mayans",
-        "games": 90,
-        "winRate": 37.78
+        "games": 91,
+        "winRate": 37.36
       },
       {
         "name": "tupi",
@@ -411,14 +416,9 @@
         "winRate": 37.84
       },
       {
-        "name": "saracens",
-        "games": 50,
-        "winRate": 38
-      },
-      {
-        "name": "celts",
-        "games": 79,
-        "winRate": 40.51
+        "name": "mongols",
+        "games": 194,
+        "winRate": 40.72
       }
     ]
   },

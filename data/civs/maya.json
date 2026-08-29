@@ -333,31 +333,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.32,
+    "winRate": 53.41,
     "playRate": 2.06,
-    "picks": 4906,
+    "picks": 4980,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-29T11:08:19.000Z",
+    "updated": "2026-08-29T19:25:18.000Z",
     "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
       "other": {
-        "winRate": 52.95,
-        "playRate": 2.05,
-        "picks": 3235
+        "winRate": 53.04,
+        "playRate": 2.06,
+        "picks": 3286
       },
       "open": {
-        "winRate": 54.93,
-        "playRate": 2.25,
-        "picks": 1307
+        "winRate": 54.94,
+        "playRate": 2.26,
+        "picks": 1327
       },
       "nomad": {
-        "winRate": 52.73,
-        "playRate": 1.73,
-        "picks": 110
+        "winRate": 53.98,
+        "playRate": 1.72,
+        "picks": 113
       },
       "closed": {
         "winRate": 50,
@@ -368,13 +368,18 @@
     "strongAgainst": [
       {
         "name": "armenians",
-        "games": 71,
-        "winRate": 69.01
+        "games": 72,
+        "winRate": 69.44
       },
       {
         "name": "georgians",
-        "games": 68,
-        "winRate": 67.65
+        "games": 69,
+        "winRate": 66.67
+      },
+      {
+        "name": "bohemians",
+        "games": 76,
+        "winRate": 64.47
       },
       {
         "name": "gurjaras",
@@ -382,14 +387,9 @@
         "winRate": 64.29
       },
       {
-        "name": "bohemians",
-        "games": 75,
-        "winRate": 64
-      },
-      {
-        "name": "sicilians",
-        "games": 88,
-        "winRate": 63.64
+        "name": "incas",
+        "games": 93,
+        "winRate": 63.44
       }
     ],
     "weakAgainst": [
@@ -400,23 +400,23 @@
       },
       {
         "name": "slavs",
-        "games": 65,
-        "winRate": 41.54
+        "games": 67,
+        "winRate": 41.79
       },
       {
         "name": "koreans",
-        "games": 89,
-        "winRate": 42.7
+        "games": 91,
+        "winRate": 42.86
       },
       {
         "name": "vikings",
-        "games": 92,
-        "winRate": 43.48
+        "games": 96,
+        "winRate": 43.75
       },
       {
-        "name": "tupi",
-        "games": 80,
-        "winRate": 43.75
+        "name": "celts",
+        "games": 95,
+        "winRate": 44.21
       }
     ]
   },

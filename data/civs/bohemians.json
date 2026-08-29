@@ -343,31 +343,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.83,
+    "winRate": 48.78,
     "playRate": 1.95,
-    "picks": 4649,
+    "picks": 4713,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-29T11:08:19.000Z",
+    "updated": "2026-08-29T19:25:18.000Z",
     "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 47.25,
+        "winRate": 47.23,
         "playRate": 1.6,
-        "picks": 927
+        "picks": 940
       },
       "other": {
-        "winRate": 49.4,
+        "winRate": 49.29,
         "playRate": 1.9,
-        "picks": 2996
+        "picks": 3043
       },
       "nomad": {
-        "winRate": 43.86,
+        "winRate": 44.92,
         "playRate": 1.8,
-        "picks": 114
+        "picks": 118
       },
       "closed": {
         "winRate": 49.35,
@@ -378,18 +378,18 @@
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 52,
-        "winRate": 65.38
+        "games": 53,
+        "winRate": 66.04
       },
       {
         "name": "malians",
-        "games": 76,
-        "winRate": 61.84
+        "games": 78,
+        "winRate": 62.82
       },
       {
-        "name": "saracens",
-        "games": 60,
-        "winRate": 58.33
+        "name": "sicilians",
+        "games": 82,
+        "winRate": 58.54
       },
       {
         "name": "tupi",
@@ -405,8 +405,8 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 75,
-        "winRate": 36
+        "games": 76,
+        "winRate": 35.53
       },
       {
         "name": "mapuche",
@@ -419,14 +419,14 @@
         "winRate": 40.28
       },
       {
-        "name": "koreans",
-        "games": 69,
-        "winRate": 40.58
-      },
-      {
         "name": "shu",
         "games": 49,
         "winRate": 40.82
+      },
+      {
+        "name": "aztecs",
+        "games": 61,
+        "winRate": 40.98
       }
     ]
   },

@@ -353,31 +353,31 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 51.22,
-    "playRate": 2.11,
-    "picks": 5025,
+    "winRate": 51.14,
+    "playRate": 2.1,
+    "picks": 5074,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-29T11:08:19.000Z",
+    "updated": "2026-08-29T19:25:18.000Z",
     "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 50.5,
-        "playRate": 2.26,
-        "picks": 1309
+        "winRate": 50.57,
+        "playRate": 2.24,
+        "picks": 1315
       },
       "other": {
-        "winRate": 51.88,
-        "playRate": 2.11,
-        "picks": 3321
+        "winRate": 51.75,
+        "playRate": 2.1,
+        "picks": 3362
       },
       "nomad": {
-        "winRate": 48.09,
-        "playRate": 2.06,
-        "picks": 131
+        "winRate": 47.37,
+        "playRate": 2.02,
+        "picks": 133
       },
       "closed": {
         "winRate": 48.11,
@@ -388,8 +388,8 @@
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 69,
-        "winRate": 68.12
+        "games": 70,
+        "winRate": 68.57
       },
       {
         "name": "incas",
@@ -398,8 +398,8 @@
       },
       {
         "name": "malians",
-        "games": 96,
-        "winRate": 62.5
+        "games": 97,
+        "winRate": 62.89
       },
       {
         "name": "muisca",
@@ -407,9 +407,9 @@
         "winRate": 62.07
       },
       {
-        "name": "cumans",
-        "games": 79,
-        "winRate": 59.49
+        "name": "burgundians",
+        "games": 102,
+        "winRate": 58.82
       }
     ],
     "weakAgainst": [
@@ -419,14 +419,9 @@
         "winRate": 39.66
       },
       {
-        "name": "koreans",
-        "games": 88,
-        "winRate": 42.05
-      },
-      {
         "name": "ethiopians",
-        "games": 113,
-        "winRate": 42.48
+        "games": 115,
+        "winRate": 42.61
       },
       {
         "name": "tatars",
@@ -434,9 +429,14 @@
         "winRate": 43.06
       },
       {
-        "name": "celts",
-        "games": 85,
-        "winRate": 44.71
+        "name": "koreans",
+        "games": 90,
+        "winRate": 43.33
+      },
+      {
+        "name": "aztecs",
+        "games": 67,
+        "winRate": 44.78
       }
     ]
   },
