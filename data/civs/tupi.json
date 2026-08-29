@@ -357,31 +357,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.79,
-    "playRate": 1.33,
-    "picks": 3091,
+    "winRate": 49.89,
+    "playRate": 1.34,
+    "picks": 3193,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-28T16:41:09.000Z",
-    "window": "2026-07-17 → 2026-08-28",
+    "updated": "2026-08-29T11:08:19.000Z",
+    "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.88,
-        "playRate": 1.34,
-        "picks": 2054
+        "winRate": 49.01,
+        "playRate": 1.35,
+        "picks": 2124
       },
       "open": {
-        "winRate": 51.68,
-        "playRate": 1.42,
-        "picks": 805
+        "winRate": 51.74,
+        "playRate": 1.44,
+        "picks": 833
       },
       "nomad": {
-        "winRate": 55.84,
-        "playRate": 1.29,
-        "picks": 77
+        "winRate": 55.56,
+        "playRate": 1.28,
+        "picks": 81
       },
       "closed": {
         "winRate": 49.03,
@@ -391,19 +391,9 @@
     },
     "strongAgainst": [
       {
-        "name": "burmese",
-        "games": 35,
-        "winRate": 62.86
-      },
-      {
         "name": "spanish",
-        "games": 80,
-        "winRate": 62.5
-      },
-      {
-        "name": "khitans",
-        "games": 48,
-        "winRate": 62.5
+        "games": 87,
+        "winRate": 63.22
       },
       {
         "name": "tatars",
@@ -411,9 +401,19 @@
         "winRate": 62.16
       },
       {
+        "name": "khitans",
+        "games": 49,
+        "winRate": 61.22
+      },
+      {
+        "name": "burmese",
+        "games": 36,
+        "winRate": 61.11
+      },
+      {
         "name": "gurjaras",
-        "games": 59,
-        "winRate": 61.02
+        "games": 61,
+        "winRate": 60.66
       }
     ],
     "weakAgainst": [
@@ -423,14 +423,14 @@
         "winRate": 36
       },
       {
-        "name": "persians",
-        "games": 96,
+        "name": "teutons",
+        "games": 56,
         "winRate": 37.5
       },
       {
-        "name": "teutons",
-        "games": 53,
-        "winRate": 37.74
+        "name": "persians",
+        "games": 102,
+        "winRate": 38.24
       },
       {
         "name": "khmer",
@@ -438,9 +438,9 @@
         "winRate": 39.24
       },
       {
-        "name": "franks",
-        "games": 43,
-        "winRate": 39.53
+        "name": "celts",
+        "games": 48,
+        "winRate": 39.58
       }
     ]
   },

@@ -306,26 +306,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.31,
-    "playRate": 2,
-    "picks": 4670,
+    "winRate": 49.32,
+    "playRate": 1.99,
+    "picks": 4753,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-28T16:41:09.000Z",
-    "window": "2026-07-17 → 2026-08-28",
+    "updated": "2026-08-29T11:08:19.000Z",
+    "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 47.99,
-        "playRate": 1.94,
-        "picks": 2982
+        "winRate": 48.06,
+        "playRate": 1.93,
+        "picks": 3038
       },
       "open": {
-        "winRate": 52.35,
-        "playRate": 2.24,
-        "picks": 1274
+        "winRate": 52.24,
+        "playRate": 2.23,
+        "picks": 1294
       },
       "closed": {
         "winRate": 49.67,
@@ -333,9 +333,9 @@
         "picks": 304
       },
       "nomad": {
-        "winRate": 49.09,
-        "playRate": 1.85,
-        "picks": 110
+        "winRate": 48.72,
+        "playRate": 1.84,
+        "picks": 117
       }
     },
     "strongAgainst": [
@@ -350,14 +350,14 @@
         "winRate": 58.06
       },
       {
+        "name": "huns",
+        "games": 113,
+        "winRate": 57.52
+      },
+      {
         "name": "turks",
         "games": 77,
         "winRate": 57.14
-      },
-      {
-        "name": "berbers",
-        "games": 97,
-        "winRate": 56.7
       },
       {
         "name": "goths",
@@ -368,28 +368,28 @@
     "weakAgainst": [
       {
         "name": "portuguese",
-        "games": 83,
-        "winRate": 37.35
+        "games": 87,
+        "winRate": 37.93
       },
       {
         "name": "wei",
-        "games": 76,
-        "winRate": 39.47
+        "games": 77,
+        "winRate": 40.26
       },
       {
         "name": "shu",
-        "games": 53,
-        "winRate": 39.62
+        "games": 54,
+        "winRate": 40.74
+      },
+      {
+        "name": "vikings",
+        "games": 93,
+        "winRate": 41.94
       },
       {
         "name": "britons",
-        "games": 92,
-        "winRate": 42.39
-      },
-      {
-        "name": "italians",
-        "games": 73,
-        "winRate": 42.47
+        "games": 93,
+        "winRate": 43.01
       }
     ]
   },

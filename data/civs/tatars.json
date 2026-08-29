@@ -335,31 +335,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.76,
-    "playRate": 1.64,
-    "picks": 3829,
+    "winRate": 48.88,
+    "playRate": 1.65,
+    "picks": 3938,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-28T16:41:09.000Z",
-    "window": "2026-07-17 → 2026-08-28",
+    "updated": "2026-08-29T11:08:19.000Z",
+    "window": "2026-07-17 → 2026-08-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 51.17,
-        "playRate": 1.65,
-        "picks": 940
+        "winRate": 51.4,
+        "playRate": 1.66,
+        "picks": 965
       },
       "nomad": {
-        "winRate": 47.87,
-        "playRate": 1.58,
-        "picks": 94
+        "winRate": 46.6,
+        "playRate": 1.62,
+        "picks": 103
       },
       "other": {
-        "winRate": 47.96,
-        "playRate": 1.67,
-        "picks": 2573
+        "winRate": 48.11,
+        "playRate": 1.68,
+        "picks": 2648
       },
       "closed": {
         "winRate": 48.2,
@@ -370,13 +370,13 @@
     "strongAgainst": [
       {
         "name": "lithuanians",
-        "games": 67,
-        "winRate": 65.67
+        "games": 70,
+        "winRate": 64.29
       },
       {
-        "name": "teutons",
-        "games": 62,
-        "winRate": 61.29
+        "name": "incas",
+        "games": 69,
+        "winRate": 60.87
       },
       {
         "name": "turks",
@@ -384,31 +384,26 @@
         "winRate": 60.56
       },
       {
-        "name": "incas",
-        "games": 68,
-        "winRate": 60.29
+        "name": "teutons",
+        "games": 64,
+        "winRate": 59.38
       },
       {
         "name": "georgians",
-        "games": 48,
-        "winRate": 58.33
+        "games": 49,
+        "winRate": 59.18
       }
     ],
     "weakAgainst": [
       {
         "name": "dravidians",
-        "games": 49,
-        "winRate": 32.65
+        "games": 50,
+        "winRate": 34
       },
       {
         "name": "mayans",
-        "games": 85,
-        "winRate": 35.29
-      },
-      {
-        "name": "saracens",
-        "games": 49,
-        "winRate": 36.73
+        "games": 90,
+        "winRate": 37.78
       },
       {
         "name": "tupi",
@@ -416,9 +411,14 @@
         "winRate": 37.84
       },
       {
-        "name": "mongols",
-        "games": 183,
-        "winRate": 39.89
+        "name": "saracens",
+        "games": 50,
+        "winRate": 38
+      },
+      {
+        "name": "celts",
+        "games": 79,
+        "winRate": 40.51
       }
     ]
   },
