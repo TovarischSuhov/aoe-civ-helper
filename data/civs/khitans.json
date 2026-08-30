@@ -361,29 +361,29 @@
   "stats": {
     "winRate": 47.55,
     "playRate": 1.43,
-    "picks": 3508,
+    "picks": 3556,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-30T09:57:54.000Z",
+    "updated": "2026-08-30T19:20:08.000Z",
     "window": "2026-07-17 → 2026-08-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 47.08,
+        "winRate": 47.1,
         "playRate": 1.42,
-        "picks": 2315
+        "picks": 2346
       },
       "nomad": {
-        "winRate": 53.97,
-        "playRate": 0.92,
-        "picks": 63
+        "winRate": 53.73,
+        "playRate": 0.95,
+        "picks": 67
       },
       "open": {
-        "winRate": 47.38,
+        "winRate": 47.36,
         "playRate": 1.57,
-        "picks": 935
+        "picks": 948
       },
       "closed": {
         "winRate": 51.79,
@@ -393,24 +393,24 @@
     },
     "strongAgainst": [
       {
+        "name": "incas",
+        "games": 61,
+        "winRate": 63.93
+      },
+      {
         "name": "bengalis",
         "games": 47,
         "winRate": 63.83
       },
       {
-        "name": "incas",
-        "games": 60,
-        "winRate": 63.33
+        "name": "koreans",
+        "games": 46,
+        "winRate": 60.87
       },
       {
         "name": "wei",
-        "games": 79,
-        "winRate": 60.76
-      },
-      {
-        "name": "koreans",
-        "games": 45,
-        "winRate": 60
+        "games": 81,
+        "winRate": 60.49
       },
       {
         "name": "berbers",
@@ -426,8 +426,8 @@
       },
       {
         "name": "romans",
-        "games": 56,
-        "winRate": 35.71
+        "games": 57,
+        "winRate": 35.09
       },
       {
         "name": "japanese",
@@ -440,9 +440,9 @@
         "winRate": 38.1
       },
       {
-        "name": "hindustanis",
-        "games": 70,
-        "winRate": 38.57
+        "name": "goths",
+        "games": 36,
+        "winRate": 38.89
       }
     ]
   },
