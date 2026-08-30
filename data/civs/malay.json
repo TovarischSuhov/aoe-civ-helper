@@ -295,31 +295,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 53.14,
+    "winRate": 53.09,
     "playRate": 1.83,
-    "picks": 4430,
+    "picks": 4492,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-29T19:25:18.000Z",
-    "window": "2026-07-17 → 2026-08-29",
+    "updated": "2026-08-30T09:57:54.000Z",
+    "window": "2026-07-17 → 2026-08-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
       "other": {
-        "winRate": 53.43,
+        "winRate": 53.33,
         "playRate": 1.85,
-        "picks": 2957
+        "picks": 3004
       },
       "nomad": {
-        "winRate": 62.2,
-        "playRate": 1.93,
-        "picks": 127
+        "winRate": 61.83,
+        "playRate": 1.92,
+        "picks": 131
       },
       "open": {
-        "winRate": 52.01,
-        "playRate": 1.61,
-        "picks": 946
+        "winRate": 52.14,
+        "playRate": 1.6,
+        "picks": 957
       },
       "closed": {
         "winRate": 50.75,
@@ -330,40 +330,45 @@
     "strongAgainst": [
       {
         "name": "armenians",
-        "games": 65,
-        "winRate": 70.77
+        "games": 67,
+        "winRate": 71.64
       },
       {
         "name": "byzantines",
-        "games": 81,
-        "winRate": 66.67
+        "games": 82,
+        "winRate": 65.85
       },
       {
         "name": "georgians",
-        "games": 59,
-        "winRate": 62.71
+        "games": 60,
+        "winRate": 63.33
       },
       {
         "name": "khmer",
-        "games": 91,
-        "winRate": 62.64
+        "games": 93,
+        "winRate": 62.37
       },
       {
         "name": "poles",
-        "games": 76,
-        "winRate": 60.53
+        "games": 77,
+        "winRate": 61.04
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 85,
-        "winRate": 40
+        "games": 86,
+        "winRate": 39.53
       },
       {
         "name": "magyars",
-        "games": 116,
-        "winRate": 41.38
+        "games": 119,
+        "winRate": 42.86
+      },
+      {
+        "name": "celts",
+        "games": 55,
+        "winRate": 45.45
       },
       {
         "name": "turks",
@@ -371,14 +376,9 @@
         "winRate": 45.71
       },
       {
-        "name": "cumans",
-        "games": 93,
-        "winRate": 46.24
-      },
-      {
-        "name": "celts",
-        "games": 54,
-        "winRate": 46.3
+        "name": "mongols",
+        "games": 207,
+        "winRate": 46.38
       }
     ]
   },

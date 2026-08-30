@@ -359,29 +359,29 @@
   "stats": {
     "winRate": 49.82,
     "playRate": 1.34,
-    "picks": 3244,
+    "picks": 3298,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-29T19:25:18.000Z",
-    "window": "2026-07-17 → 2026-08-29",
+    "updated": "2026-08-30T09:57:54.000Z",
+    "window": "2026-07-17 → 2026-08-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.96,
+        "winRate": 48.91,
         "playRate": 1.35,
-        "picks": 2163
+        "picks": 2200
       },
       "open": {
-        "winRate": 51.54,
-        "playRate": 1.43,
-        "picks": 842
+        "winRate": 51.69,
+        "playRate": 1.44,
+        "picks": 857
       },
       "nomad": {
-        "winRate": 55.95,
-        "playRate": 1.28,
-        "picks": 84
+        "winRate": 55.81,
+        "playRate": 1.26,
+        "picks": 86
       },
       "closed": {
         "winRate": 49.03,
@@ -392,18 +392,8 @@
     "strongAgainst": [
       {
         "name": "spanish",
-        "games": 88,
-        "winRate": 62.5
-      },
-      {
-        "name": "tatars",
-        "games": 37,
-        "winRate": 62.16
-      },
-      {
-        "name": "khitans",
-        "games": 49,
-        "winRate": 61.22
+        "games": 90,
+        "winRate": 62.22
       },
       {
         "name": "burmese",
@@ -414,33 +404,43 @@
         "name": "bengalis",
         "games": 56,
         "winRate": 60.71
+      },
+      {
+        "name": "gurjaras",
+        "games": 61,
+        "winRate": 60.66
+      },
+      {
+        "name": "tatars",
+        "games": 38,
+        "winRate": 60.53
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 75,
-        "winRate": 36
+        "games": 78,
+        "winRate": 35.9
       },
       {
         "name": "teutons",
-        "games": 57,
-        "winRate": 38.6
+        "games": 58,
+        "winRate": 37.93
       },
       {
         "name": "persians",
-        "games": 103,
-        "winRate": 38.83
+        "games": 105,
+        "winRate": 38.1
+      },
+      {
+        "name": "celts",
+        "games": 49,
+        "winRate": 38.78
       },
       {
         "name": "khmer",
         "games": 82,
         "winRate": 39.02
-      },
-      {
-        "name": "celts",
-        "games": 48,
-        "winRate": 39.58
       }
     ]
   },
