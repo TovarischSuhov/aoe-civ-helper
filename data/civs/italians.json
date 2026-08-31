@@ -332,31 +332,31 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 50.7,
-    "playRate": 1.92,
-    "picks": 4785,
+    "winRate": 50.66,
+    "playRate": 1.93,
+    "picks": 4874,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-30T19:20:08.000Z",
-    "window": "2026-07-17 → 2026-08-30",
+    "updated": "2026-08-31T10:54:21.000Z",
+    "window": "2026-07-17 → 2026-08-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 50.6,
+        "winRate": 50.68,
         "playRate": 1.93,
-        "picks": 3190
+        "picks": 3248
       },
       "nomad": {
-        "winRate": 52.42,
-        "playRate": 3.21,
-        "picks": 227
+        "winRate": 51.24,
+        "playRate": 3.3,
+        "picks": 242
       },
       "open": {
-        "winRate": 49.01,
+        "winRate": 48.83,
         "playRate": 1.67,
-        "picks": 1008
+        "picks": 1024
       },
       "closed": {
         "winRate": 55.28,
@@ -372,8 +372,13 @@
       },
       {
         "name": "wu",
-        "games": 61,
-        "winRate": 68.85
+        "games": 62,
+        "winRate": 67.74
+      },
+      {
+        "name": "poles",
+        "games": 105,
+        "winRate": 60
       },
       {
         "name": "goths",
@@ -381,17 +386,17 @@
         "winRate": 59.02
       },
       {
-        "name": "poles",
-        "games": 102,
-        "winRate": 58.82
-      },
-      {
         "name": "burmese",
-        "games": 77,
-        "winRate": 58.44
+        "games": 78,
+        "winRate": 57.69
       }
     ],
     "weakAgainst": [
+      {
+        "name": "georgians",
+        "games": 72,
+        "winRate": 40.28
+      },
       {
         "name": "muisca",
         "games": 49,
@@ -403,19 +408,14 @@
         "winRate": 40.82
       },
       {
-        "name": "georgians",
-        "games": 71,
-        "winRate": 40.85
-      },
-      {
         "name": "bengalis",
         "games": 97,
         "winRate": 42.27
       },
       {
         "name": "vietnamese",
-        "games": 138,
-        "winRate": 43.48
+        "games": 139,
+        "winRate": 43.17
       }
     ]
   },

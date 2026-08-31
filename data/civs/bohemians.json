@@ -343,31 +343,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.75,
+    "winRate": 48.82,
     "playRate": 1.95,
-    "picks": 4855,
+    "picks": 4936,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-30T19:20:08.000Z",
-    "window": "2026-07-17 → 2026-08-30",
+    "updated": "2026-08-31T10:54:21.000Z",
+    "window": "2026-07-17 → 2026-08-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 46.99,
-        "playRate": 1.59,
-        "picks": 962
+        "winRate": 47,
+        "playRate": 1.6,
+        "picks": 983
       },
       "other": {
-        "winRate": 49.25,
+        "winRate": 49.38,
         "playRate": 1.91,
-        "picks": 3153
+        "picks": 3206
       },
       "nomad": {
-        "winRate": 46.88,
-        "playRate": 1.81,
-        "picks": 128
+        "winRate": 46.67,
+        "playRate": 1.84,
+        "picks": 135
       },
       "closed": {
         "winRate": 49.35,
@@ -378,18 +378,18 @@
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 55,
-        "winRate": 67.27
+        "games": 56,
+        "winRate": 66.07
       },
       {
         "name": "malians",
-        "games": 82,
-        "winRate": 60.98
+        "games": 85,
+        "winRate": 61.18
       },
       {
-        "name": "berbers",
-        "games": 66,
-        "winRate": 59.09
+        "name": "sicilians",
+        "games": 87,
+        "winRate": 59.77
       },
       {
         "name": "tupi",
@@ -397,9 +397,9 @@
         "winRate": 58.93
       },
       {
-        "name": "sicilians",
-        "games": 84,
-        "winRate": 58.33
+        "name": "berbers",
+        "games": 68,
+        "winRate": 57.35
       }
     ],
     "weakAgainst": [
@@ -410,23 +410,23 @@
       },
       {
         "name": "mapuche",
-        "games": 54,
-        "winRate": 38.89
-      },
-      {
-        "name": "aztecs",
-        "games": 62,
-        "winRate": 40.32
+        "games": 56,
+        "winRate": 37.5
       },
       {
         "name": "dravidians",
-        "games": 74,
-        "winRate": 40.54
+        "games": 75,
+        "winRate": 40
       },
       {
         "name": "georgians",
         "games": 61,
         "winRate": 40.98
+      },
+      {
+        "name": "aztecs",
+        "games": 63,
+        "winRate": 41.27
       }
     ]
   },

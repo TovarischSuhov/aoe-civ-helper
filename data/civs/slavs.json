@@ -314,26 +314,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.13,
-    "playRate": 1.42,
-    "picks": 3526,
+    "winRate": 48.29,
+    "playRate": 1.41,
+    "picks": 3576,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-30T19:20:08.000Z",
-    "window": "2026-07-17 → 2026-08-30",
+    "updated": "2026-08-31T10:54:21.000Z",
+    "window": "2026-07-17 → 2026-08-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 48.22,
+        "winRate": 48.4,
         "playRate": 1.39,
-        "picks": 2302
+        "picks": 2339
       },
       "open": {
-        "winRate": 47.95,
+        "winRate": 48.14,
         "playRate": 1.49,
-        "picks": 903
+        "picks": 914
       },
       "closed": {
         "winRate": 47.75,
@@ -341,9 +341,9 @@
         "picks": 222
       },
       "nomad": {
-        "winRate": 48.48,
-        "playRate": 1.4,
-        "picks": 99
+        "winRate": 48.51,
+        "playRate": 1.38,
+        "picks": 101
       }
     },
     "strongAgainst": [
@@ -358,19 +358,19 @@
         "winRate": 62.96
       },
       {
-        "name": "byzantines",
-        "games": 67,
-        "winRate": 59.7
+        "name": "goths",
+        "games": 64,
+        "winRate": 59.38
       },
       {
-        "name": "goths",
-        "games": 63,
-        "winRate": 58.73
+        "name": "byzantines",
+        "games": 68,
+        "winRate": 58.82
       },
       {
         "name": "burmese",
-        "games": 62,
-        "winRate": 58.06
+        "games": 63,
+        "winRate": 58.73
       }
     ],
     "weakAgainst": [
@@ -381,8 +381,13 @@
       },
       {
         "name": "malians",
-        "games": 78,
-        "winRate": 30.77
+        "games": 82,
+        "winRate": 30.49
+      },
+      {
+        "name": "ethiopians",
+        "games": 66,
+        "winRate": 33.33
       },
       {
         "name": "romans",
@@ -390,14 +395,9 @@
         "winRate": 33.33
       },
       {
-        "name": "ethiopians",
-        "games": 65,
-        "winRate": 33.85
-      },
-      {
         "name": "wu",
-        "games": 51,
-        "winRate": 39.22
+        "games": 52,
+        "winRate": 38.46
       }
     ]
   },
