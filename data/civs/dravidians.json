@@ -315,31 +315,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.21,
+    "winRate": 50.01,
     "playRate": 1.48,
-    "picks": 3744,
+    "picks": 3805,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-31T10:54:21.000Z",
+    "updated": "2026-08-31T21:29:08.000Z",
     "window": "2026-07-17 → 2026-08-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
     "byMapType": {
       "nomad": {
-        "winRate": 56.08,
+        "winRate": 55.33,
         "playRate": 2.58,
-        "picks": 189
+        "picks": 197
       },
       "open": {
-        "winRate": 50.78,
+        "winRate": 50.3,
         "playRate": 1.35,
-        "picks": 829
+        "picks": 843
       },
       "other": {
-        "winRate": 49.24,
+        "winRate": 49.16,
         "playRate": 1.5,
-        "picks": 2516
+        "picks": 2555
       },
       "closed": {
         "winRate": 54.29,
@@ -350,8 +350,8 @@
     "strongAgainst": [
       {
         "name": "tatars",
-        "games": 53,
-        "winRate": 66.04
+        "games": 54,
+        "winRate": 64.81
       },
       {
         "name": "shu",
@@ -364,14 +364,14 @@
         "winRate": 61.54
       },
       {
-        "name": "jurchens",
-        "games": 44,
-        "winRate": 61.36
+        "name": "bohemians",
+        "games": 78,
+        "winRate": 61.54
       },
       {
-        "name": "bohemians",
-        "games": 75,
-        "winRate": 60
+        "name": "jurchens",
+        "games": 48,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
@@ -381,14 +381,14 @@
         "winRate": 39.62
       },
       {
-        "name": "byzantines",
-        "games": 73,
-        "winRate": 39.73
-      },
-      {
         "name": "khmer",
         "games": 89,
         "winRate": 40.45
+      },
+      {
+        "name": "byzantines",
+        "games": 74,
+        "winRate": 40.54
       },
       {
         "name": "burmese",
