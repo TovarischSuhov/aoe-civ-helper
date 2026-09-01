@@ -256,31 +256,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.36,
-    "playRate": 1.68,
-    "picks": 4313,
+    "winRate": 50.4,
+    "playRate": 1.67,
+    "picks": 4355,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-31T21:29:08.000Z",
-    "window": "2026-07-17 → 2026-08-31",
+    "updated": "2026-09-01T09:26:01.000Z",
+    "window": "2026-07-17 → 2026-09-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 50.71,
+        "winRate": 50.76,
         "playRate": 1.65,
-        "picks": 2818
+        "picks": 2847
       },
       "open": {
-        "winRate": 47.43,
+        "winRate": 47.46,
         "playRate": 1.59,
-        "picks": 993
+        "picks": 1003
       },
       "nomad": {
-        "winRate": 55,
-        "playRate": 1.83,
-        "picks": 140
+        "winRate": 55.24,
+        "playRate": 1.82,
+        "picks": 143
       },
       "closed": {
         "winRate": 53.87,
@@ -305,14 +305,14 @@
         "winRate": 60.61
       },
       {
+        "name": "teutons",
+        "games": 80,
+        "winRate": 60
+      },
+      {
         "name": "burmese",
         "games": 57,
         "winRate": 59.65
-      },
-      {
-        "name": "teutons",
-        "games": 79,
-        "winRate": 59.49
       }
     ],
     "weakAgainst": [
@@ -327,14 +327,14 @@
         "winRate": 38
       },
       {
-        "name": "romans",
-        "games": 68,
-        "winRate": 38.24
-      },
-      {
         "name": "wu",
         "games": 59,
         "winRate": 38.98
+      },
+      {
+        "name": "romans",
+        "games": 69,
+        "winRate": 39.13
       },
       {
         "name": "tupi",

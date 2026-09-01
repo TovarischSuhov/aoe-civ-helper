@@ -330,13 +330,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.21,
+    "winRate": 49.31,
     "playRate": 1.69,
-    "picks": 4343,
+    "picks": 4397,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-31T21:29:08.000Z",
-    "window": "2026-07-17 → 2026-08-31",
+    "updated": "2026-09-01T09:26:01.000Z",
+    "window": "2026-07-17 → 2026-09-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
@@ -347,63 +347,58 @@
         "picks": 396
       },
       "other": {
-        "winRate": 49.08,
-        "playRate": 1.69,
-        "picks": 2889
+        "winRate": 49.18,
+        "playRate": 1.7,
+        "picks": 2932
       },
       "nomad": {
-        "winRate": 45.08,
-        "playRate": 1.6,
-        "picks": 122
+        "winRate": 44.72,
+        "playRate": 1.57,
+        "picks": 123
       },
       "open": {
-        "winRate": 47.54,
+        "winRate": 47.78,
         "playRate": 1.5,
-        "picks": 936
+        "picks": 946
       }
     },
     "strongAgainst": [
+      {
+        "name": "berbers",
+        "games": 62,
+        "winRate": 61.29
+      },
       {
         "name": "georgians",
         "games": 63,
         "winRate": 60.32
       },
       {
-        "name": "berbers",
-        "games": 60,
-        "winRate": 60
-      },
-      {
         "name": "tupi",
-        "games": 46,
-        "winRate": 58.7
-      },
-      {
-        "name": "bohemians",
-        "games": 115,
-        "winRate": 57.39
+        "games": 48,
+        "winRate": 58.33
       },
       {
         "name": "goths",
         "games": 70,
         "winRate": 57.14
+      },
+      {
+        "name": "bohemians",
+        "games": 116,
+        "winRate": 56.9
       }
     ],
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 68,
-        "winRate": 38.24
+        "games": 69,
+        "winRate": 37.68
       },
       {
-        "name": "bulgarians",
-        "games": 89,
-        "winRate": 39.33
-      },
-      {
-        "name": "wu",
-        "games": 53,
-        "winRate": 39.62
+        "name": "muisca",
+        "games": 37,
+        "winRate": 40.54
       },
       {
         "name": "vietnamese",
@@ -411,9 +406,14 @@
         "winRate": 40.57
       },
       {
-        "name": "mayans",
-        "games": 113,
-        "winRate": 40.71
+        "name": "bulgarians",
+        "games": 91,
+        "winRate": 40.66
+      },
+      {
+        "name": "wu",
+        "games": 54,
+        "winRate": 40.74
       }
     ]
   },

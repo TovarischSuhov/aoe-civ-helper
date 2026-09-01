@@ -357,31 +357,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.68,
+    "winRate": 49.64,
     "playRate": 1.34,
-    "picks": 3442,
+    "picks": 3487,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-08-31T21:29:08.000Z",
-    "window": "2026-07-17 → 2026-08-31",
+    "updated": "2026-09-01T09:26:01.000Z",
+    "window": "2026-07-17 → 2026-09-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.76,
+        "winRate": 48.64,
         "playRate": 1.35,
-        "picks": 2295
+        "picks": 2323
       },
       "open": {
-        "winRate": 51.34,
+        "winRate": 51.32,
         "playRate": 1.44,
-        "picks": 896
+        "picks": 910
       },
       "nomad": {
-        "winRate": 57.29,
+        "winRate": 58.59,
         "playRate": 1.26,
-        "picks": 96
+        "picks": 99
       },
       "closed": {
         "winRate": 49.03,
@@ -390,6 +390,11 @@
       }
     },
     "strongAgainst": [
+      {
+        "name": "khitans",
+        "games": 51,
+        "winRate": 60.78
+      },
       {
         "name": "gurjaras",
         "games": 61,
@@ -401,18 +406,13 @@
         "winRate": 60.66
       },
       {
+        "name": "burmese",
+        "games": 43,
+        "winRate": 60.47
+      },
+      {
         "name": "spanish",
-        "games": 93,
-        "winRate": 60.22
-      },
-      {
-        "name": "tatars",
-        "games": 40,
-        "winRate": 60
-      },
-      {
-        "name": "georgians",
-        "games": 45,
+        "games": 95,
         "winRate": 60
       }
     ],
@@ -428,19 +428,19 @@
         "winRate": 37.93
       },
       {
-        "name": "teutons",
-        "games": 60,
-        "winRate": 38.33
-      },
-      {
         "name": "celts",
-        "games": 49,
-        "winRate": 38.78
+        "games": 50,
+        "winRate": 38
       },
       {
         "name": "goths",
         "games": 41,
         "winRate": 39.02
+      },
+      {
+        "name": "teutons",
+        "games": 61,
+        "winRate": 39.34
       }
     ]
   },
