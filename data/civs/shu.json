@@ -352,12 +352,12 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.42,
+    "winRate": 52.35,
     "playRate": 1.03,
-    "picks": 2667,
+    "picks": 2705,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-01T09:26:01.000Z",
+    "updated": "2026-09-01T19:24:52.000Z",
     "window": "2026-07-17 → 2026-09-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -369,36 +369,36 @@
         "picks": 170
       },
       "other": {
-        "winRate": 51.11,
+        "winRate": 51.23,
         "playRate": 1.02,
-        "picks": 1759
+        "picks": 1784
       },
       "open": {
-        "winRate": 54.49,
+        "winRate": 53.97,
         "playRate": 1.04,
-        "picks": 657
+        "picks": 667
       },
       "nomad": {
-        "winRate": 61.73,
-        "playRate": 1.03,
-        "picks": 81
+        "winRate": 60.71,
+        "playRate": 1.04,
+        "picks": 84
       }
     },
     "strongAgainst": [
       {
-        "name": "slavs",
-        "games": 33,
-        "winRate": 69.7
-      },
-      {
         "name": "wu",
-        "games": 23,
-        "winRate": 69.57
+        "games": 24,
+        "winRate": 70.83
       },
       {
         "name": "bulgarians",
         "games": 49,
         "winRate": 69.39
+      },
+      {
+        "name": "slavs",
+        "games": 35,
+        "winRate": 68.57
       },
       {
         "name": "jurchens",
@@ -418,24 +418,24 @@
         "winRate": 38.3
       },
       {
-        "name": "khmer",
-        "games": 58,
-        "winRate": 41.38
-      },
-      {
         "name": "franks",
         "games": 53,
         "winRate": 41.51
       },
       {
-        "name": "magyars",
-        "games": 79,
-        "winRate": 41.77
+        "name": "romans",
+        "games": 50,
+        "winRate": 42
       },
       {
         "name": "muisca",
         "games": 26,
         "winRate": 42.31
+      },
+      {
+        "name": "magyars",
+        "games": 80,
+        "winRate": 42.5
       }
     ]
   },

@@ -378,31 +378,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.83,
+    "winRate": 47.82,
     "playRate": 1.06,
-    "picks": 2760,
+    "picks": 2800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-01T09:26:01.000Z",
+    "updated": "2026-09-01T19:24:52.000Z",
     "window": "2026-07-17 → 2026-09-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 48.3,
-        "playRate": 1.06,
-        "picks": 1822
+        "winRate": 48.21,
+        "playRate": 1.05,
+        "picks": 1846
       },
       "nomad": {
-        "winRate": 45.68,
+        "winRate": 44.58,
         "playRate": 1.03,
-        "picks": 81
+        "picks": 83
       },
       "open": {
-        "winRate": 46.19,
-        "playRate": 1.06,
-        "picks": 669
+        "winRate": 46.56,
+        "playRate": 1.07,
+        "picks": 683
       },
       "closed": {
         "winRate": 50,
@@ -418,8 +418,8 @@
       },
       {
         "name": "incas",
-        "games": 46,
-        "winRate": 63.04
+        "games": 48,
+        "winRate": 60.42
       },
       {
         "name": "byzantines",
@@ -440,8 +440,13 @@
     "weakAgainst": [
       {
         "name": "sicilians",
-        "games": 45,
-        "winRate": 31.11
+        "games": 46,
+        "winRate": 30.43
+      },
+      {
+        "name": "burmese",
+        "games": 41,
+        "winRate": 34.15
       },
       {
         "name": "romans",
@@ -449,19 +454,14 @@
         "winRate": 34.29
       },
       {
-        "name": "burmese",
-        "games": 40,
-        "winRate": 35
-      },
-      {
         "name": "goths",
-        "games": 34,
-        "winRate": 35.29
+        "games": 35,
+        "winRate": 37.14
       },
       {
         "name": "franks",
-        "games": 47,
-        "winRate": 38.3
+        "games": 48,
+        "winRate": 37.5
       }
     ]
   },
