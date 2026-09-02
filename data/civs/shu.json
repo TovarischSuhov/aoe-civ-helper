@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.62,
+    "winRate": 52.81,
     "playRate": 1.03,
-    "picks": 2744,
+    "picks": 2780,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-02T08:48:24.000Z",
+    "updated": "2026-09-02T19:23:58.000Z",
     "window": "2026-07-17 → 2026-09-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
-        "winRate": 53.53,
+        "winRate": 53.76,
         "playRate": 1.03,
-        "picks": 170
+        "picks": 173
       },
       "other": {
-        "winRate": 51.44,
+        "winRate": 51.72,
         "playRate": 1.02,
-        "picks": 1810
+        "picks": 1835
       },
       "open": {
-        "winRate": 54.29,
+        "winRate": 54.24,
         "playRate": 1.04,
-        "picks": 676
+        "picks": 684
       },
       "nomad": {
         "winRate": 62.5,
@@ -386,18 +386,18 @@
     },
     "strongAgainst": [
       {
-        "name": "wu",
-        "games": 24,
-        "winRate": 70.83
-      },
-      {
         "name": "slavs",
-        "games": 36,
-        "winRate": 69.44
+        "games": 37,
+        "winRate": 70.27
       },
       {
         "name": "bulgarians",
-        "games": 50,
+        "games": 51,
+        "winRate": 68.63
+      },
+      {
+        "name": "wu",
+        "games": 25,
         "winRate": 68
       },
       {
@@ -407,8 +407,8 @@
       },
       {
         "name": "incas",
-        "games": 48,
-        "winRate": 62.5
+        "games": 49,
+        "winRate": 63.27
       }
     ],
     "weakAgainst": [
@@ -418,19 +418,19 @@
         "winRate": 38.3
       },
       {
-        "name": "khmer",
-        "games": 63,
-        "winRate": 41.27
-      },
-      {
-        "name": "magyars",
-        "games": 83,
-        "winRate": 42.17
-      },
-      {
         "name": "franks",
         "games": 54,
         "winRate": 42.59
+      },
+      {
+        "name": "magyars",
+        "games": 84,
+        "winRate": 42.86
+      },
+      {
+        "name": "khmer",
+        "games": 65,
+        "winRate": 43.08
       },
       {
         "name": "romans",

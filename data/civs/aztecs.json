@@ -347,35 +347,35 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.39,
+    "winRate": 50.45,
     "playRate": 1.59,
-    "picks": 4243,
+    "picks": 4299,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-02T08:48:24.000Z",
+    "updated": "2026-09-02T19:23:58.000Z",
     "window": "2026-07-17 → 2026-09-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 47.98,
-        "playRate": 1.5,
-        "picks": 248
+        "winRate": 48.03,
+        "playRate": 1.51,
+        "picks": 254
       },
       "other": {
-        "winRate": 51.15,
-        "playRate": 1.59,
-        "picks": 2821
+        "winRate": 51.17,
+        "playRate": 1.58,
+        "picks": 2855
       },
       "open": {
-        "winRate": 50.53,
+        "winRate": 50.71,
         "playRate": 1.62,
-        "picks": 1047
+        "picks": 1063
       },
       "nomad": {
         "winRate": 37.01,
-        "playRate": 1.53,
+        "playRate": 1.52,
         "picks": 127
       }
     },
@@ -384,11 +384,6 @@
         "name": "mapuche",
         "games": 41,
         "winRate": 68.29
-      },
-      {
-        "name": "gurjaras",
-        "games": 80,
-        "winRate": 63.75
       },
       {
         "name": "goths",
@@ -401,26 +396,31 @@
         "winRate": 63.51
       },
       {
-        "name": "armenians",
-        "games": 66,
-        "winRate": 59.09
+        "name": "gurjaras",
+        "games": 82,
+        "winRate": 62.2
+      },
+      {
+        "name": "britons",
+        "games": 68,
+        "winRate": 58.82
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 77,
-        "winRate": 35.06
-      },
-      {
-        "name": "wei",
         "games": 79,
-        "winRate": 39.24
+        "winRate": 36.71
       },
       {
         "name": "chinese",
-        "games": 118,
-        "winRate": 39.83
+        "games": 119,
+        "winRate": 39.5
+      },
+      {
+        "name": "wei",
+        "games": 80,
+        "winRate": 40
       },
       {
         "name": "jurchens",
@@ -429,8 +429,8 @@
       },
       {
         "name": "vikings",
-        "games": 69,
-        "winRate": 42.03
+        "games": 70,
+        "winRate": 42.86
       }
     ]
   },

@@ -357,48 +357,43 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.46,
+    "winRate": 50.51,
     "playRate": 1.91,
-    "picks": 5113,
+    "picks": 5183,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-02T08:48:24.000Z",
+    "updated": "2026-09-02T19:23:58.000Z",
     "window": "2026-07-17 → 2026-09-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 51.55,
+        "winRate": 51.6,
         "playRate": 1.89,
-        "picks": 3364
+        "picks": 3415
       },
       "open": {
-        "winRate": 48.3,
+        "winRate": 48.46,
         "playRate": 2.13,
-        "picks": 1381
+        "picks": 1395
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.47,
-        "picks": 122
+        "winRate": 50.41,
+        "playRate": 1.48,
+        "picks": 123
       },
       "closed": {
-        "winRate": 47.97,
-        "playRate": 1.49,
-        "picks": 246
+        "winRate": 47.2,
+        "playRate": 1.48,
+        "picks": 250
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 114,
-        "winRate": 64.04
-      },
-      {
-        "name": "muisca",
-        "games": 48,
-        "winRate": 62.5
+        "games": 116,
+        "winRate": 64.66
       },
       {
         "name": "portuguese",
@@ -406,14 +401,19 @@
         "winRate": 61.4
       },
       {
+        "name": "muisca",
+        "games": 49,
+        "winRate": 61.22
+      },
+      {
         "name": "tupi",
-        "games": 48,
-        "winRate": 60.42
+        "games": 50,
+        "winRate": 60
       },
       {
         "name": "turks",
-        "games": 85,
-        "winRate": 57.65
+        "games": 86,
+        "winRate": 58.14
       }
     ],
     "weakAgainst": [
@@ -424,23 +424,23 @@
       },
       {
         "name": "hindustanis",
-        "games": 107,
-        "winRate": 40.19
+        "games": 110,
+        "winRate": 40
       },
       {
         "name": "spanish",
-        "games": 129,
-        "winRate": 41.86
-      },
-      {
-        "name": "chinese",
-        "games": 118,
-        "winRate": 43.22
+        "games": 131,
+        "winRate": 41.22
       },
       {
         "name": "mongols",
-        "games": 304,
-        "winRate": 43.75
+        "games": 307,
+        "winRate": 43.32
+      },
+      {
+        "name": "chinese",
+        "games": 122,
+        "winRate": 43.44
       }
     ]
   },
