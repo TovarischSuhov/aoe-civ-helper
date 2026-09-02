@@ -366,43 +366,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.91,
+    "winRate": 46.21,
     "playRate": 1.35,
-    "picks": 3548,
+    "picks": 3618,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-01T19:24:52.000Z",
-    "window": "2026-07-17 → 2026-09-01",
+    "updated": "2026-09-02T08:48:24.000Z",
+    "window": "2026-07-17 → 2026-09-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 46.22,
+        "winRate": 46.46,
         "playRate": 1.34,
-        "picks": 2343
+        "picks": 2389
       },
       "open": {
-        "winRate": 45.28,
-        "playRate": 1.44,
-        "picks": 921
+        "winRate": 45.74,
+        "playRate": 1.45,
+        "picks": 938
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.14,
-        "picks": 92
+        "winRate": 50.51,
+        "playRate": 1.19,
+        "picks": 99
       },
       "closed": {
         "winRate": 43.23,
-        "playRate": 1.17,
+        "playRate": 1.16,
         "picks": 192
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 71,
-        "winRate": 70.42
+        "games": 74,
+        "winRate": 70.27
+      },
+      {
+        "name": "burmese",
+        "games": 43,
+        "winRate": 60.47
       },
       {
         "name": "poles",
@@ -415,21 +420,16 @@
         "winRate": 58.67
       },
       {
-        "name": "burmese",
-        "games": 41,
-        "winRate": 58.54
-      },
-      {
-        "name": "wei",
-        "games": 67,
-        "winRate": 55.22
+        "name": "portuguese",
+        "games": 59,
+        "winRate": 54.24
       }
     ],
     "weakAgainst": [
       {
-        "name": "italians",
-        "games": 58,
-        "winRate": 29.31
+        "name": "spanish",
+        "games": 96,
+        "winRate": 29.17
       },
       {
         "name": "mapuche",
@@ -437,19 +437,19 @@
         "winRate": 29.41
       },
       {
-        "name": "spanish",
-        "games": 95,
-        "winRate": 29.47
-      },
-      {
-        "name": "bohemians",
-        "games": 57,
-        "winRate": 35.09
+        "name": "italians",
+        "games": 59,
+        "winRate": 30.51
       },
       {
         "name": "shu",
         "games": 39,
         "winRate": 35.9
+      },
+      {
+        "name": "bohemians",
+        "games": 58,
+        "winRate": 36.21
       }
     ]
   },
