@@ -378,31 +378,31 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 51.91,
-    "playRate": 1.12,
-    "picks": 3044,
+    "winRate": 51.93,
+    "playRate": 1.13,
+    "picks": 3085,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-02T19:23:58.000Z",
-    "window": "2026-07-17 → 2026-09-02",
+    "updated": "2026-09-03T08:57:40.000Z",
+    "window": "2026-07-17 → 2026-09-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 52.19,
+        "winRate": 52.18,
         "playRate": 1.14,
-        "picks": 2056
+        "picks": 2083
       },
       "open": {
-        "winRate": 52.77,
+        "winRate": 52.73,
         "playRate": 1.13,
-        "picks": 741
+        "picks": 751
       },
       "closed": {
-        "winRate": 44.22,
-        "playRate": 0.87,
-        "picks": 147
+        "winRate": 45.03,
+        "playRate": 0.88,
+        "picks": 151
       },
       "nomad": {
         "winRate": 51,
@@ -423,8 +423,8 @@
       },
       {
         "name": "franks",
-        "games": 58,
-        "winRate": 65.52
+        "games": 59,
+        "winRate": 66.1
       },
       {
         "name": "persians",
@@ -440,8 +440,13 @@
     "weakAgainst": [
       {
         "name": "aztecs",
-        "games": 41,
-        "winRate": 31.71
+        "games": 44,
+        "winRate": 29.55
+      },
+      {
+        "name": "celts",
+        "games": 50,
+        "winRate": 34
       },
       {
         "name": "slavs",
@@ -449,19 +454,14 @@
         "winRate": 34.09
       },
       {
-        "name": "celts",
-        "games": 49,
-        "winRate": 34.69
+        "name": "malay",
+        "games": 57,
+        "winRate": 38.6
       },
       {
         "name": "goths",
         "games": 46,
         "winRate": 39.13
-      },
-      {
-        "name": "malay",
-        "games": 56,
-        "winRate": 39.29
       }
     ]
   },

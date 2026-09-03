@@ -322,24 +322,24 @@
   "stats": {
     "winRate": 54.34,
     "playRate": 2.52,
-    "picks": 6840,
+    "picks": 6903,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-02T19:23:58.000Z",
-    "window": "2026-07-17 → 2026-09-02",
+    "updated": "2026-09-03T08:57:40.000Z",
+    "window": "2026-07-17 → 2026-09-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 54.93,
+        "winRate": 54.91,
         "playRate": 2.81,
-        "picks": 1844
+        "picks": 1863
       },
       "other": {
-        "winRate": 54.06,
-        "playRate": 2.53,
-        "picks": 4554
+        "winRate": 54.09,
+        "playRate": 2.52,
+        "picks": 4596
       },
       "nomad": {
         "winRate": 58.74,
@@ -347,21 +347,16 @@
         "picks": 143
       },
       "closed": {
-        "winRate": 52.84,
-        "playRate": 1.77,
-        "picks": 299
+        "winRate": 52.49,
+        "playRate": 1.75,
+        "picks": 301
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 147,
-        "winRate": 62.59
-      },
-      {
-        "name": "incas",
-        "games": 124,
-        "winRate": 61.29
+        "games": 148,
+        "winRate": 62.84
       },
       {
         "name": "byzantines",
@@ -374,21 +369,26 @@
         "winRate": 60.5
       },
       {
+        "name": "incas",
+        "games": 126,
+        "winRate": 60.32
+      },
+      {
         "name": "malians",
-        "games": 97,
-        "winRate": 59.79
+        "games": 98,
+        "winRate": 60.2
       }
     ],
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 123,
-        "winRate": 43.09
+        "games": 124,
+        "winRate": 42.74
       },
       {
         "name": "bengalis",
-        "games": 101,
-        "winRate": 43.56
+        "games": 102,
+        "winRate": 44.12
       },
       {
         "name": "celts",
@@ -397,13 +397,13 @@
       },
       {
         "name": "spanish",
-        "games": 200,
-        "winRate": 46.5
+        "games": 202,
+        "winRate": 46.53
       },
       {
         "name": "mayans",
-        "games": 147,
-        "winRate": 46.94
+        "games": 150,
+        "winRate": 47.33
       }
     ]
   },

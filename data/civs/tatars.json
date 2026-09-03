@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.79,
+    "winRate": 48.75,
     "playRate": 1.65,
-    "picks": 4462,
+    "picks": 4509,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-02T19:23:58.000Z",
-    "window": "2026-07-17 → 2026-09-02",
+    "updated": "2026-09-03T08:57:40.000Z",
+    "window": "2026-07-17 → 2026-09-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 50.78,
+        "winRate": 50.77,
         "playRate": 1.67,
-        "picks": 1093
+        "picks": 1103
       },
       "nomad": {
         "winRate": 45.97,
@@ -357,31 +357,31 @@
         "picks": 124
       },
       "other": {
-        "winRate": 48.31,
-        "playRate": 1.67,
-        "picks": 3018
+        "winRate": 48.25,
+        "playRate": 1.68,
+        "picks": 3053
       },
       "closed": {
-        "winRate": 47.14,
-        "playRate": 1.35,
-        "picks": 227
+        "winRate": 47.16,
+        "playRate": 1.33,
+        "picks": 229
       }
     },
     "strongAgainst": [
       {
         "name": "lithuanians",
-        "games": 81,
-        "winRate": 65.43
-      },
-      {
-        "name": "teutons",
-        "games": 71,
-        "winRate": 61.97
+        "games": 82,
+        "winRate": 64.63
       },
       {
         "name": "incas",
         "games": 78,
         "winRate": 61.54
+      },
+      {
+        "name": "teutons",
+        "games": 72,
+        "winRate": 61.11
       },
       {
         "name": "georgians",
@@ -401,14 +401,14 @@
         "winRate": 36
       },
       {
+        "name": "dravidians",
+        "games": 58,
+        "winRate": 37.93
+      },
+      {
         "name": "saracens",
         "games": 52,
         "winRate": 38.46
-      },
-      {
-        "name": "dravidians",
-        "games": 57,
-        "winRate": 38.6
       },
       {
         "name": "bohemians",
@@ -416,9 +416,9 @@
         "winRate": 42.11
       },
       {
-        "name": "mongols",
-        "games": 216,
-        "winRate": 42.13
+        "name": "celts",
+        "games": 89,
+        "winRate": 42.7
       }
     ]
   },
