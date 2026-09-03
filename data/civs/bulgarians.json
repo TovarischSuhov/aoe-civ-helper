@@ -288,31 +288,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.28,
+    "winRate": 49.26,
     "playRate": 1.73,
-    "picks": 4736,
+    "picks": 4787,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-03T08:57:40.000Z",
+    "updated": "2026-09-03T19:18:38.000Z",
     "window": "2026-07-17 → 2026-09-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 44.65,
-        "playRate": 1.9,
-        "picks": 327
+        "winRate": 44.61,
+        "playRate": 1.91,
+        "picks": 334
       },
       "open": {
-        "winRate": 50.09,
-        "playRate": 1.74,
-        "picks": 1152
+        "winRate": 49.83,
+        "playRate": 1.73,
+        "picks": 1164
       },
       "other": {
-        "winRate": 49.15,
+        "winRate": 49.22,
         "playRate": 1.71,
-        "picks": 3123
+        "picks": 3155
       },
       "nomad": {
         "winRate": 56.72,
@@ -322,19 +322,19 @@
     },
     "strongAgainst": [
       {
-        "name": "gurjaras",
-        "games": 60,
-        "winRate": 61.67
-      },
-      {
-        "name": "byzantines",
-        "games": 77,
-        "winRate": 61.04
-      },
-      {
         "name": "cumans",
         "games": 97,
         "winRate": 60.82
+      },
+      {
+        "name": "gurjaras",
+        "games": 61,
+        "winRate": 60.66
+      },
+      {
+        "name": "byzantines",
+        "games": 78,
+        "winRate": 60.26
       },
       {
         "name": "hindustanis",
@@ -360,8 +360,8 @@
       },
       {
         "name": "japanese",
-        "games": 124,
-        "winRate": 41.94
+        "games": 125,
+        "winRate": 41.6
       },
       {
         "name": "mongols",
@@ -370,8 +370,8 @@
       },
       {
         "name": "koreans",
-        "games": 87,
-        "winRate": 43.68
+        "games": 88,
+        "winRate": 43.18
       }
     ]
   },

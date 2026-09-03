@@ -256,48 +256,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.29,
-    "playRate": 1.67,
-    "picks": 4581,
+    "winRate": 50.3,
+    "playRate": 1.68,
+    "picks": 4672,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-03T08:57:40.000Z",
+    "updated": "2026-09-03T19:18:38.000Z",
     "window": "2026-07-17 → 2026-09-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 50.33,
-        "playRate": 1.65,
-        "picks": 3004
+        "winRate": 50.34,
+        "playRate": 1.66,
+        "picks": 3059
       },
       "open": {
-        "winRate": 48.06,
-        "playRate": 1.59,
-        "picks": 1055
+        "winRate": 48,
+        "playRate": 1.6,
+        "picks": 1077
       },
       "nomad": {
         "winRate": 56.86,
-        "playRate": 1.84,
+        "playRate": 1.83,
         "picks": 153
       },
       "closed": {
-        "winRate": 53.66,
-        "playRate": 2.15,
-        "picks": 369
+        "winRate": 53.79,
+        "playRate": 2.19,
+        "picks": 383
       }
     },
     "strongAgainst": [
       {
         "name": "britons",
-        "games": 102,
-        "winRate": 59.8
-      },
-      {
-        "name": "teutons",
-        "games": 86,
-        "winRate": 59.3
+        "games": 105,
+        "winRate": 60
       },
       {
         "name": "jurchens",
@@ -305,26 +300,31 @@
         "winRate": 59.15
       },
       {
-        "name": "turks",
-        "games": 87,
-        "winRate": 58.62
+        "name": "teutons",
+        "games": 88,
+        "winRate": 59.09
       },
       {
         "name": "burmese",
-        "games": 60,
-        "winRate": 58.33
+        "games": 61,
+        "winRate": 59.02
+      },
+      {
+        "name": "incas",
+        "games": 67,
+        "winRate": 56.72
       }
     ],
     "weakAgainst": [
       {
-        "name": "khitans",
-        "games": 54,
-        "winRate": 35.19
-      },
-      {
         "name": "aztecs",
         "games": 75,
         "winRate": 36
+      },
+      {
+        "name": "khitans",
+        "games": 56,
+        "winRate": 37.5
       },
       {
         "name": "wu",
@@ -333,8 +333,8 @@
       },
       {
         "name": "romans",
-        "games": 70,
-        "winRate": 40
+        "games": 73,
+        "winRate": 41.1
       },
       {
         "name": "tupi",
