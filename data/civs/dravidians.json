@@ -315,13 +315,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.98,
+    "winRate": 50.14,
     "playRate": 1.49,
-    "picks": 4138,
+    "picks": 4180,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-03T19:18:38.000Z",
-    "window": "2026-07-17 → 2026-09-03",
+    "updated": "2026-09-04T08:52:23.000Z",
+    "window": "2026-07-17 → 2026-09-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
@@ -333,18 +333,18 @@
       },
       "open": {
         "winRate": 50.82,
-        "playRate": 1.36,
-        "picks": 913
+        "playRate": 1.35,
+        "picks": 917
       },
       "other": {
-        "winRate": 49.06,
+        "winRate": 49.27,
         "playRate": 1.51,
-        "picks": 2780
+        "picks": 2811
       },
       "closed": {
-        "winRate": 52.25,
-        "playRate": 1.27,
-        "picks": 222
+        "winRate": 52.84,
+        "playRate": 1.29,
+        "picks": 229
       }
     },
     "strongAgainst": [
@@ -355,13 +355,8 @@
       },
       {
         "name": "shu",
-        "games": 48,
-        "winRate": 62.5
-      },
-      {
-        "name": "tatars",
-        "games": 58,
-        "winRate": 62.07
+        "games": 49,
+        "winRate": 63.27
       },
       {
         "name": "bohemians",
@@ -369,9 +364,14 @@
         "winRate": 61.63
       },
       {
+        "name": "tatars",
+        "games": 59,
+        "winRate": 61.02
+      },
+      {
         "name": "goths",
-        "games": 73,
-        "winRate": 57.53
+        "games": 74,
+        "winRate": 58.11
       }
     ],
     "weakAgainst": [
@@ -381,24 +381,24 @@
         "winRate": 40.7
       },
       {
+        "name": "poles",
+        "games": 66,
+        "winRate": 40.91
+      },
+      {
+        "name": "burmese",
+        "games": 53,
+        "winRate": 41.51
+      },
+      {
         "name": "wu",
         "games": 60,
         "winRate": 41.67
       },
       {
-        "name": "khmer",
-        "games": 96,
-        "winRate": 41.67
-      },
-      {
-        "name": "poles",
-        "games": 64,
-        "winRate": 42.19
-      },
-      {
-        "name": "burmese",
-        "games": 52,
-        "winRate": 42.31
+        "name": "bulgarians",
+        "games": 76,
+        "winRate": 43.42
       }
     ]
   },

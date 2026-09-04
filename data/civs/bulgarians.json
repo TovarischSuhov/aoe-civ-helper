@@ -288,90 +288,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.26,
-    "playRate": 1.73,
-    "picks": 4787,
+    "winRate": 49.34,
+    "playRate": 1.72,
+    "picks": 4836,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-03T19:18:38.000Z",
-    "window": "2026-07-17 → 2026-09-03",
+    "updated": "2026-09-04T08:52:23.000Z",
+    "window": "2026-07-17 → 2026-09-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 44.61,
+        "winRate": 44.84,
         "playRate": 1.91,
-        "picks": 334
+        "picks": 339
       },
       "open": {
-        "winRate": 49.83,
-        "playRate": 1.73,
-        "picks": 1164
+        "winRate": 49.7,
+        "playRate": 1.74,
+        "picks": 1179
       },
       "other": {
-        "winRate": 49.22,
+        "winRate": 49.37,
         "playRate": 1.71,
-        "picks": 3155
+        "picks": 3184
       },
       "nomad": {
         "winRate": 56.72,
-        "playRate": 1.61,
+        "playRate": 1.6,
         "picks": 134
       }
     },
     "strongAgainst": [
+      {
+        "name": "gurjaras",
+        "games": 62,
+        "winRate": 61.29
+      },
       {
         "name": "cumans",
         "games": 97,
         "winRate": 60.82
       },
       {
-        "name": "gurjaras",
-        "games": 61,
-        "winRate": 60.66
-      },
-      {
         "name": "byzantines",
-        "games": 78,
-        "winRate": 60.26
+        "games": 79,
+        "winRate": 59.49
       },
       {
         "name": "hindustanis",
-        "games": 104,
-        "winRate": 57.69
+        "games": 108,
+        "winRate": 58.33
       },
       {
         "name": "poles",
-        "games": 88,
-        "winRate": 56.82
+        "games": 90,
+        "winRate": 56.67
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 51,
-        "winRate": 31.37
+        "games": 52,
+        "winRate": 32.69
       },
       {
         "name": "armenians",
-        "games": 86,
-        "winRate": 37.21
+        "games": 89,
+        "winRate": 37.08
       },
       {
         "name": "japanese",
-        "games": 125,
-        "winRate": 41.6
+        "games": 126,
+        "winRate": 41.27
       },
       {
         "name": "mongols",
-        "games": 232,
-        "winRate": 42.24
+        "games": 234,
+        "winRate": 42.74
       },
       {
-        "name": "koreans",
-        "games": 88,
-        "winRate": 43.18
+        "name": "huns",
+        "games": 103,
+        "winRate": 43.69
       }
     ]
   },
