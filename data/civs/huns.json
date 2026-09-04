@@ -355,24 +355,24 @@
   "stats": {
     "winRate": 51.03,
     "playRate": 2.09,
-    "picks": 5877,
+    "picks": 5932,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-04T08:52:23.000Z",
+    "updated": "2026-09-04T19:00:13.000Z",
     "window": "2026-07-17 → 2026-09-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 51.26,
-        "playRate": 2.23,
-        "picks": 1512
+        "winRate": 51.31,
+        "playRate": 2.22,
+        "picks": 1524
       },
       "other": {
-        "winRate": 51.18,
+        "winRate": 51.12,
         "playRate": 2.09,
-        "picks": 3904
+        "picks": 3938
       },
       "nomad": {
         "winRate": 49.71,
@@ -380,16 +380,16 @@
         "picks": 173
       },
       "closed": {
-        "winRate": 48.61,
-        "playRate": 1.62,
-        "picks": 288
+        "winRate": 49.16,
+        "playRate": 1.64,
+        "picks": 297
       }
     },
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 87,
-        "winRate": 66.67
+        "games": 89,
+        "winRate": 65.17
       },
       {
         "name": "incas",
@@ -397,14 +397,14 @@
         "winRate": 64.6
       },
       {
+        "name": "malians",
+        "games": 118,
+        "winRate": 61.02
+      },
+      {
         "name": "armenians",
         "games": 91,
         "winRate": 60.44
-      },
-      {
-        "name": "malians",
-        "games": 116,
-        "winRate": 60.34
       },
       {
         "name": "burgundians",
@@ -415,8 +415,8 @@
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 68,
-        "winRate": 39.71
+        "games": 69,
+        "winRate": 39.13
       },
       {
         "name": "ethiopians",
@@ -424,19 +424,19 @@
         "winRate": 43.08
       },
       {
+        "name": "celts",
+        "games": 107,
+        "winRate": 43.93
+      },
+      {
         "name": "koreans",
-        "games": 100,
-        "winRate": 44
+        "games": 102,
+        "winRate": 44.12
       },
       {
         "name": "malay",
-        "games": 101,
-        "winRate": 44.55
-      },
-      {
-        "name": "celts",
-        "games": 105,
-        "winRate": 44.76
+        "games": 102,
+        "winRate": 45.1
       }
     ]
   },

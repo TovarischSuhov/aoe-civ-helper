@@ -320,26 +320,26 @@
     "takeaway": "#1 at the very top Elo. Cheaper techs + extra farm food + fire lancers + Chu Ko Nu shine mid/late, but you start down 200 food and need strong game sense to exploit the cheaper techs."
   },
   "stats": {
-    "winRate": 54.22,
+    "winRate": 54.17,
     "playRate": 2.52,
-    "picks": 7073,
+    "picks": 7163,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-04T08:52:23.000Z",
+    "updated": "2026-09-04T19:00:13.000Z",
     "window": "2026-07-17 → 2026-09-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 55.12,
-        "playRate": 2.79,
-        "picks": 1896
+        "winRate": 54.88,
+        "playRate": 2.8,
+        "picks": 1926
       },
       "other": {
-        "winRate": 53.87,
-        "playRate": 2.53,
-        "picks": 4711
+        "winRate": 53.97,
+        "playRate": 2.52,
+        "picks": 4758
       },
       "nomad": {
         "winRate": 58.74,
@@ -347,48 +347,43 @@
         "picks": 143
       },
       "closed": {
-        "winRate": 52.01,
-        "playRate": 1.82,
-        "picks": 323
+        "winRate": 50.89,
+        "playRate": 1.85,
+        "picks": 336
       }
     },
     "strongAgainst": [
       {
+        "name": "incas",
+        "games": 130,
+        "winRate": 61.54
+      },
+      {
         "name": "khmer",
-        "games": 153,
-        "winRate": 62.09
+        "games": 155,
+        "winRate": 61.29
       },
       {
         "name": "byzantines",
-        "games": 106,
-        "winRate": 61.32
-      },
-      {
-        "name": "incas",
-        "games": 129,
-        "winRate": 61.24
+        "games": 108,
+        "winRate": 61.11
       },
       {
         "name": "teutons",
-        "games": 94,
-        "winRate": 59.57
+        "games": 95,
+        "winRate": 60
       },
       {
-        "name": "aztecs",
-        "games": 122,
-        "winRate": 59.02
+        "name": "slavs",
+        "games": 96,
+        "winRate": 59.38
       }
     ],
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 129,
-        "winRate": 43.41
-      },
-      {
-        "name": "bengalis",
-        "games": 108,
-        "winRate": 44.44
+        "games": 130,
+        "winRate": 43.08
       },
       {
         "name": "celts",
@@ -396,14 +391,19 @@
         "winRate": 44.55
       },
       {
+        "name": "bengalis",
+        "games": 110,
+        "winRate": 45.45
+      },
+      {
         "name": "spanish",
-        "games": 203,
-        "winRate": 46.31
+        "games": 205,
+        "winRate": 46.34
       },
       {
         "name": "mayans",
-        "games": 154,
-        "winRate": 47.4
+        "games": 155,
+        "winRate": 47.74
       }
     ]
   },
