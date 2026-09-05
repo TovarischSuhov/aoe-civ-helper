@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.17,
+    "winRate": 49.07,
     "playRate": 2.35,
-    "picks": 6767,
+    "picks": 6852,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-05T08:22:39.000Z",
+    "updated": "2026-09-05T18:20:51.000Z",
     "window": "2026-07-17 → 2026-09-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
       "other": {
-        "winRate": 48.83,
+        "winRate": 48.79,
         "playRate": 2.33,
-        "picks": 4460
+        "picks": 4513
       },
       "closed": {
-        "winRate": 49.9,
-        "playRate": 2.78,
-        "picks": 515
+        "winRate": 49.34,
+        "playRate": 2.8,
+        "picks": 529
       },
       "nomad": {
         "winRate": 42.51,
@@ -350,21 +350,26 @@
         "picks": 167
       },
       "open": {
-        "winRate": 50.52,
+        "winRate": 50.4,
         "playRate": 2.34,
-        "picks": 1625
+        "picks": 1643
       }
     },
     "strongAgainst": [
       {
         "name": "goths",
-        "games": 93,
-        "winRate": 62.37
+        "games": 94,
+        "winRate": 61.7
       },
       {
         "name": "tupi",
-        "games": 95,
-        "winRate": 60
+        "games": 96,
+        "winRate": 60.42
+      },
+      {
+        "name": "britons",
+        "games": 150,
+        "winRate": 59.33
       },
       {
         "name": "bengalis",
@@ -372,41 +377,36 @@
         "winRate": 59.18
       },
       {
-        "name": "britons",
-        "games": 148,
-        "winRate": 58.78
-      },
-      {
-        "name": "gurjaras",
-        "games": 73,
-        "winRate": 57.53
+        "name": "wu",
+        "games": 82,
+        "winRate": 57.32
       }
     ],
     "weakAgainst": [
       {
         "name": "franks",
-        "games": 119,
-        "winRate": 36.13
+        "games": 123,
+        "winRate": 35.77
       },
       {
         "name": "chinese",
-        "games": 157,
-        "winRate": 38.22
+        "games": 158,
+        "winRate": 37.97
       },
       {
         "name": "mapuche",
-        "games": 72,
-        "winRate": 40.28
+        "games": 73,
+        "winRate": 41.1
       },
       {
         "name": "malay",
-        "games": 114,
-        "winRate": 41.23
+        "games": 116,
+        "winRate": 41.38
       },
       {
         "name": "spanish",
-        "games": 192,
-        "winRate": 42.19
+        "games": 193,
+        "winRate": 41.97
       }
     ]
   },

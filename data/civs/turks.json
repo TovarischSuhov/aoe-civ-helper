@@ -363,24 +363,24 @@
   "stats": {
     "winRate": 48.52,
     "playRate": 1.87,
-    "picks": 5383,
+    "picks": 5457,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-05T08:22:39.000Z",
+    "updated": "2026-09-05T18:20:51.000Z",
     "window": "2026-07-17 → 2026-09-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
       "other": {
-        "winRate": 48.35,
-        "playRate": 1.85,
-        "picks": 3545
+        "winRate": 48.33,
+        "playRate": 1.86,
+        "picks": 3602
       },
       "closed": {
-        "winRate": 53.75,
-        "playRate": 3.46,
-        "picks": 640
+        "winRate": 54.1,
+        "playRate": 3.43,
+        "picks": 647
       },
       "nomad": {
         "winRate": 42.37,
@@ -388,43 +388,43 @@
         "picks": 118
       },
       "open": {
-        "winRate": 46.67,
+        "winRate": 46.51,
         "playRate": 1.55,
-        "picks": 1080
+        "picks": 1090
       }
     },
     "strongAgainst": [
+      {
+        "name": "tupi",
+        "games": 58,
+        "winRate": 56.9
+      },
       {
         "name": "khitans",
         "games": 44,
         "winRate": 56.82
       },
       {
-        "name": "tupi",
-        "games": 57,
-        "winRate": 56.14
-      },
-      {
         "name": "armenians",
-        "games": 98,
-        "winRate": 56.12
-      },
-      {
-        "name": "hindustanis",
-        "games": 100,
-        "winRate": 56
+        "games": 99,
+        "winRate": 56.57
       },
       {
         "name": "bohemians",
-        "games": 179,
-        "winRate": 55.87
+        "games": 182,
+        "winRate": 55.49
+      },
+      {
+        "name": "saracens",
+        "games": 103,
+        "winRate": 55.34
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 77,
-        "winRate": 32.47
+        "games": 78,
+        "winRate": 32.05
       },
       {
         "name": "huns",
@@ -433,8 +433,8 @@
       },
       {
         "name": "poles",
-        "games": 137,
-        "winRate": 35.77
+        "games": 138,
+        "winRate": 36.23
       },
       {
         "name": "mapuche",
