@@ -315,13 +315,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.35,
+    "winRate": 50.3,
     "playRate": 1.49,
-    "picks": 4234,
+    "picks": 4284,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-04T19:00:13.000Z",
-    "window": "2026-07-17 → 2026-09-04",
+    "updated": "2026-09-05T08:22:39.000Z",
+    "window": "2026-07-17 → 2026-09-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
@@ -332,27 +332,22 @@
         "picks": 223
       },
       "open": {
-        "winRate": 50.76,
-        "playRate": 1.35,
-        "picks": 924
+        "winRate": 50.96,
+        "playRate": 1.34,
+        "picks": 934
       },
       "other": {
-        "winRate": 49.56,
+        "winRate": 49.48,
         "playRate": 1.51,
-        "picks": 2851
+        "picks": 2886
       },
       "closed": {
-        "winRate": 53.39,
+        "winRate": 52.7,
         "playRate": 1.3,
-        "picks": 236
+        "picks": 241
       }
     },
     "strongAgainst": [
-      {
-        "name": "shu",
-        "games": 51,
-        "winRate": 62.75
-      },
       {
         "name": "georgians",
         "games": 61,
@@ -364,25 +359,30 @@
         "winRate": 62.22
       },
       {
-        "name": "tatars",
-        "games": 59,
-        "winRate": 61.02
+        "name": "shu",
+        "games": 52,
+        "winRate": 61.54
       },
       {
         "name": "goths",
-        "games": 78,
-        "winRate": 60.26
+        "games": 79,
+        "winRate": 60.76
+      },
+      {
+        "name": "tatars",
+        "games": 61,
+        "winRate": 60.66
       }
     ],
     "weakAgainst": [
       {
-        "name": "byzantines",
-        "games": 87,
-        "winRate": 40.23
+        "name": "poles",
+        "games": 69,
+        "winRate": 40.58
       },
       {
-        "name": "poles",
-        "games": 66,
+        "name": "byzantines",
+        "games": 88,
         "winRate": 40.91
       },
       {
@@ -391,9 +391,9 @@
         "winRate": 41.67
       },
       {
-        "name": "bulgarians",
-        "games": 76,
-        "winRate": 43.42
+        "name": "malians",
+        "games": 74,
+        "winRate": 43.24
       },
       {
         "name": "burmese",
