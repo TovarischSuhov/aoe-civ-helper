@@ -296,21 +296,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.53,
+    "winRate": 47.4,
     "playRate": 1.82,
-    "picks": 5312,
+    "picks": 5375,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-05T18:20:51.000Z",
-    "window": "2026-07-17 → 2026-09-05",
+    "updated": "2026-09-06T08:41:33.000Z",
+    "window": "2026-07-17 → 2026-09-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
       "closed": {
-        "winRate": 48.92,
-        "playRate": 2.69,
-        "picks": 507
+        "winRate": 48.94,
+        "playRate": 2.68,
+        "picks": 517
       },
       "nomad": {
         "winRate": 42.18,
@@ -318,68 +318,68 @@
         "picks": 147
       },
       "other": {
-        "winRate": 47.34,
-        "playRate": 1.78,
-        "picks": 3443
+        "winRate": 47.24,
+        "playRate": 1.77,
+        "picks": 3476
       },
       "open": {
-        "winRate": 48.15,
+        "winRate": 47.85,
         "playRate": 1.73,
-        "picks": 1215
+        "picks": 1235
       }
     },
     "strongAgainst": [
       {
         "name": "koreans",
-        "games": 75,
-        "winRate": 61.33
-      },
-      {
-        "name": "britons",
-        "games": 111,
-        "winRate": 61.26
+        "games": 77,
+        "winRate": 62.34
       },
       {
         "name": "tupi",
-        "games": 71,
-        "winRate": 60.56
+        "games": 72,
+        "winRate": 61.11
       },
       {
-        "name": "saracens",
-        "games": 85,
-        "winRate": 56.47
+        "name": "britons",
+        "games": 112,
+        "winRate": 60.71
       },
       {
         "name": "goths",
-        "games": 97,
-        "winRate": 55.67
+        "games": 98,
+        "winRate": 56.12
+      },
+      {
+        "name": "saracens",
+        "games": 86,
+        "winRate": 55.81
       }
     ],
     "weakAgainst": [
+      {
+        "name": "wei",
+        "games": 79,
+        "winRate": 37.97
+      },
+      {
+        "name": "lithuanians",
+        "games": 100,
+        "winRate": 38
+      },
       {
         "name": "persians",
         "games": 120,
         "winRate": 38.33
       },
       {
-        "name": "lithuanians",
-        "games": 99,
-        "winRate": 38.38
-      },
-      {
         "name": "magyars",
-        "games": 121,
-        "winRate": 38.84
+        "games": 122,
+        "winRate": 38.52
       },
       {
-        "name": "spanish",
-        "games": 154,
-        "winRate": 38.96
-      },
-      {
-        "name": "wei",
-        "games": 76,
-        "winRate": 39.47
+        "name": "tatars",
+        "games": 80,
+        "winRate": 38.75
       }
     ]
   },
