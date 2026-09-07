@@ -347,31 +347,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.63,
+    "winRate": 50.55,
     "playRate": 1.76,
-    "picks": 5317,
+    "picks": 5379,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-07T09:24:07.000Z",
+    "updated": "2026-09-07T19:59:28.000Z",
     "window": "2026-07-17 → 2026-09-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
       "open": {
-        "winRate": 51.62,
+        "winRate": 51.82,
         "playRate": 1.56,
-        "picks": 1141
+        "picks": 1154
       },
       "closed": {
-        "winRate": 47.06,
-        "playRate": 1.44,
-        "picks": 289
+        "winRate": 45.95,
+        "playRate": 1.45,
+        "picks": 296
       },
       "other": {
-        "winRate": 50.18,
+        "winRate": 50.1,
         "playRate": 1.79,
-        "picks": 3599
+        "picks": 3641
       },
       "nomad": {
         "winRate": 55.9,
@@ -382,8 +382,13 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 97,
-        "winRate": 64.95
+        "games": 101,
+        "winRate": 65.35
+      },
+      {
+        "name": "portuguese",
+        "games": 125,
+        "winRate": 59.2
       },
       {
         "name": "britons",
@@ -396,21 +401,16 @@
         "winRate": 58.7
       },
       {
-        "name": "portuguese",
-        "games": 123,
-        "winRate": 58.54
-      },
-      {
         "name": "turks",
-        "games": 100,
-        "winRate": 58
+        "games": 101,
+        "winRate": 58.42
       }
     ],
     "weakAgainst": [
       {
         "name": "teutons",
-        "games": 80,
-        "winRate": 37.5
+        "games": 82,
+        "winRate": 37.8
       },
       {
         "name": "wu",
@@ -424,13 +424,13 @@
       },
       {
         "name": "vikings",
-        "games": 101,
-        "winRate": 40.59
+        "games": 103,
+        "winRate": 39.81
       },
       {
         "name": "chinese",
-        "games": 120,
-        "winRate": 40.83
+        "games": 122,
+        "winRate": 40.98
       }
     ]
   },

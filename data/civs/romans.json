@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.47,
+    "winRate": 53.5,
     "playRate": 1.38,
-    "picks": 4191,
+    "picks": 4232,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-07T09:24:07.000Z",
+    "updated": "2026-09-07T19:59:28.000Z",
     "window": "2026-07-17 → 2026-09-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 54.09,
+        "winRate": 54.15,
         "playRate": 1.48,
-        "picks": 1087
+        "picks": 1097
       },
       "other": {
-        "winRate": 53.79,
+        "winRate": 53.77,
         "playRate": 1.39,
-        "picks": 2798
+        "picks": 2823
       },
       "nomad": {
         "winRate": 46.15,
@@ -375,16 +375,16 @@
         "picks": 91
       },
       "closed": {
-        "winRate": 49.3,
-        "playRate": 1.07,
-        "picks": 215
+        "winRate": 49.77,
+        "playRate": 1.09,
+        "picks": 221
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 57,
-        "winRate": 70.18
+        "games": 58,
+        "winRate": 70.69
       },
       {
         "name": "poles",
@@ -398,8 +398,8 @@
       },
       {
         "name": "incas",
-        "games": 69,
-        "winRate": 65.22
+        "games": 71,
+        "winRate": 66.2
       },
       {
         "name": "muisca",
@@ -410,8 +410,8 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 260,
-        "winRate": 41.92
+        "games": 265,
+        "winRate": 41.51
       },
       {
         "name": "japanese",
@@ -419,19 +419,19 @@
         "winRate": 45.83
       },
       {
-        "name": "georgians",
-        "games": 43,
-        "winRate": 46.51
-      },
-      {
         "name": "spanish",
         "games": 108,
         "winRate": 47.22
       },
       {
-        "name": "tupi",
-        "games": 54,
-        "winRate": 48.15
+        "name": "georgians",
+        "games": 44,
+        "winRate": 47.73
+      },
+      {
+        "name": "britons",
+        "games": 67,
+        "winRate": 47.76
       }
     ]
   },

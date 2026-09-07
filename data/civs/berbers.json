@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.85,
+    "winRate": 47.78,
     "playRate": 1.71,
-    "picks": 5179,
+    "picks": 5232,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-07T09:24:07.000Z",
+    "updated": "2026-09-07T19:59:28.000Z",
     "window": "2026-07-17 → 2026-09-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
       "other": {
-        "winRate": 47.84,
+        "winRate": 47.85,
         "playRate": 1.71,
-        "picks": 3449
+        "picks": 3484
       },
       "open": {
-        "winRate": 47.03,
+        "winRate": 46.79,
         "playRate": 1.77,
-        "picks": 1297
+        "picks": 1308
       },
       "nomad": {
         "winRate": 55.56,
@@ -393,16 +393,16 @@
         "picks": 126
       },
       "closed": {
-        "winRate": 48.21,
-        "playRate": 1.53,
-        "picks": 307
+        "winRate": 48.09,
+        "playRate": 1.54,
+        "picks": 314
       }
     },
     "strongAgainst": [
       {
         "name": "wu",
-        "games": 54,
-        "winRate": 70.37
+        "games": 56,
+        "winRate": 71.43
       },
       {
         "name": "lithuanians",
@@ -411,35 +411,30 @@
       },
       {
         "name": "portuguese",
-        "games": 114,
-        "winRate": 57.89
+        "games": 115,
+        "winRate": 57.39
       },
       {
         "name": "bengalis",
-        "games": 61,
-        "winRate": 57.38
+        "games": 62,
+        "winRate": 56.45
       },
       {
-        "name": "spanish",
-        "games": 135,
-        "winRate": 56.3
+        "name": "khmer",
+        "games": 120,
+        "winRate": 55.83
       }
     ],
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 94,
-        "winRate": 35.11
+        "games": 96,
+        "winRate": 34.38
       },
       {
         "name": "slavs",
         "games": 89,
         "winRate": 35.96
-      },
-      {
-        "name": "mayans",
-        "games": 95,
-        "winRate": 36.84
       },
       {
         "name": "hindustanis",
@@ -450,6 +445,11 @@
         "name": "shu",
         "games": 37,
         "winRate": 37.84
+      },
+      {
+        "name": "mayans",
+        "games": 97,
+        "winRate": 38.14
       }
     ]
   },

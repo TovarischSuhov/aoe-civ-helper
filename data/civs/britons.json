@@ -313,26 +313,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.17,
+    "winRate": 49.19,
     "playRate": 1.92,
-    "picks": 5800,
+    "picks": 5890,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-07T09:24:07.000Z",
+    "updated": "2026-09-07T19:59:28.000Z",
     "window": "2026-07-17 → 2026-09-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "open": {
-        "winRate": 48.61,
+        "winRate": 48.45,
         "playRate": 1.87,
-        "picks": 1368
+        "picks": 1387
       },
       "other": {
-        "winRate": 49.28,
-        "playRate": 1.89,
-        "picks": 3803
+        "winRate": 49.42,
+        "playRate": 1.9,
+        "picks": 3867
       },
       "nomad": {
         "winRate": 45.7,
@@ -340,16 +340,16 @@
         "picks": 151
       },
       "closed": {
-        "winRate": 51.05,
-        "playRate": 2.39,
-        "picks": 478
+        "winRate": 50.52,
+        "playRate": 2.38,
+        "picks": 485
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 93,
-        "winRate": 63.44
+        "games": 94,
+        "winRate": 63.83
       },
       {
         "name": "slavs",
@@ -363,8 +363,8 @@
       },
       {
         "name": "portuguese",
-        "games": 128,
-        "winRate": 57.03
+        "games": 131,
+        "winRate": 57.25
       },
       {
         "name": "gurjaras",
@@ -379,24 +379,24 @@
         "winRate": 34.55
       },
       {
-        "name": "goths",
-        "games": 94,
-        "winRate": 38.3
-      },
-      {
         "name": "hindustanis",
-        "games": 109,
-        "winRate": 38.53
+        "games": 111,
+        "winRate": 37.84
       },
       {
-        "name": "celts",
-        "games": 95,
-        "winRate": 38.95
+        "name": "goths",
+        "games": 96,
+        "winRate": 38.54
       },
       {
         "name": "poles",
         "games": 112,
         "winRate": 39.29
+      },
+      {
+        "name": "celts",
+        "games": 96,
+        "winRate": 39.58
       }
     ]
   },

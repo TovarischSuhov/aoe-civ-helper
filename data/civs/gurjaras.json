@@ -372,31 +372,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.94,
+    "winRate": 46.98,
     "playRate": 1.38,
-    "picks": 4184,
+    "picks": 4227,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-07T09:24:07.000Z",
+    "updated": "2026-09-07T19:59:28.000Z",
     "window": "2026-07-17 → 2026-09-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
       "other": {
-        "winRate": 46.46,
+        "winRate": 46.43,
         "playRate": 1.36,
-        "picks": 2742
+        "picks": 2770
       },
       "closed": {
-        "winRate": 50.97,
+        "winRate": 51.71,
         "playRate": 1.29,
-        "picks": 259
+        "picks": 263
       },
       "open": {
-        "winRate": 47.76,
+        "winRate": 47.83,
         "playRate": 1.46,
-        "picks": 1072
+        "picks": 1083
       },
       "nomad": {
         "winRate": 41.44,
@@ -407,18 +407,18 @@
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 81,
-        "winRate": 69.14
+        "games": 83,
+        "winRate": 69.88
       },
       {
         "name": "khitans",
-        "games": 54,
-        "winRate": 68.52
+        "games": 55,
+        "winRate": 67.27
       },
       {
         "name": "mongols",
-        "games": 169,
-        "winRate": 59.76
+        "games": 172,
+        "winRate": 59.88
       },
       {
         "name": "jurchens",
@@ -434,18 +434,13 @@
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 57,
-        "winRate": 29.82
+        "games": 58,
+        "winRate": 29.31
       },
       {
         "name": "byzantines",
         "games": 91,
         "winRate": 31.87
-      },
-      {
-        "name": "bulgarians",
-        "games": 67,
-        "winRate": 35.82
       },
       {
         "name": "sicilians",
@@ -456,6 +451,11 @@
         "name": "mayans",
         "games": 83,
         "winRate": 37.35
+      },
+      {
+        "name": "bulgarians",
+        "games": 69,
+        "winRate": 37.68
       }
     ]
   },
