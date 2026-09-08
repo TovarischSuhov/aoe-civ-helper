@@ -273,31 +273,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.96,
+    "winRate": 48.87,
     "playRate": 3.06,
-    "picks": 9482,
+    "picks": 9584,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-08T08:53:29.000Z",
+    "updated": "2026-09-08T19:26:35.000Z",
     "window": "2026-07-17 → 2026-09-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
       "other": {
-        "winRate": 49.21,
-        "playRate": 3.01,
-        "picks": 6176
+        "winRate": 49.14,
+        "playRate": 3,
+        "picks": 6246
       },
       "open": {
-        "winRate": 48.38,
+        "winRate": 48.27,
         "playRate": 3.41,
-        "picks": 2555
+        "picks": 2579
       },
       "closed": {
-        "winRate": 49.56,
-        "playRate": 2.73,
-        "picks": 565
+        "winRate": 49.39,
+        "playRate": 2.72,
+        "picks": 573
       },
       "nomad": {
         "winRate": 46.77,
@@ -308,13 +308,13 @@
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 126,
-        "winRate": 62.7
+        "games": 129,
+        "winRate": 62.02
       },
       {
         "name": "koreans",
-        "games": 161,
-        "winRate": 58.39
+        "games": 162,
+        "winRate": 58.64
       },
       {
         "name": "portuguese",
@@ -322,41 +322,41 @@
         "winRate": 57.95
       },
       {
+        "name": "lithuanians",
+        "games": 188,
+        "winRate": 56.91
+      },
+      {
         "name": "shu",
         "games": 95,
         "winRate": 56.84
-      },
-      {
-        "name": "lithuanians",
-        "games": 185,
-        "winRate": 56.76
       }
     ],
     "weakAgainst": [
       {
         "name": "japanese",
-        "games": 260,
-        "winRate": 38.85
-      },
-      {
-        "name": "armenians",
-        "games": 158,
-        "winRate": 42.41
+        "games": 263,
+        "winRate": 38.78
       },
       {
         "name": "saracens",
-        "games": 105,
+        "games": 107,
+        "winRate": 42.06
+      },
+      {
+        "name": "armenians",
+        "games": 160,
+        "winRate": 42.5
+      },
+      {
+        "name": "celts",
+        "games": 119,
         "winRate": 42.86
       },
       {
         "name": "persians",
-        "games": 286,
-        "winRate": 43.36
-      },
-      {
-        "name": "tupi",
-        "games": 115,
-        "winRate": 43.48
+        "games": 289,
+        "winRate": 43.25
       }
     ]
   },
