@@ -349,29 +349,29 @@
   "stats": {
     "winRate": 50.43,
     "playRate": 1.56,
-    "picks": 5003,
+    "picks": 5051,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-09T19:18:12.000Z",
-    "window": "2026-07-17 → 2026-09-09",
+    "updated": "2026-09-10T08:58:35.000Z",
+    "window": "2026-07-17 → 2026-09-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 47.69,
+        "winRate": 47.42,
         "playRate": 1.5,
-        "picks": 325
+        "picks": 329
       },
       "other": {
-        "winRate": 50.84,
+        "winRate": 50.81,
         "playRate": 1.56,
-        "picks": 3314
+        "picks": 3342
       },
       "open": {
-        "winRate": 51.38,
-        "playRate": 1.6,
-        "picks": 1236
+        "winRate": 51.52,
+        "playRate": 1.61,
+        "picks": 1252
       },
       "nomad": {
         "winRate": 37.5,
@@ -386,14 +386,14 @@
         "winRate": 64.15
       },
       {
-        "name": "goths",
-        "games": 75,
-        "winRate": 62.67
-      },
-      {
         "name": "bengalis",
         "games": 80,
         "winRate": 62.5
+      },
+      {
+        "name": "goths",
+        "games": 76,
+        "winRate": 61.84
       },
       {
         "name": "wu",
@@ -409,8 +409,8 @@
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 100,
-        "winRate": 37
+        "games": 103,
+        "winRate": 37.86
       },
       {
         "name": "wei",
@@ -423,14 +423,14 @@
         "winRate": 40.74
       },
       {
-        "name": "poles",
-        "games": 108,
-        "winRate": 43.52
+        "name": "jurchens",
+        "games": 88,
+        "winRate": 43.18
       },
       {
-        "name": "jurchens",
-        "games": 87,
-        "winRate": 43.68
+        "name": "poles",
+        "games": 109,
+        "winRate": 44.04
       }
     ]
   },
