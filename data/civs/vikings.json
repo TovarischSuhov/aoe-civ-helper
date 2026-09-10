@@ -398,31 +398,31 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.36,
+    "winRate": 52.3,
     "playRate": 1.81,
-    "picks": 5856,
+    "picks": 5912,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-10T08:58:35.000Z",
+    "updated": "2026-09-10T19:08:21.000Z",
     "window": "2026-07-17 → 2026-09-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 51.77,
+        "winRate": 51.75,
         "playRate": 1.92,
-        "picks": 1499
+        "picks": 1511
       },
       "other": {
-        "winRate": 52.08,
+        "winRate": 52.04,
         "playRate": 1.82,
-        "picks": 3909
+        "picks": 3945
       },
       "closed": {
-        "winRate": 56.39,
-        "playRate": 1.39,
-        "picks": 305
+        "winRate": 55.91,
+        "playRate": 1.4,
+        "picks": 313
       },
       "nomad": {
         "winRate": 57.34,
@@ -433,13 +433,13 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 87,
-        "winRate": 65.52
+        "games": 88,
+        "winRate": 65.91
       },
       {
         "name": "berbers",
-        "games": 100,
-        "winRate": 65
+        "games": 101,
+        "winRate": 64.36
       },
       {
         "name": "burmese",
@@ -448,25 +448,20 @@
       },
       {
         "name": "japanese",
-        "games": 155,
-        "winRate": 60.65
+        "games": 156,
+        "winRate": 60.26
       },
       {
-        "name": "cumans",
-        "games": 89,
-        "winRate": 59.55
+        "name": "turks",
+        "games": 83,
+        "winRate": 59.04
       }
     ],
     "weakAgainst": [
       {
-        "name": "romans",
-        "games": 73,
-        "winRate": 41.1
-      },
-      {
         "name": "malay",
-        "games": 108,
-        "winRate": 41.67
+        "games": 109,
+        "winRate": 41.28
       },
       {
         "name": "tupi",
@@ -474,14 +469,19 @@
         "winRate": 42.05
       },
       {
+        "name": "romans",
+        "games": 75,
+        "winRate": 42.67
+      },
+      {
         "name": "spanish",
-        "games": 156,
-        "winRate": 43.59
+        "games": 160,
+        "winRate": 43.13
       },
       {
         "name": "dravidians",
-        "games": 89,
-        "winRate": 43.82
+        "games": 91,
+        "winRate": 43.96
       }
     ]
   },

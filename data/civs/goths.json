@@ -336,21 +336,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.87,
-    "playRate": 1.43,
-    "picks": 4608,
+    "winRate": 47.95,
+    "playRate": 1.42,
+    "picks": 4651,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-10T08:58:35.000Z",
+    "updated": "2026-09-10T19:08:21.000Z",
     "window": "2026-07-17 → 2026-09-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 48.34,
+        "winRate": 48.44,
         "playRate": 1.43,
-        "picks": 3080
+        "picks": 3101
       },
       "nomad": {
         "winRate": 41.59,
@@ -358,21 +358,21 @@
         "picks": 113
       },
       "closed": {
-        "winRate": 49.13,
+        "winRate": 48.97,
         "playRate": 1.31,
-        "picks": 289
+        "picks": 292
       },
       "open": {
-        "winRate": 46.89,
-        "playRate": 1.44,
-        "picks": 1126
+        "winRate": 46.99,
+        "playRate": 1.45,
+        "picks": 1145
       }
     },
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 43,
-        "winRate": 62.79
+        "games": 44,
+        "winRate": 61.36
       },
       {
         "name": "britons",
@@ -398,18 +398,13 @@
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 80,
-        "winRate": 35
+        "games": 81,
+        "winRate": 34.57
       },
       {
         "name": "spanish",
-        "games": 113,
-        "winRate": 35.4
-      },
-      {
-        "name": "aztecs",
-        "games": 76,
-        "winRate": 38.16
+        "games": 115,
+        "winRate": 35.65
       },
       {
         "name": "dravidians",
@@ -417,9 +412,14 @@
         "winRate": 38.2
       },
       {
+        "name": "aztecs",
+        "games": 78,
+        "winRate": 39.74
+      },
+      {
         "name": "portuguese",
-        "games": 96,
-        "winRate": 40.63
+        "games": 98,
+        "winRate": 40.82
       }
     ]
   },
