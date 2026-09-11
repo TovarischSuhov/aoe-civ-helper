@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.23,
+    "winRate": 53.25,
     "playRate": 1.39,
-    "picks": 4531,
+    "picks": 4580,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-10T19:08:21.000Z",
-    "window": "2026-07-17 → 2026-09-10",
+    "updated": "2026-09-11T08:56:31.000Z",
+    "window": "2026-07-17 → 2026-09-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 54.15,
+        "winRate": 54.1,
         "playRate": 1.47,
-        "picks": 1158
+        "picks": 1170
       },
       "other": {
-        "winRate": 53.39,
+        "winRate": 53.44,
         "playRate": 1.4,
-        "picks": 3038
+        "picks": 3071
       },
       "nomad": {
         "winRate": 46.24,
@@ -376,15 +376,15 @@
       },
       "closed": {
         "winRate": 49.59,
-        "playRate": 1.09,
-        "picks": 242
+        "playRate": 1.08,
+        "picks": 246
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 64,
-        "winRate": 68.75
+        "games": 65,
+        "winRate": 69.23
       },
       {
         "name": "incas",
@@ -392,14 +392,14 @@
         "winRate": 66.67
       },
       {
-        "name": "poles",
-        "games": 51,
-        "winRate": 64.71
-      },
-      {
         "name": "slavs",
         "games": 66,
         "winRate": 63.64
+      },
+      {
+        "name": "poles",
+        "games": 52,
+        "winRate": 63.46
       },
       {
         "name": "muisca",
@@ -410,13 +410,18 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 285,
-        "winRate": 43.16
+        "games": 289,
+        "winRate": 43.25
       },
       {
         "name": "japanese",
-        "games": 104,
-        "winRate": 45.19
+        "games": 107,
+        "winRate": 45.79
+      },
+      {
+        "name": "spanish",
+        "games": 122,
+        "winRate": 46.72
       },
       {
         "name": "mayans",
@@ -424,14 +429,9 @@
         "winRate": 47.06
       },
       {
-        "name": "spanish",
-        "games": 121,
-        "winRate": 47.11
-      },
-      {
         "name": "tupi",
-        "games": 57,
-        "winRate": 47.37
+        "games": 59,
+        "winRate": 47.46
       }
     ]
   },
