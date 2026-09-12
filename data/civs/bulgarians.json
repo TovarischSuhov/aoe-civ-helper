@@ -288,31 +288,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.31,
+    "winRate": 49.39,
     "playRate": 1.72,
-    "picks": 5804,
+    "picks": 5862,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-12T08:39:48.000Z",
+    "updated": "2026-09-12T18:26:24.000Z",
     "window": "2026-07-17 → 2026-09-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 44.66,
-        "playRate": 1.76,
-        "picks": 412
+        "winRate": 44.74,
+        "playRate": 1.77,
+        "picks": 418
       },
       "open": {
-        "winRate": 49.23,
-        "playRate": 1.76,
-        "picks": 1432
+        "winRate": 49.41,
+        "playRate": 1.77,
+        "picks": 1445
       },
       "other": {
-        "winRate": 49.58,
+        "winRate": 49.62,
         "playRate": 1.71,
-        "picks": 3826
+        "picks": 3865
       },
       "nomad": {
         "winRate": 56.72,
@@ -322,29 +322,29 @@
     },
     "strongAgainst": [
       {
+        "name": "gurjaras",
+        "games": 80,
+        "winRate": 60
+      },
+      {
         "name": "jurchens",
         "games": 76,
         "winRate": 59.21
       },
       {
-        "name": "gurjaras",
-        "games": 78,
-        "winRate": 58.97
-      },
-      {
-        "name": "byzantines",
-        "games": 96,
+        "name": "cumans",
+        "games": 120,
         "winRate": 58.33
       },
       {
-        "name": "cumans",
-        "games": 119,
-        "winRate": 57.98
+        "name": "byzantines",
+        "games": 98,
+        "winRate": 58.16
       },
       {
-        "name": "hindustanis",
-        "games": 120,
-        "winRate": 56.67
+        "name": "dravidians",
+        "games": 92,
+        "winRate": 56.52
       }
     ],
     "weakAgainst": [
@@ -355,13 +355,13 @@
       },
       {
         "name": "shu",
-        "games": 63,
-        "winRate": 38.1
+        "games": 64,
+        "winRate": 39.06
       },
       {
         "name": "magyars",
-        "games": 155,
-        "winRate": 43.87
+        "games": 159,
+        "winRate": 43.4
       },
       {
         "name": "lithuanians",
@@ -370,8 +370,8 @@
       },
       {
         "name": "mongols",
-        "games": 288,
-        "winRate": 44.44
+        "games": 291,
+        "winRate": 44.67
       }
     ]
   },
