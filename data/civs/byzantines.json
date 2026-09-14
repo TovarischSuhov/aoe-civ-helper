@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.04,
+    "winRate": 49.07,
     "playRate": 1.61,
-    "picks": 5661,
+    "picks": 5714,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-14T09:55:08.000Z",
+    "updated": "2026-09-14T20:19:37.000Z",
     "window": "2026-07-17 → 2026-09-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 48.18,
+        "winRate": 48.35,
         "playRate": 1.56,
-        "picks": 1316
+        "picks": 1330
       },
       "nomad": {
         "winRate": 46.67,
@@ -302,14 +302,14 @@
         "picks": 135
       },
       "other": {
-        "winRate": 49.53,
+        "winRate": 49.56,
         "playRate": 1.64,
-        "picks": 3828
+        "picks": 3858
       },
       "closed": {
-        "winRate": 47.91,
-        "playRate": 1.54,
-        "picks": 382
+        "winRate": 47.57,
+        "playRate": 1.56,
+        "picks": 391
       }
     },
     "strongAgainst": [
@@ -320,13 +320,8 @@
       },
       {
         "name": "saracens",
-        "games": 95,
-        "winRate": 57.89
-      },
-      {
-        "name": "incas",
-        "games": 107,
-        "winRate": 57.01
+        "games": 96,
+        "winRate": 58.33
       },
       {
         "name": "khitans",
@@ -334,9 +329,14 @@
         "winRate": 56.94
       },
       {
-        "name": "bohemians",
-        "games": 86,
-        "winRate": 55.81
+        "name": "jurchens",
+        "games": 85,
+        "winRate": 56.47
+      },
+      {
+        "name": "dravidians",
+        "games": 104,
+        "winRate": 55.77
       }
     ],
     "weakAgainst": [
@@ -347,8 +347,8 @@
       },
       {
         "name": "chinese",
-        "games": 137,
-        "winRate": 39.42
+        "games": 139,
+        "winRate": 39.57
       },
       {
         "name": "malay",
