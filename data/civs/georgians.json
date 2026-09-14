@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.06,
+    "winRate": 48.11,
     "playRate": 1.21,
-    "picks": 4211,
+    "picks": 4253,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-13T18:48:52.000Z",
-    "window": "2026-07-17 → 2026-09-13",
+    "updated": "2026-09-14T09:55:08.000Z",
+    "window": "2026-07-17 → 2026-09-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 49.12,
+        "winRate": 49.23,
         "playRate": 1.23,
-        "picks": 1028
+        "picks": 1042
       },
       "other": {
-        "winRate": 48.66,
-        "playRate": 1.23,
-        "picks": 2834
+        "winRate": 48.67,
+        "playRate": 1.22,
+        "picks": 2858
       },
       "nomad": {
         "winRate": 39.81,
@@ -322,9 +322,9 @@
         "picks": 103
       },
       "closed": {
-        "winRate": 40.24,
+        "winRate": 40.4,
         "playRate": 1.01,
-        "picks": 246
+        "picks": 250
       }
     },
     "strongAgainst": [
@@ -335,8 +335,13 @@
       },
       {
         "name": "italians",
-        "games": 87,
-        "winRate": 60.92
+        "games": 89,
+        "winRate": 60.67
+      },
+      {
+        "name": "goths",
+        "games": 57,
+        "winRate": 59.65
       },
       {
         "name": "teutons",
@@ -344,21 +349,16 @@
         "winRate": 58.73
       },
       {
-        "name": "goths",
-        "games": 55,
-        "winRate": 58.18
-      },
-      {
-        "name": "britons",
-        "games": 75,
-        "winRate": 57.33
+        "name": "shu",
+        "games": 37,
+        "winRate": 56.76
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 96,
-        "winRate": 36.46
+        "games": 97,
+        "winRate": 36.08
       },
       {
         "name": "dravidians",
@@ -377,8 +377,8 @@
       },
       {
         "name": "tupi",
-        "games": 56,
-        "winRate": 39.29
+        "games": 57,
+        "winRate": 38.6
       }
     ]
   },

@@ -315,13 +315,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.3,
+    "winRate": 50.32,
     "playRate": 1.52,
-    "picks": 5284,
+    "picks": 5350,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-13T18:48:52.000Z",
-    "window": "2026-07-17 → 2026-09-13",
+    "updated": "2026-09-14T09:55:08.000Z",
+    "window": "2026-07-17 → 2026-09-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
@@ -332,31 +332,26 @@
         "picks": 223
       },
       "open": {
-        "winRate": 50.13,
+        "winRate": 50.08,
         "playRate": 1.41,
-        "picks": 1183
+        "picks": 1196
       },
       "other": {
         "winRate": 49.66,
         "playRate": 1.53,
-        "picks": 3536
+        "picks": 3580
       },
       "closed": {
-        "winRate": 54.09,
-        "playRate": 1.41,
-        "picks": 342
+        "winRate": 54.42,
+        "playRate": 1.42,
+        "picks": 351
       }
     },
     "strongAgainst": [
       {
         "name": "bohemians",
-        "games": 107,
-        "winRate": 63.55
-      },
-      {
-        "name": "goths",
-        "games": 98,
-        "winRate": 63.27
+        "games": 110,
+        "winRate": 63.64
       },
       {
         "name": "georgians",
@@ -365,8 +360,13 @@
       },
       {
         "name": "shu",
-        "games": 69,
-        "winRate": 60.87
+        "games": 70,
+        "winRate": 61.43
+      },
+      {
+        "name": "goths",
+        "games": 101,
+        "winRate": 61.39
       },
       {
         "name": "gurjaras",
@@ -377,13 +377,13 @@
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 130,
-        "winRate": 41.54
+        "games": 131,
+        "winRate": 41.98
       },
       {
         "name": "poles",
-        "games": 92,
-        "winRate": 42.39
+        "games": 93,
+        "winRate": 43.01
       },
       {
         "name": "bulgarians",
@@ -396,9 +396,9 @@
         "winRate": 43.62
       },
       {
-        "name": "malay",
-        "games": 107,
-        "winRate": 43.93
+        "name": "chinese",
+        "games": 126,
+        "winRate": 43.65
       }
     ]
   },
