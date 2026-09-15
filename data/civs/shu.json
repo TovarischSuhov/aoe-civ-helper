@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.2,
+    "winRate": 52.16,
     "playRate": 1.04,
-    "picks": 3674,
+    "picks": 3708,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-14T20:19:37.000Z",
-    "window": "2026-07-17 → 2026-09-14",
+    "updated": "2026-09-15T09:29:13.000Z",
+    "window": "2026-07-17 → 2026-09-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
-        "winRate": 49.41,
-        "playRate": 1.02,
-        "picks": 255
+        "winRate": 48.85,
+        "playRate": 1.03,
+        "picks": 262
       },
       "other": {
-        "winRate": 51.69,
+        "winRate": 51.67,
         "playRate": 1.02,
-        "picks": 2401
+        "picks": 2421
       },
       "open": {
-        "winRate": 53.33,
+        "winRate": 53.36,
         "playRate": 1.09,
-        "picks": 930
+        "picks": 937
       },
       "nomad": {
         "winRate": 62.5,
@@ -387,13 +387,18 @@
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 54,
-        "winRate": 68.52
+        "games": 55,
+        "winRate": 67.27
+      },
+      {
+        "name": "japanese",
+        "games": 94,
+        "winRate": 62.77
       },
       {
         "name": "jurchens",
-        "games": 50,
-        "winRate": 64
+        "games": 51,
+        "winRate": 62.75
       },
       {
         "name": "mapuche",
@@ -404,11 +409,6 @@
         "name": "wu",
         "games": 40,
         "winRate": 62.5
-      },
-      {
-        "name": "japanese",
-        "games": 93,
-        "winRate": 62.37
       }
     ],
     "weakAgainst": [
@@ -419,18 +419,18 @@
       },
       {
         "name": "georgians",
-        "games": 37,
-        "winRate": 43.24
+        "games": 38,
+        "winRate": 42.11
       },
       {
         "name": "tupi",
-        "games": 41,
-        "winRate": 43.9
+        "games": 42,
+        "winRate": 42.86
       },
       {
-        "name": "vietnamese",
-        "games": 100,
-        "winRate": 44
+        "name": "magyars",
+        "games": 112,
+        "winRate": 43.75
       },
       {
         "name": "muisca",
