@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.46,
+    "winRate": 47.49,
     "playRate": 1.49,
-    "picks": 5421,
+    "picks": 5477,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-16T09:19:41.000Z",
+    "updated": "2026-09-16T19:34:47.000Z",
     "window": "2026-07-17 → 2026-09-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
       "other": {
-        "winRate": 47.76,
+        "winRate": 47.73,
         "playRate": 1.49,
-        "picks": 3618
+        "picks": 3641
       },
       "open": {
-        "winRate": 46.15,
-        "playRate": 1.45,
-        "picks": 1272
+        "winRate": 46.43,
+        "playRate": 1.46,
+        "picks": 1301
       },
       "nomad": {
         "winRate": 48.61,
@@ -350,9 +350,9 @@
         "picks": 144
       },
       "closed": {
-        "winRate": 48.58,
-        "playRate": 1.49,
-        "picks": 387
+        "winRate": 48.34,
+        "playRate": 1.5,
+        "picks": 391
       }
     },
     "strongAgainst": [
@@ -367,11 +367,6 @@
         "winRate": 57.69
       },
       {
-        "name": "khitans",
-        "games": 76,
-        "winRate": 56.58
-      },
-      {
         "name": "wei",
         "games": 82,
         "winRate": 56.1
@@ -380,18 +375,23 @@
         "name": "byzantines",
         "games": 89,
         "winRate": 55.06
+      },
+      {
+        "name": "teutons",
+        "games": 124,
+        "winRate": 54.84
       }
     ],
     "weakAgainst": [
       {
-        "name": "vikings",
-        "games": 103,
-        "winRate": 38.83
-      },
-      {
         "name": "tupi",
         "games": 59,
         "winRate": 38.98
+      },
+      {
+        "name": "vikings",
+        "games": 105,
+        "winRate": 39.05
       },
       {
         "name": "mongols",
@@ -399,14 +399,14 @@
         "winRate": 39.85
       },
       {
-        "name": "celts",
-        "games": 93,
-        "winRate": 40.86
+        "name": "mayans",
+        "games": 113,
+        "winRate": 40.71
       },
       {
-        "name": "mayans",
-        "games": 112,
-        "winRate": 41.07
+        "name": "shu",
+        "games": 68,
+        "winRate": 41.18
       }
     ]
   },

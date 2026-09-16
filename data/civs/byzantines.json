@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.08,
+    "winRate": 49.02,
     "playRate": 1.61,
-    "picks": 5858,
+    "picks": 5914,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-16T09:19:41.000Z",
+    "updated": "2026-09-16T19:34:47.000Z",
     "window": "2026-07-17 → 2026-09-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 48.25,
+        "winRate": 48.27,
         "playRate": 1.56,
-        "picks": 1368
+        "picks": 1390
       },
       "nomad": {
         "winRate": 46.67,
@@ -302,14 +302,14 @@
         "picks": 135
       },
       "other": {
-        "winRate": 49.66,
+        "winRate": 49.61,
         "playRate": 1.63,
-        "picks": 3953
+        "picks": 3983
       },
       "closed": {
-        "winRate": 47.01,
+        "winRate": 46.55,
         "playRate": 1.55,
-        "picks": 402
+        "picks": 406
       }
     },
     "strongAgainst": [
@@ -324,26 +324,26 @@
         "winRate": 59.18
       },
       {
+        "name": "jurchens",
+        "games": 88,
+        "winRate": 56.82
+      },
+      {
         "name": "khitans",
         "games": 76,
         "winRate": 56.58
       },
       {
         "name": "dravidians",
-        "games": 108,
-        "winRate": 56.48
-      },
-      {
-        "name": "jurchens",
-        "games": 87,
-        "winRate": 56.32
+        "games": 109,
+        "winRate": 55.96
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 93,
-        "winRate": 38.71
+        "games": 94,
+        "winRate": 38.3
       },
       {
         "name": "slavs",
@@ -351,14 +351,14 @@
         "winRate": 38.78
       },
       {
+        "name": "chinese",
+        "games": 145,
+        "winRate": 39.31
+      },
+      {
         "name": "malay",
         "games": 116,
         "winRate": 39.66
-      },
-      {
-        "name": "chinese",
-        "games": 143,
-        "winRate": 39.86
       },
       {
         "name": "mapuche",

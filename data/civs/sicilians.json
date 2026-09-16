@@ -303,26 +303,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.97,
+    "winRate": 49.94,
     "playRate": 1.79,
-    "picks": 6534,
+    "picks": 6584,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-16T09:19:41.000Z",
+    "updated": "2026-09-16T19:34:47.000Z",
     "window": "2026-07-17 → 2026-09-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 49.94,
+        "winRate": 49.85,
         "playRate": 1.82,
-        "picks": 1598
+        "picks": 1617
       },
       "other": {
-        "winRate": 50.3,
+        "winRate": 50.29,
         "playRate": 1.83,
-        "picks": 4435
+        "picks": 4466
       },
       "nomad": {
         "winRate": 48.76,
@@ -331,7 +331,7 @@
       },
       "closed": {
         "winRate": 46.58,
-        "playRate": 1.46,
+        "playRate": 1.45,
         "picks": 380
       }
     },
@@ -343,18 +343,18 @@
       },
       {
         "name": "muisca",
-        "games": 69,
-        "winRate": 65.22
+        "games": 70,
+        "winRate": 64.29
       },
       {
         "name": "incas",
-        "games": 109,
-        "winRate": 65.14
+        "games": 111,
+        "winRate": 63.96
       },
       {
         "name": "gurjaras",
-        "games": 86,
-        "winRate": 61.63
+        "games": 88,
+        "winRate": 61.36
       },
       {
         "name": "byzantines",
@@ -364,14 +364,14 @@
     ],
     "weakAgainst": [
       {
+        "name": "romans",
+        "games": 100,
+        "winRate": 38
+      },
+      {
         "name": "japanese",
         "games": 154,
         "winRate": 38.31
-      },
-      {
-        "name": "romans",
-        "games": 99,
-        "winRate": 38.38
       },
       {
         "name": "bohemians",
@@ -384,9 +384,9 @@
         "winRate": 42.4
       },
       {
-        "name": "spanish",
-        "games": 179,
-        "winRate": 44.13
+        "name": "chinese",
+        "games": 180,
+        "winRate": 44.44
       }
     ]
   },

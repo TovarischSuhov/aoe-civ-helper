@@ -357,26 +357,26 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.46,
+    "winRate": 50.45,
     "playRate": 1.89,
-    "picks": 6895,
+    "picks": 6946,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-16T09:19:41.000Z",
+    "updated": "2026-09-16T19:34:47.000Z",
     "window": "2026-07-17 → 2026-09-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 51.38,
+        "winRate": 51.37,
         "playRate": 1.85,
-        "picks": 4484
+        "picks": 4514
       },
       "open": {
-        "winRate": 49.21,
-        "playRate": 2.16,
-        "picks": 1896
+        "winRate": 49.14,
+        "playRate": 2.15,
+        "picks": 1915
       },
       "nomad": {
         "winRate": 50,
@@ -384,16 +384,16 @@
         "picks": 124
       },
       "closed": {
-        "winRate": 46.04,
-        "playRate": 1.51,
-        "picks": 391
+        "winRate": 46.31,
+        "playRate": 1.5,
+        "picks": 393
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 162,
-        "winRate": 64.81
+        "games": 166,
+        "winRate": 65.06
       },
       {
         "name": "britons",
@@ -402,8 +402,8 @@
       },
       {
         "name": "portuguese",
-        "games": 144,
-        "winRate": 58.33
+        "games": 145,
+        "winRate": 58.62
       },
       {
         "name": "jurchens",
@@ -419,8 +419,13 @@
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 170,
-        "winRate": 41.18
+        "games": 171,
+        "winRate": 40.94
+      },
+      {
+        "name": "mapuche",
+        "games": 78,
+        "winRate": 41.03
       },
       {
         "name": "hindustanis",
@@ -428,19 +433,14 @@
         "winRate": 41.5
       },
       {
-        "name": "mapuche",
-        "games": 77,
-        "winRate": 41.56
-      },
-      {
         "name": "mongols",
-        "games": 388,
-        "winRate": 42.01
+        "games": 390,
+        "winRate": 41.79
       },
       {
         "name": "spanish",
-        "games": 166,
-        "winRate": 43.98
+        "games": 168,
+        "winRate": 44.05
       }
     ]
   },
