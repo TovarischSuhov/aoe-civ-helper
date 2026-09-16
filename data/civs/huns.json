@@ -353,26 +353,26 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 51.2,
+    "winRate": 51.23,
     "playRate": 2.07,
-    "picks": 7477,
+    "picks": 7546,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-15T19:42:54.000Z",
-    "window": "2026-07-17 → 2026-09-15",
+    "updated": "2026-09-16T09:19:41.000Z",
+    "window": "2026-07-17 → 2026-09-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 51.26,
+        "winRate": 51.46,
         "playRate": 2.23,
-        "picks": 1941
+        "picks": 1957
       },
       "other": {
-        "winRate": 51.42,
+        "winRate": 51.38,
         "playRate": 2.06,
-        "picks": 4946
+        "picks": 4996
       },
       "nomad": {
         "winRate": 49.71,
@@ -380,16 +380,16 @@
         "picks": 173
       },
       "closed": {
-        "winRate": 48.92,
+        "winRate": 49.05,
         "playRate": 1.62,
-        "picks": 417
+        "picks": 420
       }
     },
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 114,
-        "winRate": 62.28
+        "games": 115,
+        "winRate": 61.74
       },
       {
         "name": "malians",
@@ -402,14 +402,14 @@
         "winRate": 59.83
       },
       {
-        "name": "burmese",
-        "games": 106,
-        "winRate": 59.43
-      },
-      {
         "name": "muisca",
         "games": 86,
         "winRate": 59.3
+      },
+      {
+        "name": "incas",
+        "games": 149,
+        "winRate": 58.39
       }
     ],
     "weakAgainst": [
@@ -424,19 +424,19 @@
         "winRate": 44.05
       },
       {
-        "name": "celts",
-        "games": 133,
-        "winRate": 45.11
-      },
-      {
         "name": "chinese",
         "games": 203,
         "winRate": 45.32
       },
       {
-        "name": "vietnamese",
-        "games": 248,
-        "winRate": 45.97
+        "name": "celts",
+        "games": 135,
+        "winRate": 45.93
+      },
+      {
+        "name": "khitans",
+        "games": 139,
+        "winRate": 46.04
       }
     ]
   },
