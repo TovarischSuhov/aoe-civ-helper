@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.49,
-    "playRate": 1.39,
-    "picks": 5111,
+    "winRate": 53.44,
+    "playRate": 1.4,
+    "picks": 5189,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-16T19:34:47.000Z",
-    "window": "2026-07-17 → 2026-09-16",
+    "updated": "2026-09-17T09:28:46.000Z",
+    "window": "2026-07-17 → 2026-09-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 53.58,
-        "playRate": 1.44,
-        "picks": 1284
+        "winRate": 53.53,
+        "playRate": 1.46,
+        "picks": 1319
       },
       "other": {
-        "winRate": 53.87,
+        "winRate": 53.84,
         "playRate": 1.41,
-        "picks": 3447
+        "picks": 3486
       },
       "nomad": {
         "winRate": 46.24,
@@ -375,31 +375,31 @@
         "picks": 93
       },
       "closed": {
-        "winRate": 50.87,
+        "winRate": 50.52,
         "playRate": 1.1,
-        "picks": 287
+        "picks": 291
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 74,
-        "winRate": 68.92
+        "games": 75,
+        "winRate": 68
       },
       {
         "name": "incas",
-        "games": 89,
-        "winRate": 65.17
+        "games": 90,
+        "winRate": 65.56
+      },
+      {
+        "name": "lithuanians",
+        "games": 91,
+        "winRate": 63.74
       },
       {
         "name": "poles",
         "games": 63,
         "winRate": 63.49
-      },
-      {
-        "name": "lithuanians",
-        "games": 90,
-        "winRate": 63.33
       },
       {
         "name": "muisca",
@@ -410,8 +410,8 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 321,
-        "winRate": 43.93
+        "games": 326,
+        "winRate": 43.25
       },
       {
         "name": "mayans",
@@ -420,18 +420,18 @@
       },
       {
         "name": "spanish",
-        "games": 137,
-        "winRate": 45.26
+        "games": 138,
+        "winRate": 44.93
       },
       {
         "name": "italians",
-        "games": 80,
-        "winRate": 47.5
+        "games": 81,
+        "winRate": 46.91
       },
       {
         "name": "teutons",
-        "games": 96,
-        "winRate": 47.92
+        "games": 98,
+        "winRate": 46.94
       }
     ]
   },
