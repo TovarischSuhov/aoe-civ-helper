@@ -288,31 +288,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.67,
+    "winRate": 49.76,
     "playRate": 1.72,
-    "picks": 6394,
+    "picks": 6461,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-17T09:28:46.000Z",
+    "updated": "2026-09-17T19:44:27.000Z",
     "window": "2026-07-17 → 2026-09-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 43.96,
-        "playRate": 1.72,
-        "picks": 455
+        "winRate": 44.28,
+        "playRate": 1.74,
+        "picks": 463
       },
       "open": {
-        "winRate": 49.91,
-        "playRate": 1.79,
-        "picks": 1617
+        "winRate": 50.03,
+        "playRate": 1.8,
+        "picks": 1651
       },
       "other": {
-        "winRate": 49.98,
+        "winRate": 50.04,
         "playRate": 1.7,
-        "picks": 4188
+        "picks": 4213
       },
       "nomad": {
         "winRate": 56.72,
@@ -322,14 +322,19 @@
     },
     "strongAgainst": [
       {
-        "name": "gurjaras",
-        "games": 93,
-        "winRate": 59.14
+        "name": "byzantines",
+        "games": 110,
+        "winRate": 59.09
       },
       {
-        "name": "byzantines",
-        "games": 107,
-        "winRate": 57.94
+        "name": "gurjaras",
+        "games": 95,
+        "winRate": 57.89
+      },
+      {
+        "name": "incas",
+        "games": 121,
+        "winRate": 57.85
       },
       {
         "name": "jurchens",
@@ -337,21 +342,16 @@
         "winRate": 57.5
       },
       {
-        "name": "incas",
-        "games": 120,
-        "winRate": 57.5
-      },
-      {
-        "name": "poles",
-        "games": 115,
-        "winRate": 57.39
+        "name": "dravidians",
+        "games": 101,
+        "winRate": 57.43
       }
     ],
     "weakAgainst": [
       {
         "name": "armenians",
-        "games": 117,
-        "winRate": 35.04
+        "games": 118,
+        "winRate": 34.75
       },
       {
         "name": "shu",
@@ -359,19 +359,19 @@
         "winRate": 39.13
       },
       {
-        "name": "koreans",
-        "games": 117,
-        "winRate": 43.59
+        "name": "magyars",
+        "games": 176,
+        "winRate": 44.32
       },
       {
-        "name": "magyars",
-        "games": 174,
-        "winRate": 43.68
+        "name": "koreans",
+        "games": 119,
+        "winRate": 44.54
       },
       {
         "name": "celts",
-        "games": 101,
-        "winRate": 44.55
+        "games": 103,
+        "winRate": 44.66
       }
     ]
   },
