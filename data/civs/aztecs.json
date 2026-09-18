@@ -347,31 +347,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.6,
+    "winRate": 50.62,
     "playRate": 1.55,
-    "picks": 5868,
+    "picks": 5911,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-18T09:01:47.000Z",
+    "updated": "2026-09-18T19:03:13.000Z",
     "window": "2026-07-17 → 2026-09-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 49.63,
+        "winRate": 49.39,
         "playRate": 1.51,
-        "picks": 405
+        "picks": 407
       },
       "other": {
-        "winRate": 51.09,
-        "playRate": 1.54,
-        "picks": 3840
+        "winRate": 51.15,
+        "playRate": 1.53,
+        "picks": 3861
       },
       "open": {
-        "winRate": 50.7,
+        "winRate": 50.69,
         "playRate": 1.6,
-        "picks": 1495
+        "picks": 1515
       },
       "nomad": {
         "winRate": 37.5,
@@ -381,14 +381,14 @@
     },
     "strongAgainst": [
       {
-        "name": "mapuche",
-        "games": 62,
-        "winRate": 61.29
-      },
-      {
         "name": "bengalis",
         "games": 98,
         "winRate": 61.22
+      },
+      {
+        "name": "mapuche",
+        "games": 63,
+        "winRate": 60.32
       },
       {
         "name": "bohemians",
@@ -401,9 +401,9 @@
         "winRate": 58.89
       },
       {
-        "name": "wu",
-        "games": 76,
-        "winRate": 57.89
+        "name": "britons",
+        "games": 94,
+        "winRate": 58.51
       }
     ],
     "weakAgainst": [
@@ -419,18 +419,18 @@
       },
       {
         "name": "chinese",
-        "games": 152,
-        "winRate": 41.45
-      },
-      {
-        "name": "bulgarians",
-        "games": 125,
-        "winRate": 44
+        "games": 153,
+        "winRate": 41.18
       },
       {
         "name": "malians",
         "games": 113,
         "winRate": 44.25
+      },
+      {
+        "name": "mongols",
+        "games": 236,
+        "winRate": 44.49
       }
     ]
   },
