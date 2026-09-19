@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.16,
+    "winRate": 48.09,
     "playRate": 1.22,
-    "picks": 4689,
+    "picks": 4724,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-19T08:49:42.000Z",
+    "updated": "2026-09-19T18:37:44.000Z",
     "window": "2026-07-17 → 2026-09-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 49.3,
+        "winRate": 49.1,
         "playRate": 1.25,
-        "picks": 1207
+        "picks": 1226
       },
       "other": {
-        "winRate": 48.61,
+        "winRate": 48.59,
         "playRate": 1.22,
-        "picks": 3096
+        "picks": 3112
       },
       "nomad": {
         "winRate": 39.81,
@@ -323,15 +323,15 @@
       },
       "closed": {
         "winRate": 41.34,
-        "playRate": 1.04,
+        "playRate": 1.03,
         "picks": 283
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 91,
-        "winRate": 67.03
+        "games": 92,
+        "winRate": 67.39
       },
       {
         "name": "italians",
@@ -349,9 +349,9 @@
         "winRate": 58.82
       },
       {
-        "name": "goths",
-        "games": 58,
-        "winRate": 58.62
+        "name": "teutons",
+        "games": 70,
+        "winRate": 58.57
       }
     ],
     "weakAgainst": [
@@ -371,14 +371,14 @@
         "winRate": 39.09
       },
       {
-        "name": "cumans",
-        "games": 92,
-        "winRate": 39.13
-      },
-      {
         "name": "khitans",
         "games": 61,
         "winRate": 39.34
+      },
+      {
+        "name": "dravidians",
+        "games": 78,
+        "winRate": 39.74
       }
     ]
   },
