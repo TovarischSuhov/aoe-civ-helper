@@ -347,12 +347,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.99,
+    "winRate": 51,
     "playRate": 1.73,
-    "picks": 6784,
+    "picks": 6831,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-20T09:18:54.000Z",
+    "updated": "2026-09-20T18:50:40.000Z",
     "window": "2026-07-17 → 2026-09-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -361,17 +361,17 @@
       "open": {
         "winRate": 52.98,
         "playRate": 1.55,
-        "picks": 1544
+        "picks": 1563
       },
       "closed": {
-        "winRate": 48.56,
+        "winRate": 48.69,
         "playRate": 1.51,
-        "picks": 418
+        "picks": 421
       },
       "other": {
-        "winRate": 50.23,
-        "playRate": 1.77,
-        "picks": 4533
+        "winRate": 50.24,
+        "playRate": 1.76,
+        "picks": 4558
       },
       "nomad": {
         "winRate": 55.71,
@@ -392,45 +392,45 @@
       },
       {
         "name": "portuguese",
-        "games": 152,
-        "winRate": 57.89
+        "games": 153,
+        "winRate": 58.17
+      },
+      {
+        "name": "ethiopians",
+        "games": 131,
+        "winRate": 58.02
       },
       {
         "name": "shu",
         "games": 83,
         "winRate": 57.83
-      },
-      {
-        "name": "ethiopians",
-        "games": 130,
-        "winRate": 57.69
       }
     ],
     "weakAgainst": [
-      {
-        "name": "teutons",
-        "games": 103,
-        "winRate": 38.83
-      },
       {
         "name": "romans",
         "games": 90,
         "winRate": 38.89
       },
       {
+        "name": "teutons",
+        "games": 104,
+        "winRate": 39.42
+      },
+      {
         "name": "vikings",
-        "games": 133,
-        "winRate": 41.35
+        "games": 134,
+        "winRate": 41.79
+      },
+      {
+        "name": "wu",
+        "games": 85,
+        "winRate": 42.35
       },
       {
         "name": "aztecs",
-        "games": 130,
-        "winRate": 42.31
-      },
-      {
-        "name": "magyars",
-        "games": 184,
-        "winRate": 42.93
+        "games": 131,
+        "winRate": 42.75
       }
     ]
   },
