@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.27,
+    "winRate": 49.26,
     "playRate": 2.38,
-    "picks": 9531,
+    "picks": 9614,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-21T09:58:52.000Z",
+    "updated": "2026-09-21T20:26:45.000Z",
     "window": "2026-07-17 → 2026-09-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
       "other": {
-        "winRate": 49.19,
+        "winRate": 49.18,
         "playRate": 2.36,
-        "picks": 6144
+        "picks": 6189
       },
       "closed": {
-        "winRate": 48.94,
+        "winRate": 48.81,
         "playRate": 2.67,
-        "picks": 752
+        "picks": 756
       },
       "nomad": {
         "winRate": 42.51,
@@ -352,14 +352,14 @@
       "open": {
         "winRate": 50.04,
         "playRate": 2.4,
-        "picks": 2468
+        "picks": 2502
       }
     },
     "strongAgainst": [
       {
         "name": "britons",
-        "games": 194,
-        "winRate": 60.82
+        "games": 196,
+        "winRate": 60.71
       },
       {
         "name": "jurchens",
@@ -368,18 +368,18 @@
       },
       {
         "name": "goths",
-        "games": 130,
-        "winRate": 57.69
-      },
-      {
-        "name": "armenians",
-        "games": 170,
-        "winRate": 57.06
+        "games": 132,
+        "winRate": 57.58
       },
       {
         "name": "dravidians",
-        "games": 155,
-        "winRate": 56.13
+        "games": 157,
+        "winRate": 56.69
+      },
+      {
+        "name": "armenians",
+        "games": 173,
+        "winRate": 56.65
       }
     ],
     "weakAgainst": [
@@ -387,11 +387,6 @@
         "name": "franks",
         "games": 177,
         "winRate": 33.9
-      },
-      {
-        "name": "mapuche",
-        "games": 98,
-        "winRate": 41.84
       },
       {
         "name": "lithuanians",
@@ -404,9 +399,14 @@
         "winRate": 42.79
       },
       {
-        "name": "malay",
-        "games": 161,
-        "winRate": 44.1
+        "name": "mapuche",
+        "games": 102,
+        "winRate": 43.14
+      },
+      {
+        "name": "magyars",
+        "games": 327,
+        "winRate": 44.04
       }
     ]
   },

@@ -315,12 +315,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.4,
+    "winRate": 50.31,
     "playRate": 1.54,
-    "picks": 6151,
+    "picks": 6215,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-21T09:58:52.000Z",
+    "updated": "2026-09-21T20:26:45.000Z",
     "window": "2026-07-17 → 2026-09-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -332,41 +332,41 @@
         "picks": 223
       },
       "open": {
-        "winRate": 50.41,
+        "winRate": 50.3,
         "playRate": 1.42,
-        "picks": 1462
+        "picks": 1485
       },
       "other": {
-        "winRate": 49.7,
+        "winRate": 49.65,
         "playRate": 1.56,
-        "picks": 4054
+        "picks": 4093
       },
       "closed": {
-        "winRate": 54.37,
+        "winRate": 54.11,
         "playRate": 1.46,
-        "picks": 412
+        "picks": 414
       }
     },
     "strongAgainst": [
       {
         "name": "shu",
-        "games": 79,
-        "winRate": 63.29
+        "games": 80,
+        "winRate": 63.75
       },
       {
         "name": "goths",
-        "games": 114,
-        "winRate": 59.65
-      },
-      {
-        "name": "georgians",
-        "games": 84,
-        "winRate": 59.52
+        "games": 115,
+        "winRate": 60
       },
       {
         "name": "bohemians",
         "games": 124,
         "winRate": 58.87
+      },
+      {
+        "name": "georgians",
+        "games": 85,
+        "winRate": 58.82
       },
       {
         "name": "gurjaras",
@@ -377,8 +377,8 @@
     "weakAgainst": [
       {
         "name": "bulgarians",
-        "games": 105,
-        "winRate": 40.95
+        "games": 106,
+        "winRate": 40.57
       },
       {
         "name": "hindustanis",
@@ -386,19 +386,19 @@
         "winRate": 43.24
       },
       {
-        "name": "celts",
-        "games": 112,
-        "winRate": 43.75
-      },
-      {
         "name": "khmer",
-        "games": 155,
-        "winRate": 43.87
+        "games": 157,
+        "winRate": 43.31
       },
       {
-        "name": "wu",
-        "games": 81,
-        "winRate": 44.44
+        "name": "byzantines",
+        "games": 120,
+        "winRate": 44.17
+      },
+      {
+        "name": "celts",
+        "games": 113,
+        "winRate": 44.25
       }
     ]
   },

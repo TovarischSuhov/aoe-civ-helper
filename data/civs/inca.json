@@ -303,24 +303,24 @@
   "stats": {
     "winRate": 45.29,
     "playRate": 1.71,
-    "picks": 6847,
+    "picks": 6905,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-21T09:58:52.000Z",
+    "updated": "2026-09-21T20:26:45.000Z",
     "window": "2026-07-17 → 2026-09-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/inca",
     "byMapType": {
       "other": {
-        "winRate": 45.06,
+        "winRate": 45.03,
         "playRate": 1.78,
-        "picks": 4636
+        "picks": 4668
       },
       "closed": {
-        "winRate": 45.48,
+        "winRate": 45.26,
         "playRate": 1.3,
-        "picks": 365
+        "picks": 369
       },
       "nomad": {
         "winRate": 44.59,
@@ -328,16 +328,21 @@
         "picks": 148
       },
       "open": {
-        "winRate": 45.94,
+        "winRate": 46.05,
         "playRate": 1.65,
-        "picks": 1698
+        "picks": 1720
       }
     },
     "strongAgainst": [
       {
         "name": "cumans",
-        "games": 105,
-        "winRate": 53.33
+        "games": 106,
+        "winRate": 53.77
+      },
+      {
+        "name": "mapuche",
+        "games": 80,
+        "winRate": 53.75
       },
       {
         "name": "vikings",
@@ -345,46 +350,41 @@
         "winRate": 53.28
       },
       {
-        "name": "mapuche",
-        "games": 79,
-        "winRate": 53.16
-      },
-      {
         "name": "vietnamese",
         "games": 178,
         "winRate": 52.25
       },
       {
-        "name": "koreans",
-        "games": 115,
-        "winRate": 52.17
+        "name": "italians",
+        "games": 160,
+        "winRate": 51.25
       }
     ],
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 94,
-        "winRate": 31.91
+        "games": 95,
+        "winRate": 32.63
       },
       {
         "name": "jurchens",
-        "games": 103,
-        "winRate": 34.95
+        "games": 104,
+        "winRate": 34.62
       },
       {
         "name": "sicilians",
-        "games": 122,
-        "winRate": 35.25
-      },
-      {
-        "name": "romans",
-        "games": 96,
-        "winRate": 36.46
+        "games": 124,
+        "winRate": 35.48
       },
       {
         "name": "khitans",
         "games": 101,
         "winRate": 37.62
+      },
+      {
+        "name": "romans",
+        "games": 98,
+        "winRate": 37.76
       }
     ]
   },
