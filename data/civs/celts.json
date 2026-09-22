@@ -368,31 +368,31 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.91,
+    "winRate": 51.9,
     "playRate": 1.64,
-    "picks": 6609,
+    "picks": 6675,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-21T20:26:45.000Z",
-    "window": "2026-07-17 → 2026-09-21",
+    "updated": "2026-09-22T09:19:44.000Z",
+    "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.04,
-        "playRate": 1.64,
-        "picks": 4308
+        "winRate": 51.01,
+        "playRate": 1.65,
+        "picks": 4336
       },
       "open": {
-        "winRate": 53.98,
-        "playRate": 1.61,
-        "picks": 1684
+        "winRate": 53.96,
+        "playRate": 1.62,
+        "picks": 1716
       },
       "closed": {
-        "winRate": 52.9,
-        "playRate": 1.64,
-        "picks": 465
+        "winRate": 52.87,
+        "playRate": 1.65,
+        "picks": 471
       },
       "nomad": {
         "winRate": 50.66,
@@ -429,29 +429,29 @@
     ],
     "weakAgainst": [
       {
+        "name": "malians",
+        "games": 116,
+        "winRate": 41.38
+      },
+      {
         "name": "shu",
         "games": 77,
         "winRate": 41.56
       },
       {
-        "name": "malians",
-        "games": 114,
-        "winRate": 42.11
-      },
-      {
         "name": "mongols",
-        "games": 352,
-        "winRate": 44.89
+        "games": 353,
+        "winRate": 45.04
       },
       {
         "name": "turks",
-        "games": 125,
-        "winRate": 45.6
+        "games": 126,
+        "winRate": 45.24
       },
       {
-        "name": "japanese",
-        "games": 149,
-        "winRate": 46.31
+        "name": "burgundians",
+        "games": 166,
+        "winRate": 45.78
       }
     ]
   },
