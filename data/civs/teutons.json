@@ -3,7 +3,7 @@
   "internalName": "Teutons",
   "slug": "teutons",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -12,7 +12,7 @@
     "bonuses": [
       "Farms cost -40%",
       "Town Centers +10 garrison capacity; Towers +5 garrison capacity",
-      "Barracks and Stable Units +1/+2 melee armor in Castle/Imperial Age",
+      "Infantry and Mounted Units +1/+2 melee armor in Castle/Imperial Age",
       "Monks +100% healing range",
       "Murder Holes, Herbal Medicine free"
     ],
@@ -83,13 +83,6 @@
         "pic": 91
       },
       {
-        "label": "No Heavy Cavalry Archer",
-        "name": "Heavy Cavalry Archer",
-        "cat": "Unit",
-        "id": "474",
-        "pic": 71
-      },
-      {
         "label": "No Husbandry",
         "name": "Husbandry",
         "cat": "Tech",
@@ -109,13 +102,6 @@
         "cat": "Tech",
         "id": "437",
         "pic": 112
-      },
-      {
-        "label": "No Parthian Tactics",
-        "name": "Parthian Tactics",
-        "cat": "Tech",
-        "id": "436",
-        "pic": 111
       },
       {
         "label": "No Siege Ram",
@@ -188,26 +174,38 @@
       ],
       "weakAgainst": [
         {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
           "slug": "portuguese",
           "name": "Portuguese",
           "internalName": "Portuguese",
-          "why": "their Halberdiers counter your cavalry"
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Onagers shred your infantry"
         },
         {
           "slug": "spanish",
           "name": "Spanish",
           "internalName": "Spanish",
-          "why": "their Halberdiers counter your cavalry"
+          "why": "their Onagers shred your infantry"
         }
       ]
     },
     "maps": {
       "affinity": {
-        "open": "OK",
+        "open": "Weak",
         "closed": "Strong",
         "hybrid": "Weak",
         "water": "Weak",
-        "nomad": "Strong"
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -219,9 +217,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -251,9 +249,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -262,16 +260,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -296,21 +294,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.71,
-    "playRate": 1.84,
-    "picks": 7456,
+    "winRate": 47.79,
+    "playRate": 1.83,
+    "picks": 7504,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
       "closed": {
-        "winRate": 48.48,
-        "playRate": 2.77,
-        "picks": 792
+        "winRate": 48.55,
+        "playRate": 2.76,
+        "picks": 795
       },
       "nomad": {
         "winRate": 42.18,
@@ -318,31 +316,31 @@
         "picks": 147
       },
       "other": {
-        "winRate": 47.43,
+        "winRate": 47.53,
         "playRate": 1.78,
-        "picks": 4704
+        "picks": 4725
       },
       "open": {
-        "winRate": 48.54,
-        "playRate": 1.72,
-        "picks": 1813
+        "winRate": 48.56,
+        "playRate": 1.71,
+        "picks": 1837
       }
     },
     "strongAgainst": [
       {
-        "name": "britons",
-        "games": 165,
-        "winRate": 60.61
+        "name": "tupi",
+        "games": 102,
+        "winRate": 60.78
       },
       {
-        "name": "tupi",
-        "games": 101,
-        "winRate": 60.4
+        "name": "britons",
+        "games": 167,
+        "winRate": 59.88
       },
       {
         "name": "koreans",
-        "games": 111,
-        "winRate": 59.46
+        "games": 112,
+        "winRate": 58.93
       },
       {
         "name": "aztecs",
@@ -357,19 +355,19 @@
     ],
     "weakAgainst": [
       {
-        "name": "magyars",
-        "games": 166,
-        "winRate": 38.55
-      },
-      {
         "name": "mongols",
         "games": 280,
         "winRate": 38.57
       },
       {
+        "name": "magyars",
+        "games": 168,
+        "winRate": 38.69
+      },
+      {
         "name": "chinese",
-        "games": 167,
-        "winRate": 40.12
+        "games": 169,
+        "winRate": 40.83
       },
       {
         "name": "spanish",

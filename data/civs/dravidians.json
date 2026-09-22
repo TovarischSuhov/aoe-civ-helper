@@ -3,7 +3,7 @@
   "internalName": "Dravidians",
   "slug": "dravidians",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -238,9 +238,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -270,9 +270,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -281,16 +281,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -315,12 +315,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.31,
+    "winRate": 50.36,
     "playRate": 1.54,
-    "picks": 6269,
+    "picks": 6321,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -332,19 +332,19 @@
         "picks": 223
       },
       "open": {
-        "winRate": 50.3,
+        "winRate": 50.36,
         "playRate": 1.42,
-        "picks": 1503
+        "picks": 1525
       },
       "other": {
-        "winRate": 49.7,
+        "winRate": 49.73,
         "playRate": 1.56,
-        "picks": 4123
+        "picks": 4150
       },
       "closed": {
-        "winRate": 53.57,
+        "winRate": 53.66,
         "playRate": 1.47,
-        "picks": 420
+        "picks": 423
       }
     },
     "strongAgainst": [
@@ -359,26 +359,26 @@
         "winRate": 60
       },
       {
+        "name": "bohemians",
+        "games": 127,
+        "winRate": 59.06
+      },
+      {
         "name": "gurjaras",
         "games": 107,
         "winRate": 58.88
       },
       {
-        "name": "bohemians",
-        "games": 124,
-        "winRate": 58.87
-      },
-      {
         "name": "georgians",
-        "games": 86,
-        "winRate": 58.14
+        "games": 87,
+        "winRate": 58.62
       }
     ],
     "weakAgainst": [
       {
         "name": "bulgarians",
-        "games": 106,
-        "winRate": 40.57
+        "games": 108,
+        "winRate": 40.74
       },
       {
         "name": "hindustanis",
@@ -386,19 +386,19 @@
         "winRate": 43.36
       },
       {
-        "name": "khmer",
-        "games": 159,
-        "winRate": 43.4
-      },
-      {
         "name": "byzantines",
-        "games": 120,
-        "winRate": 44.17
+        "games": 122,
+        "winRate": 43.44
       },
       {
-        "name": "celts",
-        "games": 113,
-        "winRate": 44.25
+        "name": "khmer",
+        "games": 162,
+        "winRate": 43.83
+      },
+      {
+        "name": "chinese",
+        "games": 150,
+        "winRate": 44.67
       }
     ]
   },

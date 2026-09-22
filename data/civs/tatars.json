@@ -3,7 +3,7 @@
   "internalName": "Tatars",
   "slug": "tatars",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -258,9 +258,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -290,9 +290,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -301,16 +301,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.17,
-    "playRate": 1.66,
-    "picks": 6735,
+    "winRate": 48.27,
+    "playRate": 1.65,
+    "picks": 6776,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 49.56,
+        "winRate": 49.89,
         "playRate": 1.71,
-        "picks": 1810
+        "picks": 1832
       },
       "nomad": {
         "winRate": 45.6,
@@ -357,14 +357,14 @@
         "picks": 125
       },
       "other": {
-        "winRate": 47.9,
+        "winRate": 47.91,
         "playRate": 1.67,
-        "picks": 4413
+        "picks": 4431
       },
       "closed": {
-        "winRate": 45.48,
+        "winRate": 45.62,
         "playRate": 1.35,
-        "picks": 387
+        "picks": 388
       }
     },
     "strongAgainst": [
@@ -374,19 +374,19 @@
         "winRate": 59
       },
       {
-        "name": "jurchens",
-        "games": 109,
-        "winRate": 58.72
-      },
-      {
         "name": "lithuanians",
         "games": 122,
         "winRate": 58.2
       },
       {
+        "name": "jurchens",
+        "games": 113,
+        "winRate": 57.52
+      },
+      {
         "name": "muisca",
-        "games": 69,
-        "winRate": 56.52
+        "games": 71,
+        "winRate": 56.34
       },
       {
         "name": "georgians",
@@ -401,14 +401,14 @@
         "winRate": 35.86
       },
       {
-        "name": "malians",
-        "games": 109,
-        "winRate": 40.37
-      },
-      {
         "name": "bohemians",
         "games": 118,
         "winRate": 40.68
+      },
+      {
+        "name": "malians",
+        "games": 111,
+        "winRate": 41.44
       },
       {
         "name": "vikings",
@@ -416,9 +416,9 @@
         "winRate": 41.91
       },
       {
-        "name": "dravidians",
-        "games": 99,
-        "winRate": 42.42
+        "name": "britons",
+        "games": 135,
+        "winRate": 42.22
       }
     ]
   },

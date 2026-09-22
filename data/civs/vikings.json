@@ -3,7 +3,7 @@
   "internalName": "Vikings",
   "slug": "vikings",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -16,12 +16,11 @@
     ],
     "teamBonus": "Docks cost -15%",
     "uniqueUnits": [
-      "Berserk (Infantry)",
-      "Longboat (Warship)"
+      "Berserk (Infantry)"
     ],
     "uniqueTechs": [
       {
-        "display": "Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units; generate +5 gold when defeating Villagers, Trade Units and Monks)",
+        "display": "Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units)",
         "name": "Chieftains",
         "cost": {
           "food": 600,
@@ -30,7 +29,7 @@
         "pic": 33
       },
       {
-        "display": "Bogsveigar (Archer-line and Longboats +1 attack)",
+        "display": "Bogsveigar (Archer-line and Longships +1 attack)",
         "name": "Bogsveigar",
         "cost": {
           "food": 650,
@@ -71,38 +70,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "250",
-        "name": "Longboat",
-        "role": "Warship",
-        "elite": true,
-        "tiers": [
-          {
-            "name": "Longboat",
-            "pic": 40,
-            "hp": 125,
-            "attack": 5,
-            "range": 6,
-            "speed": 1.46,
-            "cost": {
-              "wood": 100,
-              "gold": 50
-            }
-          },
-          {
-            "name": "Elite Longboat",
-            "pic": 474,
-            "hp": 130,
-            "attack": 7,
-            "range": 7,
-            "speed": 1.46,
-            "cost": {
-              "food": 750,
-              "gold": 475
-            }
-          }
-        ]
       }
     ],
     "techGaps": [
@@ -119,13 +86,6 @@
         "cat": "Unit",
         "id": "569",
         "pic": 2
-      },
-      {
-        "label": "No Heavy Cavalry Archer",
-        "name": "Heavy Cavalry Archer",
-        "cat": "Unit",
-        "id": "474",
-        "pic": 71
       },
       {
         "label": "No Bloodlines",
@@ -149,18 +109,18 @@
         "pic": 112
       },
       {
-        "label": "No Parthian Tactics",
-        "name": "Parthian Tactics",
-        "cat": "Tech",
-        "id": "436",
-        "pic": 111
-      },
-      {
         "label": "No Halberdier",
         "name": "Halberdier",
         "cat": "Unit",
         "id": "359",
         "pic": 104
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
       },
       {
         "label": "No Bombard Cannon",
@@ -231,7 +191,7 @@
       "castle": "~15:30",
       "imperial": "~27:00",
       "heuristic": true,
-      "note": "Economy bonuses present — can hit up-times faster than baseline; age/upgrade discount speeds key transitions."
+      "note": "No notable economy bonus — standard up-times; age/upgrade discount speeds key transitions."
     },
     "matchups": {
       "strongAgainst": [
@@ -304,7 +264,7 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Strong",
+        "water": "OK",
         "nomad": "Weak"
       },
       "byMap": {
@@ -317,9 +277,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -349,9 +309,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -360,16 +320,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -398,31 +358,31 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.49,
+    "winRate": 52.47,
     "playRate": 1.83,
-    "picks": 7424,
+    "picks": 7498,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 51.84,
-        "playRate": 1.9,
-        "picks": 2008
+        "winRate": 51.83,
+        "playRate": 1.91,
+        "picks": 2047
       },
       "other": {
-        "winRate": 52.51,
+        "winRate": 52.5,
         "playRate": 1.85,
-        "picks": 4887
+        "picks": 4920
       },
       "closed": {
-        "winRate": 53.89,
+        "winRate": 53.61,
         "playRate": 1.35,
-        "picks": 386
+        "picks": 388
       },
       "nomad": {
         "winRate": 57.34,
@@ -433,23 +393,23 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 114,
-        "winRate": 64.04
+        "games": 118,
+        "winRate": 63.56
       },
       {
         "name": "berbers",
-        "games": 138,
-        "winRate": 63.04
+        "games": 139,
+        "winRate": 63.31
       },
       {
         "name": "burmese",
-        "games": 116,
-        "winRate": 62.07
+        "games": 117,
+        "winRate": 62.39
       },
       {
         "name": "burgundians",
-        "games": 160,
-        "winRate": 60
+        "games": 162,
+        "winRate": 59.88
       },
       {
         "name": "koreans",
@@ -459,24 +419,24 @@
     ],
     "weakAgainst": [
       {
-        "name": "spanish",
-        "games": 189,
-        "winRate": 43.92
-      },
-      {
         "name": "tupi",
         "games": 107,
         "winRate": 43.93
       },
       {
+        "name": "spanish",
+        "games": 190,
+        "winRate": 44.21
+      },
+      {
         "name": "romans",
-        "games": 89,
-        "winRate": 44.94
+        "games": 90,
+        "winRate": 44.44
       },
       {
         "name": "malay",
-        "games": 137,
-        "winRate": 45.26
+        "games": 140,
+        "winRate": 45.71
       },
       {
         "name": "britons",

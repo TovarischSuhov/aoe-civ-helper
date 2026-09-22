@@ -3,7 +3,7 @@
   "internalName": "Sicilians",
   "slug": "sicilians",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -90,25 +90,11 @@
         "pic": 2
       },
       {
-        "label": "No Heavy Cavalry Archer",
-        "name": "Heavy Cavalry Archer",
-        "cat": "Unit",
-        "id": "474",
-        "pic": 71
-      },
-      {
         "label": "No Thumb Ring",
         "name": "Thumb Ring",
         "cat": "Tech",
         "id": "437",
         "pic": 112
-      },
-      {
-        "label": "No Parthian Tactics",
-        "name": "Parthian Tactics",
-        "cat": "Tech",
-        "id": "436",
-        "pic": 111
       },
       {
         "label": "No Bombard Cannon",
@@ -226,9 +212,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -258,9 +244,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -269,16 +255,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -303,26 +289,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.95,
-    "playRate": 1.79,
-    "picks": 7251,
+    "winRate": 49.92,
+    "playRate": 1.78,
+    "picks": 7304,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "open": {
-        "winRate": 49.71,
-        "playRate": 1.8,
-        "picks": 1899
+        "winRate": 49.56,
+        "playRate": 1.79,
+        "picks": 1923
       },
       "other": {
-        "winRate": 50.47,
-        "playRate": 1.83,
-        "picks": 4813
+        "winRate": 50.48,
+        "playRate": 1.82,
+        "picks": 4840
       },
       "nomad": {
         "winRate": 48.76,
@@ -330,16 +316,16 @@
         "picks": 121
       },
       "closed": {
-        "winRate": 45.45,
+        "winRate": 45.48,
         "playRate": 1.46,
-        "picks": 418
+        "picks": 420
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 125,
-        "winRate": 64
+        "games": 126,
+        "winRate": 64.29
       },
       {
         "name": "hindustanis",
@@ -353,8 +339,8 @@
       },
       {
         "name": "gurjaras",
-        "games": 102,
-        "winRate": 60.78
+        "games": 103,
+        "winRate": 60.19
       },
       {
         "name": "byzantines",
@@ -365,8 +351,8 @@
     "weakAgainst": [
       {
         "name": "japanese",
-        "games": 166,
-        "winRate": 37.95
+        "games": 167,
+        "winRate": 37.72
       },
       {
         "name": "romans",
@@ -380,8 +366,8 @@
       },
       {
         "name": "spanish",
-        "games": 195,
-        "winRate": 43.59
+        "games": 197,
+        "winRate": 43.65
       },
       {
         "name": "mayans",

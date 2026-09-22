@@ -3,7 +3,7 @@
   "internalName": "Poles",
   "slug": "poles",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -100,13 +100,6 @@
         "cat": "Unit",
         "id": "569",
         "pic": 2
-      },
-      {
-        "label": "No Parthian Tactics",
-        "name": "Parthian Tactics",
-        "cat": "Tech",
-        "id": "436",
-        "pic": 111
       },
       {
         "label": "No Halberdier",
@@ -270,9 +263,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -302,9 +295,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -313,16 +306,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -347,26 +340,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.72,
+    "winRate": 49.52,
     "playRate": 1.83,
-    "picks": 7431,
+    "picks": 7510,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
       "other": {
-        "winRate": 49.2,
+        "winRate": 48.99,
         "playRate": 1.79,
-        "picks": 4705
+        "picks": 4752
       },
       "closed": {
-        "winRate": 56.62,
-        "playRate": 2.78,
-        "picks": 793
+        "winRate": 56.39,
+        "playRate": 2.77,
+        "picks": 798
       },
       "nomad": {
         "winRate": 45.28,
@@ -374,16 +367,16 @@
         "picks": 159
       },
       "open": {
-        "winRate": 48.42,
+        "winRate": 48.25,
         "playRate": 1.68,
-        "picks": 1774
+        "picks": 1801
       }
     },
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 190,
-        "winRate": 63.68
+        "games": 195,
+        "winRate": 62.56
       },
       {
         "name": "portuguese",
@@ -397,40 +390,40 @@
       },
       {
         "name": "armenians",
-        "games": 142,
-        "winRate": 56.34
+        "games": 143,
+        "winRate": 55.94
       },
       {
-        "name": "incas",
-        "games": 156,
-        "winRate": 55.77
+        "name": "lithuanians",
+        "games": 145,
+        "winRate": 55.86
       }
     ],
     "weakAgainst": [
       {
-        "name": "persians",
-        "games": 164,
-        "winRate": 38.41
+        "name": "romans",
+        "games": 71,
+        "winRate": 38.03
       },
       {
-        "name": "romans",
-        "games": 70,
-        "winRate": 38.57
+        "name": "persians",
+        "games": 165,
+        "winRate": 38.79
       },
       {
         "name": "malay",
-        "games": 134,
-        "winRate": 39.55
+        "games": 136,
+        "winRate": 39.71
       },
       {
         "name": "chinese",
-        "games": 158,
-        "winRate": 42.41
+        "games": 161,
+        "winRate": 42.24
       },
       {
         "name": "italians",
-        "games": 164,
-        "winRate": 42.68
+        "games": 166,
+        "winRate": 42.77
       }
     ]
   },

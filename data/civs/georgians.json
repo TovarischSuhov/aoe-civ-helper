@@ -3,7 +3,7 @@
   "internalName": "Georgians",
   "slug": "georgians",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -218,9 +218,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -250,9 +250,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -261,16 +261,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -295,12 +295,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.49,
+    "winRate": 48.48,
     "playRate": 1.22,
-    "picks": 4947,
+    "picks": 4984,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -309,12 +309,12 @@
       "open": {
         "winRate": 49.96,
         "playRate": 1.24,
-        "picks": 1313
+        "picks": 1325
       },
       "other": {
-        "winRate": 48.67,
+        "winRate": 48.65,
         "playRate": 1.23,
-        "picks": 3234
+        "picks": 3256
       },
       "nomad": {
         "winRate": 39.81,
@@ -322,9 +322,9 @@
         "picks": 103
       },
       "closed": {
-        "winRate": 43.1,
+        "winRate": 43,
         "playRate": 1.04,
-        "picks": 297
+        "picks": 300
       }
     },
     "strongAgainst": [
@@ -339,11 +339,6 @@
         "winRate": 62.04
       },
       {
-        "name": "shu",
-        "games": 47,
-        "winRate": 59.57
-      },
-      {
         "name": "burmese",
         "games": 76,
         "winRate": 59.21
@@ -352,6 +347,11 @@
         "name": "teutons",
         "games": 78,
         "winRate": 58.97
+      },
+      {
+        "name": "goths",
+        "games": 66,
+        "winRate": 57.58
       }
     ],
     "weakAgainst": [
@@ -376,9 +376,9 @@
         "winRate": 40
       },
       {
-        "name": "malians",
-        "games": 77,
-        "winRate": 41.56
+        "name": "dravidians",
+        "games": 87,
+        "winRate": 41.38
       }
     ]
   },

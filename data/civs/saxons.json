@@ -1,72 +1,73 @@
 {
-  "id": "Magyars",
-  "internalName": "Magyars",
-  "slug": "magyars",
+  "id": "Saxons",
+  "internalName": "Saxons",
+  "slug": "saxons",
   "version": {
     "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
   "facts": {
-    "armyType": "Cavalry civilization",
+    "armyType": "Infantry and Defensive civilization",
     "bonuses": [
-      "Villagers defeat wolves with one strike",
-      "Scout Cavalry-line costs -15%",
-      "Melee attack upgrades free"
+      "Mills, Lumber- and Mining Camps provide +35 food and +10 stone when built",
+      "Foot Soldiers cost -5% per Town Center or Castle controlled (maximum -20%)",
+      "Towers and Castles fire +100% base arrows starting in Castle Age",
+      "Longships and Catapult Galleons +20% HP"
     ],
-    "teamBonus": "Mounted Archers train +25% faster",
+    "teamBonus": "Repairers work +25% faster",
     "uniqueUnits": [
-      "Magyar Huszar (Cavalry)"
+      "Hearth Troop (Infantry)"
     ],
     "uniqueTechs": [
       {
-        "display": "Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost)",
-        "name": "Corvinian Army",
+        "display": "Clerical Recruitment (Monks +1 conversion range; train +33% faster)",
+        "name": "Clerical Recruitment",
         "cost": {
-          "food": 200,
-          "gold": 300
+          "food": 350,
+          "gold": 200
         },
-        "pic": 33
+        "pic": null
       },
       {
-        "display": "Recurve Bow (Mounted Archers +1 attack, +1 range)",
-        "name": "Recurve Bow",
+        "display": "Shield Wall (Infantry gain additional armor when massed)",
+        "name": "Shield Wall",
         "cost": {
-          "wood": 600,
-          "gold": 400
+          "food": 525,
+          "gold": 475
         },
-        "pic": 107
+        "pic": null
       }
     ],
     "keyUnits": [
       {
-        "id": "869",
-        "name": "Magyar Huszar",
-        "role": "Cavalry",
+        "id": "2705",
+        "name": "Hearth Troop",
+        "role": "Infantry",
         "elite": true,
         "tiers": [
           {
-            "name": "Magyar Huszar",
-            "pic": 99,
-            "hp": 80,
-            "attack": 10,
+            "name": "Hearth Troop",
+            "pic": null,
+            "hp": 75,
+            "attack": 9,
             "range": 0,
-            "speed": 1.5,
+            "speed": 0.9,
             "cost": {
-              "food": 35,
-              "gold": 45
+              "wood": 80,
+              "gold": 35
             }
           },
           {
-            "name": "Elite Magyar Huszar",
-            "pic": 493,
-            "hp": 90,
-            "attack": 11,
+            "name": "Elite Hearth Troop",
+            "pic": null,
+            "hp": 85,
+            "attack": 12,
             "range": 0,
-            "speed": 1.5,
+            "speed": 0.9,
             "cost": {
-              "food": 800,
-              "gold": 600
+              "wood": 750,
+              "gold": 700
             }
           }
         ]
@@ -74,18 +75,11 @@
     ],
     "techGaps": [
       {
-        "label": "No Gambesons",
-        "name": "Gambesons",
-        "cat": "Tech",
-        "id": "875",
-        "pic": 116
-      },
-      {
-        "label": "No Siege Ram",
-        "name": "Siege Ram",
+        "label": "No Paladin",
+        "name": "Paladin",
         "cat": "Unit",
-        "id": "548",
-        "pic": 73
+        "id": "569",
+        "pic": 2
       },
       {
         "label": "No Bombard Cannon",
@@ -95,18 +89,25 @@
         "pic": 30
       },
       {
-        "label": "No Plate Mail Armor",
-        "name": "Plate Mail Armor",
-        "cat": "Tech",
-        "id": "77",
-        "pic": 64
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
       },
       {
-        "label": "No Keep",
-        "name": "Keep",
+        "label": "No Blast Furnace",
+        "name": "Blast Furnace",
         "cat": "Tech",
-        "id": "63",
-        "pic": 16
+        "id": "75",
+        "pic": 21
+      },
+      {
+        "label": "No Plate Barding Armor",
+        "name": "Plate Barding Armor",
+        "cat": "Tech",
+        "id": "80",
+        "pic": 65
       },
       {
         "label": "No Bombard Tower",
@@ -114,13 +115,6 @@
         "cat": "Tech",
         "id": "64",
         "pic": 47
-      },
-      {
-        "label": "No Redemption",
-        "name": "Redemption",
-        "cat": "Tech",
-        "id": "316",
-        "pic": 92
       }
     ],
     "genericTimings": {
@@ -165,25 +159,37 @@
       ],
       "weakAgainst": [
         {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Onagers shred your infantry"
+        },
+        {
           "slug": "portuguese",
           "name": "Portuguese",
           "internalName": "Portuguese",
-          "why": "their Halberdiers counter your cavalry"
+          "why": "their Onagers shred your infantry"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Onagers shred your infantry"
         },
         {
           "slug": "spanish",
           "name": "Spanish",
           "internalName": "Spanish",
-          "why": "their Halberdiers counter your cavalry"
+          "why": "their Onagers shred your infantry"
         }
       ]
     },
     "maps": {
       "affinity": {
-        "open": "OK",
-        "closed": "Weak",
-        "hybrid": "Weak",
-        "water": "Weak",
+        "open": "Weak",
+        "closed": "Strong",
+        "hybrid": "Strong",
+        "water": "Strong",
         "nomad": "OK"
       },
       "byMap": {
@@ -273,90 +279,55 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.69,
-    "playRate": 3.07,
-    "picks": 12560,
+    "winRate": 49.07,
+    "playRate": 0.03,
+    "picks": 108,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
     "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
-    "sourceCiv": "https://aoestats.io/civs/magyars",
+    "sourceCiv": "https://aoestats.io/civs/saxons",
     "byMapType": {
       "other": {
-        "winRate": 49.01,
-        "playRate": 2.99,
-        "picks": 7941
-      },
-      "open": {
-        "winRate": 48.31,
-        "playRate": 3.45,
-        "picks": 3695
+        "winRate": 46.38,
+        "playRate": 0.03,
+        "picks": 69
       },
       "closed": {
-        "winRate": 47.56,
-        "playRate": 2.57,
-        "picks": 738
+        "winRate": 41.67,
+        "playRate": 0.04,
+        "picks": 12
       },
-      "nomad": {
-        "winRate": 46.77,
-        "playRate": 2.22,
-        "picks": 186
+      "open": {
+        "winRate": 59.26,
+        "playRate": 0.03,
+        "picks": 27
       }
     },
     "strongAgainst": [
       {
-        "name": "teutons",
-        "games": 168,
-        "winRate": 61.31
+        "name": "varangians",
+        "games": 20,
+        "winRate": 65
       },
       {
-        "name": "lithuanians",
-        "games": 263,
-        "winRate": 59.7
-      },
-      {
-        "name": "muisca",
-        "games": 124,
-        "winRate": 56.45
-      },
-      {
-        "name": "bulgarians",
-        "games": 197,
-        "winRate": 56.35
-      },
-      {
-        "name": "koreans",
-        "games": 193,
-        "winRate": 55.96
+        "name": "danes",
+        "games": 21,
+        "winRate": 47.62
       }
     ],
     "weakAgainst": [
       {
-        "name": "japanese",
-        "games": 346,
-        "winRate": 41.04
+        "name": "danes",
+        "games": 21,
+        "winRate": 47.62
       },
       {
-        "name": "mayans",
-        "games": 256,
-        "winRate": 42.19
-      },
-      {
-        "name": "persians",
-        "games": 365,
-        "winRate": 42.74
-      },
-      {
-        "name": "armenians",
-        "games": 218,
-        "winRate": 43.12
-      },
-      {
-        "name": "celts",
-        "games": 167,
-        "winRate": 43.71
+        "name": "varangians",
+        "games": 20,
+        "winRate": 65
       }
     ]
   },

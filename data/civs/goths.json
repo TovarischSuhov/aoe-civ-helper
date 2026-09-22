@@ -3,7 +3,7 @@
   "internalName": "Goths",
   "slug": "goths",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -259,9 +259,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -291,9 +291,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -302,16 +302,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -336,21 +336,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.13,
+    "winRate": 48.18,
     "playRate": 1.42,
-    "picks": 5778,
+    "picks": 5824,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 48.49,
+        "winRate": 48.53,
         "playRate": 1.43,
-        "picks": 3764
+        "picks": 3785
       },
       "nomad": {
         "winRate": 41.59,
@@ -358,14 +358,14 @@
         "picks": 113
       },
       "closed": {
-        "winRate": 48.4,
-        "playRate": 1.32,
-        "picks": 376
+        "winRate": 48.28,
+        "playRate": 1.31,
+        "picks": 377
       },
       "open": {
-        "winRate": 47.67,
-        "playRate": 1.44,
-        "picks": 1525
+        "winRate": 47.77,
+        "playRate": 1.45,
+        "picks": 1549
       }
     },
     "strongAgainst": [
@@ -380,19 +380,19 @@
         "winRate": 58.42
       },
       {
-        "name": "britons",
-        "games": 126,
-        "winRate": 57.94
-      },
-      {
         "name": "mapuche",
         "games": 71,
         "winRate": 57.75
       },
       {
-        "name": "wu",
-        "games": 91,
-        "winRate": 56.04
+        "name": "britons",
+        "games": 127,
+        "winRate": 57.48
+      },
+      {
+        "name": "berbers",
+        "games": 114,
+        "winRate": 56.14
       }
     ],
     "weakAgainst": [
@@ -403,8 +403,8 @@
       },
       {
         "name": "spanish",
-        "games": 139,
-        "winRate": 38.13
+        "games": 141,
+        "winRate": 38.3
       },
       {
         "name": "portuguese",
@@ -417,9 +417,9 @@
         "winRate": 40
       },
       {
-        "name": "georgians",
-        "games": 65,
-        "winRate": 41.54
+        "name": "japanese",
+        "games": 151,
+        "winRate": 41.06
       }
     ]
   },

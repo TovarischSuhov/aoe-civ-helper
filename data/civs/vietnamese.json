@@ -3,7 +3,7 @@
   "internalName": "Vietnamese",
   "slug": "vietnamese",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -12,7 +12,7 @@
     "bonuses": [
       "Enemy Town Centers are revealed at the start of the game",
       "Economic upgrades cost no wood and research +100% faster",
-      "Archery Range units and Fire Lancers +20% HP",
+      "Foot Archers and Skirmishers +20% HP",
       "Conscription free"
     ],
     "teamBonus": "Imperial Skirmisher upgrade available in Imperial Age",
@@ -50,7 +50,7 @@
           {
             "name": "Rattan Archer",
             "pic": 232,
-            "hp": 40,
+            "hp": 35,
             "attack": 6,
             "range": 4,
             "speed": 1.1,
@@ -62,12 +62,12 @@
           {
             "name": "Elite Rattan Archer",
             "pic": 505,
-            "hp": 45,
+            "hp": 40,
             "attack": 7,
             "range": 5,
             "speed": 1.1,
             "cost": {
-              "food": 1000,
+              "food": 800,
               "gold": 750
             }
           }
@@ -186,13 +186,13 @@
           "slug": "armenians",
           "name": "Armenians",
           "internalName": "Armenians",
-          "why": "your Onagers shred their infantry"
+          "why": "your archers kite their infantry"
         },
         {
           "slug": "aztecs",
           "name": "Aztecs",
           "internalName": "Aztecs",
-          "why": "your Onagers shred their infantry"
+          "why": "your archers kite their infantry"
         },
         {
           "slug": "bengalis",
@@ -210,31 +210,43 @@
           "slug": "bohemians",
           "name": "Bohemians",
           "internalName": "Bohemians",
-          "why": "your Onagers shred their infantry"
+          "why": "your archers kite their infantry"
         }
       ],
       "weakAgainst": [
         {
+          "slug": "hindustanis",
+          "name": "Hindustanis",
+          "internalName": "Hindustanis",
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
           "slug": "portuguese",
           "name": "Portuguese",
           "internalName": "Portuguese",
-          "why": "their Halberdiers counter your cavalry"
+          "why": "their Elite Skirmishers counter your archers"
+        },
+        {
+          "slug": "saracens",
+          "name": "Saracens",
+          "internalName": "Saracens",
+          "why": "their Elite Skirmishers counter your archers"
         },
         {
           "slug": "spanish",
           "name": "Spanish",
           "internalName": "Spanish",
-          "why": "their Halberdiers counter your cavalry"
+          "why": "their Elite Skirmishers counter your archers"
         }
       ]
     },
     "maps": {
       "affinity": {
-        "open": "OK",
+        "open": "Weak",
         "closed": "Strong",
         "hybrid": "Weak",
         "water": "Weak",
-        "nomad": "Strong"
+        "nomad": "OK"
       },
       "byMap": {
         "open": {
@@ -246,9 +258,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -278,9 +290,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -289,16 +301,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -323,31 +335,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.05,
-    "playRate": 2.98,
-    "picks": 12090,
+    "winRate": 50.03,
+    "playRate": 2.97,
+    "picks": 12184,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
       "closed": {
-        "winRate": 49.86,
-        "playRate": 2.51,
-        "picks": 716
+        "winRate": 49.93,
+        "playRate": 2.5,
+        "picks": 719
       },
       "other": {
-        "winRate": 49.81,
+        "winRate": 49.83,
         "playRate": 2.89,
-        "picks": 7615
+        "picks": 7662
       },
       "open": {
-        "winRate": 50.88,
+        "winRate": 50.76,
         "playRate": 3.34,
-        "picks": 3532
+        "picks": 3576
       },
       "nomad": {
         "winRate": 45.81,
@@ -358,8 +370,8 @@
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 162,
-        "winRate": 59.26
+        "games": 163,
+        "winRate": 59.51
       },
       {
         "name": "saracens",
@@ -373,8 +385,8 @@
       },
       {
         "name": "teutons",
-        "games": 174,
-        "winRate": 56.9
+        "games": 175,
+        "winRate": 56.57
       },
       {
         "name": "berbers",
@@ -385,8 +397,8 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 270,
-        "winRate": 39.63
+        "games": 273,
+        "winRate": 39.93
       },
       {
         "name": "tupi",
@@ -395,18 +407,18 @@
       },
       {
         "name": "chinese",
-        "games": 348,
-        "winRate": 43.1
+        "games": 351,
+        "winRate": 42.74
       },
       {
         "name": "byzantines",
-        "games": 163,
-        "winRate": 44.79
+        "games": 166,
+        "winRate": 45.18
       },
       {
         "name": "malay",
-        "games": 195,
-        "winRate": 46.15
+        "games": 196,
+        "winRate": 45.92
       }
     ]
   },

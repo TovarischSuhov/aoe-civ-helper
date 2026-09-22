@@ -3,7 +3,7 @@
   "internalName": "Armenians",
   "slug": "armenians",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -141,13 +141,6 @@
         "pic": 85
       },
       {
-        "label": "No Dry Dock",
-        "name": "Dry Dock",
-        "cat": "Tech",
-        "id": "375",
-        "pic": 99
-      },
-      {
         "label": "No Shipwright",
         "name": "Shipwright",
         "cat": "Tech",
@@ -248,7 +241,7 @@
         "open": "Weak",
         "closed": "OK",
         "hybrid": "Weak",
-        "water": "Strong",
+        "water": "OK",
         "nomad": "Weak"
       },
       "byMap": {
@@ -261,9 +254,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -293,9 +286,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -304,16 +297,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -372,21 +365,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.92,
+    "winRate": 49.91,
     "playRate": 1.77,
-    "picks": 7175,
+    "picks": 7233,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
       "closed": {
-        "winRate": 51.04,
-        "playRate": 1.86,
-        "picks": 531
+        "winRate": 51.48,
+        "playRate": 1.88,
+        "picks": 542
       },
       "nomad": {
         "winRate": 50.74,
@@ -394,26 +387,26 @@
         "picks": 136
       },
       "open": {
-        "winRate": 50.13,
-        "playRate": 1.8,
-        "picks": 1901
+        "winRate": 50,
+        "playRate": 1.79,
+        "picks": 1920
       },
       "other": {
-        "winRate": 49.69,
+        "winRate": 49.67,
         "playRate": 1.75,
-        "picks": 4607
+        "picks": 4635
       }
     },
     "strongAgainst": [
       {
         "name": "bulgarians",
-        "games": 127,
-        "winRate": 65.35
+        "games": 129,
+        "winRate": 64.34
       },
       {
         "name": "tupi",
-        "games": 91,
-        "winRate": 60.44
+        "games": 92,
+        "winRate": 59.78
       },
       {
         "name": "incas",
@@ -422,20 +415,20 @@
       },
       {
         "name": "magyars",
-        "games": 217,
-        "winRate": 57.14
+        "games": 218,
+        "winRate": 56.88
       },
       {
-        "name": "wu",
-        "games": 85,
-        "winRate": 56.47
+        "name": "bengalis",
+        "games": 134,
+        "winRate": 56.72
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 186,
-        "winRate": 34.41
+        "games": 187,
+        "winRate": 34.22
       },
       {
         "name": "malay",
@@ -443,14 +436,14 @@
         "winRate": 37.3
       },
       {
-        "name": "huns",
-        "games": 129,
-        "winRate": 41.09
+        "name": "mayans",
+        "games": 150,
+        "winRate": 41.33
       },
       {
-        "name": "mayans",
-        "games": 149,
-        "winRate": 41.61
+        "name": "huns",
+        "games": 130,
+        "winRate": 41.54
       },
       {
         "name": "shu",

@@ -3,7 +3,7 @@
   "internalName": "Koreans",
   "slug": "koreans",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -82,7 +82,7 @@
           {
             "name": "Turtle Ship",
             "pic": 116,
-            "hp": 275,
+            "hp": 260,
             "attack": 9,
             "range": 6,
             "speed": 1,
@@ -127,6 +127,13 @@
         "cat": "Tech",
         "id": "436",
         "pic": 111
+      },
+      {
+        "label": "No Gambesons",
+        "name": "Gambesons",
+        "cat": "Tech",
+        "id": "875",
+        "pic": 116
       },
       {
         "label": "No Siege Ram",
@@ -270,9 +277,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -302,9 +309,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -313,16 +320,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -347,12 +354,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.1,
+    "winRate": 51.13,
     "playRate": 1.73,
-    "picks": 7025,
+    "picks": 7084,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -360,18 +367,18 @@
     "byMapType": {
       "open": {
         "winRate": 53.06,
-        "playRate": 1.56,
-        "picks": 1651
+        "playRate": 1.57,
+        "picks": 1681
       },
       "closed": {
-        "winRate": 48.95,
+        "winRate": 49.19,
         "playRate": 1.5,
-        "picks": 429
+        "picks": 431
       },
       "other": {
-        "winRate": 50.32,
+        "winRate": 50.33,
         "playRate": 1.77,
-        "picks": 4656
+        "picks": 4683
       },
       "nomad": {
         "winRate": 55.71,
@@ -387,8 +394,8 @@
       },
       {
         "name": "britons",
-        "games": 124,
-        "winRate": 60.48
+        "games": 125,
+        "winRate": 60.8
       },
       {
         "name": "shu",
@@ -401,21 +408,21 @@
         "winRate": 58.23
       },
       {
-        "name": "berbers",
-        "games": 130,
-        "winRate": 57.69
+        "name": "ethiopians",
+        "games": 138,
+        "winRate": 57.97
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 95,
-        "winRate": 38.95
+        "games": 97,
+        "winRate": 39.18
       },
       {
         "name": "teutons",
-        "games": 111,
-        "winRate": 40.54
+        "games": 112,
+        "winRate": 41.07
       },
       {
         "name": "vikings",
@@ -423,14 +430,14 @@
         "winRate": 41.91
       },
       {
-        "name": "aztecs",
-        "games": 134,
-        "winRate": 42.54
+        "name": "burgundians",
+        "games": 158,
+        "winRate": 43.04
       },
       {
-        "name": "burgundians",
-        "games": 156,
-        "winRate": 42.95
+        "name": "aztecs",
+        "games": 136,
+        "winRate": 43.38
       }
     ]
   },

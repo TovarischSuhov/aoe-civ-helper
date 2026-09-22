@@ -3,7 +3,7 @@
   "internalName": "Celts",
   "slug": "celts",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -94,13 +94,6 @@
         "cat": "Tech",
         "id": "437",
         "pic": 112
-      },
-      {
-        "label": "No Parthian Tactics",
-        "name": "Parthian Tactics",
-        "cat": "Tech",
-        "id": "436",
-        "pic": 111
       },
       {
         "label": "No Bombard Cannon",
@@ -251,9 +244,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -283,9 +276,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -294,16 +287,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -368,30 +361,30 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.9,
+    "winRate": 51.92,
     "playRate": 1.64,
-    "picks": 6675,
+    "picks": 6726,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.01,
-        "playRate": 1.65,
-        "picks": 4336
+        "winRate": 51.07,
+        "playRate": 1.64,
+        "picks": 4361
       },
       "open": {
-        "winRate": 53.96,
-        "playRate": 1.62,
-        "picks": 1716
+        "winRate": 53.9,
+        "playRate": 1.63,
+        "picks": 1742
       },
       "closed": {
         "winRate": 52.87,
-        "playRate": 1.65,
+        "playRate": 1.64,
         "picks": 471
       },
       "nomad": {
@@ -403,8 +396,8 @@
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 79,
-        "winRate": 65.82
+        "games": 80,
+        "winRate": 66.25
       },
       {
         "name": "khitans",
@@ -413,8 +406,8 @@
       },
       {
         "name": "gurjaras",
-        "games": 96,
-        "winRate": 63.54
+        "games": 97,
+        "winRate": 62.89
       },
       {
         "name": "aztecs",
@@ -435,23 +428,23 @@
       },
       {
         "name": "shu",
-        "games": 77,
-        "winRate": 41.56
+        "games": 78,
+        "winRate": 42.31
       },
       {
         "name": "mongols",
-        "games": 353,
-        "winRate": 45.04
+        "games": 355,
+        "winRate": 44.79
       },
       {
         "name": "turks",
-        "games": 126,
-        "winRate": 45.24
+        "games": 127,
+        "winRate": 45.67
       },
       {
-        "name": "burgundians",
-        "games": 166,
-        "winRate": 45.78
+        "name": "vikings",
+        "games": 129,
+        "winRate": 45.74
       }
     ]
   },

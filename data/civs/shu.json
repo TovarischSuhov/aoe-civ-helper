@@ -3,7 +3,7 @@
   "internalName": "Shu",
   "slug": "shu",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -87,7 +87,7 @@
             "range": 6,
             "speed": 0.9,
             "cost": {
-              "food": 65,
+              "food": 75,
               "gold": 90
             }
           }
@@ -271,9 +271,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -303,9 +303,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -314,16 +314,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.16,
+    "winRate": 52.13,
     "playRate": 1.04,
-    "picks": 4237,
+    "picks": 4274,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
-        "winRate": 47.96,
+        "winRate": 47.97,
         "playRate": 1.03,
-        "picks": 294
+        "picks": 296
       },
       "other": {
-        "winRate": 51.61,
+        "winRate": 51.6,
         "playRate": 1.02,
-        "picks": 2697
+        "picks": 2717
       },
       "open": {
-        "winRate": 53.71,
-        "playRate": 1.1,
-        "picks": 1158
+        "winRate": 53.62,
+        "playRate": 1.09,
+        "picks": 1173
       },
       "nomad": {
         "winRate": 62.5,
@@ -392,13 +392,8 @@
       },
       {
         "name": "jurchens",
-        "games": 56,
-        "winRate": 64.29
-      },
-      {
-        "name": "mapuche",
-        "games": 45,
-        "winRate": 62.22
+        "games": 57,
+        "winRate": 63.16
       },
       {
         "name": "japanese",
@@ -409,6 +404,11 @@
         "name": "bulgarians",
         "games": 78,
         "winRate": 60.26
+      },
+      {
+        "name": "mapuche",
+        "games": 47,
+        "winRate": 59.57
       }
     ],
     "weakAgainst": [
@@ -418,14 +418,14 @@
         "winRate": 37.8
       },
       {
-        "name": "georgians",
-        "games": 47,
-        "winRate": 40.43
-      },
-      {
         "name": "koreans",
         "games": 84,
         "winRate": 41.67
+      },
+      {
+        "name": "georgians",
+        "games": 49,
+        "winRate": 42.86
       },
       {
         "name": "tupi",

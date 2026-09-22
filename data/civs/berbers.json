@@ -3,7 +3,7 @@
   "internalName": "Berbers",
   "slug": "berbers",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -254,9 +254,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -286,9 +286,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -297,16 +297,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.82,
+    "winRate": 47.81,
     "playRate": 1.72,
-    "picks": 6988,
+    "picks": 7028,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
       "other": {
-        "winRate": 47.89,
+        "winRate": 47.9,
         "playRate": 1.72,
-        "picks": 4533
+        "picks": 4553
       },
       "open": {
-        "winRate": 47.65,
-        "playRate": 1.81,
-        "picks": 1912
+        "winRate": 47.64,
+        "playRate": 1.8,
+        "picks": 1929
       },
       "nomad": {
         "winRate": 55.56,
@@ -393,16 +393,16 @@
         "picks": 126
       },
       "closed": {
-        "winRate": 45.56,
+        "winRate": 45.24,
         "playRate": 1.46,
-        "picks": 417
+        "picks": 420
       }
     },
     "strongAgainst": [
       {
         "name": "wu",
-        "games": 82,
-        "winRate": 64.63
+        "games": 83,
+        "winRate": 63.86
       },
       {
         "name": "lithuanians",
@@ -433,8 +433,8 @@
       },
       {
         "name": "vikings",
-        "games": 138,
-        "winRate": 36.96
+        "games": 139,
+        "winRate": 36.69
       },
       {
         "name": "khitans",
@@ -442,14 +442,14 @@
         "winRate": 39.53
       },
       {
+        "name": "slavs",
+        "games": 120,
+        "winRate": 40
+      },
+      {
         "name": "mayans",
         "games": 127,
         "winRate": 40.16
-      },
-      {
-        "name": "slavs",
-        "games": 119,
-        "winRate": 40.34
       }
     ]
   },

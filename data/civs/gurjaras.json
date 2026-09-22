@@ -3,7 +3,7 @@
   "internalName": "Gurjaras",
   "slug": "gurjaras",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -12,8 +12,7 @@
     "bonuses": [
       "Start with 2 Forage Bushes",
       "Can garrison livestock in Mills to passively produce food",
-      "Mounted Units deal +20/30/40% bonus damage in Feudal/Castle/Imperial Age",
-      "Docks +5 garrison capacity"
+      "Mounted Units deal +20/30/40% bonus damage in Feudal/Castle/Imperial Age"
     ],
     "teamBonus": "Camel and Elephant Units train +25% faster",
     "uniqueUnits": [
@@ -247,7 +246,7 @@
         "open": "Weak",
         "closed": "Weak",
         "hybrid": "Weak",
-        "water": "Strong",
+        "water": "Weak",
         "nomad": "Weak"
       },
       "byMap": {
@@ -260,9 +259,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -292,9 +291,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -303,16 +302,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -372,31 +371,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.7,
+    "winRate": 47.78,
     "playRate": 1.4,
-    "picks": 5679,
+    "picks": 5726,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
       "other": {
-        "winRate": 46.87,
+        "winRate": 46.88,
         "playRate": 1.39,
-        "picks": 3672
+        "picks": 3697
       },
       "closed": {
-        "winRate": 51.64,
-        "playRate": 1.39,
-        "picks": 397
+        "winRate": 51.74,
+        "playRate": 1.4,
+        "picks": 402
       },
       "open": {
-        "winRate": 49.17,
-        "playRate": 1.42,
-        "picks": 1499
+        "winRate": 49.41,
+        "playRate": 1.41,
+        "picks": 1516
       },
       "nomad": {
         "winRate": 41.44,
@@ -412,13 +411,13 @@
       },
       {
         "name": "turks",
-        "games": 108,
-        "winRate": 63.89
+        "games": 110,
+        "winRate": 64.55
       },
       {
         "name": "mongols",
-        "games": 210,
-        "winRate": 59.52
+        "games": 212,
+        "winRate": 59.43
       },
       {
         "name": "saracens",
@@ -434,13 +433,13 @@
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 84,
-        "winRate": 34.52
+        "games": 85,
+        "winRate": 35.29
       },
       {
         "name": "celts",
-        "games": 96,
-        "winRate": 36.46
+        "games": 97,
+        "winRate": 37.11
       },
       {
         "name": "byzantines",
@@ -449,13 +448,13 @@
       },
       {
         "name": "sicilians",
-        "games": 102,
-        "winRate": 39.22
+        "games": 103,
+        "winRate": 39.81
       },
       {
-        "name": "italians",
-        "games": 110,
-        "winRate": 40.91
+        "name": "dravidians",
+        "games": 107,
+        "winRate": 41.12
       }
     ]
   },

@@ -3,7 +3,7 @@
   "internalName": "Ethiopians",
   "slug": "ethiopians",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -229,9 +229,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -261,9 +261,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -272,16 +272,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -306,31 +306,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.31,
+    "winRate": 49.39,
     "playRate": 1.98,
-    "picks": 8039,
+    "picks": 8109,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 48.71,
+        "winRate": 48.8,
         "playRate": 1.93,
-        "picks": 5083
+        "picks": 5125
       },
       "open": {
-        "winRate": 51.11,
+        "winRate": 51.21,
         "playRate": 2.13,
-        "picks": 2254
+        "picks": 2279
       },
       "closed": {
-        "winRate": 47.66,
-        "playRate": 1.95,
-        "picks": 556
+        "winRate": 47.58,
+        "playRate": 1.94,
+        "picks": 559
       },
       "nomad": {
         "winRate": 48.63,
@@ -340,29 +340,29 @@
     },
     "strongAgainst": [
       {
-        "name": "slavs",
-        "games": 108,
-        "winRate": 57.41
-      },
-      {
         "name": "muisca",
-        "games": 82,
-        "winRate": 57.32
+        "games": 83,
+        "winRate": 57.83
       },
       {
-        "name": "huns",
-        "games": 171,
-        "winRate": 56.73
+        "name": "slavs",
+        "games": 109,
+        "winRate": 57.8
       },
       {
         "name": "jurchens",
-        "games": 106,
-        "winRate": 56.6
+        "games": 107,
+        "winRate": 57.01
       },
       {
-        "name": "berbers",
-        "games": 163,
-        "winRate": 55.83
+        "name": "huns",
+        "games": 172,
+        "winRate": 56.98
+      },
+      {
+        "name": "malians",
+        "games": 157,
+        "winRate": 56.05
       }
     ],
     "weakAgainst": [
@@ -373,23 +373,23 @@
       },
       {
         "name": "wei",
-        "games": 140,
-        "winRate": 40.71
+        "games": 142,
+        "winRate": 40.85
       },
       {
         "name": "burgundians",
-        "games": 160,
-        "winRate": 41.25
+        "games": 161,
+        "winRate": 41.61
       },
       {
         "name": "koreans",
-        "games": 136,
-        "winRate": 42.65
+        "games": 138,
+        "winRate": 42.03
       },
       {
         "name": "romans",
-        "games": 103,
-        "winRate": 42.72
+        "games": 104,
+        "winRate": 42.31
       }
     ]
   },

@@ -3,7 +3,7 @@
   "internalName": "Franks",
   "slug": "franks",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -21,13 +21,13 @@
     ],
     "uniqueTechs": [
       {
-        "display": "Bearded Axe (Throwing Axemen +2 range)",
-        "name": "Bearded Axe",
+        "display": "Ordonnance Companies (Mounted Crossbowmen cost -40% gold)",
+        "name": "Ordonnance Companies",
         "cost": {
-          "food": 300,
-          "gold": 300
+          "food": 400,
+          "gold": 250
         },
-        "pic": 33
+        "pic": null
       },
       {
         "display": "Chivalry (Stables work +40% faster)",
@@ -51,7 +51,7 @@
             "pic": 46,
             "hp": 60,
             "attack": 7,
-            "range": 3,
+            "range": 5,
             "speed": 1,
             "cost": {
               "food": 55,
@@ -63,7 +63,7 @@
             "pic": 473,
             "hp": 70,
             "attack": 8,
-            "range": 4,
+            "range": 6,
             "speed": 1,
             "cost": {
               "food": 850,
@@ -101,13 +101,6 @@
         "cat": "Tech",
         "id": "437",
         "pic": 112
-      },
-      {
-        "label": "No Parthian Tactics",
-        "name": "Parthian Tactics",
-        "cat": "Tech",
-        "id": "436",
-        "pic": 111
       },
       {
         "label": "No Siege Ram",
@@ -239,9 +232,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -271,9 +264,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -282,16 +275,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -357,26 +350,26 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.52,
+    "winRate": 50.57,
     "playRate": 1.86,
-    "picks": 7544,
+    "picks": 7608,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 51.23,
+        "winRate": 51.28,
         "playRate": 1.82,
-        "picks": 4800
+        "picks": 4840
       },
       "open": {
-        "winRate": 49.61,
-        "playRate": 2.07,
-        "picks": 2187
+        "winRate": 49.64,
+        "playRate": 2.06,
+        "picks": 2210
       },
       "nomad": {
         "winRate": 50,
@@ -384,16 +377,16 @@
         "picks": 124
       },
       "closed": {
-        "winRate": 47.34,
-        "playRate": 1.52,
-        "picks": 433
+        "winRate": 47.47,
+        "playRate": 1.51,
+        "picks": 434
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 179,
-        "winRate": 66.48
+        "games": 180,
+        "winRate": 66.67
       },
       {
         "name": "jurchens",
@@ -407,25 +400,30 @@
       },
       {
         "name": "britons",
-        "games": 158,
-        "winRate": 58.23
+        "games": 159,
+        "winRate": 58.49
       },
       {
-        "name": "portuguese",
-        "games": 162,
-        "winRate": 57.41
+        "name": "byzantines",
+        "games": 130,
+        "winRate": 57.69
       }
     ],
     "weakAgainst": [
       {
-        "name": "chinese",
-        "games": 178,
-        "winRate": 40.45
+        "name": "mongols",
+        "games": 411,
+        "winRate": 41.36
       },
       {
-        "name": "mongols",
-        "games": 409,
-        "winRate": 41.08
+        "name": "chinese",
+        "games": 183,
+        "winRate": 41.53
+      },
+      {
+        "name": "hindustanis",
+        "games": 159,
+        "winRate": 42.77
       },
       {
         "name": "mapuche",
@@ -433,14 +431,9 @@
         "winRate": 42.86
       },
       {
-        "name": "hindustanis",
-        "games": 158,
-        "winRate": 43.04
-      },
-      {
-        "name": "spanish",
-        "games": 184,
-        "winRate": 44.02
+        "name": "celts",
+        "games": 136,
+        "winRate": 43.38
       }
     ]
   },

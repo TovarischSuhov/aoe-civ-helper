@@ -3,7 +3,7 @@
   "internalName": "Muisca",
   "slug": "muisca",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -84,7 +84,7 @@
             "name": "Temple Guard",
             "pic": 553,
             "hp": 100,
-            "attack": 12,
+            "attack": 11,
             "range": 0,
             "speed": 0.95,
             "cost": {
@@ -277,9 +277,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -309,9 +309,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -320,16 +320,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.92,
+    "winRate": 47.89,
     "playRate": 1.07,
-    "picks": 4359,
+    "picks": 4389,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 47.9,
+        "winRate": 47.87,
         "playRate": 1.06,
-        "picks": 2806
+        "picks": 2820
       },
       "nomad": {
         "winRate": 45.35,
@@ -400,14 +400,14 @@
         "picks": 86
       },
       "open": {
-        "winRate": 46.23,
-        "playRate": 1.07,
-        "picks": 1127
+        "winRate": 46.18,
+        "playRate": 1.06,
+        "picks": 1139
       },
       "closed": {
-        "winRate": 54.41,
-        "playRate": 1.19,
-        "picks": 340
+        "winRate": 54.36,
+        "playRate": 1.2,
+        "picks": 344
       }
     },
     "strongAgainst": [
@@ -433,15 +433,15 @@
       },
       {
         "name": "byzantines",
-        "games": 71,
-        "winRate": 57.75
+        "games": 72,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 52,
-        "winRate": 34.62
+        "games": 53,
+        "winRate": 33.96
       },
       {
         "name": "sicilians",
@@ -450,8 +450,8 @@
       },
       {
         "name": "huns",
-        "games": 93,
-        "winRate": 39.78
+        "games": 95,
+        "winRate": 40
       },
       {
         "name": "franks",

@@ -3,7 +3,7 @@
   "internalName": "Huns",
   "slug": "huns",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -122,6 +122,13 @@
         "cat": "Tech",
         "id": "377",
         "pic": 101
+      },
+      {
+        "label": "No Fast Fire Ship",
+        "name": "Fast Fire Ship",
+        "cat": "Unit",
+        "id": "532",
+        "pic": 85
       },
       {
         "label": "No Shipwright",
@@ -272,9 +279,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -304,9 +311,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -315,16 +322,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -353,26 +360,26 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 51.47,
+    "winRate": 51.49,
     "playRate": 2.07,
-    "picks": 8393,
+    "picks": 8465,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 51.62,
-        "playRate": 2.18,
-        "picks": 2309
+        "winRate": 51.75,
+        "playRate": 2.19,
+        "picks": 2342
       },
       "other": {
-        "winRate": 51.58,
+        "winRate": 51.56,
         "playRate": 2.07,
-        "picks": 5461
+        "picks": 5496
       },
       "nomad": {
         "winRate": 49.71,
@@ -381,8 +388,8 @@
       },
       "closed": {
         "winRate": 50,
-        "playRate": 1.57,
-        "picks": 450
+        "playRate": 1.58,
+        "picks": 454
       }
     },
     "strongAgainst": [
@@ -393,30 +400,35 @@
       },
       {
         "name": "turks",
-        "games": 127,
-        "winRate": 60.63
+        "games": 128,
+        "winRate": 60.94
       },
       {
         "name": "malians",
-        "games": 142,
-        "winRate": 60.56
+        "games": 146,
+        "winRate": 60.27
       },
       {
         "name": "muisca",
-        "games": 93,
-        "winRate": 60.22
+        "games": 95,
+        "winRate": 60
       },
       {
         "name": "armenians",
-        "games": 129,
-        "winRate": 58.91
+        "games": 130,
+        "winRate": 58.46
       }
     ],
     "weakAgainst": [
       {
         "name": "ethiopians",
-        "games": 171,
-        "winRate": 43.27
+        "games": 172,
+        "winRate": 43.02
+      },
+      {
+        "name": "shu",
+        "games": 94,
+        "winRate": 43.62
       },
       {
         "name": "wu",
@@ -424,19 +436,14 @@
         "winRate": 43.68
       },
       {
-        "name": "shu",
-        "games": 93,
-        "winRate": 44.09
-      },
-      {
         "name": "chinese",
-        "games": 227,
-        "winRate": 44.49
+        "games": 230,
+        "winRate": 43.91
       },
       {
         "name": "goths",
-        "games": 125,
-        "winRate": 44.8
+        "games": 126,
+        "winRate": 44.44
       }
     ]
   },

@@ -3,7 +3,7 @@
   "internalName": "Chinese",
   "slug": "chinese",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -108,6 +108,13 @@
         "cat": "Unit",
         "id": "569",
         "pic": 2
+      },
+      {
+        "label": "No Heavy Cavalry Archer",
+        "name": "Heavy Cavalry Archer",
+        "cat": "Unit",
+        "id": "474",
+        "pic": 71
       },
       {
         "label": "No Parthian Tactics",
@@ -239,9 +246,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -271,9 +278,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -282,16 +289,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -321,25 +328,25 @@
   },
   "stats": {
     "winRate": 54.42,
-    "playRate": 2.56,
-    "picks": 10412,
+    "playRate": 2.57,
+    "picks": 10521,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 54.93,
-        "playRate": 2.88,
-        "picks": 3042
+        "winRate": 54.81,
+        "playRate": 2.89,
+        "picks": 3096
       },
       "other": {
-        "winRate": 54.15,
+        "winRate": 54.23,
         "playRate": 2.53,
-        "picks": 6667
+        "picks": 6720
       },
       "nomad": {
         "winRate": 58.74,
@@ -347,36 +354,36 @@
         "picks": 143
       },
       "closed": {
-        "winRate": 53.75,
-        "playRate": 1.96,
-        "picks": 560
+        "winRate": 53.56,
+        "playRate": 1.95,
+        "picks": 562
       }
     },
     "strongAgainst": [
       {
         "name": "armenians",
-        "games": 186,
-        "winRate": 65.59
-      },
-      {
-        "name": "incas",
-        "games": 169,
-        "winRate": 61.54
+        "games": 187,
+        "winRate": 65.78
       },
       {
         "name": "byzantines",
-        "games": 164,
-        "winRate": 60.98
+        "games": 166,
+        "winRate": 61.45
+      },
+      {
+        "name": "incas",
+        "games": 171,
+        "winRate": 61.4
       },
       {
         "name": "teutons",
-        "games": 167,
-        "winRate": 59.88
+        "games": 169,
+        "winRate": 59.17
       },
       {
-        "name": "franks",
-        "games": 178,
-        "winRate": 59.55
+        "name": "aztecs",
+        "games": 166,
+        "winRate": 59.04
       }
     ],
     "weakAgainst": [
@@ -386,24 +393,24 @@
         "winRate": 43.11
       },
       {
-        "name": "celts",
-        "games": 156,
-        "winRate": 46.79
-      },
-      {
         "name": "mayans",
         "games": 224,
         "winRate": 47.32
       },
       {
+        "name": "celts",
+        "games": 158,
+        "winRate": 47.47
+      },
+      {
         "name": "bengalis",
-        "games": 150,
-        "winRate": 48.67
+        "games": 151,
+        "winRate": 49.01
       },
       {
         "name": "mapuche",
-        "games": 167,
-        "winRate": 49.1
+        "games": 169,
+        "winRate": 49.7
       }
     ]
   },

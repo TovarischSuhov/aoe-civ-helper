@@ -3,7 +3,7 @@
   "internalName": "Japanese",
   "slug": "japanese",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -223,9 +223,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -255,9 +255,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -266,16 +266,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -300,26 +300,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.35,
+    "winRate": 51.4,
     "playRate": 2.55,
-    "picks": 10353,
+    "picks": 10427,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
       "open": {
-        "winRate": 49.29,
+        "winRate": 49.48,
         "playRate": 2.53,
-        "picks": 2678
+        "picks": 2706
       },
       "other": {
-        "winRate": 52.26,
+        "winRate": 52.25,
         "playRate": 2.62,
-        "picks": 6916
+        "picks": 6961
       },
       "nomad": {
         "winRate": 51.56,
@@ -327,31 +327,31 @@
         "picks": 225
       },
       "closed": {
-        "winRate": 49.81,
-        "playRate": 1.87,
-        "picks": 534
+        "winRate": 49.91,
+        "playRate": 1.86,
+        "picks": 535
       }
     },
     "strongAgainst": [
       {
-        "name": "sicilians",
-        "games": 166,
-        "winRate": 62.05
+        "name": "khitans",
+        "games": 130,
+        "winRate": 62.31
       },
       {
-        "name": "khitans",
-        "games": 129,
-        "winRate": 62.02
+        "name": "sicilians",
+        "games": 167,
+        "winRate": 62.28
       },
       {
         "name": "magyars",
-        "games": 343,
-        "winRate": 58.6
+        "games": 346,
+        "winRate": 58.96
       },
       {
         "name": "goths",
-        "games": 149,
-        "winRate": 58.39
+        "games": 151,
+        "winRate": 58.94
       },
       {
         "name": "incas",
@@ -367,23 +367,23 @@
       },
       {
         "name": "huns",
-        "games": 211,
-        "winRate": 43.13
+        "games": 213,
+        "winRate": 42.72
       },
       {
         "name": "vikings",
-        "games": 208,
-        "winRate": 43.27
+        "games": 209,
+        "winRate": 43.06
       },
       {
         "name": "wei",
-        "games": 170,
-        "winRate": 43.53
+        "games": 173,
+        "winRate": 43.35
       },
       {
         "name": "chinese",
-        "games": 277,
-        "winRate": 44.77
+        "games": 280,
+        "winRate": 45
       }
     ]
   },

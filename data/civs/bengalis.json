@@ -3,7 +3,7 @@
   "internalName": "Bengalis",
   "slug": "bengalis",
   "version": {
-    "hash": "4e2f85b39e39",
+    "hash": "66a439979afe",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -179,9 +179,9 @@
             "Cumans"
           ],
           "weak": [
-            "Saracens",
             "Slavs",
             "Spanish",
+            "Teutons",
             "Armenians",
             "Vikings"
           ]
@@ -211,9 +211,9 @@
             "Japanese"
           ],
           "weak": [
-            "Vikings",
             "Burgundians",
             "Burmese",
+            "Gurjaras",
             "Lithuanians",
             "Tatars"
           ]
@@ -222,16 +222,16 @@
           "strong": [
             "Bengalis",
             "Berbers",
+            "Danes",
             "Dravidians",
-            "Japanese",
-            "Koreans"
+            "Japanese"
           ],
           "weak": [
-            "Vietnamese",
             "Burgundians",
             "Lithuanians",
             "Tatars",
-            "Burmese"
+            "Burmese",
+            "Gurjaras"
           ]
         },
         "nomad": {
@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.9,
+    "winRate": 49.96,
     "playRate": 1.69,
-    "picks": 6848,
+    "picks": 6903,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T09:19:44.000Z",
+    "updated": "2026-09-22T19:45:28.000Z",
     "window": "2026-07-17 → 2026-09-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 49.69,
+        "winRate": 49.76,
         "playRate": 1.66,
-        "picks": 4383
+        "picks": 4409
       },
       "open": {
-        "winRate": 48.1,
+        "winRate": 48.24,
         "playRate": 1.59,
-        "picks": 1680
+        "picks": 1706
       },
       "nomad": {
         "winRate": 57.42,
@@ -283,16 +283,16 @@
         "picks": 155
       },
       "closed": {
-        "winRate": 54.29,
+        "winRate": 54.19,
         "playRate": 2.2,
-        "picks": 630
+        "picks": 633
       }
     },
     "strongAgainst": [
       {
         "name": "turks",
-        "games": 137,
-        "winRate": 58.39
+        "games": 140,
+        "winRate": 57.86
       },
       {
         "name": "jurchens",
@@ -310,7 +310,7 @@
         "winRate": 56.31
       },
       {
-        "name": "italians",
+        "name": "britons",
         "games": 157,
         "winRate": 56.05
       }
@@ -322,24 +322,24 @@
         "winRate": 37.27
       },
       {
+        "name": "aztecs",
+        "games": 104,
+        "winRate": 40.38
+      },
+      {
         "name": "wu",
         "games": 84,
         "winRate": 40.48
       },
       {
-        "name": "aztecs",
-        "games": 103,
-        "winRate": 40.78
-      },
-      {
-        "name": "tupi",
-        "games": 89,
-        "winRate": 41.57
-      },
-      {
         "name": "khitans",
         "games": 79,
         "winRate": 41.77
+      },
+      {
+        "name": "tupi",
+        "games": 90,
+        "winRate": 42.22
       }
     ]
   },
