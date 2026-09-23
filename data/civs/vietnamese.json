@@ -336,30 +336,30 @@
   "sotl": null,
   "stats": {
     "winRate": 50.03,
-    "playRate": 2.97,
-    "picks": 12184,
+    "playRate": 2.96,
+    "picks": 12250,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T19:45:28.000Z",
-    "window": "2026-07-17 → 2026-09-22",
+    "updated": "2026-09-23T09:20:25.000Z",
+    "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
       "closed": {
-        "winRate": 49.93,
+        "winRate": 49.66,
         "playRate": 2.5,
-        "picks": 719
+        "picks": 725
       },
       "other": {
-        "winRate": 49.83,
-        "playRate": 2.89,
-        "picks": 7662
+        "winRate": 49.85,
+        "playRate": 2.88,
+        "picks": 7703
       },
       "open": {
         "winRate": 50.76,
-        "playRate": 3.34,
-        "picks": 3576
+        "playRate": 3.33,
+        "picks": 3595
       },
       "nomad": {
         "winRate": 45.81,
@@ -375,8 +375,8 @@
       },
       {
         "name": "saracens",
-        "games": 174,
-        "winRate": 58.62
+        "games": 175,
+        "winRate": 58.86
       },
       {
         "name": "bohemians",
@@ -390,11 +390,16 @@
       },
       {
         "name": "berbers",
-        "games": 198,
-        "winRate": 55.56
+        "games": 199,
+        "winRate": 55.78
       }
     ],
     "weakAgainst": [
+      {
+        "name": "varangians",
+        "games": 9,
+        "winRate": 33.33
+      },
       {
         "name": "mayans",
         "games": 273,
@@ -407,18 +412,13 @@
       },
       {
         "name": "chinese",
-        "games": 351,
-        "winRate": 42.74
+        "games": 354,
+        "winRate": 42.66
       },
       {
         "name": "byzantines",
         "games": 166,
         "winRate": 45.18
-      },
-      {
-        "name": "malay",
-        "games": 196,
-        "winRate": 45.92
       }
     ]
   },

@@ -286,55 +286,85 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 46.53,
-    "playRate": 0.02,
-    "picks": 101,
+    "winRate": 47.78,
+    "playRate": 0.1,
+    "picks": 406,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T19:45:28.000Z",
-    "window": "2026-07-17 → 2026-09-22",
+    "updated": "2026-09-23T09:20:25.000Z",
+    "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/danes",
     "byMapType": {
       "open": {
-        "winRate": 50,
-        "playRate": 0.03,
-        "picks": 28
+        "winRate": 47.13,
+        "playRate": 0.08,
+        "picks": 87
       },
       "other": {
-        "winRate": 43.28,
-        "playRate": 0.03,
-        "picks": 67
+        "winRate": 48.45,
+        "playRate": 0.11,
+        "picks": 291
       },
       "closed": {
-        "winRate": 66.67,
-        "playRate": 0.02,
-        "picks": 6
+        "winRate": 42.86,
+        "playRate": 0.1,
+        "picks": 28
       }
     },
     "strongAgainst": [
       {
-        "name": "saxons",
-        "games": 21,
-        "winRate": 52.38
+        "name": "varangians",
+        "games": 87,
+        "winRate": 55.17
       },
       {
-        "name": "varangians",
-        "games": 16,
+        "name": "saxons",
+        "games": 58,
         "winRate": 50
+      },
+      {
+        "name": "franks",
+        "games": 9,
+        "winRate": 44.44
+      },
+      {
+        "name": "japanese",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "mongols",
+        "games": 22,
+        "winRate": 36.36
       }
     ],
     "weakAgainst": [
       {
-        "name": "varangians",
-        "games": 16,
-        "winRate": 50
+        "name": "magyars",
+        "games": 11,
+        "winRate": 18.18
       },
       {
-        "name": "saxons",
-        "games": 21,
-        "winRate": 52.38
+        "name": "chinese",
+        "games": 14,
+        "winRate": 28.57
+      },
+      {
+        "name": "mongols",
+        "games": 22,
+        "winRate": 36.36
+      },
+      {
+        "name": "japanese",
+        "games": 8,
+        "winRate": 37.5
+      },
+      {
+        "name": "franks",
+        "games": 9,
+        "winRate": 44.44
       }
     ]
   },

@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.96,
-    "playRate": 1.69,
-    "picks": 6903,
+    "winRate": 49.91,
+    "playRate": 1.68,
+    "picks": 6933,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T19:45:28.000Z",
-    "window": "2026-07-17 → 2026-09-22",
+    "updated": "2026-09-23T09:20:25.000Z",
+    "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 49.76,
-        "playRate": 1.66,
-        "picks": 4409
+        "winRate": 49.7,
+        "playRate": 1.65,
+        "picks": 4433
       },
       "open": {
-        "winRate": 48.24,
-        "playRate": 1.59,
-        "picks": 1706
+        "winRate": 48.22,
+        "playRate": 1.58,
+        "picks": 1711
       },
       "nomad": {
         "winRate": 57.42,
@@ -283,9 +283,9 @@
         "picks": 155
       },
       "closed": {
-        "winRate": 54.19,
-        "playRate": 2.2,
-        "picks": 633
+        "winRate": 54.1,
+        "playRate": 2.19,
+        "picks": 634
       }
     },
     "strongAgainst": [
@@ -305,14 +305,14 @@
         "winRate": 56.7
       },
       {
-        "name": "goths",
-        "games": 103,
-        "winRate": 56.31
-      },
-      {
         "name": "britons",
         "games": 157,
         "winRate": 56.05
+      },
+      {
+        "name": "goths",
+        "games": 104,
+        "winRate": 55.77
       }
     ],
     "weakAgainst": [
@@ -332,14 +332,14 @@
         "winRate": 40.48
       },
       {
+        "name": "tupi",
+        "games": 91,
+        "winRate": 41.76
+      },
+      {
         "name": "khitans",
         "games": 79,
         "winRate": 41.77
-      },
-      {
-        "name": "tupi",
-        "games": 90,
-        "winRate": 42.22
       }
     ]
   },

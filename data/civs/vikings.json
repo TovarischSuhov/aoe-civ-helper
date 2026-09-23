@@ -360,29 +360,29 @@
   "stats": {
     "winRate": 52.47,
     "playRate": 1.83,
-    "picks": 7498,
+    "picks": 7551,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T19:45:28.000Z",
-    "window": "2026-07-17 → 2026-09-22",
+    "updated": "2026-09-23T09:20:25.000Z",
+    "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 51.83,
+        "winRate": 51.84,
         "playRate": 1.91,
-        "picks": 2047
+        "picks": 2066
       },
       "other": {
-        "winRate": 52.5,
+        "winRate": 52.51,
         "playRate": 1.85,
-        "picks": 4920
+        "picks": 4953
       },
       "closed": {
-        "winRate": 53.61,
-        "playRate": 1.35,
-        "picks": 388
+        "winRate": 53.47,
+        "playRate": 1.34,
+        "picks": 389
       },
       "nomad": {
         "winRate": 57.34,
@@ -392,14 +392,14 @@
     },
     "strongAgainst": [
       {
+        "name": "berbers",
+        "games": 140,
+        "winRate": 63.57
+      },
+      {
         "name": "saracens",
         "games": 118,
         "winRate": 63.56
-      },
-      {
-        "name": "berbers",
-        "games": 139,
-        "winRate": 63.31
       },
       {
         "name": "burmese",
@@ -408,8 +408,8 @@
       },
       {
         "name": "burgundians",
-        "games": 162,
-        "winRate": 59.88
+        "games": 165,
+        "winRate": 59.39
       },
       {
         "name": "koreans",
@@ -419,14 +419,19 @@
     ],
     "weakAgainst": [
       {
+        "name": "varangians",
+        "games": 9,
+        "winRate": 22.22
+      },
+      {
         "name": "tupi",
         "games": 107,
         "winRate": 43.93
       },
       {
         "name": "spanish",
-        "games": 190,
-        "winRate": 44.21
+        "games": 191,
+        "winRate": 43.98
       },
       {
         "name": "romans",
@@ -437,11 +442,6 @@
         "name": "malay",
         "games": 140,
         "winRate": 45.71
-      },
-      {
-        "name": "britons",
-        "games": 131,
-        "winRate": 45.8
       }
     ]
   },

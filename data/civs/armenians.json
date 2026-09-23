@@ -365,21 +365,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.91,
-    "playRate": 1.77,
-    "picks": 7233,
+    "winRate": 49.89,
+    "playRate": 1.76,
+    "picks": 7284,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-22T19:45:28.000Z",
-    "window": "2026-07-17 → 2026-09-22",
+    "updated": "2026-09-23T09:20:25.000Z",
+    "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
       "closed": {
-        "winRate": 51.48,
+        "winRate": 51.65,
         "playRate": 1.88,
-        "picks": 542
+        "picks": 544
       },
       "nomad": {
         "winRate": 50.74,
@@ -387,21 +387,26 @@
         "picks": 136
       },
       "open": {
-        "winRate": 50,
+        "winRate": 49.97,
         "playRate": 1.79,
-        "picks": 1920
+        "picks": 1931
       },
       "other": {
-        "winRate": 49.67,
-        "playRate": 1.75,
-        "picks": 4635
+        "winRate": 49.63,
+        "playRate": 1.74,
+        "picks": 4673
       }
     },
     "strongAgainst": [
       {
+        "name": "varangians",
+        "games": 8,
+        "winRate": 75
+      },
+      {
         "name": "bulgarians",
-        "games": 129,
-        "winRate": 64.34
+        "games": 130,
+        "winRate": 64.62
       },
       {
         "name": "tupi",
@@ -415,25 +420,20 @@
       },
       {
         "name": "magyars",
-        "games": 218,
-        "winRate": 56.88
-      },
-      {
-        "name": "bengalis",
-        "games": 134,
-        "winRate": 56.72
+        "games": 219,
+        "winRate": 57.08
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 187,
-        "winRate": 34.22
+        "games": 188,
+        "winRate": 34.04
       },
       {
         "name": "malay",
-        "games": 126,
-        "winRate": 37.3
+        "games": 128,
+        "winRate": 37.5
       },
       {
         "name": "mayans",
@@ -441,14 +441,14 @@
         "winRate": 41.33
       },
       {
-        "name": "huns",
-        "games": 130,
-        "winRate": 41.54
-      },
-      {
         "name": "shu",
         "games": 74,
         "winRate": 41.89
+      },
+      {
+        "name": "huns",
+        "games": 131,
+        "winRate": 41.98
       }
     ]
   },
