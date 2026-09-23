@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.87,
+    "winRate": 48.75,
     "playRate": 1.59,
-    "picks": 6583,
+    "picks": 6638,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 48.07,
+        "winRate": 48.08,
         "playRate": 1.56,
-        "picks": 1683
+        "picks": 1695
       },
       "nomad": {
         "winRate": 46.67,
@@ -302,21 +302,21 @@
         "picks": 135
       },
       "other": {
-        "winRate": 49.57,
+        "winRate": 49.39,
         "playRate": 1.61,
-        "picks": 4321
+        "picks": 4363
       },
       "closed": {
-        "winRate": 45.72,
+        "winRate": 45.62,
         "playRate": 1.53,
-        "picks": 444
+        "picks": 445
       }
     },
     "strongAgainst": [
       {
-        "name": "varangians",
-        "games": 10,
-        "winRate": 70
+        "name": "saxons",
+        "games": 14,
+        "winRate": 64.29
       },
       {
         "name": "gurjaras",
@@ -342,28 +342,28 @@
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 166,
-        "winRate": 38.55
+        "games": 168,
+        "winRate": 38.1
       },
       {
         "name": "romans",
-        "games": 100,
-        "winRate": 39
+        "games": 101,
+        "winRate": 38.61
       },
       {
         "name": "slavs",
-        "games": 117,
-        "winRate": 39.32
+        "games": 118,
+        "winRate": 38.98
+      },
+      {
+        "name": "bulgarians",
+        "games": 116,
+        "winRate": 39.66
       },
       {
         "name": "sicilians",
         "games": 103,
         "winRate": 39.81
-      },
-      {
-        "name": "malay",
-        "games": 130,
-        "winRate": 40
       }
     ]
   },

@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.8,
-    "playRate": 1.31,
-    "picks": 5410,
+    "winRate": 45.81,
+    "playRate": 1.3,
+    "picks": 5433,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 46.01,
+        "winRate": 46,
         "playRate": 1.3,
-        "picks": 3495
+        "picks": 3513
       },
       "open": {
-        "winRate": 45.49,
-        "playRate": 1.36,
-        "picks": 1464
+        "winRate": 45.54,
+        "playRate": 1.35,
+        "picks": 1467
       },
       "nomad": {
         "winRate": 50.51,
@@ -393,9 +393,9 @@
         "picks": 99
       },
       "closed": {
-        "winRate": 43.75,
+        "winRate": 43.79,
         "playRate": 1.21,
-        "picks": 352
+        "picks": 354
       }
     },
     "strongAgainst": [
@@ -410,6 +410,11 @@
         "winRate": 56.63
       },
       {
+        "name": "teutons",
+        "games": 100,
+        "winRate": 53
+      },
+      {
         "name": "portuguese",
         "games": 89,
         "winRate": 52.81
@@ -418,18 +423,13 @@
         "name": "aztecs",
         "games": 110,
         "winRate": 52.73
-      },
-      {
-        "name": "burmese",
-        "games": 74,
-        "winRate": 52.7
       }
     ],
     "weakAgainst": [
       {
         "name": "spanish",
-        "games": 140,
-        "winRate": 34.29
+        "games": 141,
+        "winRate": 34.04
       },
       {
         "name": "mapuche",
@@ -448,8 +448,8 @@
       },
       {
         "name": "franks",
-        "games": 99,
-        "winRate": 39.39
+        "games": 100,
+        "winRate": 39
       }
     ]
   },

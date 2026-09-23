@@ -286,85 +286,85 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.78,
-    "playRate": 0.1,
-    "picks": 406,
+    "winRate": 46.1,
+    "playRate": 0.16,
+    "picks": 679,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/danes",
     "byMapType": {
       "open": {
-        "winRate": 47.13,
-        "playRate": 0.08,
-        "picks": 87
+        "winRate": 45.03,
+        "playRate": 0.14,
+        "picks": 151
       },
       "other": {
-        "winRate": 48.45,
-        "playRate": 0.11,
-        "picks": 291
+        "winRate": 47.22,
+        "playRate": 0.18,
+        "picks": 485
       },
       "closed": {
-        "winRate": 42.86,
-        "playRate": 0.1,
-        "picks": 28
+        "winRate": 37.21,
+        "playRate": 0.15,
+        "picks": 43
       }
     },
     "strongAgainst": [
       {
-        "name": "varangians",
-        "games": 87,
-        "winRate": 55.17
+        "name": "huns",
+        "games": 11,
+        "winRate": 63.64
       },
       {
-        "name": "saxons",
-        "games": 58,
+        "name": "lithuanians",
+        "games": 10,
+        "winRate": 60
+      },
+      {
+        "name": "spanish",
+        "games": 8,
         "winRate": 50
       },
       {
-        "name": "franks",
-        "games": 9,
-        "winRate": 44.44
-      },
-      {
-        "name": "japanese",
+        "name": "hindustanis",
         "games": 8,
-        "winRate": 37.5
+        "winRate": 50
       },
       {
-        "name": "mongols",
-        "games": 22,
-        "winRate": 36.36
+        "name": "varangians",
+        "games": 138,
+        "winRate": 49.28
       }
     ],
     "weakAgainst": [
       {
-        "name": "magyars",
-        "games": 11,
-        "winRate": 18.18
-      },
-      {
         "name": "chinese",
-        "games": 14,
-        "winRate": 28.57
+        "games": 17,
+        "winRate": 23.53
       },
       {
-        "name": "mongols",
-        "games": 22,
-        "winRate": 36.36
-      },
-      {
-        "name": "japanese",
+        "name": "vietnamese",
         "games": 8,
-        "winRate": 37.5
+        "winRate": 25
       },
       {
-        "name": "franks",
+        "name": "aztecs",
+        "games": 8,
+        "winRate": 25
+      },
+      {
+        "name": "vikings",
         "games": 9,
-        "winRate": 44.44
+        "winRate": 33.33
+      },
+      {
+        "name": "khmer",
+        "games": 14,
+        "winRate": 35.71
       }
     ]
   },

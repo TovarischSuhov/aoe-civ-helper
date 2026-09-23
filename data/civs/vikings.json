@@ -358,31 +358,31 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.47,
-    "playRate": 1.83,
-    "picks": 7551,
+    "winRate": 52.48,
+    "playRate": 1.82,
+    "picks": 7601,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 51.84,
-        "playRate": 1.91,
-        "picks": 2066
+        "winRate": 51.81,
+        "playRate": 1.9,
+        "picks": 2071
       },
       "other": {
-        "winRate": 52.51,
+        "winRate": 52.56,
         "playRate": 1.85,
-        "picks": 4953
+        "picks": 4996
       },
       "closed": {
-        "winRate": 53.47,
+        "winRate": 53.2,
         "playRate": 1.34,
-        "picks": 389
+        "picks": 391
       },
       "nomad": {
         "winRate": 57.34,
@@ -391,6 +391,11 @@
       }
     },
     "strongAgainst": [
+      {
+        "name": "danes",
+        "games": 9,
+        "winRate": 66.67
+      },
       {
         "name": "berbers",
         "games": 140,
@@ -403,35 +408,25 @@
       },
       {
         "name": "burmese",
-        "games": 117,
-        "winRate": 62.39
+        "games": 118,
+        "winRate": 61.86
       },
       {
         "name": "burgundians",
         "games": 165,
         "winRate": 59.39
-      },
-      {
-        "name": "koreans",
-        "games": 136,
-        "winRate": 58.09
       }
     ],
     "weakAgainst": [
       {
         "name": "varangians",
-        "games": 9,
-        "winRate": 22.22
-      },
-      {
-        "name": "tupi",
-        "games": 107,
-        "winRate": 43.93
+        "games": 14,
+        "winRate": 35.71
       },
       {
         "name": "spanish",
-        "games": 191,
-        "winRate": 43.98
+        "games": 192,
+        "winRate": 44.27
       },
       {
         "name": "romans",
@@ -439,9 +434,14 @@
         "winRate": 44.44
       },
       {
+        "name": "tupi",
+        "games": 110,
+        "winRate": 44.55
+      },
+      {
         "name": "malay",
-        "games": 140,
-        "winRate": 45.71
+        "games": 141,
+        "winRate": 46.1
       }
     ]
   },

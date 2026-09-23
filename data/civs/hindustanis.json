@@ -366,26 +366,26 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 51.49,
-    "playRate": 2.06,
-    "picks": 8514,
+    "winRate": 51.46,
+    "playRate": 2.05,
+    "picks": 8553,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
       "open": {
-        "winRate": 53.14,
-        "playRate": 2.18,
-        "picks": 2354
+        "winRate": 53.03,
+        "playRate": 2.17,
+        "picks": 2363
       },
       "other": {
-        "winRate": 50.55,
-        "playRate": 2.02,
-        "picks": 5406
+        "winRate": 50.52,
+        "playRate": 2.01,
+        "picks": 5432
       },
       "nomad": {
         "winRate": 52.2,
@@ -393,36 +393,36 @@
         "picks": 159
       },
       "closed": {
-        "winRate": 53.28,
+        "winRate": 53.59,
         "playRate": 2.05,
-        "picks": 595
+        "picks": 599
       }
     },
     "strongAgainst": [
       {
+        "name": "varangians",
+        "games": 11,
+        "winRate": 81.82
+      },
+      {
+        "name": "saxons",
+        "games": 9,
+        "winRate": 77.78
+      },
+      {
         "name": "berbers",
-        "games": 160,
-        "winRate": 64.38
+        "games": 161,
+        "winRate": 63.98
       },
       {
         "name": "britons",
-        "games": 166,
-        "winRate": 62.05
+        "games": 168,
+        "winRate": 61.9
       },
       {
         "name": "saracens",
         "games": 115,
         "winRate": 60.87
-      },
-      {
-        "name": "khitans",
-        "games": 124,
-        "winRate": 59.68
-      },
-      {
-        "name": "wu",
-        "games": 81,
-        "winRate": 59.26
       }
     ],
     "weakAgainst": [

@@ -350,31 +350,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.12,
-    "playRate": 1.77,
-    "picks": 7316,
+    "winRate": 50.22,
+    "playRate": 1.76,
+    "picks": 7352,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
       "open": {
-        "winRate": 51.42,
-        "playRate": 2.02,
-        "picks": 2180
+        "winRate": 51.51,
+        "playRate": 2.01,
+        "picks": 2188
       },
       "closed": {
-        "winRate": 45.9,
+        "winRate": 46.23,
         "playRate": 1.68,
-        "picks": 488
+        "picks": 491
       },
       "other": {
-        "winRate": 50.01,
-        "playRate": 1.69,
-        "picks": 4523
+        "winRate": 50.09,
+        "playRate": 1.68,
+        "picks": 4548
       },
       "nomad": {
         "winRate": 48,
@@ -383,6 +383,11 @@
       }
     },
     "strongAgainst": [
+      {
+        "name": "saxons",
+        "games": 10,
+        "winRate": 80
+      },
       {
         "name": "tupi",
         "games": 122,
@@ -394,19 +399,14 @@
         "winRate": 62.5
       },
       {
+        "name": "danes",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
         "name": "lithuanians",
         "games": 135,
         "winRate": 59.26
-      },
-      {
-        "name": "ethiopians",
-        "games": 142,
-        "winRate": 59.15
-      },
-      {
-        "name": "japanese",
-        "games": 173,
-        "winRate": 56.65
       }
     ],
     "weakAgainst": [
@@ -427,8 +427,8 @@
       },
       {
         "name": "mayans",
-        "games": 164,
-        "winRate": 43.29
+        "games": 166,
+        "winRate": 43.37
       },
       {
         "name": "mapuche",

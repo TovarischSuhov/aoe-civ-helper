@@ -318,21 +318,21 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 50.28,
+    "winRate": 50.24,
     "playRate": 1.93,
-    "picks": 7982,
+    "picks": 8025,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 50.14,
-        "playRate": 1.99,
-        "picks": 5321
+        "winRate": 50.13,
+        "playRate": 1.98,
+        "picks": 5354
       },
       "nomad": {
         "winRate": 50.53,
@@ -340,31 +340,31 @@
         "picks": 283
       },
       "open": {
-        "winRate": 49.63,
-        "playRate": 1.64,
-        "picks": 1771
+        "winRate": 49.47,
+        "playRate": 1.63,
+        "picks": 1779
       },
       "closed": {
-        "winRate": 53.21,
+        "winRate": 53.37,
         "playRate": 2.09,
-        "picks": 607
+        "picks": 609
       }
     },
     "strongAgainst": [
+      {
+        "name": "varangians",
+        "games": 11,
+        "winRate": 63.64
+      },
       {
         "name": "jurchens",
         "games": 88,
         "winRate": 61.36
       },
       {
-        "name": "varangians",
-        "games": 10,
-        "winRate": 60
-      },
-      {
         "name": "gurjaras",
-        "games": 113,
-        "winRate": 58.41
+        "games": 114,
+        "winRate": 58.77
       },
       {
         "name": "wu",
@@ -372,21 +372,21 @@
         "winRate": 58.16
       },
       {
-        "name": "poles",
-        "games": 166,
-        "winRate": 57.23
+        "name": "slavs",
+        "games": 99,
+        "winRate": 57.58
       }
     ],
     "weakAgainst": [
       {
-        "name": "georgians",
-        "games": 110,
-        "winRate": 38.18
-      },
-      {
         "name": "muisca",
         "games": 75,
         "winRate": 38.67
+      },
+      {
+        "name": "georgians",
+        "games": 113,
+        "winRate": 38.94
       },
       {
         "name": "chinese",

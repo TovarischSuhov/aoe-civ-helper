@@ -357,26 +357,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.55,
-    "playRate": 1.33,
-    "picks": 5479,
+    "winRate": 49.47,
+    "playRate": 1.32,
+    "picks": 5504,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T09:20:25.000Z",
+    "updated": "2026-09-23T19:41:43.000Z",
     "window": "2026-07-17 → 2026-09-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.53,
-        "playRate": 1.31,
-        "picks": 3497
+        "winRate": 48.45,
+        "playRate": 1.3,
+        "picks": 3515
       },
       "open": {
-        "winRate": 50.82,
-        "playRate": 1.46,
-        "picks": 1576
+        "winRate": 50.76,
+        "playRate": 1.45,
+        "picks": 1580
       },
       "nomad": {
         "winRate": 57.41,
@@ -384,16 +384,16 @@
         "picks": 108
       },
       "closed": {
-        "winRate": 52.01,
+        "winRate": 51.83,
         "playRate": 1.03,
-        "picks": 298
+        "picks": 301
       }
     },
     "strongAgainst": [
       {
         "name": "burmese",
-        "games": 68,
-        "winRate": 60.29
+        "games": 69,
+        "winRate": 59.42
       },
       {
         "name": "ethiopians",
@@ -418,9 +418,19 @@
     ],
     "weakAgainst": [
       {
+        "name": "varangians",
+        "games": 8,
+        "winRate": 25
+      },
+      {
         "name": "wei",
         "games": 122,
         "winRate": 36.89
+      },
+      {
+        "name": "armenians",
+        "games": 93,
+        "winRate": 39.78
       },
       {
         "name": "teutons",
@@ -428,19 +438,9 @@
         "winRate": 39.81
       },
       {
-        "name": "armenians",
-        "games": 92,
-        "winRate": 40.22
-      },
-      {
         "name": "cumans",
         "games": 79,
         "winRate": 40.51
-      },
-      {
-        "name": "persians",
-        "games": 161,
-        "winRate": 42.24
       }
     ]
   },
