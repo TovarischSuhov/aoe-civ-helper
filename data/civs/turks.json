@@ -363,24 +363,24 @@
   "stats": {
     "winRate": 48.52,
     "playRate": 1.79,
-    "picks": 7541,
+    "picks": 7590,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
       "other": {
-        "winRate": 47.92,
-        "playRate": 1.77,
-        "picks": 4833
+        "winRate": 47.89,
+        "playRate": 1.76,
+        "picks": 4865
       },
       "closed": {
-        "winRate": 53.69,
+        "winRate": 53.93,
         "playRate": 3.1,
-        "picks": 909
+        "picks": 916
       },
       "nomad": {
         "winRate": 42.02,
@@ -388,43 +388,43 @@
         "picks": 119
       },
       "open": {
-        "winRate": 47.92,
+        "winRate": 47.87,
         "playRate": 1.53,
-        "picks": 1680
+        "picks": 1690
       }
     },
     "strongAgainst": [
       {
+        "name": "danes",
+        "games": 8,
+        "winRate": 75
+      },
+      {
         "name": "varangians",
-        "games": 10,
-        "winRate": 60
+        "games": 12,
+        "winRate": 58.33
       },
       {
         "name": "bohemians",
-        "games": 247,
-        "winRate": 57.09
+        "games": 249,
+        "winRate": 57.03
+      },
+      {
+        "name": "celts",
+        "games": 133,
+        "winRate": 55.64
       },
       {
         "name": "saracens",
         "games": 144,
         "winRate": 55.56
-      },
-      {
-        "name": "celts",
-        "games": 132,
-        "winRate": 55.3
-      },
-      {
-        "name": "slavs",
-        "games": 118,
-        "winRate": 55.08
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 112,
-        "winRate": 34.82
+        "games": 114,
+        "winRate": 35.96
       },
       {
         "name": "poles",

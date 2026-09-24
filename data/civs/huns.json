@@ -360,26 +360,26 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 51.63,
+    "winRate": 51.61,
     "playRate": 2.06,
-    "picks": 8673,
+    "picks": 8737,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 51.86,
+        "winRate": 51.91,
         "playRate": 2.18,
-        "picks": 2391
+        "picks": 2406
       },
       "other": {
-        "winRate": 51.74,
+        "winRate": 51.68,
         "playRate": 2.07,
-        "picks": 5646
+        "picks": 5695
       },
       "nomad": {
         "winRate": 49.71,
@@ -388,15 +388,15 @@
       },
       "closed": {
         "winRate": 49.89,
-        "playRate": 1.58,
+        "playRate": 1.57,
         "picks": 463
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 21,
-        "winRate": 76.19
+        "games": 29,
+        "winRate": 72.41
       },
       {
         "name": "burmese",
@@ -410,8 +410,8 @@
       },
       {
         "name": "malians",
-        "games": 146,
-        "winRate": 60.27
+        "games": 147,
+        "winRate": 60.54
       },
       {
         "name": "muisca",
@@ -421,14 +421,9 @@
     ],
     "weakAgainst": [
       {
-        "name": "wu",
-        "games": 90,
-        "winRate": 43.33
-      },
-      {
         "name": "ethiopians",
-        "games": 175,
-        "winRate": 43.43
+        "games": 176,
+        "winRate": 43.18
       },
       {
         "name": "shu",
@@ -436,9 +431,14 @@
         "winRate": 43.75
       },
       {
+        "name": "wu",
+        "games": 91,
+        "winRate": 43.96
+      },
+      {
         "name": "chinese",
-        "games": 235,
-        "winRate": 44.26
+        "games": 236,
+        "winRate": 44.49
       },
       {
         "name": "goths",

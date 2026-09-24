@@ -366,26 +366,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.94,
+    "winRate": 45.87,
     "playRate": 1.3,
-    "picks": 5466,
+    "picks": 5498,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
       "other": {
-        "winRate": 46.2,
-        "playRate": 1.3,
-        "picks": 3537
+        "winRate": 46.08,
+        "playRate": 1.29,
+        "picks": 3559
       },
       "open": {
-        "winRate": 45.52,
+        "winRate": 45.44,
         "playRate": 1.34,
-        "picks": 1474
+        "picks": 1481
       },
       "nomad": {
         "winRate": 50.51,
@@ -393,21 +393,26 @@
         "picks": 99
       },
       "closed": {
-        "winRate": 43.82,
+        "winRate": 44.29,
         "playRate": 1.21,
-        "picks": 356
+        "picks": 359
       }
     },
     "strongAgainst": [
       {
+        "name": "danes",
+        "games": 11,
+        "winRate": 81.82
+      },
+      {
         "name": "incas",
-        "games": 106,
-        "winRate": 66.04
+        "games": 107,
+        "winRate": 66.36
       },
       {
         "name": "poles",
-        "games": 83,
-        "winRate": 56.63
+        "games": 85,
+        "winRate": 55.29
       },
       {
         "name": "portuguese",
@@ -418,11 +423,6 @@
         "name": "burmese",
         "games": 75,
         "winRate": 53.33
-      },
-      {
-        "name": "teutons",
-        "games": 100,
-        "winRate": 53
       }
     ],
     "weakAgainst": [
@@ -433,23 +433,23 @@
       },
       {
         "name": "mapuche",
-        "games": 56,
-        "winRate": 35.71
+        "games": 57,
+        "winRate": 36.84
       },
       {
         "name": "shu",
-        "games": 58,
-        "winRate": 36.21
+        "games": 59,
+        "winRate": 37.29
       },
       {
         "name": "italians",
-        "games": 88,
-        "winRate": 38.64
+        "games": 89,
+        "winRate": 38.2
       },
       {
         "name": "franks",
-        "games": 100,
-        "winRate": 39
+        "games": 102,
+        "winRate": 38.24
       }
     ]
   },

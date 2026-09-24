@@ -327,26 +327,26 @@
     "takeaway": "#1 at the very top Elo. Cheaper techs + extra farm food + fire lancers + Chu Ko Nu shine mid/late, but you start down 200 food and need strong game sense to exploit the cheaper techs."
   },
   "stats": {
-    "winRate": 54.56,
+    "winRate": 54.6,
     "playRate": 2.55,
-    "picks": 10731,
+    "picks": 10811,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 55.11,
+        "winRate": 55.06,
         "playRate": 2.87,
-        "picks": 3148
+        "picks": 3169
       },
       "other": {
-        "winRate": 54.32,
-        "playRate": 2.52,
-        "picks": 6870
+        "winRate": 54.4,
+        "playRate": 2.51,
+        "picks": 6928
       },
       "nomad": {
         "winRate": 58.74,
@@ -354,53 +354,48 @@
         "picks": 143
       },
       "closed": {
-        "winRate": 53.33,
-        "playRate": 1.94,
-        "picks": 570
+        "winRate": 53.42,
+        "playRate": 1.93,
+        "picks": 571
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 27,
-        "winRate": 81.48
+        "games": 30,
+        "winRate": 76.67
       },
       {
         "name": "varangians",
-        "games": 33,
-        "winRate": 72.73
+        "games": 52,
+        "winRate": 69.23
       },
       {
         "name": "armenians",
-        "games": 189,
-        "winRate": 66.14
+        "games": 190,
+        "winRate": 65.79
       },
       {
         "name": "byzantines",
-        "games": 170,
-        "winRate": 62.35
+        "games": 171,
+        "winRate": 61.99
       },
       {
         "name": "incas",
-        "games": 172,
-        "winRate": 61.63
+        "games": 173,
+        "winRate": 61.27
       }
     ],
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 169,
-        "winRate": 43.79
-      },
-      {
-        "name": "saxons",
-        "games": 26,
-        "winRate": 46.15
+        "games": 172,
+        "winRate": 44.19
       },
       {
         "name": "mayans",
-        "games": 225,
-        "winRate": 47.56
+        "games": 227,
+        "winRate": 47.58
       },
       {
         "name": "celts",
@@ -411,6 +406,11 @@
         "name": "bengalis",
         "games": 152,
         "winRate": 48.68
+      },
+      {
+        "name": "britons",
+        "games": 215,
+        "winRate": 49.77
       }
     ]
   },

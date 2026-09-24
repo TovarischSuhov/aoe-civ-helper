@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.36,
-    "playRate": 1.4,
-    "picks": 5868,
+    "winRate": 53.32,
+    "playRate": 1.39,
+    "picks": 5902,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 52.86,
-        "playRate": 1.47,
-        "picks": 1610
+        "winRate": 52.78,
+        "playRate": 1.46,
+        "picks": 1618
       },
       "other": {
-        "winRate": 53.97,
-        "playRate": 1.41,
-        "picks": 3845
+        "winRate": 53.93,
+        "playRate": 1.4,
+        "picks": 3870
       },
       "nomad": {
         "winRate": 46.24,
@@ -375,9 +375,9 @@
         "picks": 93
       },
       "closed": {
-        "winRate": 50.63,
+        "winRate": 50.78,
         "playRate": 1.09,
-        "picks": 320
+        "picks": 321
       }
     },
     "strongAgainst": [
@@ -409,14 +409,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "mongols",
-        "games": 363,
-        "winRate": 42.7
+        "name": "saxons",
+        "games": 10,
+        "winRate": 40
       },
       {
-        "name": "saxons",
-        "games": 9,
-        "winRate": 44.44
+        "name": "mongols",
+        "games": 366,
+        "winRate": 43.17
       },
       {
         "name": "chinese",
@@ -430,8 +430,8 @@
       },
       {
         "name": "japanese",
-        "games": 152,
-        "winRate": 46.71
+        "games": 153,
+        "winRate": 47.06
       }
     ]
   },

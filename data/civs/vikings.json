@@ -358,31 +358,31 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.56,
+    "winRate": 52.62,
     "playRate": 1.82,
-    "picks": 7661,
+    "picks": 7720,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
       "open": {
-        "winRate": 51.89,
+        "winRate": 51.93,
         "playRate": 1.9,
-        "picks": 2085
+        "picks": 2099
       },
       "other": {
-        "winRate": 52.64,
-        "playRate": 1.85,
-        "picks": 5040
+        "winRate": 52.69,
+        "playRate": 1.84,
+        "picks": 5081
       },
       "closed": {
-        "winRate": 53.44,
+        "winRate": 53.65,
         "playRate": 1.34,
-        "picks": 393
+        "picks": 397
       },
       "nomad": {
         "winRate": 57.34,
@@ -393,8 +393,8 @@
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 10,
-        "winRate": 70
+        "games": 12,
+        "winRate": 66.67
       },
       {
         "name": "berbers",
@@ -408,16 +408,21 @@
       },
       {
         "name": "burmese",
-        "games": 118,
-        "winRate": 61.86
+        "games": 119,
+        "winRate": 62.18
       },
       {
         "name": "burgundians",
-        "games": 165,
-        "winRate": 59.39
+        "games": 166,
+        "winRate": 59.64
       }
     ],
     "weakAgainst": [
+      {
+        "name": "saxons",
+        "games": 16,
+        "winRate": 43.75
+      },
       {
         "name": "spanish",
         "games": 194,
@@ -435,13 +440,8 @@
       },
       {
         "name": "italians",
-        "games": 152,
-        "winRate": 46.05
-      },
-      {
-        "name": "malay",
-        "games": 142,
-        "winRate": 46.48
+        "games": 153,
+        "winRate": 46.41
       }
     ]
   },

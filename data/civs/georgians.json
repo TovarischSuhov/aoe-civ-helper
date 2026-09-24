@@ -297,24 +297,24 @@
   "stats": {
     "winRate": 48.57,
     "playRate": 1.2,
-    "picks": 5061,
+    "picks": 5098,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T09:20:41.000Z",
+    "updated": "2026-09-24T20:00:08.000Z",
     "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 49.93,
-        "playRate": 1.23,
-        "picks": 1344
+        "winRate": 49.81,
+        "playRate": 1.22,
+        "picks": 1351
       },
       "other": {
-        "winRate": 48.78,
+        "winRate": 48.83,
         "playRate": 1.21,
-        "picks": 3313
+        "picks": 3342
       },
       "nomad": {
         "winRate": 39.81,
@@ -322,12 +322,17 @@
         "picks": 103
       },
       "closed": {
-        "winRate": 43.19,
+        "winRate": 43.05,
         "playRate": 1.02,
-        "picks": 301
+        "picks": 302
       }
     },
     "strongAgainst": [
+      {
+        "name": "varangians",
+        "games": 11,
+        "winRate": 81.82
+      },
       {
         "name": "incas",
         "games": 95,
@@ -347,18 +352,13 @@
         "name": "goths",
         "games": 67,
         "winRate": 58.21
-      },
-      {
-        "name": "teutons",
-        "games": 80,
-        "winRate": 57.5
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 88,
-        "winRate": 37.5
+        "games": 89,
+        "winRate": 37.08
       },
       {
         "name": "malay",
@@ -377,8 +377,8 @@
       },
       {
         "name": "khitans",
-        "games": 68,
-        "winRate": 41.18
+        "games": 69,
+        "winRate": 40.58
       }
     ]
   },
