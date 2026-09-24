@@ -308,29 +308,29 @@
   "stats": {
     "winRate": 49.49,
     "playRate": 1.97,
-    "picks": 8206,
+    "picks": 8270,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T19:41:43.000Z",
-    "window": "2026-07-17 → 2026-09-23",
+    "updated": "2026-09-24T09:20:41.000Z",
+    "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 48.94,
+        "winRate": 48.89,
         "playRate": 1.92,
-        "picks": 5198
+        "picks": 5240
       },
       "open": {
-        "winRate": 51.26,
-        "playRate": 2.11,
-        "picks": 2300
+        "winRate": 51.36,
+        "playRate": 2.12,
+        "picks": 2321
       },
       "closed": {
-        "winRate": 47.51,
-        "playRate": 1.93,
-        "picks": 562
+        "winRate": 47.6,
+        "playRate": 1.92,
+        "picks": 563
       },
       "nomad": {
         "winRate": 48.63,
@@ -340,14 +340,14 @@
     },
     "strongAgainst": [
       {
-        "name": "saxons",
-        "games": 12,
-        "winRate": 75
+        "name": "varangians",
+        "games": 18,
+        "winRate": 72.22
       },
       {
-        "name": "varangians",
-        "games": 8,
-        "winRate": 62.5
+        "name": "saxons",
+        "games": 17,
+        "winRate": 70.59
       },
       {
         "name": "muisca",
@@ -367,6 +367,11 @@
     ],
     "weakAgainst": [
       {
+        "name": "wei",
+        "games": 145,
+        "winRate": 40.69
+      },
+      {
         "name": "romans",
         "games": 107,
         "winRate": 41.12
@@ -377,14 +382,9 @@
         "winRate": 41.18
       },
       {
-        "name": "wei",
-        "games": 143,
-        "winRate": 41.26
-      },
-      {
         "name": "koreans",
-        "games": 138,
-        "winRate": 42.03
+        "games": 139,
+        "winRate": 41.73
       },
       {
         "name": "burgundians",

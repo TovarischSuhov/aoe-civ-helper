@@ -288,31 +288,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.73,
+    "winRate": 49.78,
     "playRate": 1.71,
-    "picks": 7130,
+    "picks": 7190,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-23T19:41:43.000Z",
-    "window": "2026-07-17 → 2026-09-23",
+    "updated": "2026-09-24T09:20:41.000Z",
+    "window": "2026-07-17 → 2026-09-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "closed": {
-        "winRate": 44.89,
-        "playRate": 1.71,
-        "picks": 499
+        "winRate": 44.95,
+        "playRate": 1.72,
+        "picks": 505
       },
       "open": {
-        "winRate": 49.77,
+        "winRate": 49.95,
         "playRate": 1.77,
-        "picks": 1927
+        "picks": 1946
       },
       "other": {
-        "winRate": 50.04,
+        "winRate": 50.03,
         "playRate": 1.69,
-        "picks": 4570
+        "picks": 4605
       },
       "nomad": {
         "winRate": 56.72,
@@ -322,29 +322,29 @@
     },
     "strongAgainst": [
       {
+        "name": "varangians",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "danes",
+        "games": 8,
+        "winRate": 62.5
+      },
+      {
         "name": "byzantines",
-        "games": 116,
-        "winRate": 60.34
+        "games": 118,
+        "winRate": 59.32
       },
       {
         "name": "dravidians",
-        "games": 113,
-        "winRate": 58.41
+        "games": 117,
+        "winRate": 58.97
       },
       {
         "name": "incas",
         "games": 128,
         "winRate": 57.81
-      },
-      {
-        "name": "jurchens",
-        "games": 90,
-        "winRate": 57.78
-      },
-      {
-        "name": "gurjaras",
-        "games": 103,
-        "winRate": 57.28
       }
     ],
     "weakAgainst": [
@@ -359,14 +359,14 @@
         "winRate": 38.75
       },
       {
+        "name": "magyars",
+        "games": 203,
+        "winRate": 43.35
+      },
+      {
         "name": "koreans",
         "games": 129,
         "winRate": 43.41
-      },
-      {
-        "name": "magyars",
-        "games": 202,
-        "winRate": 43.56
       },
       {
         "name": "celts",
