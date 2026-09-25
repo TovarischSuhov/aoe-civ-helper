@@ -333,26 +333,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.6,
+    "winRate": 53.66,
     "playRate": 2.03,
-    "picks": 8617,
+    "picks": 8673,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T20:00:08.000Z",
-    "window": "2026-07-17 → 2026-09-24",
+    "updated": "2026-09-25T09:38:23.000Z",
+    "window": "2026-07-17 → 2026-09-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
       "other": {
-        "winRate": 53.1,
-        "playRate": 2.01,
-        "picks": 5527
+        "winRate": 53.2,
+        "playRate": 2,
+        "picks": 5566
       },
       "open": {
-        "winRate": 55.42,
+        "winRate": 55.41,
         "playRate": 2.23,
-        "picks": 2461
+        "picks": 2478
       },
       "nomad": {
         "winRate": 51.66,
@@ -361,11 +361,21 @@
       },
       "closed": {
         "winRate": 50.63,
-        "playRate": 1.62,
+        "playRate": 1.6,
         "picks": 478
       }
     },
     "strongAgainst": [
+      {
+        "name": "varangians",
+        "games": 21,
+        "winRate": 71.43
+      },
+      {
+        "name": "danes",
+        "games": 12,
+        "winRate": 66.67
+      },
       {
         "name": "bohemians",
         "games": 134,
@@ -377,46 +387,36 @@
         "winRate": 64.63
       },
       {
-        "name": "varangians",
-        "games": 14,
-        "winRate": 64.29
-      },
-      {
         "name": "incas",
         "games": 144,
         "winRate": 61.81
-      },
-      {
-        "name": "georgians",
-        "games": 120,
-        "winRate": 60.83
       }
     ],
     "weakAgainst": [
-      {
-        "name": "saxons",
-        "games": 10,
-        "winRate": 40
-      },
       {
         "name": "slavs",
         "games": 129,
         "winRate": 44.19
       },
       {
-        "name": "vikings",
-        "games": 160,
-        "winRate": 45
+        "name": "hindustanis",
+        "games": 181,
+        "winRate": 44.75
       },
       {
-        "name": "hindustanis",
-        "games": 180,
-        "winRate": 45
+        "name": "vikings",
+        "games": 161,
+        "winRate": 45.34
       },
       {
         "name": "tupi",
+        "games": 140,
+        "winRate": 46.43
+      },
+      {
+        "name": "bulgarians",
         "games": 139,
-        "winRate": 46.04
+        "winRate": 46.76
       }
     ]
   },

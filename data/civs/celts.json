@@ -361,31 +361,31 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.98,
-    "playRate": 1.62,
-    "picks": 6868,
+    "winRate": 51.94,
+    "playRate": 1.61,
+    "picks": 6906,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T20:00:08.000Z",
-    "window": "2026-07-17 → 2026-09-24",
+    "updated": "2026-09-25T09:38:23.000Z",
+    "window": "2026-07-17 → 2026-09-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.04,
-        "playRate": 1.62,
-        "picks": 4453
+        "winRate": 51.02,
+        "playRate": 1.61,
+        "picks": 4481
       },
       "open": {
-        "winRate": 54.18,
+        "winRate": 54.11,
         "playRate": 1.61,
-        "picks": 1783
+        "picks": 1789
       },
       "closed": {
-        "winRate": 52.92,
+        "winRate": 52.89,
         "playRate": 1.62,
-        "picks": 480
+        "picks": 484
       },
       "nomad": {
         "winRate": 50.66,
@@ -394,11 +394,6 @@
       }
     },
     "strongAgainst": [
-      {
-        "name": "varangians",
-        "games": 10,
-        "winRate": 80
-      },
       {
         "name": "mapuche",
         "games": 81,
@@ -410,9 +405,14 @@
         "winRate": 62.89
       },
       {
+        "name": "varangians",
+        "games": 13,
+        "winRate": 61.54
+      },
+      {
         "name": "khitans",
-        "games": 83,
-        "winRate": 61.45
+        "games": 84,
+        "winRate": 60.71
       },
       {
         "name": "burmese",
@@ -423,8 +423,8 @@
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 120,
-        "winRate": 41.67
+        "games": 121,
+        "winRate": 41.32
       },
       {
         "name": "shu",
@@ -432,19 +432,19 @@
         "winRate": 43.75
       },
       {
-        "name": "turks",
-        "games": 133,
-        "winRate": 44.36
+        "name": "burgundians",
+        "games": 174,
+        "winRate": 44.83
       },
       {
         "name": "mongols",
-        "games": 358,
-        "winRate": 44.97
+        "games": 360,
+        "winRate": 45
       },
       {
-        "name": "burgundians",
-        "games": 173,
-        "winRate": 45.09
+        "name": "turks",
+        "games": 135,
+        "winRate": 45.19
       }
     ]
   },

@@ -288,51 +288,46 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 42.78,
-    "playRate": 0.42,
-    "picks": 1793,
+    "winRate": 42.84,
+    "playRate": 0.5,
+    "picks": 2136,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-24T20:00:08.000Z",
-    "window": "2026-07-17 → 2026-09-24",
+    "updated": "2026-09-25T09:38:23.000Z",
+    "window": "2026-07-17 → 2026-09-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/varangians",
     "byMapType": {
       "other": {
-        "winRate": 43.49,
-        "playRate": 0.47,
-        "picks": 1290
+        "winRate": 43.66,
+        "playRate": 0.55,
+        "picks": 1521
       },
       "open": {
-        "winRate": 39.45,
-        "playRate": 0.36,
-        "picks": 403
+        "winRate": 39.43,
+        "playRate": 0.44,
+        "picks": 487
       },
       "closed": {
-        "winRate": 47,
-        "playRate": 0.34,
-        "picks": 100
+        "winRate": 46.09,
+        "playRate": 0.43,
+        "picks": 128
       }
     },
     "strongAgainst": [
       {
-        "name": "slavs",
-        "games": 9,
-        "winRate": 66.67
-      },
-      {
         "name": "burmese",
-        "games": 8,
-        "winRate": 62.5
-      },
-      {
-        "name": "goths",
         "games": 10,
-        "winRate": 60
+        "winRate": 70
       },
       {
         "name": "bohemians",
+        "games": 12,
+        "winRate": 66.67
+      },
+      {
+        "name": "slavs",
         "games": 10,
         "winRate": 60
       },
@@ -340,33 +335,38 @@
         "name": "malay",
         "games": 14,
         "winRate": 57.14
+      },
+      {
+        "name": "khitans",
+        "games": 9,
+        "winRate": 55.56
       }
     ],
     "weakAgainst": [
       {
-        "name": "teutons",
+        "name": "georgians",
         "games": 14,
         "winRate": 14.29
       },
       {
-        "name": "georgians",
-        "games": 11,
-        "winRate": 18.18
+        "name": "teutons",
+        "games": 21,
+        "winRate": 23.81
       },
       {
-        "name": "celts",
-        "games": 10,
-        "winRate": 20
+        "name": "wu",
+        "games": 8,
+        "winRate": 25
       },
       {
         "name": "britons",
-        "games": 17,
-        "winRate": 23.53
+        "games": 20,
+        "winRate": 25
       },
       {
-        "name": "incas",
-        "games": 11,
-        "winRate": 27.27
+        "name": "bulgarians",
+        "games": 18,
+        "winRate": 27.78
       }
     ]
   },
