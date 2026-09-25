@@ -381,26 +381,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.73,
-    "playRate": 1.69,
-    "picks": 7207,
+    "winRate": 51.66,
+    "playRate": 1.68,
+    "picks": 7250,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-25T09:38:23.000Z",
+    "updated": "2026-09-25T20:02:30.000Z",
     "window": "2026-07-17 → 2026-09-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malians",
     "byMapType": {
       "open": {
-        "winRate": 52.78,
+        "winRate": 52.84,
         "playRate": 1.79,
-        "picks": 1995
+        "picks": 2004
       },
       "other": {
-        "winRate": 51.65,
+        "winRate": 51.51,
         "playRate": 1.67,
-        "picks": 4654
+        "picks": 4688
       },
       "nomad": {
         "winRate": 47.62,
@@ -409,7 +409,7 @@
       },
       "closed": {
         "winRate": 48.91,
-        "playRate": 1.38,
+        "playRate": 1.37,
         "picks": 411
       }
     },
@@ -420,31 +420,31 @@
         "winRate": 63.89
       },
       {
-        "name": "slavs",
-        "games": 130,
-        "winRate": 61.54
-      },
-      {
         "name": "incas",
         "games": 110,
         "winRate": 60.91
       },
       {
-        "name": "tatars",
-        "games": 112,
-        "winRate": 58.93
+        "name": "slavs",
+        "games": 133,
+        "winRate": 60.9
       },
       {
         "name": "wei",
         "games": 102,
         "winRate": 58.82
+      },
+      {
+        "name": "tatars",
+        "games": 113,
+        "winRate": 58.41
       }
     ],
     "weakAgainst": [
       {
         "name": "danes",
-        "games": 9,
-        "winRate": 11.11
+        "games": 11,
+        "winRate": 18.18
       },
       {
         "name": "saxons",
@@ -463,8 +463,8 @@
       },
       {
         "name": "mongols",
-        "games": 355,
-        "winRate": 42.54
+        "games": 357,
+        "winRate": 42.58
       }
     ]
   },

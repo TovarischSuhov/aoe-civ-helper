@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.17,
+    "winRate": 48.14,
     "playRate": 1.63,
-    "picks": 6979,
+    "picks": 7040,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-25T09:38:23.000Z",
+    "updated": "2026-09-25T20:02:30.000Z",
     "window": "2026-07-17 → 2026-09-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 49.57,
+        "winRate": 49.63,
         "playRate": 1.69,
-        "picks": 1876
+        "picks": 1892
       },
       "nomad": {
         "winRate": 45.6,
@@ -357,22 +357,17 @@
         "picks": 125
       },
       "other": {
-        "winRate": 47.93,
+        "winRate": 47.86,
         "playRate": 1.65,
-        "picks": 4582
+        "picks": 4624
       },
       "closed": {
-        "winRate": 45.2,
+        "winRate": 45.11,
         "playRate": 1.33,
-        "picks": 396
+        "picks": 399
       }
     },
     "strongAgainst": [
-      {
-        "name": "slavs",
-        "games": 101,
-        "winRate": 58.42
-      },
       {
         "name": "jurchens",
         "games": 113,
@@ -380,30 +375,35 @@
       },
       {
         "name": "lithuanians",
-        "games": 126,
-        "winRate": 57.14
+        "games": 127,
+        "winRate": 57.48
+      },
+      {
+        "name": "slavs",
+        "games": 103,
+        "winRate": 57.28
+      },
+      {
+        "name": "varangians",
+        "games": 9,
+        "winRate": 55.56
       },
       {
         "name": "georgians",
         "games": 83,
         "winRate": 55.42
-      },
-      {
-        "name": "muisca",
-        "games": 73,
-        "winRate": 54.79
       }
     ],
     "weakAgainst": [
       {
-        "name": "saxons",
-        "games": 13,
-        "winRate": 30.77
-      },
-      {
         "name": "mayans",
         "games": 147,
         "winRate": 35.37
+      },
+      {
+        "name": "saxons",
+        "games": 14,
+        "winRate": 35.71
       },
       {
         "name": "bohemians",
@@ -412,13 +412,13 @@
       },
       {
         "name": "malians",
-        "games": 112,
-        "winRate": 41.07
+        "games": 113,
+        "winRate": 41.59
       },
       {
-        "name": "vikings",
-        "games": 140,
-        "winRate": 42.14
+        "name": "dravidians",
+        "games": 99,
+        "winRate": 42.42
       }
     ]
   },
