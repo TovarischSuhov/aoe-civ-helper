@@ -366,12 +366,12 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.79,
-    "playRate": 1.29,
-    "picks": 5593,
+    "winRate": 45.76,
+    "playRate": 1.28,
+    "picks": 5625,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T09:22:52.000Z",
+    "updated": "2026-09-26T19:14:03.000Z",
     "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -380,12 +380,12 @@
       "other": {
         "winRate": 46.01,
         "playRate": 1.28,
-        "picks": 3625
+        "picks": 3645
       },
       "open": {
-        "winRate": 45.25,
+        "winRate": 45.11,
         "playRate": 1.33,
-        "picks": 1505
+        "picks": 1514
       },
       "nomad": {
         "winRate": 50.51,
@@ -393,21 +393,16 @@
         "picks": 99
       },
       "closed": {
-        "winRate": 44.51,
+        "winRate": 44.69,
         "playRate": 1.21,
-        "picks": 364
+        "picks": 367
       }
     },
     "strongAgainst": [
       {
-        "name": "varangians",
-        "games": 9,
-        "winRate": 66.67
-      },
-      {
         "name": "incas",
-        "games": 110,
-        "winRate": 65.45
+        "games": 111,
+        "winRate": 65.77
       },
       {
         "name": "danes",
@@ -415,21 +410,26 @@
         "winRate": 64.71
       },
       {
+        "name": "varangians",
+        "games": 10,
+        "winRate": 60
+      },
+      {
         "name": "poles",
         "games": 85,
         "winRate": 55.29
       },
       {
-        "name": "burmese",
-        "games": 77,
-        "winRate": 53.25
+        "name": "khitans",
+        "games": 74,
+        "winRate": 52.7
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 16,
-        "winRate": 18.75
+        "games": 18,
+        "winRate": 22.22
       },
       {
         "name": "spanish",
@@ -442,14 +442,14 @@
         "winRate": 37.29
       },
       {
-        "name": "italians",
-        "games": 91,
-        "winRate": 37.36
-      },
-      {
         "name": "mapuche",
         "games": 58,
         "winRate": 37.93
+      },
+      {
+        "name": "italians",
+        "games": 92,
+        "winRate": 38.04
       }
     ]
   },

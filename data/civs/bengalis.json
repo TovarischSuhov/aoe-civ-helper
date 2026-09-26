@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.87,
-    "playRate": 1.65,
-    "picks": 7164,
+    "winRate": 49.83,
+    "playRate": 1.64,
+    "picks": 7202,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T09:22:52.000Z",
+    "updated": "2026-09-26T19:14:03.000Z",
     "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 49.6,
-        "playRate": 1.62,
-        "picks": 4583
+        "winRate": 49.53,
+        "playRate": 1.61,
+        "picks": 4609
       },
       "open": {
-        "winRate": 48.34,
+        "winRate": 48.32,
         "playRate": 1.57,
-        "picks": 1777
+        "picks": 1786
       },
       "nomad": {
         "winRate": 57.42,
@@ -283,9 +283,9 @@
         "picks": 155
       },
       "closed": {
-        "winRate": 54.24,
+        "winRate": 54.29,
         "playRate": 2.15,
-        "picks": 649
+        "picks": 652
       }
     },
     "strongAgainst": [
@@ -301,26 +301,21 @@
       },
       {
         "name": "turks",
-        "games": 143,
-        "winRate": 57.34
+        "games": 145,
+        "winRate": 56.55
       },
       {
         "name": "britons",
-        "games": 162,
-        "winRate": 56.79
+        "games": 164,
+        "winRate": 56.1
       },
       {
-        "name": "georgians",
-        "games": 100,
-        "winRate": 56
+        "name": "italians",
+        "games": 166,
+        "winRate": 56.02
       }
     ],
     "weakAgainst": [
-      {
-        "name": "danes",
-        "games": 11,
-        "winRate": 36.36
-      },
       {
         "name": "romans",
         "games": 111,
@@ -337,9 +332,14 @@
         "winRate": 41.25
       },
       {
-        "name": "saxons",
-        "games": 12,
+        "name": "aztecs",
+        "games": 108,
         "winRate": 41.67
+      },
+      {
+        "name": "tupi",
+        "games": 91,
+        "winRate": 41.76
       }
     ]
   },

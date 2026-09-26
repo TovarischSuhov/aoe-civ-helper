@@ -348,26 +348,26 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.46,
+    "winRate": 53.49,
     "playRate": 1.38,
-    "picks": 6001,
+    "picks": 6037,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T09:22:52.000Z",
+    "updated": "2026-09-26T19:14:03.000Z",
     "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "open": {
-        "winRate": 52.94,
+        "winRate": 52.89,
         "playRate": 1.46,
-        "picks": 1647
+        "picks": 1660
       },
       "other": {
-        "winRate": 54.07,
+        "winRate": 54.11,
         "playRate": 1.39,
-        "picks": 3936
+        "picks": 3957
       },
       "nomad": {
         "winRate": 46.24,
@@ -375,9 +375,9 @@
         "picks": 93
       },
       "closed": {
-        "winRate": 50.77,
+        "winRate": 51.07,
         "playRate": 1.08,
-        "picks": 325
+        "picks": 327
       }
     },
     "strongAgainst": [
@@ -393,30 +393,25 @@
       },
       {
         "name": "gurjaras",
-        "games": 88,
-        "winRate": 63.64
+        "games": 89,
+        "winRate": 64.04
+      },
+      {
+        "name": "poles",
+        "games": 74,
+        "winRate": 63.51
       },
       {
         "name": "bengalis",
         "games": 111,
         "winRate": 63.06
-      },
-      {
-        "name": "poles",
-        "games": 73,
-        "winRate": 63.01
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 369,
-        "winRate": 43.09
-      },
-      {
-        "name": "saxons",
-        "games": 16,
-        "winRate": 43.75
+        "games": 374,
+        "winRate": 43.58
       },
       {
         "name": "chinese",
@@ -425,8 +420,13 @@
       },
       {
         "name": "spanish",
-        "games": 151,
-        "winRate": 46.36
+        "games": 153,
+        "winRate": 46.41
+      },
+      {
+        "name": "saxons",
+        "games": 19,
+        "winRate": 47.37
       },
       {
         "name": "mayans",

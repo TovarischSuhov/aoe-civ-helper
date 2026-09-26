@@ -381,26 +381,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.61,
+    "winRate": 51.54,
     "playRate": 1.68,
-    "picks": 7301,
+    "picks": 7348,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T09:22:52.000Z",
+    "updated": "2026-09-26T19:14:03.000Z",
     "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malians",
     "byMapType": {
       "open": {
-        "winRate": 52.81,
-        "playRate": 1.78,
-        "picks": 2013
+        "winRate": 52.68,
+        "playRate": 1.79,
+        "picks": 2033
       },
       "other": {
-        "winRate": 51.43,
-        "playRate": 1.67,
-        "picks": 4727
+        "winRate": 51.36,
+        "playRate": 1.66,
+        "picks": 4753
       },
       "nomad": {
         "winRate": 47.62,
@@ -408,9 +408,9 @@
         "picks": 147
       },
       "closed": {
-        "winRate": 49.28,
+        "winRate": 49.4,
         "playRate": 1.37,
-        "picks": 414
+        "picks": 415
       }
     },
     "strongAgainst": [
@@ -421,8 +421,8 @@
       },
       {
         "name": "incas",
-        "games": 111,
-        "winRate": 61.26
+        "games": 112,
+        "winRate": 60.71
       },
       {
         "name": "slavs",
@@ -442,14 +442,14 @@
     ],
     "weakAgainst": [
       {
+        "name": "saxons",
+        "games": 18,
+        "winRate": 22.22
+      },
+      {
         "name": "danes",
         "games": 13,
         "winRate": 23.08
-      },
-      {
-        "name": "saxons",
-        "games": 16,
-        "winRate": 25
       },
       {
         "name": "huns",
@@ -462,9 +462,9 @@
         "winRate": 40.36
       },
       {
-        "name": "mongols",
-        "games": 361,
-        "winRate": 42.94
+        "name": "ethiopians",
+        "games": 167,
+        "winRate": 42.51
       }
     ]
   },
