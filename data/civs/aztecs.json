@@ -347,31 +347,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.76,
+    "winRate": 50.77,
     "playRate": 1.53,
-    "picks": 6607,
+    "picks": 6656,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-25T20:02:30.000Z",
-    "window": "2026-07-17 → 2026-09-25",
+    "updated": "2026-09-26T09:22:52.000Z",
+    "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 49.1,
+        "winRate": 49,
         "playRate": 1.49,
-        "picks": 446
+        "picks": 451
       },
       "other": {
-        "winRate": 51.28,
+        "winRate": 51.29,
         "playRate": 1.51,
-        "picks": 4243
+        "picks": 4278
       },
       "open": {
-        "winRate": 50.89,
-        "playRate": 1.6,
-        "picks": 1790
+        "winRate": 50.92,
+        "playRate": 1.59,
+        "picks": 1799
       },
       "nomad": {
         "winRate": 37.5,
@@ -380,11 +380,6 @@
       }
     },
     "strongAgainst": [
-      {
-        "name": "danes",
-        "games": 10,
-        "winRate": 70
-      },
       {
         "name": "mapuche",
         "games": 70,
@@ -404,13 +399,18 @@
         "name": "bengalis",
         "games": 108,
         "winRate": 58.33
+      },
+      {
+        "name": "danes",
+        "games": 12,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 126,
-        "winRate": 40.48
+        "games": 127,
+        "winRate": 40.16
       },
       {
         "name": "chinese",
@@ -423,14 +423,14 @@
         "winRate": 43.97
       },
       {
+        "name": "mongols",
+        "games": 260,
+        "winRate": 44.23
+      },
+      {
         "name": "wei",
         "games": 115,
         "winRate": 44.35
-      },
-      {
-        "name": "mongols",
-        "games": 259,
-        "winRate": 44.4
       }
     ]
   },

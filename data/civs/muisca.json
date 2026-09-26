@@ -378,21 +378,21 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.11,
+    "winRate": 48.09,
     "playRate": 1.05,
-    "picks": 4525,
+    "picks": 4550,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-25T20:02:30.000Z",
-    "window": "2026-07-17 → 2026-09-25",
+    "updated": "2026-09-26T09:22:52.000Z",
+    "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "other": {
-        "winRate": 48.04,
+        "winRate": 48.02,
         "playRate": 1.04,
-        "picks": 2914
+        "picks": 2934
       },
       "nomad": {
         "winRate": 45.35,
@@ -400,21 +400,21 @@
         "picks": 86
       },
       "open": {
-        "winRate": 46.5,
+        "winRate": 46.42,
         "playRate": 1.04,
-        "picks": 1170
+        "picks": 1174
       },
       "closed": {
-        "winRate": 54.65,
+        "winRate": 54.78,
         "playRate": 1.18,
-        "picks": 355
+        "picks": 356
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 9,
-        "winRate": 88.89
+        "games": 10,
+        "winRate": 80
       },
       {
         "name": "saxons",
@@ -433,25 +433,20 @@
       },
       {
         "name": "cumans",
-        "games": 64,
-        "winRate": 59.38
+        "games": 65,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 53,
-        "winRate": 33.96
+        "games": 54,
+        "winRate": 33.33
       },
       {
         "name": "sicilians",
-        "games": 83,
-        "winRate": 37.35
-      },
-      {
-        "name": "franks",
-        "games": 76,
-        "winRate": 40.79
+        "games": 84,
+        "winRate": 36.9
       },
       {
         "name": "huns",
@@ -461,6 +456,11 @@
       {
         "name": "slavs",
         "games": 53,
+        "winRate": 41.51
+      },
+      {
+        "name": "bohemians",
+        "games": 106,
         "winRate": 41.51
       }
     ]

@@ -343,26 +343,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.01,
+    "winRate": 49.09,
     "playRate": 1.94,
-    "picks": 8367,
+    "picks": 8434,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-25T20:02:30.000Z",
-    "window": "2026-07-17 → 2026-09-25",
+    "updated": "2026-09-26T09:22:52.000Z",
+    "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 46.8,
+        "winRate": 46.96,
         "playRate": 1.53,
-        "picks": 1720
+        "picks": 1727
       },
       "other": {
-        "winRate": 49.1,
+        "winRate": 49.14,
         "playRate": 1.89,
-        "picks": 5307
+        "picks": 5362
       },
       "nomad": {
         "winRate": 49.04,
@@ -370,16 +370,16 @@
         "picks": 157
       },
       "closed": {
-        "winRate": 51.82,
-        "playRate": 3.94,
-        "picks": 1183
+        "winRate": 51.94,
+        "playRate": 3.93,
+        "picks": 1188
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 18,
-        "winRate": 66.67
+        "games": 23,
+        "winRate": 65.22
       },
       {
         "name": "tatars",
@@ -387,14 +387,14 @@
         "winRate": 60.48
       },
       {
+        "name": "sicilians",
+        "games": 129,
+        "winRate": 58.91
+      },
+      {
         "name": "muisca",
         "games": 106,
         "winRate": 58.49
-      },
-      {
-        "name": "sicilians",
-        "games": 127,
-        "winRate": 58.27
       },
       {
         "name": "jurchens",
@@ -404,14 +404,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "varangians",
-        "games": 12,
-        "winRate": 33.33
-      },
-      {
         "name": "mayans",
         "games": 134,
         "winRate": 33.58
+      },
+      {
+        "name": "varangians",
+        "games": 15,
+        "winRate": 40
       },
       {
         "name": "dravidians",

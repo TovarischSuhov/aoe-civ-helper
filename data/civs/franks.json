@@ -350,26 +350,26 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.66,
+    "winRate": 50.61,
     "playRate": 1.87,
-    "picks": 8075,
+    "picks": 8138,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-25T20:02:30.000Z",
-    "window": "2026-07-17 → 2026-09-25",
+    "updated": "2026-09-26T09:22:52.000Z",
+    "window": "2026-07-17 → 2026-09-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 51.48,
+        "winRate": 51.41,
         "playRate": 1.84,
-        "picks": 5163
+        "picks": 5205
       },
       "open": {
-        "winRate": 49.59,
+        "winRate": 49.6,
         "playRate": 2.08,
-        "picks": 2335
+        "picks": 2353
       },
       "nomad": {
         "winRate": 50,
@@ -377,43 +377,48 @@
         "picks": 124
       },
       "closed": {
-        "winRate": 47.02,
+        "winRate": 46.93,
         "playRate": 1.51,
-        "picks": 453
+        "picks": 456
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 31,
-        "winRate": 64.52
+        "games": 38,
+        "winRate": 65.79
       },
       {
         "name": "saxons",
-        "games": 42,
-        "winRate": 64.29
+        "games": 46,
+        "winRate": 65.22
       },
       {
         "name": "khmer",
-        "games": 195,
-        "winRate": 64.1
-      },
-      {
-        "name": "varangians",
-        "games": 42,
-        "winRate": 61.9
+        "games": 199,
+        "winRate": 63.32
       },
       {
         "name": "jurchens",
         "games": 102,
         "winRate": 61.76
+      },
+      {
+        "name": "varangians",
+        "games": 48,
+        "winRate": 60.42
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 434,
-        "winRate": 41.24
+        "games": 439,
+        "winRate": 41.23
+      },
+      {
+        "name": "mapuche",
+        "games": 88,
+        "winRate": 42.05
       },
       {
         "name": "chinese",
@@ -421,19 +426,14 @@
         "winRate": 42.49
       },
       {
-        "name": "mapuche",
-        "games": 87,
-        "winRate": 42.53
-      },
-      {
         "name": "celts",
         "games": 139,
         "winRate": 43.17
       },
       {
-        "name": "teutons",
-        "games": 147,
-        "winRate": 43.54
+        "name": "hindustanis",
+        "games": 166,
+        "winRate": 43.98
       }
     ]
   },
