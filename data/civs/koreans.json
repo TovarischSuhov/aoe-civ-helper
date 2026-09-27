@@ -354,31 +354,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.05,
+    "winRate": 51.06,
     "playRate": 1.68,
-    "picks": 7444,
+    "picks": 7486,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-27T10:02:11.000Z",
+    "updated": "2026-09-27T19:46:29.000Z",
     "window": "2026-07-17 → 2026-09-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
       "open": {
-        "winRate": 53.12,
+        "winRate": 53.13,
         "playRate": 1.52,
-        "picks": 1749
+        "picks": 1758
       },
       "closed": {
-        "winRate": 49.33,
-        "playRate": 1.46,
-        "picks": 446
+        "winRate": 49.11,
+        "playRate": 1.45,
+        "picks": 448
       },
       "other": {
-        "winRate": 50.2,
+        "winRate": 50.23,
         "playRate": 1.72,
-        "picks": 4960
+        "picks": 4991
       },
       "nomad": {
         "winRate": 55.71,
@@ -388,9 +388,14 @@
     },
     "strongAgainst": [
       {
+        "name": "danes",
+        "games": 14,
+        "winRate": 64.29
+      },
+      {
         "name": "saracens",
-        "games": 138,
-        "winRate": 61.59
+        "games": 139,
+        "winRate": 61.87
       },
       {
         "name": "britons",
@@ -406,38 +411,33 @@
         "name": "shu",
         "games": 85,
         "winRate": 58.82
-      },
-      {
-        "name": "portuguese",
-        "games": 164,
-        "winRate": 58.54
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 14,
-        "winRate": 28.57
+        "games": 15,
+        "winRate": 33.33
       },
       {
         "name": "romans",
-        "games": 101,
-        "winRate": 38.61
+        "games": 102,
+        "winRate": 38.24
       },
       {
         "name": "teutons",
-        "games": 116,
-        "winRate": 40.52
-      },
-      {
-        "name": "burgundians",
-        "games": 166,
-        "winRate": 42.77
+        "games": 118,
+        "winRate": 41.53
       },
       {
         "name": "vikings",
-        "games": 143,
-        "winRate": 43.36
+        "games": 146,
+        "winRate": 42.47
+      },
+      {
+        "name": "burgundians",
+        "games": 167,
+        "winRate": 42.51
       }
     ]
   },
