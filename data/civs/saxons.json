@@ -279,61 +279,66 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.44,
-    "playRate": 0.5,
-    "picks": 2171,
+    "winRate": 50.15,
+    "playRate": 0.54,
+    "picks": 2387,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T19:14:03.000Z",
-    "window": "2026-07-17 → 2026-09-26",
+    "updated": "2026-09-27T10:02:11.000Z",
+    "window": "2026-07-17 → 2026-09-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saxons",
     "byMapType": {
       "other": {
-        "winRate": 49.74,
-        "playRate": 0.53,
-        "picks": 1516
+        "winRate": 49.52,
+        "playRate": 0.58,
+        "picks": 1668
       },
       "closed": {
-        "winRate": 52.8,
-        "playRate": 0.53,
-        "picks": 161
+        "winRate": 51.16,
+        "playRate": 0.56,
+        "picks": 172
       },
       "open": {
-        "winRate": 51.82,
-        "playRate": 0.43,
-        "picks": 494
+        "winRate": 51.74,
+        "playRate": 0.48,
+        "picks": 547
       }
     },
     "strongAgainst": [
       {
         "name": "malians",
-        "games": 18,
-        "winRate": 77.78
-      },
-      {
-        "name": "jurchens",
-        "games": 18,
-        "winRate": 77.78
+        "games": 21,
+        "winRate": 76.19
       },
       {
         "name": "koreans",
-        "games": 13,
-        "winRate": 76.92
+        "games": 14,
+        "winRate": 71.43
+      },
+      {
+        "name": "jurchens",
+        "games": 21,
+        "winRate": 71.43
       },
       {
         "name": "wu",
-        "games": 11,
-        "winRate": 72.73
+        "games": 15,
+        "winRate": 66.67
       },
       {
-        "name": "turks",
-        "games": 22,
-        "winRate": 68.18
+        "name": "portuguese",
+        "games": 20,
+        "winRate": 65
       }
     ],
     "weakAgainst": [
+      {
+        "name": "georgians",
+        "games": 8,
+        "winRate": 12.5
+      },
       {
         "name": "muisca",
         "games": 8,
@@ -341,22 +346,17 @@
       },
       {
         "name": "burgundians",
-        "games": 29,
-        "winRate": 27.59
-      },
-      {
-        "name": "khmer",
-        "games": 45,
-        "winRate": 31.11
+        "games": 33,
+        "winRate": 27.27
       },
       {
         "name": "ethiopians",
-        "games": 35,
-        "winRate": 31.43
+        "games": 37,
+        "winRate": 32.43
       },
       {
-        "name": "persians",
-        "games": 42,
+        "name": "gurjaras",
+        "games": 12,
         "winRate": 33.33
       }
     ]

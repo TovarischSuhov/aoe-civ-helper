@@ -361,31 +361,31 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 52.08,
-    "playRate": 1.61,
-    "picks": 7035,
+    "winRate": 52,
+    "playRate": 1.6,
+    "picks": 7091,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T19:14:03.000Z",
-    "window": "2026-07-17 → 2026-09-26",
+    "updated": "2026-09-27T10:02:11.000Z",
+    "window": "2026-07-17 → 2026-09-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 51.17,
+        "winRate": 51.13,
         "playRate": 1.6,
-        "picks": 4571
+        "picks": 4612
       },
       "open": {
-        "winRate": 54.26,
+        "winRate": 54.09,
         "playRate": 1.6,
-        "picks": 1819
+        "picks": 1832
       },
       "closed": {
-        "winRate": 52.94,
+        "winRate": 52.73,
         "playRate": 1.62,
-        "picks": 493
+        "picks": 495
       },
       "nomad": {
         "winRate": 50.66,
@@ -423,28 +423,28 @@
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 123,
-        "winRate": 42.28
+        "games": 124,
+        "winRate": 42.74
       },
       {
         "name": "shu",
-        "games": 81,
-        "winRate": 43.21
-      },
-      {
-        "name": "danes",
-        "games": 9,
-        "winRate": 44.44
+        "games": 82,
+        "winRate": 43.9
       },
       {
         "name": "mongols",
-        "games": 368,
-        "winRate": 45.11
+        "games": 369,
+        "winRate": 44.99
       },
       {
         "name": "burgundians",
         "games": 176,
         "winRate": 45.45
+      },
+      {
+        "name": "turks",
+        "games": 136,
+        "winRate": 45.59
       }
     ]
   },

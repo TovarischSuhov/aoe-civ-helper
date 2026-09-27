@@ -340,26 +340,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.4,
+    "winRate": 49.34,
     "playRate": 1.83,
-    "picks": 8019,
+    "picks": 8082,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T19:14:03.000Z",
-    "window": "2026-07-17 → 2026-09-26",
+    "updated": "2026-09-27T10:02:11.000Z",
+    "window": "2026-07-17 → 2026-09-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
       "other": {
-        "winRate": 48.9,
-        "playRate": 1.79,
-        "picks": 5106
+        "winRate": 48.81,
+        "playRate": 1.78,
+        "picks": 5142
       },
       "closed": {
-        "winRate": 55.69,
+        "winRate": 55.82,
         "playRate": 2.75,
-        "picks": 835
+        "picks": 842
       },
       "nomad": {
         "winRate": 45.28,
@@ -367,9 +367,9 @@
         "picks": 159
       },
       "open": {
-        "winRate": 48.31,
+        "winRate": 48.27,
         "playRate": 1.69,
-        "picks": 1919
+        "picks": 1939
       }
     },
     "strongAgainst": [
@@ -385,18 +385,18 @@
       },
       {
         "name": "britons",
-        "games": 153,
-        "winRate": 57.52
-      },
-      {
-        "name": "varangians",
-        "games": 35,
-        "winRate": 57.14
+        "games": 154,
+        "winRate": 57.79
       },
       {
         "name": "lithuanians",
         "games": 151,
         "winRate": 56.95
+      },
+      {
+        "name": "incas",
+        "games": 159,
+        "winRate": 55.97
       }
     ],
     "weakAgainst": [
@@ -407,13 +407,8 @@
       },
       {
         "name": "persians",
-        "games": 174,
-        "winRate": 38.51
-      },
-      {
-        "name": "saxons",
-        "games": 37,
-        "winRate": 40.54
+        "games": 175,
+        "winRate": 38.29
       },
       {
         "name": "malay",
@@ -422,8 +417,13 @@
       },
       {
         "name": "italians",
-        "games": 172,
-        "winRate": 42.44
+        "games": 174,
+        "winRate": 42.53
+      },
+      {
+        "name": "khitans",
+        "games": 87,
+        "winRate": 42.53
       }
     ]
   },

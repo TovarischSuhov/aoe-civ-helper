@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.29,
+    "winRate": 52.25,
     "playRate": 1.02,
-    "picks": 4462,
+    "picks": 4505,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-26T19:14:03.000Z",
-    "window": "2026-07-17 → 2026-09-26",
+    "updated": "2026-09-27T10:02:11.000Z",
+    "window": "2026-07-17 → 2026-09-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "closed": {
-        "winRate": 48.22,
+        "winRate": 48.55,
         "playRate": 1.02,
-        "picks": 309
+        "picks": 311
       },
       "other": {
-        "winRate": 52.02,
+        "winRate": 51.93,
         "playRate": 1,
-        "picks": 2847
+        "picks": 2879
       },
       "open": {
-        "winRate": 53.2,
+        "winRate": 53.22,
         "playRate": 1.07,
-        "picks": 1218
+        "picks": 1227
       },
       "nomad": {
         "winRate": 62.5,
@@ -387,8 +387,13 @@
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 67,
-        "winRate": 68.66
+        "games": 69,
+        "winRate": 68.12
+      },
+      {
+        "name": "danes",
+        "games": 11,
+        "winRate": 63.64
       },
       {
         "name": "jurchens",
@@ -404,11 +409,6 @@
         "name": "japanese",
         "games": 109,
         "winRate": 61.47
-      },
-      {
-        "name": "mapuche",
-        "games": 48,
-        "winRate": 60.42
       }
     ],
     "weakAgainst": [
@@ -428,14 +428,14 @@
         "winRate": 42.86
       },
       {
-        "name": "aztecs",
-        "games": 80,
-        "winRate": 43.75
+        "name": "saxons",
+        "games": 9,
+        "winRate": 44.44
       },
       {
-        "name": "georgians",
-        "games": 52,
-        "winRate": 44.23
+        "name": "aztecs",
+        "games": 81,
+        "winRate": 44.44
       }
     ]
   },
