@@ -318,21 +318,21 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 50.36,
+    "winRate": 50.37,
     "playRate": 1.9,
-    "picks": 8465,
+    "picks": 8525,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-27T19:46:29.000Z",
-    "window": "2026-07-17 → 2026-09-27",
+    "updated": "2026-09-28T10:58:01.000Z",
+    "window": "2026-07-17 → 2026-09-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 50.26,
+        "winRate": 50.31,
         "playRate": 1.95,
-        "picks": 5684
+        "picks": 5728
       },
       "nomad": {
         "winRate": 50.53,
@@ -340,14 +340,14 @@
         "picks": 283
       },
       "open": {
-        "winRate": 49.71,
+        "winRate": 49.63,
         "playRate": 1.61,
-        "picks": 1865
+        "picks": 1878
       },
       "closed": {
-        "winRate": 53.08,
+        "winRate": 52.99,
         "playRate": 2.05,
-        "picks": 633
+        "picks": 636
       }
     },
     "strongAgainst": [
@@ -357,36 +357,41 @@
         "winRate": 61.7
       },
       {
+        "name": "varangians",
+        "games": 52,
+        "winRate": 59.62
+      },
+      {
         "name": "gurjaras",
         "games": 116,
         "winRate": 59.48
       },
       {
-        "name": "varangians",
-        "games": 49,
-        "winRate": 59.18
-      },
-      {
         "name": "slavs",
-        "games": 106,
-        "winRate": 58.49
+        "games": 107,
+        "winRate": 58.88
       },
       {
         "name": "poles",
-        "games": 176,
-        "winRate": 57.39
+        "games": 177,
+        "winRate": 57.63
       }
     ],
     "weakAgainst": [
+      {
+        "name": "muisca",
+        "games": 78,
+        "winRate": 38.46
+      },
       {
         "name": "georgians",
         "games": 116,
         "winRate": 38.79
       },
       {
-        "name": "muisca",
-        "games": 77,
-        "winRate": 38.96
+        "name": "saxons",
+        "games": 25,
+        "winRate": 40
       },
       {
         "name": "chinese",
@@ -394,14 +399,9 @@
         "winRate": 42.36
       },
       {
-        "name": "saxons",
-        "games": 23,
-        "winRate": 43.48
-      },
-      {
         "name": "bengalis",
-        "games": 169,
-        "winRate": 43.79
+        "games": 170,
+        "winRate": 43.53
       }
     ]
   },

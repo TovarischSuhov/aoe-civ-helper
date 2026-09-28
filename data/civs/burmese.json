@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.68,
+    "winRate": 47.64,
     "playRate": 1.44,
-    "picks": 6420,
+    "picks": 6472,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-27T19:46:29.000Z",
-    "window": "2026-07-17 → 2026-09-27",
+    "updated": "2026-09-28T10:58:01.000Z",
+    "window": "2026-07-17 → 2026-09-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
       "other": {
-        "winRate": 47.82,
+        "winRate": 47.7,
         "playRate": 1.44,
-        "picks": 4199
+        "picks": 4233
       },
       "open": {
-        "winRate": 46.49,
+        "winRate": 46.61,
         "playRate": 1.41,
-        "picks": 1624
+        "picks": 1637
       },
       "nomad": {
         "winRate": 48.61,
@@ -350,9 +350,9 @@
         "picks": 144
       },
       "closed": {
-        "winRate": 50.33,
+        "winRate": 50.44,
         "playRate": 1.47,
-        "picks": 453
+        "picks": 458
       }
     },
     "strongAgainst": [
@@ -367,6 +367,11 @@
         "winRate": 57.14
       },
       {
+        "name": "saxons",
+        "games": 14,
+        "winRate": 57.14
+      },
+      {
         "name": "tatars",
         "games": 133,
         "winRate": 55.64
@@ -375,18 +380,13 @@
         "name": "muisca",
         "games": 74,
         "winRate": 55.41
-      },
-      {
-        "name": "berbers",
-        "games": 120,
-        "winRate": 55
       }
     ],
     "weakAgainst": [
       {
         "name": "huns",
-        "games": 123,
-        "winRate": 38.21
+        "games": 126,
+        "winRate": 38.1
       },
       {
         "name": "celts",
