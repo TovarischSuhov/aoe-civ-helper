@@ -366,26 +366,26 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 51.49,
+    "winRate": 51.41,
     "playRate": 2.03,
-    "picks": 9103,
+    "picks": 9175,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-28T10:58:01.000Z",
+    "updated": "2026-09-28T22:05:15.000Z",
     "window": "2026-07-17 → 2026-09-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
       "open": {
-        "winRate": 53.01,
+        "winRate": 52.93,
         "playRate": 2.14,
-        "picks": 2488
+        "picks": 2505
       },
       "other": {
-        "winRate": 50.62,
+        "winRate": 50.55,
         "playRate": 1.99,
-        "picks": 5830
+        "picks": 5881
       },
       "nomad": {
         "winRate": 52.2,
@@ -393,48 +393,43 @@
         "picks": 159
       },
       "closed": {
-        "winRate": 53.35,
+        "winRate": 53.17,
         "playRate": 2.02,
-        "picks": 626
+        "picks": 630
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 42,
-        "winRate": 64.29
+        "games": 43,
+        "winRate": 65.12
       },
       {
         "name": "berbers",
-        "games": 169,
-        "winRate": 63.31
+        "games": 171,
+        "winRate": 63.16
       },
       {
         "name": "britons",
-        "games": 177,
-        "winRate": 61.02
-      },
-      {
-        "name": "saracens",
-        "games": 121,
-        "winRate": 59.5
+        "games": 178,
+        "winRate": 60.67
       },
       {
         "name": "khitans",
         "games": 128,
         "winRate": 59.38
+      },
+      {
+        "name": "saracens",
+        "games": 124,
+        "winRate": 58.87
       }
     ],
     "weakAgainst": [
       {
         "name": "sicilians",
-        "games": 140,
-        "winRate": 37.14
-      },
-      {
-        "name": "malay",
-        "games": 135,
-        "winRate": 42.22
+        "games": 141,
+        "winRate": 36.88
       },
       {
         "name": "shu",
@@ -443,13 +438,18 @@
       },
       {
         "name": "malians",
-        "games": 174,
-        "winRate": 43.1
+        "games": 175,
+        "winRate": 42.86
+      },
+      {
+        "name": "malay",
+        "games": 137,
+        "winRate": 43.07
       },
       {
         "name": "spanish",
-        "games": 227,
-        "winRate": 44.93
+        "games": 228,
+        "winRate": 44.74
       }
     ]
   },

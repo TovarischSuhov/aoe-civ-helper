@@ -288,58 +288,58 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 43.22,
-    "playRate": 0.81,
-    "picks": 3658,
+    "winRate": 43.38,
+    "playRate": 0.85,
+    "picks": 3845,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-28T10:58:01.000Z",
+    "updated": "2026-09-28T22:05:15.000Z",
     "window": "2026-07-17 → 2026-09-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/varangians",
     "byMapType": {
       "other": {
-        "winRate": 44.16,
-        "playRate": 0.89,
-        "picks": 2620
+        "winRate": 44.14,
+        "playRate": 0.94,
+        "picks": 2773
       },
       "open": {
-        "winRate": 39.57,
-        "playRate": 0.72,
-        "picks": 839
+        "winRate": 40.23,
+        "playRate": 0.74,
+        "picks": 865
       },
       "closed": {
-        "winRate": 46.23,
-        "playRate": 0.64,
-        "picks": 199
+        "winRate": 46.38,
+        "playRate": 0.66,
+        "picks": 207
       }
     },
     "strongAgainst": [
       {
         "name": "khitans",
-        "games": 16,
-        "winRate": 68.75
+        "games": 20,
+        "winRate": 65
       },
       {
         "name": "malay",
-        "games": 33,
-        "winRate": 57.58
+        "games": 36,
+        "winRate": 61.11
+      },
+      {
+        "name": "muisca",
+        "games": 14,
+        "winRate": 57.14
+      },
+      {
+        "name": "gurjaras",
+        "games": 20,
+        "winRate": 55
       },
       {
         "name": "malians",
-        "games": 44,
-        "winRate": 54.55
-      },
-      {
-        "name": "portuguese",
-        "games": 17,
-        "winRate": 52.94
-      },
-      {
-        "name": "burmese",
-        "games": 17,
-        "winRate": 52.94
+        "games": 48,
+        "winRate": 54.17
       }
     ],
     "weakAgainst": [
@@ -350,23 +350,23 @@
       },
       {
         "name": "berbers",
-        "games": 40,
-        "winRate": 30
+        "games": 43,
+        "winRate": 27.91
       },
       {
         "name": "chinese",
-        "games": 102,
-        "winRate": 30.39
-      },
-      {
-        "name": "ethiopians",
-        "games": 55,
+        "games": 110,
         "winRate": 30.91
       },
       {
-        "name": "mayans",
-        "games": 44,
-        "winRate": 31.82
+        "name": "ethiopians",
+        "games": 62,
+        "winRate": 32.26
+      },
+      {
+        "name": "wu",
+        "games": 18,
+        "winRate": 33.33
       }
     ]
   },
