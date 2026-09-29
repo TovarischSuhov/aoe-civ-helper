@@ -295,21 +295,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52.16,
+    "winRate": 52.25,
     "playRate": 1.78,
-    "picks": 8116,
+    "picks": 8180,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-29T10:43:32.000Z",
+    "updated": "2026-09-29T20:51:13.000Z",
     "window": "2026-07-17 → 2026-09-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
       "other": {
-        "winRate": 52.58,
+        "winRate": 52.65,
         "playRate": 1.81,
-        "picks": 5392
+        "picks": 5442
       },
       "nomad": {
         "winRate": 59.12,
@@ -317,14 +317,14 @@
         "picks": 159
       },
       "open": {
-        "winRate": 51.47,
+        "winRate": 51.68,
         "playRate": 1.55,
-        "picks": 1832
+        "picks": 1842
       },
       "closed": {
         "winRate": 49.25,
         "playRate": 2.33,
-        "picks": 733
+        "picks": 737
       }
     },
     "strongAgainst": [
@@ -345,8 +345,8 @@
       },
       {
         "name": "poles",
-        "games": 147,
-        "winRate": 59.18
+        "games": 148,
+        "winRate": 59.46
       },
       {
         "name": "khitans",
@@ -356,19 +356,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "danes",
-        "games": 17,
-        "winRate": 35.29
-      },
-      {
         "name": "saxons",
-        "games": 38,
-        "winRate": 36.84
+        "games": 44,
+        "winRate": 36.36
       },
       {
-        "name": "varangians",
-        "games": 37,
-        "winRate": 37.84
+        "name": "danes",
+        "games": 19,
+        "winRate": 36.84
       },
       {
         "name": "shu",
@@ -376,9 +371,14 @@
         "winRate": 41.25
       },
       {
+        "name": "varangians",
+        "games": 41,
+        "winRate": 41.46
+      },
+      {
         "name": "malians",
-        "games": 137,
-        "winRate": 44.53
+        "games": 139,
+        "winRate": 43.88
       }
     ]
   },

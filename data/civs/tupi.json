@@ -357,26 +357,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.31,
-    "playRate": 1.29,
-    "picks": 5859,
+    "winRate": 49.29,
+    "playRate": 1.28,
+    "picks": 5894,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-29T10:43:32.000Z",
+    "updated": "2026-09-29T20:51:13.000Z",
     "window": "2026-07-17 → 2026-09-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.31,
+        "winRate": 48.29,
         "playRate": 1.26,
-        "picks": 3765
+        "picks": 3794
       },
       "open": {
-        "winRate": 50.81,
+        "winRate": 50.8,
         "playRate": 1.42,
-        "picks": 1673
+        "picks": 1679
       },
       "nomad": {
         "winRate": 57.41,
@@ -385,7 +385,7 @@
       },
       "closed": {
         "winRate": 50.48,
-        "playRate": 1,
+        "playRate": 0.99,
         "picks": 313
       }
     },
@@ -401,14 +401,14 @@
         "winRate": 57.75
       },
       {
+        "name": "spanish",
+        "games": 158,
+        "winRate": 57.59
+      },
+      {
         "name": "bengalis",
         "games": 94,
         "winRate": 57.45
-      },
-      {
-        "name": "spanish",
-        "games": 157,
-        "winRate": 57.32
       },
       {
         "name": "shu",
@@ -418,14 +418,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "danes",
-        "games": 18,
-        "winRate": 33.33
-      },
-      {
         "name": "wei",
         "games": 132,
         "winRate": 37.88
+      },
+      {
+        "name": "danes",
+        "games": 21,
+        "winRate": 38.1
       },
       {
         "name": "teutons",

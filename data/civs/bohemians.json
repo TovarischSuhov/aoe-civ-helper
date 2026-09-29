@@ -343,26 +343,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.09,
+    "winRate": 49.18,
     "playRate": 1.92,
-    "picks": 8772,
+    "picks": 8830,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-29T10:43:32.000Z",
+    "updated": "2026-09-29T20:51:13.000Z",
     "window": "2026-07-17 → 2026-09-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "open": {
-        "winRate": 46.94,
+        "winRate": 46.9,
         "playRate": 1.51,
-        "picks": 1781
+        "picks": 1789
       },
       "other": {
-        "winRate": 49.07,
+        "winRate": 49.23,
         "playRate": 1.88,
-        "picks": 5596
+        "picks": 5645
       },
       "nomad": {
         "winRate": 49.04,
@@ -370,16 +370,21 @@
         "picks": 157
       },
       "closed": {
-        "winRate": 52.26,
-        "playRate": 3.94,
-        "picks": 1238
+        "winRate": 52.3,
+        "playRate": 3.92,
+        "picks": 1239
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 33,
-        "winRate": 72.73
+        "games": 34,
+        "winRate": 70.59
+      },
+      {
+        "name": "sicilians",
+        "games": 139,
+        "winRate": 59.71
       },
       {
         "name": "muisca",
@@ -392,14 +397,9 @@
         "winRate": 59.06
       },
       {
-        "name": "sicilians",
-        "games": 136,
-        "winRate": 58.82
-      },
-      {
         "name": "jurchens",
-        "games": 105,
-        "winRate": 56.19
+        "games": 106,
+        "winRate": 55.66
       }
     ],
     "weakAgainst": [
@@ -419,14 +419,14 @@
         "winRate": 41.94
       },
       {
-        "name": "aztecs",
-        "games": 116,
-        "winRate": 42.24
+        "name": "vietnamese",
+        "games": 187,
+        "winRate": 43.32
       },
       {
-        "name": "vietnamese",
-        "games": 186,
-        "winRate": 43.01
+        "name": "turks",
+        "games": 270,
+        "winRate": 43.7
       }
     ]
   },
