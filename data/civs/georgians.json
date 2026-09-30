@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.71,
+    "winRate": 48.67,
     "playRate": 1.19,
-    "picks": 5500,
+    "picks": 5545,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-30T10:31:30.000Z",
+    "updated": "2026-09-30T20:50:15.000Z",
     "window": "2026-07-17 → 2026-09-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 49.38,
+        "winRate": 49.49,
         "playRate": 1.22,
-        "picks": 1452
+        "picks": 1467
       },
       "other": {
-        "winRate": 49.15,
+        "winRate": 49.06,
         "playRate": 1.2,
-        "picks": 3632
+        "picks": 3659
       },
       "nomad": {
         "winRate": 39.81,
@@ -322,31 +322,31 @@
         "picks": 103
       },
       "closed": {
-        "winRate": 43.45,
+        "winRate": 43.35,
         "playRate": 0.98,
-        "picks": 313
+        "picks": 316
       }
     },
     "strongAgainst": [
-      {
-        "name": "danes",
-        "games": 19,
-        "winRate": 68.42
-      },
       {
         "name": "incas",
         "games": 99,
         "winRate": 65.66
       },
       {
+        "name": "danes",
+        "games": 20,
+        "winRate": 65
+      },
+      {
         "name": "varangians",
-        "games": 32,
-        "winRate": 62.5
+        "games": 34,
+        "winRate": 61.76
       },
       {
         "name": "italians",
-        "games": 119,
-        "winRate": 61.34
+        "games": 120,
+        "winRate": 61.67
       },
       {
         "name": "burmese",
@@ -377,8 +377,8 @@
       },
       {
         "name": "chinese",
-        "games": 140,
-        "winRate": 42.14
+        "games": 141,
+        "winRate": 41.84
       }
     ]
   },
