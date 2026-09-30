@@ -359,21 +359,21 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 48.49,
-    "playRate": 1.35,
-    "picks": 6189,
+    "winRate": 48.33,
+    "playRate": 1.34,
+    "picks": 6222,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-29T20:51:13.000Z",
-    "window": "2026-07-17 → 2026-09-29",
+    "updated": "2026-09-30T10:31:30.000Z",
+    "window": "2026-07-17 → 2026-09-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 48.1,
-        "playRate": 1.35,
-        "picks": 4048
+        "winRate": 47.93,
+        "playRate": 1.34,
+        "picks": 4073
       },
       "nomad": {
         "winRate": 57.14,
@@ -381,13 +381,13 @@
         "picks": 84
       },
       "open": {
-        "winRate": 48.72,
-        "playRate": 1.45,
-        "picks": 1714
+        "winRate": 48.55,
+        "playRate": 1.44,
+        "picks": 1722
       },
       "closed": {
         "winRate": 49.85,
-        "playRate": 1.09,
+        "playRate": 1.08,
         "picks": 343
       }
     },
@@ -396,11 +396,6 @@
         "name": "incas",
         "games": 117,
         "winRate": 64.96
-      },
-      {
-        "name": "berbers",
-        "games": 98,
-        "winRate": 59.18
       },
       {
         "name": "georgians",
@@ -413,26 +408,31 @@
         "winRate": 58.75
       },
       {
+        "name": "berbers",
+        "games": 99,
+        "winRate": 58.59
+      },
+      {
         "name": "poles",
-        "games": 91,
-        "winRate": 58.24
+        "games": 93,
+        "winRate": 56.99
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 85,
-        "winRate": 30.59
+        "games": 86,
+        "winRate": 30.23
       },
       {
         "name": "danes",
-        "games": 16,
-        "winRate": 31.25
+        "games": 18,
+        "winRate": 33.33
       },
       {
         "name": "japanese",
-        "games": 145,
-        "winRate": 37.93
+        "games": 146,
+        "winRate": 38.36
       },
       {
         "name": "romans",

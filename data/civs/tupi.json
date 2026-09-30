@@ -359,24 +359,24 @@
   "stats": {
     "winRate": 49.29,
     "playRate": 1.28,
-    "picks": 5894,
+    "picks": 5930,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-29T20:51:13.000Z",
-    "window": "2026-07-17 → 2026-09-29",
+    "updated": "2026-09-30T10:31:30.000Z",
+    "window": "2026-07-17 → 2026-09-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.29,
+        "winRate": 48.3,
         "playRate": 1.26,
-        "picks": 3794
+        "picks": 3818
       },
       "open": {
         "winRate": 50.8,
-        "playRate": 1.42,
-        "picks": 1679
+        "playRate": 1.41,
+        "picks": 1689
       },
       "nomad": {
         "winRate": 57.41,
@@ -386,7 +386,7 @@
       "closed": {
         "winRate": 50.48,
         "playRate": 0.99,
-        "picks": 313
+        "picks": 315
       }
     },
     "strongAgainst": [
@@ -394,6 +394,11 @@
         "name": "ethiopians",
         "games": 88,
         "winRate": 59.09
+      },
+      {
+        "name": "bengalis",
+        "games": 95,
+        "winRate": 57.89
       },
       {
         "name": "georgians",
@@ -404,11 +409,6 @@
         "name": "spanish",
         "games": 158,
         "winRate": 57.59
-      },
-      {
-        "name": "bengalis",
-        "games": 94,
-        "winRate": 57.45
       },
       {
         "name": "shu",
@@ -423,14 +423,9 @@
         "winRate": 37.88
       },
       {
-        "name": "danes",
-        "games": 21,
-        "winRate": 38.1
-      },
-      {
         "name": "teutons",
-        "games": 111,
-        "winRate": 39.64
+        "games": 113,
+        "winRate": 39.82
       },
       {
         "name": "armenians",
@@ -438,9 +433,14 @@
         "winRate": 40.21
       },
       {
+        "name": "danes",
+        "games": 22,
+        "winRate": 40.91
+      },
+      {
         "name": "persians",
-        "games": 174,
-        "winRate": 41.38
+        "games": 175,
+        "winRate": 41.14
       }
     ]
   },
