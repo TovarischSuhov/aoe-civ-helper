@@ -378,31 +378,31 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.63,
+    "winRate": 50.61,
     "playRate": 1.08,
-    "picks": 5092,
+    "picks": 5122,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-01T10:59:13.000Z",
+    "updated": "2026-10-01T21:03:08.000Z",
     "window": "2026-07-17 → 2026-10-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 50,
+        "winRate": 49.97,
         "playRate": 1.07,
-        "picks": 3300
+        "picks": 3318
       },
       "open": {
-        "winRate": 52.29,
+        "winRate": 52.38,
         "playRate": 1.17,
-        "picks": 1419
+        "picks": 1428
       },
       "closed": {
-        "winRate": 49.26,
-        "playRate": 0.83,
-        "picks": 272
+        "winRate": 48.73,
+        "playRate": 0.82,
+        "picks": 275
       },
       "nomad": {
         "winRate": 51.49,
@@ -413,8 +413,13 @@
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 60,
-        "winRate": 61.67
+        "games": 61,
+        "winRate": 62.3
+      },
+      {
+        "name": "varangians",
+        "games": 21,
+        "winRate": 61.9
       },
       {
         "name": "turks",
@@ -422,14 +427,9 @@
         "winRate": 61.04
       },
       {
-        "name": "varangians",
-        "games": 20,
-        "winRate": 60
-      },
-      {
         "name": "franks",
-        "games": 95,
-        "winRate": 58.95
+        "games": 96,
+        "winRate": 58.33
       },
       {
         "name": "persians",
@@ -440,8 +440,8 @@
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 86,
-        "winRate": 32.56
+        "games": 87,
+        "winRate": 33.33
       },
       {
         "name": "muisca",
@@ -460,8 +460,8 @@
       },
       {
         "name": "goths",
-        "games": 75,
-        "winRate": 40
+        "games": 77,
+        "winRate": 40.26
       }
     ]
   },
