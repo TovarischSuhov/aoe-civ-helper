@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.68,
+    "winRate": 49.7,
     "playRate": 1.62,
-    "picks": 7552,
+    "picks": 7598,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-09-30T20:50:15.000Z",
-    "window": "2026-07-17 → 2026-09-30",
+    "updated": "2026-10-01T10:59:13.000Z",
+    "window": "2026-07-17 → 2026-10-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 49.38,
+        "winRate": 49.41,
         "playRate": 1.59,
-        "picks": 4854
+        "picks": 4878
       },
       "open": {
-        "winRate": 48.36,
+        "winRate": 48.42,
         "playRate": 1.54,
-        "picks": 1857
+        "picks": 1871
       },
       "nomad": {
         "winRate": 57.42,
@@ -283,21 +283,21 @@
         "picks": 155
       },
       "closed": {
-        "winRate": 53.64,
-        "playRate": 2.12,
-        "picks": 686
+        "winRate": 53.46,
+        "playRate": 2.11,
+        "picks": 694
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 30,
-        "winRate": 73.33
+        "games": 31,
+        "winRate": 70.97
       },
       {
         "name": "turks",
-        "games": 152,
-        "winRate": 57.24
+        "games": 155,
+        "winRate": 57.42
       },
       {
         "name": "britons",
@@ -305,14 +305,14 @@
         "winRate": 56.29
       },
       {
-        "name": "jurchens",
-        "games": 104,
-        "winRate": 55.77
+        "name": "bohemians",
+        "games": 204,
+        "winRate": 55.39
       },
       {
-        "name": "bohemians",
-        "games": 202,
-        "winRate": 55.45
+        "name": "saracens",
+        "games": 123,
+        "winRate": 55.28
       }
     ],
     "weakAgainst": [
@@ -332,14 +332,14 @@
         "winRate": 37.72
       },
       {
-        "name": "wu",
-        "games": 92,
-        "winRate": 41.3
-      },
-      {
         "name": "tupi",
         "games": 96,
         "winRate": 41.67
+      },
+      {
+        "name": "wu",
+        "games": 93,
+        "winRate": 41.94
       }
     ]
   },
