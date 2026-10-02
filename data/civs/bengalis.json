@@ -256,26 +256,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.71,
+    "winRate": 49.68,
     "playRate": 1.61,
-    "picks": 7687,
+    "picks": 7737,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-02T10:32:32.000Z",
+    "updated": "2026-10-02T20:47:05.000Z",
     "window": "2026-07-17 → 2026-10-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
       "other": {
-        "winRate": 49.44,
+        "winRate": 49.41,
         "playRate": 1.58,
-        "picks": 4933
+        "picks": 4965
       },
       "open": {
-        "winRate": 48.33,
+        "winRate": 48.29,
         "playRate": 1.54,
-        "picks": 1891
+        "picks": 1901
       },
       "nomad": {
         "winRate": 57.42,
@@ -283,21 +283,21 @@
         "picks": 155
       },
       "closed": {
-        "winRate": 53.53,
-        "playRate": 2.09,
-        "picks": 708
+        "winRate": 53.63,
+        "playRate": 2.08,
+        "picks": 716
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 32,
-        "winRate": 71.88
+        "games": 34,
+        "winRate": 73.53
       },
       {
         "name": "turks",
-        "games": 156,
-        "winRate": 57.69
+        "games": 157,
+        "winRate": 57.32
       },
       {
         "name": "georgians",
@@ -306,8 +306,8 @@
       },
       {
         "name": "britons",
-        "games": 169,
-        "winRate": 55.62
+        "games": 171,
+        "winRate": 55.56
       },
       {
         "name": "saracens",
@@ -317,29 +317,29 @@
     ],
     "weakAgainst": [
       {
-        "name": "danes",
-        "games": 26,
-        "winRate": 34.62
+        "name": "saxons",
+        "games": 28,
+        "winRate": 32.14
       },
       {
-        "name": "saxons",
-        "games": 26,
-        "winRate": 34.62
+        "name": "danes",
+        "games": 28,
+        "winRate": 35.71
       },
       {
         "name": "romans",
-        "games": 117,
-        "winRate": 38.46
+        "games": 118,
+        "winRate": 38.98
+      },
+      {
+        "name": "wu",
+        "games": 94,
+        "winRate": 41.49
       },
       {
         "name": "tupi",
         "games": 96,
         "winRate": 41.67
-      },
-      {
-        "name": "wu",
-        "games": 93,
-        "winRate": 41.94
       }
     ]
   },

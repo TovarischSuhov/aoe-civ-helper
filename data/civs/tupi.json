@@ -357,26 +357,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.23,
-    "playRate": 1.27,
-    "picks": 6041,
+    "winRate": 49.14,
+    "playRate": 1.26,
+    "picks": 6075,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-02T10:32:32.000Z",
+    "updated": "2026-10-02T20:47:05.000Z",
     "window": "2026-07-17 → 2026-10-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.2,
+        "winRate": 48.1,
         "playRate": 1.25,
-        "picks": 3890
+        "picks": 3911
       },
       "open": {
-        "winRate": 50.58,
+        "winRate": 50.47,
         "playRate": 1.39,
-        "picks": 1710
+        "picks": 1720
       },
       "nomad": {
         "winRate": 57.41,
@@ -384,17 +384,12 @@
         "picks": 108
       },
       "closed": {
-        "winRate": 51.65,
-        "playRate": 0.98,
-        "picks": 333
+        "winRate": 51.79,
+        "playRate": 0.97,
+        "picks": 336
       }
     },
     "strongAgainst": [
-      {
-        "name": "georgians",
-        "games": 72,
-        "winRate": 58.33
-      },
       {
         "name": "bengalis",
         "games": 96,
@@ -406,31 +401,31 @@
         "winRate": 58.24
       },
       {
+        "name": "georgians",
+        "games": 73,
+        "winRate": 57.53
+      },
+      {
+        "name": "varangians",
+        "games": 40,
+        "winRate": 57.5
+      },
+      {
         "name": "shu",
         "games": 49,
         "winRate": 57.14
-      },
-      {
-        "name": "spanish",
-        "games": 162,
-        "winRate": 56.79
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
-        "games": 132,
-        "winRate": 37.88
+        "games": 133,
+        "winRate": 37.59
       },
       {
         "name": "armenians",
-        "games": 100,
-        "winRate": 40
-      },
-      {
-        "name": "teutons",
-        "games": 114,
-        "winRate": 40.35
+        "games": 101,
+        "winRate": 39.6
       },
       {
         "name": "persians",
@@ -438,9 +433,14 @@
         "winRate": 40.45
       },
       {
+        "name": "teutons",
+        "games": 115,
+        "winRate": 40.87
+      },
+      {
         "name": "cumans",
-        "games": 87,
-        "winRate": 42.53
+        "games": 88,
+        "winRate": 42.05
       }
     ]
   },
