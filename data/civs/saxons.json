@@ -279,43 +279,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.65,
-    "playRate": 0.77,
-    "picks": 3668,
+    "winRate": 50.5,
+    "playRate": 0.79,
+    "picks": 3770,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-01T21:03:08.000Z",
-    "window": "2026-07-17 → 2026-10-01",
+    "updated": "2026-10-02T10:32:32.000Z",
+    "window": "2026-07-17 → 2026-10-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saxons",
     "byMapType": {
       "other": {
-        "winRate": 50.53,
-        "playRate": 0.83,
-        "picks": 2567
+        "winRate": 50.38,
+        "playRate": 0.84,
+        "picks": 2632
       },
       "closed": {
-        "winRate": 52.35,
-        "playRate": 0.83,
-        "picks": 277
+        "winRate": 52.22,
+        "playRate": 0.86,
+        "picks": 293
       },
       "open": {
-        "winRate": 50.49,
-        "playRate": 0.68,
-        "picks": 824
+        "winRate": 50.3,
+        "playRate": 0.69,
+        "picks": 845
       }
     },
     "strongAgainst": [
       {
         "name": "malians",
-        "games": 34,
-        "winRate": 73.53
+        "games": 35,
+        "winRate": 71.43
       },
       {
         "name": "mayans",
-        "games": 53,
-        "winRate": 69.81
+        "games": 54,
+        "winRate": 70.37
+      },
+      {
+        "name": "wu",
+        "games": 23,
+        "winRate": 69.57
       },
       {
         "name": "jurchens",
@@ -326,18 +331,18 @@
         "name": "bengalis",
         "games": 26,
         "winRate": 65.38
-      },
-      {
-        "name": "britons",
-        "games": 38,
-        "winRate": 63.16
       }
     ],
     "weakAgainst": [
       {
         "name": "burgundians",
-        "games": 50,
-        "winRate": 30
+        "games": 53,
+        "winRate": 32.08
+      },
+      {
+        "name": "celts",
+        "games": 30,
+        "winRate": 33.33
       },
       {
         "name": "burmese",
@@ -345,19 +350,14 @@
         "winRate": 36
       },
       {
-        "name": "celts",
-        "games": 25,
-        "winRate": 36
+        "name": "wei",
+        "games": 58,
+        "winRate": 36.21
       },
       {
         "name": "ethiopians",
-        "games": 57,
-        "winRate": 36.84
-      },
-      {
-        "name": "wei",
-        "games": 57,
-        "winRate": 36.84
+        "games": 58,
+        "winRate": 37.93
       }
     ]
   },

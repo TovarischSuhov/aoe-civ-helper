@@ -352,24 +352,24 @@
   "stats": {
     "winRate": 50.41,
     "playRate": 1.88,
-    "picks": 8926,
+    "picks": 8980,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-01T21:03:08.000Z",
-    "window": "2026-07-17 → 2026-10-01",
+    "updated": "2026-10-02T10:32:32.000Z",
+    "window": "2026-07-17 → 2026-10-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 51.05,
+        "winRate": 51.03,
         "playRate": 1.85,
-        "picks": 5735
+        "picks": 5761
       },
       "open": {
-        "winRate": 49.55,
+        "winRate": 49.61,
         "playRate": 2.08,
-        "picks": 2535
+        "picks": 2558
       },
       "nomad": {
         "winRate": 50,
@@ -377,26 +377,26 @@
         "picks": 124
       },
       "closed": {
-        "winRate": 47.74,
-        "playRate": 1.59,
-        "picks": 532
+        "winRate": 47.67,
+        "playRate": 1.58,
+        "picks": 537
       }
     },
     "strongAgainst": [
       {
         "name": "khmer",
-        "games": 219,
-        "winRate": 62.56
+        "games": 221,
+        "winRate": 61.99
       },
       {
         "name": "varangians",
-        "games": 77,
-        "winRate": 61.04
+        "games": 79,
+        "winRate": 60.76
       },
       {
         "name": "jurchens",
-        "games": 115,
-        "winRate": 60
+        "games": 116,
+        "winRate": 60.34
       },
       {
         "name": "muisca",
@@ -405,11 +405,16 @@
       },
       {
         "name": "britons",
-        "games": 177,
-        "winRate": 57.63
+        "games": 179,
+        "winRate": 56.98
       }
     ],
     "weakAgainst": [
+      {
+        "name": "celts",
+        "games": 149,
+        "winRate": 41.61
+      },
       {
         "name": "mapuche",
         "games": 96,
@@ -417,13 +422,8 @@
       },
       {
         "name": "mongols",
-        "games": 476,
-        "winRate": 41.81
-      },
-      {
-        "name": "celts",
-        "games": 148,
-        "winRate": 41.89
+        "games": 482,
+        "winRate": 41.7
       },
       {
         "name": "chinese",
