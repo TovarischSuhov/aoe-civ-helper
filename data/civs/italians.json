@@ -320,19 +320,19 @@
   "stats": {
     "winRate": 50.71,
     "playRate": 1.89,
-    "picks": 9154,
+    "picks": 9201,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-03T09:53:40.000Z",
+    "updated": "2026-10-03T19:15:05.000Z",
     "window": "2026-07-17 → 2026-10-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 50.63,
+        "winRate": 50.62,
         "playRate": 1.95,
-        "picks": 6149
+        "picks": 6181
       },
       "nomad": {
         "winRate": 50.53,
@@ -340,14 +340,14 @@
         "picks": 283
       },
       "open": {
-        "winRate": 49.93,
-        "playRate": 1.61,
-        "picks": 2003
+        "winRate": 49.98,
+        "playRate": 1.6,
+        "picks": 2009
       },
       "closed": {
-        "winRate": 53.69,
+        "winRate": 53.57,
         "playRate": 2.05,
-        "picks": 719
+        "picks": 728
       }
     },
     "strongAgainst": [
@@ -357,14 +357,14 @@
         "winRate": 61.62
       },
       {
+        "name": "varangians",
+        "games": 79,
+        "winRate": 59.49
+      },
+      {
         "name": "gurjaras",
         "games": 120,
         "winRate": 59.17
-      },
-      {
-        "name": "varangians",
-        "games": 77,
-        "winRate": 58.44
       },
       {
         "name": "slavs",
@@ -373,15 +373,15 @@
       },
       {
         "name": "wu",
-        "games": 112,
-        "winRate": 57.14
+        "games": 113,
+        "winRate": 56.64
       }
     ],
     "weakAgainst": [
       {
         "name": "muisca",
-        "games": 85,
-        "winRate": 37.65
+        "games": 86,
+        "winRate": 38.37
       },
       {
         "name": "georgians",
@@ -389,19 +389,19 @@
         "winRate": 39.84
       },
       {
-        "name": "chinese",
-        "games": 213,
+        "name": "byzantines",
+        "games": 142,
         "winRate": 43.66
       },
       {
-        "name": "shu",
-        "games": 98,
-        "winRate": 43.88
+        "name": "chinese",
+        "games": 214,
+        "winRate": 43.93
       },
       {
-        "name": "byzantines",
-        "games": 141,
-        "winRate": 43.97
+        "name": "shu",
+        "games": 99,
+        "winRate": 44.44
       }
     ]
   },

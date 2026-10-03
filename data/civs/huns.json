@@ -360,26 +360,26 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.04,
+    "winRate": 52.05,
     "playRate": 2.08,
-    "picks": 10062,
+    "picks": 10121,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-03T09:53:40.000Z",
+    "updated": "2026-10-03T19:15:05.000Z",
     "window": "2026-07-17 → 2026-10-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
       "open": {
-        "winRate": 52.46,
-        "playRate": 2.2,
-        "picks": 2747
+        "winRate": 52.48,
+        "playRate": 2.21,
+        "picks": 2767
       },
       "other": {
-        "winRate": 52.01,
+        "winRate": 52.04,
         "playRate": 2.09,
-        "picks": 6605
+        "picks": 6639
       },
       "nomad": {
         "winRate": 49.71,
@@ -387,16 +387,21 @@
         "picks": 173
       },
       "closed": {
-        "winRate": 51.02,
+        "winRate": 50.74,
         "playRate": 1.53,
-        "picks": 537
+        "picks": 542
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 114,
-        "winRate": 63.16
+        "games": 119,
+        "winRate": 63.03
+      },
+      {
+        "name": "burmese",
+        "games": 135,
+        "winRate": 61.48
       },
       {
         "name": "muisca",
@@ -404,14 +409,9 @@
         "winRate": 61.11
       },
       {
-        "name": "burmese",
-        "games": 133,
-        "winRate": 60.9
-      },
-      {
         "name": "burgundians",
-        "games": 192,
-        "winRate": 60.42
+        "games": 194,
+        "winRate": 60.82
       },
       {
         "name": "malians",
@@ -422,8 +422,8 @@
     "weakAgainst": [
       {
         "name": "ethiopians",
-        "games": 200,
-        "winRate": 43.5
+        "games": 202,
+        "winRate": 43.56
       },
       {
         "name": "shu",
@@ -432,8 +432,8 @@
       },
       {
         "name": "chinese",
-        "games": 277,
-        "winRate": 44.04
+        "games": 279,
+        "winRate": 44.44
       },
       {
         "name": "wu",
@@ -442,8 +442,8 @@
       },
       {
         "name": "koreans",
-        "games": 147,
-        "winRate": 45.58
+        "games": 149,
+        "winRate": 45.64
       }
     ]
   },

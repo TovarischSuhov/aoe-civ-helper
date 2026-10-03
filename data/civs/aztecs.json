@@ -347,31 +347,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.73,
+    "winRate": 50.72,
     "playRate": 1.53,
-    "picks": 7410,
+    "picks": 7471,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-03T09:53:40.000Z",
+    "updated": "2026-10-03T19:15:05.000Z",
     "window": "2026-07-17 → 2026-10-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 47.55,
+        "winRate": 47.49,
         "playRate": 1.46,
-        "picks": 511
+        "picks": 518
       },
       "other": {
-        "winRate": 51.34,
+        "winRate": 51.35,
         "playRate": 1.52,
-        "picks": 4801
+        "picks": 4843
       },
       "open": {
-        "winRate": 50.91,
+        "winRate": 50.86,
         "playRate": 1.58,
-        "picks": 1970
+        "picks": 1982
       },
       "nomad": {
         "winRate": 37.5,
@@ -392,25 +392,30 @@
       },
       {
         "name": "varangians",
-        "games": 64,
-        "winRate": 59.38
+        "games": 65,
+        "winRate": 60
       },
       {
         "name": "shu",
-        "games": 88,
-        "winRate": 57.95
+        "games": 89,
+        "winRate": 58.43
       },
       {
         "name": "berbers",
-        "games": 108,
-        "winRate": 57.41
+        "games": 109,
+        "winRate": 57.8
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 137,
-        "winRate": 42.34
+        "games": 139,
+        "winRate": 41.73
+      },
+      {
+        "name": "teutons",
+        "games": 136,
+        "winRate": 41.91
       },
       {
         "name": "chinese",
@@ -419,18 +424,13 @@
       },
       {
         "name": "mongols",
-        "games": 288,
-        "winRate": 42.71
-      },
-      {
-        "name": "teutons",
-        "games": 133,
-        "winRate": 42.86
+        "games": 292,
+        "winRate": 42.81
       },
       {
         "name": "wei",
-        "games": 129,
-        "winRate": 43.41
+        "games": 131,
+        "winRate": 43.51
       }
     ]
   },
