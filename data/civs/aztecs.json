@@ -347,31 +347,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.68,
+    "winRate": 50.72,
     "playRate": 1.53,
-    "picks": 7537,
+    "picks": 7583,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-04T10:36:19.000Z",
+    "updated": "2026-10-04T19:40:36.000Z",
     "window": "2026-07-17 → 2026-10-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
       "closed": {
-        "winRate": 47.74,
+        "winRate": 47.87,
         "playRate": 1.47,
-        "picks": 530
+        "picks": 541
       },
       "other": {
-        "winRate": 51.31,
-        "playRate": 1.53,
-        "picks": 4886
+        "winRate": 51.34,
+        "playRate": 1.52,
+        "picks": 4905
       },
       "open": {
-        "winRate": 50.78,
+        "winRate": 50.82,
         "playRate": 1.58,
-        "picks": 1993
+        "picks": 2009
       },
       "nomad": {
         "winRate": 37.5,
@@ -381,14 +381,14 @@
     },
     "strongAgainst": [
       {
-        "name": "mapuche",
-        "games": 78,
-        "winRate": 62.82
+        "name": "danes",
+        "games": 40,
+        "winRate": 62.5
       },
       {
-        "name": "danes",
-        "games": 39,
-        "winRate": 61.54
+        "name": "mapuche",
+        "games": 79,
+        "winRate": 62.03
       },
       {
         "name": "varangians",
@@ -408,14 +408,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "teutons",
-        "games": 138,
-        "winRate": 42.03
-      },
-      {
         "name": "chinese",
         "games": 199,
         "winRate": 42.21
+      },
+      {
+        "name": "teutons",
+        "games": 139,
+        "winRate": 42.45
       },
       {
         "name": "celts",
@@ -429,8 +429,8 @@
       },
       {
         "name": "wei",
-        "games": 132,
-        "winRate": 43.18
+        "games": 134,
+        "winRate": 43.28
       }
     ]
   },

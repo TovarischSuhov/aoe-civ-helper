@@ -348,12 +348,12 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.92,
+    "winRate": 53.91,
     "playRate": 1.36,
-    "picks": 6691,
+    "picks": 6731,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-04T10:36:19.000Z",
+    "updated": "2026-10-04T19:40:36.000Z",
     "window": "2026-07-17 → 2026-10-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -362,12 +362,12 @@
       "open": {
         "winRate": 53.56,
         "playRate": 1.46,
-        "picks": 1839
+        "picks": 1856
       },
       "other": {
-        "winRate": 54.45,
+        "winRate": 54.44,
         "playRate": 1.37,
-        "picks": 4378
+        "picks": 4396
       },
       "nomad": {
         "winRate": 46.24,
@@ -375,12 +375,17 @@
         "picks": 93
       },
       "closed": {
-        "winRate": 51.44,
+        "winRate": 51.55,
         "playRate": 1.05,
-        "picks": 381
+        "picks": 386
       }
     },
     "strongAgainst": [
+      {
+        "name": "gurjaras",
+        "games": 97,
+        "winRate": 65.98
+      },
       {
         "name": "muisca",
         "games": 58,
@@ -388,40 +393,30 @@
       },
       {
         "name": "slavs",
-        "games": 104,
-        "winRate": 65.38
-      },
-      {
-        "name": "gurjaras",
-        "games": 95,
-        "winRate": 65.26
-      },
-      {
-        "name": "poles",
-        "games": 83,
-        "winRate": 63.86
+        "games": 105,
+        "winRate": 64.76
       },
       {
         "name": "koreans",
         "games": 110,
         "winRate": 63.64
+      },
+      {
+        "name": "sicilians",
+        "games": 136,
+        "winRate": 62.5
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 402,
-        "winRate": 42.54
+        "games": 405,
+        "winRate": 42.47
       },
       {
         "name": "spanish",
-        "games": 165,
-        "winRate": 47.88
-      },
-      {
-        "name": "chinese",
-        "games": 168,
-        "winRate": 48.21
+        "games": 166,
+        "winRate": 48.19
       },
       {
         "name": "saracens",
@@ -429,9 +424,14 @@
         "winRate": 48.45
       },
       {
-        "name": "italians",
-        "games": 105,
-        "winRate": 48.57
+        "name": "chinese",
+        "games": 169,
+        "winRate": 48.52
+      },
+      {
+        "name": "japanese",
+        "games": 170,
+        "winRate": 48.82
       }
     ]
   },
