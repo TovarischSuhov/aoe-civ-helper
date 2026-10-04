@@ -294,21 +294,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.86,
-    "playRate": 1.8,
-    "picks": 8756,
+    "winRate": 47.85,
+    "playRate": 1.79,
+    "picks": 8809,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-03T19:15:05.000Z",
-    "window": "2026-07-17 → 2026-10-03",
+    "updated": "2026-10-04T10:36:19.000Z",
+    "window": "2026-07-17 → 2026-10-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
       "closed": {
-        "winRate": 48.48,
-        "playRate": 2.69,
-        "picks": 953
+        "winRate": 48.5,
+        "playRate": 2.67,
+        "picks": 965
       },
       "nomad": {
         "winRate": 42.18,
@@ -316,22 +316,17 @@
         "picks": 147
       },
       "other": {
-        "winRate": 47.75,
+        "winRate": 47.74,
         "playRate": 1.74,
-        "picks": 5544
+        "picks": 5578
       },
       "open": {
-        "winRate": 48.3,
+        "winRate": 48.23,
         "playRate": 1.68,
-        "picks": 2112
+        "picks": 2119
       }
     },
     "strongAgainst": [
-      {
-        "name": "danes",
-        "games": 38,
-        "winRate": 60.53
-      },
       {
         "name": "britons",
         "games": 189,
@@ -343,14 +338,19 @@
         "winRate": 58.97
       },
       {
+        "name": "danes",
+        "games": 39,
+        "winRate": 58.97
+      },
+      {
         "name": "aztecs",
-        "games": 136,
-        "winRate": 58.09
+        "games": 138,
+        "winRate": 57.97
       },
       {
         "name": "varangians",
-        "games": 57,
-        "winRate": 57.89
+        "games": 59,
+        "winRate": 57.63
       }
     ],
     "weakAgainst": [
@@ -361,23 +361,23 @@
       },
       {
         "name": "mongols",
-        "games": 342,
-        "winRate": 38.01
-      },
-      {
-        "name": "chinese",
-        "games": 188,
-        "winRate": 41.49
-      },
-      {
-        "name": "georgians",
-        "games": 94,
-        "winRate": 41.49
+        "games": 348,
+        "winRate": 37.64
       },
       {
         "name": "burmese",
-        "games": 145,
-        "winRate": 42.07
+        "games": 147,
+        "winRate": 41.5
+      },
+      {
+        "name": "chinese",
+        "games": 190,
+        "winRate": 41.58
+      },
+      {
+        "name": "georgians",
+        "games": 95,
+        "winRate": 42.11
       }
     ]
   },
