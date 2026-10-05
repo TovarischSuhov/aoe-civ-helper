@@ -333,31 +333,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.16,
+    "winRate": 47.2,
     "playRate": 1.45,
-    "picks": 7176,
+    "picks": 7235,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-04T19:40:36.000Z",
-    "window": "2026-07-17 → 2026-10-04",
+    "updated": "2026-10-05T11:33:07.000Z",
+    "window": "2026-07-17 → 2026-10-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saracens",
     "byMapType": {
       "open": {
-        "winRate": 46.68,
+        "winRate": 46.71,
         "playRate": 1.43,
-        "picks": 1823
+        "picks": 1837
       },
       "closed": {
-        "winRate": 43,
+        "winRate": 43.09,
         "playRate": 1.34,
-        "picks": 493
+        "picks": 499
       },
       "other": {
-        "winRate": 47.8,
+        "winRate": 47.85,
         "playRate": 1.48,
-        "picks": 4759
+        "picks": 4798
       },
       "nomad": {
         "winRate": 45.54,
@@ -372,6 +372,11 @@
         "winRate": 61.54
       },
       {
+        "name": "saxons",
+        "games": 39,
+        "winRate": 56.41
+      },
+      {
         "name": "jurchens",
         "games": 94,
         "winRate": 56.38
@@ -382,14 +387,9 @@
         "winRate": 55.81
       },
       {
-        "name": "saxons",
-        "games": 38,
-        "winRate": 55.26
-      },
-      {
-        "name": "franks",
-        "games": 166,
-        "winRate": 53.61
+        "name": "sicilians",
+        "games": 159,
+        "winRate": 54.09
       }
     ],
     "weakAgainst": [
@@ -400,23 +400,23 @@
       },
       {
         "name": "britons",
-        "games": 163,
-        "winRate": 36.2
+        "games": 165,
+        "winRate": 36.36
       },
       {
         "name": "vikings",
-        "games": 139,
-        "winRate": 36.69
-      },
-      {
-        "name": "koreans",
-        "games": 150,
-        "winRate": 40
+        "games": 140,
+        "winRate": 36.43
       },
       {
         "name": "hindustanis",
-        "games": 136,
-        "winRate": 40.44
+        "games": 140,
+        "winRate": 40
+      },
+      {
+        "name": "koreans",
+        "games": 152,
+        "winRate": 40.13
       }
     ]
   },

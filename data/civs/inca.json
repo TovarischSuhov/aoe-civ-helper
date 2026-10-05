@@ -301,26 +301,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 45.75,
+    "winRate": 45.73,
     "playRate": 1.64,
-    "picks": 8094,
+    "picks": 8161,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-04T19:40:36.000Z",
-    "window": "2026-07-17 → 2026-10-04",
+    "updated": "2026-10-05T11:33:07.000Z",
+    "window": "2026-07-17 → 2026-10-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/inca",
     "byMapType": {
       "other": {
         "winRate": 45.64,
-        "playRate": 1.68,
-        "picks": 5423
+        "playRate": 1.69,
+        "picks": 5462
       },
       "closed": {
-        "winRate": 43.79,
-        "playRate": 1.25,
-        "picks": 459
+        "winRate": 43.52,
+        "playRate": 1.26,
+        "picks": 471
       },
       "nomad": {
         "winRate": 44.59,
@@ -328,16 +328,21 @@
         "picks": 148
       },
       "open": {
-        "winRate": 46.56,
+        "winRate": 46.54,
         "playRate": 1.62,
-        "picks": 2064
+        "picks": 2080
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 29,
-        "winRate": 62.07
+        "games": 31,
+        "winRate": 58.06
+      },
+      {
+        "name": "berbers",
+        "games": 164,
+        "winRate": 54.27
       },
       {
         "name": "slavs",
@@ -345,26 +350,21 @@
         "winRate": 54.05
       },
       {
-        "name": "berbers",
-        "games": 161,
-        "winRate": 53.42
-      },
-      {
-        "name": "cumans",
-        "games": 124,
-        "winRate": 53.23
-      },
-      {
         "name": "bengalis",
-        "games": 132,
-        "winRate": 53.03
+        "games": 133,
+        "winRate": 53.38
+      },
+      {
+        "name": "koreans",
+        "games": 137,
+        "winRate": 53.28
       }
     ],
     "weakAgainst": [
       {
         "name": "khitans",
-        "games": 123,
-        "winRate": 33.33
+        "games": 124,
+        "winRate": 33.87
       },
       {
         "name": "jurchens",
@@ -373,18 +373,18 @@
       },
       {
         "name": "georgians",
-        "games": 102,
-        "winRate": 34.31
+        "games": 103,
+        "winRate": 33.98
       },
       {
         "name": "sicilians",
-        "games": 145,
-        "winRate": 35.86
+        "games": 147,
+        "winRate": 36.05
       },
       {
-        "name": "mayans",
-        "games": 154,
-        "winRate": 38.96
+        "name": "armenians",
+        "games": 142,
+        "winRate": 39.44
       }
     ]
   },

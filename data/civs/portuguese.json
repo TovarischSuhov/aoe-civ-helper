@@ -301,26 +301,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.73,
-    "playRate": 1.89,
-    "picks": 9329,
+    "winRate": 47.7,
+    "playRate": 1.88,
+    "picks": 9384,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-04T19:40:36.000Z",
-    "window": "2026-07-17 → 2026-10-04",
+    "updated": "2026-10-05T11:33:07.000Z",
+    "window": "2026-07-17 → 2026-10-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
       "open": {
-        "winRate": 46.35,
+        "winRate": 46.28,
         "playRate": 1.72,
-        "picks": 2190
+        "picks": 2204
       },
       "other": {
-        "winRate": 48.18,
+        "winRate": 48.12,
         "playRate": 1.91,
-        "picks": 6160
+        "picks": 6187
       },
       "nomad": {
         "winRate": 41.4,
@@ -328,9 +328,9 @@
         "picks": 157
       },
       "closed": {
-        "winRate": 49.27,
+        "winRate": 49.52,
         "playRate": 2.24,
-        "picks": 822
+        "picks": 836
       }
     },
     "strongAgainst": [
@@ -345,14 +345,14 @@
         "winRate": 58.67
       },
       {
-        "name": "incas",
-        "games": 167,
-        "winRate": 56.29
+        "name": "ethiopians",
+        "games": 171,
+        "winRate": 56.14
       },
       {
-        "name": "ethiopians",
-        "games": 169,
-        "winRate": 56.21
+        "name": "incas",
+        "games": 170,
+        "winRate": 55.88
       },
       {
         "name": "danes",
@@ -362,14 +362,14 @@
     ],
     "weakAgainst": [
       {
+        "name": "romans",
+        "games": 110,
+        "winRate": 40
+      },
+      {
         "name": "poles",
         "games": 179,
         "winRate": 40.22
-      },
-      {
-        "name": "romans",
-        "games": 109,
-        "winRate": 40.37
       },
       {
         "name": "koreans",
@@ -378,13 +378,13 @@
       },
       {
         "name": "persians",
-        "games": 243,
-        "winRate": 42.39
+        "games": 246,
+        "winRate": 42.68
       },
       {
-        "name": "lithuanians",
-        "games": 175,
-        "winRate": 42.86
+        "name": "vikings",
+        "games": 180,
+        "winRate": 42.78
       }
     ]
   },
