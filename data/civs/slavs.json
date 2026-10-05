@@ -314,31 +314,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.03,
+    "winRate": 47.96,
     "playRate": 1.4,
-    "picks": 6973,
+    "picks": 7027,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-05T11:33:07.000Z",
+    "updated": "2026-10-05T22:41:20.000Z",
     "window": "2026-07-17 → 2026-10-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 48.73,
-        "playRate": 1.38,
-        "picks": 4484
+        "winRate": 48.64,
+        "playRate": 1.39,
+        "picks": 4523
       },
       "open": {
-        "winRate": 46.83,
+        "winRate": 46.85,
         "playRate": 1.45,
-        "picks": 1860
+        "picks": 1872
       },
       "closed": {
-        "winRate": 46.55,
-        "playRate": 1.36,
-        "picks": 507
+        "winRate": 46.27,
+        "playRate": 1.34,
+        "picks": 510
       },
       "nomad": {
         "winRate": 46.72,
@@ -349,28 +349,28 @@
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 25,
-        "winRate": 68
-      },
-      {
-        "name": "mapuche",
-        "games": 76,
-        "winRate": 63.16
-      },
-      {
-        "name": "byzantines",
-        "games": 143,
-        "winRate": 62.94
+        "games": 26,
+        "winRate": 65.38
       },
       {
         "name": "saxons",
-        "games": 35,
-        "winRate": 62.86
+        "games": 36,
+        "winRate": 63.89
+      },
+      {
+        "name": "byzantines",
+        "games": 145,
+        "winRate": 63.45
+      },
+      {
+        "name": "mapuche",
+        "games": 80,
+        "winRate": 60
       },
       {
         "name": "berbers",
-        "games": 133,
-        "winRate": 58.65
+        "games": 135,
+        "winRate": 57.78
       }
     ],
     "weakAgainst": [
@@ -381,8 +381,8 @@
       },
       {
         "name": "romans",
-        "games": 105,
-        "winRate": 35.24
+        "games": 106,
+        "winRate": 34.91
       },
       {
         "name": "malians",
@@ -390,14 +390,14 @@
         "winRate": 39.72
       },
       {
-        "name": "wu",
-        "games": 85,
-        "winRate": 40
-      },
-      {
         "name": "tatars",
         "games": 122,
         "winRate": 40.16
+      },
+      {
+        "name": "vikings",
+        "games": 128,
+        "winRate": 40.63
       }
     ]
   },
