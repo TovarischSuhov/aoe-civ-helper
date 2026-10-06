@@ -280,21 +280,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.31,
-    "playRate": 1.6,
-    "picks": 8054,
+    "winRate": 48.29,
+    "playRate": 1.61,
+    "picks": 8107,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-05T22:41:20.000Z",
-    "window": "2026-07-17 → 2026-10-05",
+    "updated": "2026-10-06T11:18:46.000Z",
+    "window": "2026-07-17 → 2026-10-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 47.59,
+        "winRate": 47.41,
         "playRate": 1.57,
-        "picks": 2030
+        "picks": 2044
       },
       "nomad": {
         "winRate": 46.67,
@@ -302,14 +302,14 @@
         "picks": 135
       },
       "other": {
-        "winRate": 49,
-        "playRate": 1.62,
-        "picks": 5300
+        "winRate": 49.04,
+        "playRate": 1.63,
+        "picks": 5336
       },
       "closed": {
-        "winRate": 44.99,
-        "playRate": 1.55,
-        "picks": 589
+        "winRate": 44.93,
+        "playRate": 1.54,
+        "picks": 592
       }
     },
     "strongAgainst": [
@@ -325,35 +325,35 @@
       },
       {
         "name": "jurchens",
-        "games": 108,
-        "winRate": 55.56
+        "games": 110,
+        "winRate": 56.36
+      },
+      {
+        "name": "italians",
+        "games": 149,
+        "winRate": 55.7
       },
       {
         "name": "khitans",
         "games": 103,
         "winRate": 55.34
-      },
-      {
-        "name": "italians",
-        "games": 147,
-        "winRate": 55.1
       }
     ],
     "weakAgainst": [
       {
-        "name": "slavs",
-        "games": 145,
-        "winRate": 36.55
+        "name": "chinese",
+        "games": 200,
+        "winRate": 36.5
       },
       {
-        "name": "chinese",
-        "games": 198,
-        "winRate": 36.87
+        "name": "slavs",
+        "games": 146,
+        "winRate": 36.99
       },
       {
         "name": "romans",
-        "games": 123,
-        "winRate": 38.21
+        "games": 124,
+        "winRate": 37.9
       },
       {
         "name": "sicilians",
@@ -362,8 +362,8 @@
       },
       {
         "name": "bulgarians",
-        "games": 135,
-        "winRate": 39.26
+        "games": 137,
+        "winRate": 39.42
       }
     ]
   },

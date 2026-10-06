@@ -335,21 +335,21 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.07,
+    "winRate": 48.08,
     "playRate": 1.64,
-    "picks": 8246,
+    "picks": 8300,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-05T22:41:20.000Z",
-    "window": "2026-07-17 → 2026-10-05",
+    "updated": "2026-10-06T11:18:46.000Z",
+    "window": "2026-07-17 → 2026-10-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
       "open": {
-        "winRate": 48.87,
+        "winRate": 48.92,
         "playRate": 1.71,
-        "picks": 2204
+        "picks": 2224
       },
       "nomad": {
         "winRate": 45.6,
@@ -357,36 +357,36 @@
         "picks": 125
       },
       "other": {
-        "winRate": 47.93,
+        "winRate": 47.94,
         "playRate": 1.66,
-        "picks": 5422
+        "picks": 5453
       },
       "closed": {
-        "winRate": 46.67,
+        "winRate": 46.59,
         "playRate": 1.3,
-        "picks": 495
+        "picks": 498
       }
     },
     "strongAgainst": [
+      {
+        "name": "varangians",
+        "games": 62,
+        "winRate": 61.29
+      },
       {
         "name": "slavs",
         "games": 122,
         "winRate": 59.84
       },
       {
-        "name": "varangians",
-        "games": 59,
-        "winRate": 59.32
-      },
-      {
         "name": "lithuanians",
-        "games": 138,
-        "winRate": 58.7
+        "games": 139,
+        "winRate": 58.99
       },
       {
         "name": "jurchens",
-        "games": 132,
-        "winRate": 56.82
+        "games": 133,
+        "winRate": 56.39
       },
       {
         "name": "turks",
@@ -397,8 +397,8 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 172,
-        "winRate": 35.47
+        "games": 176,
+        "winRate": 35.8
       },
       {
         "name": "malians",
@@ -411,14 +411,14 @@
         "winRate": 40.18
       },
       {
-        "name": "dravidians",
-        "games": 110,
-        "winRate": 42.73
+        "name": "vikings",
+        "games": 184,
+        "winRate": 42.93
       },
       {
-        "name": "vikings",
-        "games": 183,
-        "winRate": 43.17
+        "name": "chinese",
+        "games": 220,
+        "winRate": 43.18
       }
     ]
   },

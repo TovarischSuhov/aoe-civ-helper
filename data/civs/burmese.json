@@ -323,26 +323,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.99,
+    "winRate": 47.98,
     "playRate": 1.43,
-    "picks": 7176,
+    "picks": 7222,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-05T22:41:20.000Z",
-    "window": "2026-07-17 → 2026-10-05",
+    "updated": "2026-10-06T11:18:46.000Z",
+    "window": "2026-07-17 → 2026-10-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
       "other": {
-        "winRate": 48.03,
+        "winRate": 48.02,
         "playRate": 1.43,
-        "picks": 4672
+        "picks": 4698
       },
       "open": {
-        "winRate": 47.09,
+        "winRate": 47,
         "playRate": 1.4,
-        "picks": 1807
+        "picks": 1815
       },
       "nomad": {
         "winRate": 48.61,
@@ -350,48 +350,43 @@
         "picks": 144
       },
       "closed": {
-        "winRate": 50.45,
-        "playRate": 1.46,
-        "picks": 553
+        "winRate": 50.62,
+        "playRate": 1.47,
+        "picks": 565
       }
     },
     "strongAgainst": [
       {
-        "name": "danes",
-        "games": 25,
-        "winRate": 64
+        "name": "saxons",
+        "games": 34,
+        "winRate": 64.71
       },
       {
-        "name": "saxons",
-        "games": 32,
-        "winRate": 62.5
+        "name": "danes",
+        "games": 26,
+        "winRate": 61.54
       },
       {
         "name": "teutons",
-        "games": 151,
-        "winRate": 58.28
-      },
-      {
-        "name": "wei",
-        "games": 102,
-        "winRate": 57.84
+        "games": 153,
+        "winRate": 58.17
       },
       {
         "name": "muisca",
         "games": 80,
         "winRate": 57.5
+      },
+      {
+        "name": "wei",
+        "games": 103,
+        "winRate": 57.28
       }
     ],
     "weakAgainst": [
       {
         "name": "vikings",
-        "games": 138,
-        "winRate": 38.41
-      },
-      {
-        "name": "huns",
-        "games": 138,
-        "winRate": 38.41
+        "games": 140,
+        "winRate": 38.57
       },
       {
         "name": "celts",
@@ -399,14 +394,19 @@
         "winRate": 38.64
       },
       {
+        "name": "huns",
+        "games": 139,
+        "winRate": 38.85
+      },
+      {
         "name": "britons",
-        "games": 129,
-        "winRate": 40.31
+        "games": 130,
+        "winRate": 40
       },
       {
         "name": "mongols",
-        "games": 338,
-        "winRate": 40.83
+        "games": 340,
+        "winRate": 40.88
       }
     ]
   },
