@@ -358,12 +358,12 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.49,
+    "winRate": 52.54,
     "playRate": 1.81,
-    "picks": 9264,
+    "picks": 9315,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-07T11:06:46.000Z",
+    "updated": "2026-10-07T21:19:50.000Z",
     "window": "2026-07-17 → 2026-10-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -372,17 +372,17 @@
       "open": {
         "winRate": 52.52,
         "playRate": 1.88,
-        "picks": 2464
+        "picks": 2481
       },
       "other": {
-        "winRate": 52.29,
+        "winRate": 52.36,
         "playRate": 1.83,
-        "picks": 6091
+        "picks": 6123
       },
       "closed": {
-        "winRate": 53.36,
-        "playRate": 1.43,
-        "picks": 566
+        "winRate": 53.35,
+        "playRate": 1.42,
+        "picks": 568
       },
       "nomad": {
         "winRate": 57.34,
@@ -392,56 +392,56 @@
     },
     "strongAgainst": [
       {
+        "name": "saracens",
+        "games": 142,
+        "winRate": 64.08
+      },
+      {
         "name": "berbers",
         "games": 158,
         "winRate": 63.92
       },
       {
-        "name": "saracens",
-        "games": 141,
-        "winRate": 63.83
-      },
-      {
         "name": "burmese",
-        "games": 140,
-        "winRate": 61.43
-      },
-      {
-        "name": "byzantines",
-        "games": 156,
-        "winRate": 59.62
+        "games": 141,
+        "winRate": 60.99
       },
       {
         "name": "slavs",
-        "games": 131,
-        "winRate": 59.54
+        "games": 132,
+        "winRate": 59.85
+      },
+      {
+        "name": "byzantines",
+        "games": 157,
+        "winRate": 59.24
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 66,
-        "winRate": 42.42
+        "games": 67,
+        "winRate": 41.79
       },
       {
         "name": "tupi",
-        "games": 118,
-        "winRate": 44.92
-      },
-      {
-        "name": "spanish",
-        "games": 218,
-        "winRate": 44.95
-      },
-      {
-        "name": "danes",
-        "games": 40,
-        "winRate": 45
+        "games": 119,
+        "winRate": 45.38
       },
       {
         "name": "wu",
-        "games": 120,
-        "winRate": 45
+        "games": 121,
+        "winRate": 45.45
+      },
+      {
+        "name": "spanish",
+        "games": 220,
+        "winRate": 45.45
+      },
+      {
+        "name": "romans",
+        "games": 105,
+        "winRate": 45.71
       }
     ]
   },
