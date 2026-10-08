@@ -378,30 +378,30 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.6,
+    "winRate": 50.53,
     "playRate": 1.05,
-    "picks": 5389,
+    "picks": 5424,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-07T21:19:50.000Z",
-    "window": "2026-07-17 → 2026-10-07",
+    "updated": "2026-10-08T11:24:24.000Z",
+    "window": "2026-07-17 → 2026-10-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
       "other": {
-        "winRate": 50.07,
-        "playRate": 1.04,
-        "picks": 3487
+        "winRate": 49.97,
+        "playRate": 1.05,
+        "picks": 3514
       },
       "open": {
-        "winRate": 52.36,
+        "winRate": 52.34,
         "playRate": 1.12,
-        "picks": 1486
+        "picks": 1494
       },
       "closed": {
         "winRate": 47.94,
-        "playRate": 0.79,
+        "playRate": 0.78,
         "picks": 315
       },
       "nomad": {
@@ -412,14 +412,14 @@
     },
     "strongAgainst": [
       {
+        "name": "jurchens",
+        "games": 62,
+        "winRate": 62.9
+      },
+      {
         "name": "varangians",
         "games": 24,
         "winRate": 62.5
-      },
-      {
-        "name": "jurchens",
-        "games": 61,
-        "winRate": 62.3
       },
       {
         "name": "turks",
@@ -440,8 +440,8 @@
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 96,
-        "winRate": 33.33
+        "games": 98,
+        "winRate": 33.67
       },
       {
         "name": "muisca",
@@ -454,14 +454,14 @@
         "winRate": 38.55
       },
       {
+        "name": "shu",
+        "games": 55,
+        "winRate": 40
+      },
+      {
         "name": "slavs",
         "games": 82,
         "winRate": 40.24
-      },
-      {
-        "name": "shu",
-        "games": 54,
-        "winRate": 40.74
       }
     ]
   },
