@@ -2,7 +2,7 @@
   "_meta": {
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
-    "method": "Samples the top 4000 ranked 1v1 Random Map players, pulls recent completed matches (getRecentMatchHistory), filters matchtype_id=6 with exactly 2 players, dedupes by match id, and ACCUMULATES them into a local store. Each run accepts matches finished in the last 2 week(s) as new; the four views are tallied over the accumulated window (up to 12 weeks).",
+    "method": "Rebuilt from the local store (backend unreachable this run); the four views are tallied over the accumulated window (up to 12 weeks).",
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
     "weeks": 12,
@@ -12,11 +12,11 @@
       "last": "2026-10-08"
     },
     "dumpRange": "2026-07-17 → 2026-10-08",
-    "updated": "2026-10-08T11:24:24.000Z",
+    "updated": "2026-10-08T21:21:28.000Z",
     "mapTypes": "open/closed/hybrid/water/nomad (curated map-script name->type; unmapped -> other)",
     "matches": 259023,
     "storedMatches": 259023,
-    "newThisRun": 1651,
+    "newThisRun": 0,
     "civsWithData": 56,
     "matchupPairs": 1540,
     "matchupPairsByMap": 5863,
