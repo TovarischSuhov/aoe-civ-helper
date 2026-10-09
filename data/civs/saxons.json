@@ -279,31 +279,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.26,
-    "playRate": 0.98,
-    "picks": 5121,
+    "winRate": 50.23,
+    "playRate": 0.99,
+    "picks": 5218,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-09T11:21:30.000Z",
+    "updated": "2026-10-09T20:57:11.000Z",
     "window": "2026-07-17 → 2026-10-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saxons",
     "byMapType": {
       "other": {
-        "winRate": 50.42,
-        "playRate": 1.01,
-        "picks": 3429
+        "winRate": 50.44,
+        "playRate": 1.02,
+        "picks": 3489
       },
       "closed": {
-        "winRate": 52.33,
-        "playRate": 1.23,
-        "picks": 514
+        "winRate": 52.07,
+        "playRate": 1.26,
+        "picks": 532
       },
       "open": {
-        "winRate": 48.9,
+        "winRate": 48.79,
         "playRate": 0.88,
-        "picks": 1178
+        "picks": 1197
       }
     },
     "strongAgainst": [
@@ -314,8 +314,8 @@
       },
       {
         "name": "malians",
-        "games": 50,
-        "winRate": 68
+        "games": 51,
+        "winRate": 66.67
       },
       {
         "name": "mayans",
@@ -328,16 +328,21 @@
         "winRate": 61.54
       },
       {
-        "name": "wu",
-        "games": 36,
-        "winRate": 61.11
+        "name": "incas",
+        "games": 49,
+        "winRate": 61.22
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 58,
-        "winRate": 36.21
+        "games": 59,
+        "winRate": 35.59
+      },
+      {
+        "name": "burmese",
+        "games": 39,
+        "winRate": 35.9
       },
       {
         "name": "slavs",
@@ -345,19 +350,14 @@
         "winRate": 36.96
       },
       {
-        "name": "burmese",
-        "games": 37,
-        "winRate": 37.84
+        "name": "khmer",
+        "games": 117,
+        "winRate": 39.32
       },
       {
         "name": "dravidians",
         "games": 38,
         "winRate": 39.47
-      },
-      {
-        "name": "wei",
-        "games": 75,
-        "winRate": 40
       }
     ]
   },

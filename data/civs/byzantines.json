@@ -282,34 +282,34 @@
   "stats": {
     "winRate": 48.52,
     "playRate": 1.61,
-    "picks": 8456,
+    "picks": 8490,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-09T11:21:30.000Z",
+    "updated": "2026-10-09T20:57:11.000Z",
     "window": "2026-07-17 → 2026-10-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
       "open": {
-        "winRate": 47.6,
+        "winRate": 47.49,
         "playRate": 1.58,
-        "picks": 2126
-      },
-      "nomad": {
-        "winRate": 46.67,
-        "playRate": 1.61,
-        "picks": 135
+        "picks": 2133
       },
       "other": {
-        "winRate": 49.23,
+        "winRate": 49.27,
         "playRate": 1.63,
-        "picks": 5551
+        "picks": 5577
       },
       "closed": {
-        "winRate": 45.81,
-        "playRate": 1.55,
-        "picks": 644
+        "winRate": 45.82,
+        "playRate": 1.53,
+        "picks": 646
+      },
+      "nomad": {
+        "winRate": 46.27,
+        "playRate": 1.61,
+        "picks": 134
       }
     },
     "strongAgainst": [
@@ -335,20 +335,15 @@
       },
       {
         "name": "jurchens",
-        "games": 116,
-        "winRate": 55.17
+        "games": 117,
+        "winRate": 55.56
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 208,
-        "winRate": 37.02
-      },
-      {
-        "name": "slavs",
-        "games": 148,
-        "winRate": 37.16
+        "games": 209,
+        "winRate": 36.84
       },
       {
         "name": "romans",
@@ -356,14 +351,19 @@
         "winRate": 37.5
       },
       {
-        "name": "sicilians",
-        "games": 129,
-        "winRate": 38.76
+        "name": "slavs",
+        "games": 150,
+        "winRate": 38
       },
       {
-        "name": "mapuche",
-        "games": 96,
-        "winRate": 40.63
+        "name": "sicilians",
+        "games": 132,
+        "winRate": 38.64
+      },
+      {
+        "name": "bulgarians",
+        "games": 144,
+        "winRate": 40.28
       }
     ]
   },
