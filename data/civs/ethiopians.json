@@ -307,35 +307,35 @@
   "sotl": null,
   "stats": {
     "winRate": 49.79,
-    "playRate": 1.96,
-    "picks": 10308,
+    "playRate": 1.95,
+    "picks": 10355,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-09T20:57:11.000Z",
-    "window": "2026-07-17 → 2026-10-09",
+    "updated": "2026-10-10T10:38:34.000Z",
+    "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
+      "nomad": {
+        "winRate": 48.97,
+        "playRate": 1.76,
+        "picks": 145
+      },
       "other": {
         "winRate": 49.11,
         "playRate": 1.92,
-        "picks": 6541
-      },
-      "closed": {
-        "winRate": 47.68,
-        "playRate": 1.89,
-        "picks": 797
-      },
-      "nomad": {
-        "winRate": 48.63,
-        "playRate": 1.75,
-        "picks": 146
+        "picks": 6569
       },
       "open": {
-        "winRate": 52.02,
+        "winRate": 51.94,
         "playRate": 2.09,
-        "picks": 2824
+        "picks": 2836
+      },
+      "closed": {
+        "winRate": 47.95,
+        "playRate": 1.88,
+        "picks": 805
       }
     },
     "strongAgainst": [
@@ -343,11 +343,6 @@
         "name": "varangians",
         "games": 103,
         "winRate": 65.05
-      },
-      {
-        "name": "danes",
-        "games": 58,
-        "winRate": 58.62
       },
       {
         "name": "jurchens",
@@ -360,9 +355,14 @@
         "winRate": 57.44
       },
       {
-        "name": "berbers",
-        "games": 183,
-        "winRate": 56.28
+        "name": "danes",
+        "games": 61,
+        "winRate": 57.38
+      },
+      {
+        "name": "huns",
+        "games": 216,
+        "winRate": 56.48
       }
     ],
     "weakAgainst": [
@@ -377,19 +377,19 @@
         "winRate": 42
       },
       {
+        "name": "dravidians",
+        "games": 170,
+        "winRate": 42.94
+      },
+      {
         "name": "chinese",
         "games": 260,
         "winRate": 43.08
       },
       {
-        "name": "dravidians",
-        "games": 169,
-        "winRate": 43.2
-      },
-      {
         "name": "britons",
-        "games": 207,
-        "winRate": 43.48
+        "games": 211,
+        "winRate": 43.13
       }
     ]
   },

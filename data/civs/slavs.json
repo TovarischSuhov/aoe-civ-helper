@@ -314,36 +314,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.94,
+    "winRate": 47.91,
     "playRate": 1.4,
-    "picks": 7397,
+    "picks": 7424,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-09T20:57:11.000Z",
-    "window": "2026-07-17 → 2026-10-09",
+    "updated": "2026-10-10T10:38:34.000Z",
+    "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
-      "open": {
-        "winRate": 47.27,
-        "playRate": 1.45,
-        "picks": 1963
-      },
-      "other": {
-        "winRate": 48.55,
-        "playRate": 1.39,
-        "picks": 4744
-      },
-      "closed": {
-        "winRate": 45.42,
-        "playRate": 1.35,
-        "picks": 568
-      },
       "nomad": {
         "winRate": 46.72,
-        "playRate": 1.47,
+        "playRate": 1.48,
         "picks": 122
+      },
+      "open": {
+        "winRate": 47.37,
+        "playRate": 1.45,
+        "picks": 1974
+      },
+      "closed": {
+        "winRate": 45.53,
+        "playRate": 1.34,
+        "picks": 571
+      },
+      "other": {
+        "winRate": 48.45,
+        "playRate": 1.39,
+        "picks": 4757
       }
     },
     "strongAgainst": [
@@ -364,8 +364,8 @@
       },
       {
         "name": "mapuche",
-        "games": 85,
-        "winRate": 61.18
+        "games": 86,
+        "winRate": 61.63
       },
       {
         "name": "mayans",
@@ -375,29 +375,29 @@
     ],
     "weakAgainst": [
       {
-        "name": "shu",
-        "games": 78,
-        "winRate": 33.33
-      },
-      {
         "name": "romans",
         "games": 112,
-        "winRate": 34.82
+        "winRate": 33.93
+      },
+      {
+        "name": "shu",
+        "games": 79,
+        "winRate": 34.18
       },
       {
         "name": "tatars",
-        "games": 131,
-        "winRate": 38.93
+        "games": 132,
+        "winRate": 38.64
+      },
+      {
+        "name": "vikings",
+        "games": 136,
+        "winRate": 38.97
       },
       {
         "name": "malians",
         "games": 151,
         "winRate": 39.07
-      },
-      {
-        "name": "vikings",
-        "games": 135,
-        "winRate": 39.26
       }
     ]
   },

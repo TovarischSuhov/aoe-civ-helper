@@ -359,53 +359,53 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 48.61,
-    "playRate": 1.33,
-    "picks": 7002,
+    "winRate": 48.71,
+    "playRate": 1.32,
+    "picks": 7021,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-09T20:57:11.000Z",
-    "window": "2026-07-17 → 2026-10-09",
+    "updated": "2026-10-10T10:38:34.000Z",
+    "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "open": {
-        "winRate": 48.58,
+        "winRate": 48.77,
         "playRate": 1.43,
-        "picks": 1939
+        "picks": 1948
       },
       "other": {
-        "winRate": 48.16,
-        "playRate": 1.33,
-        "picks": 4531
+        "winRate": 48.23,
+        "playRate": 1.32,
+        "picks": 4539
       },
       "nomad": {
         "winRate": 56.63,
-        "playRate": 1,
+        "playRate": 1.01,
         "picks": 83
       },
       "closed": {
-        "winRate": 51.89,
+        "winRate": 51.88,
         "playRate": 1.06,
-        "picks": 449
+        "picks": 451
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 127,
-        "winRate": 66.14
+        "games": 126,
+        "winRate": 65.87
+      },
+      {
+        "name": "poles",
+        "games": 103,
+        "winRate": 57.28
       },
       {
         "name": "georgians",
         "games": 79,
         "winRate": 56.96
-      },
-      {
-        "name": "poles",
-        "games": 104,
-        "winRate": 56.73
       },
       {
         "name": "bengalis",
@@ -414,15 +414,15 @@
       },
       {
         "name": "wu",
-        "games": 91,
-        "winRate": 54.95
+        "games": 92,
+        "winRate": 55.43
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 97,
-        "winRate": 31.96
+        "games": 99,
+        "winRate": 33.33
       },
       {
         "name": "japanese",
@@ -441,8 +441,8 @@
       },
       {
         "name": "hindustanis",
-        "games": 148,
-        "winRate": 41.89
+        "games": 149,
+        "winRate": 42.28
       }
     ]
   },
