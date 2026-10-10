@@ -336,48 +336,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.14,
+    "winRate": 48.16,
     "playRate": 1.39,
-    "picks": 7356,
+    "picks": 7386,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T10:38:34.000Z",
+    "updated": "2026-10-10T20:05:46.000Z",
     "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
-      "open": {
-        "winRate": 48.21,
-        "playRate": 1.41,
-        "picks": 1923
-      },
       "other": {
-        "winRate": 48.46,
+        "winRate": 48.45,
         "playRate": 1.39,
-        "picks": 4761
+        "picks": 4778
+      },
+      "open": {
+        "winRate": 48.32,
+        "playRate": 1.41,
+        "picks": 1933
       },
       "nomad": {
-        "winRate": 41.82,
-        "playRate": 1.33,
-        "picks": 110
+        "winRate": 42.2,
+        "playRate": 1.34,
+        "picks": 109
       },
       "closed": {
-        "winRate": 46.44,
-        "playRate": 1.32,
-        "picks": 562
+        "winRate": 46.29,
+        "playRate": 1.31,
+        "picks": 566
       }
     },
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 81,
-        "winRate": 58.02
-      },
-      {
-        "name": "varangians",
-        "games": 44,
-        "winRate": 56.82
+        "games": 82,
+        "winRate": 58.54
       },
       {
         "name": "muisca",
@@ -385,14 +380,19 @@
         "winRate": 56.52
       },
       {
-        "name": "khitans",
-        "games": 85,
-        "winRate": 56.47
+        "name": "vietnamese",
+        "games": 179,
+        "winRate": 55.87
       },
       {
-        "name": "vietnamese",
-        "games": 178,
-        "winRate": 56.18
+        "name": "khitans",
+        "games": 86,
+        "winRate": 55.81
+      },
+      {
+        "name": "shu",
+        "games": 86,
+        "winRate": 55.81
       }
     ],
     "weakAgainst": [
@@ -403,13 +403,13 @@
       },
       {
         "name": "spanish",
-        "games": 174,
-        "winRate": 40.23
+        "games": 175,
+        "winRate": 40
       },
       {
         "name": "romans",
-        "games": 114,
-        "winRate": 41.23
+        "games": 113,
+        "winRate": 40.71
       },
       {
         "name": "georgians",

@@ -301,36 +301,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.8,
+    "winRate": 47.77,
     "playRate": 1.87,
-    "picks": 9892,
+    "picks": 9938,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T10:38:34.000Z",
+    "updated": "2026-10-10T20:05:46.000Z",
     "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
-      "open": {
-        "winRate": 46.53,
-        "playRate": 1.7,
-        "picks": 2308
-      },
       "other": {
-        "winRate": 48.18,
+        "winRate": 48.06,
         "playRate": 1.89,
-        "picks": 6484
-      },
-      "nomad": {
-        "winRate": 40.52,
-        "playRate": 1.86,
-        "picks": 153
+        "picks": 6505
       },
       "closed": {
-        "winRate": 49.42,
+        "winRate": 49.64,
         "playRate": 2.22,
-        "picks": 947
+        "picks": 963
+      },
+      "open": {
+        "winRate": 46.61,
+        "playRate": 1.7,
+        "picks": 2319
+      },
+      "nomad": {
+        "winRate": 41.06,
+        "playRate": 1.86,
+        "picks": 151
       }
     },
     "strongAgainst": [
@@ -346,8 +346,8 @@
       },
       {
         "name": "incas",
-        "games": 179,
-        "winRate": 56.98
+        "games": 178,
+        "winRate": 56.74
       },
       {
         "name": "ethiopians",
@@ -356,8 +356,8 @@
       },
       {
         "name": "bengalis",
-        "games": 158,
-        "winRate": 55.06
+        "games": 157,
+        "winRate": 55.41
       }
     ],
     "weakAgainst": [
@@ -368,23 +368,23 @@
       },
       {
         "name": "poles",
-        "games": 196,
-        "winRate": 41.33
-      },
-      {
-        "name": "koreans",
-        "games": 180,
-        "winRate": 42.22
+        "games": 197,
+        "winRate": 41.62
       },
       {
         "name": "persians",
-        "games": 252,
-        "winRate": 42.46
+        "games": 254,
+        "winRate": 42.13
       },
       {
-        "name": "turks",
-        "games": 204,
-        "winRate": 42.65
+        "name": "vikings",
+        "games": 193,
+        "winRate": 42.49
+      },
+      {
+        "name": "koreans",
+        "games": 181,
+        "winRate": 42.54
       }
     ]
   },

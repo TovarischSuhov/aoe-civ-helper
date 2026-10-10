@@ -335,36 +335,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.76,
-    "playRate": 2.81,
-    "picks": 14876,
+    "winRate": 49.79,
+    "playRate": 2.8,
+    "picks": 14917,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T10:38:34.000Z",
+    "updated": "2026-10-10T20:05:46.000Z",
     "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
-      "other": {
-        "winRate": 49.24,
-        "playRate": 2.72,
-        "picks": 9323
-      },
       "open": {
-        "winRate": 51.03,
-        "playRate": 3.18,
-        "picks": 4321
+        "winRate": 51.06,
+        "playRate": 3.16,
+        "picks": 4320
       },
-      "closed": {
-        "winRate": 49.95,
-        "playRate": 2.36,
-        "picks": 1007
+      "other": {
+        "winRate": 49.27,
+        "playRate": 2.72,
+        "picks": 9355
       },
       "nomad": {
-        "winRate": 46.22,
-        "playRate": 2.73,
-        "picks": 225
+        "winRate": 45.98,
+        "playRate": 2.75,
+        "picks": 224
+      },
+      "closed": {
+        "winRate": 50,
+        "playRate": 2.35,
+        "picks": 1018
       }
     },
     "strongAgainst": [
@@ -375,23 +375,23 @@
       },
       {
         "name": "saracens",
-        "games": 216,
-        "winRate": 56.48
+        "games": 217,
+        "winRate": 56.68
       },
       {
         "name": "ethiopians",
-        "games": 292,
-        "winRate": 56.16
+        "games": 293,
+        "winRate": 56.31
       },
       {
         "name": "gurjaras",
-        "games": 170,
-        "winRate": 55.88
+        "games": 171,
+        "winRate": 56.14
       },
       {
-        "name": "bohemians",
-        "games": 228,
-        "winRate": 55.26
+        "name": "koreans",
+        "games": 226,
+        "winRate": 55.75
       }
     ],
     "weakAgainst": [
@@ -402,13 +402,13 @@
       },
       {
         "name": "chinese",
-        "games": 424,
-        "winRate": 41.51
+        "games": 425,
+        "winRate": 41.41
       },
       {
         "name": "mayans",
-        "games": 329,
-        "winRate": 41.95
+        "games": 330,
+        "winRate": 41.52
       },
       {
         "name": "tupi",

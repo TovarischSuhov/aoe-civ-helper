@@ -300,36 +300,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.33,
+    "winRate": 51.28,
     "playRate": 2.56,
-    "picks": 13545,
+    "picks": 13619,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T10:38:34.000Z",
+    "updated": "2026-10-10T20:05:46.000Z",
     "window": "2026-07-18 → 2026-10-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
-      "open": {
-        "winRate": 50.22,
-        "playRate": 2.54,
-        "picks": 3461
-      },
-      "nomad": {
-        "winRate": 50.23,
-        "playRate": 2.66,
-        "picks": 219
-      },
       "other": {
-        "winRate": 51.84,
+        "winRate": 51.78,
         "playRate": 2.65,
-        "picks": 9091
+        "picks": 9133
+      },
+      "open": {
+        "winRate": 50.17,
+        "playRate": 2.55,
+        "picks": 3486
       },
       "closed": {
-        "winRate": 50.52,
+        "winRate": 50.77,
         "playRate": 1.81,
-        "picks": 774
+        "picks": 784
+      },
+      "nomad": {
+        "winRate": 50,
+        "playRate": 2.66,
+        "picks": 216
       }
     },
     "strongAgainst": [
@@ -346,44 +346,44 @@
       {
         "name": "magyars",
         "games": 424,
-        "winRate": 60.14
+        "winRate": 60.38
       },
       {
         "name": "incas",
-        "games": 218,
-        "winRate": 59.17
+        "games": 219,
+        "winRate": 59.36
       },
       {
-        "name": "sicilians",
-        "games": 217,
-        "winRate": 58.99
+        "name": "turks",
+        "games": 199,
+        "winRate": 58.79
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 131,
-        "winRate": 41.22
+        "games": 132,
+        "winRate": 40.91
       },
       {
         "name": "huns",
-        "games": 284,
-        "winRate": 42.61
+        "games": 286,
+        "winRate": 42.31
       },
       {
         "name": "vikings",
-        "games": 255,
-        "winRate": 42.75
+        "games": 254,
+        "winRate": 42.52
       },
       {
         "name": "chinese",
-        "games": 345,
-        "winRate": 43.48
+        "games": 346,
+        "winRate": 43.35
       },
       {
         "name": "mayans",
-        "games": 226,
-        "winRate": 44.25
+        "games": 228,
+        "winRate": 44.3
       }
     ]
   },
