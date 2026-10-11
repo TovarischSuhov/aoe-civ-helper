@@ -354,13 +354,13 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.66,
+    "winRate": 50.64,
     "playRate": 1.64,
-    "picks": 8751,
+    "picks": 8796,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T20:05:46.000Z",
-    "window": "2026-07-18 → 2026-10-10",
+    "updated": "2026-10-11T10:51:13.000Z",
+    "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
@@ -368,34 +368,39 @@
       "other": {
         "winRate": 50.24,
         "playRate": 1.68,
-        "picks": 5798
+        "picks": 5826
       },
       "open": {
-        "winRate": 52.28,
+        "winRate": 52.24,
         "playRate": 1.51,
-        "picks": 2062
+        "picks": 2073
       },
       "nomad": {
-        "winRate": 54.61,
-        "playRate": 3.47,
-        "picks": 282
+        "winRate": 54.45,
+        "playRate": 3.49,
+        "picks": 281
       },
       "closed": {
-        "winRate": 47.29,
-        "playRate": 1.41,
-        "picks": 609
+        "winRate": 47.24,
+        "playRate": 1.4,
+        "picks": 616
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 158,
-        "winRate": 60.76
+        "games": 159,
+        "winRate": 60.38
       },
       {
         "name": "britons",
-        "games": 150,
-        "winRate": 59.33
+        "games": 151,
+        "winRate": 58.94
+      },
+      {
+        "name": "gurjaras",
+        "games": 140,
+        "winRate": 58.57
       },
       {
         "name": "ethiopians",
@@ -404,40 +409,35 @@
       },
       {
         "name": "shu",
-        "games": 98,
-        "winRate": 58.16
-      },
-      {
-        "name": "gurjaras",
-        "games": 141,
-        "winRate": 58.16
+        "games": 97,
+        "winRate": 57.73
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 115,
-        "winRate": 34.78
+        "games": 117,
+        "winRate": 35.04
       },
       {
         "name": "teutons",
-        "games": 138,
-        "winRate": 42.03
+        "games": 139,
+        "winRate": 41.73
       },
       {
         "name": "vikings",
         "games": 171,
-        "winRate": 43.27
+        "winRate": 42.69
       },
       {
         "name": "vietnamese",
-        "games": 226,
-        "winRate": 44.25
+        "games": 228,
+        "winRate": 44.3
       },
       {
         "name": "aztecs",
-        "games": 162,
-        "winRate": 44.44
+        "games": 164,
+        "winRate": 44.51
       }
     ]
   },

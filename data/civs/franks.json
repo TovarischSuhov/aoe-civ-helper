@@ -352,34 +352,34 @@
   "stats": {
     "winRate": 50.54,
     "playRate": 1.9,
-    "picks": 10115,
+    "picks": 10172,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T20:05:46.000Z",
-    "window": "2026-07-18 → 2026-10-10",
+    "updated": "2026-10-11T10:51:13.000Z",
+    "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
+      "closed": {
+        "winRate": 49.02,
+        "playRate": 1.62,
+        "picks": 712
+      },
       "other": {
-        "winRate": 51.09,
+        "winRate": 51.07,
         "playRate": 1.87,
-        "picks": 6438
+        "picks": 6478
       },
       "open": {
-        "winRate": 49.63,
-        "playRate": 2.09,
-        "picks": 2855
-      },
-      "closed": {
-        "winRate": 49.15,
-        "playRate": 1.63,
-        "picks": 704
+        "winRate": 49.7,
+        "playRate": 2.08,
+        "picks": 2865
       },
       "nomad": {
-        "winRate": 50.85,
+        "winRate": 51.28,
         "playRate": 1.45,
-        "picks": 118
+        "picks": 117
       }
     },
     "strongAgainst": [
@@ -395,8 +395,8 @@
       },
       {
         "name": "jurchens",
-        "games": 123,
-        "winRate": 60.98
+        "games": 124,
+        "winRate": 60.48
       },
       {
         "name": "incas",
@@ -404,26 +404,26 @@
         "winRate": 58.39
       },
       {
-        "name": "danes",
-        "games": 88,
-        "winRate": 57.95
+        "name": "britons",
+        "games": 197,
+        "winRate": 58.38
       }
     ],
     "weakAgainst": [
       {
-        "name": "mapuche",
-        "games": 108,
-        "winRate": 41.67
+        "name": "teutons",
+        "games": 191,
+        "winRate": 41.88
       },
       {
-        "name": "teutons",
-        "games": 189,
-        "winRate": 41.8
+        "name": "mapuche",
+        "games": 109,
+        "winRate": 42.2
       },
       {
         "name": "mongols",
-        "games": 540,
-        "winRate": 42.41
+        "games": 542,
+        "winRate": 42.44
       },
       {
         "name": "celts",
@@ -432,8 +432,8 @@
       },
       {
         "name": "chinese",
-        "games": 244,
-        "winRate": 45.49
+        "games": 245,
+        "winRate": 45.31
       }
     ]
   },

@@ -336,43 +336,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.16,
+    "winRate": 48.21,
     "playRate": 1.39,
-    "picks": 7386,
+    "picks": 7420,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T20:05:46.000Z",
-    "window": "2026-07-18 → 2026-10-10",
+    "updated": "2026-10-11T10:51:13.000Z",
+    "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 48.45,
+        "winRate": 48.47,
         "playRate": 1.39,
-        "picks": 4778
+        "picks": 4799
       },
       "open": {
-        "winRate": 48.32,
+        "winRate": 48.43,
         "playRate": 1.41,
-        "picks": 1933
-      },
-      "nomad": {
-        "winRate": 42.2,
-        "playRate": 1.34,
-        "picks": 109
+        "picks": 1939
       },
       "closed": {
-        "winRate": 46.29,
+        "winRate": 46.43,
         "playRate": 1.31,
-        "picks": 566
+        "picks": 575
+      },
+      "nomad": {
+        "winRate": 42.06,
+        "playRate": 1.33,
+        "picks": 107
       }
     },
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 82,
-        "winRate": 58.54
+        "games": 83,
+        "winRate": 57.83
       },
       {
         "name": "muisca",
@@ -380,14 +380,14 @@
         "winRate": 56.52
       },
       {
+        "name": "gurjaras",
+        "games": 126,
+        "winRate": 56.35
+      },
+      {
         "name": "vietnamese",
         "games": 179,
         "winRate": 55.87
-      },
-      {
-        "name": "khitans",
-        "games": 86,
-        "winRate": 55.81
       },
       {
         "name": "shu",
@@ -403,23 +403,23 @@
       },
       {
         "name": "spanish",
-        "games": 175,
-        "winRate": 40
+        "games": 177,
+        "winRate": 40.68
+      },
+      {
+        "name": "dravidians",
+        "games": 136,
+        "winRate": 41.18
       },
       {
         "name": "romans",
-        "games": 113,
-        "winRate": 40.71
+        "games": 114,
+        "winRate": 41.23
       },
       {
         "name": "georgians",
         "games": 87,
         "winRate": 41.38
-      },
-      {
-        "name": "dravidians",
-        "games": 135,
-        "winRate": 41.48
       }
     ]
   },

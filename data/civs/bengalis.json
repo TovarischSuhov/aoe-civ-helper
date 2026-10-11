@@ -256,53 +256,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.81,
-    "playRate": 1.6,
-    "picks": 8494,
+    "winRate": 49.8,
+    "playRate": 1.59,
+    "picks": 8532,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-10T20:05:46.000Z",
-    "window": "2026-07-18 → 2026-10-10",
+    "updated": "2026-10-11T10:51:13.000Z",
+    "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "open": {
-        "winRate": 48.58,
-        "playRate": 1.52,
-        "picks": 2073
-      },
       "other": {
-        "winRate": 49.49,
+        "winRate": 49.45,
         "playRate": 1.56,
-        "picks": 5381
-      },
-      "nomad": {
-        "winRate": 57.62,
-        "playRate": 1.86,
-        "picks": 151
+        "picks": 5406
       },
       "closed": {
-        "winRate": 53.32,
+        "winRate": 53.34,
         "playRate": 2.05,
-        "picks": 889
+        "picks": 898
+      },
+      "open": {
+        "winRate": 48.6,
+        "playRate": 1.51,
+        "picks": 2078
+      },
+      "nomad": {
+        "winRate": 58,
+        "playRate": 1.86,
+        "picks": 150
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 48,
-        "winRate": 66.67
+        "games": 49,
+        "winRate": 65.31
       },
       {
         "name": "georgians",
-        "games": 116,
-        "winRate": 58.62
+        "games": 118,
+        "winRate": 58.47
       },
       {
         "name": "turks",
-        "games": 165,
-        "winRate": 56.97
+        "games": 166,
+        "winRate": 57.23
       },
       {
         "name": "jurchens",
@@ -323,23 +323,23 @@
       },
       {
         "name": "romans",
-        "games": 123,
-        "winRate": 39.02
+        "games": 124,
+        "winRate": 39.52
       },
       {
         "name": "wu",
-        "games": 101,
-        "winRate": 42.57
+        "games": 102,
+        "winRate": 42.16
       },
       {
         "name": "huns",
-        "games": 171,
-        "winRate": 42.69
+        "games": 172,
+        "winRate": 43.02
       },
       {
-        "name": "khitans",
-        "games": 94,
-        "winRate": 43.62
+        "name": "tupi",
+        "games": 105,
+        "winRate": 43.81
       }
     ]
   },
