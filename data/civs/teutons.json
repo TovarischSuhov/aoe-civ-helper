@@ -294,58 +294,58 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.22,
+    "winRate": 48.3,
     "playRate": 1.8,
-    "picks": 9630,
+    "picks": 9677,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-11T10:51:13.000Z",
+    "updated": "2026-10-11T20:20:31.000Z",
     "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
-      "open": {
-        "winRate": 48.74,
-        "playRate": 1.67,
-        "picks": 2294
-      },
-      "other": {
-        "winRate": 47.99,
-        "playRate": 1.74,
-        "picks": 6024
-      },
-      "closed": {
-        "winRate": 49.23,
-        "playRate": 2.67,
-        "picks": 1172
-      },
       "nomad": {
         "winRate": 41.43,
-        "playRate": 1.74,
+        "playRate": 1.76,
         "picks": 140
+      },
+      "closed": {
+        "winRate": 49.36,
+        "playRate": 2.66,
+        "picks": 1181
+      },
+      "other": {
+        "winRate": 48.03,
+        "playRate": 1.74,
+        "picks": 6054
+      },
+      "open": {
+        "winRate": 48.87,
+        "playRate": 1.67,
+        "picks": 2302
       }
     },
     "strongAgainst": [
       {
         "name": "tupi",
         "games": 119,
-        "winRate": 58.82
+        "winRate": 60.5
       },
       {
         "name": "koreans",
         "games": 139,
-        "winRate": 58.27
+        "winRate": 58.99
       },
       {
         "name": "franks",
         "games": 191,
-        "winRate": 58.12
+        "winRate": 58.64
       },
       {
         "name": "britons",
-        "games": 210,
-        "winRate": 58.1
+        "games": 211,
+        "winRate": 57.82
       },
       {
         "name": "goths",
@@ -356,23 +356,23 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 391,
-        "winRate": 37.08
+        "games": 396,
+        "winRate": 37.37
       },
       {
         "name": "magyars",
-        "games": 223,
-        "winRate": 40.36
-      },
-      {
-        "name": "chinese",
-        "games": 203,
-        "winRate": 41.38
+        "games": 226,
+        "winRate": 40.27
       },
       {
         "name": "georgians",
         "games": 106,
         "winRate": 41.51
+      },
+      {
+        "name": "chinese",
+        "games": 202,
+        "winRate": 41.58
       },
       {
         "name": "burmese",

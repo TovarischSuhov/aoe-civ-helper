@@ -323,36 +323,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.02,
+    "winRate": 48.01,
     "playRate": 1.42,
-    "picks": 7622,
+    "picks": 7651,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-11T10:51:13.000Z",
+    "updated": "2026-10-11T20:20:31.000Z",
     "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
-      "open": {
-        "winRate": 46.77,
-        "playRate": 1.39,
-        "picks": 1905
-      },
       "other": {
-        "winRate": 48.08,
-        "playRate": 1.43,
-        "picks": 4942
+        "winRate": 48.02,
+        "playRate": 1.42,
+        "picks": 4952
+      },
+      "open": {
+        "winRate": 46.92,
+        "playRate": 1.39,
+        "picks": 1916
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.74,
-        "picks": 140
+        "winRate": 49.64,
+        "playRate": 1.75,
+        "picks": 139
       },
       "closed": {
-        "winRate": 50.87,
+        "winRate": 50.78,
         "playRate": 1.45,
-        "picks": 635
+        "picks": 644
       }
     },
     "strongAgainst": [
@@ -363,8 +363,8 @@
       },
       {
         "name": "saxons",
-        "games": 44,
-        "winRate": 59.09
+        "games": 46,
+        "winRate": 58.7
       },
       {
         "name": "teutons",
@@ -378,15 +378,15 @@
       },
       {
         "name": "wei",
-        "games": 108,
-        "winRate": 56.48
+        "games": 109,
+        "winRate": 55.96
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 139,
-        "winRate": 39.57
+        "games": 140,
+        "winRate": 39.29
       },
       {
         "name": "huns",
@@ -400,13 +400,13 @@
       },
       {
         "name": "britons",
-        "games": 138,
-        "winRate": 39.86
+        "games": 139,
+        "winRate": 40.29
       },
       {
         "name": "mongols",
-        "games": 358,
-        "winRate": 40.78
+        "games": 361,
+        "winRate": 41.27
       }
     ]
   },

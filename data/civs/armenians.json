@@ -365,43 +365,43 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.13,
+    "winRate": 50.17,
     "playRate": 1.73,
-    "picks": 9265,
+    "picks": 9313,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-11T10:51:13.000Z",
+    "updated": "2026-10-11T20:20:31.000Z",
     "window": "2026-07-19 → 2026-10-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
-      "closed": {
-        "winRate": 51.83,
-        "playRate": 1.86,
-        "picks": 818
-      },
       "other": {
-        "winRate": 49.88,
+        "winRate": 49.93,
         "playRate": 1.71,
-        "picks": 5908
-      },
-      "open": {
-        "winRate": 50.23,
-        "playRate": 1.75,
-        "picks": 2411
+        "picks": 5940
       },
       "nomad": {
-        "winRate": 49.22,
-        "playRate": 1.59,
-        "picks": 128
+        "winRate": 48.41,
+        "playRate": 1.58,
+        "picks": 126
+      },
+      "open": {
+        "winRate": 50.27,
+        "playRate": 1.75,
+        "picks": 2425
+      },
+      "closed": {
+        "winRate": 51.82,
+        "playRate": 1.85,
+        "picks": 822
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 100,
-        "winRate": 67
+        "games": 101,
+        "winRate": 67.33
       },
       {
         "name": "danes",
@@ -410,25 +410,25 @@
       },
       {
         "name": "tupi",
-        "games": 106,
-        "winRate": 62.26
+        "games": 107,
+        "winRate": 62.62
       },
       {
         "name": "incas",
-        "games": 152,
-        "winRate": 60.53
+        "games": 151,
+        "winRate": 60.93
       },
       {
         "name": "bulgarians",
-        "games": 160,
-        "winRate": 60
+        "games": 163,
+        "winRate": 59.51
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 221,
-        "winRate": 35.75
+        "games": 224,
+        "winRate": 36.16
       },
       {
         "name": "malay",
@@ -442,13 +442,13 @@
       },
       {
         "name": "mayans",
-        "games": 188,
-        "winRate": 42.55
+        "games": 187,
+        "winRate": 42.25
       },
       {
-        "name": "japanese",
-        "games": 216,
-        "winRate": 43.06
+        "name": "huns",
+        "games": 174,
+        "winRate": 43.1
       }
     ]
   },
