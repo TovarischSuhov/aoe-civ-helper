@@ -363,34 +363,34 @@
   "stats": {
     "winRate": 52.13,
     "playRate": 1.61,
-    "picks": 8679,
+    "picks": 8734,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-11T20:20:31.000Z",
-    "window": "2026-07-19 → 2026-10-11",
+    "updated": "2026-10-12T12:04:13.000Z",
+    "window": "2026-07-20 → 2026-10-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
-      "other": {
-        "winRate": 51.38,
-        "playRate": 1.61,
-        "picks": 5586
-      },
       "open": {
-        "winRate": 54.09,
+        "winRate": 53.98,
         "playRate": 1.63,
-        "picks": 2248
-      },
-      "closed": {
-        "winRate": 52.01,
-        "playRate": 1.57,
-        "picks": 698
+        "picks": 2260
       },
       "nomad": {
         "winRate": 51.02,
-        "playRate": 1.85,
+        "playRate": 1.86,
         "picks": 147
+      },
+      "closed": {
+        "winRate": 52.48,
+        "playRate": 1.58,
+        "picks": 707
+      },
+      "other": {
+        "winRate": 51.37,
+        "playRate": 1.61,
+        "picks": 5620
       }
     },
     "strongAgainst": [
@@ -405,19 +405,19 @@
         "winRate": 64.46
       },
       {
-        "name": "saxons",
-        "games": 66,
-        "winRate": 62.12
-      },
-      {
         "name": "khitans",
         "games": 101,
         "winRate": 61.39
       },
       {
+        "name": "saxons",
+        "games": 67,
+        "winRate": 61.19
+      },
+      {
         "name": "burmese",
-        "games": 140,
-        "winRate": 60.71
+        "games": 141,
+        "winRate": 60.28
       }
     ],
     "weakAgainst": [
@@ -428,13 +428,13 @@
       },
       {
         "name": "malians",
-        "games": 141,
-        "winRate": 44.68
+        "games": 142,
+        "winRate": 45.07
       },
       {
         "name": "turks",
-        "games": 169,
-        "winRate": 44.97
+        "games": 172,
+        "winRate": 45.35
       },
       {
         "name": "japanese",
