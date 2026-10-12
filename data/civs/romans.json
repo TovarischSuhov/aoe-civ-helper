@@ -349,35 +349,35 @@
   },
   "stats": {
     "winRate": 54.16,
-    "playRate": 1.36,
-    "picks": 7332,
+    "playRate": 1.35,
+    "picks": 7354,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-12T12:04:13.000Z",
+    "updated": "2026-10-12T23:01:13.000Z",
     "window": "2026-07-20 → 2026-10-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "nomad": {
-        "winRate": 47.67,
-        "playRate": 1.09,
-        "picks": 86
-      },
-      "open": {
-        "winRate": 53.98,
-        "playRate": 1.44,
-        "picks": 1997
-      },
       "other": {
         "winRate": 54.62,
         "playRate": 1.37,
-        "picks": 4786
+        "picks": 4802
+      },
+      "open": {
+        "winRate": 53.95,
+        "playRate": 1.43,
+        "picks": 2002
       },
       "closed": {
-        "winRate": 51.4,
-        "playRate": 1.03,
-        "picks": 463
+        "winRate": 51.5,
+        "playRate": 1.02,
+        "picks": 466
+      },
+      "nomad": {
+        "winRate": 47.62,
+        "playRate": 1.08,
+        "picks": 84
       }
     },
     "strongAgainst": [
@@ -403,15 +403,15 @@
       },
       {
         "name": "byzantines",
-        "games": 131,
-        "winRate": 63.36
+        "games": 133,
+        "winRate": 63.16
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 440,
-        "winRate": 43.64
+        "games": 441,
+        "winRate": 43.54
       },
       {
         "name": "spanish",
@@ -420,18 +420,18 @@
       },
       {
         "name": "japanese",
-        "games": 179,
-        "winRate": 49.16
+        "games": 180,
+        "winRate": 49.44
       },
       {
-        "name": "hindustanis",
-        "games": 154,
-        "winRate": 49.35
-      },
-      {
-        "name": "italians",
+        "name": "teutons",
         "games": 127,
         "winRate": 49.61
+      },
+      {
+        "name": "mayans",
+        "games": 141,
+        "winRate": 49.65
       }
     ]
   },

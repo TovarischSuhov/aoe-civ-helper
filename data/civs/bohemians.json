@@ -343,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.57,
+    "winRate": 49.55,
     "playRate": 1.96,
-    "picks": 10579,
+    "picks": 10655,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-12T12:04:13.000Z",
+    "updated": "2026-10-12T23:01:13.000Z",
     "window": "2026-07-20 → 2026-10-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "closed": {
-        "winRate": 53.25,
+        "winRate": 53.01,
         "playRate": 3.87,
-        "picks": 1737
-      },
-      "other": {
-        "winRate": 49.37,
-        "playRate": 1.88,
-        "picks": 6555
+        "picks": 1760
       },
       "open": {
-        "winRate": 47.19,
+        "winRate": 47.16,
         "playRate": 1.54,
-        "picks": 2136
+        "picks": 2148
+      },
+      "other": {
+        "winRate": 49.4,
+        "playRate": 1.88,
+        "picks": 6599
       },
       "nomad": {
-        "winRate": 49.67,
-        "playRate": 1.91,
-        "picks": 151
+        "winRate": 50,
+        "playRate": 1.9,
+        "picks": 148
       }
     },
     "strongAgainst": [
@@ -384,29 +384,29 @@
       {
         "name": "sicilians",
         "games": 176,
-        "winRate": 60.23
+        "winRate": 59.66
       },
       {
         "name": "muisca",
-        "games": 123,
-        "winRate": 57.72
+        "games": 122,
+        "winRate": 58.2
       },
       {
         "name": "jurchens",
-        "games": 128,
-        "winRate": 56.25
+        "games": 129,
+        "winRate": 56.59
       },
       {
         "name": "wu",
-        "games": 125,
-        "winRate": 55.2
+        "games": 126,
+        "winRate": 55.56
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 165,
-        "winRate": 37.58
+        "games": 171,
+        "winRate": 37.43
       },
       {
         "name": "dravidians",
@@ -420,13 +420,13 @@
       },
       {
         "name": "turks",
-        "games": 313,
-        "winRate": 43.13
+        "games": 315,
+        "winRate": 42.86
       },
       {
         "name": "burgundians",
-        "games": 354,
-        "winRate": 43.5
+        "games": 357,
+        "winRate": 43.42
       }
     ]
   },
