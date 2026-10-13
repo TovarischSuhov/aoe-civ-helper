@@ -318,12 +318,12 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 51.12,
+    "winRate": 51.15,
     "playRate": 1.89,
-    "picks": 10334,
+    "picks": 10360,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -331,30 +331,30 @@
     "byMapType": {
       "nomad": {
         "winRate": 49.81,
-        "playRate": 3.43,
-        "picks": 265
-      },
-      "closed": {
-        "winRate": 54.43,
-        "playRate": 2.14,
-        "picks": 981
+        "playRate": 3.4,
+        "picks": 259
       },
       "other": {
-        "winRate": 50.67,
+        "winRate": 50.71,
         "playRate": 1.94,
-        "picks": 6848
+        "picks": 6866
       },
       "open": {
-        "winRate": 51.21,
+        "winRate": 51.24,
         "playRate": 1.59,
-        "picks": 2240
+        "picks": 2250
+      },
+      "closed": {
+        "winRate": 54.31,
+        "playRate": 2.12,
+        "picks": 985
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 109,
-        "winRate": 62.39
+        "games": 112,
+        "winRate": 61.61
       },
       {
         "name": "jurchens",
@@ -369,12 +369,12 @@
       {
         "name": "spanish",
         "games": 282,
-        "winRate": 56.74
+        "winRate": 56.38
       },
       {
-        "name": "khmer",
-        "games": 235,
-        "winRate": 56.6
+        "name": "saracens",
+        "games": 174,
+        "winRate": 56.32
       }
     ],
     "weakAgainst": [
@@ -385,13 +385,13 @@
       },
       {
         "name": "georgians",
-        "games": 135,
-        "winRate": 42.96
+        "games": 136,
+        "winRate": 43.38
       },
       {
         "name": "byzantines",
-        "games": 161,
-        "winRate": 44.1
+        "games": 162,
+        "winRate": 43.83
       },
       {
         "name": "vietnamese",
@@ -400,8 +400,8 @@
       },
       {
         "name": "dravidians",
-        "games": 173,
-        "winRate": 46.24
+        "games": 175,
+        "winRate": 46.29
       }
     ]
   },

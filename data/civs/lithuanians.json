@@ -340,46 +340,41 @@
   "stats": {
     "winRate": 46.98,
     "playRate": 1.86,
-    "picks": 10156,
+    "picks": 10210,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/lithuanians",
     "byMapType": {
       "other": {
-        "winRate": 47.33,
-        "playRate": 1.89,
-        "picks": 6675
-      },
-      "nomad": {
-        "winRate": 49.36,
-        "playRate": 2.02,
-        "picks": 156
+        "winRate": 47.32,
+        "playRate": 1.9,
+        "picks": 6706
       },
       "open": {
-        "winRate": 46.73,
-        "playRate": 1.84,
-        "picks": 2587
+        "winRate": 46.78,
+        "playRate": 1.85,
+        "picks": 2606
       },
       "closed": {
-        "winRate": 44.17,
-        "playRate": 1.61,
-        "picks": 738
+        "winRate": 44.22,
+        "playRate": 1.6,
+        "picks": 744
+      },
+      "nomad": {
+        "winRate": 49.35,
+        "playRate": 2.02,
+        "picks": 154
       }
     },
     "strongAgainst": [
       {
         "name": "portuguese",
-        "games": 187,
-        "winRate": 55.08
-      },
-      {
-        "name": "khmer",
-        "games": 238,
-        "winRate": 55.04
+        "games": 189,
+        "winRate": 55.03
       },
       {
         "name": "khitans",
@@ -387,31 +382,36 @@
         "winRate": 54.92
       },
       {
-        "name": "georgians",
-        "games": 140,
-        "winRate": 54.29
+        "name": "khmer",
+        "games": 237,
+        "winRate": 54.85
       },
       {
         "name": "bulgarians",
-        "games": 166,
-        "winRate": 54.22
+        "games": 167,
+        "winRate": 54.49
+      },
+      {
+        "name": "sicilians",
+        "games": 157,
+        "winRate": 54.14
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 134,
-        "winRate": 39.55
+        "games": 135,
+        "winRate": 39.26
       },
       {
         "name": "hindustanis",
-        "games": 215,
-        "winRate": 40.93
+        "games": 216,
+        "winRate": 40.74
       },
       {
         "name": "wei",
-        "games": 161,
-        "winRate": 40.99
+        "games": 162,
+        "winRate": 41.36
       },
       {
         "name": "berbers",
@@ -419,9 +419,9 @@
         "winRate": 41.38
       },
       {
-        "name": "mongols",
-        "games": 531,
-        "winRate": 41.43
+        "name": "tatars",
+        "games": 147,
+        "winRate": 41.5
       }
     ]
   },

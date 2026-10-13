@@ -351,36 +351,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.62,
+    "winRate": 49.6,
     "playRate": 1.11,
-    "picks": 6056,
+    "picks": 6089,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
-      "closed": {
-        "winRate": 45.88,
-        "playRate": 1.08,
-        "picks": 497
+      "nomad": {
+        "winRate": 47.41,
+        "playRate": 1.52,
+        "picks": 116
       },
       "other": {
-        "winRate": 50.21,
-        "playRate": 1.1,
-        "picks": 3890
-      },
-      "nomad": {
-        "winRate": 47.86,
-        "playRate": 1.51,
-        "picks": 117
+        "winRate": 50.18,
+        "playRate": 1.11,
+        "picks": 3912
       },
       "open": {
-        "winRate": 49.48,
-        "playRate": 1.1,
-        "picks": 1552
+        "winRate": 49.46,
+        "playRate": 1.11,
+        "picks": 1561
+      },
+      "closed": {
+        "winRate": 46,
+        "playRate": 1.08,
+        "picks": 500
       }
     },
     "strongAgainst": [
@@ -391,23 +391,23 @@
       },
       {
         "name": "slavs",
-        "games": 89,
-        "winRate": 60.67
-      },
-      {
-        "name": "gurjaras",
-        "games": 103,
-        "winRate": 59.22
-      },
-      {
-        "name": "cumans",
-        "games": 105,
-        "winRate": 58.1
+        "games": 90,
+        "winRate": 61.11
       },
       {
         "name": "bengalis",
         "games": 100,
-        "winRate": 58
+        "winRate": 59
+      },
+      {
+        "name": "gurjaras",
+        "games": 106,
+        "winRate": 58.49
+      },
+      {
+        "name": "huns",
+        "games": 124,
+        "winRate": 57.26
       }
     ],
     "weakAgainst": [
@@ -422,19 +422,19 @@
         "winRate": 40
       },
       {
-        "name": "berbers",
-        "games": 104,
-        "winRate": 41.35
-      },
-      {
         "name": "saxons",
         "games": 41,
         "winRate": 41.46
       },
       {
+        "name": "berbers",
+        "games": 103,
+        "winRate": 41.75
+      },
+      {
         "name": "burgundians",
-        "games": 109,
-        "winRate": 42.2
+        "games": 110,
+        "winRate": 41.82
       }
     ]
   },

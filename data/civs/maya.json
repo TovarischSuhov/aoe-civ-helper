@@ -333,43 +333,43 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.79,
+    "winRate": 53.81,
     "playRate": 2,
-    "picks": 10919,
+    "picks": 10956,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
       "open": {
-        "winRate": 55.56,
+        "winRate": 55.63,
         "playRate": 2.23,
-        "picks": 3132
-      },
-      "other": {
-        "winRate": 53.43,
-        "playRate": 1.97,
-        "picks": 6948
+        "picks": 3146
       },
       "nomad": {
-        "winRate": 51.43,
-        "playRate": 1.81,
-        "picks": 140
+        "winRate": 51.08,
+        "playRate": 1.82,
+        "picks": 139
+      },
+      "other": {
+        "winRate": 53.42,
+        "playRate": 1.97,
+        "picks": 6964
       },
       "closed": {
-        "winRate": 49.93,
+        "winRate": 50.07,
         "playRate": 1.52,
-        "picks": 699
+        "picks": 707
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 111,
-        "winRate": 71.17
+        "games": 113,
+        "winRate": 71.68
       },
       {
         "name": "tatars",
@@ -379,7 +379,7 @@
       {
         "name": "bohemians",
         "games": 171,
-        "winRate": 62.57
+        "winRate": 61.99
       },
       {
         "name": "georgians",
@@ -405,18 +405,18 @@
       },
       {
         "name": "hindustanis",
-        "games": 220,
-        "winRate": 45.91
+        "games": 219,
+        "winRate": 46.12
+      },
+      {
+        "name": "goths",
+        "games": 166,
+        "winRate": 46.39
       },
       {
         "name": "dravidians",
         "games": 155,
         "winRate": 46.45
-      },
-      {
-        "name": "goths",
-        "games": 165,
-        "winRate": 46.67
       }
     ]
   },

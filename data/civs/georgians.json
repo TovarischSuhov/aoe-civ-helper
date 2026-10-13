@@ -295,48 +295,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.03,
+    "winRate": 48.98,
     "playRate": 1.18,
-    "picks": 6470,
+    "picks": 6495,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "open": {
-        "winRate": 50.09,
-        "playRate": 1.22,
-        "picks": 1719
-      },
       "other": {
-        "winRate": 49.32,
+        "winRate": 49.31,
         "playRate": 1.19,
-        "picks": 4203
+        "picks": 4216
+      },
+      "open": {
+        "winRate": 50,
+        "playRate": 1.22,
+        "picks": 1728
       },
       "nomad": {
-        "winRate": 41.41,
-        "playRate": 1.28,
-        "picks": 99
+        "winRate": 41.67,
+        "playRate": 1.26,
+        "picks": 96
       },
       "closed": {
-        "winRate": 43.88,
+        "winRate": 43.52,
         "playRate": 0.98,
-        "picks": 449
+        "picks": 455
       }
     },
     "strongAgainst": [
       {
-        "name": "incas",
-        "games": 109,
-        "winRate": 63.3
+        "name": "saxons",
+        "games": 41,
+        "winRate": 63.41
       },
       {
-        "name": "saxons",
-        "games": 40,
-        "winRate": 62.5
+        "name": "incas",
+        "games": 108,
+        "winRate": 62.96
       },
       {
         "name": "goths",
@@ -345,8 +345,8 @@
       },
       {
         "name": "burmese",
-        "games": 90,
-        "winRate": 58.89
+        "games": 91,
+        "winRate": 58.24
       },
       {
         "name": "shu",
@@ -367,8 +367,8 @@
       },
       {
         "name": "wei",
-        "games": 104,
-        "winRate": 40.38
+        "games": 105,
+        "winRate": 40
       },
       {
         "name": "bengalis",

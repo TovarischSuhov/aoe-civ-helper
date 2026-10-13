@@ -361,43 +361,43 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.09,
-    "playRate": 1.77,
-    "picks": 9693,
+    "winRate": 49.18,
+    "playRate": 1.78,
+    "picks": 9759,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
-      "other": {
-        "winRate": 48.42,
-        "playRate": 1.73,
-        "picks": 6084
-      },
       "open": {
-        "winRate": 47.86,
+        "winRate": 47.94,
         "playRate": 1.48,
-        "picks": 2075
+        "picks": 2092
+      },
+      "other": {
+        "winRate": 48.47,
+        "playRate": 1.73,
+        "picks": 6117
       },
       "nomad": {
-        "winRate": 38.68,
-        "playRate": 1.37,
-        "picks": 106
+        "winRate": 37.5,
+        "playRate": 1.36,
+        "picks": 104
       },
       "closed": {
-        "winRate": 54.48,
-        "playRate": 3.11,
-        "picks": 1428
+        "winRate": 54.77,
+        "playRate": 3.12,
+        "picks": 1446
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 52,
-        "winRate": 75
+        "games": 54,
+        "winRate": 74.07
       },
       {
         "name": "varangians",
@@ -411,8 +411,8 @@
       },
       {
         "name": "bohemians",
-        "games": 315,
-        "winRate": 57.14
+        "games": 320,
+        "winRate": 57.5
       },
       {
         "name": "lithuanians",
@@ -438,13 +438,13 @@
       },
       {
         "name": "poles",
-        "games": 253,
-        "winRate": 40.71
+        "games": 254,
+        "winRate": 40.94
       },
       {
-        "name": "romans",
-        "games": 103,
-        "winRate": 41.75
+        "name": "huns",
+        "games": 175,
+        "winRate": 42.29
       }
     ]
   },

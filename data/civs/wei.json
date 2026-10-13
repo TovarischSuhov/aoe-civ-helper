@@ -350,36 +350,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.34,
-    "playRate": 1.64,
-    "picks": 8941,
+    "winRate": 50.29,
+    "playRate": 1.63,
+    "picks": 8946,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T11:51:22.000Z",
+    "updated": "2026-10-13T21:18:36.000Z",
     "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
+      "other": {
+        "winRate": 50.17,
+        "playRate": 1.56,
+        "picks": 5517
+      },
       "open": {
         "winRate": 51.49,
-        "playRate": 1.87,
+        "playRate": 1.86,
         "picks": 2626
       },
-      "closed": {
-        "winRate": 47.03,
-        "playRate": 1.51,
-        "picks": 691
-      },
-      "other": {
-        "winRate": 50.25,
-        "playRate": 1.56,
-        "picks": 5509
-      },
       "nomad": {
-        "winRate": 48.7,
+        "winRate": 49.11,
+        "playRate": 1.47,
+        "picks": 112
+      },
+      "closed": {
+        "winRate": 46.89,
         "playRate": 1.49,
-        "picks": 115
+        "picks": 691
       }
     },
     "strongAgainst": [
@@ -395,18 +395,18 @@
       },
       {
         "name": "georgians",
-        "games": 104,
-        "winRate": 59.62
+        "games": 105,
+        "winRate": 60
       },
       {
         "name": "varangians",
-        "games": 86,
-        "winRate": 59.3
+        "games": 87,
+        "winRate": 59.77
       },
       {
         "name": "lithuanians",
-        "games": 161,
-        "winRate": 59.01
+        "games": 162,
+        "winRate": 58.64
       }
     ],
     "weakAgainst": [
@@ -417,13 +417,13 @@
       },
       {
         "name": "spanish",
-        "games": 234,
-        "winRate": 41.45
+        "games": 235,
+        "winRate": 41.28
       },
       {
         "name": "romans",
-        "games": 134,
-        "winRate": 43.28
+        "games": 133,
+        "winRate": 43.61
       },
       {
         "name": "burmese",
