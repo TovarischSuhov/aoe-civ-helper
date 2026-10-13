@@ -333,48 +333,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.77,
+    "winRate": 53.79,
     "playRate": 2,
-    "picks": 10871,
+    "picks": 10919,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-12T23:01:13.000Z",
-    "window": "2026-07-20 → 2026-10-12",
+    "updated": "2026-10-13T11:51:22.000Z",
+    "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
-      "other": {
-        "winRate": 53.4,
-        "playRate": 1.97,
-        "picks": 6923
-      },
-      "closed": {
-        "winRate": 50,
-        "playRate": 1.52,
-        "picks": 690
-      },
       "open": {
-        "winRate": 55.52,
+        "winRate": 55.56,
         "playRate": 2.23,
-        "picks": 3118
+        "picks": 3132
+      },
+      "other": {
+        "winRate": 53.43,
+        "playRate": 1.97,
+        "picks": 6948
       },
       "nomad": {
         "winRate": 51.43,
-        "playRate": 1.79,
+        "playRate": 1.81,
         "picks": 140
+      },
+      "closed": {
+        "winRate": 49.93,
+        "playRate": 1.52,
+        "picks": 699
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 109,
-        "winRate": 71.56
+        "games": 111,
+        "winRate": 71.17
       },
       {
         "name": "tatars",
-        "games": 189,
-        "winRate": 65.61
+        "games": 190,
+        "winRate": 65.79
       },
       {
         "name": "bohemians",
@@ -383,20 +383,20 @@
       },
       {
         "name": "georgians",
-        "games": 140,
-        "winRate": 61.43
+        "games": 141,
+        "winRate": 61.7
       },
       {
         "name": "berbers",
-        "games": 165,
-        "winRate": 61.21
+        "games": 167,
+        "winRate": 61.08
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 92,
-        "winRate": 34.78
+        "games": 93,
+        "winRate": 35.48
       },
       {
         "name": "slavs",
@@ -405,18 +405,18 @@
       },
       {
         "name": "hindustanis",
-        "games": 218,
-        "winRate": 46.33
-      },
-      {
-        "name": "goths",
-        "games": 163,
-        "winRate": 46.63
+        "games": 220,
+        "winRate": 45.91
       },
       {
         "name": "dravidians",
-        "games": 154,
-        "winRate": 46.75
+        "games": 155,
+        "winRate": 46.45
+      },
+      {
+        "name": "goths",
+        "games": 165,
+        "winRate": 46.67
       }
     ]
   },

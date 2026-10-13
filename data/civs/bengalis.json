@@ -256,43 +256,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.69,
+    "winRate": 49.74,
     "playRate": 1.59,
-    "picks": 8654,
+    "picks": 8671,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-12T23:01:13.000Z",
-    "window": "2026-07-20 → 2026-10-12",
+    "updated": "2026-10-13T11:51:22.000Z",
+    "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "open": {
-        "winRate": 48.62,
-        "playRate": 1.51,
-        "picks": 2108
+      "closed": {
+        "winRate": 53.03,
+        "playRate": 2.01,
+        "picks": 924
       },
       "other": {
-        "winRate": 49.31,
+        "winRate": 49.33,
         "playRate": 1.56,
-        "picks": 5478
+        "picks": 5487
+      },
+      "open": {
+        "winRate": 48.72,
+        "playRate": 1.51,
+        "picks": 2116
       },
       "nomad": {
-        "winRate": 58.9,
-        "playRate": 1.87,
-        "picks": 146
-      },
-      "closed": {
-        "winRate": 52.93,
-        "playRate": 2.03,
-        "picks": 922
+        "winRate": 59.03,
+        "playRate": 1.86,
+        "picks": 144
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 51,
-        "winRate": 64.71
+        "games": 53,
+        "winRate": 66.04
       },
       {
         "name": "georgians",
@@ -301,18 +301,18 @@
       },
       {
         "name": "jurchens",
-        "games": 118,
-        "winRate": 57.63
+        "games": 119,
+        "winRate": 57.98
       },
       {
         "name": "turks",
         "games": 170,
-        "winRate": 57.06
+        "winRate": 56.47
       },
       {
-        "name": "bohemians",
-        "games": 236,
-        "winRate": 55.51
+        "name": "mapuche",
+        "games": 95,
+        "winRate": 55.79
       }
     ],
     "weakAgainst": [
@@ -338,8 +338,8 @@
       },
       {
         "name": "huns",
-        "games": 173,
-        "winRate": 42.77
+        "games": 175,
+        "winRate": 43.43
       }
     ]
   },

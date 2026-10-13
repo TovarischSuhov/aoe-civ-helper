@@ -343,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.55,
+    "winRate": 49.54,
     "playRate": 1.96,
-    "picks": 10655,
+    "picks": 10706,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-12T23:01:13.000Z",
-    "window": "2026-07-20 → 2026-10-12",
+    "updated": "2026-10-13T11:51:22.000Z",
+    "window": "2026-07-21 → 2026-10-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
-      "closed": {
-        "winRate": 53.01,
-        "playRate": 3.87,
-        "picks": 1760
-      },
-      "open": {
-        "winRate": 47.16,
-        "playRate": 1.54,
-        "picks": 2148
-      },
       "other": {
-        "winRate": 49.4,
+        "winRate": 49.38,
         "playRate": 1.88,
-        "picks": 6599
+        "picks": 6626
       },
       "nomad": {
-        "winRate": 50,
+        "winRate": 50.34,
         "playRate": 1.9,
-        "picks": 148
+        "picks": 147
+      },
+      "closed": {
+        "winRate": 52.81,
+        "playRate": 3.87,
+        "picks": 1778
+      },
+      "open": {
+        "winRate": 47.29,
+        "playRate": 1.53,
+        "picks": 2155
       }
     },
     "strongAgainst": [
@@ -393,13 +393,13 @@
       },
       {
         "name": "jurchens",
-        "games": 129,
-        "winRate": 56.59
+        "games": 130,
+        "winRate": 56.15
       },
       {
         "name": "wu",
-        "games": 126,
-        "winRate": 55.56
+        "games": 129,
+        "winRate": 55.81
       }
     ],
     "weakAgainst": [
@@ -409,14 +409,14 @@
         "winRate": 37.43
       },
       {
-        "name": "dravidians",
-        "games": 142,
-        "winRate": 40.85
-      },
-      {
         "name": "shu",
         "games": 107,
         "winRate": 41.12
+      },
+      {
+        "name": "dravidians",
+        "games": 141,
+        "winRate": 41.13
       },
       {
         "name": "turks",
@@ -425,8 +425,8 @@
       },
       {
         "name": "burgundians",
-        "games": 357,
-        "winRate": 43.42
+        "games": 358,
+        "winRate": 43.58
       }
     ]
   },
