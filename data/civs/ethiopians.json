@@ -306,36 +306,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.73,
+    "winRate": 49.7,
     "playRate": 1.96,
-    "picks": 10730,
+    "picks": 10769,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T21:18:36.000Z",
-    "window": "2026-07-21 → 2026-10-13",
+    "updated": "2026-10-14T09:33:07.000Z",
+    "window": "2026-07-22 → 2026-10-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
-      "other": {
-        "winRate": 49.09,
-        "playRate": 1.92,
-        "picks": 6792
-      },
-      "closed": {
-        "winRate": 48.01,
-        "playRate": 1.9,
-        "picks": 879
-      },
       "open": {
-        "winRate": 51.76,
+        "winRate": 51.75,
         "playRate": 2.08,
-        "picks": 2933
+        "picks": 2951
+      },
+      "other": {
+        "winRate": 49.03,
+        "playRate": 1.92,
+        "picks": 6808
       },
       "nomad": {
-        "winRate": 49.21,
-        "playRate": 1.65,
-        "picks": 126
+        "winRate": 49.6,
+        "playRate": 1.64,
+        "picks": 125
+      },
+      "closed": {
+        "winRate": 48.02,
+        "playRate": 1.89,
+        "picks": 885
       }
     },
     "strongAgainst": [
@@ -346,13 +346,13 @@
       },
       {
         "name": "jurchens",
-        "games": 129,
-        "winRate": 58.91
+        "games": 130,
+        "winRate": 58.46
       },
       {
         "name": "danes",
-        "games": 64,
-        "winRate": 57.81
+        "games": 66,
+        "winRate": 57.58
       },
       {
         "name": "malians",
@@ -361,8 +361,8 @@
       },
       {
         "name": "huns",
-        "games": 221,
-        "winRate": 56.56
+        "games": 222,
+        "winRate": 56.76
       }
     ],
     "weakAgainst": [
@@ -372,24 +372,24 @@
         "winRate": 41.24
       },
       {
-        "name": "chinese",
-        "games": 269,
-        "winRate": 42.75
-      },
-      {
         "name": "wei",
-        "games": 184,
-        "winRate": 42.93
+        "games": 185,
+        "winRate": 42.7
       },
       {
         "name": "britons",
-        "games": 214,
-        "winRate": 42.99
+        "games": 213,
+        "winRate": 42.72
+      },
+      {
+        "name": "chinese",
+        "games": 271,
+        "winRate": 42.8
       },
       {
         "name": "portuguese",
-        "games": 190,
-        "winRate": 43.16
+        "games": 192,
+        "winRate": 43.23
       }
     ]
   },

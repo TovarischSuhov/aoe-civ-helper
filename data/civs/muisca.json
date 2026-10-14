@@ -378,36 +378,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.79,
+    "winRate": 47.62,
     "playRate": 0.98,
-    "picks": 5405,
+    "picks": 5412,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T21:18:36.000Z",
-    "window": "2026-07-21 → 2026-10-13",
+    "updated": "2026-10-14T09:33:07.000Z",
+    "window": "2026-07-22 → 2026-10-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
-      "other": {
-        "winRate": 47.96,
-        "playRate": 0.98,
-        "picks": 3455
-      },
       "nomad": {
-        "winRate": 44.58,
-        "playRate": 1.09,
-        "picks": 83
+        "winRate": 43.9,
+        "playRate": 1.08,
+        "picks": 82
       },
       "closed": {
-        "winRate": 50.94,
-        "playRate": 1.04,
-        "picks": 481
+        "winRate": 50.72,
+        "playRate": 1.03,
+        "picks": 483
+      },
+      "other": {
+        "winRate": 47.76,
+        "playRate": 0.98,
+        "picks": 3459
       },
       "open": {
-        "winRate": 46.46,
+        "winRate": 46.4,
         "playRate": 0.98,
-        "picks": 1386
+        "picks": 1388
       }
     },
     "strongAgainst": [
@@ -418,13 +418,13 @@
       },
       {
         "name": "italians",
-        "games": 97,
-        "winRate": 60.82
+        "games": 98,
+        "winRate": 61.22
       },
       {
         "name": "cumans",
-        "games": 83,
-        "winRate": 60.24
+        "games": 84,
+        "winRate": 59.52
       },
       {
         "name": "saxons",
@@ -433,8 +433,8 @@
       },
       {
         "name": "gurjaras",
-        "games": 73,
-        "winRate": 57.53
+        "games": 74,
+        "winRate": 56.76
       }
     ],
     "weakAgainst": [
@@ -449,14 +449,14 @@
         "winRate": 37.5
       },
       {
+        "name": "bohemians",
+        "games": 120,
+        "winRate": 40.83
+      },
+      {
         "name": "huns",
         "games": 129,
         "winRate": 41.09
-      },
-      {
-        "name": "bohemians",
-        "games": 121,
-        "winRate": 41.32
       },
       {
         "name": "celts",

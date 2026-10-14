@@ -351,36 +351,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.6,
+    "winRate": 49.58,
     "playRate": 1.11,
-    "picks": 6089,
+    "picks": 6099,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-13T21:18:36.000Z",
-    "window": "2026-07-21 → 2026-10-13",
+    "updated": "2026-10-14T09:33:07.000Z",
+    "window": "2026-07-22 → 2026-10-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
-      "nomad": {
-        "winRate": 47.41,
-        "playRate": 1.52,
-        "picks": 116
+      "closed": {
+        "winRate": 46.2,
+        "playRate": 1.07,
+        "picks": 500
       },
       "other": {
-        "winRate": 50.18,
+        "winRate": 50.15,
         "playRate": 1.11,
-        "picks": 3912
+        "picks": 3920
       },
       "open": {
-        "winRate": 49.46,
-        "playRate": 1.11,
-        "picks": 1561
+        "winRate": 49.42,
+        "playRate": 1.1,
+        "picks": 1564
       },
-      "closed": {
-        "winRate": 46,
-        "playRate": 1.08,
-        "picks": 500
+      "nomad": {
+        "winRate": 46.96,
+        "playRate": 1.51,
+        "picks": 115
       }
     },
     "strongAgainst": [
@@ -395,14 +395,14 @@
         "winRate": 61.11
       },
       {
-        "name": "bengalis",
-        "games": 100,
-        "winRate": 59
-      },
-      {
         "name": "gurjaras",
         "games": 106,
-        "winRate": 58.49
+        "winRate": 59.43
+      },
+      {
+        "name": "bengalis",
+        "games": 101,
+        "winRate": 59.41
       },
       {
         "name": "huns",
@@ -413,13 +413,18 @@
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 103,
-        "winRate": 37.86
+        "games": 102,
+        "winRate": 38.24
       },
       {
         "name": "romans",
-        "games": 75,
-        "winRate": 40
+        "games": 76,
+        "winRate": 40.79
+      },
+      {
+        "name": "burgundians",
+        "games": 111,
+        "winRate": 41.44
       },
       {
         "name": "saxons",
@@ -430,11 +435,6 @@
         "name": "berbers",
         "games": 103,
         "winRate": 41.75
-      },
-      {
-        "name": "burgundians",
-        "games": 110,
-        "winRate": 41.82
       }
     ]
   },
