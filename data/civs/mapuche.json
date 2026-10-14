@@ -378,43 +378,48 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.36,
+    "winRate": 50.31,
     "playRate": 1.03,
-    "picks": 5699,
+    "picks": 5719,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-14T09:33:07.000Z",
+    "updated": "2026-10-14T20:13:14.000Z",
     "window": "2026-07-22 → 2026-10-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
-      "other": {
-        "winRate": 49.96,
-        "playRate": 1.04,
-        "picks": 3689
-      },
-      "nomad": {
-        "winRate": 51.72,
-        "playRate": 1.14,
-        "picks": 87
-      },
       "open": {
-        "winRate": 51.94,
+        "winRate": 51.86,
         "playRate": 1.11,
-        "picks": 1575
+        "picks": 1589
+      },
+      "other": {
+        "winRate": 49.93,
+        "playRate": 1.04,
+        "picks": 3693
       },
       "closed": {
-        "winRate": 47.13,
+        "winRate": 46.84,
         "playRate": 0.74,
         "picks": 348
+      },
+      "nomad": {
+        "winRate": 51.69,
+        "playRate": 1.14,
+        "picks": 89
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 37,
-        "winRate": 67.57
+        "games": 38,
+        "winRate": 65.79
+      },
+      {
+        "name": "danes",
+        "games": 29,
+        "winRate": 62.07
       },
       {
         "name": "byzantines",
@@ -428,13 +433,8 @@
       },
       {
         "name": "jurchens",
-        "games": 64,
-        "winRate": 60.94
-      },
-      {
-        "name": "danes",
-        "games": 28,
-        "winRate": 60.71
+        "games": 65,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -454,14 +454,14 @@
         "winRate": 39.08
       },
       {
-        "name": "shu",
-        "games": 55,
-        "winRate": 40
-      },
-      {
         "name": "slavs",
         "games": 89,
-        "winRate": 40.45
+        "winRate": 39.33
+      },
+      {
+        "name": "saxons",
+        "games": 34,
+        "winRate": 41.18
       }
     ]
   },

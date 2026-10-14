@@ -343,43 +343,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.63,
+    "winRate": 49.65,
     "playRate": 1.97,
-    "picks": 10830,
+    "picks": 10890,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-14T09:33:07.000Z",
+    "updated": "2026-10-14T20:13:14.000Z",
     "window": "2026-07-22 → 2026-10-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
-      "open": {
-        "winRate": 47.41,
-        "playRate": 1.54,
-        "picks": 2181
-      },
       "other": {
-        "winRate": 49.42,
+        "winRate": 49.43,
         "playRate": 1.88,
-        "picks": 6679
+        "picks": 6688
       },
       "closed": {
-        "winRate": 52.93,
+        "winRate": 52.81,
         "playRate": 3.9,
-        "picks": 1823
+        "picks": 1833
+      },
+      "open": {
+        "winRate": 47.61,
+        "playRate": 1.54,
+        "picks": 2214
       },
       "nomad": {
-        "winRate": 51.02,
-        "playRate": 1.93,
-        "picks": 147
+        "winRate": 50.97,
+        "playRate": 1.99,
+        "picks": 155
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 74,
-        "winRate": 70.27
+        "games": 76,
+        "winRate": 69.74
       },
       {
         "name": "sicilians",
@@ -388,18 +388,18 @@
       },
       {
         "name": "muisca",
-        "games": 120,
-        "winRate": 59.17
+        "games": 119,
+        "winRate": 58.82
       },
       {
         "name": "jurchens",
-        "games": 134,
-        "winRate": 56.72
+        "games": 137,
+        "winRate": 56.93
       },
       {
         "name": "wu",
-        "games": 129,
-        "winRate": 55.81
+        "games": 128,
+        "winRate": 56.25
       }
     ],
     "weakAgainst": [
@@ -409,24 +409,24 @@
         "winRate": 37.65
       },
       {
+        "name": "shu",
+        "games": 106,
+        "winRate": 40.57
+      },
+      {
         "name": "dravidians",
         "games": 143,
         "winRate": 41.26
       },
       {
-        "name": "shu",
-        "games": 106,
-        "winRate": 41.51
-      },
-      {
         "name": "turks",
-        "games": 322,
-        "winRate": 42.86
+        "games": 324,
+        "winRate": 42.9
       },
       {
         "name": "burgundians",
-        "games": 362,
-        "winRate": 44.2
+        "games": 363,
+        "winRate": 44.08
       }
     ]
   },
