@@ -301,26 +301,26 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.03,
+    "winRate": 46.06,
     "playRate": 1.59,
-    "picks": 8814,
+    "picks": 8840,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-14T20:13:14.000Z",
-    "window": "2026-07-22 → 2026-10-14",
+    "updated": "2026-10-15T09:10:48.000Z",
+    "window": "2026-07-23 → 2026-10-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/inca",
     "byMapType": {
-      "other": {
-        "winRate": 45.86,
-        "playRate": 1.64,
-        "picks": 5827
-      },
       "open": {
-        "winRate": 46.83,
+        "winRate": 46.89,
         "playRate": 1.58,
-        "picks": 2270
+        "picks": 2297
+      },
+      "other": {
+        "winRate": 45.87,
+        "playRate": 1.64,
+        "picks": 5823
       },
       "closed": {
         "winRate": 44.83,
@@ -328,16 +328,16 @@
         "picks": 580
       },
       "nomad": {
-        "winRate": 45.26,
-        "playRate": 1.76,
-        "picks": 137
+        "winRate": 45.71,
+        "playRate": 1.74,
+        "picks": 140
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 36,
-        "winRate": 55.56
+        "games": 38,
+        "winRate": 57.89
       },
       {
         "name": "bengalis",
@@ -351,13 +351,13 @@
       },
       {
         "name": "koreans",
-        "games": 143,
-        "winRate": 53.85
+        "games": 145,
+        "winRate": 53.79
       },
       {
         "name": "italians",
         "games": 205,
-        "winRate": 53.17
+        "winRate": 53.66
       }
     ],
     "weakAgainst": [
@@ -378,13 +378,13 @@
       },
       {
         "name": "sicilians",
-        "games": 161,
-        "winRate": 37.27
+        "games": 160,
+        "winRate": 37.5
       },
       {
-        "name": "saxons",
-        "games": 60,
-        "winRate": 38.33
+        "name": "romans",
+        "games": 125,
+        "winRate": 39.2
       }
     ]
   },
