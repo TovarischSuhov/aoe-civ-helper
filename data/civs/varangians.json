@@ -288,36 +288,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 42.98,
+    "winRate": 43.12,
     "playRate": 1.3,
-    "picks": 7218,
+    "picks": 7277,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-15T09:10:48.000Z",
+    "updated": "2026-10-15T19:54:33.000Z",
     "window": "2026-07-23 → 2026-10-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/varangians",
     "byMapType": {
       "other": {
-        "winRate": 43.74,
-        "playRate": 1.37,
-        "picks": 4877
+        "winRate": 43.87,
+        "playRate": 1.38,
+        "picks": 4899
       },
       "open": {
-        "winRate": 40.65,
-        "playRate": 1.16,
-        "picks": 1685
+        "winRate": 41.03,
+        "playRate": 1.17,
+        "picks": 1716
       },
       "closed": {
-        "winRate": 43.06,
-        "playRate": 1.35,
-        "picks": 634
+        "winRate": 42.99,
+        "playRate": 1.34,
+        "picks": 635
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 0.27,
-        "picks": 22
+        "winRate": 44.44,
+        "playRate": 0.32,
+        "picks": 27
       }
     },
     "strongAgainst": [
@@ -337,9 +337,9 @@
         "winRate": 55.17
       },
       {
-        "name": "muisca",
-        "games": 35,
-        "winRate": 51.43
+        "name": "goths",
+        "games": 59,
+        "winRate": 50.85
       },
       {
         "name": "danes",
@@ -350,18 +350,13 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 121,
-        "winRate": 28.93
+        "games": 124,
+        "winRate": 29.03
       },
       {
         "name": "armenians",
-        "games": 115,
-        "winRate": 31.3
-      },
-      {
-        "name": "bengalis",
-        "games": 53,
-        "winRate": 33.96
+        "games": 117,
+        "winRate": 31.62
       },
       {
         "name": "mapuche",
@@ -372,6 +367,11 @@
         "name": "chinese",
         "games": 188,
         "winRate": 34.57
+      },
+      {
+        "name": "bengalis",
+        "games": 54,
+        "winRate": 35.19
       }
     ]
   },
