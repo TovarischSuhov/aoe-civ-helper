@@ -269,43 +269,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.11,
+    "winRate": 50.17,
     "playRate": 2.52,
-    "picks": 14089,
+    "picks": 14133,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-15T19:54:33.000Z",
-    "window": "2026-07-23 → 2026-10-15",
+    "updated": "2026-10-16T09:03:39.000Z",
+    "window": "2026-07-24 → 2026-10-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
+      "closed": {
+        "winRate": 52.1,
+        "playRate": 3.07,
+        "picks": 1455
+      },
       "other": {
-        "winRate": 49.92,
+        "winRate": 49.94,
         "playRate": 2.5,
-        "picks": 8900
+        "picks": 8909
       },
       "open": {
-        "winRate": 48.94,
-        "playRate": 2.25,
-        "picks": 3298
-      },
-      "closed": {
-        "winRate": 52.13,
-        "playRate": 3.08,
-        "picks": 1454
+        "winRate": 49.05,
+        "playRate": 2.23,
+        "picks": 3319
       },
       "nomad": {
-        "winRate": 56.06,
-        "playRate": 5.23,
-        "picks": 437
+        "winRate": 56.89,
+        "playRate": 5.2,
+        "picks": 450
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 174,
-        "winRate": 65.52
+        "games": 175,
+        "winRate": 65.71
       },
       {
         "name": "goths",
@@ -314,13 +314,13 @@
       },
       {
         "name": "wei",
-        "games": 236,
-        "winRate": 57.63
+        "games": 237,
+        "winRate": 57.38
       },
       {
         "name": "burgundians",
-        "games": 388,
-        "winRate": 56.7
+        "games": 387,
+        "winRate": 56.59
       },
       {
         "name": "teutons",
@@ -351,8 +351,8 @@
       },
       {
         "name": "chinese",
-        "games": 342,
-        "winRate": 42.98
+        "games": 344,
+        "winRate": 43.02
       }
     ]
   },

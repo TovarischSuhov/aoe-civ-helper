@@ -372,36 +372,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.37,
-    "playRate": 2.14,
-    "picks": 11926,
+    "winRate": 49.38,
+    "playRate": 2.13,
+    "picks": 11951,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-15T19:54:33.000Z",
-    "window": "2026-07-23 → 2026-10-15",
+    "updated": "2026-10-16T09:03:39.000Z",
+    "window": "2026-07-24 → 2026-10-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burgundians",
     "byMapType": {
       "other": {
-        "winRate": 49.49,
+        "winRate": 49.48,
         "playRate": 2.05,
-        "picks": 7294
-      },
-      "open": {
-        "winRate": 47.94,
-        "playRate": 1.84,
-        "picks": 2695
+        "picks": 7302
       },
       "closed": {
-        "winRate": 51.03,
+        "winRate": 51.08,
         "playRate": 3.71,
-        "picks": 1756
+        "picks": 1760
+      },
+      "open": {
+        "winRate": 47.99,
+        "playRate": 1.82,
+        "picks": 2705
       },
       "nomad": {
-        "winRate": 49.72,
-        "playRate": 2.17,
-        "picks": 181
+        "winRate": 49.46,
+        "playRate": 2.13,
+        "picks": 184
       }
     },
     "strongAgainst": [
@@ -412,8 +412,13 @@
       },
       {
         "name": "wu",
-        "games": 112,
-        "winRate": 58.04
+        "games": 111,
+        "winRate": 57.66
+      },
+      {
+        "name": "saxons",
+        "games": 118,
+        "winRate": 55.93
       },
       {
         "name": "bohemians",
@@ -421,41 +426,36 @@
         "winRate": 55.77
       },
       {
-        "name": "saxons",
-        "games": 117,
-        "winRate": 55.56
-      },
-      {
-        "name": "portuguese",
-        "games": 243,
-        "winRate": 54.73
+        "name": "shu",
+        "games": 95,
+        "winRate": 54.74
       }
     ],
     "weakAgainst": [
       {
         "name": "huns",
-        "games": 221,
-        "winRate": 41.18
+        "games": 222,
+        "winRate": 41.44
       },
       {
         "name": "mongols",
-        "games": 610,
-        "winRate": 41.8
+        "games": 611,
+        "winRate": 41.57
       },
       {
         "name": "vikings",
-        "games": 208,
-        "winRate": 41.83
-      },
-      {
-        "name": "aztecs",
-        "games": 161,
-        "winRate": 42.86
+        "games": 209,
+        "winRate": 42.11
       },
       {
         "name": "mapuche",
-        "games": 114,
-        "winRate": 42.98
+        "games": 116,
+        "winRate": 43.1
+      },
+      {
+        "name": "spanish",
+        "games": 387,
+        "winRate": 43.41
       }
     ]
   },
