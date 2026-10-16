@@ -269,36 +269,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.17,
+    "winRate": 50.16,
     "playRate": 2.52,
-    "picks": 14133,
+    "picks": 14190,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-16T09:03:39.000Z",
+    "updated": "2026-10-16T19:34:23.000Z",
     "window": "2026-07-24 → 2026-10-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
-      "closed": {
-        "winRate": 52.1,
-        "playRate": 3.07,
-        "picks": 1455
+      "open": {
+        "winRate": 49.02,
+        "playRate": 2.23,
+        "picks": 3356
       },
       "other": {
-        "winRate": 49.94,
-        "playRate": 2.5,
-        "picks": 8909
+        "winRate": 49.93,
+        "playRate": 2.51,
+        "picks": 8916
       },
-      "open": {
-        "winRate": 49.05,
-        "playRate": 2.23,
-        "picks": 3319
+      "closed": {
+        "winRate": 52.09,
+        "playRate": 3.07,
+        "picks": 1461
       },
       "nomad": {
-        "winRate": 56.89,
-        "playRate": 5.2,
-        "picks": 450
+        "winRate": 56.67,
+        "playRate": 5.11,
+        "picks": 457
       }
     },
     "strongAgainst": [
@@ -314,18 +314,18 @@
       },
       {
         "name": "wei",
-        "games": 237,
-        "winRate": 57.38
+        "games": 236,
+        "winRate": 57.2
       },
       {
         "name": "burgundians",
-        "games": 387,
-        "winRate": 56.59
+        "games": 386,
+        "winRate": 56.74
       },
       {
         "name": "teutons",
-        "games": 267,
-        "winRate": 56.55
+        "games": 268,
+        "winRate": 56.34
       }
     ],
     "weakAgainst": [
@@ -341,18 +341,18 @@
       },
       {
         "name": "malians",
-        "games": 233,
-        "winRate": 42.49
+        "games": 234,
+        "winRate": 42.31
+      },
+      {
+        "name": "chinese",
+        "games": 347,
+        "winRate": 42.94
       },
       {
         "name": "italians",
         "games": 291,
         "winRate": 42.96
-      },
-      {
-        "name": "chinese",
-        "games": 344,
-        "winRate": 43.02
       }
     ]
   },

@@ -289,36 +289,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.44,
+    "winRate": 49.31,
     "playRate": 1.76,
-    "picks": 9851,
+    "picks": 9887,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-16T09:03:39.000Z",
+    "updated": "2026-10-16T19:34:23.000Z",
     "window": "2026-07-24 → 2026-10-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
-      "closed": {
-        "winRate": 46.56,
-        "playRate": 1.47,
-        "picks": 698
-      },
       "open": {
-        "winRate": 49.03,
-        "playRate": 1.76,
-        "picks": 2617
+        "winRate": 48.77,
+        "playRate": 1.75,
+        "picks": 2635
       },
       "other": {
-        "winRate": 49.91,
-        "playRate": 1.8,
-        "picks": 6416
+        "winRate": 49.86,
+        "playRate": 1.81,
+        "picks": 6422
+      },
+      "closed": {
+        "winRate": 46.37,
+        "playRate": 1.48,
+        "picks": 703
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.39,
-        "picks": 120
+        "winRate": 48.82,
+        "playRate": 1.42,
+        "picks": 127
       }
     },
     "strongAgainst": [
@@ -329,13 +329,13 @@
       },
       {
         "name": "byzantines",
-        "games": 143,
-        "winRate": 62.24
+        "games": 144,
+        "winRate": 61.81
       },
       {
         "name": "incas",
-        "games": 164,
-        "winRate": 62.2
+        "games": 167,
+        "winRate": 61.08
       },
       {
         "name": "gurjaras",
@@ -356,8 +356,8 @@
       },
       {
         "name": "bohemians",
-        "games": 177,
-        "winRate": 40.11
+        "games": 178,
+        "winRate": 39.89
       },
       {
         "name": "vikings",
@@ -365,14 +365,14 @@
         "winRate": 40.68
       },
       {
-        "name": "chinese",
-        "games": 253,
-        "winRate": 41.5
+        "name": "shu",
+        "games": 90,
+        "winRate": 41.11
       },
       {
-        "name": "shu",
-        "games": 89,
-        "winRate": 41.57
+        "name": "chinese",
+        "games": 252,
+        "winRate": 41.27
       }
     ]
   },

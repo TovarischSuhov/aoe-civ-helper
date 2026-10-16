@@ -323,43 +323,43 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.08,
+    "winRate": 48.09,
     "playRate": 1.43,
-    "picks": 7991,
+    "picks": 8037,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-16T09:03:39.000Z",
+    "updated": "2026-10-16T19:34:23.000Z",
     "window": "2026-07-24 → 2026-10-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
-      "other": {
-        "winRate": 48.12,
-        "playRate": 1.43,
-        "picks": 5075
-      },
       "open": {
-        "winRate": 46.78,
-        "playRate": 1.39,
-        "picks": 2067
+        "winRate": 46.86,
+        "playRate": 1.4,
+        "picks": 2102
+      },
+      "other": {
+        "winRate": 48.09,
+        "playRate": 1.43,
+        "picks": 5080
       },
       "closed": {
-        "winRate": 51.28,
+        "winRate": 51.49,
         "playRate": 1.48,
-        "picks": 704
+        "picks": 705
       },
       "nomad": {
-        "winRate": 49.66,
-        "playRate": 1.67,
-        "picks": 145
+        "winRate": 49.33,
+        "playRate": 1.68,
+        "picks": 150
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 175,
-        "winRate": 57.71
+        "games": 176,
+        "winRate": 57.39
       },
       {
         "name": "danes",
@@ -367,46 +367,46 @@
         "winRate": 57.14
       },
       {
-        "name": "saxons",
-        "games": 56,
-        "winRate": 57.14
-      },
-      {
-        "name": "muisca",
-        "games": 79,
-        "winRate": 56.96
-      },
-      {
         "name": "wei",
         "games": 113,
         "winRate": 56.64
+      },
+      {
+        "name": "saxons",
+        "games": 57,
+        "winRate": 56.14
+      },
+      {
+        "name": "tatars",
+        "games": 152,
+        "winRate": 55.92
       }
     ],
     "weakAgainst": [
       {
         "name": "huns",
-        "games": 149,
-        "winRate": 38.93
+        "games": 153,
+        "winRate": 39.87
       },
       {
         "name": "georgians",
-        "games": 89,
-        "winRate": 40.45
-      },
-      {
-        "name": "britons",
-        "games": 148,
-        "winRate": 40.54
+        "games": 90,
+        "winRate": 40
       },
       {
         "name": "shu",
-        "games": 96,
-        "winRate": 40.63
+        "games": 97,
+        "winRate": 40.21
       },
       {
         "name": "vikings",
         "games": 155,
         "winRate": 40.65
+      },
+      {
+        "name": "britons",
+        "games": 150,
+        "winRate": 40.67
       }
     ]
   },
