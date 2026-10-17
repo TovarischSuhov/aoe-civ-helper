@@ -353,34 +353,34 @@
   "stats": {
     "winRate": 49.9,
     "playRate": 1.1,
-    "picks": 6239,
+    "picks": 6262,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-17T08:36:21.000Z",
+    "updated": "2026-10-17T18:31:46.000Z",
     "window": "2026-07-25 → 2026-10-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
-      "open": {
-        "winRate": 50.36,
-        "playRate": 1.09,
-        "picks": 1668
-      },
       "other": {
-        "winRate": 50.27,
+        "winRate": 50.28,
         "playRate": 1.1,
-        "picks": 3919
+        "picks": 3920
+      },
+      "open": {
+        "winRate": 50.27,
+        "playRate": 1.09,
+        "picks": 1683
       },
       "closed": {
-        "winRate": 46,
+        "winRate": 46.12,
         "playRate": 1.07,
-        "picks": 513
+        "picks": 516
       },
       "nomad": {
-        "winRate": 48.2,
+        "winRate": 48.95,
         "playRate": 1.51,
-        "picks": 139
+        "picks": 143
       }
     },
     "strongAgainst": [
@@ -401,20 +401,20 @@
       },
       {
         "name": "gurjaras",
-        "games": 106,
-        "winRate": 60.38
+        "games": 105,
+        "winRate": 60
       },
       {
         "name": "saracens",
-        "games": 111,
-        "winRate": 59.46
+        "games": 110,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 101,
-        "winRate": 37.62
+        "games": 102,
+        "winRate": 38.24
       },
       {
         "name": "berbers",
@@ -423,18 +423,18 @@
       },
       {
         "name": "romans",
-        "games": 80,
-        "winRate": 41.25
-      },
-      {
-        "name": "saxons",
-        "games": 46,
-        "winRate": 41.3
+        "games": 79,
+        "winRate": 41.77
       },
       {
         "name": "burgundians",
         "games": 111,
         "winRate": 42.34
+      },
+      {
+        "name": "saxons",
+        "games": 47,
+        "winRate": 42.55
       }
     ]
   },

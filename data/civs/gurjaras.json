@@ -371,36 +371,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.62,
+    "winRate": 47.63,
     "playRate": 1.33,
-    "picks": 7503,
+    "picks": 7522,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-17T08:36:21.000Z",
+    "updated": "2026-10-17T18:31:46.000Z",
     "window": "2026-07-25 → 2026-10-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
+      "open": {
+        "winRate": 49.23,
+        "playRate": 1.34,
+        "picks": 2072
+      },
       "other": {
-        "winRate": 46.89,
+        "winRate": 46.91,
         "playRate": 1.32,
-        "picks": 4698
+        "picks": 4696
       },
       "closed": {
         "winRate": 48.64,
         "playRate": 1.3,
-        "picks": 623
-      },
-      "open": {
-        "winRate": 49.3,
-        "playRate": 1.35,
-        "picks": 2057
+        "picks": 625
       },
       "nomad": {
-        "winRate": 42.4,
+        "winRate": 43.41,
         "playRate": 1.36,
-        "picks": 125
+        "picks": 129
       }
     },
     "strongAgainst": [
@@ -411,18 +411,18 @@
       },
       {
         "name": "turks",
-        "games": 148,
-        "winRate": 60.81
+        "games": 149,
+        "winRate": 61.07
       },
       {
         "name": "mongols",
-        "games": 264,
-        "winRate": 58.71
+        "games": 268,
+        "winRate": 58.58
       },
       {
         "name": "varangians",
-        "games": 55,
-        "winRate": 58.18
+        "games": 56,
+        "winRate": 57.14
       },
       {
         "name": "jurchens",
@@ -438,23 +438,23 @@
       },
       {
         "name": "romans",
-        "games": 104,
-        "winRate": 37.5
-      },
-      {
-        "name": "wu",
-        "games": 106,
-        "winRate": 39.62
+        "games": 105,
+        "winRate": 38.1
       },
       {
         "name": "byzantines",
-        "games": 142,
-        "winRate": 40.14
+        "games": 144,
+        "winRate": 39.58
+      },
+      {
+        "name": "wu",
+        "games": 105,
+        "winRate": 40
       },
       {
         "name": "sicilians",
-        "games": 134,
-        "winRate": 40.3
+        "games": 135,
+        "winRate": 40
       }
     ]
   },
