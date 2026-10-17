@@ -361,34 +361,34 @@
   "stats": {
     "winRate": 48.53,
     "playRate": 1.32,
-    "picks": 7429,
+    "picks": 7462,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-16T19:34:23.000Z",
-    "window": "2026-07-24 → 2026-10-16",
+    "updated": "2026-10-17T08:36:21.000Z",
+    "window": "2026-07-25 → 2026-10-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 48.03,
+        "winRate": 48.05,
         "playRate": 1.31,
-        "picks": 4670
+        "picks": 4676
       },
       "open": {
-        "winRate": 48.68,
+        "winRate": 48.67,
         "playRate": 1.43,
-        "picks": 2153
+        "picks": 2176
       },
       "closed": {
-        "winRate": 51.78,
+        "winRate": 51.57,
         "playRate": 1.06,
-        "picks": 506
+        "picks": 508
       },
       "nomad": {
-        "winRate": 52,
-        "playRate": 1.12,
-        "picks": 100
+        "winRate": 51.96,
+        "playRate": 1.11,
+        "picks": 102
       }
     },
     "strongAgainst": [
@@ -399,8 +399,8 @@
       },
       {
         "name": "saxons",
-        "games": 39,
-        "winRate": 58.97
+        "games": 42,
+        "winRate": 61.9
       },
       {
         "name": "poles",
@@ -426,13 +426,8 @@
       },
       {
         "name": "japanese",
-        "games": 170,
-        "winRate": 37.65
-      },
-      {
-        "name": "celts",
-        "games": 104,
-        "winRate": 39.42
+        "games": 172,
+        "winRate": 37.21
       },
       {
         "name": "romans",
@@ -440,9 +435,14 @@
         "winRate": 39.62
       },
       {
+        "name": "celts",
+        "games": 105,
+        "winRate": 40
+      },
+      {
         "name": "malay",
-        "games": 127,
-        "winRate": 41.73
+        "games": 126,
+        "winRate": 42.06
       }
     ]
   },
