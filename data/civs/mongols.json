@@ -380,90 +380,90 @@
     "takeaway": "Honourable mention: the best scout opening + Mangudai; even better on maps with extra huntables, but Arabia late-game stats are weak."
   },
   "stats": {
-    "winRate": 52.68,
-    "playRate": 5.84,
-    "picks": 33261,
+    "winRate": 52.7,
+    "playRate": 5.83,
+    "picks": 33352,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-18T08:52:51.000Z",
+    "updated": "2026-10-18T18:39:42.000Z",
     "window": "2026-07-26 → 2026-10-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mongols",
     "byMapType": {
-      "other": {
-        "winRate": 52.99,
-        "playRate": 6.11,
-        "picks": 21738
-      },
       "open": {
-        "winRate": 52.57,
+        "winRate": 52.56,
         "playRate": 5.83,
-        "picks": 9112
+        "picks": 9205
+      },
+      "other": {
+        "winRate": 53.01,
+        "playRate": 6.11,
+        "picks": 21714
       },
       "closed": {
-        "winRate": 50.23,
+        "winRate": 50.28,
         "playRate": 4.13,
-        "picks": 1987
+        "picks": 1995
       },
       "nomad": {
-        "winRate": 50.71,
-        "playRate": 4.33,
-        "picks": 424
+        "winRate": 51.37,
+        "playRate": 4.35,
+        "picks": 438
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 535,
-        "winRate": 62.06
+        "games": 541,
+        "winRate": 62.11
       },
       {
         "name": "teutons",
-        "games": 425,
-        "winRate": 61.88
+        "games": 428,
+        "winRate": 61.68
       },
       {
         "name": "aztecs",
-        "games": 356,
-        "winRate": 59.55
+        "games": 354,
+        "winRate": 59.6
       },
       {
         "name": "incas",
-        "games": 428,
-        "winRate": 59.11
+        "games": 427,
+        "winRate": 59.25
       },
       {
-        "name": "burmese",
-        "games": 379,
-        "winRate": 58.58
+        "name": "lithuanians",
+        "games": 555,
+        "winRate": 58.74
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 267,
-        "winRate": 41.2
+        "games": 268,
+        "winRate": 41.04
       },
       {
         "name": "mayans",
-        "games": 719,
-        "winRate": 43.53
+        "games": 724,
+        "winRate": 43.37
       },
       {
         "name": "mapuche",
-        "games": 382,
-        "winRate": 44.76
+        "games": 385,
+        "winRate": 44.68
       },
       {
         "name": "britons",
-        "games": 569,
-        "winRate": 45.17
+        "games": 572,
+        "winRate": 44.93
       },
       {
         "name": "koreans",
         "games": 425,
-        "winRate": 46.82
+        "winRate": 46.59
       }
     ]
   },

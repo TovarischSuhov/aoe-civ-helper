@@ -354,73 +354,78 @@
   "stats": {
     "winRate": 52.01,
     "playRate": 0.99,
-    "picks": 5626,
+    "picks": 5651,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-18T08:52:51.000Z",
+    "updated": "2026-10-18T18:39:42.000Z",
     "window": "2026-07-26 → 2026-10-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
+      "open": {
+        "winRate": 52.94,
+        "playRate": 1.04,
+        "picks": 1647
+      },
       "other": {
-        "winRate": 52.05,
+        "winRate": 52.08,
         "playRate": 0.97,
         "picks": 3466
       },
-      "open": {
-        "winRate": 53.01,
-        "playRate": 1.04,
-        "picks": 1626
-      },
       "closed": {
-        "winRate": 47.41,
+        "winRate": 47.65,
         "playRate": 0.88,
-        "picks": 424
+        "picks": 426
       },
       "nomad": {
-        "winRate": 53.64,
-        "playRate": 1.12,
-        "picks": 110
+        "winRate": 52.68,
+        "playRate": 1.11,
+        "picks": 112
       }
     },
     "strongAgainst": [
+      {
+        "name": "danes",
+        "games": 36,
+        "winRate": 63.89
+      },
       {
         "name": "slavs",
         "games": 83,
         "winRate": 62.65
       },
       {
-        "name": "danes",
-        "games": 34,
-        "winRate": 61.76
-      },
-      {
         "name": "varangians",
-        "games": 31,
-        "winRate": 61.29
-      },
-      {
-        "name": "malay",
-        "games": 99,
-        "winRate": 60.61
+        "games": 32,
+        "winRate": 62.5
       },
       {
         "name": "jurchens",
-        "games": 76,
-        "winRate": 60.53
+        "games": 77,
+        "winRate": 61.04
+      },
+      {
+        "name": "malay",
+        "games": 100,
+        "winRate": 61
       }
     ],
     "weakAgainst": [
       {
-        "name": "dravidians",
-        "games": 97,
-        "winRate": 39.18
-      },
-      {
         "name": "georgians",
         "games": 72,
         "winRate": 40.28
+      },
+      {
+        "name": "dravidians",
+        "games": 99,
+        "winRate": 40.4
+      },
+      {
+        "name": "goths",
+        "games": 92,
+        "winRate": 41.3
       },
       {
         "name": "koreans",
@@ -428,14 +433,9 @@
         "winRate": 41.35
       },
       {
-        "name": "goths",
-        "games": 93,
-        "winRate": 41.94
-      },
-      {
         "name": "romans",
-        "games": 90,
-        "winRate": 45.56
+        "games": 89,
+        "winRate": 46.07
       }
     ]
   },
