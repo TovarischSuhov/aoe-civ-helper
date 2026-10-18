@@ -352,48 +352,48 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.03,
+    "winRate": 52.01,
     "playRate": 0.99,
-    "picks": 5601,
+    "picks": 5626,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-17T18:31:46.000Z",
-    "window": "2026-07-25 → 2026-10-17",
+    "updated": "2026-10-18T08:52:51.000Z",
+    "window": "2026-07-26 → 2026-10-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
-      "open": {
-        "winRate": 52.92,
-        "playRate": 1.04,
-        "picks": 1610
-      },
       "other": {
-        "winRate": 52.08,
+        "winRate": 52.05,
         "playRate": 0.97,
-        "picks": 3460
+        "picks": 3466
+      },
+      "open": {
+        "winRate": 53.01,
+        "playRate": 1.04,
+        "picks": 1626
       },
       "closed": {
-        "winRate": 47.53,
-        "playRate": 0.89,
-        "picks": 425
+        "winRate": 47.41,
+        "playRate": 0.88,
+        "picks": 424
       },
       "nomad": {
-        "winRate": 54.72,
+        "winRate": 53.64,
         "playRate": 1.12,
-        "picks": 106
+        "picks": 110
       }
     },
     "strongAgainst": [
       {
-        "name": "danes",
-        "games": 33,
-        "winRate": 63.64
-      },
-      {
         "name": "slavs",
         "games": 83,
         "winRate": 62.65
+      },
+      {
+        "name": "danes",
+        "games": 34,
+        "winRate": 61.76
       },
       {
         "name": "varangians",
@@ -419,23 +419,23 @@
       },
       {
         "name": "georgians",
-        "games": 71,
-        "winRate": 40.85
+        "games": 72,
+        "winRate": 40.28
       },
       {
         "name": "koreans",
-        "games": 105,
-        "winRate": 40.95
+        "games": 104,
+        "winRate": 41.35
       },
       {
         "name": "goths",
-        "games": 92,
-        "winRate": 41.3
+        "games": 93,
+        "winRate": 41.94
       },
       {
         "name": "romans",
-        "games": 88,
-        "winRate": 45.45
+        "games": 90,
+        "winRate": 45.56
       }
     ]
   },

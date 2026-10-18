@@ -323,36 +323,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.04,
+    "winRate": 48,
     "playRate": 1.43,
-    "picks": 8120,
+    "picks": 8171,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-17T18:31:46.000Z",
-    "window": "2026-07-25 → 2026-10-17",
+    "updated": "2026-10-18T08:52:51.000Z",
+    "window": "2026-07-26 → 2026-10-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
       "other": {
-        "winRate": 48.02,
+        "winRate": 48.13,
         "playRate": 1.43,
-        "picks": 5090
+        "picks": 5092
       },
       "open": {
-        "winRate": 46.71,
+        "winRate": 46.51,
         "playRate": 1.4,
-        "picks": 2156
+        "picks": 2193
       },
       "closed": {
-        "winRate": 51.88,
-        "playRate": 1.49,
-        "picks": 717
+        "winRate": 51.45,
+        "playRate": 1.51,
+        "picks": 725
       },
       "nomad": {
-        "winRate": 49.68,
-        "playRate": 1.66,
-        "picks": 157
+        "winRate": 48.45,
+        "playRate": 1.64,
+        "picks": 161
       }
     },
     "strongAgainst": [
@@ -363,13 +363,8 @@
       },
       {
         "name": "teutons",
-        "games": 178,
-        "winRate": 57.3
-      },
-      {
-        "name": "wei",
-        "games": 113,
-        "winRate": 56.64
+        "games": 179,
+        "winRate": 57.54
       },
       {
         "name": "saxons",
@@ -377,9 +372,14 @@
         "winRate": 56.14
       },
       {
-        "name": "tatars",
-        "games": 152,
-        "winRate": 54.61
+        "name": "wei",
+        "games": 115,
+        "winRate": 55.65
+      },
+      {
+        "name": "muisca",
+        "games": 83,
+        "winRate": 55.42
       }
     ],
     "weakAgainst": [
@@ -394,19 +394,19 @@
         "winRate": 40
       },
       {
-        "name": "huns",
-        "games": 155,
-        "winRate": 40
-      },
-      {
         "name": "shu",
-        "games": 100,
-        "winRate": 40
+        "games": 99,
+        "winRate": 40.4
       },
       {
         "name": "celts",
         "games": 146,
-        "winRate": 41.1
+        "winRate": 40.41
+      },
+      {
+        "name": "huns",
+        "games": 157,
+        "winRate": 40.76
       }
     ]
   },
