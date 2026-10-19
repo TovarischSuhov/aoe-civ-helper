@@ -352,34 +352,34 @@
   "stats": {
     "winRate": 50.76,
     "playRate": 1.88,
-    "picks": 10754,
+    "picks": 10789,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-18T18:39:42.000Z",
-    "window": "2026-07-26 → 2026-10-18",
+    "updated": "2026-10-19T09:57:39.000Z",
+    "window": "2026-07-27 → 2026-10-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
-      "open": {
-        "winRate": 49.97,
-        "playRate": 2.02,
-        "picks": 3192
-      },
       "other": {
-        "winRate": 51.31,
+        "winRate": 51.33,
         "playRate": 1.86,
-        "picks": 6628
+        "picks": 6620
+      },
+      "open": {
+        "winRate": 49.89,
+        "playRate": 2.01,
+        "picks": 3219
       },
       "closed": {
-        "winRate": 49.94,
-        "playRate": 1.64,
-        "picks": 791
+        "winRate": 50.19,
+        "playRate": 1.65,
+        "picks": 803
       },
       "nomad": {
-        "winRate": 47.55,
-        "playRate": 1.42,
-        "picks": 143
+        "winRate": 47.62,
+        "playRate": 1.41,
+        "picks": 147
       }
     },
     "strongAgainst": [
@@ -390,8 +390,13 @@
       },
       {
         "name": "khmer",
-        "games": 267,
-        "winRate": 61.42
+        "games": 269,
+        "winRate": 61.34
+      },
+      {
+        "name": "jurchens",
+        "games": 133,
+        "winRate": 60.15
       },
       {
         "name": "danes",
@@ -399,14 +404,9 @@
         "winRate": 59.62
       },
       {
-        "name": "jurchens",
-        "games": 133,
-        "winRate": 59.4
-      },
-      {
-        "name": "incas",
-        "games": 160,
-        "winRate": 59.38
+        "name": "britons",
+        "games": 210,
+        "winRate": 59.52
       }
     ],
     "weakAgainst": [
@@ -418,7 +418,7 @@
       {
         "name": "mongols",
         "games": 567,
-        "winRate": 43.03
+        "winRate": 42.86
       },
       {
         "name": "mapuche",
@@ -427,13 +427,13 @@
       },
       {
         "name": "huns",
-        "games": 235,
-        "winRate": 45.96
+        "games": 236,
+        "winRate": 45.76
       },
       {
         "name": "spanish",
-        "games": 246,
-        "winRate": 46.34
+        "games": 247,
+        "winRate": 46.15
       }
     ]
   },
