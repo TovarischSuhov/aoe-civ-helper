@@ -348,36 +348,36 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 54.18,
+    "winRate": 54.14,
     "playRate": 1.36,
-    "picks": 7806,
+    "picks": 7822,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T09:57:39.000Z",
+    "updated": "2026-10-19T21:06:45.000Z",
     "window": "2026-07-27 → 2026-10-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
       "other": {
-        "winRate": 54.33,
+        "winRate": 54.35,
         "playRate": 1.38,
-        "picks": 4892
+        "picks": 4889
       },
       "open": {
-        "winRate": 54.43,
-        "playRate": 1.44,
-        "picks": 2302
+        "winRate": 54.3,
+        "playRate": 1.43,
+        "picks": 2315
       },
       "closed": {
-        "winRate": 52.12,
+        "winRate": 52.31,
         "playRate": 1.02,
-        "picks": 495
+        "picks": 497
       },
       "nomad": {
-        "winRate": 51.28,
-        "playRate": 1.12,
-        "picks": 117
+        "winRate": 50.41,
+        "playRate": 1.13,
+        "picks": 121
       }
     },
     "strongAgainst": [
@@ -398,25 +398,25 @@
       },
       {
         "name": "slavs",
-        "games": 119,
-        "winRate": 64.71
+        "games": 120,
+        "winRate": 64.17
       },
       {
-        "name": "poles",
-        "games": 121,
-        "winRate": 62.81
+        "name": "incas",
+        "games": 128,
+        "winRate": 63.28
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 473,
-        "winRate": 43.97
+        "games": 476,
+        "winRate": 44.12
       },
       {
         "name": "japanese",
-        "games": 191,
-        "winRate": 47.64
+        "games": 190,
+        "winRate": 47.89
       },
       {
         "name": "spanish",
@@ -424,14 +424,14 @@
         "winRate": 48.59
       },
       {
-        "name": "khmer",
-        "games": 181,
-        "winRate": 49.72
-      },
-      {
         "name": "chinese",
         "games": 198,
         "winRate": 50
+      },
+      {
+        "name": "khmer",
+        "games": 183,
+        "winRate": 50.27
       }
     ]
   },

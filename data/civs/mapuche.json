@@ -378,36 +378,36 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.38,
+    "winRate": 50.39,
     "playRate": 1.02,
-    "picks": 5865,
+    "picks": 5874,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T09:57:39.000Z",
+    "updated": "2026-10-19T21:06:45.000Z",
     "window": "2026-07-27 → 2026-10-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
-      "open": {
-        "winRate": 52,
-        "playRate": 1.08,
-        "picks": 1727
-      },
       "other": {
-        "winRate": 50.01,
+        "winRate": 50.07,
         "playRate": 1.03,
-        "picks": 3659
+        "picks": 3651
+      },
+      "open": {
+        "winRate": 51.87,
+        "playRate": 1.08,
+        "picks": 1739
       },
       "closed": {
-        "winRate": 46.5,
+        "winRate": 46.67,
         "playRate": 0.74,
-        "picks": 357
+        "picks": 360
       },
       "nomad": {
         "winRate": 50,
-        "playRate": 1.17,
-        "picks": 122
+        "playRate": 1.15,
+        "picks": 124
       }
     },
     "strongAgainst": [
@@ -418,8 +418,8 @@
       },
       {
         "name": "danes",
-        "games": 31,
-        "winRate": 64.52
+        "games": 32,
+        "winRate": 65.63
       },
       {
         "name": "turks",
@@ -429,7 +429,7 @@
       {
         "name": "byzantines",
         "games": 102,
-        "winRate": 60.78
+        "winRate": 59.8
       },
       {
         "name": "jurchens",
@@ -450,8 +450,8 @@
       },
       {
         "name": "slavs",
-        "games": 94,
-        "winRate": 38.3
+        "games": 95,
+        "winRate": 38.95
       },
       {
         "name": "aztecs",
@@ -459,9 +459,9 @@
         "winRate": 41.38
       },
       {
-        "name": "bulgarians",
-        "games": 96,
-        "winRate": 41.67
+        "name": "shu",
+        "games": 58,
+        "winRate": 41.38
       }
     ]
   },

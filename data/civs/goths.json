@@ -336,43 +336,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.26,
+    "winRate": 48.33,
     "playRate": 1.41,
-    "picks": 8077,
+    "picks": 8126,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T09:57:39.000Z",
+    "updated": "2026-10-19T21:06:45.000Z",
     "window": "2026-07-27 → 2026-10-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
-      "open": {
-        "winRate": 48.96,
-        "playRate": 1.47,
-        "picks": 2357
-      },
       "other": {
-        "winRate": 48.4,
+        "winRate": 48.37,
         "playRate": 1.39,
-        "picks": 4948
+        "picks": 4943
+      },
+      "open": {
+        "winRate": 49.23,
+        "playRate": 1.49,
+        "picks": 2405
       },
       "closed": {
-        "winRate": 45.35,
+        "winRate": 45.45,
         "playRate": 1.29,
-        "picks": 624
+        "picks": 627
       },
       "nomad": {
-        "winRate": 44.59,
-        "playRate": 1.42,
-        "picks": 148
+        "winRate": 44.37,
+        "playRate": 1.4,
+        "picks": 151
       }
     },
     "strongAgainst": [
       {
         "name": "shu",
-        "games": 92,
-        "winRate": 58.7
+        "games": 93,
+        "winRate": 59.14
       },
       {
         "name": "mapuche",
@@ -386,20 +386,20 @@
       },
       {
         "name": "vietnamese",
-        "games": 186,
-        "winRate": 55.91
+        "games": 187,
+        "winRate": 56.15
       },
       {
         "name": "magyars",
-        "games": 182,
-        "winRate": 55.49
+        "games": 184,
+        "winRate": 55.98
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 141,
-        "winRate": 36.88
+        "games": 143,
+        "winRate": 37.76
       },
       {
         "name": "dravidians",
@@ -409,17 +409,17 @@
       {
         "name": "romans",
         "games": 126,
-        "winRate": 41.27
+        "winRate": 40.48
       },
       {
         "name": "georgians",
-        "games": 94,
-        "winRate": 41.49
+        "games": 96,
+        "winRate": 41.67
       },
       {
         "name": "japanese",
-        "games": 214,
-        "winRate": 41.59
+        "games": 216,
+        "winRate": 41.67
       }
     ]
   },

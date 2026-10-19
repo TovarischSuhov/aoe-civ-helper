@@ -351,48 +351,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.91,
+    "winRate": 49.83,
     "playRate": 1.1,
-    "picks": 6319,
+    "picks": 6340,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T09:57:39.000Z",
+    "updated": "2026-10-19T21:06:45.000Z",
     "window": "2026-07-27 → 2026-10-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 50.29,
+        "winRate": 50.18,
         "playRate": 1.1,
-        "picks": 3905
+        "picks": 3898
       },
       "open": {
-        "winRate": 50.26,
+        "winRate": 50.28,
         "playRate": 1.09,
-        "picks": 1741
+        "picks": 1766
       },
       "closed": {
-        "winRate": 45.98,
-        "playRate": 1.08,
-        "picks": 522
+        "winRate": 45.89,
+        "playRate": 1.07,
+        "picks": 523
       },
       "nomad": {
-        "winRate": 49.67,
-        "playRate": 1.45,
-        "picks": 151
+        "winRate": 49.02,
+        "playRate": 1.42,
+        "picks": 153
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 50,
-        "winRate": 64
-      },
-      {
-        "name": "slavs",
-        "games": 90,
-        "winRate": 62.22
+        "games": 51,
+        "winRate": 64.71
       },
       {
         "name": "bengalis",
@@ -400,21 +395,26 @@
         "winRate": 62.04
       },
       {
+        "name": "slavs",
+        "games": 91,
+        "winRate": 60.44
+      },
+      {
         "name": "saracens",
-        "games": 112,
-        "winRate": 60.71
+        "games": 111,
+        "winRate": 60.36
       },
       {
         "name": "gurjaras",
-        "games": 105,
-        "winRate": 59.05
+        "games": 104,
+        "winRate": 59.62
       }
     ],
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 101,
-        "winRate": 38.61
+        "games": 103,
+        "winRate": 39.81
       },
       {
         "name": "berbers",
@@ -422,14 +422,14 @@
         "winRate": 40
       },
       {
+        "name": "burgundians",
+        "games": 113,
+        "winRate": 41.59
+      },
+      {
         "name": "romans",
         "games": 78,
         "winRate": 42.31
-      },
-      {
-        "name": "burgundians",
-        "games": 111,
-        "winRate": 42.34
       },
       {
         "name": "saxons",
