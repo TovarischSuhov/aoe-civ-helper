@@ -316,37 +316,42 @@
   "stats": {
     "winRate": 47.82,
     "playRate": 1.4,
-    "picks": 8062,
+    "picks": 8066,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T21:06:45.000Z",
-    "window": "2026-07-27 → 2026-10-19",
+    "updated": "2026-10-20T09:27:52.000Z",
+    "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "closed": {
-        "winRate": 46.44,
+        "winRate": 46.69,
         "playRate": 1.33,
-        "picks": 646
+        "picks": 649
       },
       "other": {
-        "winRate": 48.26,
-        "playRate": 1.39,
-        "picks": 4919
+        "winRate": 48.24,
+        "playRate": 1.38,
+        "picks": 4909
       },
       "open": {
-        "winRate": 47.31,
-        "playRate": 1.45,
-        "picks": 2344
+        "winRate": 47.3,
+        "playRate": 1.44,
+        "picks": 2353
       },
       "nomad": {
-        "winRate": 47.06,
+        "winRate": 47.1,
         "playRate": 1.42,
-        "picks": 153
+        "picks": 155
       }
     },
     "strongAgainst": [
+      {
+        "name": "danes",
+        "games": 44,
+        "winRate": 61.36
+      },
       {
         "name": "mapuche",
         "games": 95,
@@ -354,13 +359,8 @@
       },
       {
         "name": "byzantines",
-        "games": 162,
-        "winRate": 60.49
-      },
-      {
-        "name": "danes",
-        "games": 43,
-        "winRate": 60.47
+        "games": 163,
+        "winRate": 60.12
       },
       {
         "name": "saxons",
@@ -368,16 +368,16 @@
         "winRate": 58.62
       },
       {
-        "name": "berbers",
-        "games": 137,
-        "winRate": 56.93
+        "name": "mayans",
+        "games": 168,
+        "winRate": 56.55
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 120,
-        "winRate": 35.83
+        "games": 119,
+        "winRate": 36.13
       },
       {
         "name": "shu",

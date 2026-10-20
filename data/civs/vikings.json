@@ -360,73 +360,73 @@
   "stats": {
     "winRate": 52.7,
     "playRate": 1.81,
-    "picks": 10425,
+    "picks": 10452,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T21:06:45.000Z",
-    "window": "2026-07-27 → 2026-10-19",
+    "updated": "2026-10-20T09:27:52.000Z",
+    "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
-      "open": {
-        "winRate": 52.69,
-        "playRate": 1.88,
-        "picks": 3031
-      },
       "other": {
-        "winRate": 52.31,
+        "winRate": 52.35,
         "playRate": 1.83,
-        "picks": 6500
+        "picks": 6495
+      },
+      "open": {
+        "winRate": 52.62,
+        "playRate": 1.87,
+        "picks": 3058
       },
       "closed": {
-        "winRate": 55.06,
+        "winRate": 54.92,
         "playRate": 1.46,
         "picks": 712
       },
       "nomad": {
-        "winRate": 57.69,
-        "playRate": 1.69,
-        "picks": 182
+        "winRate": 57.75,
+        "playRate": 1.71,
+        "picks": 187
       }
     },
     "strongAgainst": [
-      {
-        "name": "berbers",
-        "games": 182,
-        "winRate": 62.09
-      },
       {
         "name": "slavs",
         "games": 153,
         "winRate": 62.09
       },
       {
+        "name": "berbers",
+        "games": 181,
+        "winRate": 61.88
+      },
+      {
         "name": "burmese",
-        "games": 161,
-        "winRate": 60.25
+        "games": 162,
+        "winRate": 60.49
       },
       {
         "name": "saracens",
-        "games": 157,
-        "winRate": 59.87
+        "games": 158,
+        "winRate": 60.13
       },
       {
         "name": "sicilians",
-        "games": 178,
-        "winRate": 58.99
+        "games": 179,
+        "winRate": 58.66
       }
     ],
     "weakAgainst": [
       {
         "name": "tupi",
-        "games": 128,
-        "winRate": 44.53
+        "games": 126,
+        "winRate": 45.24
       },
       {
-        "name": "romans",
-        "games": 128,
-        "winRate": 45.31
+        "name": "wei",
+        "games": 159,
+        "winRate": 45.28
       },
       {
         "name": "khmer",
@@ -434,9 +434,9 @@
         "winRate": 45.34
       },
       {
-        "name": "wei",
-        "games": 157,
-        "winRate": 45.86
+        "name": "romans",
+        "games": 126,
+        "winRate": 46.03
       },
       {
         "name": "saxons",

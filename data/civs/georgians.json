@@ -295,43 +295,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.36,
+    "winRate": 49.37,
     "playRate": 1.18,
-    "picks": 6775,
+    "picks": 6789,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T21:06:45.000Z",
-    "window": "2026-07-27 → 2026-10-19",
+    "updated": "2026-10-20T09:27:52.000Z",
+    "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "other": {
-        "winRate": 49.61,
+        "winRate": 49.57,
         "playRate": 1.19,
-        "picks": 4221
-      },
-      "closed": {
-        "winRate": 44.7,
-        "playRate": 0.99,
-        "picks": 481
+        "picks": 4208
       },
       "open": {
-        "winRate": 50.46,
+        "winRate": 50.53,
         "playRate": 1.21,
-        "picks": 1958
+        "picks": 1979
+      },
+      "closed": {
+        "winRate": 44.95,
+        "playRate": 0.99,
+        "picks": 485
       },
       "nomad": {
-        "winRate": 40.87,
+        "winRate": 41.03,
         "playRate": 1.07,
-        "picks": 115
+        "picks": 117
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 51,
-        "winRate": 64.71
+        "games": 53,
+        "winRate": 66.04
       },
       {
         "name": "shu",
@@ -340,13 +340,13 @@
       },
       {
         "name": "incas",
-        "games": 112,
-        "winRate": 60.71
+        "games": 109,
+        "winRate": 60.55
       },
       {
         "name": "burmese",
-        "games": 89,
-        "winRate": 60.67
+        "games": 88,
+        "winRate": 60.23
       },
       {
         "name": "goths",
@@ -371,14 +371,14 @@
         "winRate": 41.23
       },
       {
-        "name": "chinese",
-        "games": 173,
-        "winRate": 41.62
-      },
-      {
         "name": "wei",
         "games": 108,
         "winRate": 41.67
+      },
+      {
+        "name": "chinese",
+        "games": 172,
+        "winRate": 41.86
       }
     ]
   },

@@ -323,63 +323,63 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.24,
+    "winRate": 50.23,
     "playRate": 2.39,
-    "picks": 13763,
+    "picks": 13793,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-19T21:06:45.000Z",
-    "window": "2026-07-27 → 2026-10-19",
+    "updated": "2026-10-20T09:27:52.000Z",
+    "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
+      "open": {
+        "winRate": 51.22,
+        "playRate": 2.42,
+        "picks": 3942
+      },
       "other": {
-        "winRate": 49.68,
+        "winRate": 49.66,
         "playRate": 2.35,
-        "picks": 8346
+        "picks": 8344
       },
       "closed": {
-        "winRate": 51.79,
-        "playRate": 2.64,
-        "picks": 1286
-      },
-      "open": {
-        "winRate": 51.25,
-        "playRate": 2.42,
-        "picks": 3912
+        "winRate": 51.71,
+        "playRate": 2.63,
+        "picks": 1284
       },
       "nomad": {
-        "winRate": 44.75,
+        "winRate": 45.29,
         "playRate": 2.04,
-        "picks": 219
+        "picks": 223
       }
     },
     "strongAgainst": [
       {
         "name": "britons",
-        "games": 259,
-        "winRate": 62.93
+        "games": 258,
+        "winRate": 62.79
       },
       {
         "name": "varangians",
-        "games": 204,
-        "winRate": 58.82
+        "games": 205,
+        "winRate": 59.02
       },
       {
         "name": "saxons",
-        "games": 144,
-        "winRate": 58.33
-      },
-      {
-        "name": "jurchens",
-        "games": 140,
-        "winRate": 57.14
+        "games": 145,
+        "winRate": 57.93
       },
       {
         "name": "dravidians",
-        "games": 209,
-        "winRate": 56.94
+        "games": 208,
+        "winRate": 56.73
+      },
+      {
+        "name": "goths",
+        "games": 186,
+        "winRate": 56.45
       }
     ],
     "weakAgainst": [
@@ -390,13 +390,13 @@
       },
       {
         "name": "hindustanis",
-        "games": 265,
-        "winRate": 43.4
+        "games": 267,
+        "winRate": 43.07
       },
       {
         "name": "magyars",
-        "games": 442,
-        "winRate": 43.89
+        "games": 440,
+        "winRate": 43.86
       },
       {
         "name": "celts",
