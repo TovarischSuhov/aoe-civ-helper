@@ -354,34 +354,34 @@
   "stats": {
     "winRate": 52.14,
     "playRate": 0.99,
-    "picks": 5698,
+    "picks": 5723,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-20T09:27:52.000Z",
+    "updated": "2026-10-20T20:00:58.000Z",
     "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
-      "closed": {
-        "winRate": 47.53,
-        "playRate": 0.87,
-        "picks": 425
-      },
       "other": {
-        "winRate": 52.17,
+        "winRate": 52.14,
         "playRate": 0.98,
-        "picks": 3462
+        "picks": 3466
       },
       "open": {
-        "winRate": 53.28,
+        "winRate": 53.26,
         "playRate": 1.04,
-        "picks": 1693
+        "picks": 1705
+      },
+      "closed": {
+        "winRate": 47.55,
+        "playRate": 0.88,
+        "picks": 429
       },
       "nomad": {
-        "winRate": 51.69,
-        "playRate": 1.08,
-        "picks": 118
+        "winRate": 52.85,
+        "playRate": 1.09,
+        "picks": 123
       }
     },
     "strongAgainst": [
@@ -392,8 +392,8 @@
       },
       {
         "name": "varangians",
-        "games": 35,
-        "winRate": 62.86
+        "games": 36,
+        "winRate": 63.89
       },
       {
         "name": "slavs",
@@ -414,28 +414,28 @@
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 72,
-        "winRate": 38.89
+        "games": 73,
+        "winRate": 38.36
       },
       {
         "name": "dravidians",
-        "games": 98,
-        "winRate": 40.82
+        "games": 96,
+        "winRate": 39.58
       },
       {
         "name": "goths",
-        "games": 93,
-        "winRate": 40.86
+        "games": 94,
+        "winRate": 40.43
       },
       {
         "name": "koreans",
-        "games": 106,
-        "winRate": 41.51
+        "games": 105,
+        "winRate": 40.95
       },
       {
-        "name": "magyars",
-        "games": 164,
-        "winRate": 46.34
+        "name": "romans",
+        "games": 91,
+        "winRate": 46.15
       }
     ]
   },

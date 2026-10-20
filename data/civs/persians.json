@@ -328,70 +328,75 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.29,
-    "playRate": 2.77,
-    "picks": 16013,
+    "winRate": 51.3,
+    "playRate": 2.78,
+    "picks": 16069,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-20T09:27:52.000Z",
+    "updated": "2026-10-20T20:00:58.000Z",
     "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "other": {
-        "winRate": 51.3,
+        "winRate": 51.33,
         "playRate": 2.82,
-        "picks": 10006
-      },
-      "closed": {
-        "winRate": 47.41,
-        "playRate": 2.06,
-        "picks": 1002
+        "picks": 9990
       },
       "open": {
-        "winRate": 51.88,
+        "winRate": 51.82,
         "playRate": 2.83,
-        "picks": 4611
+        "picks": 4658
+      },
+      "closed": {
+        "winRate": 47.43,
+        "playRate": 2.07,
+        "picks": 1010
       },
       "nomad": {
-        "winRate": 54.06,
-        "playRate": 3.61,
-        "picks": 394
+        "winRate": 54.01,
+        "playRate": 3.66,
+        "picks": 411
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 208,
-        "winRate": 59.13
+        "games": 209,
+        "winRate": 59.81
       },
       {
         "name": "varangians",
-        "games": 261,
-        "winRate": 58.62
+        "games": 263,
+        "winRate": 58.94
       },
       {
         "name": "poles",
-        "games": 231,
-        "winRate": 58.44
+        "games": 232,
+        "winRate": 58.62
       },
       {
         "name": "tupi",
-        "games": 194,
-        "winRate": 58.25
+        "games": 195,
+        "winRate": 57.95
       },
       {
         "name": "portuguese",
-        "games": 266,
-        "winRate": 57.52
+        "games": 265,
+        "winRate": 57.74
       }
     ],
     "weakAgainst": [
       {
         "name": "mapuche",
-        "games": 157,
-        "winRate": 43.31
+        "games": 158,
+        "winRate": 42.41
+      },
+      {
+        "name": "chinese",
+        "games": 457,
+        "winRate": 44.86
       },
       {
         "name": "koreans",
@@ -400,18 +405,13 @@
       },
       {
         "name": "vikings",
-        "games": 295,
-        "winRate": 45.08
-      },
-      {
-        "name": "chinese",
-        "games": 455,
-        "winRate": 45.27
+        "games": 294,
+        "winRate": 45.24
       },
       {
         "name": "mayans",
-        "games": 340,
-        "winRate": 46.18
+        "games": 343,
+        "winRate": 46.06
       }
     ]
   },

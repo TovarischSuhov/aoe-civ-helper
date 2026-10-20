@@ -315,12 +315,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.21,
+    "winRate": 51.24,
     "playRate": 1.51,
-    "picks": 8709,
+    "picks": 8739,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-20T09:27:52.000Z",
+    "updated": "2026-10-20T20:00:58.000Z",
     "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -328,30 +328,35 @@
     "byMapType": {
       "other": {
         "winRate": 50.84,
-        "playRate": 1.54,
-        "picks": 5448
-      },
-      "closed": {
-        "winRate": 54.79,
-        "playRate": 1.37,
-        "picks": 668
+        "playRate": 1.53,
+        "picks": 5435
       },
       "open": {
-        "winRate": 50.65,
+        "winRate": 50.75,
         "playRate": 1.42,
-        "picks": 2310
+        "picks": 2339
+      },
+      "closed": {
+        "winRate": 54.67,
+        "playRate": 1.38,
+        "picks": 675
       },
       "nomad": {
-        "winRate": 54.42,
-        "playRate": 2.59,
-        "picks": 283
+        "winRate": 54.83,
+        "playRate": 2.58,
+        "picks": 290
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 67,
-        "winRate": 62.69
+        "games": 68,
+        "winRate": 61.76
+      },
+      {
+        "name": "shu",
+        "games": 96,
+        "winRate": 60.42
       },
       {
         "name": "goths",
@@ -367,38 +372,33 @@
         "name": "varangians",
         "games": 106,
         "winRate": 59.43
-      },
-      {
-        "name": "shu",
-        "games": 98,
-        "winRate": 59.18
       }
     ],
     "weakAgainst": [
       {
         "name": "bulgarians",
-        "games": 151,
-        "winRate": 41.06
+        "games": 150,
+        "winRate": 41.33
       },
       {
         "name": "chinese",
-        "games": 215,
-        "winRate": 41.86
+        "games": 218,
+        "winRate": 42.2
       },
       {
         "name": "malay",
-        "games": 169,
-        "winRate": 43.2
+        "games": 168,
+        "winRate": 42.86
       },
       {
-        "name": "khmer",
-        "games": 208,
-        "winRate": 43.27
+        "name": "franks",
+        "games": 152,
+        "winRate": 44.08
       },
       {
         "name": "berbers",
-        "games": 137,
-        "winRate": 43.8
+        "games": 140,
+        "winRate": 44.29
       }
     ]
   },

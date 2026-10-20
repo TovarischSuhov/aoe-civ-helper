@@ -360,53 +360,53 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.04,
+    "winRate": 52.05,
     "playRate": 2.08,
-    "picks": 12022,
+    "picks": 12044,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-20T09:27:52.000Z",
+    "updated": "2026-10-20T20:00:58.000Z",
     "window": "2026-07-28 → 2026-10-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
-      "closed": {
-        "winRate": 51.26,
-        "playRate": 1.47,
-        "picks": 716
-      },
       "other": {
-        "winRate": 51.97,
+        "winRate": 52.04,
         "playRate": 2.11,
-        "picks": 7493
+        "picks": 7477
+      },
+      "closed": {
+        "winRate": 51.25,
+        "playRate": 1.47,
+        "picks": 718
       },
       "open": {
-        "winRate": 52.43,
+        "winRate": 52.37,
         "playRate": 2.19,
-        "picks": 3578
+        "picks": 3605
       },
       "nomad": {
-        "winRate": 50.64,
-        "playRate": 2.15,
-        "picks": 235
+        "winRate": 50,
+        "playRate": 2.17,
+        "picks": 244
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 185,
-        "winRate": 61.08
+        "games": 186,
+        "winRate": 60.75
+      },
+      {
+        "name": "jurchens",
+        "games": 144,
+        "winRate": 59.72
       },
       {
         "name": "burgundians",
-        "games": 222,
-        "winRate": 59.01
-      },
-      {
-        "name": "japanese",
-        "games": 307,
-        "winRate": 58.96
+        "games": 223,
+        "winRate": 59.19
       },
       {
         "name": "burmese",
@@ -414,9 +414,9 @@
         "winRate": 58.75
       },
       {
-        "name": "jurchens",
-        "games": 143,
-        "winRate": 58.74
+        "name": "slavs",
+        "games": 157,
+        "winRate": 58.6
       }
     ],
     "weakAgainst": [
@@ -427,23 +427,23 @@
       },
       {
         "name": "wu",
-        "games": 134,
-        "winRate": 44.78
-      },
-      {
-        "name": "chinese",
-        "games": 334,
-        "winRate": 45.21
+        "games": 132,
+        "winRate": 44.7
       },
       {
         "name": "ethiopians",
-        "games": 230,
-        "winRate": 45.65
+        "games": 229,
+        "winRate": 45.41
+      },
+      {
+        "name": "chinese",
+        "games": 331,
+        "winRate": 45.62
       },
       {
         "name": "malay",
-        "games": 195,
-        "winRate": 46.15
+        "games": 193,
+        "winRate": 46.11
       }
     ]
   },
