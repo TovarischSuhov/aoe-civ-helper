@@ -269,58 +269,58 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.18,
+    "winRate": 50.19,
     "playRate": 2.51,
-    "picks": 14523,
+    "picks": 14534,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-20T20:00:58.000Z",
-    "window": "2026-07-28 → 2026-10-20",
+    "updated": "2026-10-21T09:23:43.000Z",
+    "window": "2026-07-29 → 2026-10-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
-      "open": {
-        "winRate": 49.27,
-        "playRate": 2.19,
-        "picks": 3613
-      },
       "other": {
-        "winRate": 49.92,
+        "winRate": 49.9,
         "playRate": 2.5,
-        "picks": 8859
+        "picks": 8838
       },
       "closed": {
-        "winRate": 51.89,
-        "playRate": 3.09,
+        "winRate": 51.82,
+        "playRate": 3.08,
         "picks": 1509
       },
+      "open": {
+        "winRate": 49.37,
+        "playRate": 2.19,
+        "picks": 3634
+      },
       "nomad": {
-        "winRate": 55.9,
+        "winRate": 55.7,
         "playRate": 4.82,
-        "picks": 542
+        "picks": 553
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 179,
-        "winRate": 64.25
+        "games": 177,
+        "winRate": 63.84
       },
       {
         "name": "wei",
-        "games": 234,
-        "winRate": 57.69
-      },
-      {
-        "name": "incas",
-        "games": 228,
-        "winRate": 57.02
+        "games": 236,
+        "winRate": 57.63
       },
       {
         "name": "burgundians",
         "games": 386,
-        "winRate": 56.74
+        "winRate": 56.99
+      },
+      {
+        "name": "incas",
+        "games": 229,
+        "winRate": 56.77
       },
       {
         "name": "goths",
@@ -330,29 +330,29 @@
     ],
     "weakAgainst": [
       {
-        "name": "shu",
-        "games": 130,
-        "winRate": 40.77
+        "name": "italians",
+        "games": 306,
+        "winRate": 41.18
       },
       {
-        "name": "italians",
-        "games": 305,
-        "winRate": 41.64
+        "name": "shu",
+        "games": 130,
+        "winRate": 41.54
       },
       {
         "name": "chinese",
-        "games": 351,
-        "winRate": 41.88
+        "games": 353,
+        "winRate": 41.93
       },
       {
         "name": "mayans",
-        "games": 286,
-        "winRate": 42.31
+        "games": 285,
+        "winRate": 42.11
       },
       {
         "name": "malians",
-        "games": 236,
-        "winRate": 42.37
+        "games": 238,
+        "winRate": 42.44
       }
     ]
   },
