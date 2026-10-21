@@ -351,36 +351,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.92,
+    "winRate": 49.88,
     "playRate": 1.1,
-    "picks": 6390,
+    "picks": 6411,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-21T09:23:43.000Z",
+    "updated": "2026-10-21T20:12:40.000Z",
     "window": "2026-07-29 → 2026-10-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
-      "open": {
-        "winRate": 50.41,
-        "playRate": 1.09,
-        "picks": 1813
-      },
       "other": {
-        "winRate": 50.28,
+        "winRate": 50.23,
         "playRate": 1.1,
         "picks": 3882
       },
+      "open": {
+        "winRate": 50.3,
+        "playRate": 1.09,
+        "picks": 1831
+      },
       "closed": {
-        "winRate": 45.44,
+        "winRate": 45.71,
         "playRate": 1.07,
-        "picks": 526
+        "picks": 525
       },
       "nomad": {
-        "winRate": 50.3,
+        "winRate": 50.29,
         "playRate": 1.47,
-        "picks": 169
+        "picks": 173
       }
     },
     "strongAgainst": [
@@ -396,8 +396,8 @@
       },
       {
         "name": "bengalis",
-        "games": 110,
-        "winRate": 60.91
+        "games": 109,
+        "winRate": 61.47
       },
       {
         "name": "saracens",
@@ -406,20 +406,20 @@
       },
       {
         "name": "gurjaras",
-        "games": 105,
-        "winRate": 58.1
+        "games": 104,
+        "winRate": 57.69
       }
     ],
     "weakAgainst": [
       {
-        "name": "hindustanis",
-        "games": 102,
-        "winRate": 40.2
-      },
-      {
         "name": "berbers",
         "games": 111,
         "winRate": 40.54
+      },
+      {
+        "name": "hindustanis",
+        "games": 103,
+        "winRate": 40.78
       },
       {
         "name": "romans",
@@ -432,9 +432,9 @@
         "winRate": 42.11
       },
       {
-        "name": "saxons",
-        "games": 47,
-        "winRate": 42.55
+        "name": "bohemians",
+        "games": 132,
+        "winRate": 43.18
       }
     ]
   },
