@@ -350,43 +350,43 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.83,
+    "winRate": 50.74,
     "playRate": 1.88,
-    "picks": 10911,
+    "picks": 10926,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-21T20:12:40.000Z",
-    "window": "2026-07-29 → 2026-10-21",
+    "updated": "2026-10-22T09:26:32.000Z",
+    "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
-      "other": {
-        "winRate": 51.39,
-        "playRate": 1.86,
-        "picks": 6571
-      },
       "open": {
-        "winRate": 50.1,
+        "winRate": 49.96,
         "playRate": 2,
-        "picks": 3353
+        "picks": 3375
+      },
+      "other": {
+        "winRate": 51.33,
+        "playRate": 1.87,
+        "picks": 6557
       },
       "closed": {
-        "winRate": 49.88,
+        "winRate": 49.82,
         "playRate": 1.66,
-        "picks": 816
+        "picks": 819
       },
       "nomad": {
-        "winRate": 47.95,
-        "playRate": 1.45,
-        "picks": 171
+        "winRate": 48,
+        "playRate": 1.46,
+        "picks": 175
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 132,
-        "winRate": 62.12
+        "games": 131,
+        "winRate": 61.83
       },
       {
         "name": "varangians",
@@ -404,9 +404,9 @@
         "winRate": 60.61
       },
       {
-        "name": "danes",
-        "games": 107,
-        "winRate": 59.81
+        "name": "britons",
+        "games": 211,
+        "winRate": 59.72
       }
     ],
     "weakAgainst": [
@@ -417,23 +417,23 @@
       },
       {
         "name": "teutons",
-        "games": 205,
-        "winRate": 41.46
+        "games": 204,
+        "winRate": 41.67
       },
       {
         "name": "mapuche",
-        "games": 115,
-        "winRate": 43.48
+        "games": 116,
+        "winRate": 43.97
       },
       {
         "name": "huns",
         "games": 231,
-        "winRate": 45.45
+        "winRate": 45.02
       },
       {
         "name": "spanish",
-        "games": 252,
-        "winRate": 46.43
+        "games": 253,
+        "winRate": 46.25
       }
     ]
   },

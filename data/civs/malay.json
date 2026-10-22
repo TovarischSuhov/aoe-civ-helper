@@ -295,63 +295,63 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.82,
-    "playRate": 1.75,
-    "picks": 10156,
+    "winRate": 51.8,
+    "playRate": 1.74,
+    "picks": 10153,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-21T20:12:40.000Z",
-    "window": "2026-07-29 → 2026-10-21",
+    "updated": "2026-10-22T09:26:32.000Z",
+    "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
-      "closed": {
-        "winRate": 51.42,
-        "playRate": 2.29,
-        "picks": 1126
-      },
       "other": {
         "winRate": 52.21,
         "playRate": 1.77,
-        "picks": 6232
+        "picks": 6209
       },
       "open": {
-        "winRate": 50.98,
+        "winRate": 50.9,
         "playRate": 1.54,
-        "picks": 2591
+        "picks": 2605
+      },
+      "closed": {
+        "winRate": 51.37,
+        "playRate": 2.3,
+        "picks": 1131
       },
       "nomad": {
-        "winRate": 52.66,
-        "playRate": 1.75,
-        "picks": 207
+        "winRate": 52.88,
+        "playRate": 1.74,
+        "picks": 208
       }
     },
     "strongAgainst": [
       {
         "name": "georgians",
-        "games": 124,
-        "winRate": 60.48
-      },
-      {
-        "name": "armenians",
-        "games": 179,
-        "winRate": 59.78
+        "games": 126,
+        "winRate": 60.32
       },
       {
         "name": "jurchens",
-        "games": 128,
-        "winRate": 59.38
+        "games": 129,
+        "winRate": 59.69
+      },
+      {
+        "name": "armenians",
+        "games": 177,
+        "winRate": 59.32
       },
       {
         "name": "byzantines",
-        "games": 169,
-        "winRate": 58.58
+        "games": 167,
+        "winRate": 58.68
       },
       {
-        "name": "dravidians",
-        "games": 167,
-        "winRate": 57.49
+        "name": "incas",
+        "games": 153,
+        "winRate": 57.52
       }
     ],
     "weakAgainst": [
@@ -362,8 +362,8 @@
       },
       {
         "name": "saxons",
-        "games": 99,
-        "winRate": 41.41
+        "games": 100,
+        "winRate": 41
       },
       {
         "name": "mayans",
@@ -372,8 +372,8 @@
       },
       {
         "name": "malians",
-        "games": 169,
-        "winRate": 43.79
+        "games": 168,
+        "winRate": 43.45
       },
       {
         "name": "wu",

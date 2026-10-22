@@ -335,36 +335,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.05,
+    "winRate": 48.03,
     "playRate": 1.63,
-    "picks": 9477,
+    "picks": 9481,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-21T20:12:40.000Z",
-    "window": "2026-07-29 → 2026-10-21",
+    "updated": "2026-10-22T09:26:32.000Z",
+    "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
-      "open": {
-        "winRate": 48.47,
-        "playRate": 1.69,
-        "picks": 2835
-      },
       "other": {
-        "winRate": 48.09,
-        "playRate": 1.66,
-        "picks": 5870
+        "winRate": 48.04,
+        "playRate": 1.67,
+        "picks": 5856
+      },
+      "open": {
+        "winRate": 48.49,
+        "playRate": 1.69,
+        "picks": 2852
       },
       "closed": {
-        "winRate": 45.93,
-        "playRate": 1.25,
-        "picks": 614
+        "winRate": 46.08,
+        "playRate": 1.24,
+        "picks": 612
       },
       "nomad": {
-        "winRate": 47.47,
+        "winRate": 47.2,
         "playRate": 1.34,
-        "picks": 158
+        "picks": 161
       }
     },
     "strongAgainst": [
@@ -375,35 +375,30 @@
       },
       {
         "name": "lithuanians",
-        "games": 159,
-        "winRate": 56.6
+        "games": 160,
+        "winRate": 57.5
       },
       {
         "name": "slavs",
-        "games": 147,
-        "winRate": 55.78
+        "games": 148,
+        "winRate": 56.08
       },
       {
         "name": "teutons",
-        "games": 147,
-        "winRate": 54.42
+        "games": 146,
+        "winRate": 55.48
       },
       {
         "name": "georgians",
-        "games": 115,
-        "winRate": 53.91
+        "games": 116,
+        "winRate": 53.45
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 200,
-        "winRate": 35
-      },
-      {
-        "name": "romans",
-        "games": 138,
-        "winRate": 42.03
+        "games": 201,
+        "winRate": 35.32
       },
       {
         "name": "malians",
@@ -416,9 +411,14 @@
         "winRate": 42.18
       },
       {
+        "name": "romans",
+        "games": 139,
+        "winRate": 42.45
+      },
+      {
         "name": "portuguese",
-        "games": 188,
-        "winRate": 42.55
+        "games": 187,
+        "winRate": 42.78
       }
     ]
   },

@@ -358,36 +358,36 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.58,
+    "winRate": 52.63,
     "playRate": 1.82,
-    "picks": 10563,
+    "picks": 10575,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-21T20:12:40.000Z",
-    "window": "2026-07-29 → 2026-10-21",
+    "updated": "2026-10-22T09:26:32.000Z",
+    "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
-      "open": {
-        "winRate": 52.35,
-        "playRate": 1.88,
-        "picks": 3148
-      },
       "other": {
-        "winRate": 52.31,
+        "winRate": 52.33,
         "playRate": 1.84,
-        "picks": 6484
+        "picks": 6463
       },
       "closed": {
         "winRate": 55.25,
         "playRate": 1.47,
         "picks": 724
       },
+      "open": {
+        "winRate": 52.52,
+        "playRate": 1.88,
+        "picks": 3180
+      },
       "nomad": {
-        "winRate": 55.07,
-        "playRate": 1.75,
-        "picks": 207
+        "winRate": 54.81,
+        "playRate": 1.74,
+        "picks": 208
       }
     },
     "strongAgainst": [
@@ -402,26 +402,26 @@
         "winRate": 60.99
       },
       {
-        "name": "saracens",
-        "games": 157,
-        "winRate": 59.87
-      },
-      {
         "name": "burmese",
         "games": 166,
-        "winRate": 59.64
+        "winRate": 60.24
       },
       {
-        "name": "sicilians",
-        "games": 184,
-        "winRate": 58.15
+        "name": "saracens",
+        "games": 158,
+        "winRate": 60.13
+      },
+      {
+        "name": "portuguese",
+        "games": 200,
+        "winRate": 58.5
       }
     ],
     "weakAgainst": [
       {
         "name": "wei",
         "games": 160,
-        "winRate": 44.38
+        "winRate": 45
       },
       {
         "name": "saxons",
@@ -434,14 +434,14 @@
         "winRate": 46.09
       },
       {
-        "name": "khmer",
-        "games": 242,
-        "winRate": 46.28
+        "name": "dravidians",
+        "games": 184,
+        "winRate": 46.2
       },
       {
-        "name": "dravidians",
-        "games": 183,
-        "winRate": 46.45
+        "name": "khmer",
+        "games": 244,
+        "winRate": 46.31
       }
     ]
   },
