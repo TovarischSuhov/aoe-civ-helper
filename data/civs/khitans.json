@@ -361,41 +361,41 @@
   "stats": {
     "winRate": 48.51,
     "playRate": 1.3,
-    "picks": 7557,
+    "picks": 7547,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-22T09:26:32.000Z",
+    "updated": "2026-10-22T20:10:41.000Z",
     "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 48.01,
+        "winRate": 48.03,
         "playRate": 1.3,
-        "picks": 4574
-      },
-      "open": {
-        "winRate": 48.53,
-        "playRate": 1.39,
-        "picks": 2345
+        "picks": 4553
       },
       "closed": {
-        "winRate": 51.27,
-        "playRate": 1.04,
-        "picks": 513
+        "winRate": 50.78,
+        "playRate": 1.03,
+        "picks": 510
+      },
+      "open": {
+        "winRate": 48.6,
+        "playRate": 1.38,
+        "picks": 2358
       },
       "nomad": {
-        "winRate": 55.2,
-        "playRate": 1.04,
-        "picks": 125
+        "winRate": 54.76,
+        "playRate": 1.03,
+        "picks": 126
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 135,
-        "winRate": 64.44
+        "games": 139,
+        "winRate": 63.31
       },
       {
         "name": "saxons",
@@ -413,16 +413,16 @@
         "winRate": 56.25
       },
       {
-        "name": "berbers",
-        "games": 130,
-        "winRate": 56.15
+        "name": "wei",
+        "games": 143,
+        "winRate": 55.94
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 107,
-        "winRate": 33.64
+        "games": 109,
+        "winRate": 33.94
       },
       {
         "name": "japanese",
@@ -430,14 +430,14 @@
         "winRate": 37.85
       },
       {
-        "name": "romans",
-        "games": 109,
-        "winRate": 41.28
-      },
-      {
         "name": "britons",
         "games": 133,
         "winRate": 41.35
+      },
+      {
+        "name": "romans",
+        "games": 106,
+        "winRate": 41.51
       },
       {
         "name": "jurchens",

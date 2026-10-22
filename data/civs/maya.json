@@ -333,43 +333,43 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.84,
+    "winRate": 53.86,
     "playRate": 2.05,
-    "picks": 11914,
+    "picks": 11946,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-22T09:26:32.000Z",
+    "updated": "2026-10-22T20:10:41.000Z",
     "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
-      "open": {
-        "winRate": 55.9,
-        "playRate": 2.34,
-        "picks": 3959
-      },
       "other": {
-        "winRate": 53.09,
+        "winRate": 53.04,
         "playRate": 1.98,
-        "picks": 6964
+        "picks": 6938
+      },
+      "open": {
+        "winRate": 55.99,
+        "playRate": 2.35,
+        "picks": 4010
       },
       "closed": {
-        "winRate": 50.32,
+        "winRate": 50.19,
         "playRate": 1.57,
-        "picks": 773
+        "picks": 775
       },
       "nomad": {
-        "winRate": 53.21,
+        "winRate": 53.81,
         "playRate": 1.82,
-        "picks": 218
+        "picks": 223
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 152,
-        "winRate": 69.08
+        "games": 153,
+        "winRate": 69.28
       },
       {
         "name": "tatars",
@@ -388,20 +388,20 @@
       },
       {
         "name": "magyars",
-        "games": 338,
-        "winRate": 59.17
+        "games": 333,
+        "winRate": 59.46
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 116,
-        "winRate": 40.52
+        "games": 118,
+        "winRate": 41.53
       },
       {
         "name": "slavs",
-        "games": 169,
-        "winRate": 43.79
+        "games": 171,
+        "winRate": 43.86
       },
       {
         "name": "malians",
@@ -414,9 +414,9 @@
         "winRate": 46.15
       },
       {
-        "name": "tupi",
-        "games": 160,
-        "winRate": 46.25
+        "name": "vikings",
+        "games": 218,
+        "winRate": 46.33
       }
     ]
   },

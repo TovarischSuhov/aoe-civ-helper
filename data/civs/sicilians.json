@@ -289,12 +289,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.13,
+    "winRate": 49.07,
     "playRate": 1.75,
-    "picks": 10206,
+    "picks": 10215,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-22T09:26:32.000Z",
+    "updated": "2026-10-22T20:10:41.000Z",
     "window": "2026-07-30 → 2026-10-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -303,12 +303,12 @@
       "other": {
         "winRate": 49.89,
         "playRate": 1.8,
-        "picks": 6314
+        "picks": 6290
       },
       "open": {
-        "winRate": 48.21,
+        "winRate": 48.03,
         "playRate": 1.77,
-        "picks": 2995
+        "picks": 3021
       },
       "closed": {
         "winRate": 45.87,
@@ -316,9 +316,9 @@
         "picks": 726
       },
       "nomad": {
-        "winRate": 50.88,
-        "playRate": 1.43,
-        "picks": 171
+        "winRate": 50.56,
+        "playRate": 1.46,
+        "picks": 178
       }
     },
     "strongAgainst": [
@@ -329,8 +329,13 @@
       },
       {
         "name": "byzantines",
-        "games": 150,
-        "winRate": 61.33
+        "games": 151,
+        "winRate": 60.93
+      },
+      {
+        "name": "incas",
+        "games": 170,
+        "winRate": 60.59
       },
       {
         "name": "gurjaras",
@@ -338,31 +343,26 @@
         "winRate": 59.7
       },
       {
-        "name": "incas",
-        "games": 171,
-        "winRate": 59.65
-      },
-      {
         "name": "goths",
-        "games": 166,
-        "winRate": 57.23
+        "games": 164,
+        "winRate": 57.93
       }
     ],
     "weakAgainst": [
       {
         "name": "bohemians",
-        "games": 180,
-        "winRate": 38.33
+        "games": 181,
+        "winRate": 38.67
       },
       {
         "name": "chinese",
-        "games": 251,
-        "winRate": 40.24
+        "games": 254,
+        "winRate": 39.76
       },
       {
         "name": "shu",
-        "games": 93,
-        "winRate": 40.86
+        "games": 92,
+        "winRate": 41.3
       },
       {
         "name": "romans",
