@@ -378,36 +378,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.47,
+    "winRate": 47.63,
     "playRate": 0.98,
     "picks": 5700,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-23T09:22:50.000Z",
+    "updated": "2026-10-23T19:57:57.000Z",
     "window": "2026-07-31 → 2026-10-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
-      "open": {
-        "winRate": 46.28,
-        "playRate": 0.99,
-        "picks": 1707
-      },
       "other": {
-        "winRate": 48.01,
+        "winRate": 48.12,
         "playRate": 0.96,
-        "picks": 3368
+        "picks": 3352
+      },
+      "open": {
+        "winRate": 46.62,
+        "playRate": 0.99,
+        "picks": 1716
       },
       "closed": {
-        "winRate": 49.1,
+        "winRate": 49.2,
         "playRate": 1.01,
-        "picks": 499
+        "picks": 500
       },
       "nomad": {
-        "winRate": 42.86,
-        "playRate": 1.01,
-        "picks": 126
+        "winRate": 42.42,
+        "playRate": 1.04,
+        "picks": 132
       }
     },
     "strongAgainst": [
@@ -418,18 +418,18 @@
       },
       {
         "name": "gurjaras",
-        "games": 71,
-        "winRate": 60.56
-      },
-      {
-        "name": "byzantines",
-        "games": 92,
-        "winRate": 57.61
+        "games": 72,
+        "winRate": 58.33
       },
       {
         "name": "cumans",
-        "games": 94,
-        "winRate": 57.45
+        "games": 95,
+        "winRate": 57.89
+      },
+      {
+        "name": "byzantines",
+        "games": 91,
+        "winRate": 57.14
       },
       {
         "name": "italians",
@@ -440,8 +440,8 @@
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 63,
-        "winRate": 33.33
+        "games": 64,
+        "winRate": 32.81
       },
       {
         "name": "sicilians",
@@ -450,8 +450,8 @@
       },
       {
         "name": "magyars",
-        "games": 153,
-        "winRate": 39.87
+        "games": 152,
+        "winRate": 40.13
       },
       {
         "name": "bohemians",
@@ -459,9 +459,9 @@
         "winRate": 41.27
       },
       {
-        "name": "turks",
-        "games": 117,
-        "winRate": 41.88
+        "name": "poles",
+        "games": 106,
+        "winRate": 42.45
       }
     ]
   },

@@ -332,46 +332,46 @@
   "stats": {
     "winRate": 48.52,
     "playRate": 1.7,
-    "picks": 9915,
+    "picks": 9905,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-23T09:22:50.000Z",
+    "updated": "2026-10-23T19:57:57.000Z",
     "window": "2026-07-31 → 2026-10-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
       "other": {
-        "winRate": 48.8,
+        "winRate": 48.79,
         "playRate": 1.7,
-        "picks": 5934
-      },
-      "closed": {
-        "winRate": 52.06,
-        "playRate": 2.31,
-        "picks": 1141
+        "picks": 5903
       },
       "open": {
-        "winRate": 46.79,
+        "winRate": 46.89,
         "playRate": 1.54,
-        "picks": 2650
+        "picks": 2670
+      },
+      "closed": {
+        "winRate": 51.84,
+        "playRate": 2.31,
+        "picks": 1140
       },
       "nomad": {
-        "winRate": 42.63,
-        "playRate": 1.52,
-        "picks": 190
+        "winRate": 43.23,
+        "playRate": 1.51,
+        "picks": 192
       }
     },
     "strongAgainst": [
       {
+        "name": "varangians",
+        "games": 88,
+        "winRate": 57.95
+      },
+      {
         "name": "berbers",
         "games": 170,
         "winRate": 57.06
-      },
-      {
-        "name": "varangians",
-        "games": 86,
-        "winRate": 56.98
       },
       {
         "name": "tupi",
@@ -380,25 +380,25 @@
       },
       {
         "name": "portuguese",
-        "games": 182,
-        "winRate": 54.95
+        "games": 183,
+        "winRate": 54.64
       },
       {
-        "name": "goths",
-        "games": 154,
-        "winRate": 54.55
+        "name": "georgians",
+        "games": 123,
+        "winRate": 54.47
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 220,
-        "winRate": 41.82
+        "games": 215,
+        "winRate": 41.4
       },
       {
-        "name": "britons",
-        "games": 202,
-        "winRate": 42.08
+        "name": "muisca",
+        "games": 95,
+        "winRate": 42.11
       },
       {
         "name": "vikings",
@@ -406,14 +406,14 @@
         "winRate": 42.5
       },
       {
-        "name": "muisca",
-        "games": 94,
-        "winRate": 42.55
+        "name": "britons",
+        "games": 202,
+        "winRate": 42.57
       },
       {
-        "name": "magyars",
-        "games": 267,
-        "winRate": 43.07
+        "name": "armenians",
+        "games": 159,
+        "winRate": 42.77
       }
     ]
   },
