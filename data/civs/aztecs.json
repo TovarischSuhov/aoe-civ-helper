@@ -347,58 +347,58 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.99,
-    "playRate": 1.53,
-    "picks": 8896,
+    "winRate": 50.05,
+    "playRate": 1.52,
+    "picks": 8886,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-23T19:57:57.000Z",
-    "window": "2026-07-31 → 2026-10-23",
+    "updated": "2026-10-24T08:54:37.000Z",
+    "window": "2026-08-01 → 2026-10-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
+      "other": {
+        "winRate": 50.98,
+        "playRate": 1.51,
+        "picks": 5230
+      },
+      "open": {
+        "winRate": 49.2,
+        "playRate": 1.54,
+        "picks": 2691
+      },
       "closed": {
         "winRate": 48.05,
         "playRate": 1.56,
         "picks": 770
       },
-      "open": {
-        "winRate": 49.14,
-        "playRate": 1.55,
-        "picks": 2684
-      },
-      "other": {
-        "winRate": 50.89,
-        "playRate": 1.51,
-        "picks": 5251
-      },
       "nomad": {
-        "winRate": 45.03,
+        "winRate": 44.62,
         "playRate": 1.5,
-        "picks": 191
+        "picks": 195
       }
     },
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 87,
-        "winRate": 58.62
+        "games": 88,
+        "winRate": 59.09
       },
       {
         "name": "varangians",
-        "games": 106,
-        "winRate": 57.55
+        "games": 108,
+        "winRate": 58.33
       },
       {
         "name": "tatars",
-        "games": 163,
-        "winRate": 56.44
+        "games": 164,
+        "winRate": 56.1
       },
       {
-        "name": "danes",
-        "games": 70,
-        "winRate": 55.71
+        "name": "dravidians",
+        "games": 142,
+        "winRate": 55.63
       },
       {
         "name": "lithuanians",
@@ -409,28 +409,28 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 366,
-        "winRate": 40.44
+        "games": 364,
+        "winRate": 40.38
       },
       {
         "name": "teutons",
-        "games": 167,
-        "winRate": 41.32
+        "games": 168,
+        "winRate": 41.67
       },
       {
         "name": "chinese",
-        "games": 240,
-        "winRate": 42.5
-      },
-      {
-        "name": "saxons",
-        "games": 71,
-        "winRate": 43.66
+        "games": 236,
+        "winRate": 43.22
       },
       {
         "name": "wei",
         "games": 153,
         "winRate": 43.79
+      },
+      {
+        "name": "malians",
+        "games": 162,
+        "winRate": 43.83
       }
     ]
   },

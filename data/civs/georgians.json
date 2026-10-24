@@ -295,26 +295,26 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.54,
+    "winRate": 49.61,
     "playRate": 1.18,
-    "picks": 6857,
+    "picks": 6867,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-23T19:57:57.000Z",
-    "window": "2026-07-31 → 2026-10-23",
+    "updated": "2026-10-24T08:54:37.000Z",
+    "window": "2026-08-01 → 2026-10-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "other": {
-        "winRate": 49.64,
-        "playRate": 1.19,
-        "picks": 4128
-      },
       "open": {
-        "winRate": 51.08,
+        "winRate": 51.29,
         "playRate": 1.21,
-        "picks": 2087
+        "picks": 2100
+      },
+      "other": {
+        "winRate": 49.62,
+        "playRate": 1.19,
+        "picks": 4119
       },
       "closed": {
         "winRate": 44.82,
@@ -322,9 +322,9 @@
         "picks": 502
       },
       "nomad": {
-        "winRate": 40.71,
-        "playRate": 1.1,
-        "picks": 140
+        "winRate": 41.78,
+        "playRate": 1.13,
+        "picks": 146
       }
     },
     "strongAgainst": [
@@ -340,8 +340,8 @@
       },
       {
         "name": "incas",
-        "games": 104,
-        "winRate": 59.62
+        "games": 103,
+        "winRate": 60.19
       },
       {
         "name": "burmese",
@@ -350,30 +350,30 @@
       },
       {
         "name": "varangians",
-        "games": 73,
-        "winRate": 57.53
+        "games": 74,
+        "winRate": 58.11
       }
     ],
     "weakAgainst": [
       {
-        "name": "malay",
-        "games": 125,
-        "winRate": 38.4
+        "name": "mayans",
+        "games": 152,
+        "winRate": 38.82
       },
       {
-        "name": "mayans",
-        "games": 151,
-        "winRate": 38.41
+        "name": "bengalis",
+        "games": 113,
+        "winRate": 39.82
+      },
+      {
+        "name": "malay",
+        "games": 128,
+        "winRate": 39.84
       },
       {
         "name": "chinese",
         "games": 171,
         "winRate": 42.11
-      },
-      {
-        "name": "bengalis",
-        "games": 116,
-        "winRate": 42.24
       },
       {
         "name": "khitans",

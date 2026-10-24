@@ -381,58 +381,58 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 51.64,
+    "winRate": 51.59,
     "playRate": 1.63,
-    "picks": 9506,
+    "picks": 9499,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-23T19:57:57.000Z",
-    "window": "2026-07-31 → 2026-10-23",
+    "updated": "2026-10-24T08:54:37.000Z",
+    "window": "2026-08-01 → 2026-10-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malians",
     "byMapType": {
-      "other": {
-        "winRate": 51.24,
-        "playRate": 1.64,
-        "picks": 5706
-      },
       "open": {
-        "winRate": 53.06,
+        "winRate": 52.75,
         "playRate": 1.67,
-        "picks": 2893
+        "picks": 2912
+      },
+      "other": {
+        "winRate": 51.3,
+        "playRate": 1.64,
+        "picks": 5671
       },
       "closed": {
-        "winRate": 50.36,
+        "winRate": 50.51,
         "playRate": 1.4,
-        "picks": 691
+        "picks": 693
       },
       "nomad": {
-        "winRate": 47.22,
-        "playRate": 1.7,
-        "picks": 216
+        "winRate": 47.53,
+        "playRate": 1.72,
+        "picks": 223
       }
     },
     "strongAgainst": [
       {
-        "name": "goths",
-        "games": 141,
-        "winRate": 60.99
+        "name": "wei",
+        "games": 135,
+        "winRate": 60.74
       },
       {
-        "name": "wei",
-        "games": 134,
-        "winRate": 60.45
+        "name": "goths",
+        "games": 140,
+        "winRate": 60.71
       },
       {
         "name": "slavs",
-        "games": 154,
-        "winRate": 60.39
+        "games": 155,
+        "winRate": 60.65
       },
       {
-        "name": "incas",
-        "games": 149,
-        "winRate": 58.39
+        "name": "lithuanians",
+        "games": 197,
+        "winRate": 58.38
       },
       {
         "name": "saracens",
@@ -457,14 +457,14 @@
         "winRate": 41.87
       },
       {
-        "name": "mongols",
-        "games": 456,
-        "winRate": 43.2
+        "name": "huns",
+        "games": 190,
+        "winRate": 42.63
       },
       {
-        "name": "huns",
-        "games": 192,
-        "winRate": 43.23
+        "name": "mongols",
+        "games": 451,
+        "winRate": 43.24
       }
     ]
   },

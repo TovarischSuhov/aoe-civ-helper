@@ -366,36 +366,36 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 52.31,
+    "winRate": 52.28,
     "playRate": 1.98,
-    "picks": 11558,
+    "picks": 11566,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-23T19:57:57.000Z",
-    "window": "2026-07-31 → 2026-10-23",
+    "updated": "2026-10-24T08:54:37.000Z",
+    "window": "2026-08-01 → 2026-10-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
+      "open": {
+        "winRate": 52.85,
+        "playRate": 2.04,
+        "picks": 3563
+      },
       "other": {
-        "winRate": 51.8,
-        "playRate": 1.96,
-        "picks": 6826
+        "winRate": 51.79,
+        "playRate": 1.97,
+        "picks": 6814
       },
       "closed": {
-        "winRate": 53.04,
+        "winRate": 53.35,
         "playRate": 1.96,
         "picks": 969
       },
-      "open": {
-        "winRate": 52.98,
-        "playRate": 2.05,
-        "picks": 3545
-      },
       "nomad": {
-        "winRate": 54.13,
-        "playRate": 1.71,
-        "picks": 218
+        "winRate": 53.64,
+        "playRate": 1.7,
+        "picks": 220
       }
     },
     "strongAgainst": [
@@ -406,35 +406,35 @@
       },
       {
         "name": "berbers",
-        "games": 209,
-        "winRate": 63.16
+        "games": 212,
+        "winRate": 63.21
       },
       {
         "name": "britons",
-        "games": 210,
-        "winRate": 62.38
+        "games": 211,
+        "winRate": 62.09
       },
       {
         "name": "byzantines",
-        "games": 183,
-        "winRate": 60.66
+        "games": 186,
+        "winRate": 60.75
       },
       {
-        "name": "varangians",
-        "games": 129,
-        "winRate": 59.69
+        "name": "wu",
+        "games": 104,
+        "winRate": 59.62
       }
     ],
     "weakAgainst": [
       {
         "name": "italians",
-        "games": 184,
-        "winRate": 43.48
+        "games": 183,
+        "winRate": 43.17
       },
       {
         "name": "malians",
-        "games": 206,
-        "winRate": 44.66
+        "games": 205,
+        "winRate": 44.88
       },
       {
         "name": "sicilians",
@@ -442,14 +442,14 @@
         "winRate": 45.18
       },
       {
-        "name": "goths",
-        "games": 163,
-        "winRate": 45.4
-      },
-      {
         "name": "bulgarians",
         "games": 189,
         "winRate": 45.5
+      },
+      {
+        "name": "goths",
+        "games": 162,
+        "winRate": 45.68
       }
     ]
   },
