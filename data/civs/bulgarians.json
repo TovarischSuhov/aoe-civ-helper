@@ -288,36 +288,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.9,
-    "playRate": 1.7,
-    "picks": 9889,
+    "winRate": 49.83,
+    "playRate": 1.69,
+    "picks": 9882,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-24T08:54:37.000Z",
+    "updated": "2026-10-24T18:48:43.000Z",
     "window": "2026-08-01 → 2026-10-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
-      "open": {
-        "winRate": 49.65,
-        "playRate": 1.78,
-        "picks": 3100
-      },
       "other": {
-        "winRate": 50.22,
-        "playRate": 1.68,
-        "picks": 5799
+        "winRate": 50.15,
+        "playRate": 1.67,
+        "picks": 5767
+      },
+      "open": {
+        "winRate": 49.55,
+        "playRate": 1.78,
+        "picks": 3126
       },
       "closed": {
-        "winRate": 46.7,
+        "winRate": 46.69,
         "playRate": 1.56,
-        "picks": 773
+        "picks": 771
       },
       "nomad": {
-        "winRate": 56.68,
-        "playRate": 1.67,
-        "picks": 217
+        "winRate": 56.42,
+        "playRate": 1.64,
+        "picks": 218
       }
     },
     "strongAgainst": [
@@ -333,18 +333,18 @@
       },
       {
         "name": "mapuche",
-        "games": 96,
-        "winRate": 59.38
-      },
-      {
-        "name": "poles",
-        "games": 180,
-        "winRate": 58.33
+        "games": 95,
+        "winRate": 58.95
       },
       {
         "name": "incas",
         "games": 172,
         "winRate": 58.14
+      },
+      {
+        "name": "byzantines",
+        "games": 169,
+        "winRate": 57.99
       }
     ],
     "weakAgainst": [
@@ -365,8 +365,8 @@
       },
       {
         "name": "mongols",
-        "games": 506,
-        "winRate": 43.87
+        "games": 505,
+        "winRate": 44.16
       },
       {
         "name": "franks",
