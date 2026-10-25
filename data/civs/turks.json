@@ -361,36 +361,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.4,
+    "winRate": 49.34,
     "playRate": 1.77,
-    "picks": 10348,
+    "picks": 10335,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-24T18:48:43.000Z",
-    "window": "2026-08-01 → 2026-10-24",
+    "updated": "2026-10-25T09:11:16.000Z",
+    "window": "2026-08-02 → 2026-10-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
       "other": {
-        "winRate": 48.82,
+        "winRate": 48.78,
         "playRate": 1.74,
-        "picks": 5994
-      },
-      "open": {
-        "winRate": 47.95,
-        "playRate": 1.47,
-        "picks": 2588
+        "picks": 5959
       },
       "closed": {
         "winRate": 54.95,
         "playRate": 3.14,
         "picks": 1556
       },
+      "open": {
+        "winRate": 47.75,
+        "playRate": 1.47,
+        "picks": 2605
+      },
       "nomad": {
-        "winRate": 42.86,
+        "winRate": 43.26,
         "playRate": 1.58,
-        "picks": 210
+        "picks": 215
       }
     },
     "strongAgainst": [
@@ -400,36 +400,36 @@
         "winRate": 68.75
       },
       {
-        "name": "varangians",
-        "games": 90,
-        "winRate": 61.11
+        "name": "tupi",
+        "games": 92,
+        "winRate": 59.78
       },
       {
-        "name": "tupi",
-        "games": 93,
-        "winRate": 60.22
+        "name": "varangians",
+        "games": 92,
+        "winRate": 59.78
+      },
+      {
+        "name": "portuguese",
+        "games": 213,
+        "winRate": 58.69
       },
       {
         "name": "saracens",
         "games": 183,
         "winRate": 58.47
-      },
-      {
-        "name": "portuguese",
-        "games": 213,
-        "winRate": 58.22
       }
     ],
     "weakAgainst": [
       {
-        "name": "gurjaras",
-        "games": 152,
-        "winRate": 38.16
-      },
-      {
         "name": "japanese",
         "games": 220,
         "winRate": 38.18
+      },
+      {
+        "name": "gurjaras",
+        "games": 151,
+        "winRate": 38.41
       },
       {
         "name": "mapuche",
@@ -443,8 +443,8 @@
       },
       {
         "name": "huns",
-        "games": 181,
-        "winRate": 42.54
+        "games": 182,
+        "winRate": 42.31
       }
     ]
   },
