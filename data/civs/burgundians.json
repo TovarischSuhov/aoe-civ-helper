@@ -372,36 +372,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.91,
+    "winRate": 48.9,
     "playRate": 2.08,
-    "picks": 12150,
+    "picks": 12148,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T09:11:16.000Z",
+    "updated": "2026-10-25T19:05:06.000Z",
     "window": "2026-08-02 → 2026-10-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burgundians",
     "byMapType": {
       "other": {
-        "winRate": 49.36,
+        "winRate": 49.32,
         "playRate": 2.03,
-        "picks": 6949
-      },
-      "open": {
-        "winRate": 46.8,
-        "playRate": 1.76,
-        "picks": 3128
+        "picks": 6924
       },
       "closed": {
-        "winRate": 50.83,
+        "winRate": 50.74,
         "playRate": 3.66,
-        "picks": 1818
+        "picks": 1819
+      },
+      "open": {
+        "winRate": 46.95,
+        "playRate": 1.76,
+        "picks": 3146
       },
       "nomad": {
-        "winRate": 48.63,
-        "playRate": 1.88,
-        "picks": 255
+        "winRate": 48.26,
+        "playRate": 1.87,
+        "picks": 259
       }
     },
     "strongAgainst": [
@@ -412,13 +412,8 @@
       },
       {
         "name": "portuguese",
-        "games": 242,
-        "winRate": 54.96
-      },
-      {
-        "name": "jurchens",
-        "games": 160,
-        "winRate": 54.38
+        "games": 240,
+        "winRate": 54.58
       },
       {
         "name": "tupi",
@@ -426,35 +421,40 @@
         "winRate": 54.2
       },
       {
+        "name": "jurchens",
+        "games": 161,
+        "winRate": 54.04
+      },
+      {
         "name": "shu",
-        "games": 97,
-        "winRate": 53.61
+        "games": 95,
+        "winRate": 53.68
       }
     ],
     "weakAgainst": [
       {
         "name": "huns",
-        "games": 211,
-        "winRate": 39.34
+        "games": 212,
+        "winRate": 39.62
       },
       {
         "name": "mongols",
-        "games": 619,
-        "winRate": 41.36
-      },
-      {
-        "name": "spanish",
-        "games": 376,
-        "winRate": 42.29
-      },
-      {
-        "name": "vikings",
-        "games": 217,
-        "winRate": 42.86
+        "games": 618,
+        "winRate": 41.26
       },
       {
         "name": "mapuche",
         "games": 109,
+        "winRate": 42.2
+      },
+      {
+        "name": "spanish",
+        "games": 379,
+        "winRate": 42.22
+      },
+      {
+        "name": "vikings",
+        "games": 218,
         "winRate": 43.12
       }
     ]

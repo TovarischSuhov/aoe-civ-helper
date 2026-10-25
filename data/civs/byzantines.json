@@ -280,63 +280,63 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.29,
+    "winRate": 48.21,
     "playRate": 1.6,
-    "picks": 9351,
+    "picks": 9343,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T09:11:16.000Z",
+    "updated": "2026-10-25T19:05:06.000Z",
     "window": "2026-08-02 → 2026-10-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
-      "open": {
-        "winRate": 47.4,
-        "playRate": 1.59,
-        "picks": 2827
-      },
       "other": {
-        "winRate": 48.83,
-        "playRate": 1.62,
-        "picks": 5548
+        "winRate": 48.71,
+        "playRate": 1.61,
+        "picks": 5518
+      },
+      "open": {
+        "winRate": 47.25,
+        "playRate": 1.59,
+        "picks": 2851
       },
       "closed": {
-        "winRate": 46.1,
-        "playRate": 1.5,
-        "picks": 744
+        "winRate": 46.34,
+        "playRate": 1.49,
+        "picks": 738
       },
       "nomad": {
-        "winRate": 53.45,
-        "playRate": 1.71,
-        "picks": 232
+        "winRate": 53.81,
+        "playRate": 1.7,
+        "picks": 236
       }
     },
     "strongAgainst": [
       {
-        "name": "gurjaras",
-        "games": 146,
-        "winRate": 58.22
+        "name": "saracens",
+        "games": 142,
+        "winRate": 57.75
       },
       {
-        "name": "saracens",
-        "games": 141,
-        "winRate": 57.45
+        "name": "gurjaras",
+        "games": 144,
+        "winRate": 57.64
       },
       {
         "name": "jurchens",
-        "games": 128,
-        "winRate": 56.25
+        "games": 126,
+        "winRate": 55.56
       },
       {
         "name": "tatars",
-        "games": 173,
-        "winRate": 56.07
+        "games": 170,
+        "winRate": 55.29
       },
       {
         "name": "britons",
-        "games": 207,
-        "winRate": 54.59
+        "games": 209,
+        "winRate": 55.02
       }
     ],
     "weakAgainst": [
@@ -352,18 +352,18 @@
       },
       {
         "name": "sicilians",
-        "games": 149,
-        "winRate": 38.26
+        "games": 150,
+        "winRate": 38.67
       },
       {
         "name": "malay",
-        "games": 165,
-        "winRate": 39.39
+        "games": 166,
+        "winRate": 39.16
       },
       {
         "name": "mapuche",
-        "games": 108,
-        "winRate": 39.81
+        "games": 107,
+        "winRate": 40.19
       }
     ]
   },

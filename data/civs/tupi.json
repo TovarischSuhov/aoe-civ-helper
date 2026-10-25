@@ -357,43 +357,43 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.77,
+    "winRate": 48.59,
     "playRate": 1.18,
-    "picks": 6891,
+    "picks": 6890,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T09:11:16.000Z",
+    "updated": "2026-10-25T19:05:06.000Z",
     "window": "2026-08-02 → 2026-10-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 48.29,
+        "winRate": 48.05,
         "playRate": 1.18,
-        "picks": 4042
+        "picks": 4029
       },
       "open": {
-        "winRate": 49.17,
+        "winRate": 49.09,
         "playRate": 1.26,
-        "picks": 2239
+        "picks": 2249
       },
       "closed": {
-        "winRate": 48.9,
+        "winRate": 48.58,
         "playRate": 0.92,
-        "picks": 456
+        "picks": 457
       },
       "nomad": {
-        "winRate": 55.19,
-        "playRate": 1.13,
-        "picks": 154
+        "winRate": 55.48,
+        "playRate": 1.12,
+        "picks": 155
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 80,
-        "winRate": 62.5
+        "games": 82,
+        "winRate": 62.2
       },
       {
         "name": "gurjaras",
@@ -407,21 +407,16 @@
       },
       {
         "name": "vietnamese",
-        "games": 226,
-        "winRate": 57.96
+        "games": 225,
+        "winRate": 57.78
       },
       {
         "name": "berbers",
-        "games": 111,
-        "winRate": 56.76
+        "games": 110,
+        "winRate": 56.36
       }
     ],
     "weakAgainst": [
-      {
-        "name": "saxons",
-        "games": 42,
-        "winRate": 38.1
-      },
       {
         "name": "wei",
         "games": 138,
@@ -429,18 +424,23 @@
       },
       {
         "name": "turks",
-        "games": 92,
-        "winRate": 40.22
+        "games": 90,
+        "winRate": 38.89
+      },
+      {
+        "name": "saxons",
+        "games": 43,
+        "winRate": 39.53
       },
       {
         "name": "armenians",
-        "games": 120,
-        "winRate": 40.83
+        "games": 121,
+        "winRate": 40.5
       },
       {
-        "name": "teutons",
-        "games": 124,
-        "winRate": 41.13
+        "name": "romans",
+        "games": 90,
+        "winRate": 41.11
       }
     ]
   },
