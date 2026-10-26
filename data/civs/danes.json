@@ -286,35 +286,35 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 45.3,
+    "winRate": 45.22,
     "playRate": 0.92,
-    "picks": 5353,
+    "picks": 5398,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-26T10:11:30.000Z",
+    "updated": "2026-10-26T21:02:30.000Z",
     "window": "2026-08-03 → 2026-10-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/danes",
     "byMapType": {
       "open": {
-        "winRate": 43.91,
+        "winRate": 43.68,
         "playRate": 0.83,
-        "picks": 1494
+        "picks": 1518
       },
       "other": {
-        "winRate": 46.88,
-        "playRate": 0.95,
-        "picks": 3221
+        "winRate": 46.84,
+        "playRate": 0.96,
+        "picks": 3239
       },
       "closed": {
-        "winRate": 38.18,
+        "winRate": 38.33,
         "playRate": 1.08,
-        "picks": 537
+        "picks": 540
       },
       "nomad": {
         "winRate": 53.47,
-        "playRate": 0.71,
+        "playRate": 0.7,
         "picks": 101
       }
     },
@@ -326,8 +326,8 @@
       },
       {
         "name": "vietnamese",
-        "games": 88,
-        "winRate": 59.09
+        "games": 90,
+        "winRate": 58.89
       },
       {
         "name": "bengalis",
@@ -335,26 +335,26 @@
         "winRate": 56.45
       },
       {
-        "name": "burgundians",
-        "games": 85,
-        "winRate": 55.29
-      },
-      {
         "name": "lithuanians",
         "games": 70,
         "winRate": 54.29
+      },
+      {
+        "name": "burgundians",
+        "games": 87,
+        "winRate": 54.02
       }
     ],
     "weakAgainst": [
       {
         "name": "turks",
-        "games": 68,
-        "winRate": 29.41
+        "games": 70,
+        "winRate": 28.57
       },
       {
         "name": "chinese",
-        "games": 123,
-        "winRate": 32.52
+        "games": 124,
+        "winRate": 32.26
       },
       {
         "name": "mapuche",
@@ -362,14 +362,14 @@
         "winRate": 34.29
       },
       {
-        "name": "wei",
-        "games": 67,
-        "winRate": 34.33
-      },
-      {
         "name": "bohemians",
         "games": 105,
         "winRate": 35.24
+      },
+      {
+        "name": "wei",
+        "games": 68,
+        "winRate": 35.29
       }
     ]
   },

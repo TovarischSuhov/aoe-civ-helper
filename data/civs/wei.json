@@ -350,43 +350,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.9,
-    "playRate": 1.57,
-    "picks": 9154,
+    "winRate": 49.93,
+    "playRate": 1.56,
+    "picks": 9153,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-26T10:11:30.000Z",
+    "updated": "2026-10-26T21:02:30.000Z",
     "window": "2026-08-03 → 2026-10-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
-      "other": {
-        "winRate": 50.04,
-        "playRate": 1.51,
-        "picks": 5148
-      },
       "open": {
-        "winRate": 50.62,
+        "winRate": 50.64,
         "playRate": 1.71,
-        "picks": 3082
+        "picks": 3104
       },
       "closed": {
-        "winRate": 46.75,
+        "winRate": 46.82,
         "playRate": 1.45,
-        "picks": 723
+        "picks": 724
+      },
+      "other": {
+        "winRate": 50.07,
+        "playRate": 1.51,
+        "picks": 5123
       },
       "nomad": {
-        "winRate": 46.77,
-        "playRate": 1.42,
-        "picks": 201
+        "winRate": 46.53,
+        "playRate": 1.4,
+        "picks": 202
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 67,
-        "winRate": 65.67
+        "games": 68,
+        "winRate": 64.71
       },
       {
         "name": "tupi",
@@ -395,8 +395,8 @@
       },
       {
         "name": "lithuanians",
-        "games": 170,
-        "winRate": 58.82
+        "games": 169,
+        "winRate": 58.58
       },
       {
         "name": "varangians",
@@ -405,8 +405,8 @@
       },
       {
         "name": "aztecs",
-        "games": 154,
-        "winRate": 56.49
+        "games": 156,
+        "winRate": 56.41
       }
     ],
     "weakAgainst": [
@@ -416,24 +416,24 @@
         "winRate": 38.69
       },
       {
-        "name": "romans",
-        "games": 127,
-        "winRate": 41.73
+        "name": "spanish",
+        "games": 238,
+        "winRate": 42.02
       },
       {
-        "name": "spanish",
-        "games": 236,
-        "winRate": 42.37
+        "name": "romans",
+        "games": 128,
+        "winRate": 42.19
       },
       {
         "name": "burmese",
-        "games": 118,
-        "winRate": 43.22
+        "games": 117,
+        "winRate": 43.59
       },
       {
         "name": "hindustanis",
-        "games": 200,
-        "winRate": 44
+        "games": 201,
+        "winRate": 43.78
       }
     ]
   },
