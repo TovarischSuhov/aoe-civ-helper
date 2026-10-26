@@ -318,43 +318,43 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 51.38,
-    "playRate": 1.89,
-    "picks": 11050,
+    "winRate": 51.5,
+    "playRate": 1.9,
+    "picks": 11089,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T19:05:06.000Z",
-    "window": "2026-08-02 → 2026-10-25",
+    "updated": "2026-10-26T10:11:30.000Z",
+    "window": "2026-08-03 → 2026-10-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
-      "closed": {
-        "winRate": 54.3,
-        "playRate": 2.15,
-        "picks": 1070
-      },
       "other": {
-        "winRate": 50.88,
+        "winRate": 50.92,
         "playRate": 1.96,
-        "picks": 6694
+        "picks": 6673
       },
       "open": {
-        "winRate": 51.41,
-        "playRate": 1.59,
-        "picks": 2838
+        "winRate": 51.82,
+        "playRate": 1.6,
+        "picks": 2889
+      },
+      "closed": {
+        "winRate": 54.15,
+        "playRate": 2.15,
+        "picks": 1071
       },
       "nomad": {
-        "winRate": 51.79,
-        "playRate": 3.23,
-        "picks": 448
+        "winRate": 51.75,
+        "playRate": 3.22,
+        "picks": 456
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 145,
-        "winRate": 63.45
+        "games": 146,
+        "winRate": 63.7
       },
       {
         "name": "gurjaras",
@@ -363,18 +363,18 @@
       },
       {
         "name": "spanish",
-        "games": 312,
-        "winRate": 59.29
+        "games": 313,
+        "winRate": 59.42
       },
       {
         "name": "jurchens",
-        "games": 112,
-        "winRate": 58.04
+        "games": 111,
+        "winRate": 57.66
       },
       {
-        "name": "hindustanis",
-        "games": 188,
-        "winRate": 56.38
+        "name": "cumans",
+        "games": 219,
+        "winRate": 56.62
       }
     ],
     "weakAgainst": [
@@ -385,23 +385,23 @@
       },
       {
         "name": "muisca",
-        "games": 100,
-        "winRate": 44
+        "games": 101,
+        "winRate": 43.56
       },
       {
-        "name": "britons",
-        "games": 197,
-        "winRate": 46.19
-      },
-      {
-        "name": "incas",
-        "games": 216,
-        "winRate": 46.3
+        "name": "chinese",
+        "games": 268,
+        "winRate": 45.9
       },
       {
         "name": "byzantines",
         "games": 164,
         "winRate": 46.34
+      },
+      {
+        "name": "incas",
+        "games": 215,
+        "winRate": 46.51
       }
     ]
   },

@@ -279,53 +279,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.65,
-    "playRate": 1.28,
-    "picks": 7504,
+    "winRate": 50.64,
+    "playRate": 1.3,
+    "picks": 7587,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T19:05:06.000Z",
-    "window": "2026-08-02 → 2026-10-25",
+    "updated": "2026-10-26T10:11:30.000Z",
+    "window": "2026-08-03 → 2026-10-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saxons",
     "byMapType": {
       "other": {
         "winRate": 50.12,
-        "playRate": 1.26,
-        "picks": 4296
+        "playRate": 1.27,
+        "picks": 4312
       },
       "closed": {
-        "winRate": 54,
-        "playRate": 1.61,
-        "picks": 800
+        "winRate": 53.6,
+        "playRate": 1.62,
+        "picks": 806
       },
       "open": {
-        "winRate": 50.28,
-        "playRate": 1.29,
-        "picks": 2301
+        "winRate": 50.32,
+        "playRate": 1.3,
+        "picks": 2355
       },
       "nomad": {
-        "winRate": 55.14,
-        "playRate": 0.77,
-        "picks": 107
+        "winRate": 56.14,
+        "playRate": 0.8,
+        "picks": 114
       }
     },
     "strongAgainst": [
       {
         "name": "malians",
-        "games": 79,
-        "winRate": 62.03
+        "games": 80,
+        "winRate": 62.5
       },
       {
         "name": "tupi",
         "games": 43,
         "winRate": 60.47
-      },
-      {
-        "name": "bengalis",
-        "games": 60,
-        "winRate": 60
       },
       {
         "name": "incas",
@@ -334,20 +329,25 @@
       },
       {
         "name": "mayans",
-        "games": 134,
-        "winRate": 58.96
+        "games": 136,
+        "winRate": 59.56
+      },
+      {
+        "name": "bengalis",
+        "games": 61,
+        "winRate": 59.02
       }
     ],
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 60,
-        "winRate": 33.33
+        "games": 61,
+        "winRate": 32.79
       },
       {
         "name": "dravidians",
-        "games": 71,
-        "winRate": 38.03
+        "games": 74,
+        "winRate": 37.84
       },
       {
         "name": "khitans",
@@ -360,9 +360,9 @@
         "winRate": 41.56
       },
       {
-        "name": "slavs",
-        "games": 66,
-        "winRate": 42.42
+        "name": "bulgarians",
+        "games": 88,
+        "winRate": 42.05
       }
     ]
   },

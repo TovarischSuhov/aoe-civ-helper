@@ -352,80 +352,70 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 52.06,
+    "winRate": 52.05,
     "playRate": 0.97,
-    "picks": 5690,
+    "picks": 5689,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T19:05:06.000Z",
-    "window": "2026-08-02 → 2026-10-25",
+    "updated": "2026-10-26T10:11:30.000Z",
+    "window": "2026-08-03 → 2026-10-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "other": {
-        "winRate": 52.17,
+        "winRate": 52.18,
         "playRate": 0.98,
-        "picks": 3335
-      },
-      "open": {
-        "winRate": 53.17,
-        "playRate": 1,
-        "picks": 1781
+        "picks": 3319
       },
       "closed": {
-        "winRate": 46.88,
-        "playRate": 0.87,
-        "picks": 433
+        "winRate": 46.79,
+        "playRate": 0.88,
+        "picks": 436
+      },
+      "open": {
+        "winRate": 53.21,
+        "playRate": 0.99,
+        "picks": 1791
       },
       "nomad": {
-        "winRate": 51.06,
-        "playRate": 1.02,
-        "picks": 141
+        "winRate": 50.35,
+        "playRate": 1.01,
+        "picks": 143
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 40,
-        "winRate": 65
-      },
-      {
-        "name": "varangians",
-        "games": 42,
-        "winRate": 64.29
-      },
-      {
-        "name": "slavs",
-        "games": 89,
-        "winRate": 61.8
+        "games": 41,
+        "winRate": 63.41
       },
       {
         "name": "malay",
-        "games": 103,
-        "winRate": 61.17
+        "games": 101,
+        "winRate": 61.39
+      },
+      {
+        "name": "varangians",
+        "games": 44,
+        "winRate": 61.36
       },
       {
         "name": "japanese",
         "games": 138,
         "winRate": 60.87
+      },
+      {
+        "name": "slavs",
+        "games": 89,
+        "winRate": 60.67
       }
     ],
     "weakAgainst": [
       {
         "name": "koreans",
-        "games": 97,
-        "winRate": 40.21
-      },
-      {
-        "name": "georgians",
-        "games": 77,
-        "winRate": 40.26
-      },
-      {
-        "name": "goths",
-        "games": 92,
-        "winRate": 41.3
+        "games": 95,
+        "winRate": 41.05
       },
       {
         "name": "dravidians",
@@ -433,9 +423,19 @@
         "winRate": 41.49
       },
       {
+        "name": "georgians",
+        "games": 79,
+        "winRate": 41.77
+      },
+      {
+        "name": "goths",
+        "games": 90,
+        "winRate": 42.22
+      },
+      {
         "name": "aztecs",
-        "games": 104,
-        "winRate": 46.15
+        "games": 107,
+        "winRate": 45.79
       }
     ]
   },

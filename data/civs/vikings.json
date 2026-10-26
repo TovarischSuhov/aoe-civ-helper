@@ -358,70 +358,70 @@
     "takeaway": "Free Wheelbarrow + Hand Cart is a huge farming boost that saves two expensive techs and Town Center time — a multi-villager advantage that lets you flex into infantry, crossbows, or knights."
   },
   "stats": {
-    "winRate": 52.83,
+    "winRate": 52.67,
     "playRate": 1.82,
-    "picks": 10631,
+    "picks": 10626,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-25T19:05:06.000Z",
-    "window": "2026-08-02 → 2026-10-25",
+    "updated": "2026-10-26T10:11:30.000Z",
+    "window": "2026-08-03 → 2026-10-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
+      "open": {
+        "winRate": 52.49,
+        "playRate": 1.87,
+        "picks": 3376
+      },
       "other": {
-        "winRate": 52.65,
+        "winRate": 52.48,
         "playRate": 1.84,
-        "picks": 6300
+        "picks": 6267
       },
       "closed": {
-        "winRate": 54.5,
-        "playRate": 1.46,
-        "picks": 723
-      },
-      "open": {
-        "winRate": 52.63,
-        "playRate": 1.87,
-        "picks": 3350
+        "winRate": 54.29,
+        "playRate": 1.45,
+        "picks": 722
       },
       "nomad": {
-        "winRate": 55.04,
-        "playRate": 1.86,
-        "picks": 258
+        "winRate": 55.17,
+        "playRate": 1.84,
+        "picks": 261
       }
     },
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 155,
-        "winRate": 62.58
+        "games": 154,
+        "winRate": 62.99
       },
       {
         "name": "burmese",
         "games": 167,
-        "winRate": 59.88
+        "winRate": 60.48
       },
       {
         "name": "saracens",
-        "games": 157,
-        "winRate": 59.87
+        "games": 159,
+        "winRate": 60.38
       },
       {
         "name": "berbers",
-        "games": 193,
-        "winRate": 59.59
+        "games": 197,
+        "winRate": 58.88
       },
       {
-        "name": "byzantines",
-        "games": 191,
-        "winRate": 58.64
+        "name": "portuguese",
+        "games": 197,
+        "winRate": 58.38
       }
     ],
     "weakAgainst": [
       {
         "name": "dravidians",
-        "games": 191,
-        "winRate": 42.93
+        "games": 192,
+        "winRate": 42.71
       },
       {
         "name": "muisca",
@@ -430,18 +430,18 @@
       },
       {
         "name": "wei",
-        "games": 163,
-        "winRate": 44.79
-      },
-      {
-        "name": "saxons",
-        "games": 110,
-        "winRate": 45.45
+        "games": 164,
+        "winRate": 45.12
       },
       {
         "name": "khmer",
-        "games": 241,
-        "winRate": 45.64
+        "games": 244,
+        "winRate": 45.49
+      },
+      {
+        "name": "saxons",
+        "games": 111,
+        "winRate": 45.95
       }
     ]
   },
