@@ -295,90 +295,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.62,
+    "winRate": 49.67,
     "playRate": 1.18,
-    "picks": 6909,
+    "picks": 6913,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-26T21:02:30.000Z",
-    "window": "2026-08-03 → 2026-10-26",
+    "updated": "2026-10-27T09:50:53.000Z",
+    "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "open": {
-        "winRate": 51.37,
+      "other": {
+        "winRate": 49.41,
         "playRate": 1.2,
-        "picks": 2192
+        "picks": 4048
+      },
+      "open": {
+        "winRate": 51.52,
+        "playRate": 1.2,
+        "picks": 2203
       },
       "closed": {
-        "winRate": 45.6,
+        "winRate": 46.09,
         "playRate": 1,
-        "picks": 500
-      },
-      "other": {
-        "winRate": 49.45,
-        "playRate": 1.2,
-        "picks": 4057
+        "picks": 499
       },
       "nomad": {
-        "winRate": 42.5,
+        "winRate": 42.33,
         "playRate": 1.11,
-        "picks": 160
+        "picks": 163
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 62,
-        "winRate": 66.13
-      },
-      {
-        "name": "burmese",
-        "games": 86,
-        "winRate": 60.47
+        "games": 63,
+        "winRate": 66.67
       },
       {
         "name": "varangians",
-        "games": 82,
-        "winRate": 59.76
+        "games": 84,
+        "winRate": 60.71
+      },
+      {
+        "name": "burmese",
+        "games": 85,
+        "winRate": 60
+      },
+      {
+        "name": "incas",
+        "games": 102,
+        "winRate": 57.84
       },
       {
         "name": "shu",
         "games": 80,
         "winRate": 57.5
-      },
-      {
-        "name": "incas",
-        "games": 101,
-        "winRate": 57.43
       }
     ],
     "weakAgainst": [
       {
         "name": "bengalis",
-        "games": 113,
-        "winRate": 38.05
+        "games": 112,
+        "winRate": 39.29
       },
       {
         "name": "mayans",
-        "games": 156,
-        "winRate": 38.46
+        "games": 152,
+        "winRate": 39.47
       },
       {
         "name": "malay",
-        "games": 129,
-        "winRate": 41.09
+        "games": 130,
+        "winRate": 40.77
       },
       {
         "name": "chinese",
-        "games": 170,
-        "winRate": 42.35
+        "games": 171,
+        "winRate": 42.11
       },
       {
-        "name": "vietnamese",
-        "games": 149,
-        "winRate": 44.3
+        "name": "khitans",
+        "games": 84,
+        "winRate": 44.05
       }
     ]
   },
