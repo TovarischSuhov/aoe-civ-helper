@@ -3,7 +3,7 @@
   "internalName": "Tupi",
   "slug": "tupi",
   "version": {
-    "hash": "66a439979afe",
+    "hash": "e21b3d22d510",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -357,36 +357,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.62,
-    "playRate": 1.17,
-    "picks": 6830,
+    "winRate": 48.52,
+    "playRate": 1.16,
+    "picks": 6791,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T09:50:53.000Z",
+    "updated": "2026-10-27T20:44:09.000Z",
     "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
-      "other": {
-        "winRate": 48.12,
-        "playRate": 1.17,
-        "picks": 3938
-      },
       "open": {
-        "winRate": 48.92,
-        "playRate": 1.24,
-        "picks": 2269
+        "winRate": 48.75,
+        "playRate": 1.23,
+        "picks": 2271
+      },
+      "other": {
+        "winRate": 48.05,
+        "playRate": 1.16,
+        "picks": 3896
       },
       "closed": {
-        "winRate": 48.81,
+        "winRate": 48.6,
         "playRate": 0.93,
         "picks": 463
       },
       "nomad": {
-        "winRate": 56.25,
-        "playRate": 1.09,
-        "picks": 160
+        "winRate": 56.52,
+        "playRate": 1.08,
+        "picks": 161
       }
     },
     "strongAgainst": [
@@ -397,18 +397,18 @@
       },
       {
         "name": "gurjaras",
-        "games": 101,
-        "winRate": 59.41
+        "games": 100,
+        "winRate": 59
       },
       {
         "name": "vietnamese",
-        "games": 220,
-        "winRate": 58.18
+        "games": 219,
+        "winRate": 58.45
       },
       {
         "name": "mapuche",
-        "games": 76,
-        "winRate": 57.89
+        "games": 77,
+        "winRate": 57.14
       },
       {
         "name": "berbers",
@@ -419,8 +419,8 @@
     "weakAgainst": [
       {
         "name": "turks",
-        "games": 91,
-        "winRate": 38.46
+        "games": 92,
+        "winRate": 38.04
       },
       {
         "name": "saxons",
@@ -429,18 +429,18 @@
       },
       {
         "name": "wei",
-        "games": 136,
-        "winRate": 39.71
+        "games": 137,
+        "winRate": 39.42
+      },
+      {
+        "name": "khmer",
+        "games": 162,
+        "winRate": 40.74
       },
       {
         "name": "teutons",
-        "games": 121,
-        "winRate": 41.32
-      },
-      {
-        "name": "armenians",
-        "games": 121,
-        "winRate": 41.32
+        "games": 122,
+        "winRate": 40.98
       }
     ]
   },

@@ -3,7 +3,7 @@
   "internalName": "Bengalis",
   "slug": "bengalis",
   "version": {
-    "hash": "66a439979afe",
+    "hash": "e21b3d22d510",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -256,36 +256,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.12,
+    "winRate": 50.25,
     "playRate": 1.53,
-    "picks": 8979,
+    "picks": 8977,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T09:50:53.000Z",
+    "updated": "2026-10-27T20:44:09.000Z",
     "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "other": {
-        "winRate": 49.19,
-        "playRate": 1.54,
-        "picks": 5202
+      "closed": {
+        "winRate": 52.85,
+        "playRate": 1.86,
+        "picks": 929
       },
       "open": {
-        "winRate": 50.12,
-        "playRate": 1.42,
-        "picks": 2596
+        "winRate": 50.23,
+        "playRate": 1.41,
+        "picks": 2612
       },
-      "closed": {
-        "winRate": 52.58,
-        "playRate": 1.87,
-        "picks": 932
+      "other": {
+        "winRate": 49.32,
+        "playRate": 1.54,
+        "picks": 5183
       },
       "nomad": {
-        "winRate": 60.24,
-        "playRate": 1.7,
-        "picks": 249
+        "winRate": 60.08,
+        "playRate": 1.69,
+        "picks": 253
       }
     },
     "strongAgainst": [
@@ -295,24 +295,24 @@
         "winRate": 60.71
       },
       {
-        "name": "varangians",
-        "games": 67,
-        "winRate": 58.21
+        "name": "bohemians",
+        "games": 233,
+        "winRate": 57.08
       },
       {
-        "name": "bohemians",
-        "games": 234,
-        "winRate": 57.26
+        "name": "varangians",
+        "games": 69,
+        "winRate": 56.52
       },
       {
         "name": "saracens",
-        "games": 138,
-        "winRate": 55.8
+        "games": 136,
+        "winRate": 55.88
       },
       {
-        "name": "jurchens",
-        "games": 114,
-        "winRate": 55.26
+        "name": "byzantines",
+        "games": 148,
+        "winRate": 55.41
       }
     ],
     "weakAgainst": [
@@ -323,13 +323,8 @@
       },
       {
         "name": "saxons",
-        "games": 63,
-        "winRate": 41.27
-      },
-      {
-        "name": "armenians",
-        "games": 171,
-        "winRate": 42.11
+        "games": 64,
+        "winRate": 42.19
       },
       {
         "name": "malay",
@@ -337,8 +332,13 @@
         "winRate": 42.53
       },
       {
-        "name": "hindustanis",
-        "games": 168,
+        "name": "armenians",
+        "games": 173,
+        "winRate": 42.77
+      },
+      {
+        "name": "danes",
+        "games": 63,
         "winRate": 42.86
       }
     ]

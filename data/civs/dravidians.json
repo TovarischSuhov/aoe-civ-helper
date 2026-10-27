@@ -3,7 +3,7 @@
   "internalName": "Dravidians",
   "slug": "dravidians",
   "version": {
-    "hash": "66a439979afe",
+    "hash": "e21b3d22d510",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -315,36 +315,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.26,
+    "winRate": 51.27,
     "playRate": 1.53,
-    "picks": 8934,
+    "picks": 8933,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T09:50:53.000Z",
+    "updated": "2026-10-27T20:44:09.000Z",
     "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
     "byMapType": {
-      "open": {
-        "winRate": 51.13,
-        "playRate": 1.48,
-        "picks": 2705
-      },
       "other": {
-        "winRate": 50.59,
+        "winRate": 50.6,
         "playRate": 1.53,
-        "picks": 5159
+        "picks": 5126
       },
       "closed": {
-        "winRate": 54.4,
-        "playRate": 1.41,
-        "picks": 704
+        "winRate": 54.3,
+        "playRate": 1.42,
+        "picks": 709
+      },
+      "open": {
+        "winRate": 51.17,
+        "playRate": 1.48,
+        "picks": 2728
       },
       "nomad": {
-        "winRate": 55.74,
-        "playRate": 2.49,
-        "picks": 366
+        "winRate": 55.41,
+        "playRate": 2.47,
+        "picks": 370
       }
     },
     "strongAgainst": [
@@ -355,50 +355,50 @@
       },
       {
         "name": "goths",
-        "games": 147,
-        "winRate": 59.86
+        "games": 149,
+        "winRate": 59.06
       },
       {
         "name": "portuguese",
-        "games": 178,
-        "winRate": 58.99
+        "games": 177,
+        "winRate": 58.76
       },
       {
-        "name": "jurchens",
-        "games": 113,
-        "winRate": 58.41
+        "name": "danes",
+        "games": 58,
+        "winRate": 58.62
       },
       {
         "name": "varangians",
-        "games": 125,
-        "winRate": 58.4
+        "games": 127,
+        "winRate": 58.27
       }
     ],
     "weakAgainst": [
-      {
-        "name": "khmer",
-        "games": 209,
-        "winRate": 40.67
-      },
       {
         "name": "bulgarians",
         "games": 159,
         "winRate": 40.88
       },
       {
+        "name": "khmer",
+        "games": 210,
+        "winRate": 40.95
+      },
+      {
         "name": "chinese",
-        "games": 215,
-        "winRate": 43.72
+        "games": 214,
+        "winRate": 43.93
+      },
+      {
+        "name": "aztecs",
+        "games": 140,
+        "winRate": 44.29
       },
       {
         "name": "franks",
         "games": 153,
         "winRate": 44.44
-      },
-      {
-        "name": "aztecs",
-        "games": 142,
-        "winRate": 45.07
       }
     ]
   },

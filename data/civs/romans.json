@@ -3,7 +3,7 @@
   "internalName": "Romans",
   "slug": "romans",
   "version": {
-    "hash": "66a439979afe",
+    "hash": "e21b3d22d510",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -348,89 +348,89 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.85,
+    "winRate": 53.82,
     "playRate": 1.33,
-    "picks": 7781,
+    "picks": 7807,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T09:50:53.000Z",
+    "updated": "2026-10-27T20:44:09.000Z",
     "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "other": {
-        "winRate": 54.24,
-        "playRate": 1.35,
-        "picks": 4556
-      },
       "open": {
-        "winRate": 53.92,
+        "winRate": 53.89,
         "playRate": 1.41,
-        "picks": 2578
+        "picks": 2607
+      },
+      "other": {
+        "winRate": 54.21,
+        "playRate": 1.35,
+        "picks": 4542
       },
       "closed": {
-        "winRate": 51.83,
-        "playRate": 0.98,
-        "picks": 492
+        "winRate": 51.71,
+        "playRate": 0.99,
+        "picks": 497
       },
       "nomad": {
-        "winRate": 47.74,
-        "playRate": 1.06,
-        "picks": 155
+        "winRate": 48.45,
+        "playRate": 1.08,
+        "picks": 161
       }
     },
     "strongAgainst": [
       {
         "name": "muisca",
         "games": 58,
-        "winRate": 68.97
+        "winRate": 70.69
       },
       {
         "name": "byzantines",
-        "games": 132,
-        "winRate": 66.67
+        "games": 129,
+        "winRate": 67.44
       },
       {
         "name": "slavs",
-        "games": 114,
-        "winRate": 64.91
-      },
-      {
-        "name": "incas",
-        "games": 123,
-        "winRate": 63.41
+        "games": 113,
+        "winRate": 64.6
       },
       {
         "name": "danes",
         "games": 62,
         "winRate": 62.9
+      },
+      {
+        "name": "incas",
+        "games": 123,
+        "winRate": 62.6
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 474,
-        "winRate": 44.51
+        "games": 477,
+        "winRate": 44.44
       },
       {
         "name": "khmer",
-        "games": 194,
-        "winRate": 48.45
+        "games": 196,
+        "winRate": 48.47
       },
       {
-        "name": "spanish",
-        "games": 168,
-        "winRate": 49.4
+        "name": "bulgarians",
+        "games": 119,
+        "winRate": 48.74
+      },
+      {
+        "name": "japanese",
+        "games": 195,
+        "winRate": 49.74
       },
       {
         "name": "jurchens",
-        "games": 102,
-        "winRate": 50
-      },
-      {
-        "name": "huns",
-        "games": 164,
+        "games": 104,
         "winRate": 50
       }
     ]

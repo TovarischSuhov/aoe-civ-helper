@@ -3,7 +3,7 @@
   "internalName": "Lithuanians",
   "slug": "lithuanians",
   "version": {
-    "hash": "66a439979afe",
+    "hash": "e21b3d22d510",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -338,90 +338,90 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.32,
-    "playRate": 1.82,
-    "picks": 10672,
+    "winRate": 47.26,
+    "playRate": 1.83,
+    "picks": 10696,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T09:50:53.000Z",
+    "updated": "2026-10-27T20:44:09.000Z",
     "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/lithuanians",
     "byMapType": {
-      "open": {
-        "winRate": 47.33,
-        "playRate": 1.79,
-        "picks": 3277
-      },
       "other": {
-        "winRate": 47.73,
+        "winRate": 47.67,
         "playRate": 1.87,
-        "picks": 6311
+        "picks": 6283
+      },
+      "open": {
+        "winRate": 47.24,
+        "playRate": 1.8,
+        "picks": 3319
       },
       "closed": {
-        "winRate": 43.75,
-        "playRate": 1.63,
-        "picks": 816
+        "winRate": 43.85,
+        "playRate": 1.64,
+        "picks": 821
       },
       "nomad": {
-        "winRate": 48.51,
-        "playRate": 1.83,
-        "picks": 268
+        "winRate": 48.35,
+        "playRate": 1.82,
+        "picks": 273
       }
     },
     "strongAgainst": [
       {
-        "name": "sicilians",
-        "games": 173,
-        "winRate": 57.23
+        "name": "portuguese",
+        "games": 194,
+        "winRate": 57.73
       },
       {
-        "name": "portuguese",
-        "games": 196,
-        "winRate": 57.14
+        "name": "sicilians",
+        "games": 174,
+        "winRate": 57.47
       },
       {
         "name": "khitans",
-        "games": 134,
-        "winRate": 55.97
+        "games": 133,
+        "winRate": 56.39
       },
       {
         "name": "incas",
-        "games": 160,
-        "winRate": 55.63
+        "games": 158,
+        "winRate": 55.06
       },
       {
         "name": "bulgarians",
-        "games": 172,
-        "winRate": 55.23
+        "games": 173,
+        "winRate": 54.34
       }
     ],
     "weakAgainst": [
-      {
-        "name": "romans",
-        "games": 139,
-        "winRate": 38.13
-      },
       {
         "name": "koreans",
         "games": 186,
         "winRate": 38.17
       },
       {
+        "name": "romans",
+        "games": 140,
+        "winRate": 38.57
+      },
+      {
         "name": "mapuche",
-        "games": 100,
-        "winRate": 39
+        "games": 101,
+        "winRate": 38.61
       },
       {
         "name": "mongols",
-        "games": 555,
-        "winRate": 41.26
+        "games": 560,
+        "winRate": 41.25
       },
       {
         "name": "wei",
-        "games": 168,
-        "winRate": 41.67
+        "games": 169,
+        "winRate": 41.42
       }
     ]
   },

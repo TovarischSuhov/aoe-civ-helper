@@ -3,7 +3,7 @@
   "internalName": "Goths",
   "slug": "goths",
   "version": {
-    "hash": "66a439979afe",
+    "hash": "e21b3d22d510",
     "updateLabel": "",
     "schemaVersion": 4
   },
@@ -336,48 +336,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.42,
-    "playRate": 1.45,
-    "picks": 8464,
+    "winRate": 48.46,
+    "playRate": 1.46,
+    "picks": 8521,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T09:50:53.000Z",
+    "updated": "2026-10-27T20:44:09.000Z",
     "window": "2026-08-04 → 2026-10-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "open": {
-        "winRate": 49.5,
-        "playRate": 1.58,
-        "picks": 2899
-      },
-      "closed": {
-        "winRate": 45.53,
-        "playRate": 1.28,
-        "picks": 637
+        "winRate": 49.68,
+        "playRate": 1.6,
+        "picks": 2955
       },
       "other": {
-        "winRate": 48.4,
-        "playRate": 1.4,
-        "picks": 4727
+        "winRate": 48.36,
+        "playRate": 1.41,
+        "picks": 4721
+      },
+      "closed": {
+        "winRate": 45.38,
+        "playRate": 1.28,
+        "picks": 639
       },
       "nomad": {
-        "winRate": 42.29,
-        "playRate": 1.37,
-        "picks": 201
+        "winRate": 42.72,
+        "playRate": 1.38,
+        "picks": 206
       }
     },
     "strongAgainst": [
       {
         "name": "vietnamese",
-        "games": 203,
-        "winRate": 57.14
-      },
-      {
-        "name": "shu",
-        "games": 88,
-        "winRate": 56.82
+        "games": 204,
+        "winRate": 56.86
       },
       {
         "name": "mapuche",
@@ -386,40 +381,45 @@
       },
       {
         "name": "britons",
-        "games": 180,
-        "winRate": 56.11
+        "games": 179,
+        "winRate": 55.87
+      },
+      {
+        "name": "shu",
+        "games": 88,
+        "winRate": 55.68
       },
       {
         "name": "magyars",
-        "games": 204,
-        "winRate": 55.88
+        "games": 205,
+        "winRate": 55.61
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 136,
-        "winRate": 39.71
+        "games": 133,
+        "winRate": 39.1
       },
       {
         "name": "dravidians",
-        "games": 147,
-        "winRate": 40.14
+        "games": 149,
+        "winRate": 40.94
       },
       {
         "name": "japanese",
-        "games": 227,
-        "winRate": 41.41
+        "games": 231,
+        "winRate": 41.56
       },
       {
         "name": "sicilians",
-        "games": 160,
-        "winRate": 41.88
+        "games": 161,
+        "winRate": 41.61
       },
       {
-        "name": "georgians",
-        "games": 98,
-        "winRate": 42.86
+        "name": "vikings",
+        "games": 153,
+        "winRate": 42.48
       }
     ]
   },
