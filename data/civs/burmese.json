@@ -325,34 +325,34 @@
   "stats": {
     "winRate": 48.48,
     "playRate": 1.45,
-    "picks": 8461,
+    "picks": 8475,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T20:44:09.000Z",
-    "window": "2026-08-04 → 2026-10-27",
+    "updated": "2026-10-28T10:37:06.000Z",
+    "window": "2026-08-05 → 2026-10-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
       "other": {
-        "winRate": 48,
+        "winRate": 47.9,
         "playRate": 1.43,
-        "picks": 4802
-      },
-      "open": {
-        "winRate": 48.45,
-        "playRate": 1.43,
-        "picks": 2642
+        "picks": 4791
       },
       "closed": {
-        "winRate": 50.91,
+        "winRate": 51.04,
         "playRate": 1.53,
-        "picks": 766
+        "picks": 768
+      },
+      "open": {
+        "winRate": 48.55,
+        "playRate": 1.43,
+        "picks": 2663
       },
       "nomad": {
-        "winRate": 50.6,
-        "playRate": 1.68,
-        "picks": 251
+        "winRate": 50.99,
+        "playRate": 1.66,
+        "picks": 253
       }
     },
     "strongAgainst": [
@@ -364,7 +364,7 @@
       {
         "name": "teutons",
         "games": 180,
-        "winRate": 57.78
+        "winRate": 57.22
       },
       {
         "name": "berbers",
@@ -384,14 +384,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "georgians",
-        "games": 86,
-        "winRate": 39.53
+        "name": "vikings",
+        "games": 169,
+        "winRate": 40.24
       },
       {
-        "name": "huns",
-        "games": 161,
-        "winRate": 40.37
+        "name": "mongols",
+        "games": 366,
+        "winRate": 40.44
       },
       {
         "name": "shu",
@@ -399,14 +399,14 @@
         "winRate": 40.59
       },
       {
-        "name": "vikings",
-        "games": 170,
-        "winRate": 40.59
+        "name": "georgians",
+        "games": 86,
+        "winRate": 40.7
       },
       {
-        "name": "mongols",
-        "games": 367,
-        "winRate": 40.6
+        "name": "huns",
+        "games": 162,
+        "winRate": 40.74
       }
     ]
   },

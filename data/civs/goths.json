@@ -336,75 +336,75 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.46,
-    "playRate": 1.46,
-    "picks": 8521,
+    "winRate": 48.39,
+    "playRate": 1.45,
+    "picks": 8527,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-27T20:44:09.000Z",
-    "window": "2026-08-04 → 2026-10-27",
+    "updated": "2026-10-28T10:37:06.000Z",
+    "window": "2026-08-05 → 2026-10-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
-      "open": {
-        "winRate": 49.68,
-        "playRate": 1.6,
-        "picks": 2955
-      },
       "other": {
-        "winRate": 48.36,
+        "winRate": 48.22,
         "playRate": 1.41,
-        "picks": 4721
+        "picks": 4706
+      },
+      "open": {
+        "winRate": 49.78,
+        "playRate": 1.6,
+        "picks": 2971
       },
       "closed": {
-        "winRate": 45.38,
+        "winRate": 45.16,
         "playRate": 1.28,
-        "picks": 639
+        "picks": 640
       },
       "nomad": {
-        "winRate": 42.72,
+        "winRate": 42.38,
         "playRate": 1.38,
-        "picks": 206
+        "picks": 210
       }
     },
     "strongAgainst": [
       {
         "name": "vietnamese",
-        "games": 204,
-        "winRate": 56.86
+        "games": 206,
+        "winRate": 56.8
       },
       {
         "name": "mapuche",
-        "games": 88,
-        "winRate": 56.82
+        "games": 89,
+        "winRate": 56.18
       },
       {
-        "name": "britons",
-        "games": 179,
-        "winRate": 55.87
-      },
-      {
-        "name": "shu",
-        "games": 88,
-        "winRate": 55.68
+        "name": "danes",
+        "games": 54,
+        "winRate": 55.56
       },
       {
         "name": "magyars",
-        "games": 205,
-        "winRate": 55.61
+        "games": 204,
+        "winRate": 55.39
+      },
+      {
+        "name": "gurjaras",
+        "games": 145,
+        "winRate": 55.17
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 133,
-        "winRate": 39.1
+        "games": 132,
+        "winRate": 37.88
       },
       {
         "name": "dravidians",
-        "games": 149,
-        "winRate": 40.94
+        "games": 148,
+        "winRate": 41.22
       },
       {
         "name": "japanese",
@@ -418,8 +418,8 @@
       },
       {
         "name": "vikings",
-        "games": 153,
-        "winRate": 42.48
+        "games": 154,
+        "winRate": 42.21
       }
     ]
   },
