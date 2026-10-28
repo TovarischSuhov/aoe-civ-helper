@@ -359,29 +359,29 @@
   "stats": {
     "winRate": 48.46,
     "playRate": 1.16,
-    "picks": 6808,
+    "picks": 6807,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-28T10:37:06.000Z",
+    "updated": "2026-10-28T21:08:08.000Z",
     "window": "2026-08-05 → 2026-10-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
+      "open": {
+        "winRate": 48.77,
+        "playRate": 1.23,
+        "picks": 2284
+      },
       "other": {
         "winRate": 47.97,
         "playRate": 1.16,
-        "picks": 3888
-      },
-      "open": {
-        "winRate": 48.78,
-        "playRate": 1.23,
-        "picks": 2290
+        "picks": 3896
       },
       "closed": {
-        "winRate": 48.19,
-        "playRate": 0.94,
-        "picks": 469
+        "winRate": 48.28,
+        "playRate": 0.93,
+        "picks": 466
       },
       "nomad": {
         "winRate": 56.52,
@@ -392,18 +392,18 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 83,
-        "winRate": 61.45
+        "games": 84,
+        "winRate": 60.71
       },
       {
         "name": "gurjaras",
-        "games": 101,
-        "winRate": 59.41
+        "games": 100,
+        "winRate": 60
       },
       {
         "name": "vietnamese",
-        "games": 222,
-        "winRate": 58.11
+        "games": 221,
+        "winRate": 58.37
       },
       {
         "name": "mapuche",
@@ -412,8 +412,8 @@
       },
       {
         "name": "berbers",
-        "games": 107,
-        "winRate": 56.07
+        "games": 106,
+        "winRate": 55.66
       }
     ],
     "weakAgainst": [
@@ -424,23 +424,23 @@
       },
       {
         "name": "wei",
-        "games": 137,
-        "winRate": 38.69
-      },
-      {
-        "name": "saxons",
-        "games": 46,
+        "games": 138,
         "winRate": 39.13
       },
       {
         "name": "teutons",
-        "games": 121,
-        "winRate": 40.5
+        "games": 122,
+        "winRate": 40.16
       },
       {
         "name": "khmer",
-        "games": 165,
-        "winRate": 40.61
+        "games": 164,
+        "winRate": 40.85
+      },
+      {
+        "name": "romans",
+        "games": 90,
+        "winRate": 41.11
       }
     ]
   },

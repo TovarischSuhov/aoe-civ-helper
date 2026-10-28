@@ -306,31 +306,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.71,
+    "winRate": 49.65,
     "playRate": 1.96,
     "picks": 11484,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-28T10:37:06.000Z",
+    "updated": "2026-10-28T21:08:08.000Z",
     "window": "2026-08-05 → 2026-10-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
+      "open": {
+        "winRate": 50.77,
+        "playRate": 2.03,
+        "picks": 3788
+      },
       "other": {
-        "winRate": 49.35,
-        "playRate": 1.95,
-        "picks": 6525
+        "winRate": 49.24,
+        "playRate": 1.94,
+        "picks": 6521
       },
       "closed": {
-        "winRate": 48.56,
-        "playRate": 1.87,
-        "picks": 939
-      },
-      "open": {
-        "winRate": 50.74,
-        "playRate": 2.03,
-        "picks": 3782
+        "winRate": 48.45,
+        "playRate": 1.88,
+        "picks": 937
       },
       "nomad": {
         "winRate": 47.9,
@@ -341,55 +341,55 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 156,
-        "winRate": 62.82
+        "games": 157,
+        "winRate": 62.42
       },
       {
         "name": "jurchens",
-        "games": 145,
-        "winRate": 58.62
-      },
-      {
-        "name": "malians",
-        "games": 205,
-        "winRate": 57.07
+        "games": 146,
+        "winRate": 58.22
       },
       {
         "name": "goths",
         "games": 153,
-        "winRate": 56.86
+        "winRate": 57.52
       },
       {
-        "name": "danes",
-        "games": 94,
-        "winRate": 56.38
+        "name": "malians",
+        "games": 205,
+        "winRate": 56.59
+      },
+      {
+        "name": "muisca",
+        "games": 96,
+        "winRate": 56.25
       }
     ],
     "weakAgainst": [
       {
         "name": "vietnamese",
         "games": 314,
-        "winRate": 40.45
+        "winRate": 40.13
       },
       {
         "name": "hindustanis",
-        "games": 232,
-        "winRate": 41.81
+        "games": 234,
+        "winRate": 42.31
       },
       {
         "name": "chinese",
-        "games": 276,
-        "winRate": 43.12
+        "games": 274,
+        "winRate": 42.7
       },
       {
         "name": "wei",
-        "games": 190,
-        "winRate": 43.16
+        "games": 189,
+        "winRate": 42.86
       },
       {
-        "name": "koreans",
-        "games": 189,
-        "winRate": 44.44
+        "name": "dravidians",
+        "games": 195,
+        "winRate": 44.1
       }
     ]
   },
