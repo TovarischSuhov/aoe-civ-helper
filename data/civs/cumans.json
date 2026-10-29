@@ -330,31 +330,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.13,
+    "winRate": 48.07,
     "playRate": 1.69,
-    "picks": 9895,
+    "picks": 9899,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-29T10:55:13.000Z",
+    "updated": "2026-10-29T21:11:04.000Z",
     "window": "2026-08-06 → 2026-10-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
-      "open": {
-        "winRate": 46.24,
-        "playRate": 1.55,
-        "picks": 2887
-      },
       "other": {
-        "winRate": 48.71,
+        "winRate": 48.56,
         "playRate": 1.68,
-        "picks": 5642
+        "picks": 5655
       },
       "closed": {
-        "winRate": 50.75,
+        "winRate": 50.89,
         "playRate": 2.28,
-        "picks": 1129
+        "picks": 1126
+      },
+      "open": {
+        "winRate": 46.27,
+        "playRate": 1.55,
+        "picks": 2881
       },
       "nomad": {
         "winRate": 44.73,
@@ -375,45 +375,45 @@
       },
       {
         "name": "goths",
-        "games": 156,
-        "winRate": 55.13
+        "games": 157,
+        "winRate": 54.78
       },
       {
-        "name": "khitans",
-        "games": 121,
-        "winRate": 54.55
+        "name": "vietnamese",
+        "games": 224,
+        "winRate": 54.46
       },
       {
-        "name": "tupi",
-        "games": 105,
-        "winRate": 54.29
+        "name": "lithuanians",
+        "games": 173,
+        "winRate": 54.34
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 212,
-        "winRate": 40.09
-      },
-      {
-        "name": "vikings",
-        "games": 153,
-        "winRate": 41.18
+        "games": 213,
+        "winRate": 39.91
       },
       {
         "name": "wu",
-        "games": 115,
-        "winRate": 41.74
+        "games": 113,
+        "winRate": 40.71
       },
       {
         "name": "italians",
-        "games": 218,
-        "winRate": 41.74
+        "games": 215,
+        "winRate": 40.93
+      },
+      {
+        "name": "vikings",
+        "games": 154,
+        "winRate": 41.56
       },
       {
         "name": "magyars",
-        "games": 274,
-        "winRate": 42.34
+        "games": 273,
+        "winRate": 42.12
       }
     ]
   },
