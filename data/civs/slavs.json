@@ -314,31 +314,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.82,
+    "winRate": 47.87,
     "playRate": 1.39,
-    "picks": 8155,
+    "picks": 8154,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-28T21:08:08.000Z",
-    "window": "2026-08-05 → 2026-10-28",
+    "updated": "2026-10-29T10:55:13.000Z",
+    "window": "2026-08-06 → 2026-10-29",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
+      "open": {
+        "winRate": 47.1,
+        "playRate": 1.42,
+        "picks": 2652
+      },
       "other": {
-        "winRate": 48.37,
+        "winRate": 48.42,
         "playRate": 1.39,
-        "picks": 4662
+        "picks": 4657
       },
       "closed": {
-        "winRate": 48,
-        "playRate": 1.3,
-        "picks": 650
-      },
-      "open": {
-        "winRate": 47.15,
-        "playRate": 1.42,
-        "picks": 2649
+        "winRate": 48.39,
+        "playRate": 1.31,
+        "picks": 651
       },
       "nomad": {
         "winRate": 43.3,
@@ -349,8 +349,8 @@
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 94,
-        "winRate": 60.64
+        "games": 93,
+        "winRate": 60.22
       },
       {
         "name": "byzantines",
@@ -376,13 +376,13 @@
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 114,
-        "winRate": 35.96
+        "games": 113,
+        "winRate": 36.28
       },
       {
         "name": "vikings",
-        "games": 156,
-        "winRate": 37.82
+        "games": 157,
+        "winRate": 37.58
       },
       {
         "name": "shu",
@@ -391,13 +391,13 @@
       },
       {
         "name": "wu",
-        "games": 91,
-        "winRate": 38.46
+        "games": 92,
+        "winRate": 39.13
       },
       {
         "name": "malians",
-        "games": 149,
-        "winRate": 39.6
+        "games": 150,
+        "winRate": 40
       }
     ]
   },
