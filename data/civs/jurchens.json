@@ -366,31 +366,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.07,
+    "winRate": 46.11,
     "playRate": 1.23,
-    "picks": 7247,
+    "picks": 7229,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-29T21:11:04.000Z",
-    "window": "2026-08-06 → 2026-10-29",
+    "updated": "2026-10-30T10:53:14.000Z",
+    "window": "2026-08-07 → 2026-10-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
+      "other": {
+        "winRate": 46.25,
+        "playRate": 1.24,
+        "picks": 4164
+      },
       "open": {
-        "winRate": 45.47,
-        "playRate": 1.23,
-        "picks": 2283
+        "winRate": 45.59,
+        "playRate": 1.22,
+        "picks": 2281
       },
       "closed": {
-        "winRate": 46.93,
-        "playRate": 1.25,
-        "picks": 618
-      },
-      "other": {
-        "winRate": 46.26,
+        "winRate": 46.9,
         "playRate": 1.24,
-        "picks": 4174
+        "picks": 612
       },
       "nomad": {
         "winRate": 46.51,
@@ -401,18 +401,18 @@
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 124,
-        "winRate": 58.87
+        "games": 123,
+        "winRate": 58.54
+      },
+      {
+        "name": "khitans",
+        "games": 91,
+        "winRate": 57.14
       },
       {
         "name": "danes",
         "games": 58,
         "winRate": 56.9
-      },
-      {
-        "name": "khitans",
-        "games": 93,
-        "winRate": 55.91
       },
       {
         "name": "muisca",
@@ -421,15 +421,15 @@
       },
       {
         "name": "armenians",
-        "games": 112,
-        "winRate": 53.57
+        "games": 111,
+        "winRate": 54.05
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 102,
-        "winRate": 38.24
+        "games": 101,
+        "winRate": 38.61
       },
       {
         "name": "shu",
@@ -437,19 +437,19 @@
         "winRate": 39.24
       },
       {
-        "name": "spanish",
-        "games": 171,
-        "winRate": 39.77
-      },
-      {
-        "name": "malay",
-        "games": 133,
-        "winRate": 39.85
-      },
-      {
         "name": "persians",
         "games": 206,
         "winRate": 40.29
+      },
+      {
+        "name": "malay",
+        "games": 134,
+        "winRate": 40.3
+      },
+      {
+        "name": "franks",
+        "games": 134,
+        "winRate": 40.3
       }
     ]
   },

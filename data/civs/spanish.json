@@ -269,90 +269,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.21,
+    "winRate": 50.17,
     "playRate": 2.49,
-    "picks": 14628,
+    "picks": 14606,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-29T21:11:04.000Z",
-    "window": "2026-08-06 → 2026-10-29",
+    "updated": "2026-10-30T10:53:14.000Z",
+    "window": "2026-08-07 → 2026-10-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
       "closed": {
-        "winRate": 51.87,
+        "winRate": 52.01,
         "playRate": 3.09,
-        "picks": 1527
+        "picks": 1519
       },
       "other": {
-        "winRate": 49.83,
+        "winRate": 49.79,
         "playRate": 2.48,
         "picks": 8357
       },
       "open": {
-        "winRate": 49.41,
-        "playRate": 2.15,
-        "picks": 4003
+        "winRate": 49.29,
+        "playRate": 2.14,
+        "picks": 3989
       },
       "nomad": {
         "winRate": 55.47,
-        "playRate": 4.86,
+        "playRate": 4.85,
         "picks": 741
       }
     },
     "strongAgainst": [
       {
-        "name": "jurchens",
-        "games": 171,
-        "winRate": 60.23
-      },
-      {
         "name": "danes",
-        "games": 116,
-        "winRate": 59.48
+        "games": 118,
+        "winRate": 59.32
       },
       {
-        "name": "wei",
-        "games": 235,
-        "winRate": 58.72
+        "name": "jurchens",
+        "games": 167,
+        "winRate": 59.28
       },
       {
         "name": "varangians",
-        "games": 188,
-        "winRate": 58.51
+        "games": 189,
+        "winRate": 58.73
+      },
+      {
+        "name": "wei",
+        "games": 236,
+        "winRate": 58.47
       },
       {
         "name": "burgundians",
-        "games": 375,
-        "winRate": 57.6
+        "games": 376,
+        "winRate": 57.45
       }
     ],
     "weakAgainst": [
+      {
+        "name": "chinese",
+        "games": 348,
+        "winRate": 40.52
+      },
       {
         "name": "italians",
         "games": 318,
         "winRate": 40.57
       },
       {
-        "name": "chinese",
-        "games": 347,
-        "winRate": 40.63
-      },
-      {
         "name": "dravidians",
-        "games": 224,
-        "winRate": 41.96
-      },
-      {
-        "name": "shu",
-        "games": 130,
-        "winRate": 43.85
+        "games": 228,
+        "winRate": 42.98
       },
       {
         "name": "bohemians",
-        "games": 346,
-        "winRate": 43.93
+        "games": 345,
+        "winRate": 43.77
+      },
+      {
+        "name": "shu",
+        "games": 132,
+        "winRate": 43.94
       }
     ]
   },
