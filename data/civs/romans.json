@@ -348,31 +348,31 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.63,
+    "winRate": 53.59,
     "playRate": 1.33,
-    "picks": 7816,
+    "picks": 7803,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-30T10:53:14.000Z",
+    "updated": "2026-10-30T20:50:08.000Z",
     "window": "2026-08-07 → 2026-10-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "open": {
-        "winRate": 53.57,
-        "playRate": 1.42,
-        "picks": 2645
-      },
       "other": {
-        "winRate": 54.06,
+        "winRate": 54.1,
         "playRate": 1.34,
-        "picks": 4525
+        "picks": 4523
+      },
+      "open": {
+        "winRate": 53.43,
+        "playRate": 1.42,
+        "picks": 2637
       },
       "closed": {
-        "winRate": 51.75,
-        "playRate": 0.99,
-        "picks": 485
+        "winRate": 51.45,
+        "playRate": 0.98,
+        "picks": 482
       },
       "nomad": {
         "winRate": 48.45,
@@ -383,18 +383,18 @@
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 56,
-        "winRate": 71.43
+        "games": 58,
+        "winRate": 70.69
       },
       {
         "name": "byzantines",
         "games": 127,
-        "winRate": 66.14
+        "winRate": 65.35
       },
       {
         "name": "slavs",
         "games": 113,
-        "winRate": 63.72
+        "winRate": 64.6
       },
       {
         "name": "danes",
@@ -403,35 +403,35 @@
       },
       {
         "name": "mapuche",
-        "games": 67,
-        "winRate": 61.19
+        "games": 66,
+        "winRate": 62.12
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 480,
-        "winRate": 43.75
+        "games": 479,
+        "winRate": 43.84
       },
       {
         "name": "bulgarians",
-        "games": 124,
-        "winRate": 47.58
+        "games": 122,
+        "winRate": 47.54
       },
       {
         "name": "khmer",
-        "games": 196,
-        "winRate": 48.47
+        "games": 197,
+        "winRate": 48.22
       },
       {
         "name": "japanese",
-        "games": 196,
-        "winRate": 48.47
+        "games": 197,
+        "winRate": 48.22
       },
       {
         "name": "jurchens",
-        "games": 102,
-        "winRate": 49.02
+        "games": 101,
+        "winRate": 49.5
       }
     ]
   },

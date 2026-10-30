@@ -360,31 +360,31 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 51.9,
-    "playRate": 2.06,
-    "picks": 12082,
+    "winRate": 51.89,
+    "playRate": 2.05,
+    "picks": 12064,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-30T10:53:14.000Z",
+    "updated": "2026-10-30T20:50:08.000Z",
     "window": "2026-08-07 → 2026-10-30",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
-      "closed": {
-        "winRate": 51.51,
-        "playRate": 1.42,
-        "picks": 697
-      },
       "other": {
-        "winRate": 51.84,
+        "winRate": 51.85,
         "playRate": 2.1,
-        "picks": 7081
+        "picks": 7072
+      },
+      "closed": {
+        "winRate": 51.15,
+        "playRate": 1.42,
+        "picks": 694
       },
       "open": {
-        "winRate": 52.13,
-        "playRate": 2.13,
-        "picks": 3963
+        "winRate": 52.14,
+        "playRate": 2.12,
+        "picks": 3957
       },
       "nomad": {
         "winRate": 51.32,
@@ -395,18 +395,18 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 211,
-        "winRate": 62.56
-      },
-      {
-        "name": "burgundians",
-        "games": 217,
-        "winRate": 59.45
+        "games": 214,
+        "winRate": 62.15
       },
       {
         "name": "burmese",
         "games": 164,
-        "winRate": 59.15
+        "winRate": 59.76
+      },
+      {
+        "name": "burgundians",
+        "games": 216,
+        "winRate": 59.72
       },
       {
         "name": "slavs",
@@ -422,13 +422,13 @@
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 326,
-        "winRate": 41.41
+        "games": 325,
+        "winRate": 41.23
       },
       {
         "name": "mayans",
-        "games": 227,
-        "winRate": 42.29
+        "games": 226,
+        "winRate": 42.04
       },
       {
         "name": "wu",
@@ -441,9 +441,9 @@
         "winRate": 45.32
       },
       {
-        "name": "ethiopians",
-        "games": 232,
-        "winRate": 46.12
+        "name": "koreans",
+        "games": 194,
+        "winRate": 45.88
       }
     ]
   },
