@@ -354,31 +354,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.77,
+    "winRate": 50.74,
     "playRate": 1.67,
-    "picks": 9821,
+    "picks": 9818,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-30T20:50:08.000Z",
-    "window": "2026-08-07 → 2026-10-30",
+    "updated": "2026-10-31T10:25:30.000Z",
+    "window": "2026-08-08 → 2026-10-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
-      "other": {
-        "winRate": 50.19,
-        "playRate": 1.68,
-        "picks": 5674
-      },
       "closed": {
-        "winRate": 49.48,
-        "playRate": 1.39,
-        "picks": 679
+        "winRate": 49.19,
+        "playRate": 1.38,
+        "picks": 675
       },
       "open": {
         "winRate": 52.05,
         "playRate": 1.6,
-        "picks": 2978
+        "picks": 2976
+      },
+      "other": {
+        "winRate": 50.18,
+        "playRate": 1.68,
+        "picks": 5677
       },
       "nomad": {
         "winRate": 51.43,
@@ -389,8 +389,8 @@
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 149,
-        "winRate": 63.09
+        "games": 147,
+        "winRate": 62.59
       },
       {
         "name": "lithuanians",
@@ -399,18 +399,18 @@
       },
       {
         "name": "shu",
-        "games": 93,
-        "winRate": 60.22
+        "games": 94,
+        "winRate": 60.64
       },
       {
         "name": "saracens",
-        "games": 177,
-        "winRate": 59.32
+        "games": 175,
+        "winRate": 60
       },
       {
         "name": "britons",
-        "games": 159,
-        "winRate": 57.23
+        "games": 160,
+        "winRate": 57.5
       }
     ],
     "weakAgainst": [
@@ -421,23 +421,23 @@
       },
       {
         "name": "saxons",
-        "games": 88,
-        "winRate": 43.18
+        "games": 89,
+        "winRate": 42.7
       },
       {
         "name": "vietnamese",
-        "games": 238,
-        "winRate": 43.7
+        "games": 237,
+        "winRate": 43.46
       },
       {
         "name": "vikings",
-        "games": 205,
-        "winRate": 44.39
+        "games": 206,
+        "winRate": 44.17
       },
       {
-        "name": "magyars",
-        "games": 246,
-        "winRate": 44.72
+        "name": "armenians",
+        "games": 170,
+        "winRate": 44.71
       }
     ]
   },

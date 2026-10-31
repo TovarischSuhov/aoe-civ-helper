@@ -359,29 +359,29 @@
   "stats": {
     "winRate": 48.44,
     "playRate": 1.15,
-    "picks": 6767,
+    "picks": 6751,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-30T20:50:08.000Z",
-    "window": "2026-08-07 → 2026-10-30",
+    "updated": "2026-10-31T10:25:30.000Z",
+    "window": "2026-08-08 → 2026-10-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
-      "other": {
-        "winRate": 47.91,
-        "playRate": 1.15,
-        "picks": 3876
+      "closed": {
+        "winRate": 48.91,
+        "playRate": 0.94,
+        "picks": 458
       },
       "open": {
-        "winRate": 48.7,
+        "winRate": 48.72,
         "playRate": 1.22,
-        "picks": 2275
+        "picks": 2272
       },
-      "closed": {
-        "winRate": 48.79,
-        "playRate": 0.93,
-        "picks": 455
+      "other": {
+        "winRate": 47.88,
+        "playRate": 1.14,
+        "picks": 3860
       },
       "nomad": {
         "winRate": 56.52,
@@ -397,50 +397,50 @@
       },
       {
         "name": "gurjaras",
-        "games": 97,
-        "winRate": 60.82
+        "games": 98,
+        "winRate": 60.2
       },
       {
         "name": "vietnamese",
-        "games": 224,
-        "winRate": 57.59
+        "games": 222,
+        "winRate": 57.66
       },
       {
         "name": "mapuche",
-        "games": 76,
-        "winRate": 56.58
+        "games": 74,
+        "winRate": 56.76
       },
       {
         "name": "berbers",
-        "games": 105,
-        "winRate": 56.19
+        "games": 104,
+        "winRate": 56.73
       }
     ],
     "weakAgainst": [
       {
-        "name": "turks",
-        "games": 87,
-        "winRate": 39.08
-      },
-      {
-        "name": "wei",
-        "games": 133,
-        "winRate": 39.1
-      },
-      {
         "name": "teutons",
-        "games": 121,
-        "winRate": 39.67
+        "games": 120,
+        "winRate": 39.17
       },
       {
         "name": "chinese",
-        "games": 266,
-        "winRate": 40.6
+        "games": 271,
+        "winRate": 39.85
+      },
+      {
+        "name": "wei",
+        "games": 135,
+        "winRate": 40
+      },
+      {
+        "name": "malay",
+        "games": 116,
+        "winRate": 40.52
       },
       {
         "name": "khmer",
-        "games": 165,
-        "winRate": 40.61
+        "games": 167,
+        "winRate": 40.72
       }
     ]
   },

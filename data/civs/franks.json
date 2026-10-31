@@ -350,31 +350,31 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.83,
+    "winRate": 50.8,
     "playRate": 1.88,
-    "picks": 11033,
+    "picks": 11043,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-30T20:50:08.000Z",
-    "window": "2026-08-07 → 2026-10-30",
+    "updated": "2026-10-31T10:25:30.000Z",
+    "window": "2026-08-08 → 2026-10-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
+      "closed": {
+        "winRate": 50.24,
+        "playRate": 1.69,
+        "picks": 824
+      },
       "other": {
         "winRate": 51.57,
         "playRate": 1.86,
-        "picks": 6275
+        "picks": 6287
       },
       "open": {
-        "winRate": 49.82,
+        "winRate": 49.74,
         "playRate": 1.99,
-        "picks": 3711
-      },
-      "closed": {
-        "winRate": 50.24,
-        "playRate": 1.68,
-        "picks": 822
+        "picks": 3707
       },
       "nomad": {
         "winRate": 48.89,
@@ -384,29 +384,29 @@
     },
     "strongAgainst": [
       {
-        "name": "incas",
-        "games": 161,
-        "winRate": 62.11
-      },
-      {
         "name": "varangians",
         "games": 152,
         "winRate": 61.84
       },
       {
-        "name": "jurchens",
-        "games": 134,
-        "winRate": 59.7
-      },
-      {
-        "name": "khmer",
-        "games": 270,
-        "winRate": 59.63
+        "name": "incas",
+        "games": 162,
+        "winRate": 61.73
       },
       {
         "name": "danes",
         "games": 123,
         "winRate": 59.35
+      },
+      {
+        "name": "khmer",
+        "games": 271,
+        "winRate": 59.04
+      },
+      {
+        "name": "jurchens",
+        "games": 133,
+        "winRate": 58.65
       }
     ],
     "weakAgainst": [
@@ -417,23 +417,23 @@
       },
       {
         "name": "mongols",
-        "games": 560,
-        "winRate": 42.86
+        "games": 561,
+        "winRate": 42.42
       },
       {
         "name": "italians",
-        "games": 202,
-        "winRate": 45.54
+        "games": 201,
+        "winRate": 45.77
       },
       {
         "name": "vikings",
-        "games": 237,
-        "winRate": 46.41
+        "games": 238,
+        "winRate": 46.64
       },
       {
-        "name": "chinese",
-        "games": 252,
-        "winRate": 46.43
+        "name": "spanish",
+        "games": 257,
+        "winRate": 46.69
       }
     ]
   },

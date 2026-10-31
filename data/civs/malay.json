@@ -295,31 +295,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52.05,
-    "playRate": 1.72,
-    "picks": 10087,
+    "winRate": 52.02,
+    "playRate": 1.71,
+    "picks": 10077,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-30T20:50:08.000Z",
-    "window": "2026-08-07 → 2026-10-30",
+    "updated": "2026-10-31T10:25:30.000Z",
+    "window": "2026-08-08 → 2026-10-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
-      "other": {
-        "winRate": 52.46,
-        "playRate": 1.75,
-        "picks": 5906
-      },
       "open": {
-        "winRate": 51.59,
+        "winRate": 51.5,
         "playRate": 1.51,
-        "picks": 2805
+        "picks": 2808
+      },
+      "other": {
+        "winRate": 52.45,
+        "playRate": 1.75,
+        "picks": 5901
       },
       "closed": {
-        "winRate": 51.13,
-        "playRate": 2.25,
-        "picks": 1103
+        "winRate": 51.14,
+        "playRate": 2.24,
+        "picks": 1095
       },
       "nomad": {
         "winRate": 51.65,
@@ -340,18 +340,18 @@
       },
       {
         "name": "georgians",
-        "games": 128,
-        "winRate": 59.38
+        "games": 129,
+        "winRate": 59.69
       },
       {
-        "name": "poles",
-        "games": 195,
-        "winRate": 58.46
+        "name": "tupi",
+        "games": 116,
+        "winRate": 59.48
       },
       {
-        "name": "byzantines",
-        "games": 166,
-        "winRate": 58.43
+        "name": "muisca",
+        "games": 100,
+        "winRate": 59
       }
     ],
     "weakAgainst": [
@@ -362,8 +362,8 @@
       },
       {
         "name": "wu",
-        "games": 94,
-        "winRate": 41.49
+        "games": 95,
+        "winRate": 41.05
       },
       {
         "name": "saxons",
@@ -371,14 +371,14 @@
         "winRate": 42.5
       },
       {
-        "name": "romans",
-        "games": 132,
-        "winRate": 43.94
+        "name": "mayans",
+        "games": 199,
+        "winRate": 43.72
       },
       {
-        "name": "mayans",
-        "games": 200,
-        "winRate": 44
+        "name": "malians",
+        "games": 165,
+        "winRate": 44.24
       }
     ]
   },
