@@ -294,31 +294,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.02,
+    "winRate": 49.01,
     "playRate": 1.8,
-    "picks": 10572,
+    "picks": 10604,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-31T10:25:30.000Z",
+    "updated": "2026-10-31T20:00:51.000Z",
     "window": "2026-08-08 → 2026-10-31",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
+      "closed": {
+        "winRate": 49.65,
+        "playRate": 2.62,
+        "picks": 1275
+      },
+      "other": {
+        "winRate": 49.06,
+        "playRate": 1.75,
+        "picks": 5911
+      },
       "open": {
         "winRate": 48.92,
         "playRate": 1.69,
-        "picks": 3152
-      },
-      "other": {
-        "winRate": 49.12,
-        "playRate": 1.74,
-        "picks": 5883
-      },
-      "closed": {
-        "winRate": 49.41,
-        "playRate": 2.62,
-        "picks": 1277
+        "picks": 3158
       },
       "nomad": {
         "winRate": 45.77,
@@ -334,50 +334,50 @@
       },
       {
         "name": "franks",
-        "games": 188,
-        "winRate": 59.04
+        "games": 187,
+        "winRate": 59.36
+      },
+      {
+        "name": "danes",
+        "games": 87,
+        "winRate": 58.62
       },
       {
         "name": "aztecs",
-        "games": 174,
-        "winRate": 58.05
+        "games": 173,
+        "winRate": 58.38
       },
       {
         "name": "britons",
         "games": 212,
         "winRate": 58.02
-      },
-      {
-        "name": "portuguese",
-        "games": 194,
-        "winRate": 57.73
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 451,
-        "winRate": 39.47
+        "games": 454,
+        "winRate": 38.99
       },
       {
         "name": "magyars",
         "games": 260,
-        "winRate": 39.62
-      },
-      {
-        "name": "persians",
-        "games": 221,
-        "winRate": 40.27
-      },
-      {
-        "name": "malians",
-        "games": 188,
-        "winRate": 40.96
+        "winRate": 40
       },
       {
         "name": "mayans",
-        "games": 208,
-        "winRate": 41.35
+        "games": 210,
+        "winRate": 40.95
+      },
+      {
+        "name": "persians",
+        "games": 222,
+        "winRate": 40.99
+      },
+      {
+        "name": "malians",
+        "games": 192,
+        "winRate": 41.67
       }
     ]
   },
