@@ -295,30 +295,30 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.12,
+    "winRate": 50.08,
     "playRate": 1.18,
-    "picks": 6956,
+    "picks": 6963,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-01T11:18:22.000Z",
+    "updated": "2026-11-01T20:31:38.000Z",
     "window": "2026-08-09 → 2026-11-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "other": {
-        "winRate": 50.1,
-        "playRate": 1.2,
-        "picks": 4068
-      },
       "open": {
         "winRate": 51.47,
-        "playRate": 1.21,
-        "picks": 2246
+        "playRate": 1.2,
+        "picks": 2244
+      },
+      "other": {
+        "winRate": 49.99,
+        "playRate": 1.2,
+        "picks": 4077
       },
       "closed": {
-        "winRate": 46.2,
-        "playRate": 0.98,
+        "winRate": 46.62,
+        "playRate": 0.99,
         "picks": 474
       },
       "nomad": {
@@ -330,8 +330,8 @@
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 67,
-        "winRate": 65.67
+        "games": 68,
+        "winRate": 64.71
       },
       {
         "name": "burmese",
@@ -346,12 +346,12 @@
       {
         "name": "shu",
         "games": 80,
-        "winRate": 60
+        "winRate": 58.75
       },
       {
         "name": "varangians",
-        "games": 89,
-        "winRate": 59.55
+        "games": 91,
+        "winRate": 58.24
       }
     ],
     "weakAgainst": [
@@ -367,18 +367,18 @@
       },
       {
         "name": "chinese",
-        "games": 174,
-        "winRate": 41.95
+        "games": 176,
+        "winRate": 41.48
       },
       {
         "name": "mayans",
-        "games": 145,
-        "winRate": 42.07
+        "games": 143,
+        "winRate": 41.96
       },
       {
         "name": "vietnamese",
-        "games": 142,
-        "winRate": 42.96
+        "games": 143,
+        "winRate": 43.36
       }
     ]
   },
