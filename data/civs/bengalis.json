@@ -256,31 +256,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.14,
+    "winRate": 50.08,
     "playRate": 1.52,
-    "picks": 8976,
+    "picks": 8963,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-31T20:00:51.000Z",
-    "window": "2026-08-08 → 2026-10-31",
+    "updated": "2026-11-01T11:18:22.000Z",
+    "window": "2026-08-09 → 2026-11-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "closed": {
-        "winRate": 53.4,
-        "playRate": 1.81,
-        "picks": 882
-      },
       "other": {
-        "winRate": 49.27,
+        "winRate": 49.14,
         "playRate": 1.54,
-        "picks": 5222
+        "picks": 5224
       },
       "open": {
         "winRate": 49.96,
         "playRate": 1.4,
-        "picks": 2612
+        "picks": 2604
+      },
+      "closed": {
+        "winRate": 53.6,
+        "playRate": 1.81,
+        "picks": 875
       },
       "nomad": {
         "winRate": 58.46,
@@ -295,24 +295,24 @@
         "winRate": 58.62
       },
       {
-        "name": "saracens",
-        "games": 133,
-        "winRate": 57.14
-      },
-      {
-        "name": "varangians",
-        "games": 76,
-        "winRate": 56.58
+        "name": "turks",
+        "games": 190,
+        "winRate": 56.84
       },
       {
         "name": "teutons",
-        "games": 195,
-        "winRate": 56.41
+        "games": 194,
+        "winRate": 56.7
       },
       {
-        "name": "turks",
-        "games": 190,
-        "winRate": 56.32
+        "name": "saracens",
+        "games": 131,
+        "winRate": 56.49
+      },
+      {
+        "name": "byzantines",
+        "games": 154,
+        "winRate": 55.84
       }
     ],
     "weakAgainst": [
@@ -322,24 +322,24 @@
         "winRate": 39.81
       },
       {
-        "name": "malay",
-        "games": 172,
-        "winRate": 41.28
+        "name": "danes",
+        "games": 70,
+        "winRate": 41.43
       },
       {
         "name": "hindustanis",
-        "games": 173,
-        "winRate": 41.62
+        "games": 171,
+        "winRate": 41.52
       },
       {
-        "name": "danes",
-        "games": 69,
-        "winRate": 42.03
+        "name": "malay",
+        "games": 171,
+        "winRate": 41.52
       },
       {
-        "name": "armenians",
-        "games": 175,
-        "winRate": 42.86
+        "name": "franks",
+        "games": 152,
+        "winRate": 43.42
       }
     ]
   },

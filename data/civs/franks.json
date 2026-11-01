@@ -351,30 +351,30 @@
   },
   "stats": {
     "winRate": 50.72,
-    "playRate": 1.88,
-    "picks": 11054,
+    "playRate": 1.87,
+    "picks": 11030,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-31T20:00:51.000Z",
-    "window": "2026-08-08 → 2026-10-31",
+    "updated": "2026-11-01T11:18:22.000Z",
+    "window": "2026-08-09 → 2026-11-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
+      "closed": {
+        "winRate": 50,
+        "playRate": 1.69,
+        "picks": 814
+      },
       "other": {
-        "winRate": 51.56,
-        "playRate": 1.86,
-        "picks": 6300
+        "winRate": 51.57,
+        "playRate": 1.85,
+        "picks": 6290
       },
       "open": {
-        "winRate": 49.57,
+        "winRate": 49.53,
         "playRate": 1.99,
-        "picks": 3710
-      },
-      "closed": {
-        "winRate": 50.06,
-        "playRate": 1.68,
-        "picks": 819
+        "picks": 3701
       },
       "nomad": {
         "winRate": 48.89,
@@ -385,8 +385,8 @@
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 161,
-        "winRate": 62.11
+        "games": 158,
+        "winRate": 62.66
       },
       {
         "name": "varangians",
@@ -400,8 +400,8 @@
       },
       {
         "name": "khmer",
-        "games": 269,
-        "winRate": 59.11
+        "games": 267,
+        "winRate": 58.8
       },
       {
         "name": "jurchens",
@@ -413,27 +413,27 @@
       {
         "name": "teutons",
         "games": 187,
-        "winRate": 40.64
+        "winRate": 40.11
       },
       {
         "name": "mongols",
-        "games": 566,
-        "winRate": 42.58
+        "games": 564,
+        "winRate": 42.73
+      },
+      {
+        "name": "vikings",
+        "games": 235,
+        "winRate": 45.53
+      },
+      {
+        "name": "spanish",
+        "games": 256,
+        "winRate": 45.7
       },
       {
         "name": "italians",
         "games": 200,
-        "winRate": 45.5
-      },
-      {
-        "name": "spanish",
-        "games": 257,
-        "winRate": 45.91
-      },
-      {
-        "name": "vikings",
-        "games": 237,
-        "winRate": 45.99
+        "winRate": 46
       }
     ]
   },

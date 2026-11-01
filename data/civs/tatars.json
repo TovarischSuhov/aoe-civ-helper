@@ -335,31 +335,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.55,
-    "playRate": 1.62,
-    "picks": 9518,
+    "winRate": 47.6,
+    "playRate": 1.61,
+    "picks": 9506,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-10-31T20:00:51.000Z",
-    "window": "2026-08-08 → 2026-10-31",
+    "updated": "2026-11-01T11:18:22.000Z",
+    "window": "2026-08-09 → 2026-11-01",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tatars",
     "byMapType": {
-      "open": {
-        "winRate": 47.43,
-        "playRate": 1.66,
-        "picks": 3089
-      },
       "other": {
-        "winRate": 47.86,
+        "winRate": 47.94,
         "playRate": 1.66,
-        "picks": 5618
+        "picks": 5624
+      },
+      "open": {
+        "winRate": 47.35,
+        "playRate": 1.65,
+        "picks": 3077
       },
       "closed": {
-        "winRate": 45.48,
+        "winRate": 45.95,
         "playRate": 1.23,
-        "picks": 598
+        "picks": 592
       },
       "nomad": {
         "winRate": 46.95,
@@ -375,13 +375,13 @@
       },
       {
         "name": "tupi",
-        "games": 82,
-        "winRate": 56.1
+        "games": 83,
+        "winRate": 56.63
       },
       {
         "name": "slavs",
-        "games": 143,
-        "winRate": 55.94
+        "games": 142,
+        "winRate": 56.34
       },
       {
         "name": "lithuanians",
@@ -390,20 +390,25 @@
       },
       {
         "name": "georgians",
-        "games": 113,
-        "winRate": 53.98
+        "games": 114,
+        "winRate": 54.39
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 211,
-        "winRate": 36.49
+        "games": 209,
+        "winRate": 36.36
       },
       {
         "name": "celts",
-        "games": 139,
-        "winRate": 39.57
+        "games": 138,
+        "winRate": 39.86
+      },
+      {
+        "name": "romans",
+        "games": 130,
+        "winRate": 41.54
       },
       {
         "name": "malians",
@@ -412,13 +417,8 @@
       },
       {
         "name": "dravidians",
-        "games": 134,
-        "winRate": 41.79
-      },
-      {
-        "name": "romans",
-        "games": 129,
-        "winRate": 41.86
+        "games": 135,
+        "winRate": 42.22
       }
     ]
   },
