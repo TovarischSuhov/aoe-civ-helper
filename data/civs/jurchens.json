@@ -366,31 +366,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.14,
+    "winRate": 46.09,
     "playRate": 1.23,
-    "picks": 7272,
+    "picks": 7285,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-02T12:29:50.000Z",
+    "updated": "2026-11-02T23:35:20.000Z",
     "window": "2026-08-10 → 2026-11-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
+      "closed": {
+        "winRate": 47.91,
+        "playRate": 1.25,
+        "picks": 597
+      },
       "other": {
-        "winRate": 46.22,
+        "winRate": 46.12,
         "playRate": 1.24,
-        "picks": 4225
+        "picks": 4237
       },
       "open": {
-        "winRate": 45.51,
+        "winRate": 45.55,
         "playRate": 1.22,
-        "picks": 2274
-      },
-      "closed": {
-        "winRate": 47.75,
-        "playRate": 1.26,
-        "picks": 601
+        "picks": 2279
       },
       "nomad": {
         "winRate": 46.51,
@@ -406,8 +406,8 @@
       },
       {
         "name": "incas",
-        "games": 124,
-        "winRate": 58.06
+        "games": 123,
+        "winRate": 57.72
       },
       {
         "name": "danes",
@@ -416,13 +416,13 @@
       },
       {
         "name": "muisca",
-        "games": 87,
-        "winRate": 55.17
+        "games": 88,
+        "winRate": 55.68
       },
       {
         "name": "armenians",
         "games": 109,
-        "winRate": 54.13
+        "winRate": 55.05
       }
     ],
     "weakAgainst": [
@@ -433,23 +433,23 @@
       },
       {
         "name": "gurjaras",
-        "games": 103,
-        "winRate": 38.83
+        "games": 101,
+        "winRate": 38.61
+      },
+      {
+        "name": "mapuche",
+        "games": 71,
+        "winRate": 39.44
+      },
+      {
+        "name": "spanish",
+        "games": 170,
+        "winRate": 40
       },
       {
         "name": "persians",
         "games": 213,
-        "winRate": 39.91
-      },
-      {
-        "name": "spanish",
-        "games": 171,
-        "winRate": 40.35
-      },
-      {
-        "name": "chinese",
-        "games": 163,
-        "winRate": 40.49
+        "winRate": 40.38
       }
     ]
   },

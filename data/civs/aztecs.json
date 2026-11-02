@@ -347,31 +347,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.72,
-    "playRate": 1.51,
-    "picks": 8878,
+    "winRate": 49.74,
+    "playRate": 1.5,
+    "picks": 8882,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-02T12:29:50.000Z",
+    "updated": "2026-11-02T23:35:20.000Z",
     "window": "2026-08-10 → 2026-11-02",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
-      "open": {
-        "winRate": 49.09,
-        "playRate": 1.54,
-        "picks": 2858
-      },
       "other": {
-        "winRate": 50.79,
+        "winRate": 50.77,
         "playRate": 1.48,
-        "picks": 5042
+        "picks": 5046
       },
       "closed": {
-        "winRate": 47.24,
-        "playRate": 1.56,
-        "picks": 743
+        "winRate": 47.57,
+        "playRate": 1.55,
+        "picks": 740
+      },
+      "open": {
+        "winRate": 49.11,
+        "playRate": 1.54,
+        "picks": 2861
       },
       "nomad": {
         "winRate": 42.13,
@@ -382,8 +382,13 @@
     "strongAgainst": [
       {
         "name": "tatars",
-        "games": 163,
-        "winRate": 57.06
+        "games": 164,
+        "winRate": 57.32
+      },
+      {
+        "name": "burgundians",
+        "games": 172,
+        "winRate": 56.98
       },
       {
         "name": "mapuche",
@@ -391,14 +396,9 @@
         "winRate": 56.82
       },
       {
-        "name": "burgundians",
-        "games": 171,
-        "winRate": 56.73
-      },
-      {
         "name": "incas",
-        "games": 134,
-        "winRate": 56.72
+        "games": 132,
+        "winRate": 56.82
       },
       {
         "name": "danes",
@@ -409,18 +409,13 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 377,
-        "winRate": 38.73
+        "games": 375,
+        "winRate": 39.2
       },
       {
         "name": "saxons",
-        "games": 90,
-        "winRate": 41.11
-      },
-      {
-        "name": "teutons",
-        "games": 172,
-        "winRate": 41.86
+        "games": 91,
+        "winRate": 40.66
       },
       {
         "name": "malians",
@@ -429,8 +424,13 @@
       },
       {
         "name": "chinese",
-        "games": 233,
-        "winRate": 42.49
+        "games": 235,
+        "winRate": 42.13
+      },
+      {
+        "name": "teutons",
+        "games": 173,
+        "winRate": 42.2
       }
     ]
   },
