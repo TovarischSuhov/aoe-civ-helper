@@ -330,29 +330,29 @@
   "stats": {
     "winRate": 51.34,
     "playRate": 2.75,
-    "picks": 16269,
+    "picks": 16282,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-03T11:58:36.000Z",
+    "updated": "2026-11-03T21:48:00.000Z",
     "window": "2026-08-11 → 2026-11-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "other": {
-        "winRate": 51.21,
+        "winRate": 51.28,
         "playRate": 2.75,
-        "picks": 9394
+        "picks": 9403
       },
       "open": {
-        "winRate": 52.09,
-        "playRate": 2.84,
-        "picks": 5300
+        "winRate": 51.98,
+        "playRate": 2.85,
+        "picks": 5306
       },
       "closed": {
         "winRate": 47.36,
         "playRate": 2.12,
-        "picks": 1005
+        "picks": 1003
       },
       "nomad": {
         "winRate": 53.33,
@@ -362,14 +362,14 @@
     },
     "strongAgainst": [
       {
+        "name": "poles",
+        "games": 254,
+        "winRate": 59.84
+      },
+      {
         "name": "jurchens",
         "games": 214,
         "winRate": 59.81
-      },
-      {
-        "name": "poles",
-        "games": 251,
-        "winRate": 59.76
       },
       {
         "name": "tupi",
@@ -377,14 +377,14 @@
         "winRate": 58.64
       },
       {
-        "name": "danes",
-        "games": 174,
-        "winRate": 58.62
+        "name": "varangians",
+        "games": 327,
+        "winRate": 58.41
       },
       {
-        "name": "varangians",
-        "games": 326,
-        "winRate": 58.59
+        "name": "danes",
+        "games": 175,
+        "winRate": 58.29
       }
     ],
     "weakAgainst": [
@@ -395,23 +395,23 @@
       },
       {
         "name": "khitans",
-        "games": 200,
-        "winRate": 44.5
-      },
-      {
-        "name": "chinese",
-        "games": 454,
-        "winRate": 45.15
-      },
-      {
-        "name": "koreans",
-        "games": 274,
-        "winRate": 45.26
+        "games": 199,
+        "winRate": 44.22
       },
       {
         "name": "vikings",
-        "games": 311,
-        "winRate": 45.34
+        "games": 307,
+        "winRate": 44.63
+      },
+      {
+        "name": "koreans",
+        "games": 275,
+        "winRate": 44.73
+      },
+      {
+        "name": "chinese",
+        "games": 456,
+        "winRate": 45.39
       }
     ]
   },

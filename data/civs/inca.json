@@ -302,30 +302,30 @@
   "sotl": null,
   "stats": {
     "winRate": 46.18,
-    "playRate": 1.54,
-    "picks": 9076,
+    "playRate": 1.53,
+    "picks": 9068,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-03T11:58:36.000Z",
+    "updated": "2026-11-03T21:48:00.000Z",
     "window": "2026-08-11 → 2026-11-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/inca",
     "byMapType": {
-      "closed": {
-        "winRate": 45.27,
-        "playRate": 1.14,
-        "picks": 539
+      "other": {
+        "winRate": 46.22,
+        "playRate": 1.57,
+        "picks": 5372
       },
       "open": {
-        "winRate": 46.44,
-        "playRate": 1.56,
-        "picks": 2909
-      },
-      "other": {
-        "winRate": 46.17,
+        "winRate": 46.37,
         "playRate": 1.57,
-        "picks": 5380
+        "picks": 2918
+      },
+      "closed": {
+        "winRate": 45.28,
+        "playRate": 1.12,
+        "picks": 530
       },
       "nomad": {
         "winRate": 45.16,
@@ -341,35 +341,35 @@
       },
       {
         "name": "berbers",
-        "games": 177,
-        "winRate": 54.8
+        "games": 176,
+        "winRate": 54.55
       },
       {
         "name": "italians",
-        "games": 213,
-        "winRate": 53.99
+        "games": 210,
+        "winRate": 54.29
       },
       {
-        "name": "tupi",
-        "games": 75,
-        "winRate": 53.33
+        "name": "slavs",
+        "games": 119,
+        "winRate": 52.94
       },
       {
         "name": "gurjaras",
-        "games": 139,
-        "winRate": 53.24
+        "games": 138,
+        "winRate": 52.9
       }
     ],
     "weakAgainst": [
       {
         "name": "khitans",
-        "games": 141,
-        "winRate": 36.17
+        "games": 142,
+        "winRate": 36.62
       },
       {
-        "name": "franks",
-        "games": 158,
-        "winRate": 37.34
+        "name": "japanese",
+        "games": 212,
+        "winRate": 37.74
       },
       {
         "name": "romans",
@@ -377,14 +377,14 @@
         "winRate": 37.82
       },
       {
-        "name": "japanese",
-        "games": 210,
-        "winRate": 38.1
+        "name": "franks",
+        "games": 156,
+        "winRate": 38.46
       },
       {
         "name": "sicilians",
-        "games": 170,
-        "winRate": 39.41
+        "games": 171,
+        "winRate": 39.77
       }
     ]
   },
