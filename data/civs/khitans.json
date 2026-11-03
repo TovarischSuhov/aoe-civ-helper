@@ -359,31 +359,31 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 48.65,
+    "winRate": 48.67,
     "playRate": 1.23,
-    "picks": 7279,
+    "picks": 7290,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-02T23:35:20.000Z",
-    "window": "2026-08-10 → 2026-11-02",
+    "updated": "2026-11-03T11:58:36.000Z",
+    "window": "2026-08-11 → 2026-11-03",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 47.98,
+        "winRate": 48.09,
         "playRate": 1.24,
-        "picks": 4214
+        "picks": 4221
       },
       "open": {
-        "winRate": 48.97,
+        "winRate": 48.87,
         "playRate": 1.31,
-        "picks": 2434
+        "picks": 2439
       },
       "closed": {
-        "winRate": 51.18,
+        "winRate": 51.07,
         "playRate": 0.98,
-        "picks": 467
+        "picks": 466
       },
       "nomad": {
         "winRate": 53.66,
@@ -394,45 +394,40 @@
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 138,
-        "winRate": 63.77
-      },
-      {
-        "name": "varangians",
-        "games": 93,
-        "winRate": 59.14
+        "games": 141,
+        "winRate": 63.83
       },
       {
         "name": "saxons",
-        "games": 63,
-        "winRate": 58.73
+        "games": 64,
+        "winRate": 59.38
+      },
+      {
+        "name": "varangians",
+        "games": 95,
+        "winRate": 58.95
       },
       {
         "name": "poles",
-        "games": 108,
-        "winRate": 58.33
+        "games": 106,
+        "winRate": 58.49
       },
       {
         "name": "tatars",
-        "games": 130,
-        "winRate": 55.38
+        "games": 129,
+        "winRate": 55.81
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 109,
-        "winRate": 37.61
-      },
-      {
-        "name": "malay",
-        "games": 117,
-        "winRate": 40.17
+        "games": 110,
+        "winRate": 37.27
       },
       {
         "name": "jurchens",
-        "games": 84,
-        "winRate": 40.48
+        "games": 85,
+        "winRate": 40
       },
       {
         "name": "mayans",
@@ -443,6 +438,11 @@
         "name": "celts",
         "games": 101,
         "winRate": 40.59
+      },
+      {
+        "name": "japanese",
+        "games": 178,
+        "winRate": 41.01
       }
     ]
   },
