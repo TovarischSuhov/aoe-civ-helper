@@ -361,31 +361,31 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.83,
+    "winRate": 51.82,
     "playRate": 1.66,
-    "picks": 9794,
+    "picks": 9829,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T12:12:45.000Z",
+    "updated": "2026-11-04T21:55:00.000Z",
     "window": "2026-08-12 → 2026-11-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
-      "open": {
-        "winRate": 53.23,
-        "playRate": 1.71,
-        "picks": 3177
-      },
       "other": {
-        "winRate": 50.97,
+        "winRate": 50.87,
         "playRate": 1.65,
-        "picks": 5637
+        "picks": 5664
       },
       "closed": {
-        "winRate": 52.17,
+        "winRate": 52.25,
         "playRate": 1.52,
-        "picks": 713
+        "picks": 710
+      },
+      "open": {
+        "winRate": 53.36,
+        "playRate": 1.71,
+        "picks": 3188
       },
       "nomad": {
         "winRate": 52.43,
@@ -402,21 +402,21 @@
       {
         "name": "gurjaras",
         "games": 131,
-        "winRate": 64.89
-      },
-      {
-        "name": "saracens",
-        "games": 167,
-        "winRate": 59.88
+        "winRate": 65.65
       },
       {
         "name": "bulgarians",
-        "games": 168,
-        "winRate": 59.52
+        "games": 169,
+        "winRate": 59.17
       },
       {
-        "name": "danes",
-        "games": 71,
+        "name": "saracens",
+        "games": 169,
+        "winRate": 59.17
+      },
+      {
+        "name": "tatars",
+        "games": 142,
         "winRate": 59.15
       }
     ],
@@ -424,27 +424,27 @@
       {
         "name": "spanish",
         "games": 229,
-        "winRate": 43.23
-      },
-      {
-        "name": "mongols",
-        "games": 591,
-        "winRate": 44.33
-      },
-      {
-        "name": "shu",
-        "games": 103,
-        "winRate": 44.66
+        "winRate": 43.67
       },
       {
         "name": "turks",
-        "games": 179,
-        "winRate": 44.69
+        "games": 180,
+        "winRate": 44.44
+      },
+      {
+        "name": "mongols",
+        "games": 589,
+        "winRate": 44.65
       },
       {
         "name": "japanese",
-        "games": 233,
-        "winRate": 45.06
+        "games": 234,
+        "winRate": 45.3
+      },
+      {
+        "name": "dravidians",
+        "games": 147,
+        "winRate": 45.58
       }
     ]
   },

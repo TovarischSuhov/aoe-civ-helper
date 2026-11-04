@@ -361,29 +361,29 @@
   "stats": {
     "winRate": 48.74,
     "playRate": 1.23,
-    "picks": 7273,
+    "picks": 7276,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T12:12:45.000Z",
+    "updated": "2026-11-04T21:55:00.000Z",
     "window": "2026-08-12 → 2026-11-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
-      "other": {
-        "winRate": 48.38,
-        "playRate": 1.23,
-        "picks": 4221
-      },
       "closed": {
-        "winRate": 50.65,
+        "winRate": 50.44,
         "playRate": 0.98,
-        "picks": 462
+        "picks": 458
+      },
+      "other": {
+        "winRate": 48.43,
+        "playRate": 1.23,
+        "picks": 4229
       },
       "open": {
-        "winRate": 48.68,
+        "winRate": 48.62,
         "playRate": 1.3,
-        "picks": 2426
+        "picks": 2425
       },
       "nomad": {
         "winRate": 53.66,
@@ -394,13 +394,13 @@
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 144,
-        "winRate": 63.19
+        "games": 143,
+        "winRate": 63.64
       },
       {
         "name": "poles",
-        "games": 106,
-        "winRate": 60.38
+        "games": 107,
+        "winRate": 60.75
       },
       {
         "name": "saxons",
@@ -409,8 +409,8 @@
       },
       {
         "name": "varangians",
-        "games": 96,
-        "winRate": 59.38
+        "games": 97,
+        "winRate": 59.79
       },
       {
         "name": "bohemians",
@@ -425,24 +425,24 @@
         "winRate": 36.04
       },
       {
-        "name": "mayans",
-        "games": 164,
-        "winRate": 40.24
-      },
-      {
         "name": "britons",
-        "games": 134,
-        "winRate": 40.3
+        "games": 133,
+        "winRate": 39.85
       },
       {
         "name": "malay",
-        "games": 116,
-        "winRate": 40.52
+        "games": 115,
+        "winRate": 40
+      },
+      {
+        "name": "mayans",
+        "games": 163,
+        "winRate": 40.49
       },
       {
         "name": "japanese",
-        "games": 178,
-        "winRate": 41.01
+        "games": 179,
+        "winRate": 40.78
       }
     ]
   },

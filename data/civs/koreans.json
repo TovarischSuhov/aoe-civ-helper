@@ -354,31 +354,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.6,
+    "winRate": 50.57,
     "playRate": 1.67,
-    "picks": 9858,
+    "picks": 9862,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T12:12:45.000Z",
+    "updated": "2026-11-04T21:55:00.000Z",
     "window": "2026-08-12 → 2026-11-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
+      "closed": {
+        "winRate": 49.14,
+        "playRate": 1.37,
+        "picks": 639
+      },
       "other": {
-        "winRate": 49.97,
+        "winRate": 49.9,
         "playRate": 1.68,
-        "picks": 5753
+        "picks": 5759
       },
       "open": {
         "winRate": 52.02,
         "playRate": 1.6,
-        "picks": 2972
-      },
-      "closed": {
-        "winRate": 48.99,
-        "playRate": 1.37,
-        "picks": 643
+        "picks": 2974
       },
       "nomad": {
         "winRate": 51.43,
@@ -388,29 +388,29 @@
     },
     "strongAgainst": [
       {
-        "name": "shu",
-        "games": 91,
-        "winRate": 62.64
+        "name": "gurjaras",
+        "games": 145,
+        "winRate": 62.76
       },
       {
-        "name": "gurjaras",
-        "games": 147,
-        "winRate": 62.59
+        "name": "shu",
+        "games": 90,
+        "winRate": 62.22
       },
       {
         "name": "lithuanians",
-        "games": 180,
-        "winRate": 61.67
+        "games": 177,
+        "winRate": 61.58
       },
       {
         "name": "saracens",
-        "games": 173,
-        "winRate": 60.69
+        "games": 172,
+        "winRate": 60.47
       },
       {
         "name": "britons",
-        "games": 156,
-        "winRate": 57.69
+        "games": 157,
+        "winRate": 57.96
       }
     ],
     "weakAgainst": [
@@ -426,18 +426,18 @@
       },
       {
         "name": "vietnamese",
-        "games": 232,
-        "winRate": 42.67
+        "games": 230,
+        "winRate": 42.61
       },
       {
         "name": "sicilians",
-        "games": 186,
-        "winRate": 43.55
+        "games": 187,
+        "winRate": 43.32
       },
       {
         "name": "dravidians",
-        "games": 192,
-        "winRate": 43.75
+        "games": 191,
+        "winRate": 43.46
       }
     ]
   },

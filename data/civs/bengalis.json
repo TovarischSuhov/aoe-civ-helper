@@ -256,31 +256,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.99,
+    "winRate": 49.97,
     "playRate": 1.51,
-    "picks": 8901,
+    "picks": 8903,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T12:12:45.000Z",
+    "updated": "2026-11-04T21:55:00.000Z",
     "window": "2026-08-12 → 2026-11-04",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "closed": {
-        "winRate": 53.35,
-        "playRate": 1.78,
-        "picks": 836
+      "open": {
+        "winRate": 49.79,
+        "playRate": 1.39,
+        "picks": 2591
       },
       "other": {
-        "winRate": 49.15,
+        "winRate": 49.13,
         "playRate": 1.52,
-        "picks": 5219
+        "picks": 5217
       },
-      "open": {
-        "winRate": 49.77,
-        "playRate": 1.39,
-        "picks": 2586
+      "closed": {
+        "winRate": 53.17,
+        "playRate": 1.79,
+        "picks": 835
       },
       "nomad": {
         "winRate": 58.46,
@@ -291,13 +291,18 @@
     "strongAgainst": [
       {
         "name": "georgians",
-        "games": 117,
-        "winRate": 58.12
+        "games": 115,
+        "winRate": 57.39
       },
       {
         "name": "byzantines",
-        "games": 153,
-        "winRate": 56.86
+        "games": 152,
+        "winRate": 57.24
+      },
+      {
+        "name": "saracens",
+        "games": 135,
+        "winRate": 56.3
       },
       {
         "name": "varangians",
@@ -308,11 +313,6 @@
         "name": "turks",
         "games": 190,
         "winRate": 55.79
-      },
-      {
-        "name": "saracens",
-        "games": 133,
-        "winRate": 55.64
       }
     ],
     "weakAgainst": [
@@ -323,18 +323,18 @@
       },
       {
         "name": "hindustanis",
-        "games": 165,
-        "winRate": 41.21
+        "games": 166,
+        "winRate": 40.96
       },
       {
         "name": "malay",
-        "games": 165,
-        "winRate": 41.82
+        "games": 166,
+        "winRate": 42.17
       },
       {
         "name": "wu",
-        "games": 104,
-        "winRate": 42.31
+        "games": 105,
+        "winRate": 42.86
       },
       {
         "name": "saxons",
