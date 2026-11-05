@@ -363,24 +363,24 @@
   "stats": {
     "winRate": 51.79,
     "playRate": 1.67,
-    "picks": 9852,
+    "picks": 9876,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
-      "open": {
-        "winRate": 53.35,
-        "playRate": 1.71,
-        "picks": 3192
-      },
       "other": {
-        "winRate": 50.82,
+        "winRate": 50.85,
         "playRate": 1.66,
-        "picks": 5687
+        "picks": 5699
+      },
+      "open": {
+        "winRate": 53.31,
+        "playRate": 1.72,
+        "picks": 3204
       },
       "closed": {
         "winRate": 52.27,
@@ -396,13 +396,13 @@
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 115,
-        "winRate": 66.09
+        "games": 113,
+        "winRate": 67.26
       },
       {
         "name": "gurjaras",
-        "games": 129,
-        "winRate": 65.89
+        "games": 131,
+        "winRate": 64.89
       },
       {
         "name": "tatars",
@@ -410,21 +410,21 @@
         "winRate": 59.72
       },
       {
-        "name": "saracens",
-        "games": 168,
-        "winRate": 59.52
+        "name": "khitans",
+        "games": 103,
+        "winRate": 59.22
       },
       {
-        "name": "khitans",
-        "games": 102,
-        "winRate": 58.82
+        "name": "saracens",
+        "games": 169,
+        "winRate": 59.17
       }
     ],
     "weakAgainst": [
       {
         "name": "spanish",
-        "games": 231,
-        "winRate": 43.29
+        "games": 230,
+        "winRate": 43.04
       },
       {
         "name": "turks",
@@ -433,13 +433,13 @@
       },
       {
         "name": "mongols",
-        "games": 593,
-        "winRate": 44.69
+        "games": 595,
+        "winRate": 44.71
       },
       {
         "name": "shu",
-        "games": 104,
-        "winRate": 45.19
+        "games": 105,
+        "winRate": 44.76
       },
       {
         "name": "japanese",

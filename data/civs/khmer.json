@@ -323,31 +323,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.6,
+    "winRate": 50.59,
     "playRate": 2.43,
-    "picks": 14374,
+    "picks": 14408,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khmer",
     "byMapType": {
-      "open": {
-        "winRate": 51.15,
-        "playRate": 2.47,
-        "picks": 4606
-      },
       "other": {
-        "winRate": 50.34,
+        "winRate": 50.24,
         "playRate": 2.41,
-        "picks": 8278
+        "picks": 8302
+      },
+      "open": {
+        "winRate": 51.29,
+        "playRate": 2.48,
+        "picks": 4615
       },
       "closed": {
-        "winRate": 52.16,
-        "playRate": 2.58,
-        "picks": 1202
+        "winRate": 52.2,
+        "playRate": 2.59,
+        "picks": 1203
       },
       "nomad": {
         "winRate": 42.71,
@@ -358,55 +358,55 @@
     "strongAgainst": [
       {
         "name": "britons",
-        "games": 256,
-        "winRate": 64.06
+        "games": 255,
+        "winRate": 64.31
       },
       {
         "name": "varangians",
-        "games": 265,
-        "winRate": 59.25
+        "games": 266,
+        "winRate": 59.02
       },
       {
         "name": "tupi",
-        "games": 166,
-        "winRate": 58.43
-      },
-      {
-        "name": "dravidians",
-        "games": 210,
-        "winRate": 57.14
+        "games": 168,
+        "winRate": 58.33
       },
       {
         "name": "saracens",
-        "games": 221,
-        "winRate": 57.01
+        "games": 223,
+        "winRate": 57.4
+      },
+      {
+        "name": "saxons",
+        "games": 190,
+        "winRate": 57.37
       }
     ],
     "weakAgainst": [
       {
         "name": "franks",
-        "games": 269,
-        "winRate": 42.38
+        "games": 271,
+        "winRate": 42.07
       },
       {
         "name": "hindustanis",
         "games": 277,
-        "winRate": 42.96
+        "winRate": 42.6
       },
       {
         "name": "magyars",
-        "games": 444,
-        "winRate": 43.69
-      },
-      {
-        "name": "turks",
-        "games": 259,
-        "winRate": 44.02
+        "games": 441,
+        "winRate": 43.76
       },
       {
         "name": "celts",
-        "games": 222,
-        "winRate": 44.14
+        "games": 225,
+        "winRate": 44
+      },
+      {
+        "name": "turks",
+        "games": 260,
+        "winRate": 44.23
       }
     ]
   },

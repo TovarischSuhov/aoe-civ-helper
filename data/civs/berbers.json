@@ -366,31 +366,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.57,
+    "winRate": 48.63,
     "playRate": 1.63,
-    "picks": 9612,
+    "picks": 9625,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
-      "other": {
-        "winRate": 48.51,
-        "playRate": 1.61,
-        "picks": 5537
-      },
       "open": {
-        "winRate": 48.58,
+        "winRate": 48.59,
         "playRate": 1.72,
-        "picks": 3195
+        "picks": 3200
+      },
+      "other": {
+        "winRate": 48.61,
+        "playRate": 1.61,
+        "picks": 5550
       },
       "closed": {
-        "winRate": 46.59,
-        "playRate": 1.39,
-        "picks": 646
+        "winRate": 46.49,
+        "playRate": 1.38,
+        "picks": 641
       },
       "nomad": {
         "winRate": 55.56,
@@ -401,18 +401,18 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 130,
-        "winRate": 60
+        "games": 131,
+        "winRate": 60.31
       },
       {
         "name": "poles",
-        "games": 200,
-        "winRate": 58
+        "games": 202,
+        "winRate": 57.92
       },
       {
         "name": "dravidians",
-        "games": 148,
-        "winRate": 55.41
+        "games": 147,
+        "winRate": 55.78
       },
       {
         "name": "lithuanians",
@@ -428,8 +428,8 @@
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 201,
-        "winRate": 38.81
+        "games": 199,
+        "winRate": 38.69
       },
       {
         "name": "danes",
@@ -439,17 +439,17 @@
       {
         "name": "cumans",
         "games": 160,
-        "winRate": 41.25
-      },
-      {
-        "name": "chinese",
-        "games": 227,
-        "winRate": 41.85
+        "winRate": 40.63
       },
       {
         "name": "slavs",
-        "games": 124,
-        "winRate": 41.94
+        "games": 125,
+        "winRate": 41.6
+      },
+      {
+        "name": "chinese",
+        "games": 228,
+        "winRate": 42.11
       }
     ]
   },

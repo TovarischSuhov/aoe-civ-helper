@@ -323,29 +323,29 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.76,
+    "winRate": 48.77,
     "playRate": 1.45,
-    "picks": 8589,
+    "picks": 8581,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
-      "closed": {
-        "winRate": 52.41,
-        "playRate": 1.56,
-        "picks": 725
-      },
       "other": {
-        "winRate": 48.01,
+        "winRate": 48.03,
         "playRate": 1.43,
         "picks": 4926
       },
+      "closed": {
+        "winRate": 52.58,
+        "playRate": 1.55,
+        "picks": 717
+      },
       "open": {
-        "winRate": 48.96,
+        "winRate": 48.92,
         "playRate": 1.44,
         "picks": 2684
       },
@@ -358,13 +358,13 @@
     "strongAgainst": [
       {
         "name": "wei",
-        "games": 122,
-        "winRate": 59.84
+        "games": 123,
+        "winRate": 60.16
       },
       {
         "name": "teutons",
-        "games": 183,
-        "winRate": 57.92
+        "games": 182,
+        "winRate": 58.24
       },
       {
         "name": "khitans",
@@ -372,14 +372,14 @@
         "winRate": 56.6
       },
       {
-        "name": "armenians",
-        "games": 162,
-        "winRate": 56.17
-      },
-      {
         "name": "muisca",
         "games": 84,
         "winRate": 55.95
+      },
+      {
+        "name": "berbers",
+        "games": 160,
+        "winRate": 55.63
       }
     ],
     "weakAgainst": [
@@ -400,8 +400,8 @@
       },
       {
         "name": "vikings",
-        "games": 173,
-        "winRate": 41.62
+        "games": 172,
+        "winRate": 41.86
       },
       {
         "name": "japanese",

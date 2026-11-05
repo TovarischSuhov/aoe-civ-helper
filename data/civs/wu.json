@@ -351,31 +351,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.57,
+    "winRate": 50.55,
     "playRate": 1.11,
-    "picks": 6589,
+    "picks": 6591,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
-      "closed": {
-        "winRate": 45.31,
-        "playRate": 1.05,
-        "picks": 490
-      },
       "open": {
         "winRate": 49.83,
         "playRate": 1.1,
         "picks": 2053
       },
       "other": {
-        "winRate": 51.68,
-        "playRate": 1.12,
-        "picks": 3831
+        "winRate": 51.66,
+        "playRate": 1.11,
+        "picks": 3835
+      },
+      "closed": {
+        "winRate": 45.29,
+        "playRate": 1.05,
+        "picks": 488
       },
       "nomad": {
         "winRate": 49.77,
@@ -386,8 +386,8 @@
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 88,
-        "winRate": 65.91
+        "games": 89,
+        "winRate": 66.29
       },
       {
         "name": "varangians",
@@ -395,14 +395,14 @@
         "winRate": 62.16
       },
       {
+        "name": "saracens",
+        "games": 112,
+        "winRate": 60.71
+      },
+      {
         "name": "mapuche",
         "games": 71,
         "winRate": 60.56
-      },
-      {
-        "name": "saracens",
-        "games": 111,
-        "winRate": 60.36
       },
       {
         "name": "cumans",
@@ -413,8 +413,8 @@
     "weakAgainst": [
       {
         "name": "bohemians",
-        "games": 124,
-        "winRate": 38.71
+        "games": 125,
+        "winRate": 39.2
       },
       {
         "name": "chinese",
@@ -428,13 +428,13 @@
       },
       {
         "name": "hindustanis",
-        "games": 100,
-        "winRate": 43
+        "games": 99,
+        "winRate": 43.43
       },
       {
-        "name": "georgians",
-        "games": 63,
-        "winRate": 44.44
+        "name": "mongols",
+        "games": 337,
+        "winRate": 44.51
       }
     ]
   },

@@ -378,31 +378,31 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.15,
+    "winRate": 50.12,
     "playRate": 0.98,
-    "picks": 5816,
+    "picks": 5812,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
-      "open": {
-        "winRate": 50.38,
-        "playRate": 1.07,
-        "picks": 1989
-      },
       "other": {
-        "winRate": 50.1,
+        "winRate": 50.03,
         "playRate": 0.97,
-        "picks": 3347
+        "picks": 3342
+      },
+      "open": {
+        "winRate": 50.4,
+        "playRate": 1.07,
+        "picks": 1994
       },
       "closed": {
         "winRate": 50,
-        "playRate": 0.7,
-        "picks": 324
+        "playRate": 0.69,
+        "picks": 320
       },
       "nomad": {
         "winRate": 48.72,
@@ -422,14 +422,14 @@
         "winRate": 69.49
       },
       {
-        "name": "turks",
-        "games": 82,
-        "winRate": 59.76
-      },
-      {
         "name": "lithuanians",
         "games": 105,
         "winRate": 59.05
+      },
+      {
+        "name": "byzantines",
+        "games": 108,
+        "winRate": 58.33
       },
       {
         "name": "jurchens",
@@ -439,14 +439,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "muisca",
-        "games": 58,
-        "winRate": 32.76
+        "name": "celts",
+        "games": 113,
+        "winRate": 32.74
       },
       {
-        "name": "celts",
-        "games": 115,
-        "winRate": 33.91
+        "name": "muisca",
+        "games": 57,
+        "winRate": 33.33
       },
       {
         "name": "bulgarians",
@@ -455,8 +455,8 @@
       },
       {
         "name": "romans",
-        "games": 68,
-        "winRate": 38.24
+        "games": 69,
+        "winRate": 37.68
       },
       {
         "name": "slavs",

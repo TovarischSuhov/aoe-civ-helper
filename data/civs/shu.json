@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 51.75,
+    "winRate": 51.77,
     "playRate": 0.95,
     "picks": 5648,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T12:25:39.000Z",
+    "updated": "2026-11-05T22:03:54.000Z",
     "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "open": {
-        "winRate": 52.9,
+        "winRate": 52.93,
         "playRate": 0.98,
-        "picks": 1826
-      },
-      "closed": {
-        "winRate": 46.17,
-        "playRate": 0.84,
-        "picks": 392
+        "picks": 1827
       },
       "other": {
-        "winRate": 51.88,
+        "winRate": 51.86,
         "playRate": 0.95,
-        "picks": 3277
+        "picks": 3280
+      },
+      "closed": {
+        "winRate": 46.39,
+        "playRate": 0.84,
+        "picks": 388
       },
       "nomad": {
         "winRate": 49.67,
@@ -387,8 +387,8 @@
     "strongAgainst": [
       {
         "name": "malay",
-        "games": 98,
-        "winRate": 64.29
+        "games": 99,
+        "winRate": 63.64
       },
       {
         "name": "burmese",
@@ -396,14 +396,14 @@
         "winRate": 61.17
       },
       {
+        "name": "japanese",
+        "games": 144,
+        "winRate": 61.11
+      },
+      {
         "name": "varangians",
         "games": 56,
         "winRate": 60.71
-      },
-      {
-        "name": "japanese",
-        "games": 142,
-        "winRate": 60.56
       },
       {
         "name": "portuguese",
@@ -420,7 +420,7 @@
       {
         "name": "georgians",
         "games": 80,
-        "winRate": 42.5
+        "winRate": 43.75
       },
       {
         "name": "chinese",
@@ -433,9 +433,9 @@
         "winRate": 44.33
       },
       {
-        "name": "aztecs",
-        "games": 111,
-        "winRate": 45.05
+        "name": "khmer",
+        "games": 128,
+        "winRate": 44.53
       }
     ]
   },
