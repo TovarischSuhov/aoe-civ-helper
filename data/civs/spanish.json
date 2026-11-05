@@ -269,31 +269,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.23,
-    "playRate": 2.48,
-    "picks": 14647,
+    "winRate": 50.17,
+    "playRate": 2.47,
+    "picks": 14623,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T21:55:00.000Z",
-    "window": "2026-08-12 → 2026-11-04",
+    "updated": "2026-11-05T12:25:39.000Z",
+    "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
       "open": {
-        "winRate": 49.14,
+        "winRate": 49.1,
         "playRate": 2.11,
-        "picks": 3940
-      },
-      "other": {
-        "winRate": 49.82,
-        "playRate": 2.48,
-        "picks": 8507
+        "picks": 3931
       },
       "closed": {
-        "winRate": 52.85,
+        "winRate": 53,
         "playRate": 3.12,
-        "picks": 1455
+        "picks": 1451
+      },
+      "other": {
+        "winRate": 49.72,
+        "playRate": 2.47,
+        "picks": 8496
       },
       "nomad": {
         "winRate": 55.57,
@@ -304,13 +304,8 @@
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 169,
-        "winRate": 60.95
-      },
-      {
-        "name": "varangians",
-        "games": 211,
-        "winRate": 60.19
+        "games": 170,
+        "winRate": 61.18
       },
       {
         "name": "danes",
@@ -318,26 +313,31 @@
         "winRate": 59.84
       },
       {
+        "name": "varangians",
+        "games": 213,
+        "winRate": 59.62
+      },
+      {
         "name": "cumans",
-        "games": 241,
-        "winRate": 59.34
+        "games": 240,
+        "winRate": 59.58
       },
       {
         "name": "burgundians",
-        "games": 368,
-        "winRate": 58.15
+        "games": 370,
+        "winRate": 58.11
       }
     ],
     "weakAgainst": [
       {
         "name": "italians",
-        "games": 309,
-        "winRate": 39.16
+        "games": 304,
+        "winRate": 37.83
       },
       {
         "name": "chinese",
-        "games": 342,
-        "winRate": 40.64
+        "games": 344,
+        "winRate": 40.7
       },
       {
         "name": "dravidians",
@@ -345,14 +345,14 @@
         "winRate": 42.42
       },
       {
-        "name": "bohemians",
-        "games": 351,
-        "winRate": 42.45
+        "name": "mayans",
+        "games": 302,
+        "winRate": 42.72
       },
       {
-        "name": "mayans",
-        "games": 303,
-        "winRate": 42.9
+        "name": "bohemians",
+        "games": 353,
+        "winRate": 42.78
       }
     ]
   },

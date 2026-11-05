@@ -295,53 +295,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.86,
+    "winRate": 51.89,
     "playRate": 1.7,
-    "picks": 10047,
+    "picks": 10070,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T21:55:00.000Z",
-    "window": "2026-08-12 → 2026-11-04",
+    "updated": "2026-11-05T12:25:39.000Z",
+    "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
-      "other": {
-        "winRate": 52.23,
-        "playRate": 1.72,
-        "picks": 5916
-      },
       "open": {
-        "winRate": 51.41,
+        "winRate": 51.36,
         "playRate": 1.5,
-        "picks": 2803
+        "picks": 2798
+      },
+      "other": {
+        "winRate": 52.25,
+        "playRate": 1.73,
+        "picks": 5948
       },
       "closed": {
-        "winRate": 51,
+        "winRate": 51.28,
         "playRate": 2.26,
-        "picks": 1055
+        "picks": 1051
       },
       "nomad": {
         "winRate": 51.65,
-        "playRate": 1.79,
+        "playRate": 1.78,
         "picks": 273
       }
     },
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 137,
-        "winRate": 61.31
-      },
-      {
-        "name": "khitans",
-        "games": 115,
-        "winRate": 60
+        "games": 135,
+        "winRate": 61.48
       },
       {
         "name": "mapuche",
-        "games": 89,
-        "winRate": 59.55
+        "games": 90,
+        "winRate": 60
       },
       {
         "name": "georgians",
@@ -349,26 +344,26 @@
         "winRate": 58.78
       },
       {
+        "name": "khitans",
+        "games": 116,
+        "winRate": 58.62
+      },
+      {
         "name": "muisca",
-        "games": 102,
-        "winRate": 57.84
+        "games": 103,
+        "winRate": 58.25
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 96,
-        "winRate": 36.46
+        "games": 98,
+        "winRate": 35.71
       },
       {
         "name": "wu",
         "games": 102,
-        "winRate": 42.16
-      },
-      {
-        "name": "mayans",
-        "games": 198,
-        "winRate": 42.93
+        "winRate": 41.18
       },
       {
         "name": "saxons",
@@ -376,9 +371,14 @@
         "winRate": 42.97
       },
       {
+        "name": "mayans",
+        "games": 197,
+        "winRate": 43.65
+      },
+      {
         "name": "malians",
-        "games": 165,
-        "winRate": 44.24
+        "games": 167,
+        "winRate": 44.91
       }
     ]
   },

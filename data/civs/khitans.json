@@ -359,31 +359,31 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 48.74,
+    "winRate": 48.79,
     "playRate": 1.23,
-    "picks": 7276,
+    "picks": 7272,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T21:55:00.000Z",
-    "window": "2026-08-12 → 2026-11-04",
+    "updated": "2026-11-05T12:25:39.000Z",
+    "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
-      "closed": {
-        "winRate": 50.44,
-        "playRate": 0.98,
-        "picks": 458
+      "open": {
+        "winRate": 48.72,
+        "playRate": 1.3,
+        "picks": 2426
       },
       "other": {
-        "winRate": 48.43,
+        "winRate": 48.5,
         "playRate": 1.23,
         "picks": 4229
       },
-      "open": {
-        "winRate": 48.62,
-        "playRate": 1.3,
-        "picks": 2425
+      "closed": {
+        "winRate": 50.11,
+        "playRate": 0.97,
+        "picks": 453
       },
       "nomad": {
         "winRate": 53.66,
@@ -394,23 +394,23 @@
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 143,
-        "winRate": 63.64
+        "games": 145,
+        "winRate": 63.45
       },
       {
         "name": "poles",
-        "games": 107,
-        "winRate": 60.75
-      },
-      {
-        "name": "saxons",
-        "games": 65,
-        "winRate": 60
+        "games": 106,
+        "winRate": 60.38
       },
       {
         "name": "varangians",
         "games": 97,
         "winRate": 59.79
+      },
+      {
+        "name": "saxons",
+        "games": 68,
+        "winRate": 57.35
       },
       {
         "name": "bohemians",
@@ -421,28 +421,28 @@
     "weakAgainst": [
       {
         "name": "gurjaras",
-        "games": 111,
-        "winRate": 36.04
+        "games": 112,
+        "winRate": 35.71
       },
       {
         "name": "britons",
-        "games": 133,
-        "winRate": 39.85
-      },
-      {
-        "name": "malay",
-        "games": 115,
-        "winRate": 40
+        "games": 131,
+        "winRate": 39.69
       },
       {
         "name": "mayans",
-        "games": 163,
-        "winRate": 40.49
+        "games": 162,
+        "winRate": 40.12
       },
       {
         "name": "japanese",
-        "games": 179,
-        "winRate": 40.78
+        "games": 181,
+        "winRate": 40.88
+      },
+      {
+        "name": "jurchens",
+        "games": 83,
+        "winRate": 40.96
       }
     ]
   },

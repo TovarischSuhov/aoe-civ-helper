@@ -378,31 +378,31 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.19,
+    "winRate": 50.15,
     "playRate": 0.98,
-    "picks": 5818,
+    "picks": 5816,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T21:55:00.000Z",
-    "window": "2026-08-12 → 2026-11-04",
+    "updated": "2026-11-05T12:25:39.000Z",
+    "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
-      "other": {
-        "winRate": 50.09,
-        "playRate": 0.98,
-        "picks": 3350
-      },
       "open": {
-        "winRate": 50.55,
+        "winRate": 50.38,
         "playRate": 1.07,
-        "picks": 1990
+        "picks": 1989
+      },
+      "other": {
+        "winRate": 50.1,
+        "playRate": 0.97,
+        "picks": 3347
       },
       "closed": {
-        "winRate": 49.69,
-        "playRate": 0.69,
-        "picks": 322
+        "winRate": 50,
+        "playRate": 0.7,
+        "picks": 324
       },
       "nomad": {
         "winRate": 48.72,
@@ -423,18 +423,18 @@
       },
       {
         "name": "turks",
-        "games": 81,
-        "winRate": 60.49
-      },
-      {
-        "name": "jurchens",
-        "games": 72,
-        "winRate": 59.72
+        "games": 82,
+        "winRate": 59.76
       },
       {
         "name": "lithuanians",
         "games": 105,
         "winRate": 59.05
+      },
+      {
+        "name": "jurchens",
+        "games": 72,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
@@ -450,8 +450,8 @@
       },
       {
         "name": "bulgarians",
-        "games": 94,
-        "winRate": 37.23
+        "games": 93,
+        "winRate": 37.63
       },
       {
         "name": "romans",

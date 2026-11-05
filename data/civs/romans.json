@@ -350,29 +350,29 @@
   "stats": {
     "winRate": 53.86,
     "playRate": 1.31,
-    "picks": 7755,
+    "picks": 7769,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-04T21:55:00.000Z",
-    "window": "2026-08-12 → 2026-11-04",
+    "updated": "2026-11-05T12:25:39.000Z",
+    "window": "2026-08-13 → 2026-11-05",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
+      "open": {
+        "winRate": 53.7,
+        "playRate": 1.39,
+        "picks": 2592
+      },
       "other": {
-        "winRate": 54.52,
-        "playRate": 1.32,
-        "picks": 4540
+        "winRate": 54.44,
+        "playRate": 1.33,
+        "picks": 4552
       },
       "closed": {
         "winRate": 50.86,
-        "playRate": 0.99,
+        "playRate": 1,
         "picks": 464
-      },
-      "open": {
-        "winRate": 53.59,
-        "playRate": 1.39,
-        "picks": 2590
       },
       "nomad": {
         "winRate": 48.45,
@@ -383,18 +383,18 @@
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 58,
-        "winRate": 72.41
+        "games": 57,
+        "winRate": 71.93
       },
       {
         "name": "danes",
-        "games": 71,
-        "winRate": 66.2
+        "games": 72,
+        "winRate": 66.67
       },
       {
         "name": "byzantines",
-        "games": 124,
-        "winRate": 65.32
+        "games": 125,
+        "winRate": 64.8
       },
       {
         "name": "slavs",
@@ -410,8 +410,8 @@
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 197,
-        "winRate": 45.69
+        "games": 196,
+        "winRate": 45.92
       },
       {
         "name": "malians",
@@ -420,18 +420,18 @@
       },
       {
         "name": "mongols",
-        "games": 493,
-        "winRate": 46.65
+        "games": 496,
+        "winRate": 46.77
+      },
+      {
+        "name": "japanese",
+        "games": 198,
+        "winRate": 48.48
       },
       {
         "name": "spanish",
-        "games": 158,
-        "winRate": 48.1
-      },
-      {
-        "name": "bulgarians",
-        "games": 124,
-        "winRate": 48.39
+        "games": 156,
+        "winRate": 48.72
       }
     ]
   },
