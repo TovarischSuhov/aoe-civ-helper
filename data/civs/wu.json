@@ -351,31 +351,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.55,
+    "winRate": 50.7,
     "playRate": 1.11,
-    "picks": 6591,
+    "picks": 6584,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T22:03:54.000Z",
-    "window": "2026-08-13 → 2026-11-05",
+    "updated": "2026-11-06T12:10:18.000Z",
+    "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
-      "open": {
-        "winRate": 49.83,
-        "playRate": 1.1,
-        "picks": 2053
-      },
       "other": {
-        "winRate": 51.66,
+        "winRate": 51.84,
         "playRate": 1.11,
-        "picks": 3835
+        "picks": 3833
+      },
+      "open": {
+        "winRate": 50,
+        "playRate": 1.1,
+        "picks": 2052
       },
       "closed": {
-        "winRate": 45.29,
+        "winRate": 45.04,
         "playRate": 1.05,
-        "picks": 488
+        "picks": 484
       },
       "nomad": {
         "winRate": 49.77,
@@ -386,8 +386,8 @@
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 89,
-        "winRate": 66.29
+        "games": 90,
+        "winRate": 66.67
       },
       {
         "name": "varangians",
@@ -395,14 +395,14 @@
         "winRate": 62.16
       },
       {
-        "name": "saracens",
-        "games": 112,
-        "winRate": 60.71
-      },
-      {
         "name": "mapuche",
         "games": 71,
         "winRate": 60.56
+      },
+      {
+        "name": "saracens",
+        "games": 111,
+        "winRate": 60.36
       },
       {
         "name": "cumans",
@@ -428,13 +428,13 @@
       },
       {
         "name": "hindustanis",
-        "games": 99,
-        "winRate": 43.43
+        "games": 96,
+        "winRate": 43.75
       },
       {
-        "name": "mongols",
-        "games": 337,
-        "winRate": 44.51
+        "name": "tupi",
+        "games": 74,
+        "winRate": 44.59
       }
     ]
   },

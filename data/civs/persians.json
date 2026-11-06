@@ -328,31 +328,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.26,
+    "winRate": 51.27,
     "playRate": 2.73,
-    "picks": 16183,
+    "picks": 16170,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T22:03:54.000Z",
-    "window": "2026-08-13 → 2026-11-05",
+    "updated": "2026-11-06T12:10:18.000Z",
+    "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
-      "open": {
-        "winRate": 51.89,
-        "playRate": 2.84,
-        "picks": 5288
-      },
       "other": {
-        "winRate": 51.17,
-        "playRate": 2.72,
-        "picks": 9351
+        "winRate": 51.21,
+        "playRate": 2.71,
+        "picks": 9348
+      },
+      "open": {
+        "winRate": 51.87,
+        "playRate": 2.84,
+        "picks": 5286
       },
       "closed": {
-        "winRate": 47.48,
-        "playRate": 2.1,
-        "picks": 973
+        "winRate": 47.36,
+        "playRate": 2.09,
+        "picks": 965
       },
       "nomad": {
         "winRate": 53.24,
@@ -368,26 +368,31 @@
       },
       {
         "name": "jurchens",
-        "games": 209,
-        "winRate": 59.33
+        "games": 210,
+        "winRate": 59.05
       },
       {
         "name": "teutons",
         "games": 229,
-        "winRate": 58.52
+        "winRate": 58.08
       },
       {
         "name": "tupi",
-        "games": 187,
-        "winRate": 57.75
+        "games": 188,
+        "winRate": 57.98
       },
       {
-        "name": "danes",
-        "games": 179,
-        "winRate": 57.54
+        "name": "varangians",
+        "games": 333,
+        "winRate": 57.66
       }
     ],
     "weakAgainst": [
+      {
+        "name": "khitans",
+        "games": 195,
+        "winRate": 43.59
+      },
       {
         "name": "koreans",
         "games": 275,
@@ -395,23 +400,18 @@
       },
       {
         "name": "mapuche",
-        "games": 151,
-        "winRate": 43.71
-      },
-      {
-        "name": "khitans",
-        "games": 196,
-        "winRate": 44.39
-      },
-      {
-        "name": "vikings",
-        "games": 308,
-        "winRate": 44.81
+        "games": 150,
+        "winRate": 44
       },
       {
         "name": "huns",
-        "games": 355,
-        "winRate": 45.07
+        "games": 357,
+        "winRate": 45.1
+      },
+      {
+        "name": "vikings",
+        "games": 309,
+        "winRate": 45.31
       }
     ]
   },

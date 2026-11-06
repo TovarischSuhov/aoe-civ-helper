@@ -348,31 +348,31 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.82,
-    "playRate": 1.31,
-    "picks": 7779,
+    "winRate": 53.78,
+    "playRate": 1.32,
+    "picks": 7800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-05T22:03:54.000Z",
-    "window": "2026-08-13 → 2026-11-05",
+    "updated": "2026-11-06T12:10:18.000Z",
+    "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "other": {
-        "winRate": 54.36,
-        "playRate": 1.33,
-        "picks": 4562
-      },
       "open": {
-        "winRate": 53.75,
+        "winRate": 53.78,
         "playRate": 1.39,
-        "picks": 2597
+        "picks": 2594
+      },
+      "other": {
+        "winRate": 54.24,
+        "playRate": 1.33,
+        "picks": 4583
       },
       "closed": {
-        "winRate": 50.76,
-        "playRate": 0.99,
-        "picks": 459
+        "winRate": 51.08,
+        "playRate": 1,
+        "picks": 462
       },
       "nomad": {
         "winRate": 48.45,
@@ -393,30 +393,25 @@
       },
       {
         "name": "byzantines",
-        "games": 125,
-        "winRate": 64.8
-      },
-      {
-        "name": "portuguese",
-        "games": 121,
-        "winRate": 62.81
+        "games": 126,
+        "winRate": 64.29
       },
       {
         "name": "slavs",
-        "games": 117,
-        "winRate": 62.39
+        "games": 118,
+        "winRate": 62.71
+      },
+      {
+        "name": "sicilians",
+        "games": 157,
+        "winRate": 62.42
       }
     ],
     "weakAgainst": [
       {
-        "name": "khmer",
-        "games": 197,
-        "winRate": 46.19
-      },
-      {
         "name": "mongols",
-        "games": 494,
-        "winRate": 46.56
+        "games": 497,
+        "winRate": 46.48
       },
       {
         "name": "malians",
@@ -424,14 +419,19 @@
         "winRate": 46.62
       },
       {
-        "name": "japanese",
-        "games": 199,
-        "winRate": 48.74
+        "name": "khmer",
+        "games": 197,
+        "winRate": 46.7
       },
       {
-        "name": "bulgarians",
-        "games": 123,
-        "winRate": 48.78
+        "name": "japanese",
+        "games": 201,
+        "winRate": 48.26
+      },
+      {
+        "name": "saracens",
+        "games": 119,
+        "winRate": 49.58
       }
     ]
   },
