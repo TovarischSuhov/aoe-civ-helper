@@ -323,31 +323,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.79,
+    "winRate": 48.75,
     "playRate": 1.45,
-    "picks": 8578,
+    "picks": 8577,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T12:10:18.000Z",
+    "updated": "2026-11-06T21:32:12.000Z",
     "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
-      "other": {
-        "winRate": 48.03,
-        "playRate": 1.43,
-        "picks": 4928
-      },
       "closed": {
-        "winRate": 52.95,
+        "winRate": 53.17,
         "playRate": 1.54,
-        "picks": 712
+        "picks": 709
+      },
+      "other": {
+        "winRate": 47.99,
+        "playRate": 1.43,
+        "picks": 4932
       },
       "open": {
-        "winRate": 48.88,
+        "winRate": 48.77,
         "playRate": 1.44,
-        "picks": 2684
+        "picks": 2682
       },
       "nomad": {
         "winRate": 50.79,
@@ -358,13 +358,13 @@
     "strongAgainst": [
       {
         "name": "wei",
-        "games": 124,
-        "winRate": 59.68
+        "games": 125,
+        "winRate": 60
       },
       {
         "name": "teutons",
-        "games": 182,
-        "winRate": 58.79
+        "games": 180,
+        "winRate": 58.89
       },
       {
         "name": "khitans",
@@ -374,29 +374,29 @@
       {
         "name": "armenians",
         "games": 159,
-        "winRate": 56.6
+        "winRate": 55.97
       },
       {
         "name": "muisca",
-        "games": 83,
-        "winRate": 55.42
+        "games": 84,
+        "winRate": 54.76
       }
     ],
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 91,
-        "winRate": 37.36
+        "games": 90,
+        "winRate": 37.78
       },
       {
         "name": "shu",
-        "games": 103,
-        "winRate": 38.83
+        "games": 102,
+        "winRate": 38.24
       },
       {
         "name": "huns",
-        "games": 171,
-        "winRate": 39.77
+        "games": 172,
+        "winRate": 39.53
       },
       {
         "name": "tupi",
@@ -405,8 +405,8 @@
       },
       {
         "name": "japanese",
-        "games": 191,
-        "winRate": 41.88
+        "games": 193,
+        "winRate": 41.97
       }
     ]
   },

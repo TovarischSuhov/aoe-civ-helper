@@ -367,29 +367,29 @@
   "stats": {
     "winRate": 50.22,
     "playRate": 1.74,
-    "picks": 10327,
+    "picks": 10345,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T12:10:18.000Z",
+    "updated": "2026-11-06T21:32:12.000Z",
     "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
+      "closed": {
+        "winRate": 52.14,
+        "playRate": 1.88,
+        "picks": 865
+      },
       "other": {
-        "winRate": 49.88,
+        "winRate": 49.89,
         "playRate": 1.73,
-        "picks": 5952
+        "picks": 5977
       },
       "open": {
-        "winRate": 50.56,
+        "winRate": 50.58,
         "playRate": 1.76,
-        "picks": 3285
-      },
-      "closed": {
-        "winRate": 52.24,
-        "playRate": 1.89,
-        "picks": 871
+        "picks": 3284
       },
       "nomad": {
         "winRate": 46.12,
@@ -405,8 +405,8 @@
       },
       {
         "name": "danes",
-        "games": 95,
-        "winRate": 61.05
+        "games": 99,
+        "winRate": 61.62
       },
       {
         "name": "tupi",
@@ -414,41 +414,41 @@
         "winRate": 58.91
       },
       {
-        "name": "cumans",
-        "games": 165,
-        "winRate": 57.58
-      },
-      {
         "name": "incas",
         "games": 169,
         "winRate": 57.4
+      },
+      {
+        "name": "cumans",
+        "games": 164,
+        "winRate": 57.32
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 242,
-        "winRate": 36.36
+        "games": 244,
+        "winRate": 36.89
       },
       {
         "name": "japanese",
-        "games": 250,
-        "winRate": 41.6
+        "games": 251,
+        "winRate": 41.43
       },
       {
         "name": "jurchens",
-        "games": 108,
-        "winRate": 42.59
+        "games": 109,
+        "winRate": 42.2
       },
       {
         "name": "mayans",
-        "games": 220,
-        "winRate": 43.18
+        "games": 219,
+        "winRate": 42.92
       },
       {
         "name": "burmese",
         "games": 159,
-        "winRate": 43.4
+        "winRate": 44.03
       }
     ]
   },

@@ -363,29 +363,29 @@
   "stats": {
     "winRate": 51.77,
     "playRate": 1.67,
-    "picks": 9872,
+    "picks": 9897,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T12:10:18.000Z",
+    "updated": "2026-11-06T21:32:12.000Z",
     "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 50.9,
-        "playRate": 1.65,
-        "picks": 5690
-      },
-      "closed": {
-        "winRate": 51.92,
-        "playRate": 1.52,
-        "picks": 703
+        "winRate": 50.95,
+        "playRate": 1.66,
+        "picks": 5715
       },
       "open": {
-        "winRate": 53.24,
-        "playRate": 1.72,
-        "picks": 3212
+        "winRate": 53.19,
+        "playRate": 1.73,
+        "picks": 3217
+      },
+      "closed": {
+        "winRate": 51.72,
+        "playRate": 1.52,
+        "picks": 698
       },
       "nomad": {
         "winRate": 52.43,
@@ -396,7 +396,7 @@
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 114,
+        "games": 111,
         "winRate": 66.67
       },
       {
@@ -406,8 +406,8 @@
       },
       {
         "name": "tatars",
-        "games": 145,
-        "winRate": 60
+        "games": 147,
+        "winRate": 59.86
       },
       {
         "name": "saracens",
@@ -415,36 +415,36 @@
         "winRate": 59.52
       },
       {
-        "name": "bulgarians",
-        "games": 172,
-        "winRate": 58.72
+        "name": "danes",
+        "games": 73,
+        "winRate": 58.9
       }
     ],
     "weakAgainst": [
       {
-        "name": "spanish",
-        "games": 230,
-        "winRate": 43.48
-      },
-      {
         "name": "shu",
         "games": 103,
-        "winRate": 43.69
+        "winRate": 42.72
       },
       {
-        "name": "mongols",
-        "games": 595,
-        "winRate": 44.71
-      },
-      {
-        "name": "turks",
-        "games": 180,
-        "winRate": 45
+        "name": "spanish",
+        "games": 235,
+        "winRate": 42.98
       },
       {
         "name": "japanese",
         "games": 235,
-        "winRate": 45.11
+        "winRate": 44.68
+      },
+      {
+        "name": "mongols",
+        "games": 600,
+        "winRate": 45
+      },
+      {
+        "name": "dravidians",
+        "games": 146,
+        "winRate": 45.21
       }
     ]
   },

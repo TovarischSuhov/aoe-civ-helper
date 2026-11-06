@@ -352,30 +352,30 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 51.8,
+    "winRate": 51.93,
     "playRate": 0.95,
     "picks": 5635,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T12:10:18.000Z",
+    "updated": "2026-11-06T21:32:12.000Z",
     "window": "2026-08-14 → 2026-11-06",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
-      "open": {
-        "winRate": 52.92,
-        "playRate": 0.97,
-        "picks": 1814
-      },
       "other": {
-        "winRate": 51.81,
+        "winRate": 51.93,
         "playRate": 0.95,
         "picks": 3283
       },
+      "open": {
+        "winRate": 53.03,
+        "playRate": 0.97,
+        "picks": 1814
+      },
       "closed": {
-        "winRate": 47.27,
-        "playRate": 0.83,
+        "winRate": 47.53,
+        "playRate": 0.84,
         "picks": 385
       },
       "nomad": {
@@ -387,23 +387,23 @@
     "strongAgainst": [
       {
         "name": "malay",
-        "games": 101,
-        "winRate": 63.37
+        "games": 104,
+        "winRate": 62.5
+      },
+      {
+        "name": "burmese",
+        "games": 102,
+        "winRate": 61.76
+      },
+      {
+        "name": "japanese",
+        "games": 140,
+        "winRate": 61.43
       },
       {
         "name": "varangians",
         "games": 57,
         "winRate": 61.4
-      },
-      {
-        "name": "burmese",
-        "games": 103,
-        "winRate": 61.17
-      },
-      {
-        "name": "japanese",
-        "games": 143,
-        "winRate": 60.84
       },
       {
         "name": "portuguese",
@@ -414,18 +414,13 @@
     "weakAgainst": [
       {
         "name": "koreans",
-        "games": 92,
-        "winRate": 35.87
+        "games": 90,
+        "winRate": 36.67
       },
       {
         "name": "hindustanis",
-        "games": 109,
-        "winRate": 44.04
-      },
-      {
-        "name": "chinese",
-        "games": 145,
-        "winRate": 44.14
+        "games": 108,
+        "winRate": 43.52
       },
       {
         "name": "georgians",
@@ -436,6 +431,11 @@
         "name": "dravidians",
         "games": 97,
         "winRate": 44.33
+      },
+      {
+        "name": "chinese",
+        "games": 142,
+        "winRate": 44.37
       }
     ]
   },
