@@ -359,31 +359,31 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 49.01,
-    "playRate": 1.23,
+    "winRate": 49.04,
+    "playRate": 1.22,
     "picks": 7266,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T21:32:12.000Z",
-    "window": "2026-08-14 → 2026-11-06",
+    "updated": "2026-11-07T11:06:57.000Z",
+    "window": "2026-08-15 → 2026-11-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
-      "closed": {
-        "winRate": 49.66,
-        "playRate": 0.97,
-        "picks": 447
-      },
       "other": {
-        "winRate": 48.84,
-        "playRate": 1.22,
-        "picks": 4230
+        "winRate": 48.87,
+        "playRate": 1.23,
+        "picks": 4238
       },
       "open": {
-        "winRate": 48.87,
+        "winRate": 48.89,
         "playRate": 1.3,
-        "picks": 2425
+        "picks": 2424
+      },
+      "closed": {
+        "winRate": 49.77,
+        "playRate": 0.96,
+        "picks": 440
       },
       "nomad": {
         "winRate": 53.66,
@@ -413,16 +413,16 @@
         "winRate": 57.97
       },
       {
-        "name": "persians",
-        "games": 193,
-        "winRate": 56.48
+        "name": "bohemians",
+        "games": 97,
+        "winRate": 56.7
       }
     ],
     "weakAgainst": [
       {
         "name": "gurjaras",
         "games": 112,
-        "winRate": 35.71
+        "winRate": 36.61
       },
       {
         "name": "britons",
@@ -430,19 +430,19 @@
         "winRate": 39.53
       },
       {
-        "name": "mayans",
-        "games": 161,
-        "winRate": 39.75
-      },
-      {
         "name": "japanese",
         "games": 186,
         "winRate": 39.78
       },
       {
+        "name": "mayans",
+        "games": 160,
+        "winRate": 40
+      },
+      {
         "name": "celts",
-        "games": 104,
-        "winRate": 41.35
+        "games": 105,
+        "winRate": 40.95
       }
     ]
   },

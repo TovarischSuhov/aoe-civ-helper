@@ -294,26 +294,26 @@
     "picks": 10413,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T21:32:12.000Z",
-    "window": "2026-08-14 → 2026-11-06",
+    "updated": "2026-11-07T11:06:57.000Z",
+    "window": "2026-08-15 → 2026-11-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
-      "open": {
-        "winRate": 48.12,
-        "playRate": 1.8,
-        "picks": 3344
-      },
       "other": {
-        "winRate": 49.18,
+        "winRate": 49.25,
         "playRate": 1.77,
-        "picks": 6127
+        "picks": 6134
       },
       "closed": {
-        "winRate": 46.34,
-        "playRate": 1.54,
-        "picks": 710
+        "winRate": 45.86,
+        "playRate": 1.53,
+        "picks": 700
+      },
+      "open": {
+        "winRate": 48.07,
+        "playRate": 1.8,
+        "picks": 3347
       },
       "nomad": {
         "winRate": 48.71,
@@ -324,28 +324,28 @@
     "strongAgainst": [
       {
         "name": "byzantines",
-        "games": 161,
-        "winRate": 61.49
+        "games": 163,
+        "winRate": 61.96
       },
       {
         "name": "incas",
         "games": 178,
-        "winRate": 59.55
+        "winRate": 58.99
       },
       {
         "name": "muisca",
-        "games": 106,
-        "winRate": 58.49
+        "games": 105,
+        "winRate": 58.1
       },
       {
-        "name": "gurjaras",
-        "games": 127,
-        "winRate": 57.48
+        "name": "goths",
+        "games": 164,
+        "winRate": 57.32
       },
       {
-        "name": "koreans",
-        "games": 187,
-        "winRate": 57.22
+        "name": "turks",
+        "games": 186,
+        "winRate": 56.99
       }
     ],
     "weakAgainst": [
@@ -356,23 +356,23 @@
       },
       {
         "name": "romans",
-        "games": 156,
-        "winRate": 37.18
-      },
-      {
-        "name": "chinese",
-        "games": 257,
-        "winRate": 42.02
+        "games": 157,
+        "winRate": 37.58
       },
       {
         "name": "vikings",
         "games": 178,
-        "winRate": 42.13
+        "winRate": 41.57
+      },
+      {
+        "name": "chinese",
+        "games": 255,
+        "winRate": 41.57
       },
       {
         "name": "malay",
-        "games": 196,
-        "winRate": 42.35
+        "games": 195,
+        "winRate": 42.05
       }
     ]
   },

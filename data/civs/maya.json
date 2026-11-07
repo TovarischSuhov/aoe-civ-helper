@@ -333,31 +333,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 54.26,
+    "winRate": 54.21,
     "playRate": 2.09,
-    "picks": 12395,
+    "picks": 12416,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-06T21:32:12.000Z",
-    "window": "2026-08-14 → 2026-11-06",
+    "updated": "2026-11-07T11:06:57.000Z",
+    "window": "2026-08-15 → 2026-11-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
+      "closed": {
+        "winRate": 50.14,
+        "playRate": 1.54,
+        "picks": 706
+      },
       "other": {
-        "winRate": 53.57,
-        "playRate": 1.97,
-        "picks": 6816
+        "winRate": 53.45,
+        "playRate": 1.98,
+        "picks": 6835
       },
       "open": {
-        "winRate": 56.05,
-        "playRate": 2.46,
-        "picks": 4587
-      },
-      "closed": {
-        "winRate": 49.93,
-        "playRate": 1.55,
-        "picks": 711
+        "winRate": 56.07,
+        "playRate": 2.47,
+        "picks": 4594
       },
       "nomad": {
         "winRate": 52.67,
@@ -368,28 +368,28 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 195,
-        "winRate": 68.21
+        "games": 198,
+        "winRate": 67.68
       },
       {
         "name": "tatars",
-        "games": 208,
-        "winRate": 64.42
+        "games": 207,
+        "winRate": 64.25
       },
       {
         "name": "portuguese",
-        "games": 208,
-        "winRate": 62.02
-      },
-      {
-        "name": "cumans",
-        "games": 203,
-        "winRate": 60.59
+        "games": 209,
+        "winRate": 61.72
       },
       {
         "name": "gurjaras",
         "games": 157,
         "winRate": 60.51
+      },
+      {
+        "name": "cumans",
+        "games": 206,
+        "winRate": 60.19
       }
     ],
     "weakAgainst": [
@@ -400,13 +400,13 @@
       },
       {
         "name": "slavs",
-        "games": 172,
-        "winRate": 44.77
+        "games": 174,
+        "winRate": 45.4
       },
       {
         "name": "vikings",
-        "games": 222,
-        "winRate": 46.4
+        "games": 221,
+        "winRate": 47.06
       },
       {
         "name": "dravidians",
