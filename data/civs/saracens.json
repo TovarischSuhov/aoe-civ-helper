@@ -333,31 +333,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.19,
+    "winRate": 46.16,
     "playRate": 1.48,
-    "picks": 8786,
+    "picks": 8807,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-07T11:06:57.000Z",
+    "updated": "2026-11-07T20:15:47.000Z",
     "window": "2026-08-15 → 2026-11-07",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saracens",
     "byMapType": {
       "other": {
-        "winRate": 46.77,
+        "winRate": 46.84,
         "playRate": 1.48,
-        "picks": 5104
-      },
-      "closed": {
-        "winRate": 43.75,
-        "playRate": 1.43,
-        "picks": 656
+        "picks": 5122
       },
       "open": {
-        "winRate": 45.79,
+        "winRate": 45.57,
         "playRate": 1.51,
-        "picks": 2804
+        "picks": 2811
+      },
+      "closed": {
+        "winRate": 43.71,
+        "playRate": 1.43,
+        "picks": 652
       },
       "nomad": {
         "winRate": 45.05,
@@ -368,18 +368,18 @@
     "strongAgainst": [
       {
         "name": "wei",
-        "games": 119,
-        "winRate": 55.46
-      },
-      {
-        "name": "japanese",
-        "games": 210,
-        "winRate": 54.29
+        "games": 117,
+        "winRate": 55.56
       },
       {
         "name": "sicilians",
         "games": 183,
-        "winRate": 54.1
+        "winRate": 54.64
+      },
+      {
+        "name": "japanese",
+        "games": 212,
+        "winRate": 53.77
       },
       {
         "name": "burmese",
@@ -387,16 +387,16 @@
         "winRate": 53.37
       },
       {
-        "name": "lithuanians",
-        "games": 151,
-        "winRate": 52.98
+        "name": "mapuche",
+        "games": 90,
+        "winRate": 53.33
       }
     ],
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 197,
-        "winRate": 38.07
+        "games": 200,
+        "winRate": 38
       },
       {
         "name": "portuguese",
@@ -404,19 +404,19 @@
         "winRate": 38.73
       },
       {
-        "name": "koreans",
-        "games": 170,
-        "winRate": 39.41
+        "name": "turks",
+        "games": 174,
+        "winRate": 39.08
       },
       {
-        "name": "turks",
-        "games": 175,
-        "winRate": 39.43
+        "name": "koreans",
+        "games": 173,
+        "winRate": 39.88
       },
       {
         "name": "wu",
-        "games": 111,
-        "winRate": 39.64
+        "games": 110,
+        "winRate": 40
       }
     ]
   },
