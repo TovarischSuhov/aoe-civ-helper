@@ -378,31 +378,31 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 50.29,
+    "winRate": 50.19,
     "playRate": 0.98,
-    "picks": 5798,
+    "picks": 5800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-07T20:15:47.000Z",
-    "window": "2026-08-15 → 2026-11-07",
+    "updated": "2026-11-08T11:19:03.000Z",
+    "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/mapuche",
     "byMapType": {
-      "closed": {
-        "winRate": 50.32,
-        "playRate": 0.69,
-        "picks": 314
+      "other": {
+        "winRate": 50.04,
+        "playRate": 0.96,
+        "picks": 3341
       },
       "open": {
-        "winRate": 50.71,
-        "playRate": 1.06,
-        "picks": 1982
+        "winRate": 50.58,
+        "playRate": 1.07,
+        "picks": 1989
       },
-      "other": {
-        "winRate": 50.12,
-        "playRate": 0.97,
-        "picks": 3346
+      "closed": {
+        "winRate": 50,
+        "playRate": 0.69,
+        "picks": 314
       },
       "nomad": {
         "winRate": 48.72,
@@ -413,8 +413,8 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 61,
-        "winRate": 70.49
+        "games": 63,
+        "winRate": 71.43
       },
       {
         "name": "danes",
@@ -422,26 +422,26 @@
         "winRate": 68.18
       },
       {
-        "name": "byzantines",
-        "games": 108,
-        "winRate": 59.26
-      },
-      {
         "name": "lithuanians",
         "games": 105,
         "winRate": 59.05
       },
       {
+        "name": "byzantines",
+        "games": 109,
+        "winRate": 58.72
+      },
+      {
         "name": "jurchens",
-        "games": 73,
-        "winRate": 58.9
+        "games": 72,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 112,
-        "winRate": 33.93
+        "games": 113,
+        "winRate": 33.63
       },
       {
         "name": "muisca",
@@ -454,14 +454,14 @@
         "winRate": 38.24
       },
       {
-        "name": "bulgarians",
-        "games": 97,
-        "winRate": 39.18
-      },
-      {
         "name": "slavs",
         "games": 89,
         "winRate": 39.33
+      },
+      {
+        "name": "bulgarians",
+        "games": 99,
+        "winRate": 39.39
       }
     ]
   },

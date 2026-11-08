@@ -329,29 +329,29 @@
   "stats": {
     "winRate": 54.73,
     "playRate": 2.56,
-    "picks": 15217,
+    "picks": 15214,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-07T20:15:47.000Z",
-    "window": "2026-08-15 → 2026-11-07",
+    "updated": "2026-11-08T11:19:03.000Z",
+    "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "other": {
-        "winRate": 54.86,
-        "playRate": 2.53,
-        "picks": 8750
+        "winRate": 54.78,
+        "playRate": 2.52,
+        "picks": 8757
       },
       "open": {
-        "winRate": 54.58,
+        "winRate": 54.68,
         "playRate": 2.85,
-        "picks": 5306
+        "picks": 5298
       },
       "closed": {
-        "winRate": 53.59,
-        "playRate": 1.92,
-        "picks": 877
+        "winRate": 53.83,
+        "playRate": 1.93,
+        "picks": 875
       },
       "nomad": {
         "winRate": 57.04,
@@ -362,28 +362,28 @@
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 153,
-        "winRate": 67.32
+        "games": 156,
+        "winRate": 67.95
+      },
+      {
+        "name": "varangians",
+        "games": 300,
+        "winRate": 64
       },
       {
         "name": "byzantines",
         "games": 230,
-        "winRate": 63.91
-      },
-      {
-        "name": "varangians",
-        "games": 298,
-        "winRate": 63.76
-      },
-      {
-        "name": "armenians",
-        "games": 241,
-        "winRate": 63.49
+        "winRate": 63.48
       },
       {
         "name": "malians",
-        "games": 219,
-        "winRate": 62.56
+        "games": 220,
+        "winRate": 62.73
+      },
+      {
+        "name": "armenians",
+        "games": 243,
+        "winRate": 62.55
       }
     ],
     "weakAgainst": [
@@ -393,14 +393,14 @@
         "winRate": 45.63
       },
       {
-        "name": "celts",
-        "games": 263,
-        "winRate": 47.91
+        "name": "romans",
+        "games": 191,
+        "winRate": 47.64
       },
       {
-        "name": "romans",
-        "games": 192,
-        "winRate": 48.44
+        "name": "celts",
+        "games": 263,
+        "winRate": 48.29
       },
       {
         "name": "vikings",
@@ -409,8 +409,8 @@
       },
       {
         "name": "koreans",
-        "games": 224,
-        "winRate": 50
+        "games": 223,
+        "winRate": 49.78
       }
     ]
   },

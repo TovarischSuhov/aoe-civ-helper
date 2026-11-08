@@ -351,35 +351,35 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.67,
+    "winRate": 50.6,
     "playRate": 1.11,
-    "picks": 6592,
+    "picks": 6587,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-07T20:15:47.000Z",
-    "window": "2026-08-15 → 2026-11-07",
+    "updated": "2026-11-08T11:19:03.000Z",
+    "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
+      "other": {
+        "winRate": 51.62,
+        "playRate": 1.11,
+        "picks": 3853
+      },
       "closed": {
-        "winRate": 45.49,
-        "playRate": 1.05,
-        "picks": 477
+        "winRate": 45.76,
+        "playRate": 1.04,
+        "picks": 472
       },
       "open": {
-        "winRate": 49.98,
+        "winRate": 49.88,
         "playRate": 1.1,
-        "picks": 2049
-      },
-      "other": {
-        "winRate": 51.73,
-        "playRate": 1.11,
-        "picks": 3851
+        "picks": 2047
       },
       "nomad": {
         "winRate": 49.77,
-        "playRate": 1.41,
+        "playRate": 1.4,
         "picks": 215
       }
     },
@@ -400,41 +400,41 @@
         "winRate": 60
       },
       {
-        "name": "mapuche",
-        "games": 73,
-        "winRate": 58.9
+        "name": "cumans",
+        "games": 113,
+        "winRate": 58.41
       },
       {
         "name": "malay",
-        "games": 107,
-        "winRate": 58.88
+        "games": 108,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
-        "name": "bohemians",
-        "games": 124,
-        "winRate": 39.52
-      },
-      {
         "name": "chinese",
         "games": 139,
-        "winRate": 39.57
+        "winRate": 38.85
+      },
+      {
+        "name": "bohemians",
+        "games": 125,
+        "winRate": 39.2
       },
       {
         "name": "saxons",
-        "games": 63,
-        "winRate": 42.86
+        "games": 64,
+        "winRate": 42.19
+      },
+      {
+        "name": "mongols",
+        "games": 341,
+        "winRate": 43.99
       },
       {
         "name": "muisca",
         "games": 50,
         "winRate": 44
-      },
-      {
-        "name": "hindustanis",
-        "games": 95,
-        "winRate": 44.21
       }
     ]
   },

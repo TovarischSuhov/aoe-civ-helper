@@ -333,31 +333,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 54.23,
+    "winRate": 54.17,
     "playRate": 2.09,
-    "picks": 12424,
+    "picks": 12423,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-07T20:15:47.000Z",
-    "window": "2026-08-15 → 2026-11-07",
+    "updated": "2026-11-08T11:19:03.000Z",
+    "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
-      "closed": {
-        "winRate": 50.14,
-        "playRate": 1.54,
-        "picks": 704
-      },
       "other": {
-        "winRate": 53.41,
+        "winRate": 53.33,
         "playRate": 1.98,
-        "picks": 6843
+        "picks": 6861
       },
       "open": {
-        "winRate": 56.18,
-        "playRate": 2.47,
-        "picks": 4596
+        "winRate": 56.17,
+        "playRate": 2.46,
+        "picks": 4581
+      },
+      "closed": {
+        "winRate": 50,
+        "playRate": 1.55,
+        "picks": 700
       },
       "nomad": {
         "winRate": 52.67,
@@ -382,21 +382,21 @@
         "winRate": 61.84
       },
       {
-        "name": "gurjaras",
-        "games": 158,
-        "winRate": 60.13
+        "name": "cumans",
+        "games": 206,
+        "winRate": 60.68
       },
       {
-        "name": "cumans",
-        "games": 205,
-        "winRate": 60
+        "name": "magyars",
+        "games": 331,
+        "winRate": 60.12
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 171,
-        "winRate": 41.52
+        "games": 173,
+        "winRate": 41.62
       },
       {
         "name": "slavs",
@@ -405,18 +405,18 @@
       },
       {
         "name": "vikings",
-        "games": 222,
-        "winRate": 46.85
+        "games": 220,
+        "winRate": 46.36
       },
       {
         "name": "dravidians",
-        "games": 174,
-        "winRate": 47.13
+        "games": 173,
+        "winRate": 46.82
       },
       {
-        "name": "romans",
-        "games": 158,
-        "winRate": 47.47
+        "name": "wu",
+        "games": 123,
+        "winRate": 47.15
       }
     ]
   },

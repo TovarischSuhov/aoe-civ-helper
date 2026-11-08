@@ -361,31 +361,31 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.68,
-    "playRate": 1.67,
-    "picks": 9884,
+    "winRate": 51.65,
+    "playRate": 1.66,
+    "picks": 9862,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-07T20:15:47.000Z",
-    "window": "2026-08-15 → 2026-11-07",
+    "updated": "2026-11-08T11:19:03.000Z",
+    "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
       "other": {
-        "winRate": 50.94,
+        "winRate": 50.86,
         "playRate": 1.65,
-        "picks": 5717
+        "picks": 5716
       },
       "open": {
-        "winRate": 53.1,
-        "playRate": 1.72,
-        "picks": 3207
+        "winRate": 53.15,
+        "playRate": 1.71,
+        "picks": 3191
       },
       "closed": {
-        "winRate": 50.94,
+        "winRate": 51.02,
         "playRate": 1.52,
-        "picks": 693
+        "picks": 688
       },
       "nomad": {
         "winRate": 52.43,
@@ -396,40 +396,40 @@
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 112,
-        "winRate": 66.07
+        "games": 113,
+        "winRate": 66.37
       },
       {
         "name": "gurjaras",
-        "games": 131,
-        "winRate": 64.89
+        "games": 132,
+        "winRate": 64.39
+      },
+      {
+        "name": "byzantines",
+        "games": 178,
+        "winRate": 59.55
       },
       {
         "name": "saracens",
-        "games": 166,
-        "winRate": 59.64
+        "games": 165,
+        "winRate": 59.39
       },
       {
         "name": "khitans",
-        "games": 106,
-        "winRate": 59.43
-      },
-      {
-        "name": "tatars",
-        "games": 142,
-        "winRate": 59.15
+        "games": 105,
+        "winRate": 59.05
       }
     ],
     "weakAgainst": [
       {
-        "name": "shu",
-        "games": 101,
-        "winRate": 42.57
+        "name": "spanish",
+        "games": 233,
+        "winRate": 42.92
       },
       {
-        "name": "spanish",
-        "games": 234,
-        "winRate": 43.16
+        "name": "shu",
+        "games": 100,
+        "winRate": 43
       },
       {
         "name": "japanese",
@@ -443,8 +443,8 @@
       },
       {
         "name": "dravidians",
-        "games": 148,
-        "winRate": 44.59
+        "games": 150,
+        "winRate": 44.67
       }
     ]
   },
