@@ -301,31 +301,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.51,
+    "winRate": 47.6,
     "playRate": 1.69,
-    "picks": 10032,
+    "picks": 10020,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T11:19:03.000Z",
+    "updated": "2026-11-08T20:30:24.000Z",
     "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
-      "open": {
-        "winRate": 47.29,
-        "playRate": 1.52,
-        "picks": 2823
-      },
       "other": {
-        "winRate": 47.63,
+        "winRate": 47.69,
         "playRate": 1.76,
-        "picks": 6097
+        "picks": 6102
       },
       "closed": {
-        "winRate": 48.34,
-        "playRate": 1.86,
-        "picks": 844
+        "winRate": 48.56,
+        "playRate": 1.85,
+        "picks": 836
+      },
+      "open": {
+        "winRate": 47.44,
+        "playRate": 1.51,
+        "picks": 2814
       },
       "nomad": {
         "winRate": 44.4,
@@ -336,35 +336,35 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 141,
-        "winRate": 61.7
+        "games": 142,
+        "winRate": 61.27
       },
       {
         "name": "byzantines",
-        "games": 163,
-        "winRate": 58.9
+        "games": 164,
+        "winRate": 57.93
+      },
+      {
+        "name": "mapuche",
+        "games": 93,
+        "winRate": 54.84
       },
       {
         "name": "tatars",
         "games": 180,
-        "winRate": 55
+        "winRate": 54.44
       },
       {
-        "name": "mapuche",
-        "games": 94,
-        "winRate": 54.26
-      },
-      {
-        "name": "goths",
-        "games": 171,
-        "winRate": 53.8
+        "name": "varangians",
+        "games": 83,
+        "winRate": 54.22
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 207,
-        "winRate": 38.16
+        "games": 208,
+        "winRate": 37.98
       },
       {
         "name": "romans",
@@ -372,19 +372,19 @@
         "winRate": 38.21
       },
       {
-        "name": "shu",
-        "games": 106,
-        "winRate": 40.57
+        "name": "dravidians",
+        "games": 183,
+        "winRate": 40.98
       },
       {
         "name": "poles",
-        "games": 203,
-        "winRate": 40.89
+        "games": 202,
+        "winRate": 41.09
       },
       {
-        "name": "dravidians",
-        "games": 184,
-        "winRate": 41.3
+        "name": "shu",
+        "games": 107,
+        "winRate": 41.12
       }
     ]
   },

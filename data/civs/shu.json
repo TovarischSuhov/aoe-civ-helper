@@ -352,31 +352,31 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 51.74,
+    "winRate": 51.64,
     "playRate": 0.94,
-    "picks": 5589,
+    "picks": 5573,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T11:19:03.000Z",
+    "updated": "2026-11-08T20:30:24.000Z",
     "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
-      "open": {
-        "winRate": 52.84,
-        "playRate": 0.96,
-        "picks": 1794
-      },
       "other": {
-        "winRate": 51.81,
+        "winRate": 51.69,
         "playRate": 0.94,
-        "picks": 3268
+        "picks": 3258
+      },
+      "open": {
+        "winRate": 52.85,
+        "playRate": 0.96,
+        "picks": 1790
       },
       "closed": {
-        "winRate": 46.79,
-        "playRate": 0.83,
-        "picks": 374
+        "winRate": 46.24,
+        "playRate": 0.82,
+        "picks": 372
       },
       "nomad": {
         "winRate": 49.67,
@@ -414,28 +414,28 @@
     "weakAgainst": [
       {
         "name": "koreans",
-        "games": 88,
-        "winRate": 35.23
+        "games": 87,
+        "winRate": 35.63
       },
       {
         "name": "hindustanis",
-        "games": 104,
-        "winRate": 42.31
+        "games": 105,
+        "winRate": 41.9
+      },
+      {
+        "name": "georgians",
+        "games": 81,
+        "winRate": 44.44
       },
       {
         "name": "aztecs",
-        "games": 111,
-        "winRate": 44.14
+        "games": 110,
+        "winRate": 44.55
       },
       {
         "name": "chinese",
         "games": 144,
-        "winRate": 44.44
-      },
-      {
-        "name": "georgians",
-        "games": 82,
-        "winRate": 45.12
+        "winRate": 45.14
       }
     ]
   },

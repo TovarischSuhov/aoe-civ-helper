@@ -360,31 +360,31 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.18,
-    "playRate": 2.04,
-    "picks": 12090,
+    "winRate": 52.23,
+    "playRate": 2.03,
+    "picks": 12052,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T11:19:03.000Z",
+    "updated": "2026-11-08T20:30:24.000Z",
     "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
+      "closed": {
+        "winRate": 53.29,
+        "playRate": 1.38,
+        "picks": 623
+      },
       "other": {
-        "winRate": 52,
-        "playRate": 2.08,
-        "picks": 7204
+        "winRate": 52.11,
+        "playRate": 2.07,
+        "picks": 7177
       },
       "open": {
-        "winRate": 52.39,
+        "winRate": 52.37,
         "playRate": 2.1,
-        "picks": 3915
-      },
-      "closed": {
-        "winRate": 53.33,
-        "playRate": 1.39,
-        "picks": 630
+        "picks": 3911
       },
       "nomad": {
         "winRate": 51.32,
@@ -400,18 +400,18 @@
       },
       {
         "name": "burmese",
-        "games": 172,
-        "winRate": 60.47
-      },
-      {
-        "name": "tupi",
-        "games": 147,
-        "winRate": 59.86
+        "games": 171,
+        "winRate": 60.82
       },
       {
         "name": "jurchens",
-        "games": 147,
-        "winRate": 59.86
+        "games": 144,
+        "winRate": 60.42
+      },
+      {
+        "name": "tupi",
+        "games": 146,
+        "winRate": 60.27
       },
       {
         "name": "slavs",
@@ -427,13 +427,13 @@
       },
       {
         "name": "mayans",
-        "games": 220,
-        "winRate": 42.27
+        "games": 218,
+        "winRate": 42.2
       },
       {
         "name": "italians",
-        "games": 210,
-        "winRate": 44.76
+        "games": 208,
+        "winRate": 44.23
       },
       {
         "name": "wu",
@@ -442,8 +442,8 @@
       },
       {
         "name": "vikings",
-        "games": 246,
-        "winRate": 46.34
+        "games": 244,
+        "winRate": 46.72
       }
     ]
   },

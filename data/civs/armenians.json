@@ -365,31 +365,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.4,
-    "playRate": 1.74,
-    "picks": 10345,
+    "winRate": 50.42,
+    "playRate": 1.75,
+    "picks": 10378,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T11:19:03.000Z",
+    "updated": "2026-11-08T20:30:24.000Z",
     "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
-      "closed": {
-        "winRate": 51.95,
-        "playRate": 1.87,
-        "picks": 845
+      "open": {
+        "winRate": 50.81,
+        "playRate": 1.76,
+        "picks": 3281
       },
       "other": {
-        "winRate": 50.15,
-        "playRate": 1.73,
-        "picks": 6004
+        "winRate": 50.17,
+        "playRate": 1.74,
+        "picks": 6029
       },
-      "open": {
-        "winRate": 50.75,
-        "playRate": 1.76,
-        "picks": 3277
+      "closed": {
+        "winRate": 51.83,
+        "playRate": 1.88,
+        "picks": 849
       },
       "nomad": {
         "winRate": 46.12,
@@ -414,41 +414,41 @@
         "winRate": 58.73
       },
       {
+        "name": "saracens",
+        "games": 162,
+        "winRate": 58.02
+      },
+      {
         "name": "incas",
         "games": 169,
         "winRate": 57.99
-      },
-      {
-        "name": "cumans",
-        "games": 161,
-        "winRate": 57.76
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 243,
-        "winRate": 37.45
+        "games": 246,
+        "winRate": 37.8
       },
       {
         "name": "japanese",
-        "games": 250,
-        "winRate": 40.8
-      },
-      {
-        "name": "jurchens",
-        "games": 108,
-        "winRate": 42.59
+        "games": 253,
+        "winRate": 41.11
       },
       {
         "name": "mayans",
-        "games": 220,
-        "winRate": 43.18
+        "games": 219,
+        "winRate": 42.47
+      },
+      {
+        "name": "jurchens",
+        "games": 110,
+        "winRate": 42.73
       },
       {
         "name": "burmese",
-        "games": 162,
-        "winRate": 43.83
+        "games": 161,
+        "winRate": 44.1
       }
     ]
   },

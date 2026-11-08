@@ -368,29 +368,29 @@
   "stats": {
     "winRate": 52.18,
     "playRate": 1.89,
-    "picks": 11239,
+    "picks": 11251,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T11:19:03.000Z",
+    "updated": "2026-11-08T20:30:24.000Z",
     "window": "2026-08-16 → 2026-11-08",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
+      "open": {
+        "winRate": 52.41,
+        "playRate": 1.96,
+        "picks": 3654
+      },
       "other": {
-        "winRate": 51.78,
+        "winRate": 51.79,
         "playRate": 1.87,
         "picks": 6501
       },
-      "open": {
-        "winRate": 52.43,
-        "playRate": 1.96,
-        "picks": 3647
-      },
       "closed": {
-        "winRate": 54.38,
-        "playRate": 1.84,
-        "picks": 833
+        "winRate": 54.3,
+        "playRate": 1.86,
+        "picks": 838
       },
       "nomad": {
         "winRate": 51.94,
@@ -401,50 +401,50 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 200,
-        "winRate": 62.5
+        "games": 203,
+        "winRate": 62.56
+      },
+      {
+        "name": "berbers",
+        "games": 195,
+        "winRate": 62.05
       },
       {
         "name": "britons",
         "games": 207,
-        "winRate": 61.84
-      },
-      {
-        "name": "berbers",
-        "games": 197,
-        "winRate": 61.42
+        "winRate": 61.35
       },
       {
         "name": "turks",
-        "games": 201,
-        "winRate": 60.2
+        "games": 199,
+        "winRate": 59.8
       },
       {
         "name": "bengalis",
-        "games": 164,
-        "winRate": 59.15
+        "games": 161,
+        "winRate": 59.63
       }
     ],
     "weakAgainst": [
       {
         "name": "georgians",
         "games": 152,
-        "winRate": 43.42
+        "winRate": 44.08
       },
       {
         "name": "italians",
-        "games": 181,
-        "winRate": 43.65
+        "games": 183,
+        "winRate": 44.26
       },
       {
         "name": "malians",
-        "games": 194,
-        "winRate": 45.88
+        "games": 195,
+        "winRate": 46.15
       },
       {
         "name": "celts",
-        "games": 178,
-        "winRate": 46.07
+        "games": 179,
+        "winRate": 46.37
       },
       {
         "name": "burmese",
