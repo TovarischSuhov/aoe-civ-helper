@@ -301,31 +301,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.6,
+    "winRate": 47.51,
     "playRate": 1.69,
-    "picks": 10020,
+    "picks": 10021,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T20:30:24.000Z",
-    "window": "2026-08-16 → 2026-11-08",
+    "updated": "2026-11-09T12:56:20.000Z",
+    "window": "2026-08-17 → 2026-11-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
       "other": {
-        "winRate": 47.69,
+        "winRate": 47.61,
         "playRate": 1.76,
-        "picks": 6102
-      },
-      "closed": {
-        "winRate": 48.56,
-        "playRate": 1.85,
-        "picks": 836
+        "picks": 6118
       },
       "open": {
-        "winRate": 47.44,
+        "winRate": 47.38,
         "playRate": 1.51,
-        "picks": 2814
+        "picks": 2809
+      },
+      "closed": {
+        "winRate": 48.18,
+        "playRate": 1.84,
+        "picks": 826
       },
       "nomad": {
         "winRate": 44.4,
@@ -341,8 +341,8 @@
       },
       {
         "name": "byzantines",
-        "games": 164,
-        "winRate": 57.93
+        "games": 163,
+        "winRate": 58.28
       },
       {
         "name": "mapuche",
@@ -351,8 +351,8 @@
       },
       {
         "name": "tatars",
-        "games": 180,
-        "winRate": 54.44
+        "games": 183,
+        "winRate": 54.64
       },
       {
         "name": "varangians",
@@ -363,28 +363,28 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 208,
-        "winRate": 37.98
+        "games": 210,
+        "winRate": 37.14
       },
       {
         "name": "romans",
-        "games": 123,
-        "winRate": 38.21
-      },
-      {
-        "name": "dravidians",
-        "games": 183,
-        "winRate": 40.98
-      },
-      {
-        "name": "poles",
-        "games": 202,
-        "winRate": 41.09
+        "games": 125,
+        "winRate": 37.6
       },
       {
         "name": "shu",
-        "games": 107,
-        "winRate": 41.12
+        "games": 106,
+        "winRate": 40.57
+      },
+      {
+        "name": "poles",
+        "games": 201,
+        "winRate": 41.29
+      },
+      {
+        "name": "mongols",
+        "games": 542,
+        "winRate": 41.51
       }
     ]
   },

@@ -295,31 +295,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.03,
+    "winRate": 50.02,
     "playRate": 1.17,
-    "picks": 6948,
+    "picks": 6937,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T20:30:24.000Z",
-    "window": "2026-08-16 → 2026-11-08",
+    "updated": "2026-11-09T12:56:20.000Z",
+    "window": "2026-08-17 → 2026-11-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "other": {
-        "winRate": 49.93,
-        "playRate": 1.19,
-        "picks": 4116
-      },
-      "closed": {
-        "winRate": 46.88,
-        "playRate": 0.96,
-        "picks": 433
+        "winRate": 50,
+        "playRate": 1.18,
+        "picks": 4108
       },
       "open": {
-        "winRate": 51.32,
+        "winRate": 51.21,
         "playRate": 1.2,
-        "picks": 2231
+        "picks": 2230
+      },
+      "closed": {
+        "winRate": 46.64,
+        "playRate": 0.96,
+        "picks": 431
       },
       "nomad": {
         "winRate": 43.45,
@@ -345,8 +345,8 @@
       },
       {
         "name": "varangians",
-        "games": 100,
-        "winRate": 58
+        "games": 101,
+        "winRate": 57.43
       },
       {
         "name": "teutons",
@@ -357,8 +357,8 @@
     "weakAgainst": [
       {
         "name": "malay",
-        "games": 130,
-        "winRate": 40.77
+        "games": 129,
+        "winRate": 41.09
       },
       {
         "name": "vietnamese",
@@ -366,14 +366,14 @@
         "winRate": 41.67
       },
       {
+        "name": "franks",
+        "games": 144,
+        "winRate": 41.67
+      },
+      {
         "name": "mayans",
         "games": 146,
         "winRate": 41.78
-      },
-      {
-        "name": "franks",
-        "games": 145,
-        "winRate": 42.07
       },
       {
         "name": "chinese",

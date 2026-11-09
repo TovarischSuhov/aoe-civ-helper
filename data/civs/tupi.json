@@ -357,31 +357,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.17,
+    "winRate": 49.38,
     "playRate": 1.13,
-    "picks": 6736,
+    "picks": 6737,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T20:30:24.000Z",
-    "window": "2026-08-16 → 2026-11-08",
+    "updated": "2026-11-09T12:56:20.000Z",
+    "window": "2026-08-17 → 2026-11-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
-      "open": {
-        "winRate": 49.6,
-        "playRate": 1.2,
-        "picks": 2242
-      },
       "other": {
-        "winRate": 48.66,
+        "winRate": 48.98,
         "playRate": 1.13,
-        "picks": 3915
+        "picks": 3932
+      },
+      "open": {
+        "winRate": 49.66,
+        "playRate": 1.2,
+        "picks": 2233
       },
       "closed": {
-        "winRate": 48.8,
-        "playRate": 0.93,
-        "picks": 418
+        "winRate": 48.91,
+        "playRate": 0.92,
+        "picks": 411
       },
       "nomad": {
         "winRate": 56.52,
@@ -392,13 +392,18 @@
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 89,
-        "winRate": 62.92
+        "games": 90,
+        "winRate": 63.33
       },
       {
         "name": "varangians",
-        "games": 100,
-        "winRate": 62
+        "games": 103,
+        "winRate": 61.17
+      },
+      {
+        "name": "mapuche",
+        "games": 72,
+        "winRate": 58.33
       },
       {
         "name": "poles",
@@ -406,21 +411,16 @@
         "winRate": 58.06
       },
       {
-        "name": "mapuche",
-        "games": 73,
-        "winRate": 57.53
-      },
-      {
-        "name": "vietnamese",
-        "games": 209,
-        "winRate": 56.94
+        "name": "burmese",
+        "games": 98,
+        "winRate": 57.14
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 262,
-        "winRate": 38.93
+        "games": 265,
+        "winRate": 39.25
       },
       {
         "name": "huns",
@@ -429,18 +429,18 @@
       },
       {
         "name": "bulgarians",
+        "games": 117,
+        "winRate": 40.17
+      },
+      {
+        "name": "teutons",
         "games": 119,
         "winRate": 41.18
       },
       {
-        "name": "armenians",
-        "games": 126,
-        "winRate": 41.27
-      },
-      {
-        "name": "teutons",
-        "games": 118,
-        "winRate": 41.53
+        "name": "persians",
+        "games": 190,
+        "winRate": 41.58
       }
     ]
   },

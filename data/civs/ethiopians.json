@@ -307,30 +307,30 @@
   "sotl": null,
   "stats": {
     "winRate": 49.64,
-    "playRate": 1.93,
-    "picks": 11446,
+    "playRate": 1.92,
+    "picks": 11420,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-08T20:30:24.000Z",
-    "window": "2026-08-16 → 2026-11-08",
+    "updated": "2026-11-09T12:56:20.000Z",
+    "window": "2026-08-17 → 2026-11-09",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/ethiopians",
     "byMapType": {
       "other": {
-        "winRate": 49.53,
+        "winRate": 49.45,
         "playRate": 1.9,
-        "picks": 6612
-      },
-      "open": {
-        "winRate": 50.44,
-        "playRate": 2,
-        "picks": 3715
+        "picks": 6607
       },
       "closed": {
-        "winRate": 47.55,
-        "playRate": 1.95,
-        "picks": 879
+        "winRate": 47.52,
+        "playRate": 1.93,
+        "picks": 867
+      },
+      "open": {
+        "winRate": 50.59,
+        "playRate": 1.99,
+        "picks": 3706
       },
       "nomad": {
         "winRate": 47.92,
@@ -341,18 +341,13 @@
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 173,
-        "winRate": 63.58
+        "games": 174,
+        "winRate": 63.79
       },
       {
         "name": "khitans",
-        "games": 157,
-        "winRate": 59.24
-      },
-      {
-        "name": "goths",
-        "games": 158,
-        "winRate": 57.59
+        "games": 160,
+        "winRate": 60
       },
       {
         "name": "muisca",
@@ -360,16 +355,21 @@
         "winRate": 57.58
       },
       {
+        "name": "goths",
+        "games": 160,
+        "winRate": 57.5
+      },
+      {
         "name": "jurchens",
         "games": 150,
-        "winRate": 57.33
+        "winRate": 56.67
       }
     ],
     "weakAgainst": [
       {
         "name": "vietnamese",
-        "games": 299,
-        "winRate": 39.8
+        "games": 297,
+        "winRate": 39.73
       },
       {
         "name": "dravidians",
@@ -377,14 +377,14 @@
         "winRate": 41.71
       },
       {
-        "name": "chinese",
-        "games": 289,
-        "winRate": 42.91
+        "name": "koreans",
+        "games": 188,
+        "winRate": 42.55
       },
       {
-        "name": "koreans",
-        "games": 189,
-        "winRate": 43.39
+        "name": "chinese",
+        "games": 288,
+        "winRate": 43.06
       },
       {
         "name": "britons",
