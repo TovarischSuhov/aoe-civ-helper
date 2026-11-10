@@ -288,31 +288,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.07,
-    "playRate": 1.73,
-    "picks": 10304,
+    "winRate": 50.09,
+    "playRate": 1.74,
+    "picks": 10315,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-10T00:16:36.000Z",
+    "updated": "2026-11-10T12:42:41.000Z",
     "window": "2026-08-18 → 2026-11-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
-      "other": {
-        "winRate": 50.29,
-        "playRate": 1.73,
-        "picks": 6027
-      },
       "open": {
-        "winRate": 49.6,
+        "winRate": 49.53,
         "playRate": 1.83,
-        "picks": 3405
+        "picks": 3400
+      },
+      "other": {
+        "winRate": 50.39,
+        "playRate": 1.73,
+        "picks": 6047
       },
       "closed": {
-        "winRate": 47.84,
-        "playRate": 1.4,
-        "picks": 625
+        "winRate": 47.67,
+        "playRate": 1.39,
+        "picks": 621
       },
       "nomad": {
         "winRate": 56.68,
@@ -323,28 +323,28 @@
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 80,
-        "winRate": 63.75
+        "games": 82,
+        "winRate": 63.41
       },
       {
         "name": "mapuche",
-        "games": 103,
-        "winRate": 61.17
+        "games": 102,
+        "winRate": 60.78
       },
       {
         "name": "tupi",
-        "games": 117,
-        "winRate": 58.97
+        "games": 116,
+        "winRate": 59.48
       },
       {
         "name": "jurchens",
-        "games": 114,
-        "winRate": 58.77
+        "games": 112,
+        "winRate": 58.93
       },
       {
-        "name": "poles",
-        "games": 193,
-        "winRate": 58.03
+        "name": "dravidians",
+        "games": 151,
+        "winRate": 58.28
       }
     ],
     "weakAgainst": [
@@ -354,24 +354,24 @@
         "winRate": 42.13
       },
       {
-        "name": "wu",
-        "games": 128,
-        "winRate": 43.75
-      },
-      {
         "name": "shu",
-        "games": 107,
-        "winRate": 43.93
+        "games": 106,
+        "winRate": 43.4
       },
       {
-        "name": "slavs",
-        "games": 150,
-        "winRate": 44
+        "name": "georgians",
+        "games": 120,
+        "winRate": 44.17
       },
       {
         "name": "khitans",
-        "games": 127,
-        "winRate": 44.09
+        "games": 129,
+        "winRate": 44.19
+      },
+      {
+        "name": "slavs",
+        "games": 149,
+        "winRate": 44.3
       }
     ]
   },

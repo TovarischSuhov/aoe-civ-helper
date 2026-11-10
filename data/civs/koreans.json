@@ -356,29 +356,29 @@
   "stats": {
     "winRate": 50.77,
     "playRate": 1.66,
-    "picks": 9886,
+    "picks": 9883,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-10T00:16:36.000Z",
+    "updated": "2026-11-10T12:42:41.000Z",
     "window": "2026-08-18 → 2026-11-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
-      "other": {
-        "winRate": 50.05,
-        "playRate": 1.68,
-        "picks": 5836
-      },
       "open": {
-        "winRate": 52.4,
+        "winRate": 52.27,
         "playRate": 1.59,
-        "picks": 2956
+        "picks": 2958
       },
       "closed": {
-        "winRate": 49.17,
+        "winRate": 49.42,
         "playRate": 1.35,
-        "picks": 604
+        "picks": 603
+      },
+      "other": {
+        "winRate": 50.1,
+        "playRate": 1.67,
+        "picks": 5832
       },
       "nomad": {
         "winRate": 51.43,
@@ -399,8 +399,8 @@
       },
       {
         "name": "saracens",
-        "games": 173,
-        "winRate": 60.12
+        "games": 174,
+        "winRate": 60.34
       },
       {
         "name": "lithuanians",
@@ -416,13 +416,13 @@
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 131,
-        "winRate": 41.98
+        "games": 130,
+        "winRate": 42.31
       },
       {
-        "name": "sicilians",
-        "games": 187,
-        "winRate": 42.25
+        "name": "mapuche",
+        "games": 92,
+        "winRate": 42.39
       },
       {
         "name": "vietnamese",
@@ -430,14 +430,14 @@
         "winRate": 42.42
       },
       {
-        "name": "mapuche",
-        "games": 92,
-        "winRate": 43.48
+        "name": "sicilians",
+        "games": 188,
+        "winRate": 42.55
       },
       {
         "name": "magyars",
-        "games": 226,
-        "winRate": 44.25
+        "games": 223,
+        "winRate": 43.95
       }
     ]
   },
