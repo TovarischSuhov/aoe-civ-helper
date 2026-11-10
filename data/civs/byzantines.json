@@ -280,31 +280,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.05,
+    "winRate": 48.08,
     "playRate": 1.6,
-    "picks": 9494,
+    "picks": 9528,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-09T12:56:20.000Z",
-    "window": "2026-08-17 → 2026-11-09",
+    "updated": "2026-11-10T00:16:36.000Z",
+    "window": "2026-08-18 → 2026-11-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
-      "open": {
-        "winRate": 47.43,
-        "playRate": 1.6,
-        "picks": 2977
-      },
       "other": {
-        "winRate": 48.35,
-        "playRate": 1.6,
-        "picks": 5576
+        "winRate": 48.38,
+        "playRate": 1.61,
+        "picks": 5593
+      },
+      "open": {
+        "winRate": 47.44,
+        "playRate": 1.61,
+        "picks": 2993
       },
       "closed": {
-        "winRate": 47.1,
-        "playRate": 1.5,
-        "picks": 673
+        "winRate": 47.18,
+        "playRate": 1.51,
+        "picks": 674
       },
       "nomad": {
         "winRate": 51.12,
@@ -319,24 +319,24 @@
         "winRate": 58.96
       },
       {
-        "name": "britons",
-        "games": 205,
-        "winRate": 55.61
-      },
-      {
         "name": "jurchens",
         "games": 119,
         "winRate": 55.46
       },
       {
+        "name": "britons",
+        "games": 208,
+        "winRate": 55.29
+      },
+      {
         "name": "saracens",
         "games": 148,
-        "winRate": 55.41
+        "winRate": 54.73
       },
       {
         "name": "burmese",
-        "games": 150,
-        "winRate": 55.33
+        "games": 152,
+        "winRate": 54.61
       }
     ],
     "weakAgainst": [
@@ -347,8 +347,8 @@
       },
       {
         "name": "chinese",
-        "games": 226,
-        "winRate": 37.17
+        "games": 228,
+        "winRate": 36.4
       },
       {
         "name": "sicilians",
@@ -361,9 +361,9 @@
         "winRate": 40.31
       },
       {
-        "name": "celts",
-        "games": 180,
-        "winRate": 41.11
+        "name": "portuguese",
+        "games": 165,
+        "winRate": 41.21
       }
     ]
   },

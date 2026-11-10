@@ -338,31 +338,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.25,
+    "winRate": 47.2,
     "playRate": 1.76,
-    "picks": 10434,
+    "picks": 10439,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-09T12:56:20.000Z",
-    "window": "2026-08-17 → 2026-11-09",
+    "updated": "2026-11-10T00:16:36.000Z",
+    "window": "2026-08-18 → 2026-11-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/lithuanians",
     "byMapType": {
-      "open": {
-        "winRate": 47.13,
-        "playRate": 1.76,
-        "picks": 3263
-      },
       "other": {
-        "winRate": 47.5,
+        "winRate": 47.42,
         "playRate": 1.78,
-        "picks": 6191
+        "picks": 6187
+      },
+      "open": {
+        "winRate": 47.05,
+        "playRate": 1.76,
+        "picks": 3273
       },
       "closed": {
-        "winRate": 44.71,
+        "winRate": 45.06,
         "playRate": 1.56,
-        "picks": 700
+        "picks": 699
       },
       "nomad": {
         "winRate": 49.29,
@@ -373,8 +373,13 @@
     "strongAgainst": [
       {
         "name": "portuguese",
-        "games": 190,
-        "winRate": 56.84
+        "games": 188,
+        "winRate": 56.38
+      },
+      {
+        "name": "bulgarians",
+        "games": 180,
+        "winRate": 55
       },
       {
         "name": "khitans",
@@ -382,46 +387,41 @@
         "winRate": 54.89
       },
       {
-        "name": "bulgarians",
-        "games": 177,
-        "winRate": 54.8
-      },
-      {
         "name": "sicilians",
-        "games": 181,
-        "winRate": 54.7
+        "games": 183,
+        "winRate": 54.1
       },
       {
         "name": "saxons",
-        "games": 138,
-        "winRate": 53.62
+        "games": 139,
+        "winRate": 53.96
       }
     ],
     "weakAgainst": [
       {
         "name": "mapuche",
         "games": 107,
-        "winRate": 40.19
-      },
-      {
-        "name": "mongols",
-        "games": 544,
-        "winRate": 41.36
-      },
-      {
-        "name": "koreans",
-        "games": 180,
-        "winRate": 41.67
+        "winRate": 39.25
       },
       {
         "name": "mayans",
-        "games": 210,
-        "winRate": 41.9
+        "games": 211,
+        "winRate": 41.23
       },
       {
         "name": "turks",
-        "games": 169,
-        "winRate": 42.01
+        "games": 171,
+        "winRate": 41.52
+      },
+      {
+        "name": "koreans",
+        "games": 178,
+        "winRate": 41.57
+      },
+      {
+        "name": "mongols",
+        "games": 545,
+        "winRate": 41.65
       }
     ]
   },
