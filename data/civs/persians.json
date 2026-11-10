@@ -328,31 +328,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.17,
+    "winRate": 51.21,
     "playRate": 2.72,
-    "picks": 16153,
+    "picks": 16156,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-10T12:42:41.000Z",
+    "updated": "2026-11-10T21:49:32.000Z",
     "window": "2026-08-18 → 2026-11-10",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "open": {
-        "winRate": 51.71,
-        "playRate": 2.83,
-        "picks": 5250
+        "winRate": 51.64,
+        "playRate": 2.82,
+        "picks": 5240
       },
       "other": {
-        "winRate": 51.13,
+        "winRate": 51.23,
         "playRate": 2.7,
-        "picks": 9409
+        "picks": 9423
       },
       "closed": {
-        "winRate": 47.13,
-        "playRate": 2.07,
-        "picks": 923
+        "winRate": 47.29,
+        "playRate": 2.08,
+        "picks": 922
       },
       "nomad": {
         "winRate": 53.24,
@@ -363,13 +363,18 @@
     "strongAgainst": [
       {
         "name": "poles",
-        "games": 255,
-        "winRate": 59.61
+        "games": 254,
+        "winRate": 59.84
       },
       {
-        "name": "teutons",
-        "games": 226,
-        "winRate": 58.85
+        "name": "jurchens",
+        "games": 204,
+        "winRate": 58.82
+      },
+      {
+        "name": "muisca",
+        "games": 160,
+        "winRate": 58.75
       },
       {
         "name": "tupi",
@@ -377,14 +382,9 @@
         "winRate": 58.73
       },
       {
-        "name": "jurchens",
-        "games": 205,
-        "winRate": 58.54
-      },
-      {
-        "name": "muisca",
-        "games": 158,
-        "winRate": 58.23
+        "name": "teutons",
+        "games": 224,
+        "winRate": 58.48
       }
     ],
     "weakAgainst": [
@@ -394,24 +394,24 @@
         "winRate": 43.27
       },
       {
-        "name": "huns",
-        "games": 342,
-        "winRate": 43.27
+        "name": "khitans",
+        "games": 187,
+        "winRate": 43.85
       },
       {
-        "name": "khitans",
-        "games": 186,
-        "winRate": 43.55
+        "name": "huns",
+        "games": 342,
+        "winRate": 43.86
       },
       {
         "name": "mapuche",
-        "games": 153,
-        "winRate": 45.1
+        "games": 152,
+        "winRate": 44.74
       },
       {
         "name": "byzantines",
-        "games": 241,
-        "winRate": 45.64
+        "games": 242,
+        "winRate": 45.45
       }
     ]
   },
