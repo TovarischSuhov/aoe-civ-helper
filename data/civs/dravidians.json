@@ -315,36 +315,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.12,
+    "winRate": 51.11,
     "playRate": 1.53,
-    "picks": 9070,
+    "picks": 9068,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-10T21:49:32.000Z",
-    "window": "2026-08-18 → 2026-11-10",
+    "updated": "2026-11-11T11:54:42.000Z",
+    "window": "2026-08-19 → 2026-11-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
     "byMapType": {
-      "closed": {
-        "winRate": 52.43,
-        "playRate": 1.44,
-        "picks": 639
-      },
       "other": {
-        "winRate": 50.87,
+        "winRate": 50.82,
         "playRate": 1.51,
-        "picks": 5284
+        "picks": 5287
+      },
+      "nomad": {
+        "winRate": 55.73,
+        "playRate": 2.46,
+        "picks": 375
       },
       "open": {
         "winRate": 50.67,
         "playRate": 1.49,
-        "picks": 2771
+        "picks": 2769
       },
-      "nomad": {
-        "winRate": 55.85,
-        "playRate": 2.46,
-        "picks": 376
+      "closed": {
+        "winRate": 52.75,
+        "playRate": 1.44,
+        "picks": 637
       }
     },
     "strongAgainst": [
@@ -359,36 +359,36 @@
         "winRate": 59.72
       },
       {
-        "name": "portuguese",
-        "games": 178,
-        "winRate": 58.43
-      },
-      {
         "name": "ethiopians",
-        "games": 187,
-        "winRate": 58.29
+        "games": 188,
+        "winRate": 58.51
       },
       {
         "name": "varangians",
-        "games": 146,
-        "winRate": 58.22
+        "games": 147,
+        "winRate": 58.5
+      },
+      {
+        "name": "portuguese",
+        "games": 177,
+        "winRate": 58.19
       }
     ],
     "weakAgainst": [
+      {
+        "name": "bulgarians",
+        "games": 149,
+        "winRate": 41.61
+      },
       {
         "name": "franks",
         "games": 145,
         "winRate": 42.07
       },
       {
-        "name": "bulgarians",
-        "games": 151,
-        "winRate": 42.38
-      },
-      {
         "name": "berbers",
-        "games": 146,
-        "winRate": 43.15
+        "games": 149,
+        "winRate": 43.62
       },
       {
         "name": "khmer",
@@ -397,8 +397,8 @@
       },
       {
         "name": "chinese",
-        "games": 222,
-        "winRate": 45.05
+        "games": 225,
+        "winRate": 44.44
       }
     ]
   },

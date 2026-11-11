@@ -301,43 +301,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.61,
-    "playRate": 1.68,
-    "picks": 9983,
+    "winRate": 47.65,
+    "playRate": 1.67,
+    "picks": 9948,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-10T21:49:32.000Z",
-    "window": "2026-08-18 → 2026-11-10",
+    "updated": "2026-11-11T11:54:42.000Z",
+    "window": "2026-08-19 → 2026-11-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
-      "closed": {
-        "winRate": 48.09,
-        "playRate": 1.83,
-        "picks": 811
-      },
       "open": {
-        "winRate": 47.41,
-        "playRate": 1.5,
-        "picks": 2782
-      },
-      "other": {
-        "winRate": 47.78,
-        "playRate": 1.75,
-        "picks": 6122
+        "winRate": 47.4,
+        "playRate": 1.49,
+        "picks": 2772
       },
       "nomad": {
-        "winRate": 44.4,
+        "winRate": 44.57,
         "playRate": 1.75,
-        "picks": 268
+        "picks": 267
+      },
+      "other": {
+        "winRate": 47.81,
+        "playRate": 1.75,
+        "picks": 6103
+      },
+      "closed": {
+        "winRate": 48.26,
+        "playRate": 1.82,
+        "picks": 806
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 143,
-        "winRate": 60.14
+        "games": 144,
+        "winRate": 59.03
       },
       {
         "name": "byzantines",
@@ -356,15 +356,15 @@
       },
       {
         "name": "mapuche",
-        "games": 96,
-        "winRate": 53.13
+        "games": 98,
+        "winRate": 54.08
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 208,
-        "winRate": 37.5
+        "games": 209,
+        "winRate": 37.8
       },
       {
         "name": "romans",
@@ -379,12 +379,12 @@
       {
         "name": "poles",
         "games": 204,
-        "winRate": 40.69
+        "winRate": 41.18
       },
       {
         "name": "shu",
-        "games": 108,
-        "winRate": 40.74
+        "games": 106,
+        "winRate": 41.51
       }
     ]
   },
