@@ -290,34 +290,34 @@
   "stats": {
     "winRate": 50.15,
     "playRate": 1.74,
-    "picks": 10325,
+    "picks": 10327,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T11:54:42.000Z",
+    "updated": "2026-11-11T22:43:47.000Z",
     "window": "2026-08-19 → 2026-11-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
-      "open": {
-        "winRate": 49.57,
-        "playRate": 1.82,
-        "picks": 3387
-      },
       "other": {
-        "winRate": 50.43,
+        "winRate": 50.49,
         "playRate": 1.74,
-        "picks": 6080
+        "picks": 6082
+      },
+      "open": {
+        "winRate": 49.53,
+        "playRate": 1.83,
+        "picks": 3394
       },
       "nomad": {
-        "winRate": 56.91,
-        "playRate": 1.62,
-        "picks": 246
+        "winRate": 56.12,
+        "playRate": 1.6,
+        "picks": 237
       },
       "closed": {
         "winRate": 47.88,
         "playRate": 1.38,
-        "picks": 612
+        "picks": 614
       }
     },
     "strongAgainst": [
@@ -327,51 +327,51 @@
         "winRate": 61.9
       },
       {
-        "name": "tupi",
-        "games": 117,
-        "winRate": 60.68
+        "name": "mapuche",
+        "games": 101,
+        "winRate": 60.4
       },
       {
-        "name": "mapuche",
-        "games": 103,
-        "winRate": 60.19
+        "name": "tupi",
+        "games": 116,
+        "winRate": 60.34
       },
       {
         "name": "jurchens",
         "games": 114,
-        "winRate": 58.77
+        "winRate": 59.65
       },
       {
         "name": "dravidians",
-        "games": 149,
-        "winRate": 58.39
+        "games": 148,
+        "winRate": 58.11
       }
     ],
     "weakAgainst": [
       {
+        "name": "khitans",
+        "games": 130,
+        "winRate": 43.08
+      },
+      {
         "name": "celts",
-        "games": 173,
-        "winRate": 43.35
+        "games": 174,
+        "winRate": 43.68
       },
       {
         "name": "shu",
-        "games": 106,
-        "winRate": 43.4
-      },
-      {
-        "name": "khitans",
-        "games": 129,
-        "winRate": 43.41
-      },
-      {
-        "name": "slavs",
-        "games": 147,
-        "winRate": 44.22
+        "games": 105,
+        "winRate": 43.81
       },
       {
         "name": "wu",
-        "games": 124,
-        "winRate": 44.35
+        "games": 123,
+        "winRate": 43.9
+      },
+      {
+        "name": "slavs",
+        "games": 148,
+        "winRate": 44.59
       }
     ]
   },

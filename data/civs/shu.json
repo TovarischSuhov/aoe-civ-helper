@@ -352,39 +352,49 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 51.73,
+    "winRate": 51.64,
     "playRate": 0.93,
-    "picks": 5540,
+    "picks": 5542,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T11:54:42.000Z",
+    "updated": "2026-11-11T22:43:47.000Z",
     "window": "2026-08-19 → 2026-11-11",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
       "other": {
-        "winRate": 51.74,
+        "winRate": 51.73,
         "playRate": 0.93,
-        "picks": 3245
-      },
-      "nomad": {
-        "winRate": 49.01,
-        "playRate": 0.99,
-        "picks": 151
+        "picks": 3242
       },
       "open": {
-        "winRate": 52.86,
+        "winRate": 52.69,
         "playRate": 0.96,
-        "picks": 1782
+        "picks": 1786
+      },
+      "nomad": {
+        "winRate": 47.97,
+        "playRate": 1,
+        "picks": 148
       },
       "closed": {
-        "winRate": 47.24,
+        "winRate": 47.27,
         "playRate": 0.82,
-        "picks": 362
+        "picks": 366
       }
     },
     "strongAgainst": [
+      {
+        "name": "burmese",
+        "games": 98,
+        "winRate": 61.22
+      },
+      {
+        "name": "britons",
+        "games": 85,
+        "winRate": 61.18
+      },
       {
         "name": "malay",
         "games": 100,
@@ -394,16 +404,6 @@
         "name": "danes",
         "games": 51,
         "winRate": 60.78
-      },
-      {
-        "name": "burmese",
-        "games": 99,
-        "winRate": 60.61
-      },
-      {
-        "name": "japanese",
-        "games": 134,
-        "winRate": 60.45
       },
       {
         "name": "varangians",
@@ -419,8 +419,8 @@
       },
       {
         "name": "hindustanis",
-        "games": 104,
-        "winRate": 39.42
+        "games": 106,
+        "winRate": 38.68
       },
       {
         "name": "georgians",
@@ -428,14 +428,14 @@
         "winRate": 43.21
       },
       {
-        "name": "aztecs",
-        "games": 102,
-        "winRate": 44.12
+        "name": "chinese",
+        "games": 148,
+        "winRate": 43.24
       },
       {
-        "name": "chinese",
-        "games": 145,
-        "winRate": 44.83
+        "name": "aztecs",
+        "games": 101,
+        "winRate": 43.56
       }
     ]
   },
