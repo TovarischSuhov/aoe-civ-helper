@@ -315,90 +315,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.05,
-    "playRate": 1.52,
-    "picks": 9061,
+    "winRate": 51.1,
+    "playRate": 1.53,
+    "picks": 9066,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T22:43:47.000Z",
-    "window": "2026-08-19 → 2026-11-11",
+    "updated": "2026-11-12T12:48:14.000Z",
+    "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
     "byMapType": {
       "other": {
-        "winRate": 50.77,
+        "winRate": 50.75,
         "playRate": 1.51,
-        "picks": 5273
-      },
-      "nomad": {
-        "winRate": 55.53,
-        "playRate": 2.5,
-        "picks": 371
+        "picks": 5277
       },
       "open": {
-        "winRate": 50.63,
+        "winRate": 50.81,
         "playRate": 1.49,
-        "picks": 2777
+        "picks": 2779
+      },
+      "nomad": {
+        "winRate": 55.68,
+        "playRate": 2.48,
+        "picks": 361
       },
       "closed": {
-        "winRate": 52.66,
-        "playRate": 1.44,
-        "picks": 640
+        "winRate": 52.7,
+        "playRate": 1.46,
+        "picks": 649
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 98,
-        "winRate": 63.27
+        "games": 99,
+        "winRate": 63.64
       },
       {
         "name": "danes",
-        "games": 73,
-        "winRate": 60.27
+        "games": 74,
+        "winRate": 60.81
       },
       {
         "name": "ethiopians",
         "games": 186,
-        "winRate": 59.14
+        "winRate": 59.68
+      },
+      {
+        "name": "saracens",
+        "games": 161,
+        "winRate": 59.01
       },
       {
         "name": "varangians",
         "games": 147,
         "winRate": 58.5
-      },
-      {
-        "name": "saracens",
-        "games": 161,
-        "winRate": 58.39
       }
     ],
     "weakAgainst": [
       {
-        "name": "franks",
-        "games": 145,
-        "winRate": 41.38
-      },
-      {
         "name": "bulgarians",
         "games": 148,
-        "winRate": 41.89
+        "winRate": 41.22
       },
       {
-        "name": "khmer",
-        "games": 204,
-        "winRate": 44.12
+        "name": "franks",
+        "games": 144,
+        "winRate": 41.67
       },
       {
         "name": "berbers",
-        "games": 147,
-        "winRate": 44.22
+        "games": 146,
+        "winRate": 43.84
+      },
+      {
+        "name": "khmer",
+        "games": 203,
+        "winRate": 44.33
       },
       {
         "name": "chinese",
-        "games": 226,
-        "winRate": 44.25
+        "games": 225,
+        "winRate": 44.44
       }
     ]
   },

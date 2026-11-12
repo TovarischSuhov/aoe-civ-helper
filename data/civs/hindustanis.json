@@ -366,31 +366,31 @@
     "takeaway": "#1 in both 2024 and 2025. Cheaper villagers are flexible all game; Ghulam (anti-archer) + faster anti-building camels (anti-cavalry) + +2-range hand cannons cover most comps — but hard-countered by aggressive infantry civs."
   },
   "stats": {
-    "winRate": 51.97,
-    "playRate": 1.87,
+    "winRate": 51.98,
+    "playRate": 1.88,
     "picks": 11145,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T22:43:47.000Z",
-    "window": "2026-08-19 → 2026-11-11",
+    "updated": "2026-11-12T12:48:14.000Z",
+    "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/hindustanis",
     "byMapType": {
-      "open": {
-        "winRate": 52.32,
-        "playRate": 1.94,
-        "picks": 3614
-      },
       "other": {
-        "winRate": 51.46,
-        "playRate": 1.85,
-        "picks": 6467
+        "winRate": 51.47,
+        "playRate": 1.86,
+        "picks": 6475
       },
       "nomad": {
-        "winRate": 51.2,
-        "playRate": 1.68,
-        "picks": 250
+        "winRate": 51.22,
+        "playRate": 1.69,
+        "picks": 246
+      },
+      "open": {
+        "winRate": 52.33,
+        "playRate": 1.94,
+        "picks": 3610
       },
       "closed": {
         "winRate": 54.67,
@@ -401,18 +401,18 @@
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 200,
-        "winRate": 63
+        "games": 199,
+        "winRate": 62.81
+      },
+      {
+        "name": "britons",
+        "games": 206,
+        "winRate": 62.14
       },
       {
         "name": "berbers",
         "games": 194,
         "winRate": 61.86
-      },
-      {
-        "name": "britons",
-        "games": 207,
-        "winRate": 61.84
       },
       {
         "name": "shu",
@@ -433,8 +433,13 @@
       },
       {
         "name": "italians",
-        "games": 183,
-        "winRate": 44.81
+        "games": 181,
+        "winRate": 45.3
+      },
+      {
+        "name": "burmese",
+        "games": 154,
+        "winRate": 46.1
       },
       {
         "name": "cumans",
@@ -445,11 +450,6 @@
         "name": "malians",
         "games": 195,
         "winRate": 46.15
-      },
-      {
-        "name": "burmese",
-        "games": 154,
-        "winRate": 46.75
       }
     ]
   },

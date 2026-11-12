@@ -336,43 +336,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.93,
+    "winRate": 47.97,
     "playRate": 1.47,
-    "picks": 8746,
+    "picks": 8761,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T22:43:47.000Z",
-    "window": "2026-08-19 → 2026-11-11",
+    "updated": "2026-11-12T12:48:14.000Z",
+    "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
         "winRate": 47.77,
-        "playRate": 1.42,
-        "picks": 4972
-      },
-      "open": {
-        "winRate": 49.58,
-        "playRate": 1.61,
-        "picks": 2985
+        "playRate": 1.43,
+        "picks": 4976
       },
       "nomad": {
-        "winRate": 42.36,
-        "playRate": 1.37,
-        "picks": 203
+        "winRate": 41.79,
+        "playRate": 1.38,
+        "picks": 201
+      },
+      "open": {
+        "winRate": 49.75,
+        "playRate": 1.61,
+        "picks": 2997
       },
       "closed": {
-        "winRate": 42.83,
+        "winRate": 42.76,
         "playRate": 1.32,
-        "picks": 586
+        "picks": 587
       }
     },
     "strongAgainst": [
       {
         "name": "vietnamese",
-        "games": 209,
-        "winRate": 58.37
+        "games": 208,
+        "winRate": 58.65
       },
       {
         "name": "saracens",
@@ -382,33 +382,33 @@
       {
         "name": "britons",
         "games": 179,
-        "winRate": 56.42
+        "winRate": 55.87
       },
       {
         "name": "gurjaras",
-        "games": 143,
-        "winRate": 53.85
+        "games": 144,
+        "winRate": 54.17
       },
       {
-        "name": "turks",
-        "games": 165,
-        "winRate": 53.33
+        "name": "magyars",
+        "games": 213,
+        "winRate": 53.52
       }
     ],
     "weakAgainst": [
       {
         "name": "bohemians",
+        "games": 163,
+        "winRate": 38.04
+      },
+      {
+        "name": "vikings",
         "games": 162,
-        "winRate": 37.65
+        "winRate": 40.74
       },
       {
         "name": "japanese",
         "games": 236,
-        "winRate": 41.1
-      },
-      {
-        "name": "vikings",
-        "games": 163,
         "winRate": 41.1
       },
       {
@@ -418,8 +418,8 @@
       },
       {
         "name": "malians",
-        "games": 135,
-        "winRate": 42.22
+        "games": 133,
+        "winRate": 42.11
       }
     ]
   },

@@ -295,36 +295,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.07,
+    "winRate": 50.13,
     "playRate": 1.17,
     "picks": 6966,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T22:43:47.000Z",
-    "window": "2026-08-19 → 2026-11-11",
+    "updated": "2026-11-12T12:48:14.000Z",
+    "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
+      "nomad": {
+        "winRate": 44.1,
+        "playRate": 1.11,
+        "picks": 161
+      },
       "other": {
-        "winRate": 49.95,
+        "winRate": 49.99,
         "playRate": 1.19,
-        "picks": 4162
+        "picks": 4159
       },
       "open": {
-        "winRate": 51.39,
+        "winRate": 51.5,
         "playRate": 1.2,
-        "picks": 2224
-      },
-      "nomad": {
-        "winRate": 43.56,
-        "playRate": 1.1,
-        "picks": 163
+        "picks": 2227
       },
       "closed": {
-        "winRate": 46.76,
+        "winRate": 46.54,
         "playRate": 0.94,
-        "picks": 417
+        "picks": 419
       }
     },
     "strongAgainst": [
@@ -349,21 +349,21 @@
         "winRate": 57.58
       },
       {
-        "name": "varangians",
-        "games": 110,
-        "winRate": 57.27
+        "name": "shu",
+        "games": 82,
+        "winRate": 57.32
       }
     ],
     "weakAgainst": [
       {
-        "name": "franks",
-        "games": 146,
-        "winRate": 41.1
-      },
-      {
         "name": "mayans",
         "games": 145,
         "winRate": 41.38
+      },
+      {
+        "name": "franks",
+        "games": 147,
+        "winRate": 41.5
       },
       {
         "name": "vietnamese",
@@ -372,13 +372,13 @@
       },
       {
         "name": "chinese",
-        "games": 188,
-        "winRate": 42.02
+        "games": 191,
+        "winRate": 42.41
       },
       {
         "name": "vikings",
-        "games": 122,
-        "winRate": 42.62
+        "games": 121,
+        "winRate": 42.98
       }
     ]
   },

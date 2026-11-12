@@ -306,36 +306,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.76,
+    "winRate": 49.75,
     "playRate": 1.81,
-    "picks": 10774,
+    "picks": 10740,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-11T22:43:47.000Z",
-    "window": "2026-08-19 → 2026-11-11",
+    "updated": "2026-11-12T12:48:14.000Z",
+    "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
       "other": {
-        "winRate": 50.31,
-        "playRate": 1.8,
-        "picks": 6289
-      },
-      "open": {
-        "winRate": 48.7,
-        "playRate": 1.78,
-        "picks": 3318
+        "winRate": 50.3,
+        "playRate": 1.79,
+        "picks": 6261
       },
       "nomad": {
-        "winRate": 49.06,
+        "winRate": 49.42,
         "playRate": 1.78,
-        "picks": 265
+        "picks": 259
+      },
+      "open": {
+        "winRate": 48.66,
+        "playRate": 1.78,
+        "picks": 3317
       },
       "closed": {
-        "winRate": 50,
+        "winRate": 50.06,
         "playRate": 2.03,
-        "picks": 902
+        "picks": 903
       }
     },
     "strongAgainst": [
@@ -346,13 +346,8 @@
       },
       {
         "name": "jurchens",
-        "games": 116,
-        "winRate": 59.48
-      },
-      {
-        "name": "khitans",
-        "games": 136,
-        "winRate": 58.82
+        "games": 117,
+        "winRate": 59.83
       },
       {
         "name": "danes",
@@ -360,9 +355,14 @@
         "winRate": 58.49
       },
       {
-        "name": "mongols",
-        "games": 573,
-        "winRate": 57.94
+        "name": "khitans",
+        "games": 134,
+        "winRate": 58.21
+      },
+      {
+        "name": "ethiopians",
+        "games": 209,
+        "winRate": 57.89
       }
     ],
     "weakAgainst": [
@@ -373,23 +373,23 @@
       },
       {
         "name": "hindustanis",
-        "games": 207,
-        "winRate": 38.16
+        "games": 206,
+        "winRate": 37.86
       },
       {
         "name": "shu",
-        "games": 85,
-        "winRate": 38.82
+        "games": 86,
+        "winRate": 38.37
       },
       {
         "name": "franks",
-        "games": 212,
-        "winRate": 40.09
+        "games": 213,
+        "winRate": 39.91
       },
       {
-        "name": "koreans",
-        "games": 164,
-        "winRate": 42.68
+        "name": "wu",
+        "games": 100,
+        "winRate": 42
       }
     ]
   },
