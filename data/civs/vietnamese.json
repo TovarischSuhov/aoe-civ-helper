@@ -335,53 +335,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.4,
+    "winRate": 49.41,
     "playRate": 2.46,
-    "picks": 14620,
+    "picks": 14599,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T12:48:14.000Z",
+    "updated": "2026-11-12T22:15:59.000Z",
     "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vietnamese",
     "byMapType": {
-      "open": {
-        "winRate": 49.67,
-        "playRate": 2.61,
-        "picks": 4860
-      },
       "other": {
-        "winRate": 49.33,
+        "winRate": 49.31,
         "playRate": 2.42,
-        "picks": 8458
+        "picks": 8448
+      },
+      "open": {
+        "winRate": 49.71,
+        "playRate": 2.6,
+        "picks": 4850
       },
       "nomad": {
-        "winRate": 45.88,
-        "playRate": 2.33,
-        "picks": 340
+        "winRate": 45.83,
+        "playRate": 2.35,
+        "picks": 336
       },
       "closed": {
-        "winRate": 50,
+        "winRate": 50.05,
         "playRate": 2.16,
-        "picks": 962
+        "picks": 965
       }
     },
     "strongAgainst": [
       {
         "name": "ethiopians",
-        "games": 290,
-        "winRate": 60
+        "games": 284,
+        "winRate": 59.86
       },
       {
         "name": "koreans",
-        "games": 219,
-        "winRate": 58.45
+        "games": 217,
+        "winRate": 58.53
       },
       {
         "name": "georgians",
-        "games": 132,
-        "winRate": 58.33
+        "games": 134,
+        "winRate": 58.21
       },
       {
         "name": "varangians",
@@ -390,15 +390,15 @@
       },
       {
         "name": "saracens",
-        "games": 216,
-        "winRate": 56.48
+        "games": 219,
+        "winRate": 56.62
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
         "games": 416,
-        "winRate": 39.9
+        "winRate": 40.14
       },
       {
         "name": "goths",
@@ -407,18 +407,18 @@
       },
       {
         "name": "mayans",
-        "games": 343,
-        "winRate": 41.98
+        "games": 341,
+        "winRate": 42.23
       },
       {
         "name": "saxons",
-        "games": 215,
-        "winRate": 42.79
+        "games": 217,
+        "winRate": 42.86
       },
       {
         "name": "tupi",
-        "games": 201,
-        "winRate": 42.79
+        "games": 200,
+        "winRate": 43
       }
     ]
   },

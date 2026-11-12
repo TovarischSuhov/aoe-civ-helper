@@ -343,75 +343,75 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.93,
+    "winRate": 50.01,
     "playRate": 1.94,
-    "picks": 11530,
+    "picks": 11514,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T12:48:14.000Z",
+    "updated": "2026-11-12T22:15:59.000Z",
     "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "other": {
-        "winRate": 49.41,
+        "winRate": 49.47,
         "playRate": 1.85,
-        "picks": 6473
-      },
-      "nomad": {
-        "winRate": 47.28,
-        "playRate": 2.02,
-        "picks": 294
+        "picks": 6452
       },
       "open": {
-        "winRate": 49.1,
+        "winRate": 49.17,
         "playRate": 1.58,
-        "picks": 2947
+        "picks": 2949
+      },
+      "nomad": {
+        "winRate": 47.22,
+        "playRate": 2.01,
+        "picks": 288
       },
       "closed": {
-        "winRate": 53.58,
+        "winRate": 53.7,
         "playRate": 4.08,
-        "picks": 1816
+        "picks": 1825
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 127,
-        "winRate": 65.35
+        "games": 128,
+        "winRate": 65.63
       },
       {
         "name": "sicilians",
-        "games": 167,
-        "winRate": 62.87
-      },
-      {
-        "name": "goths",
-        "games": 163,
-        "winRate": 61.96
+        "games": 166,
+        "winRate": 62.65
       },
       {
         "name": "muisca",
         "games": 121,
-        "winRate": 61.16
+        "winRate": 61.98
+      },
+      {
+        "name": "goths",
+        "games": 164,
+        "winRate": 61.59
       },
       {
         "name": "wu",
-        "games": 123,
-        "winRate": 60.16
+        "games": 122,
+        "winRate": 60.66
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 190,
-        "winRate": 41.05
+        "games": 187,
+        "winRate": 40.64
       },
       {
         "name": "dravidians",
-        "games": 152,
-        "winRate": 42.11
+        "games": 154,
+        "winRate": 42.86
       },
       {
         "name": "shu",
@@ -425,8 +425,8 @@
       },
       {
         "name": "turks",
-        "games": 322,
-        "winRate": 43.79
+        "games": 326,
+        "winRate": 44.17
       }
     ]
   },

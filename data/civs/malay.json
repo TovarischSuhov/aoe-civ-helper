@@ -295,36 +295,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 52.05,
+    "winRate": 51.98,
     "playRate": 1.71,
-    "picks": 10165,
+    "picks": 10137,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T12:48:14.000Z",
+    "updated": "2026-11-12T22:15:59.000Z",
     "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malay",
     "byMapType": {
       "other": {
-        "winRate": 52.35,
-        "playRate": 1.75,
-        "picks": 6109
-      },
-      "nomad": {
-        "winRate": 51.17,
-        "playRate": 1.76,
-        "picks": 256
+        "winRate": 52.27,
+        "playRate": 1.74,
+        "picks": 6080
       },
       "open": {
-        "winRate": 51.02,
+        "winRate": 50.96,
         "playRate": 1.5,
-        "picks": 2795
+        "picks": 2800
+      },
+      "nomad": {
+        "winRate": 50.8,
+        "playRate": 1.75,
+        "picks": 250
       },
       "closed": {
         "winRate": 53.33,
-        "playRate": 2.26,
-        "picks": 1005
+        "playRate": 2.25,
+        "picks": 1007
       }
     },
     "strongAgainst": [
@@ -334,9 +334,9 @@
         "winRate": 61.31
       },
       {
-        "name": "gurjaras",
-        "games": 152,
-        "winRate": 59.21
+        "name": "khitans",
+        "games": 119,
+        "winRate": 58.82
       },
       {
         "name": "mapuche",
@@ -344,21 +344,21 @@
         "winRate": 58.7
       },
       {
+        "name": "gurjaras",
+        "games": 150,
+        "winRate": 58.67
+      },
+      {
         "name": "bengalis",
         "games": 169,
         "winRate": 58.58
-      },
-      {
-        "name": "khitans",
-        "games": 120,
-        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 99,
-        "winRate": 38.38
+        "games": 98,
+        "winRate": 37.76
       },
       {
         "name": "wu",
@@ -367,18 +367,18 @@
       },
       {
         "name": "romans",
-        "games": 128,
-        "winRate": 42.97
+        "games": 126,
+        "winRate": 42.86
       },
       {
         "name": "mayans",
-        "games": 196,
-        "winRate": 43.88
+        "games": 197,
+        "winRate": 43.65
       },
       {
         "name": "ethiopians",
-        "games": 187,
-        "winRate": 44.92
+        "games": 188,
+        "winRate": 44.68
       }
     ]
   },

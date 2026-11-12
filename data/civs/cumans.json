@@ -330,43 +330,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.98,
-    "playRate": 1.68,
-    "picks": 9962,
+    "winRate": 48.01,
+    "playRate": 1.67,
+    "picks": 9945,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T12:48:14.000Z",
+    "updated": "2026-11-12T22:15:59.000Z",
     "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
-      "nomad": {
-        "winRate": 44.49,
-        "playRate": 1.56,
-        "picks": 227
+      "other": {
+        "winRate": 48.25,
+        "playRate": 1.67,
+        "picks": 5818
       },
       "open": {
-        "winRate": 46.82,
-        "playRate": 1.53,
-        "picks": 2847
+        "winRate": 46.8,
+        "playRate": 1.52,
+        "picks": 2840
       },
-      "other": {
-        "winRate": 48.17,
-        "playRate": 1.67,
-        "picks": 5829
+      "nomad": {
+        "winRate": 44.64,
+        "playRate": 1.57,
+        "picks": 224
       },
       "closed": {
-        "winRate": 50.8,
+        "winRate": 50.71,
         "playRate": 2.38,
-        "picks": 1059
+        "picks": 1063
       }
     },
     "strongAgainst": [
       {
         "name": "berbers",
-        "games": 160,
-        "winRate": 58.75
+        "games": 163,
+        "winRate": 58.9
+      },
+      {
+        "name": "jurchens",
+        "games": 121,
+        "winRate": 57.02
       },
       {
         "name": "lithuanians",
@@ -374,46 +379,41 @@
         "winRate": 56.88
       },
       {
-        "name": "jurchens",
-        "games": 123,
-        "winRate": 56.1
+        "name": "byzantines",
+        "games": 184,
+        "winRate": 55.98
       },
       {
         "name": "varangians",
         "games": 117,
         "winRate": 55.56
-      },
-      {
-        "name": "vietnamese",
-        "games": 226,
-        "winRate": 55.31
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 210,
-        "winRate": 38.1
+        "games": 208,
+        "winRate": 37.5
       },
       {
         "name": "italians",
-        "games": 203,
-        "winRate": 38.92
+        "games": 202,
+        "winRate": 39.11
+      },
+      {
+        "name": "magyars",
+        "games": 264,
+        "winRate": 41.67
       },
       {
         "name": "romans",
-        "games": 101,
-        "winRate": 41.58
+        "games": 100,
+        "winRate": 42
       },
       {
         "name": "spanish",
         "games": 238,
-        "winRate": 41.6
-      },
-      {
-        "name": "armenians",
-        "games": 172,
-        "winRate": 41.86
+        "winRate": 42.02
       }
     ]
   },

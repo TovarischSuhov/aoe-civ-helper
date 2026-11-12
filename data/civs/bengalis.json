@@ -256,48 +256,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.14,
+    "winRate": 50.09,
     "playRate": 1.48,
-    "picks": 8822,
+    "picks": 8821,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T12:48:14.000Z",
+    "updated": "2026-11-12T22:15:59.000Z",
     "window": "2026-08-20 → 2026-11-12",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "other": {
-        "winRate": 49.43,
-        "playRate": 1.5,
-        "picks": 5236
-      },
       "open": {
-        "winRate": 50.02,
+        "winRate": 49.98,
         "playRate": 1.38,
         "picks": 2573
       },
+      "other": {
+        "winRate": 49.41,
+        "playRate": 1.5,
+        "picks": 5230
+      },
       "nomad": {
-        "winRate": 58.4,
+        "winRate": 57.72,
         "playRate": 1.72,
-        "picks": 250
+        "picks": 246
       },
       "closed": {
-        "winRate": 52.69,
-        "playRate": 1.71,
-        "picks": 763
+        "winRate": 52.59,
+        "playRate": 1.73,
+        "picks": 772
       }
     },
     "strongAgainst": [
       {
-        "name": "wei",
-        "games": 139,
-        "winRate": 58.27
+        "name": "saracens",
+        "games": 134,
+        "winRate": 58.21
       },
       {
-        "name": "saracens",
-        "games": 135,
-        "winRate": 57.78
+        "name": "wei",
+        "games": 138,
+        "winRate": 57.97
       },
       {
         "name": "tupi",
@@ -306,8 +306,8 @@
       },
       {
         "name": "byzantines",
-        "games": 146,
-        "winRate": 56.85
+        "games": 150,
+        "winRate": 57.33
       },
       {
         "name": "mapuche",
@@ -318,18 +318,18 @@
     "weakAgainst": [
       {
         "name": "wu",
-        "games": 98,
-        "winRate": 38.78
-      },
-      {
-        "name": "franks",
-        "games": 140,
-        "winRate": 40.71
+        "games": 100,
+        "winRate": 38
       },
       {
         "name": "hindustanis",
-        "games": 162,
-        "winRate": 40.74
+        "games": 161,
+        "winRate": 40.37
+      },
+      {
+        "name": "franks",
+        "games": 138,
+        "winRate": 41.3
       },
       {
         "name": "malay",
@@ -338,8 +338,8 @@
       },
       {
         "name": "romans",
-        "games": 114,
-        "winRate": 42.11
+        "games": 115,
+        "winRate": 41.74
       }
     ]
   },
