@@ -330,36 +330,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.99,
+    "winRate": 48.02,
     "playRate": 1.67,
-    "picks": 9938,
+    "picks": 9939,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T12:16:40.000Z",
+    "updated": "2026-11-13T21:59:48.000Z",
     "window": "2026-08-21 → 2026-11-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
-      "other": {
-        "winRate": 48.22,
-        "playRate": 1.67,
-        "picks": 5815
-      },
       "open": {
-        "winRate": 46.77,
+        "winRate": 46.79,
         "playRate": 1.52,
-        "picks": 2837
+        "picks": 2838
+      },
+      "other": {
+        "winRate": 48.26,
+        "playRate": 1.67,
+        "picks": 5817
       },
       "nomad": {
-        "winRate": 44.14,
-        "playRate": 1.58,
-        "picks": 222
+        "winRate": 44.29,
+        "playRate": 1.59,
+        "picks": 219
       },
       "closed": {
-        "winRate": 50.75,
+        "winRate": 50.8,
         "playRate": 2.37,
-        "picks": 1064
+        "picks": 1065
       }
     },
     "strongAgainst": [
@@ -370,50 +370,50 @@
       },
       {
         "name": "lithuanians",
-        "games": 159,
-        "winRate": 57.23
-      },
-      {
-        "name": "byzantines",
-        "games": 182,
-        "winRate": 56.59
+        "games": 157,
+        "winRate": 57.32
       },
       {
         "name": "jurchens",
-        "games": 122,
-        "winRate": 56.56
+        "games": 123,
+        "winRate": 56.91
+      },
+      {
+        "name": "byzantines",
+        "games": 183,
+        "winRate": 56.28
       },
       {
         "name": "vietnamese",
-        "games": 223,
-        "winRate": 55.16
+        "games": 222,
+        "winRate": 55.41
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 207,
-        "winRate": 37.68
+        "games": 208,
+        "winRate": 37.98
       },
       {
         "name": "italians",
-        "games": 201,
-        "winRate": 39.3
+        "games": 203,
+        "winRate": 39.41
       },
       {
         "name": "spanish",
-        "games": 239,
-        "winRate": 41.42
+        "games": 237,
+        "winRate": 40.93
+      },
+      {
+        "name": "romans",
+        "games": 98,
+        "winRate": 41.84
       },
       {
         "name": "muisca",
         "games": 98,
         "winRate": 41.84
-      },
-      {
-        "name": "romans",
-        "games": 100,
-        "winRate": 42
       }
     ]
   },

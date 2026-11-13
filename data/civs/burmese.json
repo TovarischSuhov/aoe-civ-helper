@@ -323,85 +323,85 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.96,
+    "winRate": 49.01,
     "playRate": 1.43,
-    "picks": 8522,
+    "picks": 8531,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T12:16:40.000Z",
+    "updated": "2026-11-13T21:59:48.000Z",
     "window": "2026-08-21 → 2026-11-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
-      "other": {
-        "winRate": 48.22,
-        "playRate": 1.41,
-        "picks": 4907
-      },
       "open": {
-        "winRate": 49.04,
+        "winRate": 49.15,
         "playRate": 1.45,
-        "picks": 2700
+        "picks": 2706
+      },
+      "other": {
+        "winRate": 48.27,
+        "playRate": 1.41,
+        "picks": 4916
       },
       "nomad": {
-        "winRate": 51.28,
-        "playRate": 1.67,
-        "picks": 234
+        "winRate": 50.66,
+        "playRate": 1.64,
+        "picks": 227
       },
       "closed": {
-        "winRate": 53.16,
-        "playRate": 1.52,
-        "picks": 681
+        "winRate": 53.23,
+        "playRate": 1.51,
+        "picks": 682
       }
     },
     "strongAgainst": [
       {
-        "name": "wei",
-        "games": 120,
-        "winRate": 59.17
-      },
-      {
         "name": "teutons",
         "games": 180,
-        "winRate": 58.89
+        "winRate": 60
+      },
+      {
+        "name": "wei",
+        "games": 121,
+        "winRate": 58.68
       },
       {
         "name": "berbers",
-        "games": 155,
-        "winRate": 57.42
-      },
-      {
-        "name": "gurjaras",
-        "games": 160,
-        "winRate": 55
+        "games": 156,
+        "winRate": 57.05
       },
       {
         "name": "bohemians",
-        "games": 186,
-        "winRate": 54.84
+        "games": 188,
+        "winRate": 54.79
+      },
+      {
+        "name": "goths",
+        "games": 148,
+        "winRate": 54.73
       }
     ],
     "weakAgainst": [
-      {
-        "name": "georgians",
-        "games": 95,
-        "winRate": 37.89
-      },
       {
         "name": "shu",
         "games": 100,
         "winRate": 38
       },
       {
-        "name": "huns",
-        "games": 169,
-        "winRate": 40.24
+        "name": "georgians",
+        "games": 94,
+        "winRate": 38.3
       },
       {
-        "name": "persians",
-        "games": 215,
-        "winRate": 42.33
+        "name": "huns",
+        "games": 169,
+        "winRate": 39.64
+      },
+      {
+        "name": "ethiopians",
+        "games": 142,
+        "winRate": 42.25
       },
       {
         "name": "vikings",

@@ -343,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.01,
+    "winRate": 49.93,
     "playRate": 1.93,
-    "picks": 11475,
+    "picks": 11461,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T12:16:40.000Z",
+    "updated": "2026-11-13T21:59:48.000Z",
     "window": "2026-08-21 → 2026-11-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
       "other": {
-        "winRate": 49.48,
+        "winRate": 49.41,
         "playRate": 1.84,
-        "picks": 6419
+        "picks": 6400
       },
       "open": {
-        "winRate": 49.19,
+        "winRate": 49.07,
         "playRate": 1.58,
-        "picks": 2950
+        "picks": 2955
       },
       "nomad": {
-        "winRate": 46.98,
-        "playRate": 2,
-        "picks": 281
+        "winRate": 46.91,
+        "playRate": 1.99,
+        "picks": 275
       },
       "closed": {
-        "winRate": 53.7,
+        "winRate": 53.63,
         "playRate": 4.07,
-        "picks": 1825
+        "picks": 1831
       }
     },
     "strongAgainst": [
@@ -383,13 +383,8 @@
       },
       {
         "name": "sicilians",
-        "games": 166,
-        "winRate": 62.05
-      },
-      {
-        "name": "muisca",
-        "games": 118,
-        "winRate": 61.86
+        "games": 169,
+        "winRate": 61.54
       },
       {
         "name": "goths",
@@ -397,9 +392,14 @@
         "winRate": 61.35
       },
       {
-        "name": "wu",
+        "name": "muisca",
         "games": 119,
-        "winRate": 60.5
+        "winRate": 61.34
+      },
+      {
+        "name": "wu",
+        "games": 121,
+        "winRate": 60.33
       }
     ],
     "weakAgainst": [
@@ -420,13 +420,13 @@
       },
       {
         "name": "turks",
-        "games": 325,
-        "winRate": 44.31
+        "games": 324,
+        "winRate": 44.14
       },
       {
         "name": "khitans",
-        "games": 96,
-        "winRate": 44.79
+        "games": 95,
+        "winRate": 44.21
       }
     ]
   },
