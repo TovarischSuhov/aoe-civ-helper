@@ -350,53 +350,53 @@
     "takeaway": "Multiple scout/knight bonuses + cheaper castles; farm food now arrives instantly on age-up and buffed Throwing Axemen complement cavalry. Still the most beginner-friendly safe pick."
   },
   "stats": {
-    "winRate": 50.52,
+    "winRate": 50.48,
     "playRate": 1.85,
-    "picks": 10984,
+    "picks": 10985,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T22:15:59.000Z",
-    "window": "2026-08-20 → 2026-11-12",
+    "updated": "2026-11-13T12:16:40.000Z",
+    "window": "2026-08-21 → 2026-11-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
-      "other": {
-        "winRate": 51.03,
-        "playRate": 1.83,
-        "picks": 6377
-      },
       "open": {
-        "winRate": 49.64,
+        "winRate": 49.6,
         "playRate": 1.96,
-        "picks": 3654
+        "picks": 3659
+      },
+      "other": {
+        "winRate": 51,
+        "playRate": 1.83,
+        "picks": 6374
       },
       "nomad": {
-        "winRate": 49.02,
+        "winRate": 48.26,
         "playRate": 1.43,
-        "picks": 204
+        "picks": 201
       },
       "closed": {
         "winRate": 50.87,
         "playRate": 1.67,
-        "picks": 749
+        "picks": 751
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 174,
-        "winRate": 60.92
+        "games": 176,
+        "winRate": 61.36
       },
       {
         "name": "incas",
         "games": 166,
-        "winRate": 60.84
+        "winRate": 60.24
       },
       {
         "name": "britons",
-        "games": 212,
-        "winRate": 60.38
+        "games": 211,
+        "winRate": 60.19
       },
       {
         "name": "muisca",
@@ -405,35 +405,35 @@
       },
       {
         "name": "dravidians",
-        "games": 143,
-        "winRate": 58.74
+        "games": 144,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "italians",
-        "games": 197,
-        "winRate": 42.64
-      },
-      {
-        "name": "huns",
-        "games": 231,
-        "winRate": 43.29
+        "games": 196,
+        "winRate": 42.35
       },
       {
         "name": "romans",
-        "games": 160,
-        "winRate": 43.75
+        "games": 164,
+        "winRate": 43.29
       },
       {
         "name": "teutons",
-        "games": 185,
-        "winRate": 43.78
+        "games": 187,
+        "winRate": 43.32
+      },
+      {
+        "name": "huns",
+        "games": 233,
+        "winRate": 43.35
       },
       {
         "name": "tupi",
-        "games": 100,
-        "winRate": 44
+        "games": 102,
+        "winRate": 44.12
       }
     ]
   },

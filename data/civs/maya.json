@@ -333,36 +333,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 54.11,
+    "winRate": 54.1,
     "playRate": 2.1,
-    "picks": 12467,
+    "picks": 12468,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-12T22:15:59.000Z",
-    "window": "2026-08-20 → 2026-11-12",
+    "updated": "2026-11-13T12:16:40.000Z",
+    "window": "2026-08-21 → 2026-11-13",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
-      "open": {
-        "winRate": 56.1,
-        "playRate": 2.47,
-        "picks": 4606
-      },
       "other": {
-        "winRate": 53.3,
+        "winRate": 53.36,
         "playRate": 1.98,
-        "picks": 6899
+        "picks": 6895
       },
       "nomad": {
-        "winRate": 52.06,
+        "winRate": 52.47,
         "playRate": 1.87,
-        "picks": 267
+        "picks": 263
+      },
+      "open": {
+        "winRate": 55.94,
+        "playRate": 2.47,
+        "picks": 4614
       },
       "closed": {
-        "winRate": 49.78,
+        "winRate": 49.86,
         "playRate": 1.55,
-        "picks": 695
+        "picks": 696
       }
     },
     "strongAgainst": [
@@ -378,18 +378,18 @@
       },
       {
         "name": "cumans",
-        "games": 208,
-        "winRate": 62.5
+        "games": 207,
+        "winRate": 62.32
       },
       {
         "name": "portuguese",
         "games": 208,
-        "winRate": 62.02
+        "winRate": 61.54
       },
       {
         "name": "japanese",
-        "games": 316,
-        "winRate": 61.08
+        "games": 314,
+        "winRate": 60.83
       }
     ],
     "weakAgainst": [
@@ -400,13 +400,8 @@
       },
       {
         "name": "vikings",
-        "games": 211,
-        "winRate": 45.97
-      },
-      {
-        "name": "dravidians",
-        "games": 174,
-        "winRate": 45.98
+        "games": 216,
+        "winRate": 45.83
       },
       {
         "name": "wu",
@@ -414,9 +409,14 @@
         "winRate": 46.03
       },
       {
+        "name": "dravidians",
+        "games": 173,
+        "winRate": 46.24
+      },
+      {
         "name": "slavs",
-        "games": 176,
-        "winRate": 47.16
+        "games": 174,
+        "winRate": 47.7
       }
     ]
   },
