@@ -333,36 +333,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.04,
+    "winRate": 45.98,
     "playRate": 1.49,
-    "picks": 8868,
+    "picks": 8876,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T21:59:48.000Z",
-    "window": "2026-08-21 → 2026-11-13",
+    "updated": "2026-11-14T11:32:37.000Z",
+    "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/saracens",
     "byMapType": {
-      "other": {
-        "winRate": 46.69,
-        "playRate": 1.49,
-        "picks": 5205
-      },
       "open": {
-        "winRate": 45.73,
+        "winRate": 45.7,
         "playRate": 1.5,
-        "picks": 2808
+        "picks": 2814
+      },
+      "other": {
+        "winRate": 46.6,
+        "playRate": 1.49,
+        "picks": 5204
       },
       "nomad": {
-        "winRate": 44.55,
-        "playRate": 1.46,
-        "picks": 202
+        "winRate": 44.28,
+        "playRate": 1.48,
+        "picks": 201
       },
       "closed": {
-        "winRate": 42.73,
-        "playRate": 1.45,
-        "picks": 653
+        "winRate": 42.77,
+        "playRate": 1.46,
+        "picks": 657
       }
     },
     "strongAgainst": [
@@ -373,50 +373,50 @@
       },
       {
         "name": "wei",
-        "games": 118,
-        "winRate": 55.08
+        "games": 116,
+        "winRate": 54.31
       },
       {
         "name": "sicilians",
-        "games": 182,
-        "winRate": 54.4
+        "games": 186,
+        "winRate": 54.3
       },
       {
         "name": "mapuche",
-        "games": 96,
-        "winRate": 54.17
+        "games": 97,
+        "winRate": 53.61
       },
       {
         "name": "burgundians",
-        "games": 178,
-        "winRate": 53.37
+        "games": 180,
+        "winRate": 52.78
       }
     ],
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 197,
-        "winRate": 36.55
+        "games": 195,
+        "winRate": 36.41
+      },
+      {
+        "name": "vikings",
+        "games": 159,
+        "winRate": 38.99
       },
       {
         "name": "celts",
         "games": 163,
-        "winRate": 38.65
+        "winRate": 39.26
       },
       {
-        "name": "vikings",
-        "games": 157,
-        "winRate": 38.85
+        "name": "chinese",
+        "games": 200,
+        "winRate": 39.5
       },
       {
         "name": "turks",
         "games": 169,
-        "winRate": 39.05
-      },
-      {
-        "name": "chinese",
-        "games": 197,
-        "winRate": 39.59
+        "winRate": 39.64
       }
     ]
   },

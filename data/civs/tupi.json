@@ -357,36 +357,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.41,
+    "winRate": 49.42,
     "playRate": 1.15,
-    "picks": 6811,
+    "picks": 6823,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T21:59:48.000Z",
-    "window": "2026-08-21 → 2026-11-13",
+    "updated": "2026-11-14T11:32:37.000Z",
+    "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
+      "open": {
+        "winRate": 49.78,
+        "playRate": 1.23,
+        "picks": 2304
+      },
       "other": {
         "winRate": 49.09,
-        "playRate": 1.14,
-        "picks": 3958
+        "playRate": 1.13,
+        "picks": 3954
       },
       "nomad": {
-        "winRate": 57.53,
+        "winRate": 57.64,
         "playRate": 1.06,
-        "picks": 146
-      },
-      "open": {
-        "winRate": 49.76,
-        "playRate": 1.22,
-        "picks": 2287
+        "picks": 144
       },
       "closed": {
-        "winRate": 47.62,
+        "winRate": 47.74,
         "playRate": 0.93,
-        "picks": 420
+        "picks": 421
       }
     },
     "strongAgainst": [
@@ -397,50 +397,50 @@
       },
       {
         "name": "varangians",
-        "games": 109,
-        "winRate": 59.63
-      },
-      {
-        "name": "gurjaras",
-        "games": 82,
-        "winRate": 58.54
+        "games": 110,
+        "winRate": 60
       },
       {
         "name": "goths",
-        "games": 83,
-        "winRate": 57.83
+        "games": 85,
+        "winRate": 58.82
       },
       {
-        "name": "berbers",
-        "games": 107,
-        "winRate": 57.01
+        "name": "gurjaras",
+        "games": 80,
+        "winRate": 58.75
+      },
+      {
+        "name": "vikings",
+        "games": 121,
+        "winRate": 57.02
       }
     ],
     "weakAgainst": [
       {
         "name": "huns",
         "games": 148,
-        "winRate": 37.84
+        "winRate": 38.51
       },
       {
         "name": "chinese",
-        "games": 279,
-        "winRate": 39.43
-      },
-      {
-        "name": "bulgarians",
-        "games": 118,
-        "winRate": 40.68
+        "games": 282,
+        "winRate": 39.01
       },
       {
         "name": "bengalis",
-        "games": 100,
-        "winRate": 41
+        "games": 99,
+        "winRate": 40.4
+      },
+      {
+        "name": "bulgarians",
+        "games": 120,
+        "winRate": 40.83
       },
       {
         "name": "shu",
-        "games": 60,
-        "winRate": 41.67
+        "games": 59,
+        "winRate": 42.37
       }
     ]
   },

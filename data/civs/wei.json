@@ -350,36 +350,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.19,
+    "winRate": 49.08,
     "playRate": 1.52,
-    "picks": 9020,
+    "picks": 9018,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T21:59:48.000Z",
-    "window": "2026-08-21 → 2026-11-13",
+    "updated": "2026-11-14T11:32:37.000Z",
+    "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
-      "other": {
-        "winRate": 48.79,
-        "playRate": 1.48,
-        "picks": 5169
-      },
       "open": {
-        "winRate": 50.57,
+        "winRate": 50.51,
         "playRate": 1.64,
-        "picks": 3063
+        "picks": 3069
+      },
+      "other": {
+        "winRate": 48.62,
+        "playRate": 1.48,
+        "picks": 5162
       },
       "nomad": {
-        "winRate": 47.92,
+        "winRate": 47.62,
         "playRate": 1.39,
-        "picks": 192
+        "picks": 189
       },
       "closed": {
-        "winRate": 45.97,
+        "winRate": 46.15,
         "playRate": 1.32,
-        "picks": 596
+        "picks": 598
       }
     },
     "strongAgainst": [
@@ -394,46 +394,46 @@
         "winRate": 56.21
       },
       {
-        "name": "lithuanians",
-        "games": 152,
-        "winRate": 55.26
-      },
-      {
         "name": "burgundians",
         "games": 192,
-        "winRate": 55.21
+        "winRate": 55.73
+      },
+      {
+        "name": "lithuanians",
+        "games": 150,
+        "winRate": 55.33
       },
       {
         "name": "incas",
-        "games": 157,
-        "winRate": 54.78
+        "games": 154,
+        "winRate": 55.19
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 144,
-        "winRate": 36.11
-      },
-      {
-        "name": "burmese",
-        "games": 121,
-        "winRate": 41.32
-      },
-      {
-        "name": "hindustanis",
-        "games": 195,
-        "winRate": 41.54
+        "games": 146,
+        "winRate": 36.3
       },
       {
         "name": "bengalis",
-        "games": 139,
-        "winRate": 41.73
+        "games": 141,
+        "winRate": 39.72
       },
       {
-        "name": "spanish",
-        "games": 223,
-        "winRate": 42.15
+        "name": "hindustanis",
+        "games": 193,
+        "winRate": 41.45
+      },
+      {
+        "name": "burmese",
+        "games": 122,
+        "winRate": 41.8
+      },
+      {
+        "name": "wu",
+        "games": 98,
+        "winRate": 41.84
       }
     ]
   },

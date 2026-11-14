@@ -295,36 +295,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.92,
+    "winRate": 49.83,
     "playRate": 1.17,
-    "picks": 6961,
+    "picks": 6939,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-13T21:59:48.000Z",
-    "window": "2026-08-21 → 2026-11-13",
+    "updated": "2026-11-14T11:32:37.000Z",
+    "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "other": {
-        "winRate": 49.82,
-        "playRate": 1.19,
-        "picks": 4157
-      },
       "open": {
-        "winRate": 51.1,
+        "winRate": 51.03,
         "playRate": 1.19,
-        "picks": 2235
+        "picks": 2232
+      },
+      "other": {
+        "winRate": 49.71,
+        "playRate": 1.19,
+        "picks": 4142
       },
       "nomad": {
-        "winRate": 44.59,
-        "playRate": 1.07,
-        "picks": 148
+        "winRate": 44.76,
+        "playRate": 1.05,
+        "picks": 143
       },
       "closed": {
-        "winRate": 46.56,
-        "playRate": 0.94,
-        "picks": 421
+        "winRate": 46.45,
+        "playRate": 0.93,
+        "picks": 422
       }
     },
     "strongAgainst": [
@@ -345,8 +345,8 @@
       },
       {
         "name": "shu",
-        "games": 81,
-        "winRate": 58.02
+        "games": 80,
+        "winRate": 57.5
       },
       {
         "name": "portuguese",
@@ -356,29 +356,29 @@
     ],
     "weakAgainst": [
       {
-        "name": "mayans",
-        "games": 145,
-        "winRate": 41.38
-      },
-      {
         "name": "vietnamese",
-        "games": 132,
-        "winRate": 41.67
+        "games": 133,
+        "winRate": 41.35
       },
       {
         "name": "chinese",
-        "games": 189,
-        "winRate": 41.8
+        "games": 188,
+        "winRate": 41.49
+      },
+      {
+        "name": "mayans",
+        "games": 146,
+        "winRate": 41.78
       },
       {
         "name": "franks",
-        "games": 145,
-        "winRate": 42.07
+        "games": 143,
+        "winRate": 41.96
       },
       {
         "name": "malay",
-        "games": 133,
-        "winRate": 43.61
+        "games": 132,
+        "winRate": 42.42
       }
     ]
   },
