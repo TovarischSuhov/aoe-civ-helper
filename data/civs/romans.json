@@ -350,29 +350,29 @@
   "stats": {
     "winRate": 54.21,
     "playRate": 1.33,
-    "picks": 7907,
+    "picks": 7890,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-14T11:32:37.000Z",
+    "updated": "2026-11-14T20:45:05.000Z",
     "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "other": {
-        "winRate": 54.86,
-        "playRate": 1.35,
-        "picks": 4694
-      },
       "open": {
-        "winRate": 53.66,
+        "winRate": 53.55,
         "playRate": 1.4,
-        "picks": 2620
+        "picks": 2622
       },
       "nomad": {
         "winRate": 51.06,
-        "playRate": 1.04,
+        "playRate": 1.06,
         "picks": 141
+      },
+      "other": {
+        "winRate": 54.93,
+        "playRate": 1.34,
+        "picks": 4675
       },
       "closed": {
         "winRate": 51.55,
@@ -383,8 +383,8 @@
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 63,
-        "winRate": 73.02
+        "games": 64,
+        "winRate": 73.44
       },
       {
         "name": "danes",
@@ -410,23 +410,23 @@
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 153,
-        "winRate": 46.41
+        "games": 150,
+        "winRate": 46.67
       },
       {
         "name": "khmer",
         "games": 203,
-        "winRate": 47.78
-      },
-      {
-        "name": "turks",
-        "games": 112,
-        "winRate": 48.21
+        "winRate": 47.29
       },
       {
         "name": "mongols",
-        "games": 510,
-        "winRate": 48.24
+        "games": 512,
+        "winRate": 47.85
+      },
+      {
+        "name": "spanish",
+        "games": 149,
+        "winRate": 48.32
       },
       {
         "name": "burmese",

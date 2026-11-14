@@ -336,36 +336,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.09,
+    "winRate": 48.06,
     "playRate": 1.47,
-    "picks": 8755,
+    "picks": 8752,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-14T11:32:37.000Z",
+    "updated": "2026-11-14T20:45:05.000Z",
     "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
-      "other": {
-        "winRate": 47.83,
-        "playRate": 1.42,
-        "picks": 4963
-      },
       "open": {
-        "winRate": 49.87,
+        "winRate": 49.85,
         "playRate": 1.61,
-        "picks": 3010
+        "picks": 3009
+      },
+      "other": {
+        "winRate": 47.78,
+        "playRate": 1.42,
+        "picks": 4964
       },
       "nomad": {
-        "winRate": 42.86,
-        "playRate": 1.39,
-        "picks": 189
+        "winRate": 42.62,
+        "playRate": 1.37,
+        "picks": 183
       },
       "closed": {
-        "winRate": 42.83,
-        "playRate": 1.31,
-        "picks": 593
+        "winRate": 42.95,
+        "playRate": 1.32,
+        "picks": 596
       }
     },
     "strongAgainst": [
@@ -377,7 +377,7 @@
       {
         "name": "saracens",
         "games": 180,
-        "winRate": 57.22
+        "winRate": 56.67
       },
       {
         "name": "britons",
@@ -386,13 +386,13 @@
       },
       {
         "name": "magyars",
-        "games": 217,
-        "winRate": 54.84
+        "games": 218,
+        "winRate": 55.05
       },
       {
         "name": "turks",
-        "games": 160,
-        "winRate": 54.38
+        "games": 159,
+        "winRate": 54.09
       }
     ],
     "weakAgainst": [
@@ -403,13 +403,13 @@
       },
       {
         "name": "chinese",
-        "games": 216,
-        "winRate": 40.28
+        "games": 218,
+        "winRate": 39.91
       },
       {
         "name": "japanese",
-        "games": 237,
-        "winRate": 40.51
+        "games": 235,
+        "winRate": 40.85
       },
       {
         "name": "tupi",

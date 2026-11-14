@@ -314,35 +314,35 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.51,
+    "winRate": 48.48,
     "playRate": 1.37,
-    "picks": 8128,
+    "picks": 8141,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-14T11:32:37.000Z",
+    "updated": "2026-11-14T20:45:05.000Z",
     "window": "2026-08-22 → 2026-11-14",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
+      "open": {
+        "winRate": 47.48,
+        "playRate": 1.42,
+        "picks": 2654
+      },
       "other": {
-        "winRate": 49.45,
+        "winRate": 49.43,
         "playRate": 1.36,
-        "picks": 4740
+        "picks": 4748
       },
       "nomad": {
-        "winRate": 42.5,
-        "playRate": 1.18,
-        "picks": 160
-      },
-      "open": {
-        "winRate": 47.45,
-        "playRate": 1.41,
-        "picks": 2643
+        "winRate": 40.91,
+        "playRate": 1.16,
+        "picks": 154
       },
       "closed": {
         "winRate": 47.35,
-        "playRate": 1.3,
+        "playRate": 1.29,
         "picks": 585
       }
     },
@@ -354,8 +354,8 @@
       },
       {
         "name": "mapuche",
-        "games": 90,
-        "winRate": 57.78
+        "games": 88,
+        "winRate": 57.95
       },
       {
         "name": "saxons",
@@ -363,21 +363,21 @@
         "winRate": 57.47
       },
       {
-        "name": "goths",
-        "games": 136,
-        "winRate": 56.62
+        "name": "byzantines",
+        "games": 164,
+        "winRate": 56.71
       },
       {
-        "name": "byzantines",
-        "games": 165,
-        "winRate": 56.36
+        "name": "goths",
+        "games": 135,
+        "winRate": 56.3
       }
     ],
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 80,
-        "winRate": 33.75
+        "games": 83,
+        "winRate": 33.73
       },
       {
         "name": "wu",
@@ -386,18 +386,18 @@
       },
       {
         "name": "romans",
-        "games": 117,
-        "winRate": 37.61
+        "games": 116,
+        "winRate": 37.07
       },
       {
         "name": "vikings",
         "games": 165,
-        "winRate": 38.18
+        "winRate": 37.58
       },
       {
         "name": "huns",
         "games": 151,
-        "winRate": 39.74
+        "winRate": 40.4
       }
     ]
   },
