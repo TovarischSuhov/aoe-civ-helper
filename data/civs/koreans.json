@@ -354,53 +354,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.57,
+    "winRate": 50.61,
     "playRate": 1.63,
-    "picks": 9723,
+    "picks": 9729,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-15T11:58:55.000Z",
+    "updated": "2026-11-15T21:03:35.000Z",
     "window": "2026-08-23 → 2026-11-15",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/koreans",
     "byMapType": {
-      "open": {
-        "winRate": 52.13,
-        "playRate": 1.59,
-        "picks": 2977
-      },
-      "nomad": {
-        "winRate": 51.22,
-        "playRate": 3.15,
-        "picks": 410
-      },
       "other": {
         "winRate": 49.9,
         "playRate": 1.64,
-        "picks": 5722
+        "picks": 5727
+      },
+      "nomad": {
+        "winRate": 51.88,
+        "playRate": 3.13,
+        "picks": 399
+      },
+      "open": {
+        "winRate": 52.1,
+        "playRate": 1.59,
+        "picks": 2983
       },
       "closed": {
-        "winRate": 48.86,
-        "playRate": 1.35,
-        "picks": 614
+        "winRate": 49.19,
+        "playRate": 1.36,
+        "picks": 620
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 136,
-        "winRate": 63.24
+        "games": 133,
+        "winRate": 63.16
       },
       {
         "name": "shu",
-        "games": 88,
-        "winRate": 62.5
+        "games": 89,
+        "winRate": 61.8
       },
       {
         "name": "lithuanians",
-        "games": 178,
-        "winRate": 58.99
+        "games": 176,
+        "winRate": 59.66
       },
       {
         "name": "saracens",
@@ -409,25 +409,20 @@
       },
       {
         "name": "ethiopians",
-        "games": 184,
-        "winRate": 58.7
+        "games": 186,
+        "winRate": 58.6
       }
     ],
     "weakAgainst": [
       {
         "name": "mapuche",
-        "games": 96,
-        "winRate": 41.67
+        "games": 97,
+        "winRate": 42.27
       },
       {
         "name": "aztecs",
-        "games": 163,
-        "winRate": 42.33
-      },
-      {
-        "name": "vietnamese",
-        "games": 209,
-        "winRate": 42.58
+        "games": 162,
+        "winRate": 42.59
       },
       {
         "name": "romans",
@@ -435,9 +430,14 @@
         "winRate": 42.75
       },
       {
+        "name": "vietnamese",
+        "games": 211,
+        "winRate": 43.13
+      },
+      {
         "name": "byzantines",
-        "games": 176,
-        "winRate": 44.32
+        "games": 178,
+        "winRate": 44.38
       }
     ]
   },
