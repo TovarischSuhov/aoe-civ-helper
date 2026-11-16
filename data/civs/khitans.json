@@ -359,48 +359,48 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 49.53,
+    "winRate": 49.54,
     "playRate": 1.21,
-    "picks": 7226,
+    "picks": 7227,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-15T21:03:35.000Z",
-    "window": "2026-08-23 → 2026-11-15",
+    "updated": "2026-11-16T12:49:23.000Z",
+    "window": "2026-08-24 → 2026-11-16",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
       "other": {
-        "winRate": 49.4,
+        "winRate": 49.44,
         "playRate": 1.21,
-        "picks": 4231
+        "picks": 4233
       },
       "open": {
-        "winRate": 49.49,
+        "winRate": 49.55,
         "playRate": 1.29,
-        "picks": 2431
+        "picks": 2432
       },
       "nomad": {
-        "winRate": 54.01,
+        "winRate": 52.63,
         "playRate": 1.07,
-        "picks": 137
+        "picks": 133
       },
       "closed": {
-        "winRate": 49.65,
+        "winRate": 49.42,
         "playRate": 0.94,
-        "picks": 427
+        "picks": 429
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 148,
-        "winRate": 62.16
+        "games": 147,
+        "winRate": 61.9
       },
       {
         "name": "poles",
-        "games": 99,
-        "winRate": 61.62
+        "games": 100,
+        "winRate": 61
       },
       {
         "name": "varangians",
@@ -409,8 +409,8 @@
       },
       {
         "name": "portuguese",
-        "games": 130,
-        "winRate": 58.46
+        "games": 131,
+        "winRate": 58.78
       },
       {
         "name": "sicilians",
@@ -420,29 +420,29 @@
     ],
     "weakAgainst": [
       {
+        "name": "malay",
+        "games": 114,
+        "winRate": 38.6
+      },
+      {
         "name": "ethiopians",
-        "games": 152,
-        "winRate": 38.82
+        "games": 151,
+        "winRate": 39.07
       },
       {
         "name": "celts",
-        "games": 109,
-        "winRate": 39.45
+        "games": 110,
+        "winRate": 39.09
       },
       {
         "name": "gurjaras",
-        "games": 109,
-        "winRate": 39.45
-      },
-      {
-        "name": "malay",
-        "games": 116,
-        "winRate": 39.66
+        "games": 108,
+        "winRate": 39.81
       },
       {
         "name": "britons",
-        "games": 131,
-        "winRate": 40.46
+        "games": 130,
+        "winRate": 40
       }
     ]
   },
