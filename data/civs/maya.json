@@ -333,36 +333,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 54.14,
+    "winRate": 54.11,
     "playRate": 2.11,
-    "picks": 12542,
+    "picks": 12581,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-16T12:49:23.000Z",
-    "window": "2026-08-24 → 2026-11-16",
+    "updated": "2026-11-17T00:16:35.000Z",
+    "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
-      "open": {
-        "winRate": 55.82,
-        "playRate": 2.49,
-        "picks": 4692
-      },
       "other": {
-        "winRate": 53.51,
-        "playRate": 1.98,
-        "picks": 6902
+        "winRate": 53.39,
+        "playRate": 1.99,
+        "picks": 6915
       },
       "nomad": {
-        "winRate": 52.34,
-        "playRate": 1.9,
-        "picks": 235
+        "winRate": 51.95,
+        "playRate": 1.92,
+        "picks": 231
+      },
+      "open": {
+        "winRate": 55.89,
+        "playRate": 2.5,
+        "picks": 4718
       },
       "closed": {
-        "winRate": 49.79,
+        "winRate": 49.93,
         "playRate": 1.56,
-        "picks": 713
+        "picks": 717
       }
     },
     "strongAgainst": [
@@ -373,50 +373,50 @@
       },
       {
         "name": "tatars",
-        "games": 202,
-        "winRate": 63.37
+        "games": 200,
+        "winRate": 64
       },
       {
         "name": "cumans",
-        "games": 202,
-        "winRate": 62.38
-      },
-      {
-        "name": "georgians",
-        "games": 140,
-        "winRate": 61.43
+        "games": 204,
+        "winRate": 61.27
       },
       {
         "name": "portuguese",
         "games": 209,
         "winRate": 61.24
+      },
+      {
+        "name": "georgians",
+        "games": 141,
+        "winRate": 60.99
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 188,
-        "winRate": 42.55
+        "games": 189,
+        "winRate": 42.86
       },
       {
         "name": "dravidians",
-        "games": 175,
-        "winRate": 44.57
+        "games": 176,
+        "winRate": 45.45
       },
       {
         "name": "wu",
-        "games": 131,
-        "winRate": 46.56
+        "games": 133,
+        "winRate": 45.86
+      },
+      {
+        "name": "chinese",
+        "games": 355,
+        "winRate": 46.76
       },
       {
         "name": "slavs",
         "games": 175,
         "winRate": 46.86
-      },
-      {
-        "name": "vikings",
-        "games": 216,
-        "winRate": 47.69
       }
     ]
   },

@@ -318,75 +318,70 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 51.77,
+    "winRate": 51.81,
     "playRate": 1.81,
-    "picks": 10762,
+    "picks": 10758,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-16T12:49:23.000Z",
-    "window": "2026-08-24 → 2026-11-16",
+    "updated": "2026-11-17T00:16:35.000Z",
+    "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
       "other": {
-        "winRate": 51.21,
+        "winRate": 51.35,
         "playRate": 1.85,
-        "picks": 6460
-      },
-      "nomad": {
-        "winRate": 53.51,
-        "playRate": 3.33,
-        "picks": 413
+        "picks": 6450
       },
       "open": {
-        "winRate": 52.31,
+        "winRate": 52.27,
         "playRate": 1.55,
-        "picks": 2919
+        "picks": 2931
+      },
+      "nomad": {
+        "winRate": 52.75,
+        "playRate": 3.33,
+        "picks": 400
       },
       "closed": {
-        "winRate": 53.2,
+        "winRate": 53.12,
         "playRate": 2.12,
-        "picks": 970
+        "picks": 977
       }
     },
     "strongAgainst": [
       {
         "name": "spanish",
-        "games": 285,
-        "winRate": 62.11
+        "games": 283,
+        "winRate": 62.54
       },
       {
         "name": "gurjaras",
-        "games": 125,
-        "winRate": 61.6
+        "games": 127,
+        "winRate": 62.2
+      },
+      {
+        "name": "varangians",
+        "games": 194,
+        "winRate": 60.31
       },
       {
         "name": "cumans",
         "games": 204,
-        "winRate": 60.78
+        "winRate": 60.29
       },
       {
-        "name": "varangians",
-        "games": 193,
-        "winRate": 60.1
-      },
-      {
-        "name": "hindustanis",
-        "games": 180,
-        "winRate": 57.22
+        "name": "danes",
+        "games": 123,
+        "winRate": 57.72
       }
     ],
     "weakAgainst": [
       {
         "name": "vietnamese",
-        "games": 250,
-        "winRate": 43.6
-      },
-      {
-        "name": "wu",
-        "games": 123,
-        "winRate": 44.72
+        "games": 248,
+        "winRate": 43.55
       },
       {
         "name": "ethiopians",
@@ -394,14 +389,19 @@
         "winRate": 44.79
       },
       {
-        "name": "romans",
-        "games": 144,
-        "winRate": 45.14
+        "name": "georgians",
+        "games": 125,
+        "winRate": 44.8
       },
       {
-        "name": "georgians",
-        "games": 124,
-        "winRate": 45.16
+        "name": "romans",
+        "games": 145,
+        "winRate": 45.52
+      },
+      {
+        "name": "vikings",
+        "games": 246,
+        "winRate": 45.53
       }
     ]
   },
