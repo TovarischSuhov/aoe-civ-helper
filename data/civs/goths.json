@@ -336,12 +336,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.08,
+    "winRate": 48.03,
     "playRate": 1.48,
-    "picks": 8806,
+    "picks": 8800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T00:16:35.000Z",
+    "updated": "2026-11-17T13:31:05.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -350,17 +350,17 @@
       "other": {
         "winRate": 47.87,
         "playRate": 1.43,
-        "picks": 4982
+        "picks": 4978
       },
       "open": {
-        "winRate": 49.72,
+        "winRate": 49.61,
         "playRate": 1.62,
-        "picks": 3047
+        "picks": 3048
       },
       "nomad": {
-        "winRate": 43.2,
+        "winRate": 42.77,
         "playRate": 1.41,
-        "picks": 169
+        "picks": 166
       },
       "closed": {
         "winRate": 42.93,
@@ -377,7 +377,7 @@
       {
         "name": "magyars",
         "games": 218,
-        "winRate": 55.96
+        "winRate": 55.5
       },
       {
         "name": "britons",
@@ -386,20 +386,25 @@
       },
       {
         "name": "saracens",
-        "games": 180,
-        "winRate": 55
+        "games": 182,
+        "winRate": 54.4
       },
       {
         "name": "turks",
-        "games": 160,
-        "winRate": 54.38
+        "games": 159,
+        "winRate": 54.09
       }
     ],
     "weakAgainst": [
       {
         "name": "bohemians",
-        "games": 160,
-        "winRate": 38.75
+        "games": 158,
+        "winRate": 39.24
+      },
+      {
+        "name": "chinese",
+        "games": 220,
+        "winRate": 39.55
       },
       {
         "name": "japanese",
@@ -407,19 +412,14 @@
         "winRate": 39.83
       },
       {
-        "name": "chinese",
-        "games": 218,
-        "winRate": 39.91
-      },
-      {
         "name": "malians",
-        "games": 141,
-        "winRate": 42.55
+        "games": 143,
+        "winRate": 41.96
       },
       {
-        "name": "sicilians",
-        "games": 169,
-        "winRate": 42.6
+        "name": "tupi",
+        "games": 85,
+        "winRate": 42.35
       }
     ]
   },

@@ -371,31 +371,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.57,
+    "winRate": 48.72,
     "playRate": 1.26,
-    "picks": 7513,
+    "picks": 7511,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T00:16:35.000Z",
+    "updated": "2026-11-17T13:31:05.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
+      "other": {
+        "winRate": 48.69,
+        "playRate": 1.28,
+        "picks": 4453
+      },
       "open": {
-        "winRate": 48.73,
+        "winRate": 48.95,
         "playRate": 1.23,
         "picks": 2329
       },
-      "other": {
-        "winRate": 48.56,
-        "playRate": 1.28,
-        "picks": 4454
-      },
       "nomad": {
-        "winRate": 48.81,
-        "playRate": 1.4,
-        "picks": 168
+        "winRate": 49.1,
+        "playRate": 1.42,
+        "picks": 167
       },
       "closed": {
         "winRate": 47.86,
@@ -406,23 +406,23 @@
     "strongAgainst": [
       {
         "name": "jurchens",
-        "games": 108,
-        "winRate": 62.96
+        "games": 109,
+        "winRate": 62.39
+      },
+      {
+        "name": "danes",
+        "games": 59,
+        "winRate": 61.02
       },
       {
         "name": "turks",
-        "games": 144,
-        "winRate": 61.11
+        "games": 146,
+        "winRate": 60.96
       },
       {
         "name": "khitans",
         "games": 110,
         "winRate": 60.91
-      },
-      {
-        "name": "danes",
-        "games": 58,
-        "winRate": 60.34
       },
       {
         "name": "tatars",
@@ -433,28 +433,28 @@
     "weakAgainst": [
       {
         "name": "koreans",
-        "games": 133,
-        "winRate": 36.09
+        "games": 132,
+        "winRate": 35.61
       },
       {
         "name": "wu",
-        "games": 103,
-        "winRate": 36.89
+        "games": 102,
+        "winRate": 36.27
+      },
+      {
+        "name": "muisca",
+        "games": 67,
+        "winRate": 37.31
       },
       {
         "name": "italians",
         "games": 127,
-        "winRate": 37.8
-      },
-      {
-        "name": "muisca",
-        "games": 66,
-        "winRate": 37.88
+        "winRate": 38.58
       },
       {
         "name": "celts",
-        "games": 130,
-        "winRate": 39.23
+        "games": 129,
+        "winRate": 38.76
       }
     ]
   },

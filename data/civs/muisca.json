@@ -378,48 +378,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.85,
+    "winRate": 47.93,
     "playRate": 0.96,
-    "picks": 5705,
+    "picks": 5685,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T00:16:35.000Z",
+    "updated": "2026-11-17T13:31:05.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
+      "nomad": {
+        "winRate": 45.3,
+        "playRate": 0.99,
+        "picks": 117
+      },
       "open": {
-        "winRate": 48.17,
+        "winRate": 48.3,
         "playRate": 1,
-        "picks": 1881
+        "picks": 1878
       },
       "other": {
-        "winRate": 47.56,
+        "winRate": 47.62,
         "playRate": 0.93,
-        "picks": 3255
-      },
-      "nomad": {
-        "winRate": 45.38,
-        "playRate": 0.99,
-        "picks": 119
+        "picks": 3240
       },
       "closed": {
         "winRate": 49.33,
-        "playRate": 0.98,
+        "playRate": 0.97,
         "picks": 450
       }
     },
     "strongAgainst": [
       {
-        "name": "mapuche",
-        "games": 60,
-        "winRate": 63.33
+        "name": "gurjaras",
+        "games": 67,
+        "winRate": 62.69
       },
       {
-        "name": "gurjaras",
-        "games": 66,
-        "winRate": 62.12
+        "name": "mapuche",
+        "games": 63,
+        "winRate": 61.9
       },
       {
         "name": "vikings",
@@ -428,13 +428,13 @@
       },
       {
         "name": "cumans",
-        "games": 93,
-        "winRate": 58.06
+        "games": 92,
+        "winRate": 57.61
       },
       {
-        "name": "saxons",
-        "games": 73,
-        "winRate": 56.16
+        "name": "wu",
+        "games": 53,
+        "winRate": 56.6
       }
     ],
     "weakAgainst": [
@@ -446,7 +446,7 @@
       {
         "name": "bohemians",
         "games": 120,
-        "winRate": 36.67
+        "winRate": 37.5
       },
       {
         "name": "magyars",
@@ -455,8 +455,8 @@
       },
       {
         "name": "jurchens",
-        "games": 82,
-        "winRate": 39.02
+        "games": 83,
+        "winRate": 38.55
       },
       {
         "name": "armenians",

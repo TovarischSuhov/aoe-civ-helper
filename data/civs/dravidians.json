@@ -315,36 +315,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.19,
+    "winRate": 51.11,
     "playRate": 1.53,
-    "picks": 9090,
+    "picks": 9080,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T00:16:35.000Z",
+    "updated": "2026-11-17T13:31:05.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
     "byMapType": {
-      "other": {
-        "winRate": 50.98,
-        "playRate": 1.52,
-        "picks": 5294
-      },
       "open": {
-        "winRate": 50.76,
+        "winRate": 50.64,
         "playRate": 1.5,
-        "picks": 2823
+        "picks": 2822
+      },
+      "other": {
+        "winRate": 50.96,
+        "playRate": 1.52,
+        "picks": 5296
       },
       "nomad": {
-        "winRate": 55.81,
-        "playRate": 2.5,
-        "picks": 301
+        "winRate": 55.36,
+        "playRate": 2.46,
+        "picks": 289
       },
       "closed": {
-        "winRate": 52.53,
+        "winRate": 52.45,
         "playRate": 1.46,
-        "picks": 672
+        "picks": 673
       }
     },
     "strongAgainst": [
@@ -360,25 +360,25 @@
       },
       {
         "name": "saracens",
-        "games": 159,
-        "winRate": 60.38
+        "games": 158,
+        "winRate": 60.13
+      },
+      {
+        "name": "burgundians",
+        "games": 169,
+        "winRate": 59.17
       },
       {
         "name": "danes",
         "games": 78,
         "winRate": 58.97
-      },
-      {
-        "name": "burgundians",
-        "games": 170,
-        "winRate": 58.82
       }
     ],
     "weakAgainst": [
       {
         "name": "bulgarians",
-        "games": 149,
-        "winRate": 40.94
+        "games": 148,
+        "winRate": 39.86
       },
       {
         "name": "franks",
@@ -387,8 +387,8 @@
       },
       {
         "name": "berbers",
-        "games": 147,
-        "winRate": 43.54
+        "games": 148,
+        "winRate": 42.57
       },
       {
         "name": "georgians",
