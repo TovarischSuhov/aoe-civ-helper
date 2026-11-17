@@ -328,70 +328,70 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.3,
+    "winRate": 51.35,
     "playRate": 2.69,
-    "picks": 15983,
+    "picks": 15994,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T13:31:05.000Z",
+    "updated": "2026-11-17T23:31:25.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
       "other": {
-        "winRate": 51.41,
+        "winRate": 51.45,
         "playRate": 2.66,
-        "picks": 9267
-      },
-      "nomad": {
-        "winRate": 51.99,
-        "playRate": 3.84,
-        "picks": 452
+        "picks": 9258
       },
       "open": {
-        "winRate": 51.68,
-        "playRate": 2.82,
-        "picks": 5321
+        "winRate": 51.79,
+        "playRate": 2.83,
+        "picks": 5347
+      },
+      "nomad": {
+        "winRate": 52.03,
+        "playRate": 3.86,
+        "picks": 444
       },
       "closed": {
-        "winRate": 47.72,
+        "winRate": 47.62,
         "playRate": 2.04,
-        "picks": 943
+        "picks": 945
       }
     },
     "strongAgainst": [
       {
         "name": "poles",
-        "games": 254,
-        "winRate": 59.06
+        "games": 253,
+        "winRate": 59.29
       },
       {
         "name": "portuguese",
-        "games": 222,
+        "games": 224,
+        "winRate": 58.93
+      },
+      {
+        "name": "jurchens",
+        "games": 203,
+        "winRate": 58.62
+      },
+      {
+        "name": "varangians",
+        "games": 362,
         "winRate": 58.56
       },
       {
         "name": "teutons",
         "games": 224,
         "winRate": 58.48
-      },
-      {
-        "name": "varangians",
-        "games": 361,
-        "winRate": 58.45
-      },
-      {
-        "name": "jurchens",
-        "games": 202,
-        "winRate": 57.92
       }
     ],
     "weakAgainst": [
       {
         "name": "koreans",
         "games": 254,
-        "winRate": 42.52
+        "winRate": 42.91
       },
       {
         "name": "khitans",
@@ -399,19 +399,19 @@
         "winRate": 44
       },
       {
-        "name": "byzantines",
-        "games": 242,
-        "winRate": 44.21
+        "name": "huns",
+        "games": 348,
+        "winRate": 44.54
       },
       {
-        "name": "huns",
-        "games": 347,
-        "winRate": 44.67
+        "name": "byzantines",
+        "games": 244,
+        "winRate": 45.08
       },
       {
         "name": "vikings",
-        "games": 301,
-        "winRate": 45.51
+        "games": 300,
+        "winRate": 46
       }
     ]
   },

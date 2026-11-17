@@ -374,56 +374,56 @@
   "stats": {
     "winRate": 48.73,
     "playRate": 1.96,
-    "picks": 11668,
+    "picks": 11673,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T13:31:05.000Z",
+    "updated": "2026-11-17T23:31:25.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burgundians",
     "byMapType": {
       "other": {
-        "winRate": 49.84,
+        "winRate": 49.77,
         "playRate": 1.88,
-        "picks": 6555
+        "picks": 6552
       },
       "open": {
-        "winRate": 46,
+        "winRate": 46.13,
         "playRate": 1.7,
-        "picks": 3202
+        "picks": 3206
       },
       "nomad": {
-        "winRate": 51.18,
-        "playRate": 1.79,
-        "picks": 211
+        "winRate": 51.22,
+        "playRate": 1.78,
+        "picks": 205
       },
       "closed": {
-        "winRate": 49.29,
-        "playRate": 3.68,
-        "picks": 1700
+        "winRate": 49.3,
+        "playRate": 3.69,
+        "picks": 1710
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 178,
-        "winRate": 55.62
+        "games": 179,
+        "winRate": 55.31
+      },
+      {
+        "name": "goths",
+        "games": 163,
+        "winRate": 55.21
       },
       {
         "name": "franks",
-        "games": 180,
-        "winRate": 55.56
-      },
-      {
-        "name": "shu",
-        "games": 91,
-        "winRate": 54.95
+        "games": 181,
+        "winRate": 54.7
       },
       {
         "name": "sicilians",
-        "games": 198,
-        "winRate": 54.55
+        "games": 200,
+        "winRate": 54.5
       },
       {
         "name": "gurjaras",
@@ -434,28 +434,28 @@
     "weakAgainst": [
       {
         "name": "dravidians",
-        "games": 169,
-        "winRate": 40.83
+        "games": 168,
+        "winRate": 40.48
       },
       {
         "name": "vikings",
         "games": 199,
-        "winRate": 41.21
+        "winRate": 40.7
       },
       {
         "name": "mapuche",
-        "games": 111,
-        "winRate": 41.44
+        "games": 112,
+        "winRate": 41.96
       },
       {
         "name": "mongols",
-        "games": 581,
-        "winRate": 42
+        "games": 585,
+        "winRate": 42.05
       },
       {
         "name": "wei",
-        "games": 190,
-        "winRate": 42.63
+        "games": 189,
+        "winRate": 42.86
       }
     ]
   },

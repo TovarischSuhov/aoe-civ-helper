@@ -366,36 +366,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.15,
+    "winRate": 48.06,
     "playRate": 1.61,
-    "picks": 9596,
+    "picks": 9584,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T13:31:05.000Z",
+    "updated": "2026-11-17T23:31:25.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
+      "nomad": {
+        "winRate": 54.05,
+        "playRate": 1.61,
+        "picks": 185
+      },
       "other": {
-        "winRate": 48.19,
+        "winRate": 48.08,
         "playRate": 1.59,
-        "picks": 5543
+        "picks": 5526
       },
       "open": {
-        "winRate": 48.09,
+        "winRate": 48.01,
         "playRate": 1.72,
-        "picks": 3246
-      },
-      "nomad": {
-        "winRate": 54.5,
-        "playRate": 1.61,
-        "picks": 189
+        "picks": 3249
       },
       "closed": {
-        "winRate": 46.12,
-        "playRate": 1.34,
-        "picks": 618
+        "winRate": 46.31,
+        "playRate": 1.35,
+        "picks": 624
       }
     },
     "strongAgainst": [
@@ -405,14 +405,14 @@
         "winRate": 60
       },
       {
-        "name": "dravidians",
-        "games": 148,
-        "winRate": 57.43
-      },
-      {
         "name": "wei",
         "games": 129,
-        "winRate": 57.36
+        "winRate": 58.14
+      },
+      {
+        "name": "dravidians",
+        "games": 148,
+        "winRate": 58.11
       },
       {
         "name": "magyars",
@@ -421,15 +421,15 @@
       },
       {
         "name": "poles",
-        "games": 191,
-        "winRate": 56.02
+        "games": 192,
+        "winRate": 56.77
       }
     ],
     "weakAgainst": [
       {
         "name": "hindustanis",
-        "games": 188,
-        "winRate": 39.89
+        "games": 185,
+        "winRate": 39.46
       },
       {
         "name": "celts",
@@ -437,9 +437,9 @@
         "winRate": 40.11
       },
       {
-        "name": "danes",
-        "games": 97,
-        "winRate": 40.21
+        "name": "saxons",
+        "games": 126,
+        "winRate": 40.48
       },
       {
         "name": "mapuche",
@@ -447,9 +447,9 @@
         "winRate": 40.78
       },
       {
-        "name": "saxons",
-        "games": 125,
-        "winRate": 40.8
+        "name": "danes",
+        "games": 99,
+        "winRate": 41.41
       }
     ]
   },

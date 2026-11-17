@@ -280,63 +280,63 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.76,
+    "winRate": 47.75,
     "playRate": 1.6,
-    "picks": 9530,
+    "picks": 9524,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T13:31:05.000Z",
+    "updated": "2026-11-17T23:31:25.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/byzantines",
     "byMapType": {
-      "other": {
-        "winRate": 47.56,
-        "playRate": 1.61,
-        "picks": 5589
-      },
       "open": {
-        "winRate": 47.71,
+        "winRate": 47.7,
         "playRate": 1.61,
-        "picks": 3031
+        "picks": 3040
+      },
+      "other": {
+        "winRate": 47.51,
+        "playRate": 1.6,
+        "picks": 5573
       },
       "nomad": {
-        "winRate": 54.67,
-        "playRate": 1.82,
-        "picks": 214
+        "winRate": 54.93,
+        "playRate": 1.85,
+        "picks": 213
       },
       "closed": {
-        "winRate": 47.56,
+        "winRate": 47.71,
         "playRate": 1.51,
-        "picks": 696
+        "picks": 698
       }
     },
     "strongAgainst": [
       {
         "name": "tatars",
-        "games": 173,
-        "winRate": 57.8
-      },
-      {
-        "name": "britons",
-        "games": 201,
-        "winRate": 56.22
+        "games": 174,
+        "winRate": 58.05
       },
       {
         "name": "koreans",
-        "games": 179,
-        "winRate": 55.87
+        "games": 177,
+        "winRate": 55.93
+      },
+      {
+        "name": "britons",
+        "games": 199,
+        "winRate": 55.28
       },
       {
         "name": "persians",
-        "games": 242,
-        "winRate": 55.79
+        "games": 244,
+        "winRate": 54.92
       },
       {
         "name": "saracens",
-        "games": 145,
-        "winRate": 55.17
+        "games": 144,
+        "winRate": 54.86
       }
     ],
     "weakAgainst": [
@@ -346,24 +346,24 @@
         "winRate": 35.16
       },
       {
-        "name": "chinese",
-        "games": 237,
-        "winRate": 36.29
+        "name": "sicilians",
+        "games": 170,
+        "winRate": 36.47
       },
       {
-        "name": "sicilians",
-        "games": 169,
-        "winRate": 36.69
+        "name": "chinese",
+        "games": 238,
+        "winRate": 36.97
       },
       {
         "name": "portuguese",
-        "games": 156,
-        "winRate": 40.38
+        "games": 154,
+        "winRate": 40.26
       },
       {
         "name": "celts",
-        "games": 181,
-        "winRate": 41.44
+        "games": 182,
+        "winRate": 41.76
       }
     ]
   },

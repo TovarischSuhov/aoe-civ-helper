@@ -352,80 +352,80 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 51.26,
+    "winRate": 51.17,
     "playRate": 0.93,
-    "picks": 5525,
+    "picks": 5527,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T13:31:05.000Z",
+    "updated": "2026-11-17T23:31:25.000Z",
     "window": "2026-08-25 → 2026-11-17",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
+      "open": {
+        "winRate": 51.8,
+        "playRate": 0.95,
+        "picks": 1801
+      },
       "other": {
         "winRate": 51.5,
         "playRate": 0.93,
-        "picks": 3229
-      },
-      "open": {
-        "winRate": 52.09,
-        "playRate": 0.95,
-        "picks": 1795
+        "picks": 3225
       },
       "nomad": {
-        "winRate": 45.13,
-        "playRate": 0.96,
-        "picks": 113
+        "winRate": 44.64,
+        "playRate": 0.97,
+        "picks": 112
       },
       "closed": {
-        "winRate": 47.16,
+        "winRate": 47.3,
         "playRate": 0.84,
-        "picks": 388
+        "picks": 389
       }
     },
     "strongAgainst": [
+      {
+        "name": "spanish",
+        "games": 131,
+        "winRate": 63.36
+      },
+      {
+        "name": "varangians",
+        "games": 68,
+        "winRate": 63.24
+      },
       {
         "name": "britons",
         "games": 87,
         "winRate": 63.22
       },
       {
-        "name": "spanish",
-        "games": 130,
-        "winRate": 63.08
-      },
-      {
-        "name": "varangians",
-        "games": 67,
-        "winRate": 62.69
-      },
-      {
         "name": "burmese",
-        "games": 102,
-        "winRate": 61.76
+        "games": 101,
+        "winRate": 61.39
       },
       {
         "name": "portuguese",
-        "games": 103,
-        "winRate": 60.19
+        "games": 104,
+        "winRate": 60.58
       }
     ],
     "weakAgainst": [
       {
-        "name": "koreans",
-        "games": 88,
-        "winRate": 36.36
+        "name": "hindustanis",
+        "games": 108,
+        "winRate": 36.11
       },
       {
-        "name": "hindustanis",
-        "games": 106,
-        "winRate": 36.79
+        "name": "koreans",
+        "games": 88,
+        "winRate": 37.5
       },
       {
         "name": "aztecs",
-        "games": 95,
-        "winRate": 41.05
+        "games": 92,
+        "winRate": 40.22
       },
       {
         "name": "chinese",
@@ -433,9 +433,9 @@
         "winRate": 41.38
       },
       {
-        "name": "wu",
-        "games": 62,
-        "winRate": 43.55
+        "name": "georgians",
+        "games": 80,
+        "winRate": 42.5
       }
     ]
   },
