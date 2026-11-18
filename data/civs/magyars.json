@@ -273,36 +273,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.31,
+    "winRate": 49.35,
     "playRate": 2.91,
-    "picks": 17277,
+    "picks": 17275,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-18T13:07:46.000Z",
+    "updated": "2026-11-18T22:57:41.000Z",
     "window": "2026-08-26 → 2026-11-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
-      "other": {
-        "winRate": 49.47,
-        "playRate": 2.84,
-        "picks": 9855
-      },
       "open": {
-        "winRate": 48.82,
-        "playRate": 3.19,
-        "picks": 6032
+        "winRate": 48.9,
+        "playRate": 3.18,
+        "picks": 6029
+      },
+      "other": {
+        "winRate": 49.5,
+        "playRate": 2.84,
+        "picks": 9861
       },
       "nomad": {
-        "winRate": 52,
-        "playRate": 1.99,
-        "picks": 225
+        "winRate": 51.83,
+        "playRate": 1.97,
+        "picks": 218
       },
       "closed": {
         "winRate": 49.96,
-        "playRate": 2.51,
-        "picks": 1165
+        "playRate": 2.5,
+        "picks": 1167
       }
     },
     "strongAgainst": [
@@ -312,46 +312,46 @@
         "winRate": 62.73
       },
       {
-        "name": "varangians",
-        "games": 379,
-        "winRate": 61.48
-      },
-      {
         "name": "teutons",
-        "games": 266,
-        "winRate": 61.28
+        "games": 267,
+        "winRate": 61.42
       },
       {
-        "name": "lithuanians",
-        "games": 297,
-        "winRate": 57.24
+        "name": "varangians",
+        "games": 381,
+        "winRate": 61.42
       },
       {
         "name": "khmer",
-        "games": 454,
-        "winRate": 56.83
+        "games": 455,
+        "winRate": 57.14
+      },
+      {
+        "name": "cumans",
+        "games": 268,
+        "winRate": 57.09
       }
     ],
     "weakAgainst": [
       {
-        "name": "mayans",
-        "games": 338,
-        "winRate": 39.64
-      },
-      {
         "name": "vikings",
-        "games": 291,
-        "winRate": 39.86
+        "games": 292,
+        "winRate": 39.73
       },
       {
-        "name": "mapuche",
-        "games": 165,
-        "winRate": 40.61
+        "name": "mayans",
+        "games": 336,
+        "winRate": 39.88
       },
       {
         "name": "huns",
-        "games": 365,
-        "winRate": 41.1
+        "games": 364,
+        "winRate": 41.48
+      },
+      {
+        "name": "mapuche",
+        "games": 166,
+        "winRate": 41.57
       },
       {
         "name": "japanese",

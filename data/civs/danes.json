@@ -286,48 +286,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 45.14,
+    "winRate": 45.21,
     "playRate": 1.22,
-    "picks": 7222,
+    "picks": 7261,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-18T13:07:46.000Z",
+    "updated": "2026-11-18T22:57:41.000Z",
     "window": "2026-08-26 → 2026-11-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/danes",
     "byMapType": {
       "open": {
-        "winRate": 43.28,
+        "winRate": 43.4,
         "playRate": 1.05,
-        "picks": 1987
+        "picks": 1993
       },
       "other": {
-        "winRate": 46.51,
-        "playRate": 1.29,
-        "picks": 4489
+        "winRate": 46.57,
+        "playRate": 1.3,
+        "picks": 4520
       },
       "closed": {
-        "winRate": 39.87,
+        "winRate": 39.91,
         "playRate": 1.36,
-        "picks": 632
+        "picks": 634
       },
       "nomad": {
         "winRate": 52.63,
-        "playRate": 1.01,
+        "playRate": 1.03,
         "picks": 114
       }
     },
     "strongAgainst": [
       {
         "name": "berbers",
-        "games": 100,
-        "winRate": 58
+        "games": 101,
+        "winRate": 58.42
       },
       {
         "name": "bengalis",
-        "games": 89,
-        "winRate": 57.3
+        "games": 90,
+        "winRate": 57.78
       },
       {
         "name": "lithuanians",
@@ -347,14 +347,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "romans",
-        "games": 88,
-        "winRate": 32.95
-      },
-      {
         "name": "chinese",
         "games": 182,
         "winRate": 33.52
+      },
+      {
+        "name": "romans",
+        "games": 89,
+        "winRate": 33.71
       },
       {
         "name": "bohemians",
