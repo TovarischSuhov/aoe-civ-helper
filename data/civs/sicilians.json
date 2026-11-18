@@ -289,31 +289,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.45,
+    "winRate": 48.47,
     "playRate": 1.76,
-    "picks": 10451,
+    "picks": 10446,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T23:31:25.000Z",
-    "window": "2026-08-25 → 2026-11-17",
+    "updated": "2026-11-18T13:07:46.000Z",
+    "window": "2026-08-26 → 2026-11-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
-      "other": {
-        "winRate": 49,
-        "playRate": 1.77,
-        "picks": 6159
-      },
       "open": {
-        "winRate": 48.03,
+        "winRate": 48.06,
         "playRate": 1.8,
-        "picks": 3400
+        "picks": 3402
+      },
+      "other": {
+        "winRate": 49.01,
+        "playRate": 1.77,
+        "picks": 6156
       },
       "nomad": {
-        "winRate": 47.19,
-        "playRate": 1.55,
-        "picks": 178
+        "winRate": 47.13,
+        "playRate": 1.54,
+        "picks": 174
       },
       "closed": {
         "winRate": 46.08,
@@ -324,8 +324,8 @@
     "strongAgainst": [
       {
         "name": "byzantines",
-        "games": 170,
-        "winRate": 63.53
+        "games": 169,
+        "winRate": 63.91
       },
       {
         "name": "danes",
@@ -344,30 +344,30 @@
       },
       {
         "name": "muisca",
-        "games": 101,
-        "winRate": 56.44
+        "games": 100,
+        "winRate": 56
       }
     ],
     "weakAgainst": [
       {
         "name": "bohemians",
-        "games": 173,
-        "winRate": 38.15
-      },
-      {
-        "name": "malay",
-        "games": 187,
-        "winRate": 39.04
+        "games": 174,
+        "winRate": 38.51
       },
       {
         "name": "romans",
-        "games": 161,
-        "winRate": 39.13
+        "games": 159,
+        "winRate": 38.99
+      },
+      {
+        "name": "malay",
+        "games": 186,
+        "winRate": 39.25
       },
       {
         "name": "chinese",
-        "games": 244,
-        "winRate": 40.98
+        "games": 242,
+        "winRate": 40.91
       },
       {
         "name": "khitans",

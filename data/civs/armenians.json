@@ -365,48 +365,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 50.84,
+    "winRate": 50.83,
     "playRate": 1.76,
-    "picks": 10491,
+    "picks": 10475,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T23:31:25.000Z",
-    "window": "2026-08-25 → 2026-11-17",
+    "updated": "2026-11-18T13:07:46.000Z",
+    "window": "2026-08-26 → 2026-11-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
+      "nomad": {
+        "winRate": 44.24,
+        "playRate": 1.46,
+        "picks": 165
+      },
       "other": {
-        "winRate": 50.52,
+        "winRate": 50.51,
         "playRate": 1.75,
-        "picks": 6098
+        "picks": 6090
       },
       "open": {
         "winRate": 51.6,
         "playRate": 1.77,
-        "picks": 3353
-      },
-      "nomad": {
-        "winRate": 44.97,
-        "playRate": 1.47,
-        "picks": 169
+        "picks": 3345
       },
       "closed": {
-        "winRate": 51.32,
+        "winRate": 51.31,
         "playRate": 1.88,
-        "picks": 871
+        "picks": 875
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 192,
-        "winRate": 67.19
+        "games": 193,
+        "winRate": 66.84
       },
       {
         "name": "muisca",
-        "games": 110,
-        "winRate": 60.91
+        "games": 108,
+        "winRate": 60.19
       },
       {
         "name": "danes",
@@ -419,9 +419,9 @@
         "winRate": 59.26
       },
       {
-        "name": "incas",
-        "games": 170,
-        "winRate": 57.06
+        "name": "tupi",
+        "games": 137,
+        "winRate": 56.93
       }
     ],
     "weakAgainst": [
@@ -437,18 +437,18 @@
       },
       {
         "name": "japanese",
-        "games": 245,
-        "winRate": 41.63
+        "games": 246,
+        "winRate": 41.46
       },
       {
         "name": "khmer",
-        "games": 226,
-        "winRate": 44.25
+        "games": 224,
+        "winRate": 44.64
       },
       {
         "name": "malay",
-        "games": 189,
-        "winRate": 44.97
+        "games": 190,
+        "winRate": 45.26
       }
     ]
   },

@@ -350,36 +350,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.17,
+    "winRate": 49.29,
     "playRate": 1.5,
-    "picks": 8907,
+    "picks": 8919,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T23:31:25.000Z",
-    "window": "2026-08-25 → 2026-11-17",
+    "updated": "2026-11-18T13:07:46.000Z",
+    "window": "2026-08-26 → 2026-11-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
-      "other": {
-        "winRate": 48.75,
-        "playRate": 1.46,
-        "picks": 5077
+      "nomad": {
+        "winRate": 47.77,
+        "playRate": 1.39,
+        "picks": 157
       },
       "open": {
-        "winRate": 50.59,
+        "winRate": 50.64,
         "playRate": 1.62,
-        "picks": 3060
+        "picks": 3065
       },
-      "nomad": {
-        "winRate": 46.88,
-        "playRate": 1.39,
-        "picks": 160
+      "other": {
+        "winRate": 48.89,
+        "playRate": 1.46,
+        "picks": 5085
       },
       "closed": {
-        "winRate": 46.23,
+        "winRate": 46.24,
         "playRate": 1.32,
-        "picks": 610
+        "picks": 612
       }
     },
     "strongAgainst": [
@@ -395,8 +395,8 @@
       },
       {
         "name": "incas",
-        "games": 155,
-        "winRate": 57.42
+        "games": 153,
+        "winRate": 57.52
       },
       {
         "name": "burgundians",
@@ -404,36 +404,36 @@
         "winRate": 57.14
       },
       {
-        "name": "vietnamese",
-        "games": 222,
-        "winRate": 55.41
+        "name": "goths",
+        "games": 107,
+        "winRate": 56.07
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 143,
-        "winRate": 36.36
+        "games": 142,
+        "winRate": 36.62
       },
       {
         "name": "hindustanis",
-        "games": 184,
-        "winRate": 40.22
+        "games": 187,
+        "winRate": 39.57
+      },
+      {
+        "name": "berbers",
+        "games": 130,
+        "winRate": 41.54
+      },
+      {
+        "name": "spanish",
+        "games": 208,
+        "winRate": 41.83
       },
       {
         "name": "wu",
         "games": 98,
-        "winRate": 40.82
-      },
-      {
-        "name": "bengalis",
-        "games": 138,
-        "winRate": 41.3
-      },
-      {
-        "name": "berbers",
-        "games": 129,
-        "winRate": 41.86
+        "winRate": 41.84
       }
     ]
   },

@@ -323,63 +323,63 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.92,
+    "winRate": 48.85,
     "playRate": 1.42,
-    "picks": 8462,
+    "picks": 8458,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-17T23:31:25.000Z",
-    "window": "2026-08-25 → 2026-11-17",
+    "updated": "2026-11-18T13:07:46.000Z",
+    "window": "2026-08-26 → 2026-11-18",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
-      "other": {
-        "winRate": 48.36,
-        "playRate": 1.39,
-        "picks": 4845
-      },
-      "nomad": {
-        "winRate": 49.2,
-        "playRate": 1.63,
-        "picks": 187
-      },
       "open": {
         "winRate": 48.75,
-        "playRate": 1.44,
+        "playRate": 1.43,
         "picks": 2714
       },
+      "nomad": {
+        "winRate": 48.35,
+        "playRate": 1.61,
+        "picks": 182
+      },
+      "other": {
+        "winRate": 48.28,
+        "playRate": 1.39,
+        "picks": 4843
+      },
       "closed": {
-        "winRate": 53.35,
+        "winRate": 53.27,
         "playRate": 1.55,
-        "picks": 716
+        "picks": 719
       }
     },
     "strongAgainst": [
       {
         "name": "teutons",
-        "games": 173,
-        "winRate": 58.38
+        "games": 172,
+        "winRate": 58.14
       },
       {
         "name": "berbers",
-        "games": 162,
-        "winRate": 56.17
+        "games": 163,
+        "winRate": 56.44
       },
       {
         "name": "hindustanis",
-        "games": 147,
-        "winRate": 55.78
+        "games": 148,
+        "winRate": 56.08
       },
       {
         "name": "wei",
-        "games": 113,
-        "winRate": 55.75
+        "games": 112,
+        "winRate": 55.36
       },
       {
-        "name": "bohemians",
-        "games": 183,
-        "winRate": 55.19
+        "name": "slavs",
+        "games": 124,
+        "winRate": 54.84
       }
     ],
     "weakAgainst": [
@@ -395,18 +395,18 @@
       },
       {
         "name": "shu",
-        "games": 101,
-        "winRate": 38.61
+        "games": 102,
+        "winRate": 39.22
       },
       {
         "name": "japanese",
-        "games": 187,
-        "winRate": 42.25
+        "games": 186,
+        "winRate": 42.47
       },
       {
         "name": "vikings",
-        "games": 162,
-        "winRate": 42.59
+        "games": 160,
+        "winRate": 42.5
       }
     ]
   },
