@@ -275,34 +275,34 @@
   "stats": {
     "winRate": 49.38,
     "playRate": 2.9,
-    "picks": 17225,
+    "picks": 17259,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T13:17:50.000Z",
+    "updated": "2026-11-19T23:04:20.000Z",
     "window": "2026-08-27 → 2026-11-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/magyars",
     "byMapType": {
       "other": {
-        "winRate": 49.45,
+        "winRate": 49.43,
         "playRate": 2.83,
-        "picks": 9831
-      },
-      "nomad": {
-        "winRate": 52.36,
-        "playRate": 1.96,
-        "picks": 212
+        "picks": 9834
       },
       "open": {
-        "winRate": 49.04,
-        "playRate": 3.17,
-        "picks": 6014
+        "winRate": 49.07,
+        "playRate": 3.18,
+        "picks": 6046
+      },
+      "nomad": {
+        "winRate": 52.88,
+        "playRate": 1.97,
+        "picks": 208
       },
       "closed": {
-        "winRate": 50,
-        "playRate": 2.5,
-        "picks": 1168
+        "winRate": 49.96,
+        "playRate": 2.49,
+        "picks": 1171
       }
     },
     "strongAgainst": [
@@ -312,19 +312,19 @@
         "winRate": 62.42
       },
       {
+        "name": "teutons",
+        "games": 268,
+        "winRate": 61.57
+      },
+      {
         "name": "varangians",
         "games": 382,
         "winRate": 61.26
       },
       {
-        "name": "teutons",
-        "games": 265,
-        "winRate": 61.13
-      },
-      {
         "name": "khmer",
-        "games": 449,
-        "winRate": 57.68
+        "games": 450,
+        "winRate": 58
       },
       {
         "name": "lithuanians",
@@ -334,14 +334,14 @@
     ],
     "weakAgainst": [
       {
-        "name": "mayans",
-        "games": 336,
-        "winRate": 39.88
+        "name": "vikings",
+        "games": 293,
+        "winRate": 40.27
       },
       {
-        "name": "vikings",
-        "games": 289,
-        "winRate": 40.14
+        "name": "mayans",
+        "games": 335,
+        "winRate": 40.3
       },
       {
         "name": "huns",
@@ -350,13 +350,13 @@
       },
       {
         "name": "mapuche",
-        "games": 163,
-        "winRate": 41.72
+        "games": 165,
+        "winRate": 41.82
       },
       {
         "name": "japanese",
-        "games": 477,
-        "winRate": 41.93
+        "games": 478,
+        "winRate": 42.26
       }
     ]
   },

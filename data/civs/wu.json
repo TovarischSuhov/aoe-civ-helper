@@ -351,31 +351,31 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.22,
+    "winRate": 51.14,
     "playRate": 1.06,
-    "picks": 6300,
+    "picks": 6302,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T13:17:50.000Z",
+    "updated": "2026-11-19T23:04:20.000Z",
     "window": "2026-08-27 → 2026-11-19",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
+      "other": {
+        "winRate": 52.36,
+        "playRate": 1.05,
+        "picks": 3659
+      },
       "open": {
-        "winRate": 50.47,
-        "playRate": 1.07,
-        "picks": 2025
+        "winRate": 50.37,
+        "playRate": 1.06,
+        "picks": 2023
       },
       "nomad": {
-        "winRate": 52.03,
-        "playRate": 1.37,
-        "picks": 148
-      },
-      "other": {
-        "winRate": 52.38,
-        "playRate": 1.05,
-        "picks": 3650
+        "winRate": 50.35,
+        "playRate": 1.35,
+        "picks": 143
       },
       "closed": {
         "winRate": 45.28,
@@ -395,14 +395,14 @@
         "winRate": 63.64
       },
       {
-        "name": "slavs",
-        "games": 85,
-        "winRate": 61.18
+        "name": "incas",
+        "games": 123,
+        "winRate": 60.98
       },
       {
-        "name": "incas",
-        "games": 121,
-        "winRate": 61.16
+        "name": "slavs",
+        "games": 84,
+        "winRate": 60.71
       },
       {
         "name": "malay",
@@ -413,13 +413,13 @@
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 132,
-        "winRate": 37.12
+        "games": 134,
+        "winRate": 38.06
       },
       {
         "name": "bohemians",
-        "games": 116,
-        "winRate": 39.66
+        "games": 115,
+        "winRate": 39.13
       },
       {
         "name": "malians",
@@ -427,14 +427,14 @@
         "winRate": 42.48
       },
       {
-        "name": "muisca",
-        "games": 52,
-        "winRate": 44.23
-      },
-      {
         "name": "celts",
         "games": 103,
         "winRate": 44.66
+      },
+      {
+        "name": "georgians",
+        "games": 69,
+        "winRate": 44.93
       }
     ]
   },
