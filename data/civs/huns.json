@@ -360,70 +360,70 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.35,
+    "winRate": 52.39,
     "playRate": 2.04,
-    "picks": 12157,
+    "picks": 12136,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T23:04:20.000Z",
-    "window": "2026-08-27 → 2026-11-19",
+    "updated": "2026-11-20T12:59:09.000Z",
+    "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
-      "other": {
-        "winRate": 51.98,
-        "playRate": 2.09,
-        "picks": 7249
+      "nomad": {
+        "winRate": 51.45,
+        "playRate": 2.33,
+        "picks": 241
       },
       "open": {
-        "winRate": 52.97,
+        "winRate": 53.12,
         "playRate": 2.11,
         "picks": 4006
       },
-      "nomad": {
-        "winRate": 51.64,
-        "playRate": 2.31,
-        "picks": 244
+      "other": {
+        "winRate": 51.99,
+        "playRate": 2.08,
+        "picks": 7229
       },
       "closed": {
-        "winRate": 52.89,
+        "winRate": 52.73,
         "playRate": 1.4,
-        "picks": 658
+        "picks": 660
       }
     },
     "strongAgainst": [
       {
         "name": "burmese",
-        "games": 165,
-        "winRate": 62.42
+        "games": 166,
+        "winRate": 62.65
       },
       {
         "name": "varangians",
-        "games": 249,
-        "winRate": 61.85
-      },
-      {
-        "name": "tupi",
-        "games": 145,
-        "winRate": 60.69
+        "games": 250,
+        "winRate": 62
       },
       {
         "name": "slavs",
         "games": 145,
-        "winRate": 60.69
+        "winRate": 61.38
+      },
+      {
+        "name": "tupi",
+        "games": 144,
+        "winRate": 61.11
       },
       {
         "name": "saracens",
-        "games": 175,
-        "winRate": 60.57
+        "games": 176,
+        "winRate": 60.8
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 231,
-        "winRate": 41.13
+        "games": 232,
+        "winRate": 40.95
       },
       {
         "name": "chinese",
@@ -431,19 +431,19 @@
         "winRate": 42.04
       },
       {
-        "name": "wu",
-        "games": 134,
-        "winRate": 43.28
+        "name": "vikings",
+        "games": 237,
+        "winRate": 43.46
       },
       {
-        "name": "vikings",
-        "games": 240,
-        "winRate": 43.33
+        "name": "wu",
+        "games": 131,
+        "winRate": 44.27
       },
       {
         "name": "mongols",
-        "games": 746,
-        "winRate": 46.38
+        "games": 743,
+        "winRate": 46.16
       }
     ]
   },

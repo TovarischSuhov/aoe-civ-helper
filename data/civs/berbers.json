@@ -366,36 +366,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.11,
+    "winRate": 48.02,
     "playRate": 1.61,
-    "picks": 9587,
+    "picks": 9598,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T23:04:20.000Z",
-    "window": "2026-08-27 → 2026-11-19",
+    "updated": "2026-11-20T12:59:09.000Z",
+    "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
       "other": {
-        "winRate": 48.09,
-        "playRate": 1.59,
-        "picks": 5529
-      },
-      "nomad": {
-        "winRate": 55.23,
-        "playRate": 1.63,
-        "picks": 172
+        "winRate": 48.07,
+        "playRate": 1.6,
+        "picks": 5532
       },
       "open": {
-        "winRate": 48.11,
-        "playRate": 1.71,
-        "picks": 3259
+        "winRate": 47.96,
+        "playRate": 1.72,
+        "picks": 3267
+      },
+      "nomad": {
+        "winRate": 55.36,
+        "playRate": 1.62,
+        "picks": 168
       },
       "closed": {
-        "winRate": 46.25,
+        "winRate": 45.96,
         "playRate": 1.34,
-        "picks": 627
+        "picks": 631
       }
     },
     "strongAgainst": [
@@ -416,40 +416,40 @@
       },
       {
         "name": "poles",
-        "games": 195,
-        "winRate": 56.92
+        "games": 196,
+        "winRate": 56.63
       },
       {
         "name": "dravidians",
-        "games": 150,
-        "winRate": 56.67
+        "games": 151,
+        "winRate": 56.29
       }
     ],
     "weakAgainst": [
+      {
+        "name": "celts",
+        "games": 181,
+        "winRate": 40.33
+      },
       {
         "name": "saxons",
         "games": 128,
         "winRate": 40.63
       },
       {
-        "name": "celts",
-        "games": 180,
-        "winRate": 41.11
-      },
-      {
         "name": "hindustanis",
-        "games": 183,
-        "winRate": 41.53
+        "games": 181,
+        "winRate": 41.44
       },
       {
         "name": "aztecs",
-        "games": 160,
-        "winRate": 41.88
+        "games": 161,
+        "winRate": 41.61
       },
       {
-        "name": "mapuche",
-        "games": 105,
-        "winRate": 41.9
+        "name": "mayans",
+        "games": 180,
+        "winRate": 41.67
       }
     ]
   },

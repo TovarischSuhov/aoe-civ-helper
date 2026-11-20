@@ -297,29 +297,29 @@
   "stats": {
     "winRate": 49.58,
     "playRate": 1.18,
-    "picks": 7001,
+    "picks": 6985,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T23:04:20.000Z",
-    "window": "2026-08-27 → 2026-11-19",
+    "updated": "2026-11-20T12:59:09.000Z",
+    "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "open": {
-        "winRate": 50.59,
+        "winRate": 50.64,
         "playRate": 1.2,
-        "picks": 2283
+        "picks": 2275
       },
       "other": {
-        "winRate": 49.53,
+        "winRate": 49.51,
         "playRate": 1.2,
-        "picks": 4157
+        "picks": 4151
       },
       "nomad": {
-        "winRate": 44.76,
-        "playRate": 0.99,
-        "picks": 105
+        "winRate": 44.66,
+        "playRate": 1,
+        "picks": 103
       },
       "closed": {
         "winRate": 46.05,
@@ -330,13 +330,13 @@
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 82,
-        "winRate": 65.85
+        "games": 80,
+        "winRate": 66.25
       },
       {
         "name": "burmese",
-        "games": 90,
-        "winRate": 63.33
+        "games": 89,
+        "winRate": 64.04
       },
       {
         "name": "saxons",
@@ -345,8 +345,8 @@
       },
       {
         "name": "portuguese",
-        "games": 123,
-        "winRate": 58.54
+        "games": 122,
+        "winRate": 58.2
       },
       {
         "name": "jurchens",
@@ -357,13 +357,8 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 142,
-        "winRate": 39.44
-      },
-      {
-        "name": "chinese",
-        "games": 193,
-        "winRate": 40.93
+        "games": 140,
+        "winRate": 39.29
       },
       {
         "name": "vietnamese",
@@ -371,14 +366,19 @@
         "winRate": 40.94
       },
       {
+        "name": "chinese",
+        "games": 191,
+        "winRate": 41.36
+      },
+      {
         "name": "franks",
         "games": 152,
         "winRate": 42.76
       },
       {
-        "name": "tatars",
-        "games": 108,
-        "winRate": 43.52
+        "name": "romans",
+        "games": 81,
+        "winRate": 43.21
       }
     ]
   },

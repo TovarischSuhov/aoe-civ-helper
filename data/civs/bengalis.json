@@ -256,48 +256,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.8,
+    "winRate": 49.81,
     "playRate": 1.45,
-    "picks": 8643,
+    "picks": 8615,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T23:04:20.000Z",
-    "window": "2026-08-27 → 2026-11-19",
+    "updated": "2026-11-20T12:59:09.000Z",
+    "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bengalis",
     "byMapType": {
-      "other": {
-        "winRate": 49.11,
-        "playRate": 1.46,
-        "picks": 5070
-      },
       "open": {
-        "winRate": 49.69,
-        "playRate": 1.36,
-        "picks": 2582
+        "winRate": 49.77,
+        "playRate": 1.35,
+        "picks": 2576
+      },
+      "other": {
+        "winRate": 49.09,
+        "playRate": 1.46,
+        "picks": 5052
       },
       "nomad": {
-        "winRate": 59.22,
-        "playRate": 1.69,
-        "picks": 179
+        "winRate": 59.3,
+        "playRate": 1.66,
+        "picks": 172
       },
       "closed": {
-        "winRate": 52.34,
+        "winRate": 52.39,
         "playRate": 1.73,
-        "picks": 812
+        "picks": 815
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 137,
-        "winRate": 58.39
+        "games": 136,
+        "winRate": 58.82
       },
       {
         "name": "wei",
-        "games": 141,
-        "winRate": 58.16
+        "games": 139,
+        "winRate": 58.27
       },
       {
         "name": "tupi",
@@ -305,14 +305,14 @@
         "winRate": 57.65
       },
       {
-        "name": "mapuche",
-        "games": 91,
-        "winRate": 57.14
+        "name": "spanish",
+        "games": 205,
+        "winRate": 57.56
       },
       {
-        "name": "varangians",
-        "games": 98,
-        "winRate": 56.12
+        "name": "mapuche",
+        "games": 90,
+        "winRate": 56.67
       }
     ],
     "weakAgainst": [
@@ -322,24 +322,24 @@
         "winRate": 37.89
       },
       {
-        "name": "romans",
-        "games": 109,
-        "winRate": 41.28
-      },
-      {
-        "name": "wu",
-        "games": 98,
-        "winRate": 41.84
-      },
-      {
         "name": "khmer",
         "games": 178,
         "winRate": 42.13
       },
       {
+        "name": "romans",
+        "games": 109,
+        "winRate": 42.2
+      },
+      {
         "name": "danes",
         "games": 90,
         "winRate": 42.22
+      },
+      {
+        "name": "wu",
+        "games": 97,
+        "winRate": 42.27
       }
     ]
   },

@@ -372,70 +372,70 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.67,
+    "winRate": 48.78,
     "playRate": 1.95,
-    "picks": 11588,
+    "picks": 11587,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-19T23:04:20.000Z",
-    "window": "2026-08-27 → 2026-11-19",
+    "updated": "2026-11-20T12:59:09.000Z",
+    "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burgundians",
     "byMapType": {
-      "open": {
-        "winRate": 46.23,
-        "playRate": 1.69,
-        "picks": 3219
-      },
       "other": {
-        "winRate": 49.61,
+        "winRate": 49.7,
         "playRate": 1.86,
-        "picks": 6459
+        "picks": 6449
+      },
+      "open": {
+        "winRate": 46.36,
+        "playRate": 1.7,
+        "picks": 3225
       },
       "nomad": {
-        "winRate": 52.2,
-        "playRate": 1.72,
-        "picks": 182
+        "winRate": 53.67,
+        "playRate": 1.71,
+        "picks": 177
       },
       "closed": {
-        "winRate": 49.36,
-        "playRate": 3.68,
-        "picks": 1728
+        "winRate": 49.37,
+        "playRate": 3.69,
+        "picks": 1736
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 181,
-        "winRate": 55.8
+        "games": 183,
+        "winRate": 56.28
       },
       {
         "name": "sicilians",
-        "games": 198,
-        "winRate": 55.56
+        "games": 197,
+        "winRate": 55.84
       },
       {
         "name": "gurjaras",
-        "games": 132,
-        "winRate": 55.3
+        "games": 131,
+        "winRate": 55.73
       },
       {
         "name": "goths",
-        "games": 161,
-        "winRate": 55.28
+        "games": 163,
+        "winRate": 55.21
       },
       {
-        "name": "khmer",
-        "games": 280,
-        "winRate": 54.29
+        "name": "wu",
+        "games": 110,
+        "winRate": 54.55
       }
     ],
     "weakAgainst": [
       {
         "name": "dravidians",
         "games": 162,
-        "winRate": 39.51
+        "winRate": 38.89
       },
       {
         "name": "vikings",
@@ -444,8 +444,8 @@
       },
       {
         "name": "mongols",
-        "games": 590,
-        "winRate": 41.86
+        "games": 585,
+        "winRate": 42.22
       },
       {
         "name": "mapuche",
@@ -454,8 +454,8 @@
       },
       {
         "name": "spanish",
-        "games": 332,
-        "winRate": 42.77
+        "games": 329,
+        "winRate": 42.86
       }
     ]
   },
