@@ -357,31 +357,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.52,
+    "winRate": 49.55,
     "playRate": 1.13,
-    "picks": 6735,
+    "picks": 6714,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T12:59:09.000Z",
+    "updated": "2026-11-20T22:41:26.000Z",
     "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
       "other": {
-        "winRate": 49.52,
+        "winRate": 49.51,
         "playRate": 1.11,
-        "picks": 3859
-      },
-      "nomad": {
-        "winRate": 57.58,
-        "playRate": 0.96,
-        "picks": 99
+        "picks": 3844
       },
       "open": {
-        "winRate": 49.51,
+        "winRate": 49.61,
         "playRate": 1.23,
-        "picks": 2339
+        "picks": 2334
+      },
+      "nomad": {
+        "winRate": 58.16,
+        "playRate": 0.97,
+        "picks": 98
       },
       "closed": {
         "winRate": 47.72,
@@ -392,23 +392,23 @@
     "strongAgainst": [
       {
         "name": "goths",
-        "games": 87,
-        "winRate": 59.77
+        "games": 86,
+        "winRate": 60.47
       },
       {
         "name": "poles",
-        "games": 97,
-        "winRate": 58.76
+        "games": 96,
+        "winRate": 58.33
+      },
+      {
+        "name": "vietnamese",
+        "games": 191,
+        "winRate": 58.12
       },
       {
         "name": "mapuche",
         "games": 74,
         "winRate": 58.11
-      },
-      {
-        "name": "vietnamese",
-        "games": 193,
-        "winRate": 58.03
       },
       {
         "name": "varangians",
@@ -424,13 +424,8 @@
       },
       {
         "name": "bulgarians",
-        "games": 112,
-        "winRate": 39.29
-      },
-      {
-        "name": "chinese",
-        "games": 279,
-        "winRate": 39.43
+        "games": 111,
+        "winRate": 39.64
       },
       {
         "name": "shu",
@@ -438,9 +433,14 @@
         "winRate": 39.66
       },
       {
+        "name": "chinese",
+        "games": 277,
+        "winRate": 40.07
+      },
+      {
         "name": "malay",
-        "games": 115,
-        "winRate": 41.74
+        "games": 113,
+        "winRate": 40.71
       }
     ]
   },

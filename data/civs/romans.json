@@ -348,53 +348,48 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 54.12,
+    "winRate": 54.01,
     "playRate": 1.34,
-    "picks": 7958,
+    "picks": 7962,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T12:59:09.000Z",
+    "updated": "2026-11-20T22:41:26.000Z",
     "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "open": {
-        "winRate": 53.38,
-        "playRate": 1.4,
-        "picks": 2664
-      },
       "other": {
-        "winRate": 54.91,
+        "winRate": 54.78,
         "playRate": 1.36,
-        "picks": 4713
+        "picks": 4717
+      },
+      "open": {
+        "winRate": 53.29,
+        "playRate": 1.4,
+        "picks": 2663
       },
       "nomad": {
         "winRate": 49.09,
-        "playRate": 1.06,
+        "playRate": 1.09,
         "picks": 110
       },
       "closed": {
-        "winRate": 51.59,
+        "winRate": 51.48,
         "playRate": 1,
-        "picks": 471
+        "picks": 472
       }
     },
     "strongAgainst": [
       {
         "name": "muisca",
-        "games": 64,
-        "winRate": 71.88
+        "games": 63,
+        "winRate": 71.43
       },
       {
         "name": "danes",
         "games": 92,
         "winRate": 66.3
-      },
-      {
-        "name": "incas",
-        "games": 118,
-        "winRate": 65.25
       },
       {
         "name": "mapuche",
@@ -403,8 +398,13 @@
       },
       {
         "name": "portuguese",
-        "games": 127,
-        "winRate": 64.57
+        "games": 126,
+        "winRate": 64.29
+      },
+      {
+        "name": "incas",
+        "games": 120,
+        "winRate": 64.17
       }
     ],
     "weakAgainst": [
@@ -421,17 +421,17 @@
       {
         "name": "khmer",
         "games": 200,
-        "winRate": 47.5
+        "winRate": 47
+      },
+      {
+        "name": "jurchens",
+        "games": 88,
+        "winRate": 47.73
       },
       {
         "name": "mongols",
         "games": 526,
-        "winRate": 47.72
-      },
-      {
-        "name": "jurchens",
-        "games": 89,
-        "winRate": 48.31
+        "winRate": 47.91
       }
     ]
   },

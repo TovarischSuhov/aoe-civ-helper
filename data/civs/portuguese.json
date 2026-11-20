@@ -301,48 +301,53 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.55,
+    "winRate": 47.54,
     "playRate": 1.61,
-    "picks": 9592,
+    "picks": 9560,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T12:59:09.000Z",
+    "updated": "2026-11-20T22:41:26.000Z",
     "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/portuguese",
     "byMapType": {
       "other": {
-        "winRate": 47.49,
-        "playRate": 1.66,
-        "picks": 5770
+        "winRate": 47.43,
+        "playRate": 1.65,
+        "picks": 5731
       },
       "open": {
-        "winRate": 47.57,
+        "winRate": 47.6,
         "playRate": 1.47,
         "picks": 2794
       },
       "nomad": {
-        "winRate": 46.2,
-        "playRate": 1.65,
-        "picks": 171
+        "winRate": 46.75,
+        "playRate": 1.67,
+        "picks": 169
       },
       "closed": {
-        "winRate": 48.19,
-        "playRate": 1.82,
-        "picks": 857
+        "winRate": 48.27,
+        "playRate": 1.83,
+        "picks": 866
       }
     },
     "strongAgainst": [
       {
         "name": "byzantines",
-        "games": 148,
-        "winRate": 59.46
+        "games": 146,
+        "winRate": 59.59
       },
       {
         "name": "saracens",
-        "games": 135,
-        "winRate": 57.78
+        "games": 136,
+        "winRate": 57.35
+      },
+      {
+        "name": "mapuche",
+        "games": 91,
+        "winRate": 57.14
       },
       {
         "name": "tatars",
@@ -350,41 +355,36 @@
         "winRate": 56.91
       },
       {
-        "name": "mapuche",
-        "games": 92,
-        "winRate": 56.52
-      },
-      {
         "name": "varangians",
-        "games": 99,
-        "winRate": 55.56
+        "games": 101,
+        "winRate": 54.46
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 127,
-        "winRate": 35.43
+        "games": 126,
+        "winRate": 35.71
       },
       {
         "name": "mayans",
-        "games": 208,
-        "winRate": 37.5
+        "games": 207,
+        "winRate": 37.2
       },
       {
         "name": "shu",
-        "games": 105,
-        "winRate": 40
-      },
-      {
-        "name": "mongols",
-        "games": 501,
-        "winRate": 40.92
+        "games": 101,
+        "winRate": 38.61
       },
       {
         "name": "persians",
-        "games": 223,
-        "winRate": 41.26
+        "games": 224,
+        "winRate": 41.07
+      },
+      {
+        "name": "georgians",
+        "games": 121,
+        "winRate": 41.32
       }
     ]
   },

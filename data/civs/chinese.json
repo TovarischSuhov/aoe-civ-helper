@@ -327,36 +327,36 @@
     "takeaway": "#1 at the very top Elo. Cheaper techs + extra farm food + fire lancers + Chu Ko Nu shine mid/late, but you start down 200 food and need strong game sense to exploit the cheaper techs."
   },
   "stats": {
-    "winRate": 54.68,
-    "playRate": 2.65,
-    "picks": 15764,
+    "winRate": 54.74,
+    "playRate": 2.66,
+    "picks": 15786,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T12:59:09.000Z",
+    "updated": "2026-11-20T22:41:26.000Z",
     "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/chinese",
     "byMapType": {
       "open": {
-        "winRate": 54.62,
+        "winRate": 54.73,
         "playRate": 2.89,
-        "picks": 5492
+        "picks": 5502
       },
       "other": {
-        "winRate": 54.74,
-        "playRate": 2.63,
-        "picks": 9132
+        "winRate": 54.77,
+        "playRate": 2.64,
+        "picks": 9136
       },
       "nomad": {
         "winRate": 56.37,
-        "playRate": 1.97,
+        "playRate": 2.02,
         "picks": 204
       },
       "closed": {
-        "winRate": 54.06,
-        "playRate": 1.99,
-        "picks": 936
+        "winRate": 54.24,
+        "playRate": 2,
+        "picks": 944
       }
     },
     "strongAgainst": [
@@ -367,35 +367,30 @@
       },
       {
         "name": "byzantines",
-        "games": 240,
-        "winRate": 62.92
+        "games": 237,
+        "winRate": 62.87
       },
       {
         "name": "varangians",
-        "games": 342,
-        "winRate": 62.57
+        "games": 343,
+        "winRate": 62.68
       },
       {
         "name": "wu",
-        "games": 136,
-        "winRate": 61.76
+        "games": 139,
+        "winRate": 61.87
       },
       {
         "name": "vietnamese",
-        "games": 403,
-        "winRate": 61.29
+        "games": 400,
+        "winRate": 61
       }
     ],
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 384,
-        "winRate": 45.05
-      },
-      {
-        "name": "slavs",
-        "games": 183,
-        "winRate": 47.54
+        "games": 385,
+        "winRate": 44.94
       },
       {
         "name": "vikings",
@@ -403,14 +398,19 @@
         "winRate": 48.08
       },
       {
-        "name": "burgundians",
-        "games": 249,
-        "winRate": 49.4
+        "name": "slavs",
+        "games": 185,
+        "winRate": 48.11
       },
       {
         "name": "hindustanis",
         "games": 274,
         "winRate": 49.64
+      },
+      {
+        "name": "burgundians",
+        "games": 248,
+        "winRate": 50
       }
     ]
   },

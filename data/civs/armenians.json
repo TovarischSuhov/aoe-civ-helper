@@ -367,46 +367,46 @@
   "stats": {
     "winRate": 50.9,
     "playRate": 1.77,
-    "picks": 10492,
+    "picks": 10510,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T12:59:09.000Z",
+    "updated": "2026-11-20T22:41:26.000Z",
     "window": "2026-08-28 → 2026-11-20",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/armenians",
     "byMapType": {
-      "other": {
-        "winRate": 50.56,
-        "playRate": 1.76,
-        "picks": 6104
-      },
       "open": {
-        "winRate": 51.73,
+        "winRate": 51.68,
         "playRate": 1.77,
-        "picks": 3362
+        "picks": 3367
+      },
+      "other": {
+        "winRate": 50.6,
+        "playRate": 1.77,
+        "picks": 6118
       },
       "nomad": {
-        "winRate": 43.06,
-        "playRate": 1.39,
-        "picks": 144
+        "winRate": 42.45,
+        "playRate": 1.38,
+        "picks": 139
       },
       "closed": {
-        "winRate": 51.36,
-        "playRate": 1.87,
-        "picks": 882
+        "winRate": 51.35,
+        "playRate": 1.88,
+        "picks": 886
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 197,
-        "winRate": 67.51
+        "games": 200,
+        "winRate": 67
       },
       {
         "name": "muisca",
         "games": 110,
-        "winRate": 61.82
+        "winRate": 60
       },
       {
         "name": "danes",
@@ -415,8 +415,8 @@
       },
       {
         "name": "saracens",
-        "games": 161,
-        "winRate": 59.63
+        "games": 159,
+        "winRate": 59.75
       },
       {
         "name": "tupi",
@@ -427,13 +427,13 @@
     "weakAgainst": [
       {
         "name": "jurchens",
-        "games": 112,
-        "winRate": 38.39
+        "games": 111,
+        "winRate": 36.94
       },
       {
         "name": "chinese",
-        "games": 253,
-        "winRate": 39.53
+        "games": 256,
+        "winRate": 39.45
       },
       {
         "name": "japanese",
@@ -446,9 +446,9 @@
         "winRate": 44.12
       },
       {
-        "name": "malians",
-        "games": 152,
-        "winRate": 44.74
+        "name": "mongols",
+        "games": 628,
+        "winRate": 44.59
       }
     ]
   },
