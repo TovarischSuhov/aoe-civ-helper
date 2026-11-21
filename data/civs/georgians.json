@@ -295,48 +295,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.59,
+    "winRate": 49.53,
     "playRate": 1.17,
-    "picks": 6965,
+    "picks": 6971,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-21T12:42:59.000Z",
+    "updated": "2026-11-21T21:40:56.000Z",
     "window": "2026-08-29 → 2026-11-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "other": {
-        "winRate": 49.41,
+        "winRate": 49.29,
         "playRate": 1.2,
-        "picks": 4145
-      },
-      "open": {
-        "winRate": 50.84,
-        "playRate": 1.19,
-        "picks": 2266
+        "picks": 4149
       },
       "nomad": {
-        "winRate": 45.36,
+        "winRate": 46.32,
         "playRate": 0.99,
-        "picks": 97
+        "picks": 95
+      },
+      "open": {
+        "winRate": 50.86,
+        "playRate": 1.19,
+        "picks": 2269
       },
       "closed": {
-        "winRate": 45.95,
+        "winRate": 45.85,
         "playRate": 0.96,
-        "picks": 457
+        "picks": 458
       }
     },
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 81,
-        "winRate": 64.2
+        "games": 82,
+        "winRate": 64.63
       },
       {
         "name": "burmese",
         "games": 89,
-        "winRate": 62.92
+        "winRate": 61.8
       },
       {
         "name": "saxons",
@@ -350,35 +350,35 @@
       },
       {
         "name": "varangians",
-        "games": 123,
-        "winRate": 57.72
+        "games": 124,
+        "winRate": 57.26
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 140,
-        "winRate": 40
-      },
-      {
-        "name": "vietnamese",
-        "games": 123,
-        "winRate": 41.46
+        "games": 142,
+        "winRate": 40.14
       },
       {
         "name": "chinese",
-        "games": 191,
-        "winRate": 41.88
+        "games": 193,
+        "winRate": 41.45
       },
       {
-        "name": "franks",
-        "games": 153,
-        "winRate": 43.14
+        "name": "vietnamese",
+        "games": 122,
+        "winRate": 41.8
       },
       {
         "name": "bohemians",
-        "games": 132,
-        "winRate": 43.18
+        "games": 131,
+        "winRate": 42.75
+      },
+      {
+        "name": "romans",
+        "games": 84,
+        "winRate": 42.86
       }
     ]
   },

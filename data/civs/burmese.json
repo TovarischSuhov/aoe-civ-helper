@@ -323,48 +323,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.7,
+    "winRate": 48.77,
     "playRate": 1.41,
-    "picks": 8400,
+    "picks": 8395,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-21T12:42:59.000Z",
+    "updated": "2026-11-21T21:40:56.000Z",
     "window": "2026-08-29 → 2026-11-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
+      "other": {
+        "winRate": 48.35,
+        "playRate": 1.38,
+        "picks": 4774
+      },
       "open": {
         "winRate": 48.39,
         "playRate": 1.43,
-        "picks": 2734
-      },
-      "other": {
-        "winRate": 48.22,
-        "playRate": 1.38,
-        "picks": 4778
+        "picks": 2736
       },
       "nomad": {
-        "winRate": 48.45,
+        "winRate": 48.41,
         "playRate": 1.64,
-        "picks": 161
+        "picks": 157
       },
       "closed": {
-        "winRate": 53.09,
+        "winRate": 53.02,
         "playRate": 1.53,
-        "picks": 727
+        "picks": 728
       }
     },
     "strongAgainst": [
       {
-        "name": "berbers",
-        "games": 164,
-        "winRate": 56.71
-      },
-      {
         "name": "teutons",
         "games": 173,
         "winRate": 56.65
+      },
+      {
+        "name": "berbers",
+        "games": 166,
+        "winRate": 56.63
       },
       {
         "name": "slavs",
@@ -373,40 +373,40 @@
       },
       {
         "name": "spanish",
-        "games": 175,
-        "winRate": 55.43
+        "games": 177,
+        "winRate": 55.93
       },
       {
         "name": "gurjaras",
-        "games": 150,
-        "winRate": 55.33
+        "games": 151,
+        "winRate": 55.63
       }
     ],
     "weakAgainst": [
       {
-        "name": "georgians",
-        "games": 89,
-        "winRate": 37.08
+        "name": "huns",
+        "games": 165,
+        "winRate": 36.97
       },
       {
-        "name": "huns",
-        "games": 166,
-        "winRate": 37.35
+        "name": "georgians",
+        "games": 89,
+        "winRate": 38.2
       },
       {
         "name": "shu",
-        "games": 101,
-        "winRate": 38.61
+        "games": 99,
+        "winRate": 39.39
+      },
+      {
+        "name": "saracens",
+        "games": 160,
+        "winRate": 41.88
       },
       {
         "name": "ethiopians",
-        "games": 139,
-        "winRate": 41.73
-      },
-      {
-        "name": "japanese",
-        "games": 181,
-        "winRate": 41.99
+        "games": 140,
+        "winRate": 42.14
       }
     ]
   },

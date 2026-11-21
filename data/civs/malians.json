@@ -383,34 +383,34 @@
   "stats": {
     "winRate": 52.28,
     "playRate": 1.57,
-    "picks": 9334,
+    "picks": 9335,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-21T12:42:59.000Z",
+    "updated": "2026-11-21T21:40:56.000Z",
     "window": "2026-08-29 → 2026-11-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/malians",
     "byMapType": {
-      "open": {
-        "winRate": 52.86,
-        "playRate": 1.59,
-        "picks": 3029
-      },
       "other": {
-        "winRate": 51.81,
+        "winRate": 51.75,
         "playRate": 1.58,
-        "picks": 5478
+        "picks": 5476
+      },
+      "open": {
+        "winRate": 52.85,
+        "playRate": 1.59,
+        "picks": 3031
       },
       "nomad": {
-        "winRate": 50.64,
-        "playRate": 1.59,
-        "picks": 156
+        "winRate": 51.63,
+        "playRate": 1.6,
+        "picks": 153
       },
       "closed": {
-        "winRate": 53.95,
+        "winRate": 54.07,
         "playRate": 1.42,
-        "picks": 671
+        "picks": 675
       }
     },
     "strongAgainst": [
@@ -421,8 +421,8 @@
       },
       {
         "name": "varangians",
-        "games": 163,
-        "winRate": 62.58
+        "games": 165,
+        "winRate": 62.42
       },
       {
         "name": "jurchens",
@@ -431,20 +431,20 @@
       },
       {
         "name": "gurjaras",
-        "games": 132,
-        "winRate": 60.61
+        "games": 130,
+        "winRate": 60
       },
       {
         "name": "tatars",
-        "games": 152,
-        "winRate": 59.21
+        "games": 151,
+        "winRate": 58.94
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 224,
-        "winRate": 39.29
+        "games": 225,
+        "winRate": 39.11
       },
       {
         "name": "saxons",
@@ -453,18 +453,18 @@
       },
       {
         "name": "huns",
-        "games": 175,
-        "winRate": 42.29
+        "games": 172,
+        "winRate": 42.44
       },
       {
         "name": "mongols",
-        "games": 438,
-        "winRate": 45.21
+        "games": 437,
+        "winRate": 45.08
       },
       {
         "name": "koreans",
-        "games": 186,
-        "winRate": 45.7
+        "games": 185,
+        "winRate": 45.41
       }
     ]
   },
