@@ -314,53 +314,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.38,
+    "winRate": 48.35,
     "playRate": 1.38,
-    "picks": 8187,
+    "picks": 8202,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T22:41:26.000Z",
-    "window": "2026-08-28 → 2026-11-20",
+    "updated": "2026-11-21T12:42:59.000Z",
+    "window": "2026-08-29 → 2026-11-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
-      "open": {
-        "winRate": 47.09,
-        "playRate": 1.41,
-        "picks": 2693
-      },
       "other": {
-        "winRate": 49.42,
+        "winRate": 49.38,
         "playRate": 1.38,
-        "picks": 4773
+        "picks": 4789
       },
       "nomad": {
-        "winRate": 41.88,
-        "playRate": 1.16,
-        "picks": 117
+        "winRate": 41.07,
+        "playRate": 1.14,
+        "picks": 112
+      },
+      "open": {
+        "winRate": 47.07,
+        "playRate": 1.41,
+        "picks": 2696
       },
       "closed": {
-        "winRate": 47.19,
+        "winRate": 47.27,
         "playRate": 1.28,
-        "picks": 604
+        "picks": 605
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 81,
-        "winRate": 59.26
+        "games": 83,
+        "winRate": 59.04
       },
       {
         "name": "mapuche",
         "games": 89,
         "winRate": 58.43
-      },
-      {
-        "name": "saxons",
-        "games": 95,
-        "winRate": 57.89
       },
       {
         "name": "byzantines",
@@ -369,35 +364,40 @@
       },
       {
         "name": "gurjaras",
-        "games": 149,
-        "winRate": 57.72
+        "games": 146,
+        "winRate": 56.85
+      },
+      {
+        "name": "saxons",
+        "games": 97,
+        "winRate": 56.7
       }
     ],
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 80,
-        "winRate": 35
+        "games": 81,
+        "winRate": 35.8
       },
       {
         "name": "vikings",
-        "games": 165,
-        "winRate": 37.58
+        "games": 162,
+        "winRate": 37.65
       },
       {
         "name": "huns",
-        "games": 146,
-        "winRate": 38.36
+        "games": 147,
+        "winRate": 38.78
       },
       {
         "name": "romans",
-        "games": 119,
-        "winRate": 38.66
+        "games": 118,
+        "winRate": 38.98
       },
       {
         "name": "wu",
-        "games": 84,
-        "winRate": 40.48
+        "games": 86,
+        "winRate": 39.53
       }
     ]
   },

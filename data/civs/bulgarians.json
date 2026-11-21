@@ -288,90 +288,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.31,
+    "winRate": 50.38,
     "playRate": 1.75,
-    "picks": 10398,
+    "picks": 10378,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T22:41:26.000Z",
-    "window": "2026-08-28 → 2026-11-20",
+    "updated": "2026-11-21T12:42:59.000Z",
+    "window": "2026-08-29 → 2026-11-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bulgarians",
     "byMapType": {
       "other": {
-        "winRate": 50.66,
-        "playRate": 1.76,
-        "picks": 6088
+        "winRate": 50.7,
+        "playRate": 1.75,
+        "picks": 6061
       },
       "open": {
-        "winRate": 49.86,
+        "winRate": 49.96,
         "playRate": 1.84,
-        "picks": 3496
+        "picks": 3505
       },
       "nomad": {
-        "winRate": 54.9,
-        "playRate": 1.52,
-        "picks": 153
+        "winRate": 55.33,
+        "playRate": 1.53,
+        "picks": 150
       },
       "closed": {
-        "winRate": 48.41,
+        "winRate": 48.49,
         "playRate": 1.4,
-        "picks": 661
+        "picks": 662
       }
     },
     "strongAgainst": [
       {
         "name": "mapuche",
         "games": 99,
-        "winRate": 64.65
+        "winRate": 65.66
       },
       {
         "name": "jurchens",
-        "games": 114,
-        "winRate": 63.16
+        "games": 112,
+        "winRate": 63.39
+      },
+      {
+        "name": "dravidians",
+        "games": 143,
+        "winRate": 60.14
       },
       {
         "name": "tupi",
         "games": 111,
-        "winRate": 60.36
+        "winRate": 59.46
       },
       {
-        "name": "dravidians",
-        "games": 144,
-        "winRate": 59.72
-      },
-      {
-        "name": "danes",
-        "games": 99,
-        "winRate": 58.59
+        "name": "incas",
+        "games": 165,
+        "winRate": 58.79
       }
     ],
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 171,
-        "winRate": 42.69
+        "games": 173,
+        "winRate": 42.2
       },
       {
         "name": "celts",
-        "games": 170,
-        "winRate": 42.94
-      },
-      {
-        "name": "armenians",
-        "games": 179,
-        "winRate": 43.02
+        "games": 171,
+        "winRate": 43.27
       },
       {
         "name": "romans",
-        "games": 134,
-        "winRate": 43.28
+        "games": 133,
+        "winRate": 43.61
+      },
+      {
+        "name": "armenians",
+        "games": 176,
+        "winRate": 43.75
       },
       {
         "name": "huns",
-        "games": 194,
-        "winRate": 44.33
+        "games": 192,
+        "winRate": 44.27
       }
     ]
   },

@@ -336,48 +336,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.08,
+    "winRate": 48.06,
     "playRate": 1.49,
-    "picks": 8833,
+    "picks": 8849,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-20T22:41:26.000Z",
-    "window": "2026-08-28 → 2026-11-20",
+    "updated": "2026-11-21T12:42:59.000Z",
+    "window": "2026-08-29 → 2026-11-21",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
       "other": {
-        "winRate": 47.97,
-        "playRate": 1.43,
-        "picks": 4972
+        "winRate": 47.96,
+        "playRate": 1.44,
+        "picks": 4977
       },
       "open": {
-        "winRate": 49.52,
+        "winRate": 49.45,
         "playRate": 1.63,
-        "picks": 3096
+        "picks": 3106
       },
       "nomad": {
-        "winRate": 42.96,
-        "playRate": 1.41,
-        "picks": 142
+        "winRate": 43.26,
+        "playRate": 1.44,
+        "picks": 141
       },
       "closed": {
-        "winRate": 43.02,
+        "winRate": 43.04,
         "playRate": 1.32,
-        "picks": 623
+        "picks": 625
       }
     },
     "strongAgainst": [
       {
         "name": "vietnamese",
-        "games": 203,
-        "winRate": 57.64
+        "games": 202,
+        "winRate": 57.43
       },
       {
         "name": "turks",
-        "games": 159,
-        "winRate": 54.72
+        "games": 157,
+        "winRate": 56.05
       },
       {
         "name": "magyars",
@@ -386,25 +386,20 @@
       },
       {
         "name": "lithuanians",
-        "games": 158,
-        "winRate": 54.43
+        "games": 157,
+        "winRate": 54.14
       },
       {
-        "name": "britons",
-        "games": 168,
-        "winRate": 53.57
+        "name": "shu",
+        "games": 99,
+        "winRate": 53.54
       }
     ],
     "weakAgainst": [
       {
         "name": "tupi",
         "games": 86,
-        "winRate": 39.53
-      },
-      {
-        "name": "chinese",
-        "games": 225,
-        "winRate": 40.44
+        "winRate": 38.37
       },
       {
         "name": "bohemians",
@@ -412,14 +407,19 @@
         "winRate": 40.51
       },
       {
+        "name": "japanese",
+        "games": 232,
+        "winRate": 40.52
+      },
+      {
         "name": "vikings",
         "games": 169,
         "winRate": 40.83
       },
       {
-        "name": "japanese",
-        "games": 231,
-        "winRate": 41.13
+        "name": "chinese",
+        "games": 228,
+        "winRate": 41.23
       }
     ]
   },
