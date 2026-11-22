@@ -380,10 +380,10 @@
   "stats": {
     "winRate": 49.5,
     "playRate": 1,
-    "picks": 5941,
+    "picks": 5945,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-22T12:38:19.000Z",
+    "updated": "2026-11-22T21:50:28.000Z",
     "window": "2026-08-30 → 2026-11-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -394,20 +394,20 @@
         "playRate": 1.08,
         "picks": 2074
       },
-      "nomad": {
-        "winRate": 45.16,
-        "playRate": 1,
-        "picks": 93
-      },
       "other": {
-        "winRate": 48.88,
+        "winRate": 48.89,
         "playRate": 0.99,
-        "picks": 3425
+        "picks": 3430
+      },
+      "nomad": {
+        "winRate": 43.96,
+        "playRate": 1.01,
+        "picks": 91
       },
       "closed": {
-        "winRate": 49.28,
+        "winRate": 49.43,
         "playRate": 0.73,
-        "picks": 349
+        "picks": 350
       }
     },
     "strongAgainst": [
@@ -417,31 +417,31 @@
         "winRate": 65
       },
       {
+        "name": "danes",
+        "games": 58,
+        "winRate": 62.07
+      },
+      {
         "name": "lithuanians",
         "games": 102,
         "winRate": 60.78
       },
       {
-        "name": "danes",
-        "games": 56,
-        "winRate": 60.71
-      },
-      {
         "name": "magyars",
-        "games": 165,
-        "winRate": 58.79
+        "games": 164,
+        "winRate": 58.54
       },
       {
-        "name": "koreans",
-        "games": 91,
-        "winRate": 58.24
+        "name": "byzantines",
+        "games": 113,
+        "winRate": 58.41
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 68,
-        "winRate": 33.82
+        "games": 69,
+        "winRate": 33.33
       },
       {
         "name": "bulgarians",
@@ -450,18 +450,18 @@
       },
       {
         "name": "celts",
-        "games": 121,
-        "winRate": 34.71
+        "games": 120,
+        "winRate": 35
       },
       {
         "name": "muisca",
-        "games": 65,
-        "winRate": 36.92
+        "games": 64,
+        "winRate": 37.5
       },
       {
         "name": "tupi",
         "games": 70,
-        "winRate": 40
+        "winRate": 38.57
       }
     ]
   },

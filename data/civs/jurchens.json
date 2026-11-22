@@ -366,90 +366,90 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 46.52,
-    "playRate": 1.19,
-    "picks": 7048,
+    "winRate": 46.56,
+    "playRate": 1.18,
+    "picks": 7019,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-22T12:38:19.000Z",
+    "updated": "2026-11-22T21:50:28.000Z",
     "window": "2026-08-30 → 2026-11-22",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/jurchens",
     "byMapType": {
-      "other": {
-        "winRate": 46.16,
-        "playRate": 1.19,
-        "picks": 4105
-      },
       "open": {
-        "winRate": 46.79,
+        "winRate": 46.91,
         "playRate": 1.18,
-        "picks": 2257
+        "picks": 2251
+      },
+      "other": {
+        "winRate": 46.15,
+        "playRate": 1.18,
+        "picks": 4082
       },
       "nomad": {
         "winRate": 45,
-        "playRate": 1.08,
+        "playRate": 1.11,
         "picks": 100
       },
       "closed": {
         "winRate": 48.29,
-        "playRate": 1.23,
+        "playRate": 1.22,
         "picks": 586
       }
     },
     "strongAgainst": [
       {
         "name": "armenians",
-        "games": 110,
-        "winRate": 61.82
+        "games": 108,
+        "winRate": 62.04
       },
       {
         "name": "muisca",
-        "games": 75,
-        "winRate": 58.67
+        "games": 74,
+        "winRate": 59.46
       },
       {
         "name": "incas",
-        "games": 121,
-        "winRate": 56.2
+        "games": 120,
+        "winRate": 55.83
       },
       {
         "name": "slavs",
-        "games": 112,
-        "winRate": 55.36
+        "games": 113,
+        "winRate": 55.75
       },
       {
         "name": "teutons",
-        "games": 122,
-        "winRate": 54.92
+        "games": 121,
+        "winRate": 55.37
       }
     ],
     "weakAgainst": [
       {
         "name": "britons",
-        "games": 119,
-        "winRate": 37.82
+        "games": 117,
+        "winRate": 37.61
       },
       {
         "name": "bulgarians",
-        "games": 111,
-        "winRate": 37.84
-      },
-      {
-        "name": "malay",
-        "games": 134,
-        "winRate": 38.81
-      },
-      {
-        "name": "gurjaras",
-        "games": 108,
-        "winRate": 38.89
+        "games": 109,
+        "winRate": 37.61
       },
       {
         "name": "malians",
         "games": 117,
-        "winRate": 39.32
+        "winRate": 38.46
+      },
+      {
+        "name": "malay",
+        "games": 132,
+        "winRate": 38.64
+      },
+      {
+        "name": "gurjaras",
+        "games": 107,
+        "winRate": 39.25
       }
     ]
   },
