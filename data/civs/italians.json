@@ -318,36 +318,36 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 51.62,
-    "playRate": 1.78,
-    "picks": 10556,
+    "winRate": 51.71,
+    "playRate": 1.77,
+    "picks": 10497,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-22T21:50:28.000Z",
-    "window": "2026-08-30 → 2026-11-22",
+    "updated": "2026-11-23T14:45:09.000Z",
+    "window": "2026-08-31 → 2026-11-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
+      "nomad": {
+        "winRate": 54.07,
+        "playRate": 3.09,
+        "picks": 270
+      },
       "open": {
-        "winRate": 51.98,
-        "playRate": 1.56,
-        "picks": 2980
+        "winRate": 52.05,
+        "playRate": 1.55,
+        "picks": 2974
       },
       "other": {
-        "winRate": 51.21,
-        "playRate": 1.82,
-        "picks": 6276
-      },
-      "nomad": {
-        "winRate": 53.13,
-        "playRate": 3.19,
-        "picks": 288
+        "winRate": 51.3,
+        "playRate": 1.81,
+        "picks": 6236
       },
       "closed": {
-        "winRate": 52.67,
-        "playRate": 2.11,
-        "picks": 1012
+        "winRate": 52.61,
+        "playRate": 2.12,
+        "picks": 1017
       }
     },
     "strongAgainst": [
@@ -358,8 +358,8 @@
       },
       {
         "name": "spanish",
-        "games": 278,
-        "winRate": 61.15
+        "games": 274,
+        "winRate": 61.31
       },
       {
         "name": "varangians",
@@ -372,26 +372,21 @@
         "winRate": 59.04
       },
       {
-        "name": "berbers",
-        "games": 158,
-        "winRate": 58.86
+        "name": "danes",
+        "games": 134,
+        "winRate": 58.96
       }
     ],
     "weakAgainst": [
       {
         "name": "muisca",
-        "games": 102,
-        "winRate": 40.2
+        "games": 101,
+        "winRate": 39.6
       },
       {
         "name": "vietnamese",
         "games": 238,
-        "winRate": 43.28
-      },
-      {
-        "name": "romans",
-        "games": 135,
-        "winRate": 44.44
+        "winRate": 43.7
       },
       {
         "name": "wu",
@@ -399,9 +394,14 @@
         "winRate": 45
       },
       {
+        "name": "romans",
+        "games": 131,
+        "winRate": 45.04
+      },
+      {
         "name": "koreans",
-        "games": 175,
-        "winRate": 45.14
+        "games": 173,
+        "winRate": 45.09
       }
     ]
   },

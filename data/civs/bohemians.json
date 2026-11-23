@@ -343,36 +343,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.11,
+    "winRate": 50.08,
     "playRate": 1.92,
-    "picks": 11410,
+    "picks": 11396,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-22T21:50:28.000Z",
-    "window": "2026-08-30 → 2026-11-22",
+    "updated": "2026-11-23T14:45:09.000Z",
+    "window": "2026-08-31 → 2026-11-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/bohemians",
     "byMapType": {
+      "nomad": {
+        "winRate": 46.2,
+        "playRate": 2.1,
+        "picks": 184
+      },
+      "other": {
+        "winRate": 49.42,
+        "playRate": 1.81,
+        "picks": 6230
+      },
       "open": {
         "winRate": 49.77,
         "playRate": 1.58,
         "picks": 3026
       },
-      "other": {
-        "winRate": 49.5,
-        "playRate": 1.81,
-        "picks": 6245
-      },
-      "nomad": {
-        "winRate": 45.79,
-        "playRate": 2.1,
-        "picks": 190
-      },
       "closed": {
-        "winRate": 53,
+        "winRate": 53.02,
         "playRate": 4.07,
-        "picks": 1949
+        "picks": 1956
       }
     },
     "strongAgainst": [
@@ -382,36 +382,36 @@
         "winRate": 64.71
       },
       {
-        "name": "sicilians",
-        "games": 171,
-        "winRate": 61.4
-      },
-      {
         "name": "wu",
         "games": 116,
         "winRate": 61.21
       },
       {
-        "name": "muisca",
-        "games": 114,
-        "winRate": 60.53
+        "name": "sicilians",
+        "games": 169,
+        "winRate": 60.95
       },
       {
         "name": "goths",
         "games": 159,
         "winRate": 60.38
+      },
+      {
+        "name": "muisca",
+        "games": 111,
+        "winRate": 60.36
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 196,
-        "winRate": 40.31
+        "games": 201,
+        "winRate": 39.8
       },
       {
         "name": "turks",
-        "games": 318,
-        "winRate": 43.08
+        "games": 315,
+        "winRate": 42.54
       },
       {
         "name": "dravidians",
@@ -424,9 +424,9 @@
         "winRate": 43.52
       },
       {
-        "name": "khitans",
-        "games": 91,
-        "winRate": 43.96
+        "name": "malians",
+        "games": 165,
+        "winRate": 44.24
       }
     ]
   },

@@ -300,90 +300,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.05,
-    "playRate": 2.69,
-    "picks": 15985,
+    "winRate": 51.07,
+    "playRate": 2.7,
+    "picks": 16036,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-22T21:50:28.000Z",
-    "window": "2026-08-30 → 2026-11-22",
+    "updated": "2026-11-23T14:45:09.000Z",
+    "window": "2026-08-31 → 2026-11-23",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/japanese",
     "byMapType": {
-      "other": {
-        "winRate": 51.64,
-        "playRate": 2.78,
-        "picks": 9575
-      },
       "nomad": {
-        "winRate": 47.58,
-        "playRate": 2.74,
-        "picks": 248
+        "winRate": 47.3,
+        "playRate": 2.76,
+        "picks": 241
+      },
+      "other": {
+        "winRate": 51.56,
+        "playRate": 2.79,
+        "picks": 9613
       },
       "open": {
-        "winRate": 49.89,
-        "playRate": 2.75,
-        "picks": 5268
+        "winRate": 50.1,
+        "playRate": 2.76,
+        "picks": 5287
       },
       "closed": {
-        "winRate": 52.57,
-        "playRate": 1.87,
-        "picks": 894
+        "winRate": 52.51,
+        "playRate": 1.86,
+        "picks": 895
       }
     },
     "strongAgainst": [
       {
-        "name": "turks",
-        "games": 216,
-        "winRate": 62.5
-      },
-      {
         "name": "incas",
-        "games": 231,
-        "winRate": 62.34
+        "games": 230,
+        "winRate": 63.04
       },
       {
-        "name": "varangians",
-        "games": 358,
-        "winRate": 59.5
+        "name": "turks",
+        "games": 215,
+        "winRate": 62.33
       },
       {
         "name": "goths",
-        "games": 233,
-        "winRate": 59.23
+        "games": 238,
+        "winRate": 59.66
+      },
+      {
+        "name": "varangians",
+        "games": 359,
+        "winRate": 59.61
       },
       {
         "name": "sicilians",
         "games": 282,
-        "winRate": 58.51
+        "winRate": 59.22
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 320,
-        "winRate": 40.31
+        "games": 326,
+        "winRate": 39.88
       },
       {
         "name": "huns",
-        "games": 356,
-        "winRate": 42.7
-      },
-      {
-        "name": "chinese",
-        "games": 471,
-        "winRate": 44.16
+        "games": 353,
+        "winRate": 42.49
       },
       {
         "name": "khmer",
-        "games": 408,
-        "winRate": 44.61
+        "games": 414,
+        "winRate": 43.96
+      },
+      {
+        "name": "chinese",
+        "games": 474,
+        "winRate": 44.51
       },
       {
         "name": "shu",
-        "games": 130,
-        "winRate": 44.62
+        "games": 129,
+        "winRate": 44.96
       }
     ]
   },
