@@ -316,34 +316,34 @@
   "stats": {
     "winRate": 48.21,
     "playRate": 1.39,
-    "picks": 8250,
+    "picks": 8255,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/slavs",
     "byMapType": {
       "other": {
-        "winRate": 49.06,
-        "playRate": 1.39,
-        "picks": 4806
+        "winRate": 49.04,
+        "playRate": 1.4,
+        "picks": 4808
       },
       "open": {
-        "winRate": 47.32,
+        "winRate": 47.36,
         "playRate": 1.43,
-        "picks": 2743
+        "picks": 2747
       },
       "nomad": {
-        "winRate": 36.05,
+        "winRate": 36.9,
         "playRate": 1.02,
-        "picks": 86
+        "picks": 84
       },
       "closed": {
-        "winRate": 47.15,
+        "winRate": 47.08,
         "playRate": 1.27,
-        "picks": 615
+        "picks": 616
       }
     },
     "strongAgainst": [
@@ -358,14 +358,14 @@
         "winRate": 57.14
       },
       {
-        "name": "byzantines",
-        "games": 165,
-        "winRate": 56.97
-      },
-      {
         "name": "ethiopians",
         "games": 167,
         "winRate": 56.89
+      },
+      {
+        "name": "byzantines",
+        "games": 164,
+        "winRate": 56.71
       },
       {
         "name": "saxons",
@@ -376,13 +376,13 @@
     "weakAgainst": [
       {
         "name": "georgians",
-        "games": 81,
-        "winRate": 33.33
+        "games": 80,
+        "winRate": 33.75
       },
       {
         "name": "vikings",
-        "games": 163,
-        "winRate": 38.65
+        "games": 161,
+        "winRate": 38.51
       },
       {
         "name": "huns",
@@ -396,8 +396,8 @@
       },
       {
         "name": "mongols",
-        "games": 358,
-        "winRate": 40.22
+        "games": 359,
+        "winRate": 39.83
       }
     ]
   },

@@ -352,34 +352,34 @@
   "stats": {
     "winRate": 49.12,
     "playRate": 1.49,
-    "picks": 8835,
+    "picks": 8842,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wei",
     "byMapType": {
-      "open": {
-        "winRate": 50.36,
-        "playRate": 1.6,
-        "picks": 3072
-      },
       "other": {
-        "winRate": 48.73,
+        "winRate": 48.75,
         "playRate": 1.46,
-        "picks": 5017
+        "picks": 5028
+      },
+      "open": {
+        "winRate": 50.33,
+        "playRate": 1.6,
+        "picks": 3070
       },
       "nomad": {
-        "winRate": 48.11,
-        "playRate": 1.26,
-        "picks": 106
+        "winRate": 47.57,
+        "playRate": 1.25,
+        "picks": 103
       },
       "closed": {
-        "winRate": 46.41,
+        "winRate": 46.49,
         "playRate": 1.33,
-        "picks": 640
+        "picks": 641
       }
     },
     "strongAgainst": [
@@ -390,18 +390,18 @@
       },
       {
         "name": "incas",
-        "games": 142,
-        "winRate": 57.75
-      },
-      {
-        "name": "vietnamese",
-        "games": 210,
-        "winRate": 57.62
+        "games": 140,
+        "winRate": 58.57
       },
       {
         "name": "vikings",
-        "games": 161,
-        "winRate": 57.14
+        "games": 160,
+        "winRate": 58.13
+      },
+      {
+        "name": "vietnamese",
+        "games": 209,
+        "winRate": 57.42
       },
       {
         "name": "slavs",
@@ -412,8 +412,8 @@
     "weakAgainst": [
       {
         "name": "malians",
-        "games": 143,
-        "winRate": 34.97
+        "games": 144,
+        "winRate": 35.42
       },
       {
         "name": "wu",
@@ -432,8 +432,8 @@
       },
       {
         "name": "bengalis",
-        "games": 135,
-        "winRate": 41.48
+        "games": 136,
+        "winRate": 41.91
       }
     ]
   },

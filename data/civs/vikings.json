@@ -360,46 +360,46 @@
   "stats": {
     "winRate": 52.87,
     "playRate": 1.8,
-    "picks": 10685,
+    "picks": 10678,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/vikings",
     "byMapType": {
-      "nomad": {
-        "winRate": 50.61,
-        "playRate": 1.94,
-        "picks": 164
-      },
       "other": {
-        "winRate": 52.54,
+        "winRate": 52.51,
         "playRate": 1.82,
-        "picks": 6256
+        "picks": 6252
       },
       "open": {
-        "winRate": 53.52,
+        "winRate": 53.53,
         "playRate": 1.85,
-        "picks": 3554
+        "picks": 3557
+      },
+      "nomad": {
+        "winRate": 50.32,
+        "playRate": 1.89,
+        "picks": 155
       },
       "closed": {
-        "winRate": 53.02,
-        "playRate": 1.47,
-        "picks": 711
+        "winRate": 53.22,
+        "playRate": 1.48,
+        "picks": 714
       }
     },
     "strongAgainst": [
       {
         "name": "saracens",
-        "games": 164,
-        "winRate": 62.8
+        "games": 165,
+        "winRate": 63.03
       },
       {
         "name": "slavs",
-        "games": 163,
-        "winRate": 61.35
+        "games": 161,
+        "winRate": 61.49
       },
       {
         "name": "goths",
@@ -407,14 +407,14 @@
         "winRate": 60.47
       },
       {
-        "name": "magyars",
-        "games": 294,
-        "winRate": 60.2
-      },
-      {
         "name": "danes",
         "games": 110,
         "winRate": 60
+      },
+      {
+        "name": "sicilians",
+        "games": 164,
+        "winRate": 59.76
       }
     ],
     "weakAgainst": [
@@ -424,14 +424,14 @@
         "winRate": 41.3
       },
       {
-        "name": "aztecs",
-        "games": 152,
-        "winRate": 42.76
+        "name": "wei",
+        "games": 160,
+        "winRate": 41.88
       },
       {
-        "name": "wei",
-        "games": 161,
-        "winRate": 42.86
+        "name": "aztecs",
+        "games": 153,
+        "winRate": 43.14
       },
       {
         "name": "ethiopians",

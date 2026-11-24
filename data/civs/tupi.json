@@ -357,53 +357,53 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.64,
+    "winRate": 49.76,
     "playRate": 1.11,
-    "picks": 6585,
+    "picks": 6560,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/tupi",
     "byMapType": {
-      "nomad": {
-        "winRate": 56.41,
-        "playRate": 0.92,
-        "picks": 78
+      "open": {
+        "winRate": 49.98,
+        "playRate": 1.2,
+        "picks": 2307
       },
       "other": {
-        "winRate": 49.73,
+        "winRate": 49.84,
         "playRate": 1.09,
-        "picks": 3746
+        "picks": 3732
       },
-      "open": {
-        "winRate": 49.74,
-        "playRate": 1.2,
-        "picks": 2312
+      "nomad": {
+        "winRate": 54.29,
+        "playRate": 0.85,
+        "picks": 70
       },
       "closed": {
-        "winRate": 47.22,
+        "winRate": 47.23,
         "playRate": 0.93,
-        "picks": 449
+        "picks": 451
       }
     },
     "strongAgainst": [
       {
         "name": "goths",
-        "games": 83,
-        "winRate": 65.06
+        "games": 82,
+        "winRate": 65.85
       },
       {
         "name": "mapuche",
-        "games": 68,
-        "winRate": 63.24
+        "games": 67,
+        "winRate": 62.69
       },
       {
         "name": "jurchens",
-        "games": 75,
-        "winRate": 60
+        "games": 73,
+        "winRate": 60.27
       },
       {
         "name": "berbers",
@@ -424,8 +424,8 @@
       },
       {
         "name": "chinese",
-        "games": 274,
-        "winRate": 38.69
+        "games": 270,
+        "winRate": 38.15
       },
       {
         "name": "bulgarians",
@@ -433,14 +433,14 @@
         "winRate": 39.47
       },
       {
+        "name": "shu",
+        "games": 55,
+        "winRate": 40
+      },
+      {
         "name": "bengalis",
         "games": 81,
         "winRate": 40.74
-      },
-      {
-        "name": "malay",
-        "games": 112,
-        "winRate": 41.07
       }
     ]
   },

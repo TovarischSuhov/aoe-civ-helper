@@ -269,43 +269,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.53,
+    "winRate": 49.47,
     "playRate": 2.34,
-    "picks": 13896,
+    "picks": 13880,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/spanish",
     "byMapType": {
-      "nomad": {
-        "winRate": 53.58,
-        "playRate": 4.47,
-        "picks": 377
-      },
       "other": {
-        "winRate": 49.07,
+        "winRate": 49.06,
         "playRate": 2.34,
-        "picks": 8075
+        "picks": 8059
       },
       "open": {
-        "winRate": 48.66,
+        "winRate": 48.51,
         "playRate": 2.05,
-        "picks": 3927
+        "picks": 3931
+      },
+      "nomad": {
+        "winRate": 53.66,
+        "playRate": 4.49,
+        "picks": 369
       },
       "closed": {
-        "winRate": 53.2,
+        "winRate": 53.12,
         "playRate": 3.14,
-        "picks": 1517
+        "picks": 1521
       }
     },
     "strongAgainst": [
       {
         "name": "celts",
         "games": 217,
-        "winRate": 59.91
+        "winRate": 59.45
       },
       {
         "name": "varangians",
@@ -314,35 +314,35 @@
       },
       {
         "name": "cumans",
-        "games": 237,
-        "winRate": 58.65
+        "games": 236,
+        "winRate": 58.47
+      },
+      {
+        "name": "wei",
+        "games": 211,
+        "winRate": 57.82
       },
       {
         "name": "danes",
         "games": 163,
         "winRate": 57.67
-      },
-      {
-        "name": "jurchens",
-        "games": 151,
-        "winRate": 57.62
       }
     ],
     "weakAgainst": [
       {
         "name": "italians",
-        "games": 271,
-        "winRate": 38.01
+        "games": 270,
+        "winRate": 38.15
       },
       {
         "name": "shu",
-        "games": 123,
-        "winRate": 38.21
+        "games": 124,
+        "winRate": 38.71
       },
       {
         "name": "chinese",
         "games": 335,
-        "winRate": 40
+        "winRate": 39.1
       },
       {
         "name": "bengalis",
@@ -351,8 +351,8 @@
       },
       {
         "name": "bohemians",
-        "games": 320,
-        "winRate": 42.5
+        "games": 319,
+        "winRate": 42.32
       }
     ]
   },

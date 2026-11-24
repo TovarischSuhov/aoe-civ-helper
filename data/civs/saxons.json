@@ -279,12 +279,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 50.06,
-    "playRate": 1.85,
-    "picks": 10978,
+    "winRate": 50.08,
+    "playRate": 1.86,
+    "picks": 11018,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -292,30 +292,30 @@
     "byMapType": {
       "other": {
         "winRate": 49.74,
-        "playRate": 1.92,
-        "picks": 6623
+        "playRate": 1.93,
+        "picks": 6644
       },
       "closed": {
-        "winRate": 52.89,
+        "winRate": 52.88,
         "playRate": 2.08,
-        "picks": 1004
+        "picks": 1006
       },
       "open": {
-        "winRate": 49.66,
-        "playRate": 1.68,
-        "picks": 3224
+        "winRate": 49.71,
+        "playRate": 1.69,
+        "picks": 3241
       },
       "nomad": {
         "winRate": 55.12,
-        "playRate": 1.51,
+        "playRate": 1.55,
         "picks": 127
       }
     },
     "strongAgainst": [
       {
         "name": "malians",
-        "games": 137,
-        "winRate": 59.12
+        "games": 138,
+        "winRate": 59.42
       },
       {
         "name": "berbers",
@@ -341,18 +341,13 @@
     "weakAgainst": [
       {
         "name": "dravidians",
-        "games": 116,
-        "winRate": 38.79
+        "games": 117,
+        "winRate": 38.46
       },
       {
         "name": "georgians",
-        "games": 91,
-        "winRate": 39.56
-      },
-      {
-        "name": "khitans",
-        "games": 98,
-        "winRate": 41.84
+        "games": 92,
+        "winRate": 40.22
       },
       {
         "name": "shu",
@@ -361,8 +356,13 @@
       },
       {
         "name": "khmer",
-        "games": 247,
-        "winRate": 42.11
+        "games": 249,
+        "winRate": 42.17
+      },
+      {
+        "name": "khitans",
+        "games": 99,
+        "winRate": 42.42
       }
     ]
   },

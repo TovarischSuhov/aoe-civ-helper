@@ -340,48 +340,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.16,
-    "playRate": 1.91,
-    "picks": 11305,
+    "winRate": 49.2,
+    "playRate": 1.9,
+    "picks": 11286,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T02:55:17.000Z",
+    "updated": "2026-11-24T14:55:22.000Z",
     "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
-      "other": {
-        "winRate": 48.73,
-        "playRate": 1.81,
-        "picks": 6228
-      },
       "open": {
-        "winRate": 47.89,
+        "winRate": 47.9,
         "playRate": 1.85,
-        "picks": 3558
+        "picks": 3549
+      },
+      "other": {
+        "winRate": 48.81,
+        "playRate": 1.81,
+        "picks": 6218
       },
       "nomad": {
-        "winRate": 46.09,
-        "playRate": 1.52,
-        "picks": 128
+        "winRate": 46.03,
+        "playRate": 1.53,
+        "picks": 126
       },
       "closed": {
-        "winRate": 54.57,
+        "winRate": 54.56,
         "playRate": 2.88,
-        "picks": 1391
+        "picks": 1393
       }
     },
     "strongAgainst": [
       {
+        "name": "teutons",
+        "games": 226,
+        "winRate": 57.08
+      },
+      {
         "name": "varangians",
         "games": 185,
         "winRate": 56.76
-      },
-      {
-        "name": "teutons",
-        "games": 226,
-        "winRate": 56.64
       },
       {
         "name": "muisca",
@@ -402,28 +402,28 @@
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 244,
-        "winRate": 39.34
-      },
-      {
-        "name": "romans",
-        "games": 137,
-        "winRate": 41.61
+        "games": 243,
+        "winRate": 39.51
       },
       {
         "name": "khitans",
-        "games": 114,
-        "winRate": 42.11
+        "games": 115,
+        "winRate": 41.74
+      },
+      {
+        "name": "romans",
+        "games": 136,
+        "winRate": 41.91
+      },
+      {
+        "name": "japanese",
+        "games": 274,
+        "winRate": 41.97
       },
       {
         "name": "vikings",
-        "games": 197,
-        "winRate": 42.13
-      },
-      {
-        "name": "tupi",
-        "games": 92,
-        "winRate": 42.39
+        "games": 196,
+        "winRate": 42.35
       }
     ]
   },
