@@ -351,58 +351,58 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.09,
+    "winRate": 51.06,
     "playRate": 1.05,
-    "picks": 6248,
+    "picks": 6250,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-23T14:45:09.000Z",
-    "window": "2026-08-31 → 2026-11-23",
+    "updated": "2026-11-24T02:55:17.000Z",
+    "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/wu",
     "byMapType": {
       "other": {
-        "winRate": 52.29,
+        "winRate": 52.26,
         "playRate": 1.05,
-        "picks": 3607
-      },
-      "open": {
-        "winRate": 50.39,
-        "playRate": 1.06,
-        "picks": 2034
+        "picks": 3605
       },
       "nomad": {
-        "winRate": 50.83,
-        "playRate": 1.37,
-        "picks": 120
+        "winRate": 50.85,
+        "playRate": 1.4,
+        "picks": 118
+      },
+      "open": {
+        "winRate": 50.32,
+        "playRate": 1.06,
+        "picks": 2039
       },
       "closed": {
-        "winRate": 45.17,
+        "winRate": 45.29,
         "playRate": 1.01,
-        "picks": 487
+        "picks": 488
       }
     },
     "strongAgainst": [
+      {
+        "name": "gurjaras",
+        "games": 102,
+        "winRate": 64.71
+      },
       {
         "name": "varangians",
         "games": 87,
         "winRate": 64.37
       },
       {
-        "name": "gurjaras",
-        "games": 103,
-        "winRate": 64.08
-      },
-      {
         "name": "incas",
-        "games": 120,
-        "winRate": 62.5
+        "games": 115,
+        "winRate": 63.48
       },
       {
         "name": "wei",
-        "games": 94,
-        "winRate": 61.7
+        "games": 95,
+        "winRate": 62.11
       },
       {
         "name": "slavs",
@@ -414,27 +414,27 @@
       {
         "name": "bohemians",
         "games": 116,
-        "winRate": 38.79
+        "winRate": 39.66
       },
       {
         "name": "chinese",
-        "games": 136,
-        "winRate": 38.97
+        "games": 138,
+        "winRate": 39.86
       },
       {
         "name": "malians",
-        "games": 113,
-        "winRate": 41.59
+        "games": 115,
+        "winRate": 40.87
+      },
+      {
+        "name": "muisca",
+        "games": 49,
+        "winRate": 42.86
       },
       {
         "name": "celts",
         "games": 106,
         "winRate": 43.4
-      },
-      {
-        "name": "muisca",
-        "games": 48,
-        "winRate": 43.75
       }
     ]
   },

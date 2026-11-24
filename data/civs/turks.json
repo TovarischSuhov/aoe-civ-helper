@@ -361,53 +361,53 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.81,
+    "winRate": 48.87,
     "playRate": 1.67,
-    "picks": 9901,
+    "picks": 9904,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-23T14:45:09.000Z",
-    "window": "2026-08-31 → 2026-11-23",
+    "updated": "2026-11-24T02:55:17.000Z",
+    "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/turks",
     "byMapType": {
-      "open": {
-        "winRate": 47.67,
-        "playRate": 1.4,
-        "picks": 2685
+      "nomad": {
+        "winRate": 47.44,
+        "playRate": 1.85,
+        "picks": 156
       },
       "other": {
-        "winRate": 48.33,
+        "winRate": 48.51,
         "playRate": 1.62,
         "picks": 5568
       },
-      "nomad": {
-        "winRate": 47.17,
-        "playRate": 1.82,
-        "picks": 159
+      "open": {
+        "winRate": 47.53,
+        "playRate": 1.4,
+        "picks": 2687
       },
       "closed": {
-        "winRate": 52.85,
-        "playRate": 3.1,
-        "picks": 1489
+        "winRate": 52.78,
+        "playRate": 3.09,
+        "picks": 1493
       }
     },
     "strongAgainst": [
       {
         "name": "danes",
-        "games": 97,
-        "winRate": 65.98
+        "games": 98,
+        "winRate": 65.31
       },
       {
         "name": "saracens",
-        "games": 154,
-        "winRate": 61.04
+        "games": 157,
+        "winRate": 60.51
       },
       {
         "name": "varangians",
-        "games": 131,
-        "winRate": 59.54
+        "games": 132,
+        "winRate": 59.09
       },
       {
         "name": "slavs",
@@ -416,35 +416,35 @@
       },
       {
         "name": "bohemians",
-        "games": 315,
-        "winRate": 57.46
+        "games": 312,
+        "winRate": 57.37
       }
     ],
     "weakAgainst": [
       {
         "name": "japanese",
-        "games": 215,
-        "winRate": 37.67
+        "games": 214,
+        "winRate": 37.85
       },
       {
         "name": "mayans",
-        "games": 149,
-        "winRate": 38.26
-      },
-      {
-        "name": "persians",
-        "games": 206,
-        "winRate": 39.81
+        "games": 150,
+        "winRate": 38
       },
       {
         "name": "gurjaras",
-        "games": 146,
-        "winRate": 40.41
+        "games": 147,
+        "winRate": 40.14
+      },
+      {
+        "name": "persians",
+        "games": 204,
+        "winRate": 40.2
       },
       {
         "name": "hindustanis",
-        "games": 191,
-        "winRate": 42.41
+        "games": 193,
+        "winRate": 41.97
       }
     ]
   },

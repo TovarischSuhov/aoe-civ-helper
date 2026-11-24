@@ -366,31 +366,31 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.88,
-    "playRate": 1.61,
-    "picks": 9523,
+    "winRate": 47.93,
+    "playRate": 1.6,
+    "picks": 9506,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-23T14:45:09.000Z",
-    "window": "2026-08-31 → 2026-11-23",
+    "updated": "2026-11-24T02:55:17.000Z",
+    "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
-      "open": {
-        "winRate": 47.74,
-        "playRate": 1.71,
-        "picks": 3268
-      },
       "other": {
-        "winRate": 47.97,
-        "playRate": 1.59,
-        "picks": 5474
+        "winRate": 47.96,
+        "playRate": 1.58,
+        "picks": 5461
       },
       "nomad": {
-        "winRate": 57.04,
-        "playRate": 1.54,
-        "picks": 135
+        "winRate": 57.89,
+        "playRate": 1.58,
+        "picks": 133
+      },
+      "open": {
+        "winRate": 47.86,
+        "playRate": 1.7,
+        "picks": 3266
       },
       "closed": {
         "winRate": 45.98,
@@ -406,30 +406,35 @@
       },
       {
         "name": "wei",
-        "games": 122,
-        "winRate": 57.38
+        "games": 121,
+        "winRate": 57.85
       },
       {
         "name": "magyars",
-        "games": 255,
-        "winRate": 57.25
+        "games": 253,
+        "winRate": 57.31
+      },
+      {
+        "name": "jurchens",
+        "games": 107,
+        "winRate": 57.01
       },
       {
         "name": "dravidians",
-        "games": 150,
-        "winRate": 56.67
-      },
-      {
-        "name": "poles",
-        "games": 191,
-        "winRate": 56.54
+        "games": 151,
+        "winRate": 56.95
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 181,
-        "winRate": 39.78
+        "games": 180,
+        "winRate": 40
+      },
+      {
+        "name": "italians",
+        "games": 157,
+        "winRate": 40.76
       },
       {
         "name": "saxons",
@@ -437,14 +442,9 @@
         "winRate": 40.91
       },
       {
-        "name": "persians",
-        "games": 217,
-        "winRate": 41.01
-      },
-      {
-        "name": "italians",
-        "games": 158,
-        "winRate": 41.14
+        "name": "tupi",
+        "games": 111,
+        "winRate": 41.44
       },
       {
         "name": "mayans",

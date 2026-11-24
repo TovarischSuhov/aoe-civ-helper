@@ -289,53 +289,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.2,
-    "playRate": 1.76,
-    "picks": 10429,
+    "winRate": 48.18,
+    "playRate": 1.77,
+    "picks": 10471,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-23T14:45:09.000Z",
-    "window": "2026-08-31 → 2026-11-23",
+    "updated": "2026-11-24T02:55:17.000Z",
+    "window": "2026-09-01 → 2026-11-24",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
       "other": {
         "winRate": 48.86,
-        "playRate": 1.78,
-        "picks": 6128
+        "playRate": 1.79,
+        "picks": 6159
       },
       "open": {
-        "winRate": 47.45,
+        "winRate": 47.36,
         "playRate": 1.79,
-        "picks": 3433
+        "picks": 3444
       },
       "nomad": {
-        "winRate": 48.51,
-        "playRate": 1.53,
-        "picks": 134
+        "winRate": 48.09,
+        "playRate": 1.55,
+        "picks": 131
       },
       "closed": {
-        "winRate": 46.19,
+        "winRate": 46.4,
         "playRate": 1.53,
-        "picks": 734
+        "picks": 737
       }
     },
     "strongAgainst": [
       {
         "name": "byzantines",
-        "games": 172,
-        "winRate": 61.63
+        "games": 175,
+        "winRate": 61.71
       },
       {
         "name": "mapuche",
-        "games": 107,
-        "winRate": 57.01
-      },
-      {
-        "name": "turks",
-        "games": 166,
-        "winRate": 56.63
+        "games": 109,
+        "winRate": 57.8
       },
       {
         "name": "goths",
@@ -343,36 +338,41 @@
         "winRate": 56.47
       },
       {
-        "name": "koreans",
-        "games": 186,
-        "winRate": 55.91
+        "name": "turks",
+        "games": 167,
+        "winRate": 56.29
+      },
+      {
+        "name": "jurchens",
+        "games": 130,
+        "winRate": 56.15
       }
     ],
     "weakAgainst": [
       {
-        "name": "romans",
-        "games": 159,
-        "winRate": 38.99
+        "name": "bohemians",
+        "games": 171,
+        "winRate": 38.6
       },
       {
-        "name": "bohemians",
-        "games": 169,
-        "winRate": 39.05
+        "name": "romans",
+        "games": 158,
+        "winRate": 39.24
       },
       {
         "name": "chinese",
-        "games": 237,
-        "winRate": 39.66
+        "games": 239,
+        "winRate": 39.75
       },
       {
-        "name": "japanese",
-        "games": 282,
-        "winRate": 40.78
+        "name": "malay",
+        "games": 181,
+        "winRate": 40.33
       },
       {
         "name": "vikings",
-        "games": 164,
-        "winRate": 41.46
+        "games": 166,
+        "winRate": 40.96
       }
     ]
   },
