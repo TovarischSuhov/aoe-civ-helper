@@ -340,39 +340,44 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.17,
+    "winRate": 49.15,
     "playRate": 1.9,
-    "picks": 11270,
+    "picks": 11238,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T00:48:31.000Z",
+    "updated": "2026-11-25T14:29:00.000Z",
     "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
       "other": {
-        "winRate": 48.79,
-        "playRate": 1.81,
-        "picks": 6206
-      },
-      "nomad": {
-        "winRate": 45.9,
-        "playRate": 1.53,
-        "picks": 122
+        "winRate": 48.77,
+        "playRate": 1.8,
+        "picks": 6180
       },
       "open": {
-        "winRate": 47.83,
+        "winRate": 47.77,
         "playRate": 1.84,
-        "picks": 3546
+        "picks": 3540
       },
       "closed": {
         "winRate": 54.58,
         "playRate": 2.88,
         "picks": 1396
+      },
+      "nomad": {
+        "winRate": 46.72,
+        "playRate": 1.53,
+        "picks": 122
       }
     },
     "strongAgainst": [
+      {
+        "name": "portuguese",
+        "games": 183,
+        "winRate": 56.83
+      },
       {
         "name": "muisca",
         "games": 111,
@@ -384,26 +389,21 @@
         "winRate": 56.76
       },
       {
-        "name": "portuguese",
-        "games": 184,
-        "winRate": 56.52
-      },
-      {
         "name": "teutons",
-        "games": 225,
-        "winRate": 56.44
+        "games": 224,
+        "winRate": 56.25
       },
       {
         "name": "saracens",
-        "games": 153,
-        "winRate": 54.9
+        "games": 150,
+        "winRate": 55.33
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 245,
-        "winRate": 39.18
+        "games": 241,
+        "winRate": 39
       },
       {
         "name": "tupi",
@@ -411,14 +411,14 @@
         "winRate": 41.76
       },
       {
+        "name": "japanese",
+        "games": 272,
+        "winRate": 41.91
+      },
+      {
         "name": "vikings",
         "games": 198,
         "winRate": 41.92
-      },
-      {
-        "name": "japanese",
-        "games": 274,
-        "winRate": 41.97
       },
       {
         "name": "khitans",

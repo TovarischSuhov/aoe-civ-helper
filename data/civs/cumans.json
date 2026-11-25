@@ -330,36 +330,41 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 47.96,
-    "playRate": 1.68,
-    "picks": 9935,
+    "winRate": 48.1,
+    "playRate": 1.67,
+    "picks": 9916,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T00:48:31.000Z",
+    "updated": "2026-11-25T14:29:00.000Z",
     "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/cumans",
     "byMapType": {
-      "other": {
-        "winRate": 47.99,
-        "playRate": 1.67,
-        "picks": 5728
-      },
       "open": {
-        "winRate": 46.93,
-        "playRate": 1.52,
-        "picks": 2932
+        "winRate": 47.06,
+        "playRate": 1.53,
+        "picks": 2939
+      },
+      "other": {
+        "winRate": 48.13,
+        "playRate": 1.66,
+        "picks": 5705
       },
       "closed": {
-        "winRate": 51.22,
-        "playRate": 2.36,
-        "picks": 1146
+        "winRate": 51.4,
+        "playRate": 2.35,
+        "picks": 1140
       },
       "nomad": {
-        "winRate": 41.09,
-        "playRate": 1.61,
-        "picks": 129
+        "winRate": 40.77,
+        "playRate": 1.63,
+        "picks": 130
+      },
+      "water": {
+        "winRate": 100,
+        "playRate": 2.22,
+        "picks": 2
       }
     },
     "strongAgainst": [
@@ -370,13 +375,13 @@
       },
       {
         "name": "jurchens",
-        "games": 131,
-        "winRate": 57.25
+        "games": 130,
+        "winRate": 57.69
       },
       {
         "name": "slavs",
-        "games": 157,
-        "winRate": 56.05
+        "games": 160,
+        "winRate": 56.25
       },
       {
         "name": "berbers",
@@ -385,30 +390,30 @@
       },
       {
         "name": "vietnamese",
-        "games": 199,
-        "winRate": 55.28
+        "games": 198,
+        "winRate": 55.56
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
-        "games": 195,
-        "winRate": 39.49
+        "games": 196,
+        "winRate": 39.29
       },
       {
         "name": "celts",
         "games": 182,
-        "winRate": 40.11
+        "winRate": 40.66
       },
       {
         "name": "spanish",
-        "games": 235,
-        "winRate": 41.28
+        "games": 234,
+        "winRate": 41.45
       },
       {
         "name": "britons",
-        "games": 210,
-        "winRate": 41.43
+        "games": 208,
+        "winRate": 41.83
       },
       {
         "name": "mapuche",

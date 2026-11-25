@@ -355,38 +355,38 @@
     "picks": 11159,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T00:48:31.000Z",
+    "updated": "2026-11-25T14:29:00.000Z",
     "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
       "other": {
-        "winRate": 50.58,
+        "winRate": 50.53,
         "playRate": 1.87,
-        "picks": 6410
+        "picks": 6408
+      },
+      "closed": {
+        "winRate": 50.79,
+        "playRate": 1.69,
+        "picks": 819
       },
       "open": {
-        "winRate": 50.29,
+        "winRate": 50.31,
         "playRate": 1.98,
         "picks": 3812
       },
       "nomad": {
-        "winRate": 46.22,
-        "playRate": 1.49,
-        "picks": 119
-      },
-      "closed": {
-        "winRate": 50.61,
-        "playRate": 1.69,
-        "picks": 818
+        "winRate": 46.67,
+        "playRate": 1.5,
+        "picks": 120
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 163,
-        "winRate": 64.42
+        "games": 160,
+        "winRate": 65
       },
       {
         "name": "varangians",
@@ -395,8 +395,8 @@
       },
       {
         "name": "britons",
-        "games": 207,
-        "winRate": 61.35
+        "games": 206,
+        "winRate": 61.17
       },
       {
         "name": "danes",
@@ -405,8 +405,8 @@
       },
       {
         "name": "dravidians",
-        "games": 138,
-        "winRate": 57.97
+        "games": 139,
+        "winRate": 57.55
       }
     ],
     "weakAgainst": [
@@ -427,13 +427,13 @@
       },
       {
         "name": "gurjaras",
-        "games": 141,
-        "winRate": 44.68
+        "games": 140,
+        "winRate": 44.29
       },
       {
-        "name": "mongols",
-        "games": 629,
-        "winRate": 44.99
+        "name": "japanese",
+        "games": 302,
+        "winRate": 45.03
       }
     ]
   },

@@ -295,43 +295,43 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.53,
+    "winRate": 49.49,
     "playRate": 1.18,
-    "picks": 6961,
+    "picks": 6967,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T00:48:31.000Z",
+    "updated": "2026-11-25T14:29:00.000Z",
     "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
       "other": {
-        "winRate": 49.29,
+        "winRate": 49.23,
         "playRate": 1.21,
-        "picks": 4141
+        "picks": 4146
       },
       "open": {
-        "winRate": 50.83,
+        "winRate": 50.75,
         "playRate": 1.18,
-        "picks": 2276
-      },
-      "nomad": {
-        "winRate": 46.05,
-        "playRate": 0.95,
-        "picks": 76
+        "picks": 2280
       },
       "closed": {
-        "winRate": 45.94,
+        "winRate": 46.14,
         "playRate": 0.96,
-        "picks": 468
+        "picks": 466
+      },
+      "nomad": {
+        "winRate": 46.67,
+        "playRate": 0.94,
+        "picks": 75
       }
     },
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 79,
-        "winRate": 65.82
+        "games": 80,
+        "winRate": 66.25
       },
       {
         "name": "burmese",
@@ -345,20 +345,20 @@
       },
       {
         "name": "jurchens",
-        "games": 79,
-        "winRate": 58.23
+        "games": 80,
+        "winRate": 58.75
       },
       {
-        "name": "portuguese",
-        "games": 118,
-        "winRate": 57.63
+        "name": "muisca",
+        "games": 71,
+        "winRate": 57.75
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 192,
-        "winRate": 41.15
+        "games": 194,
+        "winRate": 40.72
       },
       {
         "name": "mayans",
@@ -372,13 +372,13 @@
       },
       {
         "name": "vietnamese",
-        "games": 122,
-        "winRate": 42.62
+        "games": 121,
+        "winRate": 42.15
       },
       {
-        "name": "bohemians",
-        "games": 136,
-        "winRate": 42.65
+        "name": "magyars",
+        "games": 197,
+        "winRate": 42.64
       }
     ]
   },

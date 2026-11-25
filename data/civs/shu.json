@@ -352,36 +352,41 @@
     "takeaway": "Lumberjacks that also generate food fund an archer + fast-siege + War Chariot castle-age push — overwhelming early-castle pressure, though it falls off late (like Celts)."
   },
   "stats": {
-    "winRate": 50.78,
+    "winRate": 50.68,
     "playRate": 0.92,
-    "picks": 5477,
+    "picks": 5466,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T00:48:31.000Z",
+    "updated": "2026-11-25T14:29:00.000Z",
     "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/shu",
     "byMapType": {
-      "open": {
-        "winRate": 51.94,
-        "playRate": 0.95,
-        "picks": 1827
-      },
       "other": {
-        "winRate": 50.95,
+        "winRate": 50.84,
         "playRate": 0.92,
-        "picks": 3172
+        "picks": 3163
+      },
+      "closed": {
+        "winRate": 46.67,
+        "playRate": 0.83,
+        "picks": 405
+      },
+      "open": {
+        "winRate": 51.95,
+        "playRate": 0.95,
+        "picks": 1823
       },
       "nomad": {
-        "winRate": 36.49,
+        "winRate": 35.14,
         "playRate": 0.93,
         "picks": 74
       },
-      "closed": {
-        "winRate": 46.78,
-        "playRate": 0.83,
-        "picks": 404
+      "water": {
+        "winRate": 0,
+        "playRate": 1.11,
+        "picks": 1
       }
     },
     "strongAgainst": [
@@ -407,8 +412,8 @@
       },
       {
         "name": "spanish",
-        "games": 121,
-        "winRate": 60.33
+        "games": 120,
+        "winRate": 60
       }
     ],
     "weakAgainst": [
@@ -419,18 +424,18 @@
       },
       {
         "name": "hindustanis",
-        "games": 102,
-        "winRate": 36.27
+        "games": 104,
+        "winRate": 36.54
       },
       {
         "name": "chinese",
-        "games": 141,
-        "winRate": 38.3
+        "games": 140,
+        "winRate": 37.86
       },
       {
         "name": "khmer",
-        "games": 121,
-        "winRate": 41.32
+        "games": 119,
+        "winRate": 42.02
       },
       {
         "name": "aztecs",

@@ -347,48 +347,53 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.92,
-    "playRate": 1.49,
-    "picks": 8847,
+    "winRate": 49.87,
+    "playRate": 1.5,
+    "picks": 8859,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T00:48:31.000Z",
+    "updated": "2026-11-25T14:29:00.000Z",
     "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
-      "other": {
-        "winRate": 50.42,
-        "playRate": 1.46,
-        "picks": 5020
-      },
       "open": {
-        "winRate": 49.92,
+        "winRate": 49.83,
         "playRate": 1.54,
-        "picks": 2953
+        "picks": 2956
+      },
+      "other": {
+        "winRate": 50.37,
+        "playRate": 1.47,
+        "picks": 5029
       },
       "closed": {
-        "winRate": 47.28,
+        "winRate": 47.47,
         "playRate": 1.55,
-        "picks": 753
+        "picks": 752
       },
       "nomad": {
-        "winRate": 45.45,
-        "playRate": 1.51,
-        "picks": 121
+        "winRate": 45.08,
+        "playRate": 1.53,
+        "picks": 122
       }
     },
     "strongAgainst": [
+      {
+        "name": "vietnamese",
+        "games": 181,
+        "winRate": 58.01
+      },
       {
         "name": "shu",
         "games": 95,
         "winRate": 57.89
       },
       {
-        "name": "vietnamese",
-        "games": 178,
-        "winRate": 57.87
+        "name": "tatars",
+        "games": 162,
+        "winRate": 56.79
       },
       {
         "name": "vikings",
@@ -396,31 +401,26 @@
         "winRate": 56.58
       },
       {
-        "name": "tatars",
-        "games": 161,
-        "winRate": 56.52
-      },
-      {
-        "name": "danes",
-        "games": 105,
-        "winRate": 56.19
+        "name": "saracens",
+        "games": 157,
+        "winRate": 56.05
       }
     ],
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 422,
-        "winRate": 38.63
+        "games": 421,
+        "winRate": 38.48
       },
       {
         "name": "franks",
-        "games": 163,
-        "winRate": 42.94
+        "games": 162,
+        "winRate": 43.21
       },
       {
         "name": "malians",
-        "games": 158,
-        "winRate": 43.04
+        "games": 159,
+        "winRate": 43.4
       },
       {
         "name": "celts",
