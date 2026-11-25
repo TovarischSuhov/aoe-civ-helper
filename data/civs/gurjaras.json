@@ -371,36 +371,36 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.75,
+    "winRate": 48.66,
     "playRate": 1.25,
-    "picks": 7403,
+    "picks": 7394,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T14:55:22.000Z",
-    "window": "2026-09-01 → 2026-11-24",
+    "updated": "2026-11-25T00:48:31.000Z",
+    "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/gurjaras",
     "byMapType": {
+      "nomad": {
+        "winRate": 49.57,
+        "playRate": 1.46,
+        "picks": 117
+      },
       "other": {
-        "winRate": 49.02,
+        "winRate": 48.86,
         "playRate": 1.26,
-        "picks": 4349
+        "picks": 4339
       },
       "open": {
-        "winRate": 48.4,
+        "winRate": 48.45,
         "playRate": 1.22,
-        "picks": 2351
-      },
-      "nomad": {
-        "winRate": 49.58,
-        "playRate": 1.45,
-        "picks": 119
+        "picks": 2353
       },
       "closed": {
-        "winRate": 47.95,
+        "winRate": 47.86,
         "playRate": 1.21,
-        "picks": 584
+        "picks": 585
       }
     },
     "strongAgainst": [
@@ -410,14 +410,14 @@
         "winRate": 60.95
       },
       {
-        "name": "danes",
-        "games": 65,
-        "winRate": 60
-      },
-      {
         "name": "turks",
         "games": 147,
-        "winRate": 59.86
+        "winRate": 60.54
+      },
+      {
+        "name": "danes",
+        "games": 67,
+        "winRate": 59.7
       },
       {
         "name": "varangians",
@@ -425,36 +425,36 @@
         "winRate": 58.95
       },
       {
-        "name": "tatars",
-        "games": 131,
-        "winRate": 58.78
+        "name": "khitans",
+        "games": 108,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "wu",
         "games": 101,
-        "winRate": 35.64
+        "winRate": 34.65
       },
       {
         "name": "koreans",
-        "games": 131,
-        "winRate": 35.88
-      },
-      {
-        "name": "muisca",
-        "games": 64,
-        "winRate": 37.5
+        "games": 133,
+        "winRate": 36.09
       },
       {
         "name": "malians",
-        "games": 130,
-        "winRate": 37.69
+        "games": 128,
+        "winRate": 36.72
+      },
+      {
+        "name": "muisca",
+        "games": 65,
+        "winRate": 36.92
       },
       {
         "name": "malay",
-        "games": 146,
-        "winRate": 38.36
+        "games": 147,
+        "winRate": 38.1
       }
     ]
   },

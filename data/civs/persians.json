@@ -328,36 +328,36 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.21,
+    "winRate": 51.22,
     "playRate": 2.66,
-    "picks": 15757,
+    "picks": 15747,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T14:55:22.000Z",
-    "window": "2026-09-01 → 2026-11-24",
+    "updated": "2026-11-25T00:48:31.000Z",
+    "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/persians",
     "byMapType": {
-      "other": {
-        "winRate": 51.38,
-        "playRate": 2.63,
-        "picks": 9048
-      },
       "open": {
-        "winRate": 51.49,
+        "winRate": 51.41,
         "playRate": 2.82,
-        "picks": 5411
+        "picks": 5421
+      },
+      "other": {
+        "winRate": 51.46,
+        "playRate": 2.63,
+        "picks": 9034
       },
       "nomad": {
-        "winRate": 51.74,
-        "playRate": 3.86,
-        "picks": 317
+        "winRate": 51.61,
+        "playRate": 3.88,
+        "picks": 310
       },
       "closed": {
-        "winRate": 47.91,
-        "playRate": 2.03,
-        "picks": 981
+        "winRate": 47.86,
+        "playRate": 2.02,
+        "picks": 982
       }
     },
     "strongAgainst": [
@@ -373,45 +373,45 @@
       },
       {
         "name": "berbers",
-        "games": 217,
-        "winRate": 58.53
+        "games": 218,
+        "winRate": 58.26
       },
       {
         "name": "portuguese",
-        "games": 223,
-        "winRate": 57.85
+        "games": 221,
+        "winRate": 57.47
       },
       {
-        "name": "tupi",
-        "games": 186,
-        "winRate": 57.53
+        "name": "wei",
+        "games": 234,
+        "winRate": 57.26
       }
     ],
     "weakAgainst": [
       {
-        "name": "aztecs",
-        "games": 188,
-        "winRate": 44.15
+        "name": "koreans",
+        "games": 240,
+        "winRate": 44.17
       },
       {
-        "name": "koreans",
-        "games": 242,
-        "winRate": 44.63
+        "name": "aztecs",
+        "games": 189,
+        "winRate": 44.44
       },
       {
         "name": "huns",
         "games": 338,
-        "winRate": 44.97
+        "winRate": 44.67
       },
       {
         "name": "vikings",
-        "games": 295,
-        "winRate": 45.08
+        "games": 294,
+        "winRate": 44.9
       },
       {
         "name": "byzantines",
-        "games": 244,
-        "winRate": 45.49
+        "games": 242,
+        "winRate": 45.45
       }
     ]
   },

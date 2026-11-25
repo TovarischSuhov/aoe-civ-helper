@@ -295,48 +295,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.56,
+    "winRate": 49.53,
     "playRate": 1.18,
-    "picks": 6971,
+    "picks": 6961,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-24T14:55:22.000Z",
-    "window": "2026-09-01 → 2026-11-24",
+    "updated": "2026-11-25T00:48:31.000Z",
+    "window": "2026-09-02 → 2026-11-25",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "open": {
-        "winRate": 50.9,
-        "playRate": 1.18,
-        "picks": 2271
-      },
       "other": {
-        "winRate": 49.28,
+        "winRate": 49.29,
         "playRate": 1.21,
-        "picks": 4158
+        "picks": 4141
+      },
+      "open": {
+        "winRate": 50.83,
+        "playRate": 1.18,
+        "picks": 2276
       },
       "nomad": {
-        "winRate": 46.75,
-        "playRate": 0.94,
-        "picks": 77
+        "winRate": 46.05,
+        "playRate": 0.95,
+        "picks": 76
       },
       "closed": {
-        "winRate": 46.02,
+        "winRate": 45.94,
         "playRate": 0.96,
-        "picks": 465
+        "picks": 468
       }
     },
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 80,
-        "winRate": 66.25
+        "games": 79,
+        "winRate": 65.82
       },
       {
         "name": "burmese",
-        "games": 85,
-        "winRate": 62.35
+        "games": 84,
+        "winRate": 63.1
       },
       {
         "name": "saxons",
@@ -344,31 +344,31 @@
         "winRate": 59.78
       },
       {
-        "name": "varangians",
-        "games": 125,
-        "winRate": 57.6
+        "name": "jurchens",
+        "games": 79,
+        "winRate": 58.23
       },
       {
-        "name": "jurchens",
-        "games": 80,
-        "winRate": 57.5
+        "name": "portuguese",
+        "games": 118,
+        "winRate": 57.63
       }
     ],
     "weakAgainst": [
       {
-        "name": "romans",
-        "games": 88,
-        "winRate": 40.91
+        "name": "chinese",
+        "games": 192,
+        "winRate": 41.15
       },
       {
         "name": "mayans",
-        "games": 141,
-        "winRate": 41.13
+        "games": 138,
+        "winRate": 41.3
       },
       {
-        "name": "chinese",
-        "games": 196,
-        "winRate": 42.35
+        "name": "romans",
+        "games": 89,
+        "winRate": 41.57
       },
       {
         "name": "vietnamese",
