@@ -286,40 +286,40 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 45.01,
+    "winRate": 44.94,
     "playRate": 1.29,
-    "picks": 7645,
+    "picks": 7672,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T14:29:00.000Z",
-    "window": "2026-09-02 → 2026-11-25",
+    "updated": "2026-11-26T00:26:37.000Z",
+    "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/danes",
     "byMapType": {
       "open": {
-        "winRate": 43.3,
+        "winRate": 43.32,
         "playRate": 1.1,
-        "picks": 2111
+        "picks": 2117
       },
       "other": {
-        "winRate": 46.3,
+        "winRate": 46.2,
         "playRate": 1.39,
-        "picks": 4771
+        "picks": 4788
       },
       "closed": {
-        "winRate": 39.78,
-        "playRate": 1.33,
-        "picks": 646
+        "winRate": 39.72,
+        "playRate": 1.34,
+        "picks": 647
       },
       "nomad": {
-        "winRate": 52.59,
-        "playRate": 1.45,
-        "picks": 116
+        "winRate": 52.1,
+        "playRate": 1.43,
+        "picks": 119
       },
       "water": {
         "winRate": 0,
-        "playRate": 1.11,
+        "playRate": 0.28,
         "picks": 1
       }
     },
@@ -331,8 +331,8 @@
       },
       {
         "name": "berbers",
-        "games": 107,
-        "winRate": 56.07
+        "games": 108,
+        "winRate": 55.56
       },
       {
         "name": "lithuanians",
@@ -340,22 +340,17 @@
         "winRate": 54.21
       },
       {
-        "name": "burgundians",
-        "games": 127,
-        "winRate": 51.97
+        "name": "khitans",
+        "games": 73,
+        "winRate": 52.05
       },
       {
-        "name": "incas",
-        "games": 97,
-        "winRate": 51.55
+        "name": "burgundians",
+        "games": 128,
+        "winRate": 51.56
       }
     ],
     "weakAgainst": [
-      {
-        "name": "turks",
-        "games": 99,
-        "winRate": 34.34
-      },
       {
         "name": "romans",
         "games": 99,
@@ -363,13 +358,18 @@
       },
       {
         "name": "chinese",
-        "games": 199,
-        "winRate": 34.67
+        "games": 200,
+        "winRate": 34.5
       },
       {
         "name": "bohemians",
-        "games": 137,
-        "winRate": 35.04
+        "games": 139,
+        "winRate": 34.53
+      },
+      {
+        "name": "turks",
+        "games": 100,
+        "winRate": 35
       },
       {
         "name": "mapuche",

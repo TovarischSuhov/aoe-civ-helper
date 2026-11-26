@@ -366,48 +366,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 47.96,
+    "winRate": 48.04,
     "playRate": 1.61,
-    "picks": 9510,
+    "picks": 9526,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T14:29:00.000Z",
-    "window": "2026-09-02 → 2026-11-25",
+    "updated": "2026-11-26T00:26:37.000Z",
+    "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/berbers",
     "byMapType": {
-      "other": {
-        "winRate": 48.09,
-        "playRate": 1.59,
-        "picks": 5459
-      },
       "open": {
-        "winRate": 47.82,
+        "winRate": 47.85,
         "playRate": 1.7,
-        "picks": 3277
+        "picks": 3273
+      },
+      "other": {
+        "winRate": 48.14,
+        "playRate": 1.59,
+        "picks": 5471
       },
       "closed": {
-        "winRate": 46,
+        "winRate": 46.38,
         "playRate": 1.34,
-        "picks": 650
+        "picks": 649
       },
       "nomad": {
-        "winRate": 56.45,
-        "playRate": 1.55,
-        "picks": 124
+        "winRate": 56.06,
+        "playRate": 1.59,
+        "picks": 132
+      },
+      "water": {
+        "winRate": 100,
+        "playRate": 0.28,
+        "picks": 1
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 169,
-        "winRate": 59.76
-      },
-      {
-        "name": "jurchens",
-        "games": 106,
-        "winRate": 57.55
+        "games": 170,
+        "winRate": 59.41
       },
       {
         "name": "wei",
@@ -421,25 +421,30 @@
       },
       {
         "name": "dravidians",
-        "games": 153,
-        "winRate": 56.86
+        "games": 154,
+        "winRate": 57.14
+      },
+      {
+        "name": "poles",
+        "games": 191,
+        "winRate": 56.54
       }
     ],
     "weakAgainst": [
       {
         "name": "celts",
-        "games": 178,
-        "winRate": 39.89
-      },
-      {
-        "name": "italians",
-        "games": 155,
-        "winRate": 40.65
+        "games": 175,
+        "winRate": 40
       },
       {
         "name": "mapuche",
-        "games": 102,
-        "winRate": 41.18
+        "games": 101,
+        "winRate": 40.59
+      },
+      {
+        "name": "italians",
+        "games": 157,
+        "winRate": 40.76
       },
       {
         "name": "tupi",

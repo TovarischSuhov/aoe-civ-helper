@@ -347,58 +347,63 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.87,
-    "playRate": 1.5,
-    "picks": 8859,
+    "winRate": 49.77,
+    "playRate": 1.49,
+    "picks": 8860,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-25T14:29:00.000Z",
-    "window": "2026-09-02 → 2026-11-25",
+    "updated": "2026-11-26T00:26:37.000Z",
+    "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/aztecs",
     "byMapType": {
-      "open": {
-        "winRate": 49.83,
-        "playRate": 1.54,
-        "picks": 2956
-      },
       "other": {
-        "winRate": 50.37,
-        "playRate": 1.47,
-        "picks": 5029
+        "winRate": 50.25,
+        "playRate": 1.46,
+        "picks": 5025
+      },
+      "open": {
+        "winRate": 49.75,
+        "playRate": 1.53,
+        "picks": 2953
       },
       "closed": {
-        "winRate": 47.47,
+        "winRate": 47.46,
         "playRate": 1.55,
-        "picks": 752
+        "picks": 748
       },
       "nomad": {
-        "winRate": 45.08,
+        "winRate": 44.88,
         "playRate": 1.53,
-        "picks": 122
+        "picks": 127
+      },
+      "water": {
+        "winRate": 57.14,
+        "playRate": 1.93,
+        "picks": 7
       }
     },
     "strongAgainst": [
       {
         "name": "vietnamese",
         "games": 181,
-        "winRate": 58.01
+        "winRate": 58.56
       },
       {
         "name": "shu",
-        "games": 95,
-        "winRate": 57.89
-      },
-      {
-        "name": "tatars",
-        "games": 162,
-        "winRate": 56.79
+        "games": 96,
+        "winRate": 57.29
       },
       {
         "name": "vikings",
-        "games": 152,
-        "winRate": 56.58
+        "games": 151,
+        "winRate": 56.29
+      },
+      {
+        "name": "danes",
+        "games": 107,
+        "winRate": 56.07
       },
       {
         "name": "saracens",
@@ -409,28 +414,28 @@
     "weakAgainst": [
       {
         "name": "mongols",
-        "games": 421,
-        "winRate": 38.48
+        "games": 419,
+        "winRate": 38.9
       },
       {
         "name": "franks",
-        "games": 162,
-        "winRate": 43.21
-      },
-      {
-        "name": "malians",
-        "games": 159,
-        "winRate": 43.4
+        "games": 163,
+        "winRate": 42.33
       },
       {
         "name": "celts",
-        "games": 169,
-        "winRate": 44.38
+        "games": 168,
+        "winRate": 44.05
       },
       {
-        "name": "teutons",
-        "games": 166,
-        "winRate": 44.58
+        "name": "malians",
+        "games": 156,
+        "winRate": 44.23
+      },
+      {
+        "name": "bulgarians",
+        "games": 175,
+        "winRate": 44.57
       }
     ]
   },
