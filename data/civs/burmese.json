@@ -323,95 +323,95 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.72,
-    "playRate": 1.41,
-    "picks": 8389,
+    "winRate": 48.8,
+    "playRate": 1.42,
+    "picks": 8387,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T00:26:37.000Z",
+    "updated": "2026-11-26T13:57:12.000Z",
     "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burmese",
     "byMapType": {
+      "other": {
+        "winRate": 47.93,
+        "playRate": 1.38,
+        "picks": 4724
+      },
       "open": {
-        "winRate": 48.74,
+        "winRate": 48.84,
         "playRate": 1.44,
         "picks": 2768
       },
-      "other": {
-        "winRate": 47.9,
-        "playRate": 1.38,
-        "picks": 4731
-      },
       "closed": {
-        "winRate": 53.27,
+        "winRate": 53.34,
         "playRate": 1.55,
-        "picks": 749
+        "picks": 748
       },
       "nomad": {
-        "winRate": 51.91,
-        "playRate": 1.58,
-        "picks": 131
+        "winRate": 52.63,
+        "playRate": 1.56,
+        "picks": 133
       },
       "water": {
-        "winRate": 50,
-        "playRate": 2.76,
-        "picks": 10
+        "winRate": 57.14,
+        "playRate": 2.37,
+        "picks": 14
       }
     },
     "strongAgainst": [
       {
-        "name": "gurjaras",
-        "games": 145,
-        "winRate": 56.55
-      },
-      {
         "name": "spanish",
-        "games": 178,
-        "winRate": 56.18
-      },
-      {
-        "name": "teutons",
-        "games": 180,
-        "winRate": 56.11
+        "games": 177,
+        "winRate": 56.5
       },
       {
         "name": "hindustanis",
-        "games": 157,
-        "winRate": 56.05
+        "games": 158,
+        "winRate": 56.33
+      },
+      {
+        "name": "gurjaras",
+        "games": 146,
+        "winRate": 56.16
       },
       {
         "name": "danes",
         "games": 86,
         "winRate": 55.81
+      },
+      {
+        "name": "teutons",
+        "games": 181,
+        "winRate": 55.8
       }
     ],
     "weakAgainst": [
       {
         "name": "shu",
-        "games": 101,
-        "winRate": 36.63
+        "games": 102,
+        "winRate": 37.25
       },
       {
         "name": "georgians",
-        "games": 83,
-        "winRate": 37.35
+        "games": 84,
+        "winRate": 38.1
       },
       {
         "name": "huns",
         "games": 167,
-        "winRate": 39.52
+        "winRate": 40.12
       },
       {
         "name": "japanese",
-        "games": 177,
-        "winRate": 41.81
+        "games": 176,
+        "winRate": 41.48
       },
       {
         "name": "wu",
-        "games": 102,
-        "winRate": 42.16
+        "games": 103,
+        "winRate": 41.75
       }
     ]
   },

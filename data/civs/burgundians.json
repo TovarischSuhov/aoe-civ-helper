@@ -372,68 +372,68 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 49.16,
+    "winRate": 49.22,
     "playRate": 1.94,
-    "picks": 11475,
+    "picks": 11478,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T00:26:37.000Z",
+    "updated": "2026-11-26T13:57:12.000Z",
     "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/burgundians",
     "byMapType": {
-      "open": {
-        "winRate": 46.83,
-        "playRate": 1.69,
-        "picks": 3252
-      },
       "other": {
-        "winRate": 49.97,
+        "winRate": 50.03,
         "playRate": 1.83,
-        "picks": 6292
+        "picks": 6290
       },
       "closed": {
-        "winRate": 50.11,
-        "playRate": 3.74,
-        "picks": 1808
+        "winRate": 50.06,
+        "playRate": 3.76,
+        "picks": 1810
+      },
+      "open": {
+        "winRate": 46.88,
+        "playRate": 1.69,
+        "picks": 3242
       },
       "nomad": {
-        "winRate": 55,
-        "playRate": 1.44,
-        "picks": 120
+        "winRate": 54.84,
+        "playRate": 1.45,
+        "picks": 124
       },
       "water": {
         "winRate": 66.67,
-        "playRate": 0.83,
-        "picks": 3
+        "playRate": 2.03,
+        "picks": 12
       }
     },
     "strongAgainst": [
       {
         "name": "wu",
-        "games": 114,
-        "winRate": 56.14
+        "games": 113,
+        "winRate": 55.75
       },
       {
         "name": "sicilians",
-        "games": 195,
-        "winRate": 55.38
+        "games": 196,
+        "winRate": 55.61
       },
       {
         "name": "gurjaras",
-        "games": 132,
-        "winRate": 55.3
+        "games": 133,
+        "winRate": 54.89
       },
       {
         "name": "berbers",
-        "games": 170,
-        "winRate": 55.29
+        "games": 172,
+        "winRate": 54.65
       },
       {
-        "name": "tupi",
-        "games": 115,
-        "winRate": 54.78
+        "name": "franks",
+        "games": 178,
+        "winRate": 54.49
       }
     ],
     "weakAgainst": [
@@ -444,13 +444,13 @@
       },
       {
         "name": "vikings",
-        "games": 194,
-        "winRate": 42.27
+        "games": 196,
+        "winRate": 43.37
       },
       {
         "name": "mongols",
-        "games": 566,
-        "winRate": 43.46
+        "games": 567,
+        "winRate": 43.56
       },
       {
         "name": "spanish",
@@ -458,9 +458,9 @@
         "winRate": 44.24
       },
       {
-        "name": "mapuche",
-        "games": 109,
-        "winRate": 44.95
+        "name": "bulgarians",
+        "games": 219,
+        "winRate": 44.75
       }
     ]
   },

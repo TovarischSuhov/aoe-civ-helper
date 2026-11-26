@@ -336,12 +336,12 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.48,
+    "winRate": 48.45,
     "playRate": 1.49,
-    "picks": 8847,
+    "picks": 8851,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T00:26:37.000Z",
+    "updated": "2026-11-26T13:57:12.000Z",
     "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -353,9 +353,9 @@
         "picks": 3124
       },
       "other": {
-        "winRate": 48.27,
+        "winRate": 48.2,
         "playRate": 1.45,
-        "picks": 4968
+        "picks": 4965
       },
       "closed": {
         "winRate": 43.04,
@@ -363,26 +363,21 @@
         "picks": 632
       },
       "nomad": {
-        "winRate": 44.07,
-        "playRate": 1.42,
-        "picks": 118
+        "winRate": 45,
+        "playRate": 1.41,
+        "picks": 120
       },
       "water": {
-        "winRate": 60,
-        "playRate": 1.38,
-        "picks": 5
+        "winRate": 50,
+        "playRate": 1.69,
+        "picks": 10
       }
     },
     "strongAgainst": [
       {
         "name": "vietnamese",
-        "games": 202,
-        "winRate": 58.42
-      },
-      {
-        "name": "lithuanians",
-        "games": 161,
-        "winRate": 56.52
+        "games": 204,
+        "winRate": 58.33
       },
       {
         "name": "turks",
@@ -390,21 +385,31 @@
         "winRate": 56.33
       },
       {
+        "name": "lithuanians",
+        "games": 160,
+        "winRate": 56.25
+      },
+      {
         "name": "britons",
         "games": 175,
         "winRate": 56
       },
       {
-        "name": "koreans",
-        "games": 176,
-        "winRate": 55.11
+        "name": "magyars",
+        "games": 216,
+        "winRate": 55.09
       }
     ],
     "weakAgainst": [
       {
         "name": "tupi",
         "games": 84,
-        "winRate": 34.52
+        "winRate": 33.33
+      },
+      {
+        "name": "japanese",
+        "games": 244,
+        "winRate": 39.34
       },
       {
         "name": "vikings",
@@ -412,14 +417,9 @@
         "winRate": 39.53
       },
       {
-        "name": "japanese",
-        "games": 243,
-        "winRate": 39.92
-      },
-      {
         "name": "malians",
-        "games": 136,
-        "winRate": 40.44
+        "games": 135,
+        "winRate": 40.74
       },
       {
         "name": "bohemians",

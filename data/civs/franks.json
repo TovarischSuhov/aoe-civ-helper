@@ -352,46 +352,46 @@
   "stats": {
     "winRate": 50.42,
     "playRate": 1.88,
-    "picks": 11153,
+    "picks": 11151,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T00:26:37.000Z",
+    "updated": "2026-11-26T13:57:12.000Z",
     "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/franks",
     "byMapType": {
-      "other": {
-        "winRate": 50.48,
-        "playRate": 1.86,
-        "picks": 6396
-      },
       "closed": {
-        "winRate": 50.86,
+        "winRate": 50.92,
         "playRate": 1.69,
-        "picks": 816
+        "picks": 817
       },
       "open": {
-        "winRate": 50.35,
+        "winRate": 50.34,
         "playRate": 1.98,
-        "picks": 3811
+        "picks": 3806
+      },
+      "other": {
+        "winRate": 50.5,
+        "playRate": 1.86,
+        "picks": 6390
       },
       "nomad": {
-        "winRate": 46.03,
+        "winRate": 44.62,
         "playRate": 1.52,
-        "picks": 126
+        "picks": 130
       },
       "water": {
-        "winRate": 50,
-        "playRate": 1.1,
-        "picks": 4
+        "winRate": 62.5,
+        "playRate": 1.36,
+        "picks": 8
       }
     },
     "strongAgainst": [
       {
         "name": "incas",
-        "games": 160,
-        "winRate": 65
+        "games": 161,
+        "winRate": 64.6
       },
       {
         "name": "varangians",
@@ -400,25 +400,25 @@
       },
       {
         "name": "britons",
-        "games": 205,
-        "winRate": 60.98
+        "games": 204,
+        "winRate": 60.78
       },
       {
         "name": "dravidians",
         "games": 142,
-        "winRate": 58.45
+        "winRate": 59.15
       },
       {
-        "name": "aztecs",
-        "games": 163,
-        "winRate": 57.67
+        "name": "bengalis",
+        "games": 132,
+        "winRate": 57.58
       }
     ],
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 168,
-        "winRate": 42.26
+        "games": 167,
+        "winRate": 42.51
       },
       {
         "name": "huns",
@@ -426,19 +426,19 @@
         "winRate": 43.24
       },
       {
+        "name": "teutons",
+        "games": 190,
+        "winRate": 44.21
+      },
+      {
         "name": "tupi",
-        "games": 102,
-        "winRate": 44.12
+        "games": 103,
+        "winRate": 44.66
       },
       {
         "name": "gurjaras",
         "games": 141,
         "winRate": 44.68
-      },
-      {
-        "name": "italians",
-        "games": 194,
-        "winRate": 44.85
       }
     ]
   },

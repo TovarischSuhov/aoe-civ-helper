@@ -315,48 +315,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 51.27,
+    "winRate": 51.28,
     "playRate": 1.51,
-    "picks": 8951,
+    "picks": 8950,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T00:26:37.000Z",
+    "updated": "2026-11-26T13:57:12.000Z",
     "window": "2026-09-03 → 2026-11-26",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/dravidians",
     "byMapType": {
-      "closed": {
-        "winRate": 52.94,
-        "playRate": 1.48,
-        "picks": 714
-      },
       "other": {
-        "winRate": 51.11,
+        "winRate": 51.17,
         "playRate": 1.51,
-        "picks": 5177
+        "picks": 5171
       },
       "open": {
-        "winRate": 50.89,
+        "winRate": 50.82,
         "playRate": 1.49,
-        "picks": 2861
+        "picks": 2857
+      },
+      "closed": {
+        "winRate": 52.95,
+        "playRate": 1.48,
+        "picks": 712
       },
       "nomad": {
-        "winRate": 55.79,
-        "playRate": 2.29,
-        "picks": 190
+        "winRate": 56.12,
+        "playRate": 2.3,
+        "picks": 196
       },
       "water": {
-        "winRate": 33.33,
-        "playRate": 2.49,
-        "picks": 9
+        "winRate": 35.71,
+        "playRate": 2.37,
+        "picks": 14
       }
     },
     "strongAgainst": [
       {
         "name": "saxons",
-        "games": 121,
-        "winRate": 61.16
+        "games": 122,
+        "winRate": 60.66
       },
       {
         "name": "burgundians",
@@ -364,14 +364,14 @@
         "winRate": 60.26
       },
       {
-        "name": "saracens",
-        "games": 163,
-        "winRate": 59.51
+        "name": "portuguese",
+        "games": 168,
+        "winRate": 59.52
       },
       {
-        "name": "portuguese",
-        "games": 170,
-        "winRate": 58.82
+        "name": "saracens",
+        "games": 162,
+        "winRate": 59.26
       },
       {
         "name": "danes",
@@ -381,24 +381,24 @@
     ],
     "weakAgainst": [
       {
-        "name": "bulgarians",
-        "games": 145,
-        "winRate": 40.69
-      },
-      {
         "name": "franks",
         "games": 142,
-        "winRate": 41.55
+        "winRate": 40.85
+      },
+      {
+        "name": "bulgarians",
+        "games": 144,
+        "winRate": 40.97
+      },
+      {
+        "name": "georgians",
+        "games": 121,
+        "winRate": 42.15
       },
       {
         "name": "berbers",
         "games": 154,
-        "winRate": 42.86
-      },
-      {
-        "name": "georgians",
-        "games": 122,
-        "winRate": 43.44
+        "winRate": 43.51
       },
       {
         "name": "chinese",
