@@ -378,12 +378,12 @@
     "takeaway": "Settlements act as multi-resource camps (wood savings) and train buffed trash; Bolas Riders and Kona generate gold per kill. A slow start that scales strongly into mid/late game."
   },
   "stats": {
-    "winRate": 49.63,
+    "winRate": 49.5,
     "playRate": 0.98,
-    "picks": 5803,
+    "picks": 5786,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T00:37:34.000Z",
+    "updated": "2026-11-27T13:55:51.000Z",
     "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
@@ -391,27 +391,27 @@
     "byMapType": {
       "open": {
         "winRate": 51.26,
-        "playRate": 1.06,
-        "picks": 2029
+        "playRate": 1.05,
+        "picks": 2023
       },
       "other": {
-        "winRate": 48.74,
+        "winRate": 48.52,
         "playRate": 0.97,
-        "picks": 3332
+        "picks": 3322
       },
       "closed": {
-        "winRate": 48.85,
+        "winRate": 48.84,
         "playRate": 0.72,
-        "picks": 348
+        "picks": 346
       },
       "nomad": {
-        "winRate": 49.43,
-        "playRate": 0.99,
-        "picks": 87
+        "winRate": 48.86,
+        "playRate": 0.98,
+        "picks": 88
       },
       "water": {
         "winRate": 42.86,
-        "playRate": 0.84,
+        "playRate": 0.68,
         "picks": 7
       }
     },
@@ -437,9 +437,9 @@
         "winRate": 59.09
       },
       {
-        "name": "berbers",
-        "games": 100,
-        "winRate": 59
+        "name": "magyars",
+        "games": 153,
+        "winRate": 58.82
       }
     ],
     "weakAgainst": [
@@ -455,8 +455,8 @@
       },
       {
         "name": "tupi",
-        "games": 63,
-        "winRate": 34.92
+        "games": 62,
+        "winRate": 33.87
       },
       {
         "name": "celts",
@@ -465,8 +465,8 @@
       },
       {
         "name": "muisca",
-        "games": 64,
-        "winRate": 37.5
+        "games": 65,
+        "winRate": 36.92
       }
     ]
   },

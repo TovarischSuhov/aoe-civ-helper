@@ -318,53 +318,53 @@
     "takeaway": "Honourable mention: long bottom-tier on land, steadily buffed until just missing the top 10."
   },
   "stats": {
-    "winRate": 51.7,
+    "winRate": 51.76,
     "playRate": 1.76,
-    "picks": 10420,
+    "picks": 10403,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T00:37:34.000Z",
+    "updated": "2026-11-27T13:55:51.000Z",
     "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/italians",
     "byMapType": {
-      "open": {
-        "winRate": 52.25,
-        "playRate": 1.55,
-        "picks": 2974
-      },
       "other": {
-        "winRate": 51.07,
+        "winRate": 51.13,
         "playRate": 1.79,
-        "picks": 6147
+        "picks": 6135
+      },
+      "open": {
+        "winRate": 52.26,
+        "playRate": 1.54,
+        "picks": 2966
       },
       "closed": {
-        "winRate": 52.91,
+        "winRate": 53.08,
         "playRate": 2.11,
-        "picks": 1013
+        "picks": 1008
       },
       "nomad": {
-        "winRate": 54.86,
-        "playRate": 2.93,
-        "picks": 257
+        "winRate": 55.38,
+        "playRate": 2.89,
+        "picks": 260
       },
       "water": {
-        "winRate": 58.62,
-        "playRate": 3.48,
-        "picks": 29
+        "winRate": 55.88,
+        "playRate": 3.31,
+        "picks": 34
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 130,
-        "winRate": 61.54
+        "games": 129,
+        "winRate": 62.02
       },
       {
         "name": "spanish",
-        "games": 270,
-        "winRate": 61.11
+        "games": 269,
+        "winRate": 60.97
       },
       {
         "name": "danes",
@@ -377,26 +377,26 @@
         "winRate": 59.62
       },
       {
-        "name": "saracens",
-        "games": 167,
-        "winRate": 58.68
+        "name": "mapuche",
+        "games": 92,
+        "winRate": 58.7
       }
     ],
     "weakAgainst": [
       {
         "name": "muisca",
         "games": 103,
-        "winRate": 40.78
+        "winRate": 39.81
       },
       {
         "name": "romans",
-        "games": 129,
-        "winRate": 44.96
+        "games": 132,
+        "winRate": 44.7
       },
       {
-        "name": "vietnamese",
-        "games": 235,
-        "winRate": 45.11
+        "name": "koreans",
+        "games": 176,
+        "winRate": 44.89
       },
       {
         "name": "tupi",
@@ -404,9 +404,9 @@
         "winRate": 45.13
       },
       {
-        "name": "koreans",
-        "games": 175,
-        "winRate": 45.14
+        "name": "vietnamese",
+        "games": 235,
+        "winRate": 45.53
       }
     ]
   },

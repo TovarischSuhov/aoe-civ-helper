@@ -348,41 +348,41 @@
     "takeaway": "+5% faster gather/build/repair and doubled infantry-armor effect make Romans strong at any game length — dominant under 20 minutes — with flexible infantry / crossbow / cavalry / siege follow-up."
   },
   "stats": {
-    "winRate": 53.93,
+    "winRate": 53.9,
     "playRate": 1.34,
-    "picks": 7920,
+    "picks": 7926,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T00:37:34.000Z",
+    "updated": "2026-11-27T13:55:51.000Z",
     "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/romans",
     "byMapType": {
-      "other": {
-        "winRate": 54.8,
-        "playRate": 1.36,
-        "picks": 4648
-      },
       "open": {
-        "winRate": 53.12,
-        "playRate": 1.4,
-        "picks": 2696
+        "winRate": 53.03,
+        "playRate": 1.41,
+        "picks": 2702
+      },
+      "other": {
+        "winRate": 54.84,
+        "playRate": 1.36,
+        "picks": 4643
       },
       "closed": {
-        "winRate": 51.45,
-        "playRate": 1,
+        "winRate": 51.24,
+        "playRate": 1.01,
         "picks": 482
       },
       "nomad": {
-        "winRate": 46.51,
-        "playRate": 0.98,
-        "picks": 86
+        "winRate": 45.98,
+        "playRate": 0.97,
+        "picks": 87
       },
       "water": {
         "winRate": 50,
-        "playRate": 0.96,
-        "picks": 8
+        "playRate": 1.17,
+        "picks": 12
       }
     },
     "strongAgainst": [
@@ -403,25 +403,25 @@
       },
       {
         "name": "byzantines",
-        "games": 112,
-        "winRate": 64.29
+        "games": 113,
+        "winRate": 64.6
       },
       {
         "name": "portuguese",
-        "games": 122,
-        "winRate": 62.3
+        "games": 121,
+        "winRate": 61.98
       }
     ],
     "weakAgainst": [
       {
         "name": "jurchens",
-        "games": 82,
-        "winRate": 45.12
+        "games": 83,
+        "winRate": 45.78
       },
       {
         "name": "spanish",
-        "games": 152,
-        "winRate": 46.05
+        "games": 154,
+        "winRate": 46.1
       },
       {
         "name": "japanese",
@@ -435,8 +435,8 @@
       },
       {
         "name": "mongols",
-        "games": 536,
-        "winRate": 47.57
+        "games": 532,
+        "winRate": 47.56
       }
     ]
   },

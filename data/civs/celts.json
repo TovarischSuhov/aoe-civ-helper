@@ -361,41 +361,41 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.29,
+    "winRate": 51.25,
     "playRate": 1.72,
-    "picks": 10207,
+    "picks": 10178,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T00:37:34.000Z",
+    "updated": "2026-11-27T13:55:51.000Z",
     "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
-      "open": {
-        "winRate": 52.49,
-        "playRate": 1.78,
-        "picks": 3431
+      "closed": {
+        "winRate": 49.51,
+        "playRate": 1.49,
+        "picks": 715
       },
       "other": {
-        "winRate": 50.75,
+        "winRate": 50.72,
         "playRate": 1.72,
-        "picks": 5907
+        "picks": 5885
       },
-      "closed": {
-        "winRate": 49.58,
-        "playRate": 1.49,
-        "picks": 716
+      "open": {
+        "winRate": 52.45,
+        "playRate": 1.78,
+        "picks": 3422
       },
       "nomad": {
-        "winRate": 53.42,
-        "playRate": 1.66,
-        "picks": 146
+        "winRate": 53.38,
+        "playRate": 1.64,
+        "picks": 148
       },
       "water": {
-        "winRate": 42.86,
-        "playRate": 0.84,
-        "picks": 7
+        "winRate": 37.5,
+        "playRate": 0.78,
+        "picks": 8
       }
     },
     "strongAgainst": [
@@ -411,18 +411,18 @@
       },
       {
         "name": "saracens",
-        "games": 171,
-        "winRate": 61.99
-      },
-      {
-        "name": "gurjaras",
-        "games": 123,
-        "winRate": 60.98
+        "games": 169,
+        "winRate": 62.13
       },
       {
         "name": "byzantines",
-        "games": 180,
-        "winRate": 60
+        "games": 181,
+        "winRate": 60.77
+      },
+      {
+        "name": "gurjaras",
+        "games": 122,
+        "winRate": 60.66
       }
     ],
     "weakAgainst": [
@@ -437,19 +437,19 @@
         "winRate": 44.32
       },
       {
-        "name": "shu",
-        "games": 102,
-        "winRate": 45.1
-      },
-      {
         "name": "malay",
-        "games": 167,
-        "winRate": 45.51
+        "games": 166,
+        "winRate": 45.18
       },
       {
         "name": "dravidians",
-        "games": 160,
-        "winRate": 45.63
+        "games": 161,
+        "winRate": 45.34
+      },
+      {
+        "name": "shu",
+        "games": 101,
+        "winRate": 45.54
       }
     ]
   },
