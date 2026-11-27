@@ -360,63 +360,63 @@
     "takeaway": "Never being housed + wood savings give flexibility to mix stable and archery units; the Tarkan is a high-armor anti-building secret weapon. Scales better at higher Elo (cavalry-archer micro)."
   },
   "stats": {
-    "winRate": 52.54,
-    "playRate": 2.04,
-    "picks": 12110,
+    "winRate": 52.49,
+    "playRate": 2.05,
+    "picks": 12142,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T13:57:12.000Z",
-    "window": "2026-09-03 → 2026-11-26",
+    "updated": "2026-11-27T00:37:34.000Z",
+    "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/huns",
     "byMapType": {
+      "other": {
+        "winRate": 52.35,
+        "playRate": 2.1,
+        "picks": 7198
+      },
+      "open": {
+        "winRate": 52.9,
+        "playRate": 2.11,
+        "picks": 4049
+      },
       "closed": {
-        "winRate": 52.58,
+        "winRate": 52.42,
         "playRate": 1.37,
         "picks": 660
       },
-      "other": {
-        "winRate": 52.38,
-        "playRate": 2.1,
-        "picks": 7188
-      },
-      "open": {
-        "winRate": 52.99,
-        "playRate": 2.1,
-        "picks": 4042
-      },
       "nomad": {
-        "winRate": 49.51,
-        "playRate": 2.41,
-        "picks": 206
+        "winRate": 49.29,
+        "playRate": 2.4,
+        "picks": 211
       },
       "water": {
-        "winRate": 50,
-        "playRate": 2.37,
-        "picks": 14
+        "winRate": 54.17,
+        "playRate": 2.88,
+        "picks": 24
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 258,
-        "winRate": 62.4
+        "games": 260,
+        "winRate": 61.92
       },
       {
         "name": "tupi",
-        "games": 142,
-        "winRate": 61.97
-      },
-      {
-        "name": "slavs",
-        "games": 147,
-        "winRate": 61.22
+        "games": 141,
+        "winRate": 61.7
       },
       {
         "name": "saracens",
-        "games": 168,
-        "winRate": 60.71
+        "games": 167,
+        "winRate": 61.08
+      },
+      {
+        "name": "slavs",
+        "games": 148,
+        "winRate": 60.81
       },
       {
         "name": "burmese",
@@ -437,18 +437,18 @@
       },
       {
         "name": "chinese",
-        "games": 332,
-        "winRate": 44.58
+        "games": 338,
+        "winRate": 44.67
       },
       {
         "name": "romans",
-        "games": 139,
-        "winRate": 44.6
+        "games": 140,
+        "winRate": 45.71
       },
       {
         "name": "wu",
-        "games": 129,
-        "winRate": 44.96
+        "games": 131,
+        "winRate": 45.8
       }
     ]
   },

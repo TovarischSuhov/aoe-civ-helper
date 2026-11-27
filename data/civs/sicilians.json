@@ -289,48 +289,48 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.16,
+    "winRate": 48.11,
     "playRate": 1.77,
-    "picks": 10467,
+    "picks": 10459,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T13:57:12.000Z",
-    "window": "2026-09-03 → 2026-11-26",
+    "updated": "2026-11-27T00:37:34.000Z",
+    "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/sicilians",
     "byMapType": {
-      "open": {
-        "winRate": 47.38,
-        "playRate": 1.8,
-        "picks": 3468
-      },
       "other": {
-        "winRate": 48.83,
+        "winRate": 48.79,
         "playRate": 1.79,
-        "picks": 6127
+        "picks": 6114
+      },
+      "open": {
+        "winRate": 47.24,
+        "playRate": 1.8,
+        "picks": 3463
       },
       "closed": {
-        "winRate": 46.17,
-        "playRate": 1.52,
-        "picks": 732
+        "winRate": 46.32,
+        "playRate": 1.53,
+        "picks": 734
       },
       "nomad": {
-        "winRate": 50,
-        "playRate": 1.57,
-        "picks": 134
+        "winRate": 50.74,
+        "playRate": 1.55,
+        "picks": 136
       },
       "water": {
-        "winRate": 16.67,
-        "playRate": 1.02,
-        "picks": 6
+        "winRate": 33.33,
+        "playRate": 1.44,
+        "picks": 12
       }
     },
     "strongAgainst": [
       {
         "name": "byzantines",
         "games": 178,
-        "winRate": 60.67
+        "winRate": 60.11
       },
       {
         "name": "mapuche",
@@ -339,18 +339,18 @@
       },
       {
         "name": "danes",
-        "games": 110,
-        "winRate": 57.27
+        "games": 112,
+        "winRate": 58.04
       },
       {
-        "name": "goths",
-        "games": 168,
-        "winRate": 55.95
-      },
-      {
-        "name": "incas",
+        "name": "koreans",
         "games": 188,
-        "winRate": 55.85
+        "winRate": 56.38
+      },
+      {
+        "name": "jurchens",
+        "games": 125,
+        "winRate": 56
       }
     ],
     "weakAgainst": [
@@ -361,23 +361,23 @@
       },
       {
         "name": "malay",
-        "games": 178,
-        "winRate": 39.33
+        "games": 177,
+        "winRate": 39.55
       },
       {
         "name": "romans",
-        "games": 157,
-        "winRate": 39.49
-      },
-      {
-        "name": "chinese",
-        "games": 239,
-        "winRate": 39.75
+        "games": 156,
+        "winRate": 39.74
       },
       {
         "name": "bohemians",
-        "games": 176,
-        "winRate": 40.34
+        "games": 175,
+        "winRate": 40
+      },
+      {
+        "name": "chinese",
+        "games": 243,
+        "winRate": 40.33
       }
     ]
   },

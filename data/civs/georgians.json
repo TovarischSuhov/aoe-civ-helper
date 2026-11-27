@@ -295,95 +295,95 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.52,
+    "winRate": 49.53,
     "playRate": 1.17,
-    "picks": 6961,
+    "picks": 6947,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T13:57:12.000Z",
-    "window": "2026-09-03 → 2026-11-26",
+    "updated": "2026-11-27T00:37:34.000Z",
+    "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/georgians",
     "byMapType": {
-      "open": {
-        "winRate": 50.93,
-        "playRate": 1.18,
-        "picks": 2266
-      },
       "other": {
         "winRate": 49.29,
         "playRate": 1.21,
-        "picks": 4141
+        "picks": 4131
+      },
+      "open": {
+        "winRate": 50.95,
+        "playRate": 1.18,
+        "picks": 2259
       },
       "closed": {
-        "winRate": 45.38,
-        "playRate": 0.96,
-        "picks": 465
+        "winRate": 45.47,
+        "playRate": 0.97,
+        "picks": 464
       },
       "nomad": {
-        "winRate": 47.06,
-        "playRate": 1,
-        "picks": 85
+        "winRate": 47.13,
+        "playRate": 0.99,
+        "picks": 87
       },
       "water": {
-        "winRate": 25,
-        "playRate": 0.68,
-        "picks": 4
+        "winRate": 33.33,
+        "playRate": 0.72,
+        "picks": 6
       }
     },
     "strongAgainst": [
       {
         "name": "slavs",
-        "games": 79,
-        "winRate": 65.82
+        "games": 80,
+        "winRate": 65
       },
       {
         "name": "burmese",
-        "games": 84,
-        "winRate": 61.9
+        "games": 85,
+        "winRate": 62.35
       },
       {
         "name": "jurchens",
-        "games": 80,
-        "winRate": 61.25
+        "games": 81,
+        "winRate": 60.49
       },
       {
         "name": "saxons",
-        "games": 95,
-        "winRate": 61.05
+        "games": 96,
+        "winRate": 60.42
       },
       {
         "name": "portuguese",
-        "games": 119,
-        "winRate": 57.98
+        "games": 120,
+        "winRate": 58.33
       }
     ],
     "weakAgainst": [
       {
         "name": "chinese",
-        "games": 194,
-        "winRate": 40.72
-      },
-      {
-        "name": "mayans",
-        "games": 143,
-        "winRate": 41.26
+        "games": 195,
+        "winRate": 40.51
       },
       {
         "name": "romans",
-        "games": 87,
-        "winRate": 41.38
+        "games": 88,
+        "winRate": 40.91
       },
       {
-        "name": "vietnamese",
-        "games": 122,
-        "winRate": 41.8
+        "name": "mayans",
+        "games": 141,
+        "winRate": 41.84
+      },
+      {
+        "name": "vikings",
+        "games": 111,
+        "winRate": 42.34
       },
       {
         "name": "magyars",
-        "games": 199,
-        "winRate": 42.21
+        "games": 198,
+        "winRate": 42.42
       }
     ]
   },

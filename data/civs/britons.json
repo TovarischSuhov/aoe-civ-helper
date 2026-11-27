@@ -308,83 +308,83 @@
   "stats": {
     "winRate": 50.06,
     "playRate": 1.78,
-    "picks": 10546,
+    "picks": 10520,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T13:57:12.000Z",
-    "window": "2026-09-03 → 2026-11-26",
+    "updated": "2026-11-27T00:37:34.000Z",
+    "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/britons",
     "byMapType": {
-      "other": {
-        "winRate": 50.53,
-        "playRate": 1.76,
-        "picks": 6020
-      },
       "open": {
-        "winRate": 49.08,
+        "winRate": 49.09,
         "playRate": 1.77,
-        "picks": 3411
+        "picks": 3402
+      },
+      "other": {
+        "winRate": 50.58,
+        "playRate": 1.75,
+        "picks": 5998
       },
       "closed": {
         "winRate": 50.47,
         "playRate": 1.99,
-        "picks": 959
+        "picks": 955
       },
       "nomad": {
-        "winRate": 50.67,
-        "playRate": 1.76,
-        "picks": 150
+        "winRate": 49.68,
+        "playRate": 1.77,
+        "picks": 155
       },
       "water": {
-        "winRate": 50,
-        "playRate": 1.02,
-        "picks": 6
+        "winRate": 30,
+        "playRate": 1.2,
+        "picks": 10
       }
     },
     "strongAgainst": [
       {
-        "name": "khitans",
-        "games": 126,
-        "winRate": 61.11
+        "name": "varangians",
+        "games": 185,
+        "winRate": 60.54
       },
       {
         "name": "jurchens",
-        "games": 118,
-        "winRate": 61.02
+        "games": 119,
+        "winRate": 60.5
       },
       {
-        "name": "varangians",
-        "games": 183,
-        "winRate": 60.11
+        "name": "khitans",
+        "games": 128,
+        "winRate": 60.16
       },
       {
         "name": "mongols",
-        "games": 544,
-        "winRate": 59.01
+        "games": 542,
+        "winRate": 59.04
       },
       {
         "name": "cumans",
-        "games": 209,
-        "winRate": 57.89
+        "games": 208,
+        "winRate": 57.69
       }
     ],
     "weakAgainst": [
       {
         "name": "khmer",
-        "games": 240,
-        "winRate": 35
+        "games": 238,
+        "winRate": 35.29
       },
       {
         "name": "hindustanis",
-        "games": 206,
-        "winRate": 36.41
+        "games": 205,
+        "winRate": 36.59
       },
       {
         "name": "franks",
-        "games": 204,
-        "winRate": 39.22
+        "games": 202,
+        "winRate": 39.6
       },
       {
         "name": "shu",
@@ -393,8 +393,8 @@
       },
       {
         "name": "byzantines",
-        "games": 195,
-        "winRate": 42.56
+        "games": 194,
+        "winRate": 42.78
       }
     ]
   },

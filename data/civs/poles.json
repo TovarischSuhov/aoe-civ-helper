@@ -340,90 +340,90 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 49.09,
+    "winRate": 49.06,
     "playRate": 1.89,
-    "picks": 11216,
+    "picks": 11218,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T13:57:12.000Z",
-    "window": "2026-09-03 → 2026-11-26",
+    "updated": "2026-11-27T00:37:34.000Z",
+    "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/poles",
     "byMapType": {
-      "closed": {
-        "winRate": 54.49,
-        "playRate": 2.89,
-        "picks": 1391
-      },
-      "open": {
-        "winRate": 47.83,
-        "playRate": 1.84,
-        "picks": 3529
-      },
       "other": {
-        "winRate": 48.62,
+        "winRate": 48.68,
         "playRate": 1.79,
         "picks": 6146
       },
+      "open": {
+        "winRate": 47.76,
+        "playRate": 1.84,
+        "picks": 3528
+      },
+      "closed": {
+        "winRate": 54.36,
+        "playRate": 2.88,
+        "picks": 1387
+      },
       "nomad": {
-        "winRate": 47.37,
-        "playRate": 1.56,
-        "picks": 133
+        "winRate": 45.65,
+        "playRate": 1.57,
+        "picks": 138
       },
       "water": {
-        "winRate": 52.94,
-        "playRate": 2.88,
-        "picks": 17
+        "winRate": 47.37,
+        "playRate": 2.28,
+        "picks": 19
       }
     },
     "strongAgainst": [
       {
         "name": "varangians",
-        "games": 186,
-        "winRate": 56.99
-      },
-      {
-        "name": "teutons",
-        "games": 226,
-        "winRate": 56.64
-      },
-      {
-        "name": "portuguese",
-        "games": 184,
-        "winRate": 55.98
+        "games": 187,
+        "winRate": 56.68
       },
       {
         "name": "saracens",
-        "games": 147,
-        "winRate": 55.78
+        "games": 146,
+        "winRate": 56.16
       },
       {
-        "name": "muisca",
-        "games": 110,
-        "winRate": 55.45
+        "name": "teutons",
+        "games": 227,
+        "winRate": 55.95
+      },
+      {
+        "name": "portuguese",
+        "games": 181,
+        "winRate": 55.8
+      },
+      {
+        "name": "byzantines",
+        "games": 178,
+        "winRate": 55.62
       }
     ],
     "weakAgainst": [
       {
         "name": "mayans",
         "games": 238,
-        "winRate": 39.08
-      },
-      {
-        "name": "vikings",
-        "games": 196,
-        "winRate": 41.33
-      },
-      {
-        "name": "japanese",
-        "games": 275,
-        "winRate": 41.45
+        "winRate": 39.5
       },
       {
         "name": "tupi",
-        "games": 89,
-        "winRate": 41.57
+        "games": 87,
+        "winRate": 40.23
+      },
+      {
+        "name": "japanese",
+        "games": 276,
+        "winRate": 41.3
+      },
+      {
+        "name": "vikings",
+        "games": 194,
+        "winRate": 41.75
       },
       {
         "name": "dravidians",

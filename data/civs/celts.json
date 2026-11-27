@@ -361,75 +361,75 @@
     "takeaway": "Extra wood + fast infantry + fast-firing siege make men-at-arms openings and castle-age pushes brutal — but the 1v1 late game falls off (expensive, one-dimensional tech tree)."
   },
   "stats": {
-    "winRate": 51.28,
-    "playRate": 1.73,
-    "picks": 10221,
+    "winRate": 51.29,
+    "playRate": 1.72,
+    "picks": 10207,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-26T13:57:12.000Z",
-    "window": "2026-09-03 → 2026-11-26",
+    "updated": "2026-11-27T00:37:34.000Z",
+    "window": "2026-09-04 → 2026-11-27",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/celts",
     "byMapType": {
-      "other": {
-        "winRate": 50.73,
-        "playRate": 1.73,
-        "picks": 5923
-      },
       "open": {
         "winRate": 52.49,
-        "playRate": 1.79,
-        "picks": 3435
+        "playRate": 1.78,
+        "picks": 3431
+      },
+      "other": {
+        "winRate": 50.75,
+        "playRate": 1.72,
+        "picks": 5907
       },
       "closed": {
-        "winRate": 49.65,
+        "winRate": 49.58,
         "playRate": 1.49,
-        "picks": 717
+        "picks": 716
       },
       "nomad": {
-        "winRate": 53.57,
-        "playRate": 1.64,
-        "picks": 140
+        "winRate": 53.42,
+        "playRate": 1.66,
+        "picks": 146
       },
       "water": {
-        "winRate": 33.33,
-        "playRate": 1.02,
-        "picks": 6
+        "winRate": 42.86,
+        "playRate": 0.84,
+        "picks": 7
       }
     },
     "strongAgainst": [
       {
         "name": "mapuche",
-        "games": 117,
-        "winRate": 63.25
+        "games": 116,
+        "winRate": 63.79
       },
       {
         "name": "khitans",
-        "games": 100,
-        "winRate": 62
+        "games": 97,
+        "winRate": 62.89
       },
       {
         "name": "saracens",
-        "games": 169,
-        "winRate": 61.54
+        "games": 171,
+        "winRate": 61.99
       },
       {
         "name": "gurjaras",
         "games": 123,
-        "winRate": 60.16
+        "winRate": 60.98
       },
       {
-        "name": "cumans",
-        "games": 185,
+        "name": "byzantines",
+        "games": 180,
         "winRate": 60
       }
     ],
     "weakAgainst": [
       {
         "name": "spanish",
-        "games": 215,
-        "winRate": 40.93
+        "games": 212,
+        "winRate": 41.04
       },
       {
         "name": "teutons",
@@ -438,18 +438,18 @@
       },
       {
         "name": "shu",
-        "games": 100,
-        "winRate": 45
+        "games": 102,
+        "winRate": 45.1
       },
       {
         "name": "malay",
-        "games": 166,
-        "winRate": 45.18
+        "games": 167,
+        "winRate": 45.51
       },
       {
-        "name": "vikings",
-        "games": 181,
-        "winRate": 45.3
+        "name": "dravidians",
+        "games": 160,
+        "winRate": 45.63
       }
     ]
   },
