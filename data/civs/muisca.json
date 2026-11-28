@@ -378,48 +378,48 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 48.46,
+    "winRate": 48.53,
     "playRate": 0.93,
-    "picks": 5526,
+    "picks": 5498,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T13:55:51.000Z",
-    "window": "2026-09-04 → 2026-11-27",
+    "updated": "2026-11-28T00:04:13.000Z",
+    "window": "2026-09-05 → 2026-11-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/muisca",
     "byMapType": {
       "open": {
-        "winRate": 48.53,
+        "winRate": 48.58,
         "playRate": 0.96,
-        "picks": 1842
+        "picks": 1834
       },
       "other": {
-        "winRate": 48.43,
+        "winRate": 48.5,
         "playRate": 0.91,
-        "picks": 3112
+        "picks": 3091
       },
       "closed": {
-        "winRate": 48.39,
-        "playRate": 0.98,
-        "picks": 467
+        "winRate": 48.17,
+        "playRate": 0.97,
+        "picks": 465
       },
       "nomad": {
-        "winRate": 46.88,
-        "playRate": 1.07,
-        "picks": 96
+        "winRate": 47.96,
+        "playRate": 1.06,
+        "picks": 98
       },
       "water": {
-        "winRate": 66.67,
-        "playRate": 0.88,
-        "picks": 9
+        "winRate": 70,
+        "playRate": 0.76,
+        "picks": 10
       }
     },
     "strongAgainst": [
       {
         "name": "gurjaras",
-        "games": 63,
-        "winRate": 65.08
+        "games": 62,
+        "winRate": 66.13
       },
       {
         "name": "mapuche",
@@ -429,7 +429,7 @@
       {
         "name": "italians",
         "games": 103,
-        "winRate": 60.19
+        "winRate": 59.22
       },
       {
         "name": "danes",
@@ -445,8 +445,13 @@
     "weakAgainst": [
       {
         "name": "romans",
-        "games": 58,
-        "winRate": 34.48
+        "games": 56,
+        "winRate": 33.93
+      },
+      {
+        "name": "jurchens",
+        "games": 69,
+        "winRate": 37.68
       },
       {
         "name": "armenians",
@@ -454,19 +459,14 @@
         "winRate": 38
       },
       {
-        "name": "jurchens",
-        "games": 70,
-        "winRate": 38.57
+        "name": "magyars",
+        "games": 146,
+        "winRate": 38.36
       },
       {
         "name": "bohemians",
         "games": 108,
         "winRate": 38.89
-      },
-      {
-        "name": "magyars",
-        "games": 149,
-        "winRate": 38.93
       }
     ]
   },

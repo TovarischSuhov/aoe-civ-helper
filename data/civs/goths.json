@@ -336,40 +336,40 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.44,
+    "winRate": 48.43,
     "playRate": 1.49,
-    "picks": 8828,
+    "picks": 8800,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T13:55:51.000Z",
-    "window": "2026-09-04 → 2026-11-27",
+    "updated": "2026-11-28T00:04:13.000Z",
+    "window": "2026-09-05 → 2026-11-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/goths",
     "byMapType": {
-      "other": {
-        "winRate": 48.21,
-        "playRate": 1.45,
-        "picks": 4943
-      },
       "open": {
-        "winRate": 50.02,
+        "winRate": 50.15,
         "playRate": 1.62,
-        "picks": 3113
+        "picks": 3103
+      },
+      "other": {
+        "winRate": 48.17,
+        "playRate": 1.44,
+        "picks": 4922
       },
       "closed": {
-        "winRate": 43.11,
-        "playRate": 1.3,
+        "winRate": 42.95,
+        "playRate": 1.31,
         "picks": 624
       },
       "nomad": {
-        "winRate": 45.38,
-        "playRate": 1.44,
-        "picks": 130
+        "winRate": 44.36,
+        "playRate": 1.43,
+        "picks": 133
       },
       "water": {
         "winRate": 44.44,
-        "playRate": 1.75,
+        "playRate": 1.37,
         "picks": 18
       }
     },
@@ -380,17 +380,17 @@
         "winRate": 58.74
       },
       {
+        "name": "lithuanians",
+        "games": 154,
+        "winRate": 56.49
+      },
+      {
         "name": "britons",
-        "games": 172,
-        "winRate": 56.4
+        "games": 170,
+        "winRate": 56.47
       },
       {
         "name": "turks",
-        "games": 158,
-        "winRate": 56.33
-      },
-      {
-        "name": "lithuanians",
         "games": 157,
         "winRate": 56.05
       },
@@ -403,13 +403,13 @@
     "weakAgainst": [
       {
         "name": "tupi",
-        "games": 83,
-        "winRate": 33.73
+        "games": 84,
+        "winRate": 33.33
       },
       {
         "name": "japanese",
-        "games": 245,
-        "winRate": 38.78
+        "games": 248,
+        "winRate": 38.71
       },
       {
         "name": "vikings",
@@ -418,13 +418,13 @@
       },
       {
         "name": "bohemians",
-        "games": 164,
-        "winRate": 40.85
+        "games": 161,
+        "winRate": 39.75
       },
       {
         "name": "malians",
-        "games": 137,
-        "winRate": 40.88
+        "games": 138,
+        "winRate": 40.58
       }
     ]
   },

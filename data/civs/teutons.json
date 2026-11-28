@@ -294,41 +294,41 @@
   "strategy": {},
   "sotl": null,
   "stats": {
-    "winRate": 48.89,
+    "winRate": 48.99,
     "playRate": 1.82,
-    "picks": 10752,
+    "picks": 10759,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-27T13:55:51.000Z",
-    "window": "2026-09-04 → 2026-11-27",
+    "updated": "2026-11-28T00:04:13.000Z",
+    "window": "2026-09-05 → 2026-11-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/teutons",
     "byMapType": {
-      "other": {
-        "winRate": 48.96,
-        "playRate": 1.75,
-        "picks": 5980
-      },
       "open": {
-        "winRate": 49.22,
-        "playRate": 1.7,
-        "picks": 3269
+        "winRate": 49.3,
+        "playRate": 1.71,
+        "picks": 3274
+      },
+      "other": {
+        "winRate": 49.1,
+        "playRate": 1.75,
+        "picks": 5974
       },
       "closed": {
-        "winRate": 47.87,
-        "playRate": 2.8,
-        "picks": 1341
+        "winRate": 47.99,
+        "playRate": 2.81,
+        "picks": 1340
       },
       "nomad": {
-        "winRate": 48.97,
-        "playRate": 1.61,
-        "picks": 145
+        "winRate": 47.97,
+        "playRate": 1.6,
+        "picks": 148
       },
       "water": {
-        "winRate": 41.18,
-        "playRate": 1.66,
-        "picks": 17
+        "winRate": 43.48,
+        "playRate": 1.75,
+        "picks": 23
       }
     },
     "strongAgainst": [
@@ -348,41 +348,41 @@
         "winRate": 58.56
       },
       {
+        "name": "tatars",
+        "games": 150,
+        "winRate": 56.67
+      },
+      {
         "name": "mapuche",
         "games": 103,
         "winRate": 56.31
-      },
-      {
-        "name": "tupi",
-        "games": 107,
-        "winRate": 56.07
       }
     ],
     "weakAgainst": [
       {
         "name": "magyars",
         "games": 276,
-        "winRate": 38.04
+        "winRate": 38.41
       },
       {
         "name": "mongols",
-        "games": 495,
-        "winRate": 38.59
+        "games": 499,
+        "winRate": 38.68
       },
       {
         "name": "malay",
-        "games": 211,
-        "winRate": 42.65
+        "games": 210,
+        "winRate": 42.38
       },
       {
         "name": "malians",
-        "games": 203,
-        "winRate": 43.84
+        "games": 202,
+        "winRate": 44.06
       },
       {
-        "name": "jurchens",
-        "games": 118,
-        "winRate": 44.07
+        "name": "poles",
+        "games": 223,
+        "winRate": 44.39
       }
     ]
   },
