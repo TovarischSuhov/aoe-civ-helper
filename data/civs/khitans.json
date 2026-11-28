@@ -359,41 +359,41 @@
     "takeaway": "Pastures (faster than farms) + doubled melee-attack upgrades + faster scouts → Steppe Lancers, a bleed-damage infantry unique unit, and a discounted early Heavy Cavalry Archer — a textbook eco + synergy + transitions civ."
   },
   "stats": {
-    "winRate": 48.88,
-    "playRate": 1.18,
-    "picks": 6950,
+    "winRate": 48.89,
+    "playRate": 1.17,
+    "picks": 6917,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-28T00:04:13.000Z",
+    "updated": "2026-11-28T13:06:23.000Z",
     "window": "2026-09-05 → 2026-11-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/khitans",
     "byMapType": {
-      "other": {
-        "winRate": 48.88,
-        "playRate": 1.17,
-        "picks": 3987
-      },
       "open": {
-        "winRate": 48.69,
+        "winRate": 48.79,
         "playRate": 1.25,
-        "picks": 2405
+        "picks": 2400
+      },
+      "other": {
+        "winRate": 48.84,
+        "playRate": 1.16,
+        "picks": 3956
       },
       "closed": {
-        "winRate": 49.32,
-        "playRate": 0.92,
-        "picks": 440
+        "winRate": 49.55,
+        "playRate": 0.93,
+        "picks": 442
       },
       "nomad": {
         "winRate": 49.51,
-        "playRate": 1.11,
+        "playRate": 1.08,
         "picks": 103
       },
       "water": {
-        "winRate": 60,
-        "playRate": 1.14,
-        "picks": 15
+        "winRate": 56.25,
+        "playRate": 1,
+        "picks": 16
       }
     },
     "strongAgainst": [
@@ -419,15 +419,15 @@
       },
       {
         "name": "khmer",
-        "games": 155,
-        "winRate": 57.42
+        "games": 153,
+        "winRate": 57.52
       }
     ],
     "weakAgainst": [
       {
-        "name": "ethiopians",
-        "games": 135,
-        "winRate": 37.78
+        "name": "celts",
+        "games": 98,
+        "winRate": 37.76
       },
       {
         "name": "malay",
@@ -435,9 +435,9 @@
         "winRate": 37.84
       },
       {
-        "name": "celts",
-        "games": 97,
-        "winRate": 38.14
+        "name": "ethiopians",
+        "games": 135,
+        "winRate": 38.52
       },
       {
         "name": "britons",
@@ -446,8 +446,8 @@
       },
       {
         "name": "japanese",
-        "games": 192,
-        "winRate": 41.15
+        "games": 195,
+        "winRate": 41.03
       }
     ]
   },

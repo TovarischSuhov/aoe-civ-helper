@@ -333,41 +333,41 @@
   },
   "sotl": null,
   "stats": {
-    "winRate": 53.96,
+    "winRate": 53.87,
     "playRate": 2.13,
-    "picks": 12612,
+    "picks": 12608,
     "ladder": "1v1 Random Map",
     "rating": "top 4000 (high-Elo sample)",
-    "updated": "2026-11-28T00:04:13.000Z",
+    "updated": "2026-11-28T13:06:23.000Z",
     "window": "2026-09-05 → 2026-11-28",
     "source": "Self-aggregated from the live AoE2 match backend (aoe-api.worldsedgelink.com)",
     "sourceUrl": "https://github.com/ustacode/aoe2-apis",
     "sourceCiv": "https://aoestats.io/civs/maya",
     "byMapType": {
       "other": {
-        "winRate": 53.09,
+        "winRate": 53,
         "playRate": 1.99,
-        "picks": 6794
+        "picks": 6776
+      },
+      "closed": {
+        "winRate": 49.59,
+        "playRate": 1.56,
+        "picks": 740
       },
       "open": {
-        "winRate": 55.87,
+        "winRate": 55.81,
         "playRate": 2.54,
         "picks": 4872
       },
-      "closed": {
-        "winRate": 49.73,
-        "playRate": 1.56,
-        "picks": 742
-      },
       "nomad": {
-        "winRate": 53.26,
-        "playRate": 1.98,
-        "picks": 184
+        "winRate": 52.88,
+        "playRate": 2.01,
+        "picks": 191
       },
       "water": {
-        "winRate": 45,
-        "playRate": 1.52,
-        "picks": 20
+        "winRate": 48.28,
+        "playRate": 1.82,
+        "picks": 29
       }
     },
     "strongAgainst": [
@@ -377,41 +377,41 @@
         "winRate": 66.53
       },
       {
-        "name": "tatars",
-        "games": 194,
-        "winRate": 64.43
+        "name": "portuguese",
+        "games": 195,
+        "winRate": 64.62
       },
       {
-        "name": "portuguese",
-        "games": 197,
-        "winRate": 63.96
+        "name": "tatars",
+        "games": 196,
+        "winRate": 64.29
       },
       {
         "name": "turks",
-        "games": 154,
-        "winRate": 63.64
+        "games": 153,
+        "winRate": 64.05
       },
       {
         "name": "cumans",
-        "games": 198,
-        "winRate": 61.62
+        "games": 199,
+        "winRate": 61.81
       }
     ],
     "weakAgainst": [
       {
         "name": "saxons",
-        "games": 211,
-        "winRate": 43.6
+        "games": 212,
+        "winRate": 43.87
       },
       {
         "name": "slavs",
-        "games": 174,
-        "winRate": 44.83
+        "games": 175,
+        "winRate": 44.57
       },
       {
         "name": "chinese",
-        "games": 385,
-        "winRate": 45.45
+        "games": 388,
+        "winRate": 45.36
       },
       {
         "name": "dravidians",
@@ -421,7 +421,7 @@
       {
         "name": "wu",
         "games": 137,
-        "winRate": 46.72
+        "winRate": 47.45
       }
     ]
   },
